@@ -225,7 +225,7 @@ u	eu
 鉩	Neil	#Nh 113 Nihonium 鿭	U9fed 鈮Nb41niobium
 鈇	Puo	#Fl114 Flerovium
 鏌	Mo	#Mc 115 Moscovium
-鉝	Ljəp	#Lv 116 Livermorium
+鉝	Liəp	#Lv 116 Livermorium
 鿬	Dein	#Ts 117Tennesine
 鿫	HQoy	#Og118Oganesson
 ######
@@ -293,7 +293,7 @@ u	eu
 靔	THein
 靝	THein
 吞	THein
-畵	HZlek
+畵	HZfek
 #𢻱	Jjes
 #𢻫	Jjes
 𠊊	ZCjək
@@ -324,8 +324,8 @@ u	eu
 # 𡎌	HQar
 䋣	Buan
 𦾴	Buan
-# 𠄔	HZlez
-# 㕕	HZlez
+# 𠄔	HZfez
+# 㕕	HZfez
 # 𧱏	NGiəs發·
 旳	Teek
 𠥄	DCjib
@@ -338,8 +338,8 @@ u	eu
 𨉺	Gioc
 𨼇	Ljoc
 # 㕜	SSxəh
-𨶚	Klan
-𢇅	Klan
+𨶚	Kfan
+𢇅	Kfan
 壆	Kruk
 # 襍	DSeəp
 # 夳	THear
@@ -388,10 +388,10 @@ u	eu
 𣻪	DCjok
 𣪊	KHruk
 𪚧	Kjix
-灷	DZlad
+灷	DZfad
 灷	SZjiz
 𣎵	PHjiz
-𣎵	PHles	#?
+𣎵	PHfes	#?
 𤛉	HZvart
 𩎲	HZrat
 𦥙	Jjert
@@ -404,21 +404,25 @@ u	eu
 𢖪	Jjert
 覅	Mjevs	#勿要
 ######常用滯古
-之	Teəx
-㞢	Teəx
-底	Teəx
-的	Teəx
-旳	Teəx
-若	Neax
+之	Təx
+㞢	Təx
+底	Təx
+的	Təx
+旳	Təx
+哉	TSəx
+噫	HQəx
+夫	Pax
+也	Lax
+邪	Lax
+乎	HSax
+矣	HQax
+若	Nax
 是	Tjah
+兮	HQeex
 欲	HQjel
-夫	Prax
-也	Leax
-乎	HQeax
-兮	HQeax
-矣	HQeax
-母	məh
-父	bah
+母	Məh
+父	Bah
+ǀə	TSəx
 ######聲AEƏIOU VRJ
 #定母L系
 #臺池陀唐廷
@@ -427,6 +431,7 @@ u	eu
 𥆞	HQwez
 𡚤	Bxis
 ###zyenpheng
+悻	HZeeg
 碳	THaz
 彊	Kiaq
 𢉙	TCios
@@ -504,7 +509,7 @@ u	eu
 呲	TSje
 間	Krez
 砸	DZop
-鋰	Ljəh
+鋰	Liəh
 𡔣	KHet
 桉	HQan
 鎳	NGet
@@ -716,7 +721,7 @@ u	eu
 鷀	DZjə
 槓	Kruq
 肭	NRxok
-𩾜	Ljək
+𩾜	Liək
 䛈	SCjis
 㻆	XZved
 氮	Daf
@@ -912,7 +917,7 @@ u	eu
 蕰	HQuəz
 騙	PHjez
 悈	Kxəiək
-喱	Ljə
+喱	Liə
 掮	Gxen
 碈	Mxin
 宫	Kioc
@@ -1983,7 +1988,7 @@ u	eu
 𡛷	TSjih
 捠	Prec
 嘩	XSfa
-哩	Ljəh
+哩	Liəh
 簌	Seuk
 𢾖	Doh
 煴	HQuən
@@ -2321,7 +2326,7 @@ u	eu
 𪊆	DZes
 贋	NGraz
 仌	Piəc
-裡	Ljəh
+裡	Liəh
 嬅	XZfas
 週	TCjov
 躽	HQxez
@@ -2518,7 +2523,7 @@ u	eu
 艓	Dep
 埔	PHoh
 碾	NRxed
-浬	Ljəh
+浬	Liəh
 骷	KHo
 唼	SSrap
 𩔝	KHxif
@@ -2811,7 +2816,7 @@ u	eu
 揍	TSəus
 搞	Kraw
 銣	NCio
-泐	Ljək
+泐	Liək
 𧻀	TSHjas
 訐	Kxet
 醚	Me
@@ -3137,7 +3142,7 @@ u	eu
 磁	DZjə
 冗	NCjog
 堚	XZvon
-厘	Ljə
+厘	Liə
 脲	Ney
 吿	Kuk
 𦖫	Muən
