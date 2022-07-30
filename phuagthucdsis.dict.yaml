@@ -610,10 +610,6 @@ import_tables:
 𩹏	Bras
 䇑	Brah
 垻	Pras
-杈	TZHrax
-靫	TZHrax
-䑡	TZHrax
-叉	TZHrax
 浾	TZrax
 嚇	HSras
 𢕮	TRras
@@ -1095,6 +1091,10 @@ import_tables:
 槎	DSraj
 槎	DSral
 藞	Lral
+叉	TZHraj
+杈	TZHraj
+靫	TZHraj
+䑡	TZHraj
 ###VRAJ
 髽	TZfaj
 𡎬	TZfal
@@ -1169,8 +1169,6 @@ import_tables:
 ####E
 ###E-
 ##I 脂2 I ii-∅
-𨥦	TSeix
-𨥦	DZeix
 卟	KQeix
 卟	KQHeih
 礼	Leih
@@ -1547,16 +1545,6 @@ import_tables:
 㵺	PHres
 𥱼	Brex
 𢞎	Breh
-扠	TRHrex
-釵	TZHrex
-靫	TZHrex
-𩑐	TZHrex
-芆	TZHrex
-叉	TZHrex
-衩	TZHres
-杈	TZHres
-訍	TZHres
-㳗	TZHres
 㾹	DSrex
 柴	DSrex
 㾹	DSres
@@ -2216,6 +2204,9 @@ import_tables:
 妻	TSHeij
 緀	TSHeil
 棲	Seij
+𨧬	DZeij
+𨥦	TSeij	#?-j
+𨥦	DZeij
 賷	TSeij	#脂1
 𢥎	TSeij	#脂
 齊	DZeij
@@ -2344,6 +2335,16 @@ import_tables:
 䁓	KQrer
 㞒	HSrer	#?
 ##REJ
+叉	TZHrej
+扠	TRHrej
+釵	TZHrej
+靫	TZHrej
+𩑐	TZHrej
+芆	TZHrej
+衩	TZHrer
+杈	TZHrer
+訍	TZHrer
+㳗	TZHrer
 汛	SSrer	#?
 差	TZHrej
 䐤	TZHrej
@@ -4776,10 +4777,11 @@ import_tables:
 𦥊	TRHxəs
 孴	NGiəh
 欼	TZHxəh
+𠂔	TZxəh
 笫	TZxəh
 胏	TZxəh
-𠂔	TZxəh
-柹	DSxəh
+柹	DSxəh	#柿
+枾	DSxəh
 ###ƏR
 食	Jjəsk	#ks
 亄	HQiəsk	#ks?
@@ -5656,7 +5658,8 @@ import_tables:
 㔗	FBuərt
 𥄱	FBuərt
 茀	FPuərt
-尉	HQuərt	#ts
+𤈫	HQuərt	#ts
+尉	HQuərt
 熨	HQuərt
 慰	HQuərt
 罻	HQuərt
@@ -7189,6 +7192,7 @@ import_tables:
 䒉	MFuoh
 𢋑	MFuoh
 舞	MFuoh
+𦏶	MFuoh
 儛	MFuoh
 武	MFuoh
 碔	MFuoh
@@ -9182,8 +9186,6 @@ import_tables:
 䊭	Dovs
 燾	Dovx
 燾	Dovs
-𡚽	HSovh	#?
-𡚽	HSovs
 峱	Novx
 䌦	Dovs	#?
 𧛔	Tovs
@@ -9223,6 +9225,8 @@ import_tables:
 𨛴	HZovh
 好	HSovh	#M?
 好	HSovs
+𡚽	HSovh	#?
+𡚽	HSovs
 烄	KQovs
 訄	KQHovx
 尻	KQHovx
@@ -10441,6 +10445,9 @@ import_tables:
 訞	HQxuv
 殀	HQxuw
 仸	HQxuw
+𡝩	HQxuv
+䄏	HQxuv
+𧨶	HQxuv
 肁	DRxuw
 肈	DRxuw
 ##XAV xa 
@@ -13308,6 +13315,7 @@ import_tables:
 岌	NGxop
 吸	HSxop
 及	Gxop
+乛	Gxop
 𨕤	Gxop
 𪔰	JXxof
 䲯	Gxop
@@ -15388,6 +15396,7 @@ import_tables:
 𥴤	Gian
 腱	Giaz
 鍵	Giad
+䇟	Giaz
 掀	HSian
 攑	KHian
 䡣	HSian
@@ -15945,6 +15954,8 @@ import_tables:
 煙	HQein
 湮	HQein
 畇	Dein
+顚	Tein
+顚	THeiz
 顛	Tein
 顛	THeiz
 癲	Tein
@@ -15987,6 +15998,7 @@ import_tables:
 唳	Lət
 綟	Lət
 夨	Lət
+𠂈	Dəd
 殄	Dəd	#L?
 餮	THət
 飻	THət
@@ -16788,7 +16800,6 @@ import_tables:
 羴	HSren
 羼	TZHred
 𤣆	DRren
-閒	KQren
 蕳	KQren
 覸	KQren
 襇	KQrez
@@ -16796,9 +16807,8 @@ import_tables:
 𨣉	KQrez
 簡	KQred
 㶕	KQred
+閒	KQren
 𧟉	KQred
-鷴	HZren
-閑	HZren
 僩	KQred
 閒	KQrez
 鬜	KQHren
@@ -16810,6 +16820,9 @@ import_tables:
 𩦂	HZren
 瞯	HZren
 憪	HZren
+閒	HZren
+閑	HZren
+鷴	HZren
 虤	NGQren
 產	SSred
 鏟	TZHred
@@ -18498,6 +18511,8 @@ import_tables:
 婣	HQjin
 枃	TSjiz
 笉	TSHjid
+𠤛	TCjin
+𡙊	TCjin
 眞	TCjin
 真	TCjin
 禛	TCjin
@@ -26022,6 +26037,7 @@ import_tables:
 涑	Sjuk
 粟	Sjuk
 𥻆	Sjuk
+𥾄	Sjuk
 憟	Sjuk
 𣯼	Sjuk
 㔄	Sjuk
@@ -26203,6 +26219,7 @@ import_tables:
 傶	TSək
 #OVK
 沃	HQeuvk	#OVK
+𣵽	HQeuvk
 鋈	HQeuvk
 嚛	SXeuvk	#OVK
 濼	Leuvk
