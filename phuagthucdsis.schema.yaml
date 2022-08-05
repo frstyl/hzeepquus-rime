@@ -72,6 +72,10 @@ speller:
     - abbrev/([A-Z])[ywu](\w)/$1u$2/ #i=jxi
     - abbrev/(ə)([xhs])$/$1j$2/
     - abbrev/([A-Z][ev]?)[au]([jlr])/$1a$2/ #AJ
+    - abbrev/([A-Z][jx])[ae]([xhsjlr])/$1e$2/ #E-J
+    - abbrev/([A-Z][yw])[aeu]([xhsjlr])/$1e$2/ #E-J
+    - abbrev/([A-Z][jx])[iə]([xhsjlr])/$1i$2/ #I-J
+    - abbrev/([A-Z][yw])[ioə]([xhsjlr])/$1i$2/ #I-J
     - abbrev/([A-Z][e]?)[aou](v[xhs])/$1a$2/ #AV
     - abbrev/([A-Z][er]?)[o](v[xhs])/$1u$2/ #U
     - abbrev/([A-Z][r])[aeo](v[xhs])/$1a$2/ #RAV
@@ -93,6 +97,11 @@ speller:
     - abbrev/([A-Z][jx])[aeu]([mbfp])/$1e$2/  #IEM
     - abbrev/([A-Z][jx])[ioə]([mbfp])/$1i$2/  #IIM
     - abbrev/([A-Z][r])[uo]([cgqk])/$12$3/  #RUŊ
+
+    - abbrev/([A-Z][evjxywrf]i)(c)/$1n/  #IŊ
+    - abbrev/([A-Z][evjxywrf]i)(g)/$1d/
+    - abbrev/([A-Z][evjxywrf]i)(q)/$1z/
+    - abbrev/([A-Z][evjxywrf]i)(k)/$1t/
     - derive/([A-Z][jxi])[əoi]v([xhs])/$1u$2/ #尤幽 V U 
     - derive/([A-Z])[ij][əo](v)/$1i$2/ #IU IƏV
     - derive/([A-Z]u)[əo]([ndzt])/$1$2/ #IUN IƏN
@@ -103,6 +112,7 @@ speller:
     - derive/([A-Z])[yu]ə(\w)/$1u$2/ #UƏ
     - derive/([A-Z]v?)xə([cgqk])/$1ri$2/ #職IƏŊ IŊ -v
     - derive/([A-Z]v?)[ij]ə([cgqk])/$1i$2/
+
 
     - derive/([A-Z])y(\w)/$1vj$2/#介音
     - derive/([A-Z])f(\w)/$1vr$2/
@@ -116,8 +126,7 @@ speller:
 
 
     - derive/Jj/j/
-    - derive/JX[uw]([aeiouə])/x$1/
-    - derive/QZ[v]([aeiouə])/x$1/
+    - derive/(QZ)v([aeiouə])/$1$2/
 
 
 
@@ -153,12 +162,12 @@ speller:
     - derive/(^|')(SZ|ZS)(?!$)/sz/
     - derive/((^|')([SZ][SC]))(?!$)/\L$1\L/
     - derive/(^|')SS(?!$)/s/  
-    - derive/(^|')[XH]Z(?!$)/g/
+    - derive/(^|')([XH]Z|HG|ZX)(?!$)/g/
     - derive/(^|')(JX|XQ)(?!$)/x/
     - derive/(^|')NG(?!$)/ng/
     - derive/(^|')([XH]S|SX)(?!$)/hs/
     - derive/(^|')([XH]Z)(?!$)/hz/
-    - derive/(^|')([XH]Z|XQ)(?!$)/E/
+    - derive/(^|')([XH]Z|XQ|HG|ZX)(?!$)/E/
     - derive/(^|')(ZC)(?!$)/E/
     - derive/(^|')HQ(?!$)/hq/
     - derive/(^|')HQ(?!$)/A/
@@ -176,8 +185,8 @@ speller:
     - derive/(^|')SZ(?!$)/x/#邪
     - derive/(^|')HQ(?!$)/q/
 
-    - derive/(\w[rs])[ptk]$/$1/
-    - derive/([aeou])v([k])$/$1$2/
+    - derive/(\w[sry])[ptk]$/$1/
+    - derive/([aeiouə])v([k])$/$1$2/
     - derive/([aeiouə])x$/$1/
     - derive/(\w)vx$/$1v/
     - derive/(\w)vh$/$1w/
