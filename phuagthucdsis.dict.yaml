@@ -1710,9 +1710,11 @@ import_tables:
 紕	Bjex
 𥉓	Mjex
 䍘	Mjex
+𦊮	Mjex 0%
 𥹄	Mjex
-麊	Mjex
+𨤐	Mjex 0%
 冞	Mjex
+麊	Mjex
 敉	Mjeh
 侎	Mjeh
 䖹	Mjeh
@@ -4454,12 +4456,14 @@ import_tables:
 汜	SZjəh
 攺	SZjəh
 𪊍	SZjəh
-巳	SZjəh
+巳	SZjəh	#L
 巳	Jjəh	#已
-圯	Jjəx
-攺	Jjəh
+巳	Jjəs
+已	SZjəh	#巳
 已	Jjəh
 已	Jjəs
+圯	Jjəx
+攺	Jjəh
 巸	Jjəx	#?
 戺	DSxəh	#rj
 𢨪	DSxəh
@@ -13087,6 +13091,8 @@ import_tables:
 鋟	TSHjib
 埐	DZjim
 ##JUM侵3 
+㴱	SCjom
+𣸧	SCjom	0%
 深	SCjom
 𦸂	SCjom
 深	SCjof
@@ -13639,33 +13645,51 @@ import_tables:
 淦	KQəf
 顉	NGQəb
 漯	THəp
-䐺	THəf
-憛	THəf
-𨝸	Dəm
-橝	Dəm
-蟫	Dəm
-譚	Dəm
-𧽼	Dəm
-燂	Dəm
-鐔	Dəm
-𦗡	Dəm
-𩡝	Dəm
-䊤	Dəm
-㽑	Dəm
-覃	Dəm
-禫	Dəb
-䊤	Dəb
-醰	Dəb
-嘾	Dəb
-贉	Dəb
-譚	Dəb
-醰	Dəf
-贉	Dəf
-瞫	Dəf
-潭	Dəm
-藫	Dəm
+𢺬	THəf
+𪉷	Dəm
+𪉙	Dəm	0%
+𪉞	Dəm	0%
+𤅦	Dəm
+𨟬	Dəm
+𨟩	Dəm	0%
+𨰳	Dəm
+𣡣	Dəm
+𧖋	Dəm
+𤓠	Dəm
+𥾁	Dəm
+𥜸	Dəb
+𥜯		Dəb	0%
+𨤌	Dəb
+𡅿	Dəb
+𥍗	Dəf
 撢	THəm
 撢	THəf
+䐺	THəf
+憛	THəf
+覃	Dəm
+潭	Dəm
+𨝸	Dəm
+譚	Dəm
+鐔	Dəm
+橝	Dəm
+蟫	Dəm
+燂	Dəm
+䊤	Dəm
+禫	Dəb
+醰	Dəb
+𪍵	Dəb
+嘾	Dəb
+藫	Dəm
+𧽼	Dəm
+𦗡	Dəm
+𩡝	Dəm
+㽑	Dəm
+䊤	Dəb
+贉	Dəb
+譚	Dəb
+瞫	Dəf
+醰	Dəf
+贉	Dəf
 𤁡	Dəf
 感	KQəb
 鱤	KQəb
@@ -20234,6 +20258,43 @@ import_tables:
 縕	HQuoz
 #####-NG
 ####AŊ AC 唐
+䁳	Mag
+䒎	Mag
+㬒	Mag
+䥈	Mag
+蟒	Mag
+漭	Mag
+莽	Mag
+漭	Maq
+茻	Mag
+𦬆	Mac
+芒	Mac
+𪌁	Mac	0%
+𥝕	Mac	0%
+茫	Mac
+恾	Mac
+汒	Mac
+忙	Mac
+邙	Mac
+𥐞	Mac
+䀮	Mac
+㼹	KQHac
+䐠	HSac
+㟐	Mag
+㟐	Maq
+吂	Mac
+𡩩	Mac
+吂	Maq
+𨛌	Mac
+杗	Mac
+朚	Mac
+喪	Sac	#SM
+𠸶	Sac
+𠷔	Sac
+𦅇	Sac
+𩦌	Sac
+喪	Saq
+𠸶	Saq
 䭹	NGQac
 枊	NGQac
 䒢	NGQac
@@ -20420,15 +20481,6 @@ import_tables:
 浪	Laq
 埌	Laq
 驡	TSag
-䁳	Mag
-䒎	Mag
-㬒	Mag
-䥈	Mag
-蟒	Mag
-漭	Mag
-莽	Mag
-漭	Maq
-茻	Mag
 髒	TSag
 葬	TSaq
 囊	Nac
@@ -20456,6 +20508,7 @@ import_tables:
 𣞙	Sag
 𣡆	Sag
 磉	Sag
+當	Tac
 鐺	Tac
 簹	Tac
 襠	Tac
@@ -20466,7 +20519,6 @@ import_tables:
 𦡁	Tac
 㼕	Tac
 蟷	Tac
-當	Tac
 譡	Taq
 儅	Taq
 擋	Taq
@@ -20491,6 +20543,7 @@ import_tables:
 闛	THac
 鼞	THac
 堂	Dac
+坣	Dac
 糛	Dac
 𤛋	Dac
 螳	Dac
@@ -20500,23 +20553,23 @@ import_tables:
 棠	Dac
 䉎	Dac
 橖	Dac
-坣	Dac
-煻	Dac
+唐	Dac
 糖	Dac
-𪕹	Dac
+塘	Dac
+溏	Dac
+煻	Dac
 搪	Dac
+𪕹	Dac
 蓎	Dac
 瑭	Dac
 餹	Dac
 篖	Dac
 螗	Dac
 𤚫	Dac
-塘	Dac
 鶶	Dac
 𩹶	Dac
 赯	Dac
 磄	Dac
-溏	Dac
 傏	Dac
 䧜	Dac
 𨶈	Dac
@@ -20525,33 +20578,8 @@ import_tables:
 榶	Dac
 㲥	Dac
 㼺	Dac
-唐	Dac
 嵣	Dag
 嵣	Daq
-䀮	Mac
-㼹	KQHac
-䐠	HSac
-茫	Mac
-恾	Mac
-芒	Mac
-㟐	Mag
-㟐	Maq
-𡩩	Mac
-吂	Mac
-吂	Maq
-𨛌	Mac
-杗	Mac
-朚	Mac
-𦅇	Sac
-𩦌	Sac
-𠸶	Sac
-喪	Sac
-喪	Saq
-𠸶	Saq
-汒	Mac
-忙	Mac
-邙	Mac
-𥐞	Mac
 汻	SXag	#NGS
 潒	Dag
 𢠽	Dag
@@ -20580,32 +20608,30 @@ import_tables:
 醠	HQaq
 盎	HQaq
 样	TSac
-碭	Dac
-𦿆	Daq
-碭	Daq
+湯	THac
+盪	THac
 薚	THac
 𦳝	THac
 簜	THac
-盪	THac
-湯	THac
-蕩	THaq
-盪	THaq
-鐋	THaq
-湯	THaq
-蕩	Dag
-璗	Dag
-盪	Dag
-簜	Dag
-偒	THag
 𧼮	THac
 踼	THac
 蝪	THac
+偒	THag
 𥯕	THag
 㼒	THag
+湯	THaq
+盪	THaq
+蕩	THaq
+鐋	THaq
 摥	THaq
-啺	Dac
+啺	Dac	#唐
+碭	Dac
 𥏬	Dac
 踼	Dac
+盪	Dag
+蕩	Dag
+璗	Dag
+簜	Dag
 崵	Dag
 婸	Dag
 𥯕	Dag
@@ -20613,6 +20639,8 @@ import_tables:
 䑗	Dag
 踼	Daq
 逿	Daq
+𦿆	Daq
+碭	Daq
 ##AK
 䨰	PHak
 𩔈	PHak
@@ -21590,27 +21618,28 @@ import_tables:
 上	DCjaq
 丄	DCjaq
 𠄞	DCjaq
-𪄹	DCjac
+䟫	TCHjag
+鋿	DCjac
+徜	DCjac
+尚	DCjac
+尚	DCjaq
 常	DCjac
-𩼝	DCjac
-甞	DCjac
+裳	DCjac
+𪄹	DCjac
 嘗	DCjac
+鱨	DCjac
+甞	DCjac	0%
+𩼝	DCjac	0%
+敞	TCHjag
 𢠵	TCHjag
 氅	TCHjag
 𪅶	TCHjag
 廠	TCHjag
 僘	TCHjag
-敞	TCHjag
 廠	TCHjaq
+賞	SCjag
 償	DCjac
 償	DCjaq
-賞	SCjag
-䟫	TCHjag
-裳	DCjac
-鋿	DCjac
-徜	DCjac
-尚	DCjac
-尚	DCjaq
 仉	TCjag
 𤓯	TCjag
 掌	TCjag
@@ -22546,8 +22575,8 @@ import_tables:
 椺	HGeek
 𤈥	THeek
 #IVK
-弔	Teek
-𨑩	Teek
+弔	Teevk
+𨑩	Teevk
 #EVK
 趯	THeevk
 䢰	THeevk
