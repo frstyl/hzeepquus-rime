@@ -4698,9 +4698,6 @@ import_tables:
 藄	Giəx
 櫀	Giəx
 𤪌	Giəx
-亟	KHiəs
-䀈	KHiəs
-鱀	Giəs
 蘄	Giəx
 莉	DRxəx
 㓼	TZHxəh
@@ -4784,6 +4781,9 @@ import_tables:
 柹	DSxəh	#柿
 枾	DSxəh
 ###ƏR
+亟	KHiəsk	#ks
+䀈	KHiəst	#ts
+鱀	Giəst
 食	Jjəsk	#ks
 亄	HQiəsk	#ks?
 䵝	HQiəsk
@@ -6530,15 +6530,15 @@ import_tables:
 作	TSosk
 𣨐	DZax
 胙	DZosk
-訴	Sosk	#ks
 𧩯	Sosk
+㴑	Sosk
+訴	Sosk	#ks
 𧪜	Sosk
 愬	Sosk
 泝	Sosk
-𤤐	Sosk
 溯	Sosk
-𧪜	Sosk
 遡	Sosk
+𤤐	Sosk
 遻	NGQosk	#ks
 鞴	Bosk	#ks
 暮	Mosk	#ks
@@ -8637,6 +8637,7 @@ import_tables:
 潎	FPHjert
 敝	Bjert
 弊	Bjert
+獘	Bjert
 斃	Bjert
 幣	Bjert
 丿	Jjert
@@ -8778,8 +8779,8 @@ import_tables:
 繐	Syert
 軎	SZyert	#sɢʷ
 𥱵	SZyert
-睿	JCyert
-叡	JCyert
+睿	Jyert
+叡	Jyert
 𢄢	SCyert
 銴	Jyert
 ##YAR
@@ -11275,7 +11276,7 @@ import_tables:
 胄	DRxəy
 ###IER
 ##IER
-約	HQieyk	#ks
+約	HQjeyk	#ks
 𤻲	Ljeyk	#ks
 讑	Jjeyk	#ks
 𧢢	Jjeyk
@@ -13039,7 +13040,6 @@ import_tables:
 ####IM 侵
 ###JIM
 ##JIM侵2 
-檝	DZjip
 湒	TSjip
 葺	TSjip
 䁒	TSjip
@@ -13053,6 +13053,7 @@ import_tables:
 輯	DZjip
 𠦫	DZjip
 箿	DZjip
+檝	DZjip
 揖	HQjip
 𡙕	TCjip
 𡣼	TCjip
@@ -13169,49 +13170,49 @@ import_tables:
 冘	Jjom
 䒞	Jjom
 𢓕	Jjom	#冘
-##JUM? 	#Ə?U?
+##JUM? #Ə?U?
+𧿅	Sjip	#?
 𩶇	SCjib
 襲	SZjip
 𩎕	Sjip
 𧚨	TSjip
 𧚨	TSHjip
-壬	NCjim
-紝	NCjim
-飪	NCjib
-䏕	NCjib
-妊	NCjif
-衽	NCjif
-𢆉	NCjib
-任	NCjim
-鵀	NCjim
-恁	NCjim
-銋	NCjim
-䛘	NCjim
-荏	NCjib
-餁	NCjib
-栠	NCjib
-恁	NCjib
-袵	NCjib
-䇮	NCjib
-銋	NCjib
-任	NCjif
-絍	NCjif
-鵀	NCjif
-㸒	Jjim
-淫	Jjim
-𦁍	Sjim
-婬	Jjim
-𥮍	Jjim
-霪	Jjim
+壬	NCjom
+紝	NCjom
+飪	NCjob
+䏕	NCjob
+妊	NCjof
+衽	NCjof
+𢆉	NCjob
+任	NCjom
+鵀	NCjom
+恁	NCjom
+銋	NCjom
+䛘	NCjom
+荏	NCjob
+餁	NCjob
+栠	NCjob
+恁	NCjob
+袵	NCjob
+䇮	NCjob
+銋	NCjob
+任	NCjof
+絍	NCjof
+鵀	NCjof
 䀢	SCjib	#?
-鍼	KCjim	#
-瑊	KCjim
-葴	KCjim
-箴	KCjim
-𪈁	KCjim
-鱵	KCjim
-𧿅	Sjip	#?
+鍼	KCjəm	#
+瑊	KCjəm
+葴	KCjəm
+箴	KCjəm
+𪈁	KCjəm
+鱵	KCjəm
 ##HƏM 侵1 JEOM
+㸒	Jjəm
+淫	Jjəm
+𦁍	Sjəm
+婬	Jjəm
+𥮍	Jjəm
+霪	Jjəm
 廿	NCjəp
 侺	DCjəf	#?
 𩷒	DZjəm
@@ -13316,6 +13317,9 @@ import_tables:
 𠪚	NGxim
 𦮾	NRxip
 㾕	SSxib	#?
+坫	TRxim
+砧	TRxim
+枮	TRxim
 ##XUM侵3
 琛	TRHxom
 賝	TRHxom
@@ -13348,18 +13352,6 @@ import_tables:
 𨝫	HSxop
 闟	HSxop
 𪅲	HSxop
-鈒	SSxop
-雭	SSxop
-汲	Kxop
-伋	Kxop
-級	Kxop
-芨	Kxop
-㽺	Kxop
-彶	Kxop
-岌	NGxop
-吸	HSxop
-及	Gxop
-乛	Gxop
 𨕤	Gxop
 𪔰	JXxof
 䲯	Gxop
@@ -13395,22 +13387,37 @@ import_tables:
 ##XUM? 	#Ə?U?
 𩖄	KHxib
 顩	DRxib
-䛘	NRxim
-鵀	NRxim
-拰	NRxib
-賃	NRxif
-坫	TRxim
-砧	TRxim
-枮	TRxim
+䛘	NRxom
+鵀	NRxom
+拰	NRxob
+賃	NRxof
 ##XƏM侵1 
 曄	JXxəp	#?
 翜	SSxəp
 皀	Pxəp
 皀	Kxəp
 碞	NGxəm
+黚	Gxəm
+鈒	SSxop
+雭	SSxəp
+級	Kxəp
+汲	Kxəp
+伋	Kxəp
+芨	Kxəp
+㽺	Kxəp
+彶	Kxəp
+㤂	Kxəp
+忣	Kxəp	0%
+𢚩	Kxəp	0%
 急	Kxəp
 𦳌	Kxəp
-黚	Gxəm
+及	Gxəp
+乁	Gxəp
+𢎜	Gxəp
+𨕤	Gxəp
+# 乛	Gxəp
+岌	NGxəp
+吸	HSxəp
 㞥	DSxəm
 涔	DSxəm
 梣	DSxəm
@@ -16571,7 +16578,7 @@ import_tables:
 憰	KQvit
 𧝃	KQvit
 䆷	HSvit
-瞲	HSvit
+瞲	HSvit	#𥅜𥄎
 𨓯	HQvin
 䨊	HQvin
 裫	HQviz
@@ -21578,6 +21585,7 @@ import_tables:
 鱂	TSjac
 蔣	TSjac
 螿	TSjac
+奬	TSjag
 㢡	TSjag
 獎	TSjag
 䉃	TSjag
@@ -23888,12 +23896,12 @@ import_tables:
 暻	Kwag
 揘	JXwac
 瑩	JXwac
-榮	JXwac
-嶸	JXwac
-蠑	JXwac
 禜	JXwac
 禜	JXwaq
 醟	JXwaq
+榮	JXwac
+嶸	JXwac
+蠑	JXwac
 永	JXwag
 栐	JXwag
 咏	JXwaq
@@ -24275,10 +24283,10 @@ import_tables:
 愎	Biək
 馥	Biək
 䦼	FPHiək
+亟	Kiək
 殛	Kiək
 㥛	Kiək
 𧩦	Kiək
-亟	Kiək
 䩯	KHiək
 極	Giək
 襋	Kiək
@@ -24579,19 +24587,19 @@ import_tables:
 𦨇	NGxək
 ###VIƏK
 𧹭	HSviək
-𠷾	SXviək
-𥄎	SXviək
-洫	SXviək
+𥄎	HSviək
+𠷾	HSviək
+洫	SXviək	#
 侐	SXviək
 䦗	SXviək
 𨵨	SXviək
-閾	HSviək
-㰲	HSviək
-𤷇	HSviək
-𪑝	HSviək
-緎	HSviək
-𦑌	HSviək
-淢	HSviək
+閾	SXviək
+㰲	SXviək	#
+𤷇	SXviək
+𪑝	SXviək
+緎	SXviək
+𦑌	SXviək
+淢	SXviək
 域	JXviək
 蜮	JXviək
 罭	JXviək
@@ -25859,24 +25867,23 @@ import_tables:
 䩸	NCjuq
 𩉪	NCjuq
 氄	NCjug
-用	JCjuq
-容	JCjuc
-溶	JCjuc
-鎔	JCjuc
-㼸	JCjuc
-蓉	JCjuc
-傛	JCjuc
-褣	JCjuc
-搈	JCjuc
-瑢	JCjuc
-䈶	JCjuc
-嵱	JCjuc
-𨲟	JCjuc
-𪃾	JCjuc
-㝐	JCjuc
-塎	JCjug
-溶	JCjug
-傛	JCjug
+容	Jjuc
+溶	Jjuc
+鎔	Jjuc
+㼸	Jjuc
+蓉	Jjuc
+傛	Jjuc
+褣	Jjuc
+搈	Jjuc
+瑢	Jjuc
+䈶	Jjuc
+嵱	Jjuc
+𨲟	Jjuc
+𪃾	Jjuc
+㝐	Jjuc
+塎	Jjug
+溶	Jjug
+傛	Jjug
 䢇	NCjug
 𤘺	NCjug
 𪕎	NCjug
@@ -25934,9 +25941,27 @@ import_tables:
 壅	HQiug
 雍	HQiuq
 壅	HQiuq
+𣭲	NCjug
+誦	SZjuq
+銿	Jjuc
+甬	Jjug
+勇	Jjug
+涌	Jjug
+恿	Jjug
+踊	Jjug
+𧻹	Jjug
+悀	Jjug
+埇	Jjug
+蛹	Jjug
+俑	Jjug
+𧗴	Jjug
+慂	Jjug
+用	Jjuq
 鱅	DCjuc
 慵	DCjuc
 𩌨	DCjuc
+庸	Jjuc
+𦤘	Jjuc
 滽	Jjuc
 𧴄	Jjuc
 㺎	Jjuc
@@ -25953,23 +25978,6 @@ import_tables:
 槦	Jjuc
 㣑	Jjuc
 𢧳	Jjuc
-庸	Jjuc
-𦤘	Jjuc
-𣭲	NCjug
-誦	SZjuq
-銿	Jjuc
-恿	Jjug
-踊	Jjug
-𧻹	Jjug
-悀	Jjug
-埇	Jjug
-蛹	Jjug
-俑	Jjug
-𧗴	Jjug
-甬	Jjug
-勇	Jjug
-涌	Jjug
-慂	Jjug
 顒	NGiuc
 𩤛	NGiuc
 鰅	NGiuc
@@ -26336,8 +26344,8 @@ import_tables:
 㳘	TCHjoc
 充	TCHjoc
 銃	TCHjoq
-融	JCjoc
-瀜	JCjoc
+融	Jjoc
+瀜	Jjoc
 𧽒	HSioq	#臭
 䠗	HSioq
 𧆉	FPuoc
