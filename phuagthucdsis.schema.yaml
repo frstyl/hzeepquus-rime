@@ -68,9 +68,9 @@ speller:
 
 
 
-    - abbrev/([A-Z])[jxi](\w)/$1i$2/ #i=jxi
-    - abbrev/([A-Z])[ywu](\w)/$1u$2/ #i=jxi
-    - abbrev/(ə)([xhs])$/$1j$2/
+    - abbrev/([A-Z])[jxi]([aeiouə])/$1i$2/ #i=jxi
+    - abbrev/([A-Z])[ywu]([aeiouə])/$1u$2/ #i=jxi
+    - abbrev/([A-Z][ev]?ə)([xhs])$/$1j$2/ #Ə㞢
     - abbrev/([A-Z][ev]?)[au]([jlr])/$1a$2/ #AJ
     - abbrev/([A-Z][jx])[ae]([xhsjlr])/$1e$2/ #E-J
     - abbrev/([A-Z][yw])[aeu]([xhsjlr])/$1e$2/ #E-J
@@ -102,6 +102,15 @@ speller:
     - abbrev/([A-Z][evjxywrf]i)(g)/$1d/
     - abbrev/([A-Z][evjxywrf]i)(q)/$1z/
     - abbrev/([A-Z][evjxywrf]i)(k)/$1t/
+
+
+    - derive/([A-Z])([ev]?[au])j/$1$2/ #AJ
+    - derive/([A-Z][ev]?[au])j$/$1x/ #AJ
+    - derive/([A-Z][ev]?[au])l$/$1h/ #AJ
+    - derive/([A-Z][ev]?[au])r$/$1s/ #AJ
+    - derive/(\w)v([o][jlrndzt])/$1$2/ #ON VO
+    - derive/(\w)və([ndzt])/$1o$2/ #ON VO
+
     - derive/([A-Z][jxi])[əoi]v([xhs])/$1u$2/ #尤幽 V U 
     - derive/([A-Z])[ij][əo](v)/$1i$2/ #IU IƏV
     - derive/([A-Z]u)[əo]([ndzt])/$1$2/ #IUN IƏN
@@ -118,24 +127,13 @@ speller:
     - derive/([A-Z])f(\w)/$1vr$2/
     - derive/([A-Z])x(\w)/$1rj$2/
     - derive/([A-Z])w(\w)/$1ry$2/
+    - derive/([A-Z])w(\w)/$1vrj$2/
 
     - derive/([PBM]|PH)v([aeiə])/$1$2/ #幫組
     - derive/([PBM]|PH)u([aeiə])/$1i$2/ 
     - derive/([PBM]|PH)y([aeiə])/$1j$2/ 
     - derive/([PBM]|PH)w([aeiə])/$1x$2/ 
 
-
-    - derive/Jj/j/
-    - derive/(QZ)v([aeiouə])/$1$2/
-
-
-
-    - derive/([A-Z])([ev]?[au])j/$1$2/ #AJ
-    - derive/([A-Z][ev]?[au])j$/$1x/ #AJ
-    - derive/([A-Z][ev]?[au])l$/$1h/ #AJ
-    - derive/([A-Z][ev]?[au])r$/$1s/ #AJ
-    - derive/(\w)v([o][jlrndzt])/$1$2/ #ON VO
-    - derive/(\w)və([ndzt])/$1o$2/ #ON VO
     - derive/([A-Z])e([aoə])/$1$2/ #一等
     - derive/([A-Z])e([eu])/$1$2/ #四等
     - derive/ov/eu/ #皋
@@ -144,6 +142,10 @@ speller:
 
     - derive/([A-Z])r([aeiouə])/$1a$2/ #二等
     - derive/([A-Z])f([aeiouə])/$1o$2/ #二等
+
+    - derive/Jj/j/
+    - derive/(XQ)v([aeoiə])/$1$2/
+
 
 
     - erase/(^|')[hg][jy]/
@@ -194,9 +196,9 @@ speller:
     - derive/(\w)h$/$1A/
     - abbrev/(\w)[rs]([ptk])/$/$1r/ # 韻尾-聲調
     - abbrev/(\w)(r([ptk])?)$/$1s/
-    - abbrev/(ə)x$/$1j/
-    - abbrev/(ə)h$/$1l/
-    - abbrev/(ə)s$/$1r/
+    - abbrev/([A-Z]v?ə)x$/$1j/
+    - abbrev/([A-Z]v?ə)h$/$1l/
+    - abbrev/([A-Z]v?ə)s$/$1r/
     - abbrev/(\w)j$/$1/
     - abbrev/(\w)l$/$1h/
     - abbrev/(\w)r$/$1s/
