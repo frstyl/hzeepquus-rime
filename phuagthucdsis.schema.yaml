@@ -96,7 +96,17 @@ speller:
     - abbrev/([A-Z])[əou]([mbfp])/$1o$2/ #ƏM
     - abbrev/([A-Z][jx])[aeu]([mbfp])/$1e$2/  #IEM
     - abbrev/([A-Z][jx])[ioə]([mbfp])/$1i$2/  #IIM
-    - abbrev/([A-Z][r])[uo]([cgqk])/$12$3/  #RUŊ
+    - abbrev/([A-Z][r])[uo]([cgqk])/$1u$3/  #RUŊ
+    - abbrev/([A-Z][r])[uo]([cgqk])/$1o$3/
+    - abbrev/([A-Z][j])[ae]([cgqk])/$1e$3/  #IEK
+    - abbrev/([A-Z])[au]v([cgqk])/$1a$3/  #AVK
+    - abbrev/([A-Z][ijx]?)[aeu]v([cgqk])/$1a$3/ #IAVK
+    - abbrev/([A-Z][ev]?)[eiə]v([cgqk])/$1e$3/ #EVK
+    - abbrev/([A-Z][r])[eoiə]v([cgqk])/$1e$3/ #REVK
+    - abbrev/([A-Z][e]?)[u]v([cgqk])/$1u$3/ #UVK
+    - abbrev/([A-Z][r])[aeu]v([cgqk])/$1u$3/ #RUVK
+    - abbrev/([A-Z][r])[ouə]v([cgqk])/$1u$3/ #OVK
+    - abbrev/([A-Z][ijx])[ə]v([cgqk])/$1ə$3/ #IƏVK
 
     - abbrev/([A-Z][evjxywrf]i)(c)/$1n/  #IŊ
     - abbrev/([A-Z][evjxywrf]i)(g)/$1d/
@@ -123,28 +133,30 @@ speller:
     - derive/([A-Z]v?)[ij]ə([cgqk])/$1i$2/
 
 
-    - derive/([A-Z])y(\w)/$1vj$2/#介音
+    - derive/([A-Z])y(\w)/$1vj$2/ #介音
     - derive/([A-Z])f(\w)/$1vr$2/
     - derive/([A-Z])x(\w)/$1rj$2/
     - derive/([A-Z])w(\w)/$1ry$2/
     - derive/([A-Z])w(\w)/$1vrj$2/
+    - derive/([A-Z])e([aoə])/$1$2/ #一等
+    - derive/([A-Z])e([eu])/$1$2/ #四等
+    - derive/([A-Z])r([aeiouə])/$1a$2/ #二等
+    - derive/([A-Z])f([aeiouə])/$1o$2/ #二等
 
     - derive/([PBM]|PH)v([aeiə])/$1$2/ #幫組
     - derive/([PBM]|PH)u([aeiə])/$1i$2/ 
     - derive/([PBM]|PH)y([aeiə])/$1j$2/ 
     - derive/([PBM]|PH)w([aeiə])/$1x$2/ 
+    - derive/(XQ)v([aeoiə])/$1$2/ #雲母
+    - derive/(XQ)u([aeoiə])/$1i$2/
+    - derive/(XQ)w([aeoiə])/$1x$2/
 
-    - derive/([A-Z])e([aoə])/$1$2/ #一等
-    - derive/([A-Z])e([eu])/$1$2/ #四等
     - derive/ov/eu/ #皋
     - derive/ə(u)/$1/ #侯
 
 
-    - derive/([A-Z])r([aeiouə])/$1a$2/ #二等
-    - derive/([A-Z])f([aeiouə])/$1o$2/ #二等
 
     - derive/Jj/j/
-    - derive/(XQ)v([aeoiə])/$1$2/
 
 
 
@@ -188,7 +200,7 @@ speller:
     - derive/(^|')HQ(?!$)/q/
 
     - derive/(\w[sry])[ptk]$/$1/
-    - derive/([aeiouə])v([k])$/$1$2/
+    # - derive/([aeiouə])v([k])$/$1$2/
     - derive/([aeiouə])x$/$1/
     - derive/(\w)vx$/$1v/
     - derive/(\w)vh$/$1w/
@@ -317,7 +329,7 @@ punctuator:
     "?": ["?" ,"∞" , "？"]
     "/": ["/", "、",  "∕", "÷", "∂", "／"]
   symbols:
-    "/sxuh": ["∞",  "ℵ", "ℶ", "ℷ", "ℸ",  "∛",  "∜" ]
+    "/swus": ["∞",  "ℵ", "ℶ", "ℷ", "ℸ",  "∛",  "∜" ]
     "/dzjop": ["∅",  "⊕",  "∖",  "∩", "∪", "∈", "∉",  "∊",  "∋",  "∌", "∍",  "⊆",  "⊇",  "⊈",  "⊉",  "⊊",  "⊋",  "⊂",  "⊃",  "⊄",  "⊄"]
     "/tsjek": ["∫",  "∬",  "∭",  "∮",  "∯",  "∰",  "∱",  "∲",  "∳"]
     "/muj": ["∕", "÷", "∂",  "∫",  "∬",  "∭",  "∮",  "∯",  "∰",  "∱",  "∲",  "∳",  "+",  "−",  "×",  "÷", "∏", "∑"]
