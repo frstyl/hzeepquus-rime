@@ -14629,6 +14629,7 @@ import_tables:
 渙	HSvaz
 𥈉	HSvaz
 寏	XQvan
+院	XQvan
 換	XQvaz
 丸	HGvan
 紈	HGvan
@@ -14695,6 +14696,15 @@ import_tables:
 秳	HGvat
 姡	HGvat
 𣁳	HQvat
+𤲫	THvad
+喛	SXvaz
+緩	XQvad	#ɢ
+㬊	XQvad
+䁔	XQvad
+𧡩	XQvad
+鰀	XQvad
+嵈	XQvad
+䈠	XQvad
 ##VON
 袚	Pvut
 茇	Pvut
@@ -14865,17 +14875,6 @@ import_tables:
 蟠	Bvun
 潘	PHvun
 瓛	ZXvun	#NG?
-暖	Nvud
-煖	Nvud
-𤲫	THvud
-喛	SXvuz
-緩	XQvud	#ɢ
-㬊	XQvud
-䁔	XQvud
-𧡩	XQvud
-鰀	XQvud
-嵈	XQvud
-䈠	XQvud
 寬	KQHvun
 髖	KQHvun
 𡅻	HSvuz
@@ -15050,6 +15049,8 @@ import_tables:
 菆	DZvun
 煗	Nvud
 㬉	Nvud
+暖	Nvud	#訓讀煗㬉
+煖	Nvud
 餪	Nvud
 渜	Nvud
 稬	Nvud
@@ -15110,7 +15111,6 @@ import_tables:
 莞	HZvun
 綄	HZvun
 垸	HZvun
-院	HZvun
 捖	HZvun
 浣	HZvud
 綄	HZvud
@@ -15686,29 +15686,28 @@ import_tables:
 噦	HQuat
 熭	JXuat
 璏	JXuat	#?
-爰	JXuan
 煖	SXuan
-諼	SXuan
-諼	SXuad
 喛	SXuan
 䁔	SXuan
 愋	SXuan
-暖	SXuas
+諼	SXuan
+諼	SXuad
 䁔	SXuad
 𧡩	SXuad
 楥	SXuaz
+爰	JXuan	#ɢ
 援	JXuan
 鶢	JXuan
 媛	JXuan
 蝯	JXuan
 猨	JXuan
 𩔃	JXuad
+袁	JXuan	#ɢ
 園	JXuan
-榬	JXuan
-轅	JXuan
-溒	JXuan
 猿	JXuan
-袁	JXuan
+轅	JXuan
+榬	JXuan
+溒	JXuan
 遠	JXuad
 遠	JXuaz
 戉	JXuat
@@ -17682,9 +17681,9 @@ import_tables:
 䂐	TCyut
 䪼	TCyut
 䖦	TCyut
-宣	Syun
 𠄢	Syun
 亘	Syun
+宣	Syun
 揎	Syun
 䳦	Syun
 愃	Syun
