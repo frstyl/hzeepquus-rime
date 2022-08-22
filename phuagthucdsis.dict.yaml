@@ -6483,6 +6483,7 @@ import_tables:
 妬	Tosk	#ks
 妒	Tosk	#妬
 路	Losk	#ks
+露	Losk
 賂	Losk
 輅	Losk
 簵	Losk
@@ -6492,7 +6493,6 @@ import_tables:
 璐	Losk
 簬	Losk
 𦌕	Losk
-露	Losk
 虂	Losk
 蠹	Tosk	#ks
 螙	Tosk
@@ -10409,19 +10409,19 @@ import_tables:
 杓	FPHjev
 少	SCjew
 少	SCjey
-眇	Mjew
-𪃦	Mjev
-渺	Mjew
-𦳥	Mjew
-篎	Mjew
 篎	Mjey
-淼	Mjew
 䖢	Mjev
 㠺	Mjev
+𪃦	Mjev
 訬	Mjew
 杪	Mjew
 秒	Mjew
 吵	Mjew
+眇	Mjew
+渺	Mjew
+淼	Mjew
+𦳥	Mjew
+篎	Mjew
 妙	Mjey
 玅	Mjey
 麨	TCHjew
@@ -24561,20 +24561,25 @@ import_tables:
 瀷	TCHjək
 𦔫	TCHjək
 𠶷	HQiək
+訲	HQiək
+𦺳	HQiək
+𢡃	HQiək
+悥	HQiək
+𠐥	HQiək
 𦺳	HQiək
 𣚍	HQiək
-憶	HQiək
 億	HQiək
+檍	HQiək
+薏	HQiək
+憶	HQiək	#意
+癔	HQiək
 臆	HQiək
+肊	HQiək	#臆
 繶	HQiək
+𩍖	HQiək
 醷	HQiək
 澺	HQiək
-薏	HQiək
 䗷	HQiək
-𩍖	HQiək
-檍	HQiək
-癔	HQiək
-肊	HQiək	#臆
 應	HQiəc
 膺	HQiəc
 鷹	HQiəc
@@ -27179,9 +27184,9 @@ import_tables:
 賉	Syik
 欰	Syik
 ###RJIŊ
-乙	HQxik	# 
-亄	HQxik
-𦨇	NGxik
+# 乙	HQxik	# 
+# 亄	HQxik
+# 𦨇	NGxik
 魿	Gxic	#
 昵	NRxik	#
 㓼	TZHxik	#
