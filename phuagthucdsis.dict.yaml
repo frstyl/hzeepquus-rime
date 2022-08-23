@@ -7053,7 +7053,6 @@ import_tables:
 噓	HSios
 虡	Gioh
 𧇽	Gioh
-###XO
 ##XA
 初	TZHxox
 䙘	TZHxoh
@@ -15714,17 +15713,10 @@ import_tables:
 溒	JXuan
 遠	JXuad
 遠	JXuaz
-戉	JXuat
-䬂	SXuat
-䟠	SXuat
-泧	SXuat
-狘	SXuat
-䎀	SXuat
-㞽	SXuat
 曰	JXuat	#?
 𡩭	JXuat
 粤	JXuat
-粵	JXuat	0%
+戉	JXuat
 越	JXuat
 鉞	JXuat
 𨒋	JXuat
@@ -15735,6 +15727,12 @@ import_tables:
 𧊎	JXuat
 泧	JXuat
 樾	JXuat
+䬂	SXuat
+䟠	SXuat
+泧	SXuat
+狘	SXuat
+䎀	SXuat
+㞽	SXuat
 ##UON
 㤄	FPHuut
 𨠒	FPHuuz
@@ -16465,11 +16463,12 @@ import_tables:
 𨏩	Leen
 僆	Leez
 芇	Meed
+𨘢	Peen
+邊	Peen
 籩	Peen
 𤄺	Peen
 𨇱	Peen
 𠑟	Peen
-邊	Peen
 𥤓	Peed
 𥣰	Peen
 䟍	Peen
@@ -17244,8 +17243,8 @@ import_tables:
 籛	TSjez
 錢	DZjen
 𧔢	DZjen
-𨥂	Kjet
 孑	Kjet
+𨥂	Kjet
 尐	TSjet
 𢪍	TSjet
 𣧖	TSjet
@@ -17304,6 +17303,7 @@ import_tables:
 綿	Mjen
 矊	Mjen
 緜	Mjen
+𦤝	Mjen
 臱	Mjen
 矏	Mjen
 𢣔	Mjen
@@ -20220,7 +20220,6 @@ import_tables:
 # 𣓀	TZxəd
 厥	Kuot
 孒	Kuot
-𠀔	Kuot
 屈	Kuot
 𦁐	Kuot
 鶌	Kuot
@@ -25187,10 +25186,41 @@ import_tables:
 𤡴	Deuk
 𤟩	Deuk	#𤡴
 棴	Seuk
+攴	PHeuk
+𪔿	PHeuk
 卜	Peuk
 鳪	Peuk
 扑	PHeuk
 𪐙	PHeuk
+𡰿	Beuk
+䧤	Peuk
+轐	Peuk
+𡡐	Peuk
+樸	Peuk
+獛	Peuk
+蹼	Peuk
+襆	Peuk
+𩯏	Peuk
+䪁	Peuk
+醭	PHeuk
+墣	PHeuk
+撲	PHeuk
+䴆	PHeuk
+菐	Beuk
+僕	Beuk
+䗱	Beuk
+㲫	Beuk
+樸	Beuk
+䑑	Beuk
+𥐁	Beuk
+穙	Beuk
+濮	Peuk
+纀	Peuk
+𥣜	PHeuk
+木	Meuk
+蚞	Meuk
+沐	Meuk
+霂	Meuk
 啄	Teuk
 䐁	Teuk
 𢽚	Teuk
@@ -25275,37 +25305,6 @@ import_tables:
 犢	Deuk
 匵	Deuk
 𨏔	Leuk
-木	Meuk
-蚞	Meuk
-沐	Meuk
-霂	Meuk
-攴	PHeuk
-𪔿	PHeuk
-𡰿	Beuk
-䧤	Peuk
-轐	Peuk
-𡡐	Peuk
-樸	Peuk
-獛	Peuk
-蹼	Peuk
-襆	Peuk
-𩯏	Peuk
-䪁	Peuk
-醭	PHeuk
-墣	PHeuk
-撲	PHeuk
-䴆	PHeuk
-菐	Beuk
-僕	Beuk
-䗱	Beuk
-㲫	Beuk
-樸	Beuk
-䑑	Beuk
-𥐁	Beuk
-穙	Beuk
-濮	Peuk
-纀	Peuk
-𥣜	PHeuk
 榖	KQeuk
 瀔	KQeuk
 𪇗	KQeuk
@@ -25672,6 +25671,18 @@ import_tables:
 㿥	HGruvk
 丵	DSruvk
 ##ROK
+朴	PHruk
+圤	PHruk
+㺪	PHruk
+𧴤	PHruk
+攴	PHruk
+𤆝	PHruk
+璞	PHruk
+樸	PHruk
+㹒	PHruk
+墣	PHruk
+𢷏	Bruk
+瞀	Mruk
 䡈	KQruk
 珏	KQruk
 嶽	NGQruk
@@ -25704,14 +25715,9 @@ import_tables:
 𢽚	TRruk
 剝	Pruk
 䃗	TZHruk
-朴	PHruk
-圤	PHruk
-㺪	PHruk
-𧴤	PHruk
 斲	TRruk
 龏	HQruk
 數	SSruk
-瞀	Mruk
 娕	TZHruk
 欶	SSruk
 嗽	SSruk
@@ -25736,13 +25742,6 @@ import_tables:
 𩌊	HSruk
 嗀	HSruk
 搙	NRruk
-𤆝	PHruk
-攴	PHruk
-璞	PHruk
-樸	PHruk
-㹒	PHruk
-墣	PHruk
-𢷏	Bruk
 瞐	Mruk
 𩅟	Bruk
 齺	DSruk
@@ -25967,6 +25966,7 @@ import_tables:
 共	Giuq
 蛬	Kiug
 蛬	Giuc
+孒	Kiug
 吅	SZjuq
 𪚝	Ljuc
 躘	Ljuc
@@ -25986,7 +25986,6 @@ import_tables:
 襛	NCjuc
 穠	NCjuc
 𩼅	NCjuq
-孒	Kiug
 𢫨	NCjug
 軵	NCjug
 䩸	NCjuc
