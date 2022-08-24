@@ -96,17 +96,17 @@ speller:
     - abbrev/([A-Z])[əou]([mbfp])/$1o$2/ #əm
     - abbrev/([A-Z][jx])[aeu]([mbfp])/$1e$2/  #iem
     - abbrev/([A-Z][jx])[ioə]([mbfp])/$1i$2/  #iim
-    - abbrev/([A-Z][r])[uo]([cgqk])/$1u$3/  #ruŋ
-    - abbrev/([A-Z][r])[uo]([cgqk])/$1o$3/
-    - abbrev/([A-Z][j])[ae]([cgqk])/$1e$3/  #iek
-    - abbrev/([A-Z])[au]v([cgqk])/$1a$3/  #avk
-    - abbrev/([A-Z][ijx]?)[aeu]v([cgqk])/$1a$3/ #iavk
-    - abbrev/([A-Z][ev]?)[eiə]v([cgqk])/$1e$3/ #evk
-    - abbrev/([A-Z][r])[eoiə]v([cgqk])/$1e$3/ #revk
-    - abbrev/([A-Z][e]?)[u]v([cgqk])/$1u$3/ #uvk
-    - abbrev/([A-Z][r])[aeu]v([cgqk])/$1u$3/ #ruvk
-    - abbrev/([A-Z][r])[ouə]v([cgqk])/$1u$3/ #ovk
-    - abbrev/([A-Z][ijx])[ə]v([cgqk])/$1ə$3/ #iəvk
+    - abbrev/([A-Z][r])[uo]([cgqk])/$1u$2/  #ruŋ
+    - abbrev/([A-Z][r])[uo]([cgqk])/$1o$2/
+    - abbrev/([A-Z][j])[ae]([cgqk])/$1e$2/  #iek
+    - abbrev/([A-Z])[au]v([cgqk])/$1a$2/  #avk
+    - abbrev/([A-Z][ijx]?)[aeu]v([cgqk])/$1a$2/ #iavk
+    - abbrev/([A-Z][ev]?)[eiə]v([cgqk])/$1e$2/ #evk
+    - abbrev/([A-Z][r])[eoiə]v([cgqk])/$1e$2/ #revk
+    - abbrev/([A-Z][e]?)[u]v([cgqk])/$1u$2/ #uvk
+    - abbrev/([A-Z][r])[aeu]v([cgqk])/$1u$2/ #ruvk
+    - abbrev/([A-Z][r])[ouə]v([cgqk])/$1u$2/ #ovk
+    - abbrev/([A-Z][ijx])[ə]v([cgqk])/$1ə$2/ #iəvk
 
     - abbrev/([A-Z][evjxywrf]i)(c)/$1n/  #iŋ
     - abbrev/([A-Z][evjxywrf]i)(g)/$1d/
