@@ -6856,6 +6856,7 @@ import_tables:
 𡫽	NCjoh
 𥨲	NCjox
 𡫽	HQios
+穭	Ljoh
 慮	Ljos
 勴	Ljos
 𡾅	Ljos
@@ -6870,12 +6871,8 @@ import_tables:
 臚	Ljox
 䰕	Ljox
 藘	Ljox
-櫚	Ljox
-𥶆	Ljox
 驢	Ljox
 儢	Ljoh
-穭	Ljoh
-䮉	Ljox
 櫖	Ljox
 爈	Ljox
 吕	Ljoh
@@ -6883,17 +6880,20 @@ import_tables:
 郘	Ljoh
 侣	Ljoh
 侶	Ljoh
-𦊼	Ljos
 𢈚	Ljoh
 梠	Ljoh
 絽	Ljoh
 鋁	Ljoh
-莒	Kioh
-筥	Kioh
+𦊼	Ljos
+櫚	Ljox
+𥶆	Ljox
 閭	Ljox
 䕡	Ljox
 𤁵	Ljox
 𢣻	Ljox
+莒	Kioh
+筥	Kioh
+䮉	Ljox
 旅	Ljoh
 㭚	Ljoh
 祣	Ljoh
@@ -7181,7 +7181,6 @@ import_tables:
 攄	TRHxox
 ###UO
 ##UA
-夫	FBuox	5%
 夫	FPuox
 邞	FPuox
 伕	FPuox
@@ -7195,29 +7194,30 @@ import_tables:
 衭	FPuox
 趺	FPuox
 鈇	FPuox
-扶	FBuox
+鳺	FPuox
+𩵩	FPuox
 扶	FPuox	2%
+麩	FPHuox
+夫	FBuox	5%
+扶	FBuox
 芙	FBuox
 𢺻	FBuox
 蚨	FBuox
 枎	FBuox
 𧥱	FBuox
-麩	FPHuox
-鳺	FPuox
-𩵩	FPuox
 𤱽	FBuox
 颫	FBuox
 𦔾	FBuox
-父	FBuoh
 父	FPuoh	10%
+蚥	FPuoh
+𧉊	FPuoh
+㕮	FPuoh
+斧	FPuoh
+父	FBuoh
 䭸	FBuoh
 𩾿	FBuoh
 蚥	FBuoh
-蚥	FPuoh
-𧉊	FPuoh
 㕮	FBuoh
-㕮	FPuoh
-斧	FPuoh
 釜	FBuoh
 滏	FBuoh
 甫	FPuoh
@@ -23123,9 +23123,7 @@ import_tables:
 㧶	KQHrec
 綪	TZrec
 崝	DSrec
-𠂷	HGreg
 𡴘	HGreg
-𢆎	HGreg	0%
 幸	HGreg
 倖	HGreg
 㼬	HGreg
