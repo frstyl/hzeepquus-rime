@@ -179,7 +179,7 @@ speller:
     - derive/((^|')([SZ][SC]))(?!$)/\L$1\L/
     - derive/(^|')SS(?!$)/s/  
     - derive/(^|')([XH]Z|HG|ZX)(?!$)/g/
-    - derive/(^|')(JX|XQ)(?!$)/x/
+    - derive/(^|')(JX|XQ|X)(?!$)/x/
     - derive/(^|')NG(?!$)/ng/
     - derive/(^|')([XH]S|SX)(?!$)/h/
     # - derive/(^|')([XH]S|SX)(?!$)/hs/
@@ -249,15 +249,19 @@ translator:
   preedit_format:
     - xform/;/ə/
     - xform/([PTKQ])H/\L$1ʰ/
+    - xform/SX/x/
+    - xform/ZX/ɣ/
+    - xform/HG/ɣ/
     - xform/SQ/χ/
     - xform/ZQ/ʁ/
     - xform/NG/ŋ/
     - xform/NQ/ɴ/
     - xform/A/ʔ/
+    - xform/HQ/ʔ/
+    - xform/E/ɦ/
     - xform/O/ˤ/
     - xform/V/ʷ/
     - xform/Y/ɥ/
-    - xform/HQ/ʔ/
     - xform/eo/ə/
 # # # # # 
 gepxuuz:
