@@ -5,7 +5,7 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
 ...
-
+#####
 p	P
 b	PZ
 b	B
@@ -66,9 +66,11 @@ x	HS
 ʁ	ZQ
 ʕ	OF
 ʕ	O
+ħ	E
 h	H
 h	HS
 ɦ	HZ
+ɦ	E
 m	M
 ɱ	MF
 n	N
@@ -77,6 +79,7 @@ n	N
 ɳ	NR
 ȵ	NC
 ɴ	NQ
+###
 ʷɻj	W
 ɰ	W
 w	V
@@ -85,6 +88,7 @@ r	R
 ɹ	R
 ɻ	R
 ʷɻ	F
+###
 # # y	y
 # a	ea
 a	a
@@ -125,6 +129,7 @@ u	eu
 ʉɐ	ua
 # ɨɛ	ie
 # ʉɛ	ue
+###
 ʰ	H
 ʷ	V
 ʲ	J
@@ -158,6 +163,7 @@ u	eu
 ˌ	SCjec
 .	SCjec
 ‿	SCjec
+#####
 ℵ	aleph
 ℶ	beth
 ℷ	gimel
@@ -214,22 +220,164 @@ u	eu
 Χ	chi
 Ψ	psi
 Ω	omega
-######化
-䏓	NGuun	#肉元
-氰	TSHeec	#靑
-砼	DZyun	#㒰
-烴	THjec	#CH
-羰	THjag	#CO
-羥	KHiag	#OH
-羧	Sjag	#
+#####化
+###
+䏓	NGuun	#肉元 proton
+氰	TSHeec	#靑 cyanogen
+砼	DZyun	#㒰 concrete
+###
+烴	THjec	#CH hydrocarbon
+羰	THjag	#CO carbonyl 
+羥	KHiag	#OH hydroxyl
+羧	Sva
+羧	Sjag	#carboxyl
+苯	Been	#benzene
 ⌬	Been
-鉩	Neil	#Nh 113 Nihonium 鿭	U9fed 鈮Nb41niobium
+磺	HZvac	#sulphur
+酰	Sən	#acyl
+碸	Pioc	#sulfone
+鎓	HQeuc	# onium
+###
+輕鋰鈉鉀銣銫鈁	TCyuh DZeuk
+鈹鎂鈣鍶鋇镭	TCyuh DZeuk
+硼鋁鎵銦鉈鉨	TCyuh DZeuk
+碳硅鍺錫鉛鈇	TCyuh DZeuk
+氮磷砷銻鉍鏌	TCyuh DZeuk
+氧硫硒碲釙鉝	TCyuh DZeuk
+氟氯溴碘砹鿬	TCyuh DZeuk
+氦氖氬氪氙氡鿫	TCyuh DZeuk
+鑭鈰鐠釹鉕釤銪釓鋱鏑鈥鉺銩鐿鑥	Lan HZees
+錒釷鏷鈾錼鈈鎇鋦錇鐦鎄鐨鍆鍩鐒	HQa HZees
+氫	Khjec	#H 1 Hydrogen
+氕	HQjik	#H1 protium
+氘	NCjis	#H2 deuterium
+氚	Sam	#H3 tritium
+氕	PHeet
+氘	Tav
+氚	TCHyen
+氦	HZəl	#He helium
+鋰	Ljəh	#Li lithium
+鈹	#Be beryllium
+硼	Bəc	#B borum
+碳	THaz	#C 6 carbonium
+氮	Daf	#N 7 nitrogenium azote 
+氧	Jjag	#O xygen
+氟	Puət	#F fluorine
+氖	Nəl	#Ne neon
+鈉	Nop	
+鎂	Mxih
+鋁	Ljoh
+矽	SZjek
+硅	Kve
+磷	Ljin
+硫	Ljov
+氯	Ljok
+氬	HQras
+鉀	KQrap
+鈣	KQar	#Ca calcium 
+鈧	KHaq
+鈦	THar
+釩	Buam
+鉻	KQak
+錳	Mrag
+# 鐵	THeik
+鈷	KQoh
+鎳	NGeet
+# 銅	Deuc
+鋅	Sjin
+鎵	Kra
+鍺	TCjah
+砷	SCjin
+硒	Səj
+溴	HSiovs
+氪	KHək
+銣	NCjo
+鍶	Sjə
+釔	HQxit
+鋯	Kay
+鈮	NRxi
+鉬	Miok
+鍀	Tək
+釕	Lew
+銠	Law
+鈀	Prah
+# 銀	NGxən
+鎘	KQrek
+銦	HQjin
+# 錫	Seek
+銻	THeij
+碲	Tees
+碘	Teed
+氙	Sjen
+銫	SSxək
+# 鋇	Part
+# 鑭	Laz	#La57 lanthanum
+鈰	DCjəh
+鐠	PHoh
+釹	NRxoh
+鉕	PHvah
+釤	SSram
+銪	JXiovh
+釓	Kret
+鋱	THək
+# 鏑	Teek
+鈥	HSvah
+鉺	NCjəh
+銩	Tiu	#Tm 69thulium
+鐿	HQiəs
+鑥	Loh
+# 鉿	KQop
+鉭	THad
+# 鎢	HQox
+錸	Ləj
+鋨	NGa
+銥	HQiəj
+鉑	Bak
+# 黃金	Kxəm
+# 汞	HGeug
+# 澒	HGeug	#汞
+# 鉈	DCjaj
+# 鉛	Jyun
+# 鉍	Pxik
+釙	PHruk
+砹	HQar
+氡	Teuc
+# 鈁	FPuac	#Fr 89 francium
+鐳	Lvoj	#Ra 88 radium
+錒	HQa	#Ac 89 actinium
+釷	THoh	#Th 90 thorium
+# 鏷	Bok	#Pa 91 protactinium
+鈾	Jjov	#U 92 uranium
+錼	Nar	#Np 93 neptunium
+鈈	Puət	#Pu 94 plutonium
+鎇	Mxij	#Am 95 americium
+# 鋦	Kiuk	Cm 96 curium
+錇	Bvoj	#Bk 97 berkelium
+鐦	KHəj	#Cf 98 californium
+鑀	HQər	#Es 99einsteinium
+鎄	HQəj
+鐨	PHuər	#Fm 100fermium
+鍆	Mvon	#
+鍩	Nak	#MD 101 mendelevium
+鐒	Lav	#Lr awrencium 103
+鑪	Lo	#Ru 104 rutherfordium
+# 䤣金虍	Lo	#Rutherfordium
+𨧀	Doh	#Db 105d dubnium
+𨭎	HSiəh	#Sg 106 seaborgium
+𨨏	Pva	#Bh 107 bohrium
+𨭆	HSək	#Hs 108 hassium
+䥑	Mrek	#Mt 109 meitnerium
+鐽	Dat	#Ds 110 darmstadtium
+錀	Lyon	#Rg 1101 roentgenium
+鎶	Ka	#Cn 112 copernicium
+鉩	Neil	#Nh 113 Nihonium 鿭	U+9fed 鈮Nb 41niobium
+鉨	Niəh
 鈇	Puo	#Fl114 Flerovium
-鏌	Mo	#Mc 115 Moscovium
+鏌	Mos	#Mc 115 Moscovium
 鉝	Ljəp	#Lv 116 Livermorium
 鿬	Dein	#Ts 117Teennesine
 鿫	HQoy	#Og118Oganesson
-######
+#####
 ↑	DCjag	80%
 ↓	HZrah	80%
 ←	TSeah	80%
@@ -276,7 +424,8 @@ u	eu
 值	DRxəsk	0%
 值	DRxək	0%
 惪	Tək	0%
-尚	DCjacs	0%
+尚	DCjac	0%
+尚	DCjaq	0%
 兑	Dvart	0%
 悦	Jyut	0%
 鋭	Jyurt	0%
@@ -363,7 +512,6 @@ u	eu
 巔	Tein	0%
 慎	DCjiz	%0
 彐	Kxert	0%
-
 #####
 幷	Pjec	0%
 𠀤	Pjec	0%
@@ -377,18 +525,45 @@ u	eu
 𠌸	Bjeq	0%
 甁	Beec	0%
 並	Beeg	0%
-掽	Breq	#搕掽
-碰	PHreq
-碰	Braq
+𤲒	Beec	0%
+畊	Beec	0%
 䰃	PHreq	0%
 䰃	Brac	0%
 䰃	Pag	0%
-𩮗	Pag
-𩮗	PHreq
+井	TSjeg	0%
+㓝	HGeec	0%
+𢒈	HGeec	0%
+𡌒	HGeec	0%
+耕	KQrec	0%
 # 么	Mək
 么	HQeiv	0%
 麽	Mva
+岊	TSeet	0%	#𡴹
+𡴺	TSeet	0%
+𡴺	DZeet	0%
+𡴼	DZeet	0%
+𡷦	DZeet	0%
+###??訛
+𡤼	Kjet
+孓	Kuot
+𠀔	Kuot
+𥬇	Sjuy
+𦬫	Sjuy
 #####
+厄	NGQvah	0%	#𠨳	NGQvajh
+𠂘	NGQvah	0%
+𢀴	NGQvah	0%
+𡛖	Nvah
+㛂	Nvah
+𢫷	Nvah
+𠂬	NGQvax
+㛂	NGQvah
+掽	Breq	#搕掽
+碰	PHreq
+碰	Braq
+𩮗	Pag
+𩮗	PHreq
+畊	KQaec
 丟	Tiu
 𢨋	Bvət	#誖
 〇	HZwen	#員
@@ -554,7 +729,7 @@ u	eu
 㝔	QHeew
 𦒮	Puəj
 帡	Pjeg
-######常用古 語气詞
+#####常用古 語气詞
 夫	Pa
 无	Ma
 之	Tə
@@ -579,13 +754,12 @@ u	eu
 父	Bah
 母	Məh
 ǀə	TSə
+#####
 ###zyenpheng
 皷	KQoh
 臌	KQoh
 悻	HZeeg
-碳	THaz
 彊	Kiaq
-矽	SZjek
 㮰	Beet
 叼	Tev
 㥛	Kiək
@@ -626,14 +800,12 @@ u	eu
 𩒝	Teed
 趡	DZjey
 疤	Pra
-碲	Tees
 𣜦	Daw
 𪓟	Kəu
 𢻈	TCjes
 殁	Mvot
 蘖	NGxet
 术	ZCwit
-氘	Tav
 溈	Kwe
 讃	TSaz
 𥗸	NRrav
@@ -657,10 +829,8 @@ u	eu
 呲	TSje
 間	Krez
 砸	DZop
-鋰	Ljəh
 𡔣	KHeet
 桉	HQan
-鎳	NGeet
 勾	Kəu
 吿	Kay
 軛	HQrek
@@ -704,7 +874,6 @@ u	eu
 㷸	JXxep
 橛	Kuat
 𣅳	TZxək
-鋁	Ljoh
 嬽	HQwen
 峇	KHop
 㚆	Biok
@@ -780,7 +949,6 @@ u	eu
 扯	TCHjah
 噶	Kat
 衋	HSjək
-鋅	Sxin
 㪾	Krak
 雟	HZve
 𡂐	DZaz
@@ -825,7 +993,6 @@ u	eu
 汨	JXwit
 閠	NCyiz
 𢘆	HZvan
-鎄	HQəj
 郄	KHxak
 𠩧	KHop
 𢺻	Buo
@@ -848,7 +1015,6 @@ u	eu
 兖	Jyed
 酚	PHuən
 𧓉	DZji
-錸	Ləj
 𩇯	Buəj
 㢯	Tvon
 荆	Kxac
@@ -867,13 +1033,13 @@ u	eu
 𩾜	Ljək
 䛈	SCjis
 㻆	HZved
-氮	Daf
 䲽	Tew
 𦙽	San
 𥲩	Kiok
 頸	Keec
 肇	DRxew
 翺	NGav
+# 鍶	Sjə
 刴	Tvas
 𧾢	Kjit
 䇝	TSjem
@@ -921,7 +1087,6 @@ u	eu
 猹	DSra
 敟	Teed
 耥	THag
-鐠	PHoh
 饢	Nac
 揭	Kxet
 蚜	NGra
@@ -950,7 +1115,7 @@ u	eu
 筷	KHfar
 𦩗	DRxib
 臆	HQiək
-𣇗	SCxin
+𣇗	SCjin
 詤	HSvag
 䙃	Dvas
 𩓏	KHyeg
@@ -996,7 +1161,6 @@ u	eu
 擦	TZHret
 掱	Bra
 㷓	TSHeuc
-鈥	HSvah
 𥙯	HZvah
 # 害	HZat
 橯	Lay
@@ -1011,9 +1175,7 @@ u	eu
 𣣠	HZəus
 砳	Lrek
 𧓷	TSjet
-釹	NRxoh
 𤁢	TSat
-鐨	PHuər
 𣠯	SSfan
 𥸭	Kwez
 糯	Nvas
@@ -1044,7 +1206,6 @@ u	eu
 𢨀	DCjək
 䳉	Teuc
 脄	Mər
-釔	HQxit
 𡚁	Bjer
 齇	TZra
 笤	Dev
@@ -1151,9 +1312,7 @@ u	eu
 偬	TSeug
 攢	TSad
 鰭	Gxi
-氫	KHjec
 墍	Gxis
-鐿	HQiəs
 𢎞	HZvoc
 睃	TSyiz
 砈	HQrek
@@ -1161,7 +1320,6 @@ u	eu
 㨃	Tvoj
 𢻥	TSHav
 臃	HQiug
-鈧	KHaq
 𦇲	SCje
 𠛉	KHret
 蒘	NCjo
@@ -1172,7 +1330,6 @@ u	eu
 飬	KHwez
 蟎	Mvad
 輛	Ljag
-銫	SSxək
 囅	TRHxed
 𤑔	NCyet
 咐	Puos
@@ -1230,7 +1387,6 @@ u	eu
 芁	Krav
 髹	HSiov
 俐	Ljis
-鉭	THad
 𩯰	TSjet
 𥃏	Lees
 繶	HQiək
@@ -1242,7 +1398,6 @@ u	eu
 虱	SSxit
 巳	Jjəh
 𧣪	SSraw
-鋱	THək
 𠎝	KHxen
 𥈸	HSuo
 甪	Leuk
@@ -1261,9 +1416,7 @@ u	eu
 竒	Gxe
 廀	Səuh
 豧	PHo
-鉬	Miok
 樘	Dac
-氬	HQras
 届	Krer
 㧄	KHuab
 侴	TRHxovh
@@ -1289,7 +1442,6 @@ u	eu
 僱	Kos
 賛	TSaz
 剸	TCyen
-鉕	PHvah
 縆	Kəq
 孑	Kxet
 嗆	TSHjac
@@ -1375,12 +1527,11 @@ u	eu
 眗	Guo
 榫	Syid
 毪	Miov
-碪	Jxim
+碪	Jjim
 𢉛	TSHeuc
 𡥆	HSay
 𩢏	TRxip
 甩	SSweh
-鋯	Kay
 筻	Kraq
 㯁	Bəj
 噠	Tat
@@ -1398,9 +1549,7 @@ u	eu
 搛	Keef
 𧖛	TRHxih
 鐾	Bees
-銦	HQjin
 飬	Kwez
-錒	HQa
 㩺	Bxih
 𦤼	HQeuk
 薫	HSuəz
@@ -1563,7 +1712,6 @@ u	eu
 毽	Kiaz
 偕	HZrej
 鄼	DZvan
-鎂	Mxih
 𦸌	HZvon
 倍	Bəj
 嗺	TSyo
@@ -1654,7 +1802,6 @@ u	eu
 趔	Ljet
 𠃸	HQiəs
 茌	DSxə
-砷	SCxin
 儻	Tag
 袌	Bay
 𥬰	TZHrek
@@ -1664,12 +1811,10 @@ u	eu
 騘	TSHeuc
 釉	Jjovs
 𥤗	Tag
-碸	Pioc
 𥃩	HQev
 𨢬	TCyet
 䪝	HQwak
 𢦭	Jjək
-溴	HSiovs
 龡	TCHye
 烕	HSwet
 𢅼	Naz
@@ -1710,7 +1855,6 @@ u	eu
 𪄑	Sjok
 繦	Kiag
 咒	TCjovs
-銪	JXiovh
 暭	HZaw
 𢃭	TCjog
 曁	Kiər
@@ -1751,11 +1895,9 @@ u	eu
 嚆	HSrav
 襝	Ljem
 釒	Kxim
-楂	TZra
 吢	TSHjif
 彞	Jji
 𪇆	Deuk
-畊	Beec
 𨬕	Ko
 𠑆	TRHwab
 埼	Gxe
@@ -1768,7 +1910,6 @@ u	eu
 哧	SCjek
 㨊	Jyih
 鋮	DCjec
-氚	TCHyen
 𩗯	HQvoj
 汊	TZHras
 礞	Meuc
@@ -1812,7 +1953,6 @@ u	eu
 馘	Kvok
 𣟗	Jji
 断	Tvaz
-氡	Teuc
 煊	HSuan
 苤	PHxi
 𥈃	Səuh
@@ -1843,12 +1983,10 @@ u	eu
 郉	KHeen
 㜂	Piuc
 辣	Lat
-鍆	Mvon
 嶗	Lav
 暅	Kəq
 篈	Piuc
 𧠵	TSHji
-氕	PHeet
 齣	TCHwit
 極	Giək
 丌	Kiə
@@ -1882,7 +2020,6 @@ u	eu
 𤄕	Jjo
 旣	Kiər
 嘟	To
-砹	HQar
 𡊞	Bxaq
 噘	Kuat
 獗	Kuat
@@ -1903,7 +2040,6 @@ u	eu
 査	DSre
 𡰟	Lye
 檜	HZvar
-鍶	Sjə
 迤	Jjeh
 鎭	TRxiz
 嵙	KHva
@@ -2018,9 +2154,7 @@ u	eu
 塡	Deez
 𣔳	THak
 琽	Toh
-鍩	Nak
 𤯌	KHom
-氪	KHək
 夠	Kəus
 堿	Kreb
 摨	NRrej
@@ -2059,7 +2193,6 @@ u	eu
 撾	HQva
 咁	Kam
 唚	TSHjif
-鈾	Jjov
 慀	HZre
 𩁘	Nan
 抳	NRxeh
@@ -2174,7 +2307,6 @@ u	eu
 烴	THeec
 𠚜	THav
 鐁	Sji
-鋨	NGa
 㮀	HZrem
 倆	Ljah
 宊	THvot
@@ -2200,7 +2332,6 @@ u	eu
 佤	NGfah
 茅	DRxoh
 𧈱	Dək
-鑥	Loh
 鰺	SSxim
 仨	Sap
 擋	Tag
@@ -2222,9 +2353,7 @@ u	eu
 塄	Ləc
 蛘	Jjag
 崪	DZvot
-鈈	Puət
 糍	DZji
-碘	Teed
 𢂤	Lvot
 𧨍	HSeeh
 瑼	TCyen
@@ -2240,7 +2369,6 @@ u	eu
 這	TCjah
 𡙮	DRxit
 𢦵	Miov
-氙	Sjen
 咳	KHək
 廒	NGav
 攛	TSHvan
@@ -2265,7 +2393,6 @@ u	eu
 圡	THoh
 掭	THeef
 𤷾	KHxep
-氖	Nəj
 潨	TCjoc
 𤯎	Kam
 岔	TZHras
@@ -2433,7 +2560,6 @@ u	eu
 𨛲	Neen
 迩	NCjeh
 𪖐	NGiovs
-氟	Puət
 甦	So
 𪊆	DZees
 贋	NGraz
@@ -2502,7 +2628,6 @@ u	eu
 鐾	Bjes
 𥮓	DZeen
 𤍕	Jjovs
-鍀	Tək
 肊	HQiək
 揹	Pvoj
 尢	JXiov
@@ -2520,7 +2645,6 @@ u	eu
 𠳊	KHa
 乭	Dvot
 耱	Mvas
-硒	See
 攩	Tag
 炻	DCjek
 猁	Ljis
@@ -2529,7 +2653,6 @@ u	eu
 浻	HQfag
 塊	KHfer
 齙	Brav
-氧	Jjag
 佬	Law
 祅	HSeen
 踩	TSHəj
@@ -2550,7 +2673,6 @@ u	eu
 蝸	Kva
 嗖	SSxok
 𧼭	SSxok
-釙	PHruk
 㺜	NRxoc
 𤰮	Kves
 氹	Dab
@@ -2614,7 +2736,6 @@ u	eu
 謊	HSvag
 墘	Gxen
 䀌	HSiək
-硼	Bəc
 逺	JXuaz
 㠀	Taw
 韍	Bxis
@@ -2623,7 +2744,6 @@ u	eu
 䅥	Kxet
 噙	Gxim
 𨃤	KHay
-氯	Ljok
 冄	NCjem
 囝	Kxed
 艓	Deep
@@ -2671,7 +2791,6 @@ u	eu
 夯	HSrug
 爂	Pjev
 囱	TSHeuc
-鈰	DCjəh
 鼽	HSvoj
 𡴊	KHruk
 𩑗	HQev
@@ -2683,7 +2802,6 @@ u	eu
 䟽	SSxo
 熗	TSHjaq
 症	TCjeq
-鈮	NRxi
 𢾐	SSraw
 茉	Mvat
 𥃯	HQraw
@@ -2704,7 +2822,6 @@ u	eu
 榕	Jjoc
 塡	Deen
 沬	Mar
-釷	THoh
 歪	HSfe
 𨷺	Kiov
 紕	TCHjəh
@@ -2736,12 +2853,10 @@ u	eu
 銱	Tey
 腺	Sjez
 焗	Giuk
-鎵	Kra
 脪	HSjid
 𧋐	Seek
 孿	Lyen
 噚	SZxim
-氦	HZəj
 噑	HZav
 赩	HSiək
 𨥳	TSee
@@ -2797,7 +2912,6 @@ u	eu
 做	TSos
 苠	Mxin
 𣐈	DSxəh
-錼	Nar
 曁	Kxit
 𡌨	Bje
 傖	TSHac
@@ -2818,13 +2932,11 @@ u	eu
 栘	DCee
 𨶪	Kew
 鶲	HQeuc
-鈣	Kər
 䱎	Kəq
 麭	PHray
 艄	SSrav
 鋶	Ljovh
 岊	TSeet
-錇	Bvoj
 媯	Kwe
 𩇯	Bxis
 鯰	Neem
@@ -2885,19 +2997,16 @@ u	eu
 𪙇	TSHeet
 莞	Kvaz
 㒨	Sjen
-鈉	Nop
 閿	Muən
 𨥳	DZee
 靑	TSHeec
 㯜	SSxin
 㠐	Gxev
-鐒	Lav
 徭	Jjev
 𠣤	Syid
 姢	HQyen
 吜	TRHxovh
 𧩮	Səuh
-磺	HZvac
 煉	Leez
 澟	Ljib
 摔	SSwi
@@ -2908,7 +3017,6 @@ u	eu
 檑	Lvor
 怹	THam
 㛆	Tvas
-羧	Sva
 𥬸	Dvah
 冖	Meek
 𥂥	DZan
@@ -2918,7 +3026,6 @@ u	eu
 蓰	Sjeh
 揍	TSəus
 搞	Kraw
-銣	NCjo
 泐	Ljək
 𧻀	TSHjas
 訐	Kxet
@@ -2942,7 +3049,7 @@ u	eu
 牮	TSeez
 𨛲	Neec
 悻	HZeeg
-珅	SCxin
+珅	SCjin
 不	Pvot
 膪	TRfes
 𢜸	Nav
@@ -2972,7 +3079,6 @@ u	eu
 欏	Lah
 洼	HQfej
 湽	TZxə
-鈣	Kar
 鞲	Kəu
 謆	SCjez
 媠	THvah
@@ -3015,7 +3121,6 @@ u	eu
 駡	Mrah
 囔	Nac
 𥵦	SSraw
-鉺	NCjəh
 乗	ZCjəc
 婊	Pxew
 煛	Kveg
@@ -3029,7 +3134,6 @@ u	eu
 乇	THak
 缸	Kac
 𧎹	TSvar
-銠	Law
 𧈅	SSrek
 庍	HSiəz
 䵤	Teed
@@ -3051,7 +3155,6 @@ u	eu
 耆	Gxi
 圓	SZyen
 謟	THay
-鈦	THar
 彚	JXuər
 鴃	Kvet
 坵	KHiov
@@ -3066,7 +3169,6 @@ u	eu
 喵	Mxev
 羡	SZjez
 澰	Ljeb
-銥	HQiəj
 孓	Kiug
 弥	Mje
 𨽼	Sjis
@@ -3110,7 +3212,6 @@ u	eu
 藳	Kaw
 㢧	Kxov
 䱔	Jjov
-𤲒	Beec
 榅	HQvot
 録	Ljok
 褙	Pvor
@@ -3138,7 +3239,6 @@ u	eu
 磚	TCyen
 𡬲	Daw
 盻	PHrez
-鉑	Bak
 𠆺	HZven
 𥥦	Dob
 𪓵	TSHjov
@@ -3173,7 +3273,6 @@ u	eu
 謒	TSHjac
 䬇	Jyez
 崁	KHof
-釓	Kret
 您	NRxim
 闆	PHred
 緑	Ljok
@@ -3268,10 +3367,10 @@ u	eu
 吖	HQra
 姮	HZəc
 𫰟	HZəc
-###zyenpheng
-#####字典 月部
+#####字典
+###月部
 𣍦	Huaq	#?
-𣍥	Klyit	#?
+𣍥	Kyit	#?
 𣎕	Kfon	#?𥄳 𣎕𩖿 𩹌𩖿
 𣎓	SZyen
 𦛔	SZyen
@@ -3330,9 +3429,11 @@ u	eu
 𣎣	Kew	#皎
 𣎩	HQjep	#月動
 𣎮	Hxe	#曦
-###??
-𡤼	Kjet
-孓	Kuot
-𠀔	Kuot
-𥬇	Sjuy
-𦬫	Sjuy
+###
+查	DSrax	#槎
+楂	DSrax	#苴沮
+渣	TZrax	#沮
+楂	TZrax	#樝
+###
+䊆彈	Giovh Dan
+淜滂	Biəc PHac
