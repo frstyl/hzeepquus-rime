@@ -129,7 +129,7 @@ speller:
     - derive/([A-Z])(viə)v/$1$2/
     - derive/([A-Z])[ji]ə(\w)/$1i$2/ #iə
     - derive/([A-Z])[yu]ə(\w)/$1u$2/ #uə
-    - derive/([A-Z])viə([cgqk])/$1u$2/ #職viəŋ
+    - derive/([A-Z])vi(ə[cgqk])/$1u$2/ #職viəŋ
     - derive/([A-Z])xə([cgqk])/$1ri$2/ #職iəŋ iŋ -v
     - derive/([A-Z]v?)[ij]ə([cgqk])/$1i$2/
 
