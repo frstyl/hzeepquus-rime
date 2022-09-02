@@ -160,36 +160,41 @@ speller:
 
     - derive/Jj/j/
 
-
-
-    - erase/(^|')[hg][jy]/
-    - erase/(^|')H[SZ][jy]/
-    - derive/(^|')SC([jy])(?!$)/$1h$2/	#書
+    # - erase/(^|')[hg][jy]/
+    # - erase/(^|')H[SZ][jy]/
+    - derive/(^|')SC([jy])(?!$)/$1h$2/ #書
     - derive/(^|')ZC([jy])(?!$)/$1g$2/ #船
     - derive/(^|')SZ(?!$)/x/ #邪
 
-    - derive/[FRQ]//
+    - derive/[TK][RC](?!$)/RT/
+    - derive/[DG][RC](?!$)/RD/
+
+    - derive/[FR]//
+    - derive/([KGX])Q/$1/
     - derive/([KGTDJN])C/$1/
-    - derive/((^|')([PBMTDNLKGSJ])(?!$))/\L$1\L/
-    - derive/((^|')(([PTK]|T[SZ]|RT)H)(?!$))/\L$1\L/
-    - derive/(^|')T[SZ](?!$)/ts/
-    - derive/(^|')T[SZ]H(?!$)/tsh/
-    - derive/(^|')D[ZS](?!$)/dz/
-    - derive/(^|')D[ZS](?!$)/z/
+    - derive/(^|')(T[SZ](?!$))/$1S/
+    - derive/(^|')(D[SZ](?!$))/$1Z/
+
+    - derive/((^|')([PBMTDNLKGSJ])(?!$))/\L$1/
+    - derive/((^|')(([PTK]|TS|RT)H)(?!$))/\L$1/
+    - derive/((^|')([SZ]C)(?!$))/\L$1/
+    - derive/((^|')(HQ|NG)(?!$))/\L$1/
+    - derive/(^|')TS(?!$)/ts/
+    - derive/(^|')TSH(?!$)/tsh/
+    - derive/(^|')DZ(?!$)/dz/
+    - derive/(^|')DZ(?!$)/z/
     - derive/(^|')(SZ|ZS)(?!$)/sz/
-    - derive/((^|')([SZ][SC]))(?!$)/\L$1\L/
     - derive/(^|')SS(?!$)/s/  
     - derive/(^|')([XH]Z|HG|ZX)(?!$)/g/
     - derive/(^|')(JX|XQ|X)(?!$)/x/
-    - derive/(^|')NG(?!$)/ng/
+    # - derive/(^|')NG(?!$)/ng/
     - derive/(^|')([XH]S|SX)(?!$)/h/
     # - derive/(^|')([XH]S|SX)(?!$)/hs/
     - derive/(^|')([XH]Z|XQ|HG|ZX)(?!$)/E/
-    - derive/(^|')(ZC)(?!$)/E/
-    - derive/(^|')HQ(?!$)/hq/
+    # - derive/(^|')(ZC)(?!$)/E/
     - derive/(^|')HQ(?!$)/A/
 
-    - derive/(^|')([S]Z)(?!$)/$1\L$2/
+    # - derive/(^|')([S]Z)(?!$)/$1\L$2/
 
     - derive/(^|')PH(?!$)/f/
     - derive/(^|')T[RC]?H(?!$)/r/
