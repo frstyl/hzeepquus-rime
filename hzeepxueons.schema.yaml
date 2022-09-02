@@ -93,6 +93,7 @@ speller:
     - abbrev/([A-Z][jyxw])[aeu]([ndzt])/$1e$2/  #ien
     - abbrev/([A-Z][jyxw])[ioə]([ndzt])/$1i$2/  #iin
     - abbrev/([A-Z][rf])[eiəo]([ndzt])/$1e$2/  #ren
+    - abbrev/([A-Z][rei]?)[au]([mbfp])/$1a$2/ #am ram iam
     - abbrev/([A-Z])[əou]([mbfp])/$1o$2/ #əm
     - abbrev/([A-Z][jx])[aeu]([mbfp])/$1e$2/  #iem
     - abbrev/([A-Z][jx])[ioə]([mbfp])/$1i$2/  #iim
