@@ -149,9 +149,9 @@ speller:
     - derive/([PBM]|PH)u([aeiə])/$1i$2/ 
     - derive/([PBM]|PH)y([aeiə])/$1j$2/ 
     - derive/([PBM]|PH)w([aeiə])/$1x$2/ 
-    - derive/(XQ)v([aeoiə])/$1$2/ #雲母
-    - derive/(XQ)u([aeoiə])/$1i$2/
-    - derive/(XQ)w([aeoiə])/$1x$2/
+    - derive/(XQ|JX)v([aeoiə])/$1$2/ #雲母
+    - derive/(XQ|JX)u([aeoiə])/$1i$2/
+    - derive/(XQ|JX)w([aeoiə])/$1x$2/
 
     - derive/ov/eu/ #皋
     - derive/ə(u)/$1/ #侯
@@ -169,22 +169,22 @@ speller:
     - derive/[TK][RC](?!$)/RT/
     - derive/[DG][RC](?!$)/RD/
 
-    - derive/[FR]//
+    - derive/F//
     - derive/([KGX])Q/$1/
-    - derive/([KGTDJN])C/$1/
-    - derive/(^|')(T[SZ](?!$))/$1S/
-    - derive/(^|')(D[SZ](?!$))/$1Z/
+    # - derive/([KGTDJN])C/$1/
 
     - derive/((^|')([PBMTDNLKGSJ])(?!$))/\L$1/
-    - derive/((^|')(([PTK]|TS|RT)H)(?!$))/\L$1/
+    - derive/((^|')(([PTK]|T[SZ]|RT)H)(?!$))/\L$1/
     - derive/((^|')([SZ]C)(?!$))/\L$1/
     - derive/((^|')(HQ|NG)(?!$))/\L$1/
-    - derive/(^|')TS(?!$)/ts/
-    - derive/(^|')TSH(?!$)/tsh/
-    - derive/(^|')DZ(?!$)/dz/
-    - derive/(^|')DZ(?!$)/z/
+    - derive/(^|')T[SZ](H)(?!$)/ts/
+    - derive/(^|')T[SZ]H(?!$)/tsh/
+    - derive/(^|')D[SZ](?!$)/dz/
+    - derive/(^|')D[SZ](?!$)/z/
     - derive/(^|')(SZ|ZS)(?!$)/sz/
-    - derive/(^|')SS(?!$)/s/  
+    - derive/(^|')SS(?!$)/s/
+    - derive/([KGTDN])C/\L$1/
+    - derive/([TDN])R/\L$1/
     - derive/(^|')([XH]Z|HG|ZX)(?!$)/g/
     - derive/(^|')(JX|XQ|X)(?!$)/x/
     # - derive/(^|')NG(?!$)/ng/
