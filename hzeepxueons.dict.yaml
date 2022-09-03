@@ -1135,7 +1135,7 @@ import_tables:
 𧮉	SXfax
 花	SXfax	#NG-
 華	SXfax	0%
-荂	SXfa	#𠌶 三等變二等
+荂	SXfax	#𠌶 三等變二等
 譁	SXfax
 㕦	HGfas	#吳va
 鋘	HGfax
@@ -1193,12 +1193,12 @@ import_tables:
 ##I 脂2 I ii-∅
 卟	KQeix
 卟	KQHeih
-礼	Leih
-豊	Leih
-體	THeih
-軆	THeih
+體	THeih	#RS R̥
 䪆	THeih
+豊	Leih
 禮	Leih
+礼	Leih	0%
+𠃞	Leih
 𥴡	Leih
 澧	Leih
 醴	Leih
@@ -1223,10 +1223,10 @@ import_tables:
 㙠	HQeix
 䃜	HQeix
 繄	HQeix
+翳	HQeix
 㙠	HQeis
 瞖	HQeis
 繄	HQeis
-翳	HQeix
 翳	HQeis
 蘙	HQeis
 稽	KQeix
@@ -12831,7 +12831,6 @@ import_tables:
 ###-JEM
 㼲	Ljep	#?
 ##JAM
-炎	Jjam	#?補
 嚵	DZjab
 獦	Ljap
 溓	Ljab
@@ -12946,14 +12945,12 @@ import_tables:
 柟	NCjab
 𥬕	NCjab
 髯	NCjaf
-㴸	SCjab
 閃	SCjab
+㴸	SCjab
 閃	SCjaf
 𤍙	SZjam
-剡	DCjab
 覝	Ljam
-淡	Jjab
-剡	Jjab
+剡	DCjab
 䕭	SZjam
 𢸧	SZjam
 㰊	SZjam
@@ -12969,7 +12966,10 @@ import_tables:
 覢	SCjab
 掞	SCjaf
 𤎢	DZjam
+炎	Jjam	#?補
 𪂈	Jjam
+淡	Jjab
+剡	Jjab
 琰	Jjab
 𨁹	Jjab
 棪	Jjab
@@ -12977,15 +12977,36 @@ import_tables:
 䎦	Jjab
 𢴵	Jjaf
 焱	Jjaf
+豓	Jjaf
+𧰚	Jjaf	0%
+𤅿	Jjaf
 豔	Jjaf
 艷	Jjaf
 𡤩	Jjaf
 灩	Jjaf
-灎	Jjaf
-𧰚	Jjaf
-𤅿	Jjaf
+灎	Jjaf	0%
 𠟪	TSHjap
 喦	NCjap	#連符
+㯿	Jjap
+巤	Ljap
+獵	Ljap
+鬣	Ljap
+㲱	Ljap
+躐	Ljap
+䁽	Ljap
+𣋲	Ljap
+擸	Ljap
+儠	Ljap
+犣	Ljap
+䪉	Ljap
+䉭	Ljap
+鱲	Ljap
+𡂏	Ljap
+𠠗	Ljap
+邋	Ljap
+㯿	Ljap
+䜲	Ljap
+䃳	Ljap
 ##JEM
 㰈	Ljeb
 㯬	Ljeb
@@ -17872,10 +17893,10 @@ import_tables:
 䙇	NCyun
 𤲬	NCyun
 瑌	NCyun
-輭	NCyud
 耎	NCyud
 偄	NCyud
 愞	NCyud
+輭	NCyud
 蝡	NCyud
 㮕	NCyud
 䓴	NCyud
