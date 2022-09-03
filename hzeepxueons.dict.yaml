@@ -21,6 +21,7 @@ import_tables:
 倄	JXvəjx
 些	Sajs
 大	Dart	#ts
+亣	Dart	0%	#大
 馱	Dajx
 馱	Dajs
 嚲	Tajh
@@ -8575,6 +8576,7 @@ import_tables:
 浿	PHart
 䟺	Bart
 大	Dart
+亣	Dart
 汏	Dart
 軑	Dart
 釱	Dart
@@ -12531,7 +12533,7 @@ import_tables:
 𪑧	Leep
 㐁	THeef	#?
 䄼	THeeb
-銛	THeeb
+銛	THeeb	#舌
 栝	THeeb
 甛	Deem
 湉	Deem
@@ -13107,6 +13109,7 @@ import_tables:
 崨	DZjep
 踕	DZjep
 誱	DZjep
+銽	Sjem
 銛	Sjem
 暹	Sjem
 夵	Jjeb
@@ -13694,7 +13697,6 @@ import_tables:
 莐	DRxom
 霃	DRxom
 沈	DRxom
-沉	DRxom
 沈	DRxof
 㱽	TRxob
 㓄	TRxof
@@ -14060,7 +14062,7 @@ import_tables:
 暗	HQəf
 罯	HQəp
 唈	HQəp
-##EUM
+##UM
 誩	THof
 譶	Dop
 霅	Sop
@@ -14391,7 +14393,7 @@ import_tables:
 沞	TSop
 䞙	TSop
 韴	DZop
-##O談3
+##OM 談3
 𣛱	Deub
 窞	Deub
 萏	Deub
@@ -14910,55 +14912,58 @@ import_tables:
 䀓	HGvaz
 𤴯	HGvaz
 𠯑	KQvat
-𤯁	KQvat
+𤯁	KQvat	0%
 𢬸	KQvat
 𨓈	KQvat
 𠈲	KQvat
-𣴠	KQvat
-𪁝	KQvat
-桰	KQvat
 𦕾	KQvat
+𣴠	KQvat
 𣿛	KQvat
-銽	KQvat
+桰	KQvat
+𪁝	KQvat
 𩒲	KQvat
 𩩎	KQvat
+銽	KQvat
 𢤌	KQvat
 𦯚	KQvat
 䯺	KQvat
-𨓈	KQHvat
-𨶖	KQHvat
-𣴠	HGvat
-𥞸	HGvat
-𥙱	HGvat
-𡜶	HGvat
-髺	KQvat
-栝	KQvat
-鴰	KQvat
+# 舌	KQvat
+括	KQvat
 适	KQvat
 佸	KQvat
+聒	KQvat
+活	KQvat
+𣽅	KQvat
+栝	KQvat
+鴰	KQvat
+頢	KQvat
 䯏	KQvat
 筈	KQvat
-䒷	KQvat
-𦸈	KQvat
+銛	KQvat
 懖	KQvat
 𦗾	KQvat
-聒	KQvat
-𣽅	KQvat
-活	KQvat
+䒷	KQvat
+𦸈	KQvat
 萿	KQvat
-括	KQvat
-銛	KQvat
 葀	KQvat
-頢	KQvat
+髺	KQvat
+𨓈	KQHvat
+𨶖	KQHvat
 蛞	KQHvat
 筈	KQHvat
 适	KQHvat
 䟯	KQHvat
 𤫵	KQHvat
 闊	KQHvat
+𣁳	HSvat
+𣴠	HGvat
+𣿛	HGvat
+𥙱	HGvat
+𠈲	HGvat
+𥞸	HGvat
+𡜶	HGvat
 活	HGvat
 𣽅	HGvat
-𣁳	HSvat
 䄆	HGvat
 佸	HGvat
 秳	HGvat
@@ -15712,14 +15717,14 @@ import_tables:
 𠜜	KQfat
 𪁝	KQfat
 𥙱	KQfat
-𠯑	HGfat
-𡜶	HGfat
-𠳂	HGfat
-𩒲	HGfat
 刮	KQfat
 鴰	KQfat
 䄆	KQfat
 趏	KQfat
+𠯑	HGfat
+𡜶	HGfat
+𠳂	HGfat
+𩒲	HGfat
 舌	HGfat
 𦧠	HGfat
 敌	HGfat	#盡
@@ -18508,10 +18513,10 @@ import_tables:
 𦕑	TCjəd	#聄
 𩻜	Ljən
 ##JIN
-綼	Bjit
-觱	Pjit
 牝	Bjid
 玭	Bjin	#蠙
+綼	Bjit
+觱	Pjit
 # 比	Bjit	#-k
 # 吡	Bjit
 # 坒	Bjit
@@ -22622,6 +22627,7 @@ import_tables:
 頩	PHeec
 姘	PHeec
 頩	PHeeg
+屏	Beec
 瓶	Beec
 缾	Beec
 蛢	Beec
@@ -22632,13 +22638,13 @@ import_tables:
 𤳊	Beec
 洴	Beec
 蓱	Beec
-屏	Beec
 竮	Beec
 箳	Beec
 鮩	Beeg
 併	Beeg
 竮	PHeec
 竝	Beeg
+𠀤	Beeg
 㞟	Teeg
 奠	Teeq
 丁	Teec
@@ -23670,8 +23676,8 @@ import_tables:
 埻	KQfek
 𢷾	SSfek
 ###JEŊ
-栟	Pjec
 并	Pjec
+栟	Pjec
 餅	Pjeg
 鉼	Pjeg
 併	Pjeg

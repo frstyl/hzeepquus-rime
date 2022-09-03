@@ -93,7 +93,7 @@ speller:
     - abbrev/([A-Z][jyxw])[aeu]([ndzt])/$1e$2/  #ien
     - abbrev/([A-Z][jyxw])[ioə]([ndzt])/$1i$2/  #iin
     - abbrev/([A-Z][rf])[eiəo]([ndzt])/$1e$2/  #ren
-    - abbrev/([A-Z][rei]?)[au]([mbfp])/$1a$2/ #am ram iam
+    - abbrev/([A-Z][rei])[au]([mbfp])/$1a$2/ #am ram iam
     - abbrev/([A-Z])[əou]([mbfp])/$1o$2/ #əm
     - abbrev/([A-Z][jx])[aeu]([mbfp])/$1e$2/  #iem
     - abbrev/([A-Z][jx])[ioə]([mbfp])/$1i$2/  #iim
@@ -104,7 +104,7 @@ speller:
     - abbrev/([A-Z][ijx]?)[aeu]v([cgqk])/$1a$2/ #iavk
     - abbrev/([A-Z][ev]?)[eiə]v([cgqk])/$1e$2/ #evk
     - abbrev/([A-Z][r])[eoiə]v([cgqk])/$1e$2/ #revk
-    - abbrev/([A-Z][e]?)[u]v([cgqk])/$1u$2/ #uvk
+    - abbrev/([A-Z][e])[u]v([cgqk])/$1u$2/ #uvk
     - abbrev/([A-Z][r])[aeu]v([cgqk])/$1u$2/ #ruvk
     - abbrev/([A-Z][r])[ouə]v([cgqk])/$1u$2/ #ovk
     - abbrev/([A-Z][ijx])[ə]v([cgqk])/$1ə$2/ #iəvk
@@ -166,15 +166,27 @@ speller:
     - derive/(^|')ZC([jy])(?!$)/$1g$2/ #船
     - derive/(^|')(SZ|ZS)(?!$)/x/ #邪
 
+    - derive/(^|')PH(?!$)/f/
+    - derive/(^|')T[RC]?H(?!$)/r/
+    - derive/(^|')T[SZ]H(?!$)/v/
+    - derive/(^|')T[SZ](?!$)/c/
+    - derive/(^|')T[SZ]H(?!$)/ch/
+    - derive/(^|')K[QC]?H(?!$)/y/
+    - derive/(^|')NGQ?(?!$)/w/
+    - derive/(^|')HQ(?!$)/q/
+
     - derive/(^|')[TK][RC](?!$)/RT/
     - derive/(^|')[DG][RC](?!$)/RD/
 
     - derive/F//
     - derive/([KGX])Q/$1/
     # - derive/([KGTDJN])C/$1/
+    - derive/(^|')(([KGTDN])C)(?!$)/\L$3/
+    - derive/(^|')(([TDN])R)(?!$)/\L$3/
 
     - derive/((^|')([PBMTDNLKGSJ])(?!$))/\L$3/
-    - derive/((^|')(([PTK]|T[SZ]|RT)H)(?!$))/\L$3/
+    # - derive/((^|')(([PTK]|T[SZ]|RT)H)(?!$))/\L$3/
+    - derive/([ptk]|ts|RT)H/$1h/
     - derive/((^|')([SZ]C)(?!$))/\L$3/
     - derive/((^|')(HQ|NG)(?!$))/\L$3/
     - derive/(^|')T[SZ](H?)(?!$)/ts\L$2/
@@ -183,8 +195,6 @@ speller:
     - derive/(^|')D[SZ](?!$)/z/
     - derive/(^|')(SZ|ZS)(?!$)/sz/
     - derive/(^|')SS(?!$)/s/
-    - derive/(^|')(([KGTDN])C(?!$))/\L$3/
-    - derive/(^|')(([TDN])R(?!$))/\L$3/
     - derive/(^|')([XH]Z|HG|ZX)(?!$)/g/
     - derive/(^|')(JX|XQ|X)(?!$)/x/
     # - derive/(^|')NG(?!$)/ng/
@@ -196,14 +206,6 @@ speller:
 
     # - derive/(^|')([S]Z)(?!$)/$1\L$2/
 
-    - derive/(^|')PH(?!$)/f/
-    - derive/(^|')T[RC]?H(?!$)/r/
-    - derive/(^|')T[SZ]H(?!$)/v/
-    - derive/(^|')T[SZ](?!$)/c/
-    - derive/(^|')T[SZ]H(?!$)/ch/
-    - derive/(^|')KQ?H(?!$)/y/
-    - derive/(^|')NGQ?(?!$)/w/
-    - derive/(^|')HQ(?!$)/q/
 
     - derive/(\w[sry])[ptk]$/$1/
     # - derive/([aeiouə])v([k])$/$1$2/

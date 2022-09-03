@@ -634,6 +634,7 @@ u	eu
 圏	KHwen	%0
 劵	KHuuz	0%
 麫	Meez	%0
+沉	DRxom	0%
 #####
 邢	HGeec	0%
 豜	KQeen	0%
@@ -642,10 +643,11 @@ u	eu
 訮	THeen	0%
 研	NGQeen	0%
 研	NGQeez	0%
-幷	Pjec	0%
-𠀤	Pjec	0%
 𢆙	Pjec	0%
+幷	Pjec	0%
 幷	Pjeq	0%
+倂	Beeg	0%
+倂	Pjeg	0%
 倂	Pjeq	0%
 餠	Pjeg	0%
 帲	Pjeg	0%
@@ -657,9 +659,13 @@ u	eu
 甁	Beec	0%
 𤲒	Beec	0%
 並	Beeg	0%
+傡	Breq
+傡	Breg
+併	Breg
 䰃	PHreq	0%
 䰃	Brac	0%
 䰃	Pag	0%
+𥩵	Beec
 畊	Beec	0%
 井	TSjeg	0%
 㓝	HGeec	0%
@@ -696,6 +702,10 @@ u	eu
 厄	NGQvah	0%	#𠨳	NGQvajh
 𠂘	NGQvah	0%
 𢀴	NGQvah	0%
+竒	Gxaj	0%
+竒	Kxaj	0%
+亣	THat	0%	#謬
+乆	KQviəvh	0%
 #####
 鰮	HQvon
 䛼	HSweh
@@ -840,16 +850,14 @@ u	eu
 𣐺	HZeəb
 朩	PHjiz
 𢆎	NRxep
-亣	THeat
 𦣞	Jjəx
 # 珡	Gxim
-乁	Jjex
-𠂆	Jjert
+# 乁	Jjex
+# 𠂆	Jjert
 𠣃	HZjag
 呆	Peaw
 𠈃	Peaw
 𤓽	Peaw
-𠀤	Beeg
 㪅	Kraq
 㳤	DCjok
 𣻪	DCjok
@@ -861,16 +869,15 @@ u	eu
 𣎵	PHfes	#?
 𤛉	HZvart
 𩎲	HZrat
-𦥙	Jjert
-𤦥	Jjert
-玴	Jjert
-泄	Jjert
-疶	Jjert
-𦐕	Jjert
-怈	Jjert
-𢖪	Jjert
+# 𦥙	Jjert
+# 𤦥	Jjert
+# 玴	Jjert
+# 泄	Jjert
+# 疶	Jjert
+# 𦐕	Jjert
+# 怈	Jjert
+# 𢖪	Jjert
 覅	Mjevs	#勿要
-乆	KQviəvh
 𦧿	Ljin
 𪆞	Ljin
 亃	Ljid
@@ -1569,7 +1576,6 @@ u	eu
 囡	Nom
 賖	SCja
 豿	HSruk
-竒	Gxe
 廀	Səuh
 豧	PHo
 樘	Dac
@@ -2289,7 +2295,6 @@ u	eu
 捱	NGre
 貟	JXwen
 薏	HQiək
-竒	Kxe
 頔	KHyeg
 餵	HQuər
 怎	TZxib
@@ -2502,7 +2507,6 @@ u	eu
 𩺽	Bruk
 操	Səuh
 賔	Pjin
-併	Breg
 詤	HSuag
 𡙮	DRxit
 𢦵	Miov
@@ -2638,14 +2642,12 @@ u	eu
 趕	Kad
 鮰	HZvoj
 𧀆	Təq
-傡	Breq
 𠋢	Səuh
 熇	KHay
 氌	Loh
 堍	THos
 欗	Lan
 嵳	DZa
-傡	Breg
 鍃	HSvot
 𥈔	HQxez
 湧	Jjog
