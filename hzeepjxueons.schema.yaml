@@ -175,8 +175,14 @@ speller:
     - derive/(^|')NGQ?(?!$)/w/
     - derive/(^|')HQ(?!$)/q/
 
-    - derive/(^|')[TK][RC](?!$)/RT/
-    - derive/(^|')[DG][RC](?!$)/RD/
+    - derive/(^|')[TK][RC](?!$)/TSR/
+    - derive/(^|')[DG][RC](H?)(?!$)/DZR$1/
+    - derive/(^|')S[SC](?!$)/SR/
+    - derive/(^|')Z[SC](?!$)/ZR/
+    - derive/(^|')TSR(?!$)/rt/
+    - derive/(^|')DZR(?!$)/rd/
+    - derive/(^|')SR(?!$)/rs/
+    - derive/(^|')ZR(?!$)/rz/
 
     - derive/F//
     - derive/([KGX])Q/$1/
@@ -186,7 +192,7 @@ speller:
 
     - derive/((^|')([PBMTDNLKGSJX])(?!$))/\L$3/
     # - derive/((^|')(([PTK]|T[SZ]|RT)H)(?!$))/\L$3/
-    - derive/([ptk]|ts|RT)H/$1h/
+    - derive/([ptk]|ts|TSR)H/$1h/
     - derive/((^|')([SZ]C)(?!$))/\L$3/
     - derive/((^|')(HQ|NG)(?!$))/\L$3/
     - derive/(^|')T[SZ](H?)(?!$)/ts\L$2/
