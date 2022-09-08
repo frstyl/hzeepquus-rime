@@ -151,10 +151,11 @@ speller:
     - derive/([PBM]|PH)u([aeiə])/$1i$2/ 
     - derive/([PBM]|PH)y([aeiə])/$1j$2/ 
     - derive/([PBM]|PH)w([aeiə])/$1x$2/ 
-    - derive/(XQ|JX)u([aeoiə])/$1$2/ #雲母
     # - derive/(XQ|JX)u([aeoiə])/$1i$2/
     - derive/(XQ|JX)w([aeoiə])/$1x$2/
     - derive/Jj(?!$)/j/
+    - derive/(JX)u(?!$)/x/ #雲母
+    # - derive/(XQ)v/x/ #雲母
 
 
 
@@ -165,6 +166,7 @@ speller:
     - derive/(^|')SC([jy])(?!$)/$1h$2/ #書
     - derive/(^|')ZC([jy])(?!$)/$1g$2/ #船
     - derive/(^|')(SZ|ZS)(?!$)/x/ #邪
+    - abbrev/(^|')(HG)(?!$)/x/ #邪
 
     - derive/(^|')F?PH(?!$)/f/
     - derive/(^|')T[RC]?H(?!$)/r/
@@ -204,9 +206,9 @@ speller:
     - derive/(^|')(HG)(?!$)/g/
     - derive/(^|')(JX|XQ|X|[XH]Z|ZX)(?!$)/x/
     # - derive/(^|')NG(?!$)/ng/
-    - derive/(^|')([XH]S|SX)(?!$)/h/
+    - derive/(^|')([XH]S|SX|H)(?!$)/h/
     # - derive/(^|')([XH]S|SX)(?!$)/hs/
-    - derive/(^|')([XH]Z|XQ|HG|ZX)(?!$)/E/
+    - derive/(^|')([XH]Z|ZX|XQ|HG)(?!$)/E/
     # - derive/(^|')(ZC)(?!$)/E/
     - derive/(^|')HQ(?!$)/A/
 
@@ -214,13 +216,20 @@ speller:
 
 
     - derive/(\w[sry])[ptk]$/$1/
+    - derive/\wv(k)$/$1/
     # - derive/([aeiouə])v([k])$/$1$2/
     - derive/([aeiouə])x$/$1/
     - abbrev/([aeiouə])j$/$1/
     - derive/(\w)vx$/$1v/
     - derive/(\w)vh$/$1w/
     - derive/(\w)vs$/$1y/
-    - derive/(\w)h$/$1A/
+    - derive/(\w)c$/$1ng/
+    - derive/(\w)g$/$1ngh/
+    - derive/(\w)q$/$1ngs/
+    - derive/(\w)b$/$1mh/
+    - derive/(\w)f$/$1ms/
+    - derive/(\w)d$/$1nh/
+    - derive/(\w)z$/$1ns/
     - abbrev/(\w)[rs]([ptk])/$/$1r/ # 韻尾-聲調
     - abbrev/(\w)(r([ptk])?)$/$1s/
     - abbrev/([A-Z]v?ə)x$/$1j/
@@ -235,20 +244,6 @@ speller:
 # 鈍音 ([PTK]H?|[BDG]|F([PB]|PH)|H[SZGQ]|[SZ]X|XQ|JX|[M]F?|NG)
 # 銳音 ([TDNSZKG][C]|[TDN][R]|[TDSNLJ]|TH|[TK]H[CR]||SZ|[TD][SZ]H?|[SZ]S)
 # 銳音 (([TK]H?|[NSZDG][C])|([T]H?|[DN][R])|([TDSNLJ]|SZ|TH)|([T][SZ]H?|[D][SZ])|[SZ]S)
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-  
 
     - abbrev/^([a-z]).+$/$1/ #首字母
 
