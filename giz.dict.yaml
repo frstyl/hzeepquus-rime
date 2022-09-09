@@ -1,7 +1,7 @@
 #---
 name: giz
 version: "2022.1.15"
-sort: by_weight
+sort: original
 use_preset_vocabulary: true
 import_tables:
 ...
@@ -276,41 +276,90 @@ u	eu
 杧	Mac
 桉	HQan
 砼	DZyun	#㒰 concrete
+砼	Deuc
 ###物化
 熵	SCjac
 焓	HGəm
 㶲	Jjuq
 ###
-脲	Neeyk
-肽	THar
-䏓	NGuun	#肉元 proton
-氰	TSHeec	#靑 cyanogen
-甙	Dəs	#代𤮼
-伙	Hvah
-咪	Meex
-啶	Deeq
-嘧	Mxit
-酶	Mvəx
-銨	HQad
-胩	KHrah
-喹	KHve
-# 吖	HQra
-###
 烴	THjec	#CH hydrocarbon
-羰	THjag	#CO carbonyl 
+烴	THeec
 羥	KHiag	#OH hydroxyl
 烷	HZvun
 烯	Hiəj
 炔	KHyet
 羧	Sva
 羧	Sjag	#carboxyl
+酮	Deung
+酚	PHuən
+醚	Mei
+酯	KCjih
+醛	DZyen
 苯	Been	#benzene
 ⌬	Been
+蒽	HQən
 萘	Nar
-磺	HGvac	#sulphur
+# 薁	HQiok
+萜	THeep
+酐	Kan
+𨫬	Kan
 酰	Sən	#acyl
+# 磺	HGvac	#sulphur
+苄	Bxez
+肟	HQvos
+肼	TSjeg
+腈	TSjec
+胺	HQaz
+膦	Ljiz
+胂	SCjiz
+腙	TSeuc
+脲	Neeyk
+胍	Kfa
+氰	TSHeec	#靑 cyanogen
+氰	DZjec
 碸	Pioc	#sulfone
-鎓	HQeuc	# onium
+氨	HQan
+䏟	Beit
+䏲	THeij
+# 鎓	HQeuc	# onium
+鏻	Ljən
+銨	HQad
+鋞	KHjec
+鋶	Ljovh
+⿰金西	səj
+𲇊	səj
+錆	TSHeec
+鉘	FPuət
+# 錄	Ljuk
+𲇙	Hiovs
+⿰金臭	Hiovs
+錪	Teed
+###
+肽	THar
+䏓	NGuun	#肉元 proton
+# 苷	KQam
+甙	Dəs	#代𤮼
+# 嘌	FPHjev
+# 呤	Leec
+咪	Meex
+噻	Səj
+# 吡	Bjit
+脎	SSret
+脎	Sas
+啶	Deeq
+嘧	Mxit
+酶	Mvəx
+胩	KHrah
+喹	KHve
+啉	Ljəm
+唑	DZvas
+嗪	DZjin
+咯	Kak
+哚	Tvah
+吲	Jjid
+# 吖	HQra
+# 呋	FPuox
+# 喃	NRrom
 ###
 輕鋰鈉鉀銣銫鈁	TCyuh DZeuk
 鈹鎂鈣鍶鋇镭	TCyuh DZeuk
@@ -348,15 +397,15 @@ u	eu
 硫	Ljov
 氯	Ljok
 氬	HQras
-鉀	KQrap
-鈣	KQar	#Ca calcium 
+鉀	Krap
+鈣	Kar	#Ca calcium 
 鈧	KHaq
 鈦	THar
 釩	Buam
-鉻	KQak
+鉻	Kak
 錳	Mrag
 # 鐵	THeik
-鈷	KQoh
+鈷	Koh
 鎳	NGeet
 # 銅	Deuc
 鋅	Sjin
@@ -377,7 +426,7 @@ u	eu
 銠	Low	# rhodium
 鈀	Prah
 # 銀	NGxən
-鎘	KQrek
+鎘	Krek
 銦	HQjin
 # 錫	Seek
 銻	THeij
@@ -392,7 +441,7 @@ u	eu
 釹	NRxoh
 鉕	PHvah
 釤	SSram
-銪	JXiovh
+銪	JXiəvh
 釓	Kret
 鋱	THək
 # 鏑	Teek
@@ -401,7 +450,7 @@ u	eu
 銩	Tiu	#Tm 69thulium
 鐿	HQiəs
 鑥	Loh
-# 鉿	KQop
+# 鉿	Kop
 鉭	THad
 # 鎢	HQox
 錸	Ləj
@@ -422,7 +471,7 @@ u	eu
 錒	HQa	#Ac 89 actinium
 釷	THoh	#Th 90 thorium
 # 鏷	Bok	#Pa 91 protactinium
-鈾	Jjov	#U 92 uranium
+鈾	Jjəv	#U 92 uranium
 錼	Nar	#Np 93 neptunium
 鈈	Puət	#Pu 94 plutonium
 鎇	Mxij	#Am 95 americium
@@ -454,23 +503,25 @@ u	eu
 鿫	HQoy	#Og118Oganesson
 ##
 氦	Həl	#He helium
+###
+腺	Sjez
 #####
-↑	DCjag	80%
-↓	HGrah	80%
-←	TSajh	80%
-→	JXviəvs	80%
-∩	Krev	80%
-∪	Pjeq	80%
-∈	DCjuk	80%
-∈	TCjuk	80%
-⊆	HGəm	80%
-∀	DZyun	80%
-∃	JXiəw	80%
-∄	Muox	80%
-∅	KHeuc	80%
-　	KHeuc	80%
-∫	TSjek	80%
-✓	Kəux	80%
+↑	DCjag
+↓	HGrah
+←	TSajh
+→	JXviəvs
+∩	Krev
+∪	Pjeq
+∈	DCjuk
+∈	TCjuk
+⊆	HGəm
+∀	DZyun
+∃	JXiəw
+∄	Muox
+∅	KHeuc
+　	KHeuc
+∫	TSjek
+✓	Kəux
 #####
 刋	KQHan	0%
 呑	THən	0%
@@ -527,7 +578,7 @@ u	eu
 汙	HQvox	0%
 汚	HQvox	0%
 坙	KQeec	0%
-髙	Kav	0%
+髙	KQav	0%
 帯	Tart	0%
 媫	TSjep	0%
 毎	Mveoh	0%
@@ -736,6 +787,7 @@ u	eu
 𡴼	DZeet	0%
 𡷦	DZeet	0%
 ###??訛
+𩓓	KQəd	0%
 尢	JXiov	0%
 𣽎	KQeuv	0%
 𤯌	KHom	0%
@@ -744,6 +796,7 @@ u	eu
 𤯎	KHom	0%
 頽	Dvoj	0%
 舎	SCjas	0%
+舎	SCjah	0%
 𤓰	Kfax	0%
 臯	KQeuv	0%
 𡑧	HGrat	0%
@@ -782,6 +835,12 @@ u	eu
 𩠞	Jjəx	0%
 𩠝	Jjəx	0%
 ###隸定
+棁	THvat	0%
+棁	THvot	0%
+𠕓	KQHruk
+𡶫	NGQeet	0%
+䫀	Teed	0%	#?
+䫀	KQəd	0%
 𥎨	SCjil	0%
 𡗛	SCjil	0%
 𠓡	SCjil	0%
@@ -802,6 +861,11 @@ u	eu
 揾	HQuod	0%
 揾	HQvoz	0%
 揾	HQvot	0%
+緼	HQuən	0%
+緼	HQuəd	0%
+緼	HQvon	0%
+緼	HQuəz	0%
+蕰	HQvon	0%
 𨙂	Jjəv	0%
 繇	Jjəv	0%
 鎮	TRxin	0%
@@ -813,7 +877,8 @@ u	eu
 橰	KQeuv	0%
 𦺆	KQeuv	0%
 𧢌	KQeuv	0%
-𦟞	Hev	0%
+𧯌	Heuvx	0%
+𦟞	Heuvx	0%
 𡠖	HGeuvs	0%
 噑	HGeuvx	0%
 獋	HGeuvx	0%
@@ -834,6 +899,8 @@ u	eu
 𨷚	PHjiz	0%
 卄	Kiuc
 㮀	HGrom	0%	#㮭
+䏍	HQvez	0%
+㳙	Kven	0%
 䳌	Kven	0%
 𦮌	Kven	0%
 㻆	HGved	0%
@@ -892,6 +959,44 @@ u	eu
 旮	Kra
 旯	Lra
 ###俗 同
+匆	TSHeuc
+怱	TSHeuc
+葱	TSHeuc
+楤	TSHeuc
+㷓	TSHeuc
+𨣭	TSHeuc
+繱	TSHeuc
+𢉛	TSHeuc
+聦	TSHeuc
+𨍉	TSHeuc
+騘	TSHeuc
+𤧚	TSHeuc
+䗓	TSHeuc
+愡	TSHeuq
+鍯	TSHeuc
+𧩪	TSHeuq
+偬	TSeuq
+偬	TSeug
+緫	TSeug
+惣	TSeug
+𩮀	TSeuc
+揔	TSeug
+𩮀	TSeug
+㷓	TSeug
+𢉛	TSeug
+𥳺	Seug
+檧	Seug
+檧	Seuc
+憽	Seuc
+𢝰	TSeug	0%
+𤕣	Kwəx	0%
+狶	Hiəj	0%
+仨	Sam
+𦌻	Syud
+蘯	Dag	0%
+飡	TSHan	0%
+享	Hiag
+伙	Hvah
 胚	PHvəx
 㚰	PHvəx
 㝔	QHeew
@@ -962,9 +1067,9 @@ u	eu
 ⿰禾費	FPHjis
 歪	Hfaj	#竵
 歪	HQfoj	#崴
-屌	Təw
+屌	Təw	0%
 屄	Pji
-睾	KQeuv
+睾	KQeuv	0%
 肏	TSHay
 术	ZCyot
 术	DRwot
@@ -1028,7 +1133,13 @@ u	eu
 ##
 銲	HGaz
 洂	Jjak
+###
+䳗	NGQajx
+䳘	NGQajx
+鵞	NGQajx
+𨿍	NGQajx
 ###誤
+亘	Kəq	0%
 恒	HGəc	0%
 乚	HQiəd	0%
 卮	TCjex	0%
@@ -1057,6 +1168,7 @@ u	eu
 凷	KHfer
 𠄞	DCjag
 𠄟	HGrah
+𠄠	DCjag	0%
 𠡿	Pxag
 𥆞	HQiaz
 𥆞	HQwez
@@ -1079,8 +1191,8 @@ u	eu
 #𢻫	Jjes
 値	DRxək
 暖	HSuas
-幵	Keex
-開	KHeeh
+# 幵	Keex
+# 開	KHeeh
 纔	DSaf
 # 𠄭	Kəq
 # 㮓	Kəq
@@ -1180,6 +1292,8 @@ u	eu
 帡	Pjeg
 体	Bvəd
 不	Pvət	0%
+𠤪	HQjik
+𢾲	NRrevk
 #####
 乄	U	#0x4e44
 𠄷	DSeij	0%	#20137齊
@@ -1201,6 +1315,7 @@ u	eu
 𭍻	DSvas	0%	#0x2d37b坐
 #####字典
 ###部
+丷	Pret
 亠	Dəu
 刂	Tav
 忄	Sjəm
@@ -1223,21 +1338,39 @@ u	eu
 耂	Leuvh
 礻	ZCjir
 訁	NGian
+丬	DZjac
 牜 	NGQviəvx
+犭
+###金
+鉘	Puət
+鎓	HQeuc
+鋞	HGec
 ###
 𤯍	HGam
 𤯍	Dom
 𤯍	Kop
-###
+###山
 嵓	NGQrəm	0%
-###
+###水
 㶔	Brer
-###
+###肉
+䏲	THeij
+###木
+𣓖	KQeex
+查	DSrax	#槎
+楂	DSrax	#苴沮
+渣	TZrax	#沮
+楂	TZrax	#樝
+###石
+磺	HGvac
+###爿
 𤖤	Bxəsk	0%
-###
+###手
 𢯾	May
 㩉	Hxip
-###
+###人
+优	JXviəvx
+###攴
 敥	Jjef
 敼	Hiəh
 敧	Kie
@@ -1327,11 +1460,6 @@ u	eu
 𣎩	HQjep	#月動
 𣎮	Hxe	#曦
 ###
-查	DSrax	#槎
-楂	DSrax	#苴沮
-渣	TZrax	#沮
-楂	TZrax	#樝
-###
 䊆彈	Giovh Dan
 淜滂	Biəc PHac
 ###zyenpheng
@@ -1400,7 +1528,6 @@ u	eu
 𣀧	Sad
 濩	HQwak
 灙	Tag
-楤	TSHeuc
 𥰥	Heeh
 𤰞	Pje
 擃	NRrug
@@ -1491,7 +1618,6 @@ u	eu
 𦳯	JXwit
 鮃	Bxac
 党	Tag
-噻	Səj
 齠	Dev
 𣩅	KHaw
 㥷	HQees
@@ -1578,7 +1704,6 @@ u	eu
 嘀	Teek
 𨇨	Seet
 兖	Jyed
-酚	PHuən
 𧓉	DZji
 𩇯	Buəj
 㢯	Tvon
@@ -1628,14 +1753,11 @@ u	eu
 𣤖	THees
 鵔	Syiz
 𦺩	Kxak
-憶	HQiək
-脎	SSret
 眂	DCjis
 齔	TZHxid
 栒	Syid
 娼	TCHjac
 猹	DSra
-敟	Teed
 耥	THag
 饢	Nac
 揭	Kxet
@@ -1664,7 +1786,6 @@ u	eu
 碴	TZra
 筷	KHfar
 𦩗	DRxib
-臆	HQiək
 𣇗	SCjin
 䙃	Dvas
 𩓏	KHyeg
@@ -1697,10 +1818,8 @@ u	eu
 䒒	Tev
 𧮸	Hak
 蠼	Kuak
-偬	TSeuq
 擦	TZHret
 掱	Bra
-㷓	TSHeuc
 橯	Lay
 撇	PHeet
 𦥝	Jjew
@@ -1723,7 +1842,6 @@ u	eu
 呃	HQrek
 讏	JXwer
 奶	NRreh
-檧	Seug
 堽	Kac
 螼	KHxiz
 恝	Kret
@@ -1744,14 +1862,12 @@ u	eu
 豣	Keen
 𣀧	Saz
 摀	HQoh
-酯	TCjih
 蕰	HQuəz
 騙	PHjez
 # 悈	Kiək
 喱	Ljə
 掮	Gxen
 碈	Mxin
-酰	Seen
 𧵏	SCjeb
 嫢	TSje
 墚	Ljac
@@ -1806,19 +1922,16 @@ u	eu
 烹	PHrac
 𣓌	Giovh
 㟪	HQuəj
-𨣭	TSHeuc
 槩	Kər
 𪃯	Mxin
 𧂗	Dom
 戳	TRHruk
 𪀩	KHiə
 曶	Hvot
-檧	Seuc
 𢕶	HQiov
 爸	Bah
 䎰	DZak
 痺	Pje
-𦌻	Syed
 𥮚	Saz
 隂	HQxim
 𨲂	New
@@ -1827,13 +1940,11 @@ u	eu
 叁	Sam
 𦙼	TSHje
 𡋡	JXuan
-偬	TSeug
 攢	TSad
 鰭	Gxi
 墍	Gxis
 睃	TSyiz
 砈	HQrek
-苄	Bxez
 㨃	Tvoj
 𢻥	TSHav
 臃	HQiug
@@ -1848,7 +1959,6 @@ u	eu
 囅	TRHxed
 𤑔	NCyet
 咐	Puos
-緫	TSeug
 儘	TSjid
 粧	TZxac
 𥲃	KHəus
@@ -1860,18 +1970,15 @@ u	eu
 𩃢	SSrem
 錩	TCHjac
 蹰	DRwo
-繱	TSHeuc
 鸃	NGxe
 𥋏	TCjək
 汽	KHiər
-巳	Jjəs
 朊	NGuad	#月
 嘀	TRrek
 㑰	Jjaq
 擀	Kad
 擭	HQwak
 鋣	Jja
-惣	TSeug
 筘	KHəus
 𦤶	TRxis
 鑚	TSvaz
@@ -1880,12 +1987,10 @@ u	eu
 瞇	Mjeh
 䮟	SSxov
 眫	PHvaz
-舎	SCjah
 嗵	THeuc
 糰	Dvan
 𧨫	Hraq
 胬	Noh
-𩍖	HQiək
 擟	Mje
 𩾳	Bxip
 𪓙	DRxev
@@ -1898,16 +2003,14 @@ u	eu
 俐	Ljis
 𩯰	TSjet
 𥃏	Lees
-繶	HQiək
 𦸜	TSəj
 伕	Puo
 𥎞	TSvad
 隝	Tew
 虱	SSxit
-巳	Jjəh
 𧣪	SSraw
 𠎝	KHxen
-𥈸	Huo
+# 𥈸	Huo
 甪	Leuk
 鼥	Bvat
 鋬	PHraz
@@ -1955,7 +2058,6 @@ u	eu
 戧	TZHxac
 緲	Mjew
 𠟴	TZHxəh
-哚	Tvah
 臁	Ljem
 厈	TCHjas
 躥	TSHvaz
@@ -2009,14 +2111,13 @@ u	eu
 榫	Syid
 毪	Miov
 碪	Jjim
-𢉛	TSHeuc
 𡥆	Hay
 𩢏	TRxip
 筻	Kraq
 㯁	Bəj
 噠	Tat
 𨀩	Kfah
-𢆷	HQev
+# 𢆷	HQev
 撂	Ljak
 倮	Lvah
 蕑	Kren
@@ -2031,7 +2132,6 @@ u	eu
 飬	Kwez
 㩺	Bxih
 𦤼	HQeuk
-㳙	Kven
 醓	THob
 俬	Sji
 醣	Dac
@@ -2042,7 +2142,6 @@ u	eu
 𣓕	HQəus
 錆	TSHjac
 幀	TRraq
-𥳺	Seug
 澫	Muaz
 耙	Bras
 𦥝	Jjov
@@ -2052,7 +2151,6 @@ u	eu
 䲱	PHuag
 宎	HQev
 農	Nav
-𩮀	TSeuc
 𦠅	SZxim
 箢	HQuad
 禤	Hyen
@@ -2065,7 +2163,6 @@ u	eu
 挖	HQfet
 𤸌	HQxif
 嗎	Mra
-咯	Kak
 率	Lyis	0%
 唰	SSwet
 癜	Teez
@@ -2074,7 +2171,6 @@ u	eu
 䐎	Dee
 𡘷	THaw
 榿	Kiəj
-𧯌	Hav
 㩺	PHji
 # 𥈜	Hiək
 𧃡	TSaw
@@ -2088,22 +2184,20 @@ u	eu
 坅	KHjib
 牾	NGos
 𨹃	Tvah
-𢦒	TSəj
 錈	Kwed
 㵎	Kraz
-亘	Kəq
 套	THay
 窀	Dfen
 滾	Kvod
 疔	Teec
+疔	Nrek
 淘	Dav
 屳	Hxen
 錳	Mrag
 蚧	Krer
 𠬝	NRxed
-𧼳	TRHrak
+# 𧼳	TRHrak
 咖	KHra
-緼	HQuəd
 鱚	Hiəh
 裉	KHəz
 懦	Nvas
@@ -2125,12 +2219,9 @@ u	eu
 嗦	Sa
 𠜂	SSran
 䮋	Ljer
-氨	HQan
 㣥	DRxəh
 倻	Jja
 𦐃	Nob
-聦	TSHeuc
-𤕣	Kwi
 韃	THat
 搧	SCjen
 鈽	Po
@@ -2159,15 +2250,13 @@ u	eu
 闆	Prad
 毽	Kiaz
 鄼	DZvan
-倍	Bəj
+# 倍	Bəj
 嗺	TSyo
 槪	Kər
 佘	ZCja
 𥽒	Puəz
-匆	TSHeuc
 丨	Guat
 嘜	Mrek
-嗪	DZjin
 朌	Buən
 𦿐	DZeet
 鎪	Səu
@@ -2209,7 +2298,6 @@ u	eu
 窩	HQva
 䜝	THvad
 牠	THa
-琠	Teed
 憹	Nav
 𦁇	Neef
 畁	Giəs
@@ -2219,12 +2307,10 @@ u	eu
 倰	Ləq
 槁	KHaw
 㱜	TZret
-棁	THvot
 粜	THey
 燚	Jjek
 𪚰	TSjev
 躃	Bjek
-𨍉	TSHeuc
 𣵼	Kaz
 嘘	Hios
 薷	NCyo
@@ -2236,7 +2322,6 @@ u	eu
 𥬰	TZHrek
 䟕	TZHras
 晰	Seek
-騘	TSHeuc
 釉	Jjovs
 𥤗	Tag
 𥃩	HQev
@@ -2256,7 +2341,6 @@ u	eu
 憍	KHxev
 淌	THag
 蔲	Həus
-𤧚	TSHeuc
 胖	Bvan
 駡	Mras
 觔	Kiən
@@ -2265,7 +2349,6 @@ u	eu
 # 躲	Tvah
 𢅴	Məq
 尜	Krat
-澺	HQiək
 䅲	Gxi
 髷	KHiuk
 繦	Kiag
@@ -2274,7 +2357,6 @@ u	eu
 𢿻	Lren
 𠍵	Jjaq
 鱔	DCjed
-䗓	TSHeuc
 攅	DZvaz
 鞟	KHvak
 囌	So
@@ -2288,8 +2370,6 @@ u	eu
 蘖	NGat
 䔠	SSraw
 菸	HQeen
-揔	TSeug
-醷	HQiək
 奲	Tah
 𢽱	HQxep
 𩋦	Dvad
@@ -2386,13 +2466,11 @@ u	eu
 匽	HQiaz
 蝻	Nob
 𦭺	Kxov
-愡	TSHeuq
-檍	HQiək
 瑩	HQveq
 嶄	DSreb
 藊	Peed
-俖	PHəj
-𤄕	Jjo
+# 俖	PHəj
+# 𤄕	Jjo
 嘟	To
 𡊞	Bxaq
 噘	Kuat
@@ -2400,12 +2478,11 @@ u	eu
 熝	HQav
 𦞩	Jjiz
 岠	Gioh
-唑	DZvas
 疳	Kam
 愽	Pak
 捆	KHvod
 剎	TZHrat
-漑	Kər
+# 漑	Kər
 𦚪	Jəj
 𩯷	TSjer
 𩱛	TSeug
@@ -2443,13 +2520,10 @@ u	eu
 嫜	TCjac
 𨂫	THak
 嘭	Brac
-鍯	TSHeuc
 𨣇	Krez
-婰	Teed
 齄	TZra
 甏	Braq
 臑	Nav
-忪	Seuc
 䭾	Da
 躭	Tam
 蚋	NCyet
@@ -2480,7 +2554,7 @@ u	eu
 𩪕	NGav
 𠵭	HQxet
 唼	TSjep
-茝	TCHəj
+# 茝	TCHəj
 䟫	DRrac
 㠛	HQwak
 傣	Təj
@@ -2499,7 +2573,6 @@ u	eu
 礡	Bak
 娩	PHuaz
 捱	NGre
-# 薏	HQiək
 頔	KHyeg
 餵	HQuər
 怎	TZxib
@@ -2509,7 +2582,6 @@ u	eu
 夠	Kəus
 堿	Kreb
 摨	NRrej
-狶	Hiəj
 𥍷	TZHruc
 𥦛	Kfah
 𥀜	TZxə
@@ -2517,7 +2589,7 @@ u	eu
 戥	Təg
 垵	HQob
 𨋑	Kiug
-拆	TRHrak
+# 拆	TRHrak
 彠	HQwak
 䗏	SSxov
 嚷	NCjag
@@ -2528,11 +2600,9 @@ u	eu
 佘	DCja
 𣳦	NRrav
 骹	KHat
-飡	TSHan
 菩	Bəj
 覵	Krez
 𧫗	TZHras
-享	Hiag
 𩢺	Hven
 𢮇	Məj
 哎	HQar
@@ -2596,9 +2666,6 @@ u	eu
 䟽	SSxos
 𥨲	NCjo
 哐	KHuac
-醛	DZyen
-砼	Deuc
-𠘯	NCjovh
 飊	Pjev
 𤁢	TSeet
 佨	Prav
@@ -2628,7 +2695,6 @@ u	eu
 漯	Lvas
 岜	Pra
 敺	HQəuh
-䗷	HQiək
 𤃳	PHuan
 𨇧	TRHwab
 焢	Heuc
@@ -2643,8 +2709,6 @@ u	eu
 萆	Sjəh
 𢣑	Bjed
 琉	Ljov
-緼	HQvon
-烴	THeec
 𠚜	THav
 鐁	Sji
 倆	Ljah
@@ -2727,7 +2791,6 @@ u	eu
 舭	Pjih
 𡁑	Hfe
 朓	TRHxey
-𧩪	TSHeuq
 溻	THop
 縲	Lyi
 吶	Nop
@@ -2763,6 +2826,7 @@ u	eu
 樏	Lyi
 烀	Ho
 埕	DRxec
+𠘯	NCjovh
 榆	Jjev
 摶	TCyen
 孬	NRrav
@@ -2779,7 +2843,6 @@ u	eu
 庍	Pres
 揪	TSjov
 𦓴	SSraw
-䏍	HQvez
 𡺮	Bxih
 峩	NGa
 巀	DZat
@@ -2801,7 +2864,6 @@ u	eu
 㨉	Mxin
 蕗	Los
 巏	Kvaz
-怱	TSHeuc
 鯴	SSxit
 𥬸	TRfa
 癍	Pran
@@ -2823,18 +2885,15 @@ u	eu
 𥈔	HQxez
 嬸	SCjib
 𩯰	TSeet
-胺	HQaz
 站	TRrem
 兊	Dvar
 紝	NRxim
 𥊕	THeek
-萜	THeep
 𠲎	Buat
 搬	Pvan
 拷	KHaw
 疴	HQa
 榿	KHxe
-𦺳	HQiək
 坨	Da
 𪔊	SZyer
 嗨	Həj
@@ -2874,15 +2933,12 @@ u	eu
 茼	Deuc
 剻	PHəg
 鑵	Kvaz
-氰	DZjec
 咱	DZom
 迤	Jje
 頍	Kwis
 姹	TRHras
 舢	SSren
 腚	Deeq
-𣚍	HQiək
-腈	TSjec
 敎	Kray
 戙	Deuq
 𤾸	JXweh
@@ -2900,14 +2956,12 @@ u	eu
 䑕	SCjoh
 𩈻	DZam
 佁	Jəj
-葱	TSHeuc
 䓣	Ljag
 遪	DCop
 覀	Hrah
 𠬨	TSeet
 椓	TRruk
 䤹	SSxov
-吲	Jjid
 𥉨	TRHxim
 舔	THeeb
 瞕	TCjaq
@@ -2917,7 +2971,6 @@ u	eu
 鐾	Bjes
 𥮓	DZeen
 𤍕	Jjovs
-# 肊	HQiək
 揹	Pvoj
 鮳	KHay
 鍿	TZxə
@@ -2971,7 +3024,6 @@ u	eu
 纉	TSvad
 鬝	KHret
 # 祛	KHio
-憽	Seuc
 踈	SSxo
 # 𠷔	Saq
 琍	Ljis
@@ -3044,7 +3096,6 @@ u	eu
 𡶅	PHva
 潲	SSraw
 𩖉	Hvəc
-肟	HQos
 哞	Miov
 憗	NGxiz
 詽	Heen
@@ -3052,9 +3103,7 @@ u	eu
 蒎	PHres
 夯	Hrug
 鼽	Hvoj
-𡴊	KHruk
 𩑗	HQev
-仨	Sam
 𩃢	TSjem
 籽	TSjəh
 烤	KHaw
@@ -3092,11 +3141,9 @@ u	eu
 𦱧	Huət
 覀	HQras
 韅	Heez
-温	HQvon
 𥦒	HQey
 撬	KHey
 焐	NGos
-億	HQiək
 嗖	SSxovs
 竄	TSHvan
 勗	Hiuk
@@ -3104,7 +3151,6 @@ u	eu
 愼	DCjiz
 髭	TSje
 銱	Tey
-腺	Sjez
 焗	Giuk
 脪	Hjid
 𧋐	Seek
@@ -3112,7 +3158,7 @@ u	eu
 赩	Hiək
 𨥳	TSee
 簽	TSHjem
-遥	Jjev
+# 遥	Jjev
 佰	Prak
 荖	Law
 劍	Kiaf
@@ -3129,7 +3175,7 @@ u	eu
 𢿜	Mvaz
 # 污	HQo
 𤣠	Hxev
-𥳑	Kred
+# 𥳑	Kred
 碟	Deep
 𪖐	NGey
 徯	Heeh
@@ -3139,7 +3185,6 @@ u	eu
 萒	Gwed
 𨓳	HQev
 螡	Muən
-没	Mvot
 㘈	NGiək
 犂	Lee
 𧢗	Təu
@@ -3149,11 +3194,10 @@ u	eu
 𠧪	See
 𩃾	Huəj
 䨲	Muaz
-巓	Teen
+# 巓	Teen
 嘛	Mra
 嗆	TSHjaq
 炸	TRras
-䑹	Sav
 瞌	KHat
 做	TSos
 苠	Mxin
@@ -3161,8 +3205,6 @@ u	eu
 曁	Kxit
 𡌨	Bje
 傖	TSHac
-𣔱	Sav
-𡶫	NGeet
 𨍌	Mjid
 𢧵	DZeet
 炖	Dvoz
@@ -3177,7 +3219,6 @@ u	eu
 䱎	Kəq
 麭	PHray
 艄	SSrav
-鋶	Ljovh
 媯	Kwe
 𩇯	Bxis
 鯰	Neem
@@ -3258,14 +3299,13 @@ u	eu
 泐	Ljək
 𧻀	TSHjas
 訐	Kxet
-醚	Mee
 𤤴	Kruk
 𡡂	Jjaq
 叭	PHret
 芯	Sxim
 菏	Ka
 瀠	HQveg
-槇	Teen
+# 槇	Teen
 𪙝	TSHjac
 搽	DRra
 厜	TSje
@@ -3281,13 +3321,11 @@ u	eu
 𢜸	Nav
 鐽	Dat
 愭	Gxi
-𩮀	TSeug
 蛋	Dad
 㗗	Pxe
 拖	THa
 𡣔	HZob
 𡣊	HZob	0%
-𥧑	Deen
 䁕	Mjin
 藠	Key
 瞘	KHəu
@@ -3298,7 +3336,7 @@ u	eu
 兠	Təu
 𪀡	Ljak
 擦	TSHat
-硏	NGeen
+# 硏	NGeen
 瀤	HQfej
 欏	Lah
 洼	HQfej
@@ -3318,7 +3356,6 @@ u	eu
 𢀼	Biov
 囝	Nom
 砣	Da
-腙	TSeuc
 𤲳	Buər
 𪔝	Deuc
 鄼	TSvad
@@ -3410,10 +3447,7 @@ u	eu
 耪	PHag
 凵	KHuab
 滣	ZCyin
-緼	HQuəz
 舨	Prad
-棁	THvat
-㷓	TSeug
 掚	Ljag
 藳	Kaw
 㢧	Kxov
@@ -3422,7 +3456,6 @@ u	eu
 褙	Pvor
 冇	Maw
 𦺋	SSxov
-𢉛	TSeug
 𣆩	TZHrek
 熩	HZoh
 墍	Hiər
@@ -3438,7 +3471,6 @@ u	eu
 漣	Ljez
 餽	Kwis
 瓉	DZad
-蕰	HQvon
 鰌	TSHjov
 磚	TCyen
 𡬲	Daw
@@ -3452,7 +3484,6 @@ u	eu
 找	TZraw
 鉚	Mraw
 𤑕	Huəz
-緼	HQuən
 𡲁	SZjos
 𡘐	Heet
 𡫏	TSjif
@@ -3476,7 +3507,6 @@ u	eu
 缻	HZruc
 # 算	Svaz
 浠	Hiəj
-# 癔	HQiək
 撾	Kva
 𠤦	NCyed
 栢	Prak
@@ -3496,7 +3526,6 @@ u	eu
 銬	KHay
 勊	KHək
 輺	TZxə
-肼	TSjeg
 䮽	Leuk
 夼	KHvag
 疎	SSxos
@@ -3622,10 +3651,13 @@ u	eu
 鳠	HGfas
 𢘆	HGvan
 搿	HGop
-餡	HGref
+餡	HGreb
 雟	HGve
 䙲	HGven
 嚡	HGre
 𣎔	HGeez
 𡾀	HZfar
 純束	Dvon SCjuk
+琠	Təd
+婰	Təd
+忪	Seuc

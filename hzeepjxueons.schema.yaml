@@ -115,7 +115,6 @@ speller:
     - abbrev/([A-Z][evjxywrf]i)(k)/$1t/
 
 
-
     - derive/eu(v)/o$1/ #皋ov uv
     - derive/ə(u)/$1/ #侯əu u
     - derive/([A-Z])([ev]?[au])j/$1$2/ #aj 歌
@@ -152,30 +151,18 @@ speller:
     - derive/([PBM]|PH)y([aeiə])/$1j$2/ 
     - derive/([PBM]|PH)w([aeiə])/$1x$2/ 
     # - derive/(XQ|JX)u([aeoiə])/$1i$2/
-    - derive/(XQ|JX)w([aeoiə])/$1x$2/
     - derive/Jj(?!$)/j/
-    - derive/(JX)u(?!$)/x/ #雲母
+    - derive/JXu([aeiouə])/x$1/
+    - abbrev/(JX)w(?!$)/x/ #雲母
     # - derive/(XQ)v/x/ #雲母
-
-
-
+    # - abbrev/(^|')(HG)(?!$)/x/ #邪
 
 
     # - erase/(^|')[hg][jy]/
     # - erase/(^|')H[SZ][jy]/
     - derive/(^|')SC([jy])(?!$)/$1h$2/ #書
     - derive/(^|')ZC([jy])(?!$)/$1g$2/ #船
-    - derive/(^|')(SZ|ZS)(?!$)/x/ #邪
-    - abbrev/(^|')(HG)(?!$)/x/ #邪
 
-    - derive/(^|')F?PH(?!$)/f/
-    - derive/(^|')T[RC]?H(?!$)/r/
-    - derive/(^|')T[SZ]H(?!$)/v/
-    - derive/(^|')T[SZ](?!$)/c/
-    - derive/(^|')T[SZ]H(?!$)/ch/
-    - derive/(^|')K[QC]?H(?!$)/y/
-    - derive/(^|')NGQ?(?!$)/w/
-    - derive/(^|')HQ(?!$)/q/
 
     - derive/(^|')[TK][RC](?!$)/TSR/
     - derive/(^|')[DG][RC](H?)(?!$)/DZR$1/
@@ -186,8 +173,12 @@ speller:
     - derive/(^|')SR(?!$)/rs/
     - derive/(^|')ZR(?!$)/rz/
 
-    - derive/F//
-    - derive/([KGX])Q/$1/
+    # - derive/F//
+    # - derive/F([BP])/\L$1/
+    # - derive/(M)F/\L$1/
+    - derive/(^|')(M?)F([BP]?)(?!$)/\L$2\L$3/
+    # - derive/([KGX])Q/$1/
+    - derive/(^|')([KGX]|NG)Q(?!$)/\L$2/
     # - derive/([KGTDJN])C/$1/
     - derive/(^|')(([KGTDN])C)(?!$)/\L$3/
     - derive/(^|')(([TDN])R)(?!$)/\L$3/
@@ -200,7 +191,6 @@ speller:
     - derive/(^|')T[SZ](H?)(?!$)/ts\L$2/
     # - derive/(^|')T[SZ]H(?!$)/tsh/
     - derive/(^|')D[SZ](?!$)/dz/
-    - derive/(^|')D[SZ](?!$)/z/
     - derive/(^|')(SZ|ZS)(?!$)/sz/
     - derive/(^|')SS(?!$)/s/
     - derive/(^|')(HG)(?!$)/g/
@@ -216,7 +206,7 @@ speller:
 
 
     - derive/(\w[sry])[ptk]$/$1/
-    - derive/\wv(k)$/$1/
+    - derive/(\w)v(k)$/$1$2/
     # - derive/([aeiouə])v([k])$/$1$2/
     - derive/([aeiouə])x$/$1/
     - abbrev/([aeiouə])j$/$1/
@@ -230,6 +220,7 @@ speller:
     - derive/(\w)f$/$1ms/
     - derive/(\w)d$/$1nh/
     - derive/(\w)z$/$1ns/
+    - derive/(\w)h$/$1A/
     - abbrev/(\w)[rs]([ptk])/$/$1r/ # 韻尾-聲調
     - abbrev/(\w)(r([ptk])?)$/$1s/
     - abbrev/([A-Z]v?ə)x$/$1j/
@@ -245,7 +236,32 @@ speller:
 # 銳音 ([TDNSZKG][C]|[TDN][R]|[TDSNLJ]|TH|[TK]H[CR]||SZ|[TD][SZ]H?|[SZ]S)
 # 銳音 (([TK]H?|[NSZDG][C])|([T]H?|[DN][R])|([TDSNLJ]|SZ|TH)|([T][SZ]H?|[D][SZ])|[SZ]S)
 
+    - abbrev/^(ts).+$/$1/
+    - abbrev/^(dz).+$/$1/
+    - abbrev/^([sz]c).+$/$1/
+    - abbrev/^(ng).+$/$1/
+    - abbrev/^(hq).+$/$1/
+    - abbrev/^(sz).+$/$1/
+    - abbrev/^(([ptk]|ts)h).+$/$1/
     - abbrev/^([a-z]).+$/$1/ #首字母
+    # - abbrev/^F?PH.+$/f/
+    # - abbrev/^T[RC]?H.+$/r/
+    # - abbrev/^T[SZ]H.+$/v/
+    # - abbrev/^T[SZ].$+/c/
+    # - abbrev/^D[SZ].+$/z/
+    # - abbrev/^T[SZ]H.+$/ch/
+    # - abbrev/^K[QC]?H.+$/y/
+    # - abbrev/^NGQ?.+$/w/
+    # - abbrev/^HQ.+$/q/
+    - derive/^ph/f/
+    - abbrev/^th/r/
+    - abbrev/^kh/y/
+    - derive/^ts/c/
+    - derive/^dz/z/
+    - abbrev/^tsh/v/
+    - abbrev/^ng/w/
+    - abbrev/^sz/x/ #邪
+    - derive/^hq/q/
 
     - derive/ə/eo/ #EOə eo
     - derive/ə/;/ #EOə eo
