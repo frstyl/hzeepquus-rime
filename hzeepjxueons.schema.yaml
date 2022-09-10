@@ -66,8 +66,6 @@ speller:
   algebra:
 
 
-
-
     - abbrev/([A-Z])[jx]([aeiouə])/$1i$2/ #i=jxi
     - abbrev/([A-Z])[yw]([aeiouə])/$1u$2/ #i=jxi
     - abbrev/([A-Z][ev]?ə)([xhs])$/$1j$2/ #ə㞢
@@ -243,16 +241,7 @@ speller:
     - abbrev/^(hq).+$/$1/
     - abbrev/^(sz).+$/$1/
     - abbrev/^(([ptk]|ts)h).+$/$1/
-    - abbrev/^([a-z]).+$/$1/ #首字母
-    # - abbrev/^F?PH.+$/f/
-    # - abbrev/^T[RC]?H.+$/r/
-    # - abbrev/^T[SZ]H.+$/v/
-    # - abbrev/^T[SZ].$+/c/
-    # - abbrev/^D[SZ].+$/z/
-    # - abbrev/^T[SZ]H.+$/ch/
-    # - abbrev/^K[QC]?H.+$/y/
-    # - abbrev/^NGQ?.+$/w/
-    # - abbrev/^HQ.+$/q/
+
     - derive/^ph/f/
     - abbrev/^th/r/
     - abbrev/^kh/y/
@@ -262,6 +251,10 @@ speller:
     - abbrev/^ng/w/
     - abbrev/^sz/x/ #邪
     - derive/^hq/q/
+
+    - abbrev/^([a-z]).+$/$1/ #首字母
+    # - derive/^([A-Z]).+$/$1/ #首字母
+    - abbrev/([\w][jxywrfv]).+/$1/
 
     - derive/ə/eo/ #EOə eo
     - derive/ə/;/ #EOə eo
