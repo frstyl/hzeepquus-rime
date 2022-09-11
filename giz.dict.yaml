@@ -269,6 +269,13 @@ u	eu
 母	Məh
 ǀə	TSə
 ###訓
+竵	HQfoj	#崴歪
+竵	KQHfax	#𠇗
+䓙	KQHfax	#𠇗
+䓙	Hfaj	#竵
+𦶎	Hfaj	#竵
+𦶎	KQHfax	#𠇗
+𦹬	Hfaj	#𦶎竵
 敺	HQəuh
 另	Leeq
 癌	NGəj
@@ -276,6 +283,19 @@ u	eu
 呆	Təj
 煊	XSuan
 卡	KHrah
+###誤
+歹	Təl
+亘	Kəq	0%
+䱎	Kəq	0%
+暅	Kəq	0%
+𣉖	Kəq	0%
+恒	HGəc	0%
+縆	Kəc	0%
+搄	Kəc	0%
+縆	Kəq	0%
+乚	HQiəd	0%
+卮	TCjex	0%
+栀	TCjex	0%
 #####今
 ###
 杧	Mac
@@ -423,7 +443,7 @@ u	eu
 氪	KHək
 銣	NCjo
 鍶	Sjə
-釔	HQxit
+釔	HQxit	#Y yttrium -t𠃉
 鋯	Kay
 鈮	NRxi
 鉬	Miok
@@ -453,7 +473,7 @@ u	eu
 # 鏑	Teek
 鈥	Hvah
 鉺	NCjəh
-銩	Tiu	#Tm 69thulium
+銩	Tiov	#Tm 69thulium
 鐿	HQiəs
 鑥	Loh
 # 鉿	Kop
@@ -532,7 +552,7 @@ u	eu
 #####
 刋	KQHan	0%
 呑	THən	0%
-丢	Tiu	0%
+丢	Tiov	0%
 户	HGoh	0%
 戸	HGoh	0%
 清	TSHjec	0%
@@ -671,7 +691,8 @@ u	eu
 溉	Kiərt	0%
 暨	Kiərt	0%
 廄	Kiəy	0%
-塈	HSiərt	0%
+塈	Hiərtt	0%
+塈	KHxart	0%
 # 么	Mək
 么	HQeiv	0%
 麽	Mva	0%
@@ -713,9 +734,9 @@ u	eu
 歩	Bos	0%
 涉	DCjep	0%
 歳	Syart	0%
-尓	NCjels	0%
-𡭗	NCjels	0%
-# 尔	NCjeh
+尓	NCjel	0%
+𡭗	NCjel	0%
+尔	NCjel	0%
 衛	JXwart	0%
 衮	Kvod	0%
 毁	XSwal	0%
@@ -793,7 +814,11 @@ u	eu
 𡴼	DZeet	0%
 𡷦	DZeet	0%
 ###??訛
-𧌦	Mrac
+𨊢	JXwert	0%
+𨎥	JXwert	0%
+䡺	JXwert	0%
+𨊪	JXwert	0%
+𧌦	Mrac	0%
 肀	Jyot	0%
 銒	HGeec	0%	#幵
 𠛬	HGeec	0%
@@ -847,6 +872,8 @@ u	eu
 𩠞	Jjəx	0%
 𩠝	Jjəx	0%
 ###隸定
+迩	NCjel	0%
+𨷺	Kiov	0%
 𨷺	Kxovh	0%
 𩰘	Kxovh	0%
 𧧮	XSvac	0%
@@ -857,16 +884,15 @@ u	eu
 # 廄	Kiəy
 廐	Kiəy	0%
 𨗋	Kiəy	0%
+匓	Kiəy	0%
 𨥳	DZee	0%
 𨥳	TSee	0%
 𤔘	Jjovx	0%
-裙	Guon
-贐	SZjiz
 覀	Hrah	0%
 覀	HQras	0%
 棁	THvat	0%
 棁	THvot	0%
-𠕓	KQHruk
+𠕓	KQHruk	0%
 𡶫	NGQeet	0%
 䫀	Teed	0%	#?
 䫀	KQəd	0%
@@ -984,6 +1010,15 @@ u	eu
 旮	Kra
 旯	Lra
 ###俗 同
+届	KQrərt	0%
+𠛨	TZHxit	0%
+𠞩	TZHxit	0%
+㔑	TZHxit	0%
+匝	TSop
+你	NRxəh	0%
+鬏	TSjovx
+揪	TSjəv
+厾	Tok
 做	TSos
 哧	Hras	#嚇
 艶	Jjaf
@@ -1061,7 +1096,7 @@ u	eu
 𡇗	NCjit
 𡈎	NCjit
 𡇁	NCjit
-侌	HQxim
+# 侌	HQxim
 阥	HQxim
 𣍤	HQxim
 𩃬	HQxim
@@ -1077,6 +1112,9 @@ u	eu
 躰	THeih	0%
 𠰶	JXuac
 乕	HSoh
+# 天	THein
+䒶	THein	0%
+𦴞	THein
 兲	THein
 𠀑	THein
 𠀘	THein
@@ -1088,7 +1126,8 @@ u	eu
 靔	THein
 靝	THein
 㳤	DCjok
-𪚧	Kjix
+# 龜	Kwəx
+𪚧	Kwəx
 拿	NRrax
 啣	HGram	#銜	0%
 咩	Mjeh	#羋
@@ -1119,7 +1158,7 @@ u	eu
 # 䊧	FPHjis
 ⿰禾費	FPHjis
 歪	Hfaj	#竵
-歪	HQfoj	#崴
+歪	HQfoj	#烏乖切崴
 屌	Təw	0%
 屄	Pji
 睾	KQeuv	0%
@@ -1132,6 +1171,8 @@ u	eu
 棕	TSeuc
 𠡭	Ləc
 楞	Ləc	0%
+𬙙	Ləc	0%
+⿰木⿱四方	Ləc	0%
 塄	Ləc	0%
 愣	Ləq
 嘩	XSfax
@@ -1165,6 +1206,7 @@ u	eu
 剰	ZCjəq	0%
 𡹴	ZCjəq	0%
 朩	PHjiz	0%
+児	NCjex	0%
 𦾔	Gviəvs	0%
 𠢎	Giovh	0%
 𦾔	Gviəvs	0%
@@ -1198,25 +1240,14 @@ u	eu
 銲	HGaz
 洂	Jjak
 ###構
+裙	Guon
+贐	SZjiz
 𣄵	Ljaq
 棋	Giəx
 䳗	NGQajx
 䳘	NGQajx
 鵞	NGQajx
 𨿍	NGQajx
-###誤
-歹	Təl
-亘	Kəq	0%
-䱎	Kəq	0%
-暅	Kəq	0%
-𣉖	Kəq	0%
-恒	HGəc	0%
-縆	Kəc	0%
-搄	Kəc	0%
-縆	Kəq	0%
-乚	HQiəd	0%
-卮	TCjex	0%
-栀	TCjex	0%
 #####???
 鰮	HQvon
 䛼	HSweh
@@ -1231,7 +1262,7 @@ u	eu
 碰	Braq
 𩮗	Pag
 𩮗	PHreq
-丟	Tiu
+丟	Tiov
 𢨋	Bvət	#誖
 〇	Seec
 〇	Leec
@@ -1246,9 +1277,6 @@ u	eu
 𥆞	HQwez
 𡚇	HQiaz
 䛐	SZjəx
-# 天	THein
-䒶	THein	0%
-𦴞	THein
 吞	THein
 𨊊	Lak
 𪚥	TCjep
@@ -1399,7 +1427,7 @@ u	eu
 冫	Piəc
 亻	NCjin
 阝	Biovh
-釒	Kxim
+釒	Kxəm
 阝	Biovh
 飠	ZCjək
 # 饣	ZCjək
@@ -1534,10 +1562,10 @@ u	eu
 𣎣	Kew	#皎
 𣎩	HQjep	#月動
 𣎮	Hxe	#曦
-#####
 ###
 䊆彈	Giovh Dan
 淜滂	Biəc PHac
+#####
 ###zyenpheng
 罡	Kac
 堽	Kac
@@ -1632,11 +1660,11 @@ u	eu
 𨫖	THaq
 𥉐	Heeh
 秘	Pxis
-傈	Lxit
+傈	Ljit
 賬	TRxaq
 蔸	Təu
 𦑣	TRHwap
-斟	TCHxip
+斟	TCHjip
 # 𡍩	TRHrak
 坍	THam
 壄	Jjah
@@ -1829,7 +1857,7 @@ u	eu
 趲	TSad
 躛	Hfer
 孿	SSfaz
-粦	Lxin
+粦	Ljin
 闖	TZHxag
 堃	KHvon
 𨦃	Tvah
@@ -1879,7 +1907,7 @@ u	eu
 橯	Lay
 撇	PHeet
 𦥝	Jjew
-𠮟	TCHxit
+𠮟	TCHjit
 嶴	HQay
 𥪺	NGxe
 桗	Tva
@@ -2065,7 +2093,6 @@ u	eu
 豿	Hruk
 豧	PHo
 樘	Dac
-届	Krer
 㧄	KHuab
 侴	TRHxovh
 䗛	Sjov
@@ -2125,7 +2152,6 @@ u	eu
 𣝁	PHres
 打	Trag
 濓	Leem
-虚	KHio
 忐	THab
 爺	Jja
 摁	HQəz
@@ -2133,7 +2159,6 @@ u	eu
 𡷝	NRwap
 啤	Bje
 蜈	Keet
-# 兲	THeen
 𣚓	Kyez
 𢽱	HQiap
 跺	Tvas
@@ -2324,7 +2349,7 @@ u	eu
 噝	Sjə
 痦	NGos
 𣅦	TZxək
-𡑜	Lxin
+𡑜	Ljin
 髾	SSraw
 砍	KHob
 鶺	TSjek
@@ -2473,7 +2498,7 @@ u	eu
 嶗	Lav
 篈	Piuc
 𧠵	TSHji
-齣	TCHwit
+齣	TCHyit
 # 極	Giək
 麅	Brav
 㯳	Kxag
@@ -2692,7 +2717,6 @@ u	eu
 氆	PHoh
 巀	DZeet
 𪌜	THəuh
-鬏	TSjov
 𠧷	Jjov
 𥮚	San
 窵	Jyit
@@ -2848,7 +2872,6 @@ u	eu
 𣹵	NRwap
 𧌘	Buər
 庍	Pres
-揪	TSjov
 𦓴	SSraw
 𡺮	Bxih
 峩	NGa
@@ -2920,7 +2943,6 @@ u	eu
 甹	Jjov
 𧟳	Pras
 𨛲	Neen
-迩	NCjeh
 𪖐	NGiovs
 甦	So
 𪊆	DZees
@@ -3032,17 +3054,14 @@ u	eu
 穤	Nvas
 昀	Jyin
 𢮛	DCyez
-汦	TCji
 籑	DSwez
 佻	Tew
 搜	SSraw
 𥥿	SSxim
 𥄎	Hwet
 伄	Tew
-匝	TSop
 嘞	Lək
 𥯦	DSrep
-# 你	NRxəh
 渃	NCjas
 驏	DSrad
 逩	Pvoz
@@ -3123,7 +3142,6 @@ u	eu
 幛	TCjaq
 # 塡	Deen
 沬	Mar
-𨷺	Kiov
 紕	TCHjəh
 敫	Keek
 昧	Mar
@@ -3502,7 +3520,7 @@ u	eu
 鵡	Məuh
 挵	Leuq
 丐	Kat
-蝽	TCHwin
+蝽	TCHyin
 銬	KHay
 勊	KHək
 輺	TZxə
@@ -3662,3 +3680,4 @@ u	eu
 𡴿	HGəc
 # 哧	TCHjek
 # 哧	SCjek
+汦	KCji
