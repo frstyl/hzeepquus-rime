@@ -270,6 +270,7 @@ u	eu
 母	Məh
 ǀə	TSə
 ###訓
+頁	Jjep	#葉䈎
 篩	SSrej	#簁
 篩	SSxej
 竵	HQfoj	#崴歪
@@ -329,6 +330,7 @@ u	eu
 萘	Nar
 # 薁	HQiok
 萜	THeep
+# 茚	HQjiz
 酐	Kan
 𨫬	Kan
 酰	Sən	#acyl
@@ -817,6 +819,16 @@ u	eu
 𡴼	DZeet	0%
 𡷦	DZeet	0%
 ###??訛
+𨶪	Ljovx	0%
+䦵	Mjel	0%
+䦵	Neeh	0%
+𨷺	Kiov	0%
+𨷺	Kxovh	0%
+𢌿	Pjir	0%	#畀
+𢍁	Giəx	0%
+𢍁	Giəs	0%
+畁	Giə	0%
+畁	Giəs	0%
 𨊢	JXwert	0%
 𨎥	JXwert	0%
 䡺	JXwert	0%
@@ -828,7 +840,7 @@ u	eu
 郉	HGeec	0%
 𢿿	Heeyk	0%
 𩓓	KQəd	0%
-尢	JXiov	0%
+尢	JXviəvx	0%
 𣽎	KQeuv	0%
 𤯌	KHom	0%
 𤯎	Kam	0%
@@ -872,7 +884,7 @@ u	eu
 凣	FBuam	0%
 曵	Jjer	0%
 𨐋	KHxan
-𩠞	Jjəx	0%
+𩠞	Jjəx	0%	#𦣝
 𩠝	Jjəx	0%
 ###隸定
 𠘯	NRxovh	0%
@@ -1019,25 +1031,21 @@ u	eu
 乒	PHeec
 旮	Kra
 旯	Lra
-###俗 同
+###同
+𡞑	KHiəx
+𦝁	Giəx	0%
+𠔸	Giəx	0%
+# 朞	Kiəx
+𣇳	Kiəx
+㫷	Kiəx
+𥟝	Kiəx	0%
+𣔔	Kiəx	0%
 套	THay
 # 粜	THeyk
-𨶪	Ljovx	0%
-䦵	Mjel	0%
-䦵	Neeh	0%
-𨷺	Kiov	0%
-𨷺	Kxovh	0%
-𩰘	Kxovh	0%	#門鬥
-𠭱	Ljovx	0%
-𠞑	Ljovx	0%
 𦠝	Ljovx
 鎏	Ljovx
 𥰤	Ljovx
 琉	Ljovx
-㒫	Kiər	0%
-𠒂	KQoh	0%
-茲	TSjə	0%
-𦙍	Jjiz	0%
 𣌾	Jjiz
 𩐒	TSeij
 晌	SCjag
@@ -1074,7 +1082,82 @@ u	eu
 柿	DSxəh
 𣐈	DSxəh	0%
 霉	Mxəj
-堺	KQrert
+𤕣	Kwəx	0%
+狶	Hiəj	0%
+仨	Sam
+仨	Sap
+𦌻	Syud
+享	Hiag
+伙	Hvah
+胚	PHvəx
+㚰	PHvəx
+㝔	HQeew
+囝	NGuat
+𡇹	NGuat
+𠥱	NGuat
+囸	NCjit
+𡆠	NCjit
+𡆸	NCjit
+𡇗	NCjit
+𡈎	NCjit
+𡇁	NCjit
+# 侌	HQxim
+阥	HQxim
+𣍤	HQxim
+𩃬	HQxim
+霒	HQxim
+阦	Jjac
+𧟴	Krac
+𢈏	Krac
+𢈰	Krac
+軆	THeih	1%
+𩪆	THeih	1%
+𨉦	THeih	1%
+骵	THeih	0%
+躰	THeih	0%
+𠰶	JXuac
+# 天	THein
+䒶	THein	0%
+𦴞	THein
+兲	THein
+𠀑	THein
+𠀘	THein
+𠀡	THein
+𠑺	THein
+𠕹	THein
+𩇞	THein
+𩇗	THein
+靔	THein
+靝	THein
+𠡭	Ləc
+楞	Ləc	0%
+𬙙	Ləc	0%
+⿰木⿱四方	Ləc	0%
+塄	Ləc	0%
+愣	Ləq
+嘩	XSfax
+𪚧	Kwəx
+咩	Mjeh	#羋
+岩	NGrəm
+𥤶	FPHjis
+𥧔	FPHjis	0%
+𥥓	FPHjis
+𡲩	FPHjis
+# 䊧	FPHjis
+⿰禾費	FPHjis
+歪	Hfaj	#竵
+歪	HQfoj	#烏乖切崴
+##
+掂	Teem
+韵	JXuoz
+嬝	Neew
+鱷	NGQak
+哏	HGən
+狠	HGəd
+佷	HGəd
+###??書
+乕	Hoh
+㳤	DCjok
 匆	TSHeuc
 怱	TSHeuc
 葱	TSHeuc
@@ -1105,63 +1188,12 @@ u	eu
 檧	Seuc
 憽	Seuc
 𢝰	TSeug	0%
-𤕣	Kwəx	0%
-狶	Hiəj	0%
-仨	Sam
-仨	Sap
-𦌻	Syud
+###俗
 蘯	Dag	0%
 决	Kvet	0%
 飡	TSHan	0%
-享	Hiag
-伙	Hvah
-胚	PHvəx
-㚰	PHvəx
-㝔	HQeew
-囝	NGuat
-𡇹	NGuat
-𠥱	NGuat
-囸	NCjit
-𡆠	NCjit
-𡆸	NCjit
-𡇗	NCjit
-𡈎	NCjit
-𡇁	NCjit
-# 侌	HQxim
-阥	HQxim
-𣍤	HQxim
-𩃬	HQxim
-霒	HQxim
-阦	Jjac
-𧟴	Krac
-𢈏	Krac
-𢈰	Krac
-軆	THeih	1%
-𩪆	THeih	1%
-𨉦	THeih	1%
-骵	THeih	0%
-躰	THeih	0%
-𠰶	JXuac
-乕	Hoh
-# 天	THein
-䒶	THein	0%
-𦴞	THein
-兲	THein
-𠀑	THein
-𠀘	THein
-𠀡	THein
-𠑺	THein
-𠕹	THein
-𩇞	THein
-𩇗	THein
-靔	THein
-靝	THein
-㳤	DCjok
-# 龜	Kwəx
-𪚧	Kwəx
 拿	NRrax
 啣	HGram	#銜	0%
-咩	Mjeh	#羋
 嫻	HGren
 碗	HQvud	0%
 埦	HQvud	0%
@@ -1174,47 +1206,72 @@ u	eu
 𣁏	SZjoh	0%
 叙	SZjoh
 鈫	Gxəf	0%
-掂	Teem
-嬝	Neew
-韵	JXuoz
-鱷	NGQak
-哏	HGən
-狠	HGəd
-佷	HGəd
-岩	NGrəm
-𥤶	FPHjis
-𥧔	FPHjis	0%
-𥥓	FPHjis
-𡲩	FPHjis
-# 䊧	FPHjis
-⿰禾費	FPHjis
-歪	Hfaj	#竵
-歪	HQfoj	#烏乖切崴
-屌	Təw	0%
-屄	Pji
-睾	KQeuv	0%
-肏	TSHay
 术	ZCyot
 术	DRwot
 𢘆	HGəc
 着	DRxak	0%
 着	TRxak	0%
-棕	TSeuc
-𠡭	Ləc
-楞	Ləc	0%
-𬙙	Ləc	0%
-⿰木⿱四方	Ləc	0%
-塄	Ləc	0%
-愣	Ləq
-嘩	XSfax
-###絫
+棕	TSeuc	#椶-u 宗-o
+###減
+洂	Jjak
+𪗞	KHiəx
+𡉊	Kiəx
+𡉝	Kiəx
+𡉨	Kiəx
+𧥽	Giəs
+𥾟	Giəx
+𥾎	Giəx
+𧥽	Giəs
+𢗏	Giəs
+𪗞	Giəx
+𦨘	Giəx
+𥘕	Giəx
+𧿄	Giəx
+䟚	Giəx
+𦬟	Giəx
+䭶	Giəx
+䭼	Giəx
+㫅	Giəx
+㯦	Giəx
+檱	Giəx
+𣍡	Giəx
+𣅆	Giəx
+###構
+群	Guon
+裙	Guon
+贐	SZjiz
+𣄵	Ljaq
+# 𣍠	Giəx
+# 𣍣	Giəx
+蜞	Giəx
+䳢	Giəx
+棋	Giəx
+𤦢	Giəx
+㥍	Giəs
+綨	Giəx
+䳗	NGQajx
+䳘	NGQajx
+鵞	NGQajx
+𨿍	NGQajx
+###增
+堺	KQrert
+𧫠	Kiəx
+𧬔	Giəs
+𦸀	Giəx
+𦻆	Giəx
+𦻆	Giəx
 断	Tvaz	0%
 𦧶	SCjas	0%
 姹	TRHrah	0%
 謊	Hvag	0%
+銲	HGaz
 ##本
 罈	Dəm
-###分
+###分化
+屌	Təw	0%
+屄	Pji
+睾	KQeuv	0%
+肏	TSHay
 睏	KHvoz
 𥞙	XSvac
 蝴	HGox
@@ -1228,6 +1285,13 @@ u	eu
 裱	Pxaw
 錶	Pxaw
 ###異
+𩰘	Kxovh	0%	#門鬥
+𠭱	Ljovx	0%
+𠞑	Ljovx	0%
+㒫	Kiər	0%
+𠒂	KQoh	0%
+茲	TSjə	0%
+𦙍	Jjiz	0%
 媯	Kwe	0%
 潨	DZeuc	0%
 潨	TCjoc	0%
@@ -1267,19 +1331,6 @@ u	eu
 冗	NCjog	0%
 内	Nvorp	0%
 跡	TSjak	0%
-##
-銲	HGaz
-洂	Jjak
-###構
-群	Guon
-裙	Guon
-贐	SZjiz
-𣄵	Ljaq
-棋	Giəx
-䳗	NGQajx
-䳘	NGQajx
-鵞	NGQajx
-𨿍	NGQajx
 #####???
 鰮	HQvon
 䛼	Hweh
@@ -1504,6 +1555,7 @@ u	eu
 㩉	Hxip
 ###人
 优	JXviəvx
+倛	KHiə
 ###攴
 敥	Jjef
 敼	Hiəh
@@ -1712,7 +1764,6 @@ u	eu
 褪	THvoz
 臉	Kxeb
 恱	Jyet
-蜞	Giə
 坋	Buəz
 # 𦫳	Kfej
 𠉫	Kuaq
@@ -1874,7 +1925,6 @@ u	eu
 饢	Nac
 # 揭	Kxet
 蚜	NGra
-畁	Giə
 舘	Kvaz
 溰	NGiəj
 𦺋	Saw
@@ -2378,7 +2428,6 @@ u	eu
 牠	THa
 憹	Nav
 𦁇	Neef
-畁	Giəs
 𠟯	TSjew
 䤇	Sjovh
 𨤐	Mje
@@ -2843,7 +2892,6 @@ u	eu
 㭰	TSje
 騍	KHvas
 婿	Sees
-演	Jjid
 鯫	DSəuh
 摹	Mo
 饈	Sjov
@@ -3659,7 +3707,6 @@ u	eu
 嗖	SSxovs
 猸	Mxi
 藴	HQuən
-𢌿	Pjis
 # 軛	HQrek
 # 扼	HQrek
 # 呃	HQrek
@@ -3689,3 +3736,4 @@ u	eu
 食	SZjəs
 阢	NGvoj
 馘	Kvək
+演	Jjid	2%
