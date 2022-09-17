@@ -4,21 +4,32 @@
 輸入法說明：
   聲母:
 
-    [影]q [疑]w [羣匣云]e [透徹昌]r [端知章]t [谿]y u (反查)i o [幫]p 
-    [影]a [心生]s  [定澄常]d [滂]f [羣匣]g [曉]h [邪俟以]j [見]k [來]l
-    [從崇]z [云邪俟]x 精莊[]c [淸初]v [並]b [泥孃日]n [明]m
+    [影]q [疑]w [匣云]E [透徹昌]r [端知章]t [谿]y u (pinyin)i (聲母)O [幫非]p 
+    (zyenpheng)a [心生]s  [定澄常]d [滂敷]f [羣匣]g [曉書]]h [邪俟以]j [見]k [來]l
+    [從崇]z [匣云邪俟船]x [精莊]c [淸初]v [並奉]b [泥孃日]n [明微]m
 
-    [精莊]ts [淸初]tsh [從崇]dz,z [邪俟]sz
+    [精莊]ts [淸初]tsh [從崇]dz [邪俟]sz
     [書]sc [船]zc
-    [曉]hs [匣]hs  [影]hq,A
+    [影]hq,A
+    [滂敷]ph [透徹昌]th [谿]kh  
 
-    [滂]PH [徹]TH [谿]KH  
-    [知]TR [徹]TRH [澄]DR
-    [精]TS [淸]TSH 從[DS] [邪]SZ
-    [章]TC [昌]TCH [常]DC [書]SC,sc [船]ZC,zc [日]NC
-    [莊]TZ [初]TZH [崇]DZ [生]SS [俟]ZS
-    [知莊章]RT [徹初昌]RTH [澄崇常]RD [生書]RS [俟船]RZ
-    [影]HQ [曉]HS [匣]HZ　
+
+    幫 P	滂 PH	並 		明 M
+    非 FP	敷 FPH	奉 FB	微 MF 
+    端 T	透 TH	定 D	泥 N	來 L
+    知 TR	徹 TRH	澄DR	孃 NR	
+    精 TS	淸 TSH	從 DZ			心 S	邪 SZ
+    莊 TZ	初 TZH	崇DZ			生 SS=S	俟 ZS
+    章1TC	昌1TCH	常1DC	日 NC	書 SC	船 ZC	㠯 J
+    章2KC	昌2KCH	常2GC
+    照 TSR	穿 TSRH	牀 DZR		宷 SR	禪 ZR
+    見 K	谿 KH	羣 G	疑 NG	曉1XS	匣1XZ	云 JX
+    見 KQ	谿 KQH			疑 NGQ			匣2HG
+											匣3XQ
+											O /ʕ/
+	影 HQ,A						曉2 H	匣4HZ
+
+
   韻母：
       六元音aeiouə
 
