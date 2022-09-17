@@ -24,10 +24,10 @@
     章2KC	昌2KCH	常2GC
     照 TSR	穿 TSRH	牀 DZR		宷 SR	禪 ZR
     見 K	谿 KH	羣 G	疑 NG	曉1XS	匣1XZ	云 JX
-    見 KQ	谿 KQH			疑 NGQ			匣2HG
-											匣3XQ
-											O /ʕ/
-	影 HQ,A						曉2 H	匣4HZ
+    見 KQ	谿 KQH		疑 NGQ			匣2HG
+						匣3XQ
+						O /ʕ/
+    影 HQ,A						曉2 H	匣4HZ
 
 
   韻母：
