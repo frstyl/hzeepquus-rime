@@ -14,16 +14,16 @@
     [滂敷]ph [透徹昌]th [谿]kh  
 
 
-    幫 P	滂 PH	並 		明 M
+    幫 P	滂 PH	並 	明 M
     非 FP	敷 FPH	奉 FB	微 MF 
-    端 T	透 TH	定 D	泥 N				來 L
+    端 T	透 TH	定 D	泥 N			來 L
     知 TR	徹 TRH	澄DR	孃 NR	
-    精 TS	淸 TSH	從 DZ			心 S	邪 SZ
-    莊 TZ	初 TZH	崇DZ			生 SS=S	俟 ZS
-    章1TC	昌1TCH	常1DC	日 NC	書 SC	船 ZC		㠯 J
+    精 TS	淸 TSH	從 DZ		心 S	邪 SZ
+    莊 TZ	初 TZH	崇DZ		生 SS=S	俟 ZS
+    章1TC	昌1TCH	常1DC	日 NC	書 SC	船 ZC	㠯 J
     章2KC	昌2KCH	常2GC
     照 TSR	穿 TSRH	牀 DZR		宷 SR	禪 ZR
-    見 K	谿 KH	羣 G	疑 NG	曉1XS	匣1XZ		云 JX
+    見 K	谿 KH	羣 G	疑 NG	曉1XS	匣1XZ	云 JX
     見 KQ	谿 KQH		疑 NGQ		匣2HG
 						匣3XQ
 						O /ʕ/
