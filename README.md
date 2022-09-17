@@ -4,7 +4,7 @@
 輸入法說明：
   聲母:
 
-    [影]q [疑]w [匣云]E [透徹昌]r [端知章]t [谿]y u (pinyin)i (聲母)O [幫非]p 
+    [影]q [疑]w [匣云]E [透徹昌]r [端知章]t [谿]y (unicode)u (pinyin)i (ʕ)O [幫非]p 
     (zyenpheng)a [心生]s  [定澄常]d [滂敷]f [羣匣]g [曉書]]h [邪俟以]j [見]k [來]l
     [從崇]z [匣云邪俟船]x [精莊]c [淸初]v [並奉]b [泥孃日]n [明微]m
 
@@ -12,11 +12,12 @@
     [書]sc [船]zc
     [影]hq,A
     [滂敷]ph [透徹昌]th [谿]kh  
+    [聲]I [韻]U
 
 
     幫 P	滂 PH	並 	明 M
     非 FP	敷 FPH	奉 FB	微 MF 
-    端 T	透 TH	定 D	泥 N			來 L
+    端 T	透 TH	定 D	泥 N			來 L,R
     知 TR	徹 TRH	澄DR	孃 NR	
     精 TS	淸 TSH	從 DZ		心 S	邪 SZ
     莊 TZ	初 TZH	崇DZ		生 SS=S	俟 ZS
@@ -34,11 +35,12 @@
       六元音aeiouə
 
 
-      一等 e v, e=∅
-      二等 r f
+      一等 e,∅ v
+      二等 r=a f=o
       三A j y
       三B x w
       三C i u
+      三  i u
 
 韻尾聲調(：
 

@@ -169,11 +169,15 @@ speller:
     # - derive/(XQ)v/x/ #雲母
     # - abbrev/(^|')(HG)(?!$)/x/ #邪
 
-    - derive/(^|')([A-Z]+)(?!$)/O/ #
+    - derive/(^|')([A-Z]+)(?!$)/I/ #
+    - derive/((^|')([A-Z]+))[a-z]+/$1U/ #
     - derive/(^|')[TK][RC](?!$)/TSR/ #照
     - derive/(^|')[DG][RC](H?)(?!$)/DZR$1/
     - derive/(^|')S[SC](?!$)/SR/
     - derive/(^|')Z[SC](?!$)/ZR/
+    - derive/(^|')TZ(?!$)/DSS/
+    - derive/(^|')DS(?!$)/DZZ/
+    - derive/(^|')L(?!$)/R/
     - derive/(^|')TSR(?!$)/rt/
     - derive/(^|')DZR(?!$)/rd/
     - derive/(^|')SR(?!$)/rs/
@@ -195,8 +199,6 @@ speller:
     - derive/((^|')(HQ|NG)(?!$))/\L$3/
     - derive/(^|')T[SZ](H?)(?!$)/ts\L$2/
     # - derive/(^|')T[SZ]H(?!$)/tsh/
-    - derive/(^|')TZ(?!$)/DSS/
-    - derive/(^|')DS(?!$)/DZZ/
     - derive/(^|')D[SZ](?!$)/dz/
     - derive/(^|')(SZ|ZS|ZZ)(?!$)/sz/
     - derive/(^|')SS(?!$)/s/
