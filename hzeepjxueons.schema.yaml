@@ -76,6 +76,8 @@ speller:
     - abbrev/([A-Z][r])[uo]([cgqk])/$1o$2/
     - abbrev/([A-Z])x[ae]([cgqk])/$1ie$2/ #ieng xang xeng
     - abbrev/([A-Z])w[ae]([cgqk])/$1ue$2/ #
+    - derive/([A-Z])x[ae]([cgqk])/$1iaa$2/ #iaang 庚三
+    - derive/([A-Z])w[ae]([cgqk])/$1uaa$2/ #
     - abbrev/([A-Z][v])[au]([xhsjlr])/$1a$2/ #vaj vuj
     - abbrev/([A-Z])e[ei]([\w])/$1e$2/ #e- ei ee
     - abbrev/([A-Z][evrf])[ei]([\w])/$1e$2/ #e- i-
@@ -91,8 +93,8 @@ speller:
     - abbrev/([A-Z])[jxi]ə(\w)/$1i$2/ #iə 㞢ab
     - derive/([A-Z])əu([xhs])/$1ov$2/ #ov uv侯
     - derive/([A-Z])ə(u)/$1$2/ #侯əu u
-    - abbrev/([A-Z][vf])[au]([ndzt])/$1a$3/ #van fan vun fun
-    - abbrev/([A-Z][ev]?)(e|ə)([ndzt])/$2e$3/ #en
+    - abbrev/([A-Z][vf])[au]([ndzt])/$1a$2/ #van fan vun fun
+    - abbrev/([A-Z][ev]?)(e|ə)([ndzt])/$1e$3/ #en
     - abbrev/([A-Z][jyxw])[aeo]([ndzt])/$1e$2/  #ien
     - abbrev/([A-Z][jyxw])(i|u|ə)([ndzt])/$1i$3/  #iin
     - abbrev/([A-Z][rf])(e|i|o|ə)([ndzt])/$1e$3/  #ren
@@ -135,9 +137,9 @@ speller:
     - derive/([A-Z])v([jxi]əv[xhs])/$1$2/
     - derive/([A-Z])[jxi](i|u|ə)(v[xhs]|[vwy]|yk)/$1i$3/ #尤幽 v u iu iv
     - derive/([A-Z][jxi])(i|u|ə)v([xhs]?)$/$1u$3/ #ju
-    - derive/([A-Z][jxi])(i|u|ə)v/$1u/
-    - derive/([A-Z][jxi])(i|u|ə)w/$1uh/
-    - derive/([A-Z][jxi])(i|u|ə)y/$1us/
+    - derive/([A-Z][jxi])(i|u|ə)v$/$1u/
+    - derive/([A-Z][jxi])(i|u|ə)w$/$1uh/
+    - derive/([A-Z][jxi])(i|u|ə)y$/$1us/
     - derive/([A-Z])xə([cgqk])/$1ri$2/ #職iəŋ iŋ -v
     - derive/([A-Z]v?)[ij]ə([cgqk])/$1i$2/
 
@@ -164,13 +166,13 @@ speller:
     - derive/([PB]|PH|MF?)w/$1x 
     # - derive/(XQ|JX)u([aeoiə])/$1i$2/
     - derive/Jj(?!$)/j/
-    - abbrev/JXu([aeiou]|ə)/x$1/
-    - abbrev/(JX)w(?!$)/x/ #雲母
-    # - derive/(XQ)v/x/ #雲母
+    # - abbrev/JXu([aeiou]|ə)/x$1/
+    - derive/JX[uw]([aeiouə])(?!$)/x$1/ #雲母
+    - abbrev/(XQ)v/$1/ #雲皇母
     # - abbrev/(^|')(HG)(?!$)/x/ #邪
 
     - derive/(^|')([A-Z]+)(?!$)/I/ #
-    - derive/((^|')([A-Z]+))[a-z]+/$1U/ #
+    - derive/((^|')[A-Z][a-zə]*)[a-zə]+/$1U/ #
     - derive/(^|')[TK][RC](?!$)/TSR/ #照
     - derive/(^|')[DG][RC](H?)(?!$)/DZR$1/
     - derive/(^|')S[SC](?!$)/SR/
@@ -203,7 +205,8 @@ speller:
     - derive/(^|')(SZ|ZS|ZZ)(?!$)/sz/
     - derive/(^|')SS(?!$)/s/
     - derive/(^|')(HG)(?!$)/g/
-    - derive/(^|')(JX|XQ|X|[XH]Z)(?!$)/x/
+    - derive/(^|')(JX|XQ|XZ|HZ)(?!$)/x/
+    - derive/(^|')JX(?!$)/j/ #邪㠯 喻
     # - derive/(^|')NG(?!$)/ng/
     - derive/(^|')([XH]S|SX|H)(?!$)/h/
     # - derive/(^|')([XH]S|SX)(?!$)/hs/
