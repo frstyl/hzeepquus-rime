@@ -8,12 +8,7 @@ use_preset_vocabulary: true
 import_tables:
   - giz
 ...
-        # a   魚   歌1   宵1   談1   元1   陽
-        # e   支   歌2   宵2   談2   元2   耕
-        # o   侯   歌3   宵3   談3   元3   東
-        # ə   㞢   微1   幽2   侵1   文1   蒸琕?
-        # i   脂2  脂1   幽3   侵2   眞1   眞2
-        # u   幽1  微2   幽2   侵3   文2   冬#
+
 ######
 ####-∅
 ###A歌麻
@@ -171,7 +166,7 @@ import_tables:
 拖	THajs
 駞	Dajx
 它	THajx	#L
-蛇	THajx
+蛇	THajx	2%
 佗	THajx
 他	THajx
 拕	THajx
@@ -400,7 +395,8 @@ import_tables:
 𤼠	Lvujh
 卵	Lvujh
 蓑	Svujx
-覼	Lvujx
+覶	Lvujx
+覼	Lvujx	1%
 𠏢	Lvujs
 惢	Svujh
 愞	Nvujs
@@ -475,7 +471,7 @@ import_tables:
 䛢	THvujx
 㟎	THvujh
 鵎	THvujh
-##VOR
+##VOR VOKS VOTS
 蛻	THvort	#ts
 毤	THvort	#ts
 ##OA?OO?
@@ -511,7 +507,7 @@ import_tables:
 腡	Lvajx
 𡖿	HGvajh
 𣄸	HGvajh
-##VAR
+##VAR VAKS VATS
 縛	Bvask	#ks
 ##VAJ
 爸	Bvajh
@@ -584,8 +580,9 @@ import_tables:
 邩	Hvajh
 㽿	KQvajx
 㽿	KQHvajx
+厄	NGQvah#𠨳	NGQvajh
 𠨳	NGQvajh
-𠂬	NGQvajh
+
 ###IA 戈三
 迦	Kiax	#音譯用字
 伽	Giax	#音譯用字
@@ -879,10 +876,10 @@ import_tables:
 絮	NRras
 𧩶	KQHras
 抯	TZrax
-柤	TZrax
+柤	TZrax	#樝
+査	TZrax	#柤
 𦳏	TZrax
 樝	TZrax
-查	TZrax	#樝
 㪥	TZrax
 䶥	TZrax
 皻	TZrax
@@ -911,6 +908,7 @@ import_tables:
 榎	KQrah
 廈	HGrah
 夏	HGrah
+𠍺	HGrah
 夏	HGras
 㿿	NGQrah
 丫	HQrax
@@ -1221,7 +1219,6 @@ import_tables:
 洣	Meih
 𡬍	Meih
 䱊	Meih
-薙	THeis
 医	HQeis
 殹	HQeis
 嫕	HQeis
@@ -1347,6 +1344,7 @@ import_tables:
 睇	Deir
 悌	Deir
 娣	Deir
+薙	THeir	#剃
 𥙄	Neil
 㚷	Neil
 𩰐	Neil
@@ -1456,7 +1454,7 @@ import_tables:
 㣇	Deir
 𧱈	Deir
 𢑞	Deir
-##OIR
+##OIR OIKS OITS
 閉	Peirt	#ts
 閇	Peirt
 𣘥	Beirt
@@ -1471,10 +1469,9 @@ import_tables:
 砌	TSHeirt
 䀙	TSHeirt
 𦕀	TSHeirt
-替	THeirt	#ts
-𤾕	THeirt
-暜	THeirt
+暜	THeirt	99%
 㬱	THeirt
+替	THeirt	#ts
 曀	HQeisk	#ks
 殪	HQeisk
 豷	HQeisk
@@ -1734,7 +1731,7 @@ import_tables:
 䚕	Leer
 䕻	Leer
 折	Deej
-##OER
+##OER OEKS OETS
 #PS
 荔	Leesp	#ps
 𩘡	Leesp
@@ -1822,7 +1819,7 @@ import_tables:
 ##OUJ
 蜦	Lor
 ##OƏJ
-㢴	Səj
+㢴	Səj	#囟
 卤	Səj
 卥	Səj
 𠧧	Səj	0%
@@ -1832,6 +1829,8 @@ import_tables:
 粞	Səj
 舾	Səj
 硒	Səj
+𣹍	Səl
+𣶓	Səl
 洒	Səl
 栖	Sər
 𥿳	Sər
@@ -1853,7 +1852,7 @@ import_tables:
 悷	Lərt
 盭	Lərt	#戾 
 綟	Lərt
-戻	THərt
+戻	THər
 隶	Dərt
 逮	Dərt	#ts
 棣	Dərt
@@ -1869,7 +1868,7 @@ import_tables:
 聧	KQHvix
 睽	KQHvix
 藈	KQHvix
-##VIR
+##VIR VIKS VITS
 惠	XQvirt	#ts ɢ
 憓	XQvirt
 潓	XQvirt
@@ -1946,7 +1945,7 @@ import_tables:
 儶	HGves
 𤮰	HQvex
 䀘	HGvex
-##VER
+##VER VEKS VETS
 嘒	XSvert	#ts VS
 暳	XSvert
 嚖	XSvert
@@ -2057,7 +2056,6 @@ import_tables:
 㭛	PHres
 派	PHres
 㠔	Pres
-查	DSrex
 謑	Hres
 膎	HGrex
 鞵	HGrex
@@ -2081,11 +2079,11 @@ import_tables:
 嬭	NRrel
 拐	Grel
 箉	Grel
-##ROR
+##ROR ROKS ROTS
 拜	Prurt	#ts
 𢷎	Prurt
 湃	PHrurt
-##FUR VRUR
+##FUR FUKS FUTS VRUR
 𨛖	KQHfort	#蒯ts 蒯	KQHfort
 ##RIJ 皆
 皆	KQrij
@@ -2177,7 +2175,7 @@ import_tables:
 𧪘	TZHrer
 差	TZHrer
 𨌅	DSrej
-##RER皆
+##RER REKS RETS皆
 債	TZresk	#ks
 譮	Hrerp	#ps 會
 䪥	HGrert	#ts
@@ -2578,11 +2576,12 @@ import_tables:
 翨	Kjes
 徥	DCjeh
 提	DCjex
-巵	TCjex
 卮 	TCjex
-𠨬 	TCjex	0%
-𨆋 	TCjex	0%
-梔	TCjex
+𠨬 	TCjex
+𨆋 	TCjex
+栀	TCjex	#卮
+巵	TCjex	0%
+梔	TCjex	0%
 㯄	TCjex
 榹	Sjex
 㴲	Sjex
@@ -2767,7 +2766,7 @@ import_tables:
 㿛	Ljer
 峛	Ljel
 罹	Ljej
-##JER
+##JER JEKS JETS
 臂	Pjesk	#ks
 譬	FPHjesk
 㵨	FPHjesk
@@ -2876,12 +2875,12 @@ import_tables:
 暆	Jjaj
 崺	Jjal
 㒾	Jjal
-蛇	Jjaj
 䙾	SCjaj
 鉈	SCjaj
 詑	XSjaj	#?
 詑	Jjaj
 䬁	Jjaj
+蛇	Jjaj	2%
 #𤜣	DCjal
 𤜣	Gjal
 𢻫	SCjaj
@@ -2942,8 +2941,7 @@ import_tables:
 贀	Jyes
 䓈	Jyeh	#?
 ##YIJ
-#沝	TCyel
-沝	Tyil
+沝	TCyil
 ##YEJ? VJEJ	?
 劑	TSyej
 ##YEJ VJEJ
@@ -2994,12 +2992,15 @@ import_tables:
 樏	Lyol	#?累
 嶲	Syol
 臇	TSyoj
+㷷	TSyoj	#臇
 𤎱	TSyoj
 吹	KCHyoj
-吹	KCHyor
-䶴	KCHyoj
-䶴	KCHyor
 炊	KCHyoj
+𪛑	KCHyoj
+䶴	KCHyoj
+吹	KCHyor
+𪛑	KCHyor
+䶴	KCHyor
 𠂹	DCyoj
 𠃀	DCyoj	0%
 𡍮	DCyoj
@@ -3044,7 +3045,6 @@ import_tables:
 䬐	NCyoj
 䅗	Syor
 ##VJƏJ?
-㷷	TSyəj
 ###XEJ RJEJ
 ##XAJ
 𢀩	TZHxaj
@@ -3403,7 +3403,7 @@ import_tables:
 䪎	SSwex
 䭨	SSwex
 䬽	SSwex
-##WOR
+##WOR WOKS WOTS
 㨅	NRworp	#ps ?
 ##WOJ
 𦡘	TRwoj
@@ -3701,7 +3701,7 @@ import_tables:
 伊	HQjij
 咿	HQjij
 蛜	HQjij
-##JIR
+##JIR JIKS JITS
 𢄢	TCjirp	#ps T
 摯	TCjirp
 贄	TCjirp
@@ -3827,12 +3827,12 @@ import_tables:
 𠮇	Sjərt
 ##?
 #JƏ
-㹗	TCHjəj
-疓	NCjəl
-𦚪	Jjəl
-茝	TCHjəl
-佁	Jjəl
-䑂	Jjəl
+㹗	TCHə
+疓	NCəh
+𦚪	Jəh
+茝	TCHəh
+佁	Jəh
+䑂	Jəh
 #JEJ ?
 貤	ZCjer	#?
 貤	Jjer
@@ -3890,7 +3890,7 @@ import_tables:
 睢	Hyij
 婎	Hyir
 睢	Hyir
-##YIR
+##YIR YIKS YITS
 季	Kyirt	#ts
 悸	Gyirt
 痵	Gyirt
@@ -3986,16 +3986,16 @@ import_tables:
 荽	Syuj
 浽	Syuj
 䅑	Syuj
-##YUR ju
+##YUR YUKS YUTS ju
 出	KCHyurt	#ts
 ##YƏ
-㒸	SZyərt	#ts
 ##?
 #YOJ
+㒸	SZyurt	#ts
 䲊	Jyol
 撱	Jyol
 擩	NCyoj
-##YOR
+##YOR YOKS YOTS
 𤀷	Jyurt	#ks育
 𦝭	Lyurt	#ts膟
 萃	DZyurt	#ts
@@ -4279,6 +4279,8 @@ import_tables:
 #TS
 鬽	Mxərt	#ts
 魅	Mxərt
+𢑛	Mxərt
+𢑙	Mxərt	0%
 器	KHxərt	#ts
 穊	Kxərt	#ts
 鱀	Gxərt
@@ -4295,7 +4297,7 @@ import_tables:
 地	Dxer	100%	#L D?
 墬	Dxer
 ###WI VRJI
-##WƏV 幽2WƏV VRJƏV
+##WƏV VRJƏV
 𨌗	KHwəvs	#?
 燹	Hwəvs	#?
 簋	Kwəvh
@@ -4317,7 +4319,7 @@ import_tables:
 厬	Kwəvh
 晷	Kwəvh
 𢌳	Gwəvx
-頯	Kwəvh	#幽2
+頯	Kwəvh
 頯	Gwəvx
 䟸	Gwəvx
 䟸	Kwəvx
@@ -4368,10 +4370,10 @@ import_tables:
 鎚	DRwuj
 槌	DRwuj
 鎚	DRwur
-##WUR
+##WUR WUKS WUTS
 轛	TRwurp	#ps
 懟	DRwurp
-##WUR WUTS
+##WUR WUKS WUTS WUTS
 臾	Gwurt	#ts
 喟	KHwurt	#ts
 墜	DRwurt
@@ -4582,24 +4584,6 @@ import_tables:
 巸	Jjəx	#?
 戺	DSxəh	#rj
 𢨪	DSxəh
-己	Kiəh
-紀	Kiəh
-妀	Kiəh
-𠮯	Kiəh
-記	Kiəs
-邔	KHiəh
-杞	KHiəh
-屺	KHiəh
-玘	KHiəh
-芑	KHiəh
-起	KHiəh
-邔	Giəs
-忌	Giəs
-䋟	Giəs
-鵋	Giəs
-誋	Giəs
-梞	Giəs
-𥭜	Giəs
 㠯	Jjəh
 苢	Jjəh
 以	Jjəh	#L
@@ -4648,6 +4632,7 @@ import_tables:
 䇫	Kiəx
 𩜮	KHjəs
 煕	XSiəx
+熙	XSiəx
 𤇴	XSiəx
 媐	XSiəx
 台	Jjəx
@@ -4737,6 +4722,71 @@ import_tables:
 恥	TRHxəh
 伱	NRxəh	100%
 聻	NRxəh
+莉	DRxəx
+㓼	TZHxəh
+䰡	TRHxəs
+㕜	SSxəh
+𠉕	SSxəh
+𠉕	SSxəs
+𩣬	SSxəh
+𩣬	SSxəs
+史	SSxəh
+使	SSxəh
+𩰢	SSxəh
+使	SSxəs
+𣳪	SSxəs
+𧳅	SSxəs
+𩰢	SSxəs
+𨽄	SSxəs
+𥥥	SSxəs
+駛	SSxəh
+駛	SSxəs
+事	TZxəs
+剚	TZxəs
+倳	TZxəs
+事	DSxəs
+叓	DSxəs
+𩛌	DSxəs
+痴	TRHxəx
+士	DSxəh
+仕	DSxəh
+𢐂	TRxəs
+颸	TZHxəx
+褫	TRHxəh
+𥾩	ZSxəh
+徵	TRxəh
+漦	ZSxəx
+甾	TZxəx
+𠙹	TZxəx
+𠙾	TZxəx
+葘	TZxəx
+𦸜	TZxəx	0%	#葘
+淄	TZxəx
+㿳	TZxəx
+輜	TZxəx
+錙	TZxəx
+鶅	TZxəx
+緇	TZxəx
+䊷	TZxəx	#緇
+椔	TZxəx
+鯔	TZxəx
+䎩	TZxəx
+䣎	TZxəx
+椔	TZxəs
+鶅	TZxəs
+輜	TZHxəx
+滓	TZxəh
+䔂	TZxəh
+廁	TZHxəs
+庤	DRxəh
+𦥊	TRHxəs
+孴	NGiəh
+欼	TZHxəh
+𠥽	TZxəh	#𣎵
+𠂔	TZxəh
+笫	TZxəh
+胏	TZxəh
+枾	DSxəh
 饎	KHjəs
 糦	KHjəs
 僖	Hiəx
@@ -4821,42 +4871,26 @@ import_tables:
 禥	Giəx
 𦪆	Giəx
 蘄	Giəx
-莉	DRxəx
-㓼	TZHxəh
+己	Kiəh	100%
+紀	Kiəh
+妀	Kiəh
+𠮯	Kiəh
+記	Kiəs
+邔	KHiəh
+杞	KHiəh
+屺	KHiəh
+玘	KHiəh
+芑	KHiəh
+起	KHiəh
+邔	Giəs
+忌	Giəs
+䋟	Giəs
+鵋	Giəs
+誋	Giəs
+梞	Giəs
+𥭜	Giəs
 抾	KHiəx
 抾	KHiəx
-䰡	TRHxəs
-㕜	SSxəh
-𠉕	SSxəh
-𠉕	SSxəs
-𩣬	SSxəh
-𩣬	SSxəs
-史	SSxəh
-使	SSxəh
-𩰢	SSxəh
-使	SSxəs
-𣳪	SSxəs
-𧳅	SSxəs
-𩰢	SSxəs
-𨽄	SSxəs
-𥥥	SSxəs
-駛	SSxəh
-駛	SSxəs
-事	TZxəs
-剚	TZxəs
-倳	TZxəs
-事	DSxəs
-叓	DSxəs
-𩛌	DSxəs
-痴	TRHxəx
-士	DSxəh
-仕	DSxəh
-𢐂	TRxəs
-颸	TZHxəx
-褫	TRHxəh
-𥾩	ZSxəh
-徵	TRxəh
-漦	ZSxəx
 癡	TRHxəx
 嶷	NGiəx
 觺	NGiəx
@@ -4873,37 +4907,6 @@ import_tables:
 儗	NGiəs
 𧳙	Giəs
 豙	NGiəs
-甾	TZxəx
-𠙹	TZxəx
-𠙾	TZxəx
-葘	TZxəx
-𦸜	TZxəx	0%	#葘
-淄	TZxəx
-㿳	TZxəx
-輜	TZxəx
-錙	TZxəx
-鶅	TZxəx
-緇	TZxəx
-䊷	TZxəx	#緇
-椔	TZxəx
-鯔	TZxəx
-䎩	TZxəx
-䣎	TZxəx
-椔	TZxəs
-鶅	TZxəs
-輜	TZHxəx
-滓	TZxəh
-䔂	TZxəh
-廁	TZHxəs
-庤	DRxəh
-𦥊	TRHxəs
-孴	NGiəh
-欼	TZHxəh
-𠥽	TZxəh	#𣎵
-𠂔	TZxəh
-笫	TZxəh
-胏	TZxəh
-枾	DSxəh
 ##IƏR JƏR
 亟	KHiəsk	#ks
 䀈	KHiəst	#ts
@@ -4987,7 +4990,7 @@ import_tables:
 待	Dəh	#㞢
 等	Dəh
 黱	Dəs
-纔	DZəx
+纔	DZəx	#才
 纔	DZəs
 𩛥	TSəs
 䞗	TSHəx
@@ -5273,7 +5276,7 @@ import_tables:
 菩	Bvəh
 佩	Bvəs
 珮	Bvəs
-某	Mvəx
+某	Mvəx	#梅
 槑	Mvəx
 楳	Mvəx
 梅	Mvəx
@@ -5348,7 +5351,7 @@ import_tables:
 背	Bvəsk
 鄁	Bvəsk
 偝	Bvəsk
-##VUR
+##VUR VUKS VUTS
 昢	PHvort	#ts
 內	Nvorp	#ps
 𨓤	THvorp	#ps
@@ -5511,11 +5514,16 @@ import_tables:
 脮	Nvol
 㼏	Nvol
 挼	Svoj	#SN
+㪟	Tvoj
+敦	Tvoj
+敦	Tvoj
+𥫉	Tvol
 䇏	Tvol
 錞	Dvol
-錞	Dvor
-敦	Tvoj
 𧝋	Dvoj
+𢥦	Dvor
+𢥲	Dvor
+錞	Dvor
 憝	Dvor
 憞	Dvor
 譈	Dvor
@@ -5769,7 +5777,7 @@ import_tables:
 僾	HQiəl
 靉	HQiəl
 旡	Kiərt	#ts
-旣	Kiərt	99%
+旣	Kiərt	100%
 漑	Kiərt
 曁	Kiərt
 蔇	Kiərt
@@ -5984,7 +5992,7 @@ import_tables:
 蝛	HQuuj
 鰄	HQuuj
 楲	HQuuj
-##UUR YUR
+##UUR UUKS UUTS YUR
 𤈫	HQuurt	#ts
 尉	HQuurt
 熨	HQuurt
@@ -6103,8 +6111,8 @@ import_tables:
 㡔	Mox
 𨡭	Mox
 𢜮	Moh
-无	Mox	99%
 墲	PHox
+无	Mox
 橅	Mox
 墲	Mox
 䉑	Mox
@@ -6361,8 +6369,8 @@ import_tables:
 蠱	KQoh
 壺	HGox
 㯛	HGox
-雐	Hox
 虍	Hox
+雐	Hox
 虎	Hoh
 䰧	Hox
 琥	Hoh
@@ -6522,7 +6530,7 @@ import_tables:
 䡧	HQoh
 摀	HQoh
 嵨	HQoh
-##OAR AKS
+##OAR OAKS OATS AKS
 殬	Tosk	#ks
 斁	Tosk
 斁	Dosk
@@ -7158,11 +7166,12 @@ import_tables:
 釃	SSxox
 𦌿	SSxox
 疋	SSxox
-疋	SSxoh
 𤕟	SSxox
 梳	SSxox
-𥿇	KHioh
 𥿇	SSxox
+疋	SSxoh
+䝪	SSxoh
+𥿇	KHioh
 疎	SSxos
 疏	SSxos
 䟽	SSxos
@@ -7170,8 +7179,7 @@ import_tables:
 㽰	SSxox
 䟽	SSxox
 蔬	SSxox
-䝪	SSxoh
-疎	SSxox
+疎	SSxox	#疏疋
 綀	SSxox
 踈	SSxox
 踈	SSxos
@@ -7321,7 +7329,7 @@ import_tables:
 䌗	FPHuoh
 撫	FPHuoh
 無	MFuox
-无	MFuox
+无	MFuox	99%
 膴	MFuox
 墲	MFuox
 蕪	MFuox
@@ -8032,8 +8040,8 @@ import_tables:
 䓏	FPHuəx	#?
 䎷	FPHuəs
 噢	HQuəh
-##UOR 
-仆	FPHuusk	#ks
+##UOR UOKS UOTS 
+仆	FPHuusk	#ks o
 䟔	FPHuusk
 訃	FPHuusk
 赴	FPHuusk
@@ -8132,12 +8140,10 @@ import_tables:
 抱	Beuvx
 #O
 𩚭	Bəux
-#
-牡	Məvh	#əuv
+#?
+牡	Muəh	#əuv
+#Ə
 某	Muəh
-#
-畮	Məuh
-踇	Məuh
 呣	Məux
 母	Məuh
 拇	Məuh
@@ -8148,8 +8154,10 @@ import_tables:
 䳇	Məuh
 姆	Məus
 苺	Məus
-畝	Məuh
+畮	Məuh
+踇	Məuh
 畞	Məuh	#畮
+畝	Məuh	1%
 #UƏ
 抔	Buəx	#掊?
 咅	THuəs	#㰯
@@ -8557,14 +8565,14 @@ import_tables:
 𧱪	TSHəus
 楱	DZəus
 𣠏	TSəux
-##OOR
+##OOR OOKS OOTS
 耨	Nəusk	#ks
 槈	Nəusk
 鎒	Nəusk
 鬥	Təusk	#ks
 鬪	Təusk
 鬬	Təusk
-仆	PHəusk	#ks
+仆	PHəusk	#ks o
 𠔼	Məusk	#ks?
 竇	Dəusk	#ks
 莽	Məuh
@@ -8629,6 +8637,7 @@ import_tables:
 夳	THart
 忕	THart
 汰	THart
+戻	THart
 泰	THart
 帶	Tart
 㿃	Tart
@@ -8703,7 +8712,7 @@ import_tables:
 鴱	NGQart
 餀	XSart	#NGS
 𤵽	XSart
-##VOR
+##VOR VOKS VOTS
 軷	Bvurt
 𣬪	Pvurt
 𥄔	Pvurt
@@ -8726,7 +8735,7 @@ import_tables:
 㤄	PHvurt
 旆	Bvurt
 𣃩	Bvurt
-###VAR
+###VAR VAKS VATS
 巜	KQvart
 娧	THvart
 蛻	THvart
@@ -8758,7 +8767,7 @@ import_tables:
 濊	XSvart
 𢃒	TSvart	#碎ts
 㱻	Lvart
-##VOR
+##VOR VOKS VOTS
 冣	TSvurt
 𧜮	TSHvurt
 𨄒	TSHvurt
@@ -8801,7 +8810,7 @@ import_tables:
 䢈	HGvurp
 禬	HGvurp
 繪	HGvurp
-###RAR
+###RAR RAKS RATS
 敗	Prart
 敗	Brart
 䢙	Brart
@@ -8835,7 +8844,7 @@ import_tables:
 駃	KQHfart
 快	KQHfart
 䈛	KQfart	#?𨛖
-##FOR VROR
+##FOR FOKS FOTS VROR
 啐	TZHfurt
 嘬	TZHfurt
 䴝	TZHfurt
@@ -8848,7 +8857,7 @@ import_tables:
 懀	HQfurt
 𠽶	TZHfurt
 𣤌	TZHfurt
-###IAR
+###IAR IAKS IATS
 乂	NGiart
 刈	NGiart
 艾	NGiart
@@ -8875,7 +8884,7 @@ import_tables:
 䮹	HQuart
 顪	Huart
 砩	FPuart
-##UOR
+##UOR UOKS UOTS
 祓	FPuort
 𩵥	FBuort
 鼣	FBuort
@@ -8895,10 +8904,10 @@ import_tables:
 䂕	Huort
 𥏙	KHuort
 ####E
-###IER
-##JIR
+###IER IEKS IETS
+##JIR JIKS JITS
 穧	TSjirt
-##JER
+##JER JEKS JETS
 穧	TSjert
 㡀	Bjert	#t
 蔽	Pjert
@@ -9014,7 +9023,7 @@ import_tables:
 𠛐	Kjert	#制
 掣	KHjert
 痸	KHjert
-##JAR
+##JAR JAKS JATS
 筮	DCjart
 噬	DCjart
 簭	DCjart
@@ -9036,11 +9045,11 @@ import_tables:
 𢤆	Ljart
 癘	Ljart
 蠇	Ljart
-###YER VJER
-##YAR
+###YER YEKS YETS VJER
+##YAR YAKS YATS
 㓹	TSHyart	#?
 歲	Syart
-##YER
+##YER YEKS YETS
 㨹	TSyert
 𦄑	Syert
 彗	SZyert	#sɢʷ
@@ -9059,12 +9068,12 @@ import_tables:
 叡	Jyert
 𢄢	SCyert
 銴	Jyert
-##YUR
+##YUR YUKS YUTS
 𠭥	TCyurt	#祟U
 𢿆	TCyurt
 𧑎	TSyurt
 𧑎	TSHyurt
-##YOR
+##YOR YOKS YOTS
 𤂳	TSHyort
 𣃍	TSHyort
 啜	DCyort
@@ -9094,7 +9103,7 @@ import_tables:
 芮	NCyorp
 蜹	NCyorp
 蜹	Jyorp
-###XER RJER
+###XER XEKS XETS RJER
 ##ƏR
 𦭮	DRxərt	#㐁
 䇧	DRxərt
@@ -9120,7 +9129,7 @@ import_tables:
 䀸	TRHxert
 䟷	TRHxert
 猘	Kxert
-##XAR RJAR
+##XAR XAKS XATS RJAR
 滯	DRxart
 㿃	TRxart
 蹛	DRxart
@@ -9144,8 +9153,8 @@ import_tables:
 憩	KHxart
 鎩	SSxart
 蔱	SSxart
-###WER VRJER
-##WER
+###WER WEKS WETS VRJER
+##WER WEKS WETS
 毳	TZHwert
 㯔	TZHwert
 竁	TZHwert
@@ -9156,7 +9165,7 @@ import_tables:
 熭	JXwert
 璏	JXwert
 𣃍	TZHwert
-##WAR VRJAR
+##WAR WAKS WATS VRJAR
 劌	Kwart
 𨇙	Kwart
 𤜂	Kwart
@@ -9168,7 +9177,7 @@ import_tables:
 㦣	JXwart
 讆	JXwart
 𤜂	JXwart
-##WUR VRJOR
+##WUR WUKS WUTS VRJOR
 綴	TRwort
 醊	TRwort
 畷	TRwort
@@ -9837,6 +9846,7 @@ import_tables:
 姣	HGrev
 㬵	HGrev
 𨠦	HGrev
+胶	HGrev	#肉
 佼	HGrew
 校	HGrey
 詨	HGrey
@@ -10015,7 +10025,7 @@ import_tables:
 𣲿	NRrovx
 ##RUV?
 獿	NRrovh
-##RƏV 幽2 
+##RƏV
 𠐋	PHrəv
 㶀	KQrəv
 膠	KQrəv
@@ -10093,7 +10103,7 @@ import_tables:
 ##U UV u?v 
 弴	Teuvx
 䜮	Leuvx
-##EIV 幽3 iv 
+##EIV
 幺	HQeiv
 䦊	Neiw
 叫	KQeiy
@@ -10102,7 +10112,7 @@ import_tables:
 鼼	NGQeiy
 湫	TSeiw
 㡑	TSeiw
-##ƏV 2  幽2
+##ƏV
 𦶌	Təv
 凋	Təv
 䯾	Təv
@@ -10281,7 +10291,7 @@ import_tables:
 皛	HGeew
 㵿	HGeew
 #𠄔	HGeew
-𩡻	HQeew	#宵3uO
+𩡻	HQeew	#?
 垚	NGQeev
 堯	NGQeev
 曉	Heew
@@ -10426,18 +10436,19 @@ import_tables:
 幧	TSHjav
 皽	TCjav
 覞	Jjay
-##JƏV 幽2
+##JƏV
 髎	Ljəv
 熮	Ljəy
 𤬖	SCjəv
 䌛	Jjəv	#L-
-邎	Jjuv
+邎	Jjəv
 蘨	Jjəv
 𤬖	Jjəv
 𢑄	Jjəv
 ##JIV
+髟	Pjiv	#?3
 㯱	Bjiv
-盄	TCjiv
+盄	TCjiv	#弔
 𧳨	NCjiw
 㹛	NCjiv
 𢹎	NCjiw
@@ -10448,7 +10459,6 @@ import_tables:
 楢	TCHjiw
 ##JEV
 蜱	Mjev
-髟	Pjev	#?3
 猋	Pjev
 驫	Pjev	#?3
 飆	Pjev
@@ -10808,6 +10818,19 @@ import_tables:
 闄	HQjew
 葽	HQjey
 邀	HQjev
+##IER IEKS IETS
+約	HQjevsk	#ks
+𤻲	Ljevsk	#ks
+讑	Jjevsk	#ks
+𧢢	Jjevsk
+𥌺	Jjevsk
+燿	Jjevsk
+耀	Jjevsk
+曜	Jjevsk
+釂	TSjevsk	#ks
+皭	TSjevsk
+爝	TSjevsk
+䂃	TSjevsk
 ###XEV
 ##XƏV
 𥃧	Kxəw
@@ -10951,434 +10974,746 @@ import_tables:
 駣	DRxew
 垗	DRxew
 𠧞	DRxew
-#尤韻古幽1U 幽2ƏV幽3EIV
-####JƏV JUV UV幽尤 J X
-###IƏV 尤 J 
-##IU幽1 
-妋	HQiuvx
-缶	FPiuvh
-缹	FPiuvh
-𡜊	FPiuvh
-㓡	FPiuvh
-哹	FPiuvx
-哹	FBiuvx
-桴	FBiuvx
-罦	FBiuvx
-琈	FBiuvx
-粰	FBiuvx
-䳕	FBiuvx
-䱐	FBiuvx
-蜉	FBiuvx
-烰	FBiuvx
-𡦄	FBiuvx
-艀	FBiuvx
-䨗	FBiuvx
-浮	FBiuvx
-𥰛	FBiuvx
-鉜	FBiuvx
-𨸏	FBiuvh
-𠼛	FBiuvh
-阜	FBiuvh
-䘀	FBiuvh
-𦰺	FBiuvh
-𩣸	FBiuvh
-㷆	FBiuvh
-𨹺	FBiuvh
-䧞	FBiuvx	#𨹺
-𨺅	FBiuvs
-枹	FBiuvx
-䍖	FBiuvx
-𦮹	FBiuvx
-䍍	FPiuvx
-矛	Miuvx
-雺	Miuvx
-𢦧	Miuvx
-蟊	Miuvx
-鍪	Miuvx
-鞪	Miuvx
-堥	Miuvx
-𨡭	Miuvx
-蝥	Miuvx
-𩭾	Miuvx
-䋷	Miuvx
-牟	Miuvx
-眸	Miuvx
-侔	Miuvx
-麰	Miuvx
-𦭷	Miuvx
-劺	Miuvx
-恈	Miuvx
-鴾	Miuvx
-蛑	Miuvx
-韭	Kiuvh
-臼	Giuvh
-𦥶	Giuvh
-舅	Giuvh
-齨	Giuvh
-䳎	Giuvh
-䊆	Giuvh
-九	Kiuvh
-𦬖	Giuvx
-仇	Giuvx
-勼	Kiuvx
-究	Kiuvs
-㙀	Ljuvs
-鳩	Kiuvx
-訄	KHiuvx
-叴	Giuvx
-厹	Giuvx
-頄	Giuvx
-艽	Giuvx
-鼽	Giuvx
-朹	Giuvx
-馗	Giuvx
-䊵	Giuvx
-䜪	Giuvx
-扏	Giuvx
-犰	Giuvx
-訅	Giuvx
-釚	Giuvx
-肍	Giuvx
-訄	Giuvx
-㭝	Giuvx
-臭	KCHjuvs
-糗	KHiuvh
-殠	Hiuvh
-齅	Hiuvs
-殠	KHiuvs
-嘼	Hiuvs
-獸	SCjuvs	#hj
-𣟼	TSjuvx
-朽	Hiuvh
-㱙	Hiuvh
-㽲	Hiuvh
-求	Giuvx
-救	Kiuvs
-𧧷	Kiuvs
-脙	Hiuvx
-𡨃	Giuvx
-蛷	Giuvx
-𧒔	Giuvx
-逑	Giuvx
-球	Giuvx
-莍	Giuvx
-䣇	Giuvx
-賕	Giuvx
-殏	Giuvx
-梂	Giuvx
-俅	Giuvx
-脙	Giuvx
-絿	Giuvx
-銶	Giuvx
-𩒮	Giuvx
-𥭑	Giuvx
-毬	Giuvx
-䟵	Giuvx
-𧻱	Giuvx
-捄	Giuvx
-𧚍	Giuvx
-裘	Giuvx
-蓲	KHiuvx
-㵻	Hiuvx
-𦃈	TSHjuvx
-䞭	TSHjuvs
-醙	Sjuvh
-休	Hiuvx
-貅	Hiuvx
-㹯	Hiuvx
-鵂	Hiuvx
-𩢮	Hiuvx
-㾋	Hiuvx
-庥	Hiuvx
-髤	Hiuvx
-咻	Hiuvx
-𠁫	KHiuvx
-羞	Sjuvx
-䡭	Sjuvx
-憂	HQiuvx
-𢝊	HQiuvx	80%
-優	HQiuvx
-瀀	HQiuvx
-𢖒	HQiuvx
-櫌	HQiuvx
-鄾	HQiuvx
-嚘	HQiuvx
-耰	HQiuvx
-獶	HQiuvx
-𧀥	HQiuvx
-纋	HQiuvx
-㱊	HQiuvx
-懮	HQiuvh
+####IƏV IU IIV幽尤 J X
+###IU 尤 J 
+##IU
+妋	HQiux
+缶	FPiuh
+缹	FPiuh
+𡜊	FPiuh
+㓡	FPiuh
+哹	FPiux
+哹	FBiux
+桴	FBiux
+罦	FBiux
+琈	FBiux
+粰	FBiux
+䳕	FBiux
+䱐	FBiux
+蜉	FBiux
+烰	FBiux
+𡦄	FBiux
+艀	FBiux
+䨗	FBiux
+浮	FBiux
+𥰛	FBiux
+鉜	FBiux
+𨸏	FBiuh
+𠼛	FBiuh
+阜	FBiuh
+䘀	FBiuh
+𦰺	FBiuh
+𩣸	FBiuh
+㷆	FBiuh
+𨹺	FBiuh
+䧞	FBiux	#𨹺
+𨺅	FBius
+枹	FBiux
+䍖	FBiux
+𦮹	FBiux
+䍍	FPiux
+矛	Miux
+雺	Miux
+𢦧	Miux
+蟊	Miux
+鍪	Miux
+鞪	Miux
+堥	Miux
+𨡭	Miux
+蝥	Miux
+𩭾	Miux
+䋷	Miux
+牟	Miux
+眸	Miux
+侔	Miux
+麰	Miux
+𦭷	Miux
+劺	Miux
+恈	Miux
+鴾	Miux
+蛑	Miux
+韭	Kiuh
+臼	Giuh
+𦥶	Giuh
+舅	Giuh
+齨	Giuh
+䳎	Giuh
+䊆	Giuh
+九	Kiuh
+𦬖	Giux
+仇	Giux
+勼	Kiux
+究	Kius
+㙀	Ljus
+鳩	Kiux
+訄	KHiux
+叴	Giux
+厹	Giux
+頄	Giux
+艽	Giux
+鼽	Giux
+朹	Giux
+馗	Giux
+䊵	Giux
+䜪	Giux
+扏	Giux
+犰	Giux
+訅	Giux
+釚	Giux
+肍	Giux
+訄	Giux
+㭝	Giux
+臭	KCHjus
+糗	KHiuh
+殠	Hiuh
+齅	Hius
+殠	KHius
+嘼	Hius
+獸	SCjus	#hj
+𣟼	TSjux
+朽	Hiuh
+㱙	Hiuh
+㽲	Hiuh
+求	Giux
+救	Kius
+𧧷	Kius
+脙	Hiux
+𡨃	Giux
+蛷	Giux
+𧒔	Giux
+逑	Giux
+球	Giux
+莍	Giux
+䣇	Giux
+賕	Giux
+殏	Giux
+梂	Giux
+俅	Giux
+脙	Giux
+絿	Giux
+銶	Giux
+𩒮	Giux
+𥭑	Giux
+毬	Giux
+䟵	Giux
+𧻱	Giux
+捄	Giux
+𧚍	Giux
+裘	Giux
+蓲	KHiux
+㵻	Hiux
+𦃈	TSHjux
+䞭	TSHjus
+醙	Sjuh
+休	Hiux
+貅	Hiux
+㹯	Hiux
+鵂	Hiux
+𩢮	Hiux
+㾋	Hiux
+庥	Hiux
+髤	Hiux
+咻	Hiux
+𠁫	KHiux
+羞	Sjux
+䡭	Sjux
+憂	HQiux
+𢝊	HQiux	80%
+優	HQiux
+瀀	HQiux
+𢖒	HQiux
+櫌	HQiux
+鄾	HQiux
+嚘	HQiux
+耰	HQiux
+獶	HQiux
+𧀥	HQiux
+纋	HQiux
+㱊	HQiux
+懮	HQiuh
+##IUR IUKS
+鍑	Puusk	#ks
+𤸑	FPHuusk
+𧜰	Buusk
+𢕒	Buusk
+復	Buusk
+複	Buusk
+𤸑	Buusk
+椱	Buusk
+𧠃	FPHuusk
+𧠃	Buusk	5%
+覆	FPHuusk	0%
+覆	Buusk	0%
+仆	PHuusk	#ks u
+伏	Bviəsk	#ks
 ##JU
-糔	Sjuvh	#豪
-囚	SZjuvx
-鮂	TSjuvx
-泅	SZjuvx
-汓	SZjuvx
-苬	SZjuvx
-鮂	SZjuvx
-醜	TCHjuvh	#?L
-𧃝	TCHjuvh
-𢿟	DCjuvx
-𣪐	DCjuvx
-𣪾	DCjuvx
-𢿟	DCjuvx
-𨢫	DCjuvx	#𨣊?
-𦓃	DCjuvh	#𦓆?
-𤩈	DCjuvh
-𤩇	DCjuvh	0%
-魗	TCHjuvx	#醜
-媿	TCHjuvh
-𩳜	TCHjuvh
-魗	DCjuvx	#𣀘
-𣀘	DCjuvx
-𣫐	DCjuvx
-𣀓	DCjuvx
-醻	DCjuvx
-𨞪	DCjuvx
-壽	DCjuvh
-𨞪	DCjuvh
-璹	DCjuvh
-壽	DCjuvs
-雔	DCjuvx
-犨	TCHjuvx
-犫	TCHjuvx
-讎	DCjuvx
-售	DCjuvs
-沑	NCjuvh
-粈	NCjuvh
-囮	Jjuvx
-收	SCjuvx
-收	SCjuvs
-㝌	Jjuvh
-羑	Jjuvh
-㕗	Jjuvh
-𦏇	Jjuvh
-首	SCjuvh	#L-
-𩠐	SCjuvh
-𦣻	SCjuvh
-首	SCjuvs
-䭭	SCjuvh
-䐓	NCjuvx
-秀	Sjuvs
-蜏	Sjuvs
-琇	Sjuvs
-誘	Jjuvh
-䛻	Jjuvh
-蜏	Jjuvh
-琇	Jjuvh
-蜏	Jjuvs
-莠	Jjuvh
-舀	Jjuvx
-𦥝	Jjuvx
-冘	Jjuvx
-抌	Jjuvx
-㹨	Jjuvs	#?
-㺠	Jjuvs
-𤝨	Jjuvs
-𤟊	Jjuvs
-斿	Jjuvx
-𨒰	Jjuvx
-蝣	Jjuvx
-游	Jjuvx
-遊	Jjuvx
-卣	Jjuvx
-𠧪	Jjuvx
-卣	Jjuvh
-𧡹	Jjuvx
-𦵵	Jjuvx
-𠧴	Jjuvx
-𤪎	Jjuvx
-𣣸	Jjuvh
-𤪎	Jjuvh
-㳛	Jjuvx
-酉	Jjuvh
-丣	Jjuvh
-猶	Jjuvx	99%	#L-
-𧳫	Jjuvx	#猶
-猷	Jjuvx
-輶	Jjuvx
-楢	Jjuvx
-𦳷	Jjuvx
-偤	Jjuvx
-輶	Jjuvh
-輶	Jjuvs
-蜼	Jjuvs
-猚	Jjuvs
-𤢹	Jjuvs
-𧳫	Jjuvs	#蜼
-蕕	Jjuvx
-猶	Jjuvs
-㾞	Jjuvx
-庮	Jjuvx
-𥙫	Jjuvh
-庮	Jjuvh
-𨣆	Jjuvh
-梄	Jjuvh
-槱	Jjuvh
-槱	Jjuvs
-酒	TSjuvh
-酋	DZjuvx
-𧳫	TSjuvx	#犬名
-𧳫	DZjuvx	#良犬
-𦵩	DZjuvx
-遒	TSjuvx
-蝤	TSjuvx
-揂	TSjuvx
-媨	TSjuvs
-鞧	TSHjuvx
-緧	TSHjuvx
-𪓰	TSHjuvx
-趥	TSHjuvx
-㥢	DZjuvx
-遒	DZjuvx
-崷	DZjuvx
-鰌	DZjuvx
-蝤	DZjuvx
-煪	DZjuvx
-𧤕	DZjuvx
-猶	Kiuvs
-逎	TSjuvx
-𩭓	TSjuvx
-牖	Jjuvh
-揄	Jjuvx
-𢋅	Jjuvx
-受	DCjuvh
-綬	DCjuvh
-授	DCjuvs
-㖟	DCjuvs
-綬	DCjuvs
-𨛶	NCjuvx
-州	TCjuvx
-洲	TCjuvx
-喌	TCjuvx
-酬	DCjuvx
-詶	DCjuvx
-詶	DCjuvs
-守	SCjuvh
-狩	SCjuvs
-守	SCjuvs
-帚	TCjuvh
-箒	TCjuvh
-鯞	TCjuvh
-柔	NCjuvx
-鍒	NCjuvx
-㽥	NCjuvx
-騥	NCjuvx
-蝚	NCjuvx
-蹂	NCjuvx
-禸	NCjuvh
-葇	NCjuvx
-鞣	NCjuvx
-鰇	NCjuvx
-瑈	NCjuvx
-腬	NCjuvx
-鶔	NCjuvx
-揉	NCjuvx
-䰆	NCjuvx
-蹂	NCjuvh
-楺	NCjuvh
-煣	NCjuvh
-輮	NCjuvh
-葇	NCjuvh
-𥠊	NCjuvh
-韖	NCjuvh
-輮	NCjuvs
-蹂	NCjuvs
-煣	NCjuvs
-鞣	NCjuvs
-慒	SZjuvx
-流	Ljuvx
-硫	Ljuvx
-𥹷	Ljuvx
-旒	Ljuvx
-䖻	Ljuvx
-裗	Ljuvx
-𪎣	Ljuvx
-㳅	Ljuvx	#流
-𣲖	Ljuvx	#㳅
-瑬	Ljuvx
-𤥗	Ljuvx
-駵	Ljuvx
-𪕚	Ljuvx
-䱖	Ljuvx
-珋	Ljuvx
-駠	Ljuvx
-𪕋	Ljuvx
-桺	Ljuvh
-𤥗	Ljuvh
-𦯄	Ljuvh
-𨌡	Ljuvh
-柳	Ljuvh
-𦊑	Ljuvh
-珋	Ljuvh
-𩖴	Ljuvh
-𪕋	Ljuvh
-𨋖	Ljuvh
-茆	Ljuvh
-𥥹	Ljuvs
-窌	Ljuvs
-𥨌	Ljuvs	#𥥹
-畱	Ljuvx
-𪅳	Ljuvx
-驑	Ljuvx
-飅	Ljuvx
-橊	Ljuvx
-癅	Ljuvx
-璢	Ljuvx	#𤥗
-鐂	Ljuvx	#劉
-𩞷	Ljuvx
-𨖻	Ljuvx
-留	Ljuvx
-蒥	Ljuvx
-鶹	Ljuvx
-騮	Ljuvx
-飀	Ljuvx
-瘤	Ljuvx
-榴	Ljuvx
-瑠	Ljuvx
-𤠑	Ljuvx	#𪕚
-𥰣	Ljuvx
-鰡	Ljuvx
-嵧	Ljuvx
-鎦	Ljuvx
-𦃓	Ljuvx
-餾	Ljuvx
-遛	Ljuvx
-羀	Ljuvh
-罶	Ljuvh
-澑	Ljuvs
-𩞷	Ljuvs
-𩞷	Ljuvs
-𩞷	Ljuvs
-𢊺	Ljuvs
-𥛽	Ljuvs
-㙧	Ljuvs
-畱	Ljuvs
-溜	Ljuvs
-餾	Ljuvs
-瘤	Ljuvs
-廇	Ljuvs
-𥛅	Ljuvs
-塯	Ljuvs
-留	Ljuvs
-䉧	Ljuvx
-瀏	Ljuvx
-䬟	Ljuvx
-𢷶	Ljuvx
-懰	Ljuvx
-𪆱	Ljuvx
-劉	Ljuvx
-懰	Ljuvh
-嬼	Ljuvh
-䉧	Ljuvh
-瀏	Ljuvh
-嬼	Ljuvs
-𣠚	Ljuvx
-𩅸	Ljuvs
-霤	Ljuvs
-㽌	Ljuvs
-##IƏKS IƏR
+糔	Sjuh	#豪
+囚	SZjux
+鮂	TSjux
+泅	SZjux
+汓	SZjux
+苬	SZjux
+鮂	SZjux
+醜	TCHjuh	#?L
+𧃝	TCHjuh
+𢿟	DCjux
+𣪐	DCjux
+𣪾	DCjux
+𢿟	DCjux
+𨢫	DCjux	#𨣊?
+𦓃	DCjuh	#𦓆?
+𤩈	DCjuh
+𤩇	DCjuh	0%
+魗	TCHjux	#醜
+媿	TCHjuh
+𩳜	TCHjuh
+魗	DCjux	#𣀘
+𣀘	DCjux
+𣫐	DCjux
+𣀓	DCjux
+醻	DCjux
+𨞪	DCjux
+壽	DCjuh
+𨞪	DCjuh
+璹	DCjuh
+壽	DCjus
+雔	DCjux
+犨	TCHjux
+犫	TCHjux
+讎	DCjux
+售	DCjus
+沑	NCjuh
+粈	NCjuh
+囮	Jjux
+收	SCjux
+收	SCjus
+㝌	Jjuh
+羑	Jjuh
+㕗	Jjuh
+𦏇	Jjuh
+首	SCjuh	100%	#L-
+𩠐	SCjuh
+𦣻	SCjuh
+首	SCjus
+䭭	SCjuh
+䐓	NCjux
+秀	Sjus
+蜏	Sjus
+琇	Sjus
+誘	Jjuh
+䛻	Jjuh
+蜏	Jjuh
+琇	Jjuh
+蜏	Jjus
+莠	Jjuh
+舀	Jjux
+𦥝	Jjux
+冘	Jjux
+抌	Jjux
+㹨	Jjus	#?
+㺠	Jjus
+𤝨	Jjus
+𤟊	Jjus
+斿	Jjux
+𨒰	Jjux
+蝣	Jjux
+游	Jjux
+遊	Jjux
+卣	Jjux
+𠧪	Jjux
+卣	Jjuh
+𠧴	Jjux
+𧡹	Jjux
+𦵵	Jjux
+𤪎	Jjux
+𣣸	Jjuh
+𤪎	Jjuh
+㳛	Jjux
+酉	Jjuh
+丣	Jjuh
+猶	Jjux	99%	#L-
+𧳫	Jjux	#猶
+猷	Jjux
+輶	Jjux
+楢	Jjux
+𦳷	Jjux
+偤	Jjux
+輶	Jjuh
+輶	Jjus
+蜼	Jjus
+猚	Jjus
+𤢹	Jjus
+𧳫	Jjus	#蜼
+蕕	Jjux
+猶	Jjus
+㾞	Jjux
+庮	Jjux
+𥙫	Jjuh
+庮	Jjuh
+𨣆	Jjuh
+梄	Jjuh
+槱	Jjuh
+槱	Jjus
+酒	TSjuh
+酋	DZjux
+𧳫	TSjux	#犬名
+𧳫	DZjux	#良犬
+𦵩	DZjux
+遒	TSjux
+蝤	TSjux
+揂	TSjux
+媨	TSjus
+鞧	TSHjux
+緧	TSHjux
+𪓰	TSHjux
+趥	TSHjux
+㥢	DZjux
+遒	DZjux
+崷	DZjux
+鰌	DZjux
+蝤	DZjux
+煪	DZjux
+𧤕	DZjux
+猶	Kius
+逎	TSjux
+𩭓	TSjux
+牖	Jjuh
+揄	Jjux
+𢋅	Jjux
+受	DCjuh
+綬	DCjuh
+授	DCjus
+㖟	DCjus
+綬	DCjus
+𨛶	NCjux
+州	TCjux
+洲	TCjux
+喌	TCjux
+酬	DCjux
+詶	DCjux
+詶	DCjus
+守	SCjuh
+狩	SCjus
+守	SCjus
+帚	TCjuh
+箒	TCjuh
+鯞	TCjuh
+柔	NCjux
+鍒	NCjux
+㽥	NCjux
+騥	NCjux
+蝚	NCjux
+蹂	NCjux
+禸	NCjuh
+葇	NCjux
+鞣	NCjux
+鰇	NCjux
+瑈	NCjux
+腬	NCjux
+鶔	NCjux
+揉	NCjux
+䰆	NCjux
+蹂	NCjuh
+楺	NCjuh
+煣	NCjuh
+輮	NCjuh
+葇	NCjuh
+𥠊	NCjuh
+韖	NCjuh
+輮	NCjus
+蹂	NCjus
+煣	NCjus
+鞣	NCjus
+慒	SZjux
+流	Ljux
+硫	Ljux
+𥹷	Ljux
+旒	Ljux
+䖻	Ljux
+裗	Ljux
+𪎣	Ljux
+㳅	Ljux	#流
+𣲖	Ljux	#㳅
+瑬	Ljux
+𤥗	Ljux
+駵	Ljux
+𪕚	Ljux
+䱖	Ljux
+珋	Ljux
+駠	Ljux
+𪕋	Ljux
+桺	Ljuh
+𤥗	Ljuh
+𦯄	Ljuh
+𨌡	Ljuh
+柳	Ljuh
+𦊑	Ljuh
+珋	Ljuh
+𩖴	Ljuh
+𪕋	Ljuh
+𨋖	Ljuh
+茆	Ljuh
+𥥹	Ljus
+窌	Ljus
+𥨌	Ljus	#𥥹
+畱	Ljux
+𪅳	Ljux
+驑	Ljux
+飅	Ljux
+橊	Ljux
+癅	Ljux
+璢	Ljux	#𤥗
+鐂	Ljux	#劉
+𩞷	Ljux
+𨖻	Ljux
+留	Ljux
+蒥	Ljux
+鶹	Ljux
+騮	Ljux
+飀	Ljux
+瘤	Ljux
+榴	Ljux
+瑠	Ljux
+𤠑	Ljux	#𪕚
+𥰣	Ljux
+鰡	Ljux
+嵧	Ljux
+鎦	Ljux
+𦃓	Ljux
+餾	Ljux
+遛	Ljux
+羀	Ljuh
+罶	Ljuh
+澑	Ljus
+𩞷	Ljus
+𩞷	Ljus
+𩞷	Ljus
+𢊺	Ljus
+𥛽	Ljus
+㙧	Ljus
+畱	Ljus
+溜	Ljus
+餾	Ljus
+瘤	Ljus
+廇	Ljus
+𥛅	Ljus
+塯	Ljus
+留	Ljus
+䉧	Ljux
+瀏	Ljux
+䬟	Ljux
+𢷶	Ljux
+懰	Ljux
+𪆱	Ljux
+劉	Ljux
+懰	Ljuh
+嬼	Ljuh
+䉧	Ljuh
+瀏	Ljuh
+嬼	Ljus
+𣠚	Ljux
+𩅸	Ljus
+霤	Ljus
+㽌	Ljus
+##IUR IUKS IUTS
+貁	Jjusk	#ks
+𪕏	Jjusk
+狖	Jjusk
+僦	TSjusk
+就	DZjusk	100%	#ks
+鷲	DZjusk
+殧	DZjusk
+㠇	DZjusk
+宿	Sjusk	#ks
+呪	TCjusk	#ks UKS
+祝	TCjusk
+詋	TCjusk
+詶	TCjusk
+咒	TCjusk
+𥛽	TCjusk
+䄂	TCjusk
+䛆	TCjusk
+##XUR XUKS XUTS
+畜	TRHxusk	#ks
+噣	TRxusk	#ks
+漱	SSxusk	#ks
+鏉	SSxusk
+簉	TZHxusk	#ks
+䔏	TZHxusk
+㨨	TRHxux	#ks
+籀	DRxusk
+##?v
+𢭆	TRHxux
+㩅	TRHxux
+犙	SSxux
+𧪀	TRxux
+𤲮	DRxux
+𢏚	DRxux
+𠼡	DRxux
+𤾊	DRxux
+𠍻	DRxux
+𥲅	DRxux	#𥴳?
+𣚑	DRxux
+𢅂	DRxux	#𢄛?
+𦺚	DRxux
+𪆇	DRxux
+𠷎	DRxux
+𨅡	DRxux
+𩘿	DRxux
+𤺜	DRxus
+譸	TRxux
+疇	DRxux
+儔	DRxux
+籌	DRxux
+躊	DRxux
+檮	DRxux
+幬	DRxux
+燽	DRxux
+薵	DRxux
+𪇘	DRxux
+𦡴	DRxux
+懤	DRxux
+𨞪	DRxux
+䬞	DRxux
+𦡴	DRxuh
+㿒	DRxus
+懤	DRxus
+扭	TRxuh
+丑	TRHxuh	100%	#N
+杻	TRHxuh
+紐	NRxuh
+鈕	NRxuh
+杻	NRxuh
+扭	NRxuh
+𨙺	NRxuh
+𩚖	NRxus
+狃	NRxuh
+莥	NRxuh
+狃	NRxus
+䏔	NRxuh
+𦱙	NRxuh
+鄒	TZxux
+騶	TZxux
+䑼	TZxux
+𨃘	TZxux
+搊	TZxuh
+皺	TZxus
+縐	TZxus
+䐢	TZxus
+搊	TZHxux
+𢬆	TZHxux
+篘	TZHxux
+㮲	TZHxux
+𥻤	TZHxux
+謅	TZHxux
+𩌄	TZHxuh
+㑳	DSxus
+瘳	TRHxux
+𢔟	NRxuh
+糅	NRxus
+腬	NRxus
+猱	NRxus
+棸	DRxux
+鄹	TZxux
+𥣙	DSxuh
+驟	DSxus
+棸	DRxuh
+齱	TZxux
+陬	TZxux
+緅	TZxux
+菆	TZxux
+棷	TZxux
+箃	TZxux
+黀	TZxux
+掫	TZxuh
+𧌗	TZxuh
+𩋄	TZHxuh
+郰	TZxux
+禸	NRxuh
+遚	TZHxus
+𢯱	SSxux
+𣸈	SSxux
+𩜯	SSxux
+䬒	SSxux
+䤹	SSxux
+𤟫	SSxux
+𨜛	SSxux
+廀	SSxux
+䗏	SSxux
+䮟	SSxux
+𨡻	SSxux
+𧼭	SSxux
+𦺋	SSxux
+𤸃	SSxus
+𤶌	SSxus
+𢯱	SSxux
+溲	SSxux
+搜	SSxux
+餿	SSxux
+颼	SSxux
+鎪	SSxux
+獀	SSxux
+鄋	SSxux
+廋	SSxux
+螋	SSxux
+騪	SSxux
+醙	SSxux
+𧽏	SSxux
+䕅	SSxux
+溲	SSxuh
+瘦	SSxus
+䐹	SSxux
+鮦	DRxuh
+蒐	SSxux
+兪	TRHxus	#?
+盩	TRxux
+疛	TRxuh
+𤶡	TRxuh
+肘	TRxuh
+疛	DRxus
+䈙	DRxuh
+葤	DRxuh
+紂	DRxuh
+酎	DRxus
+晝	TRxus
+𦘙	TRxuh	0%
+𣅯	TRxus
+𦘘	TRxus
+咮	TRxux
+咮	TRxus
+##JƏV
+周	TCjəuvx
+𥺝	TCjəuvx
+輖	TCjəuvx
+賙	TCjəuvx
+郮	TCjəuvx
+婤	TCjəuvx
+晭	TCjəuvh
+𧳜	TCjəuvh
+䯾	TCjəuvs
+椆	TCjəuvs
+舟	TCjəuvx
+䎿	TSjəuvx
+啾	TSjəuvx
+揫	TSjəuvx
+湫	TSjəuvx
+秌	TSHjəuvx	100%
+𥤚	TSHjəuvx
+秋	TSHjəuvx
+鞦	TSHjəuvx
+湫	TSHjəuvx
+鶖	TSHjəuvx
+鰍	TSHjəuvx
+楸	TSHjəuvx
+萩	TSHjəuvx
+䵸	TSHjəuvx
+䨂	TSHjəuvx
+篍	TSHjəuvx
+䎿	DZjəuvx
+湫	DZjəuvh
+愀	DZjəuvh
+蝵	TSHjəuvx
+蟗	TSHjəuvx
+𧔭	TSHjəuvx
+蠤	TSHjəuvx
+𧍾	TSHjəuvx
+𧏋	TSHjəuvx
+䚻	Jjəuvx
+䍃	Jjəuvx
+𨙂	Jjəuvx
+蘨	Jjəuvx
+櫾	Jjəuvx
+㘥	Jjəuvx
+繇	Jjəuvx
+櫾	Jjəuvs
+由	Jjəuvx
+鮋	DCjəuvx	#VR
+秞	Jjəuvx
+蚰	Jjəuvx
+鮋	Jjəuvx
+邮	Jjəuvx
+㕀	Jjəuvx
+鼬	Jjəuvs
+柚	Jjəuvs
+牰	Jjəuvs
+油	Jjəuvx
+油	Jjəuvs
+𣔴	Jjəuvx
+攸	Jjəuvx
+浟	Jjəuvx
+鯈	Jjəuvx
+悠	Jjəuvx
+修	Sjəuvx
+𩝧	Sjəuvx
+樇	Sjəuvx
+脩	Sjəuvx
+滫	Sjəuvh
+𩛢	Sjəuvx
+𦅨	Sjəuvh	#?
+𦄼	Sjəuvx	#?
+鷚	Miəuvx
+繆	Miəuvx
+䰘	Ljəuvx
+摎	Ljəuvx
+疁	Ljəuvx
+飂	Ljəuvx
+䚧	Ljəuvx
+憀	Ljəuvx
+鏐	Ljəuvx
+勠	Ljəuvx
+熮	Ljəuvh
+翏	Ljəuvs
+廖	Ljəuvs
+鷚	Ljəuvs
+僇	Ljəuvs
+飂	Ljəuvs
+勠	Ljəuvs
+璆	Giəuvx
+咎	Giəuvh
+𦜵	Hiəuvx
+綹	Ljəuvh
+##JƏVR JƏVKS
+繡	Sjəuvsk	#ks
+袖	SZjəuvsk	#ks
+褎	Jjəuvsk
+岫	SZjəuvsk
+𥥉	SZjəuvsk
+牰	SZjəuvsk
+䅢	TSjəuvsk
+##IƏV
+牡	Miəuvh
+𦜵	Giəuvx
+𢛃	Giəuvx
+倃	Giəuvh
+麔	Giəuvh
+𤷑	Giəuvh
+𢛃	Giəuvh
+䛮	Giəuvh
+𢆶	HQiəuvx
+𪋎	HQiəuvx
+怮	HQiəuvx
+䬀	HQiəuvh
+䱂	HQiəuvh
+惆	KHiəuvx
+麀	HQiəuvx
+䰍	Hiəuvx
+丩	Kiəuvx
+𦫶	Kiəuvx
+𠠳	Kiəuvx
+朻	Kiəuvx
+䡂	Kiəuvx
+㽱	Kiəuvx
+鼼	NGiəuvs
+𣪘	Kiəuvs	0%
+㲃	Kiəuvs
+廏	Kiəuvs
+𨖏	Kiəuvs
+𠣿	Kiəuvs
+𣪘	KHiəuvx	0%
+㲃	KHiəuvx
+# 𨞄	JXiəuvx
+# 郵	JXiəuvx
+##IƏVR IƏVKS 
 輻	Piəvsk	#ks
 富	Piəvsk
 䔰	Piəvsk
@@ -11389,529 +11724,204 @@ import_tables:
 愊	FPHiəvsk
 㤱	FPHiəvh
 㤱	FPHiəvsk
-##IUR
-貁	Jjuvsk	#ks
-𪕏	Jjuvsk
-狖	Jjuvsk
-僦	TSjuyk
-就	DZjuyk	100%	#ks
-鷲	DZjuyk
-殧	DZjuyk
-㠇	DZjuyk
-宿	Sjuyk	#ks
-呪	TCjuvsk	#ks UKS
-祝	TCjuvsk
-詋	TCjuvsk
-詶	TCjuvsk
-咒	TCjuvsk
-𥛽	TCjuvsk
-䄂	TCjuvsk
-䛆	TCjuvsk
-##XUV
-𢭆	TRHxuvx
-㩅	TRHxuvx
-犙	SSxuvx
-𧪀	TRxuvx
-𤲮	DRxuvx
-𢏚	DRxuvx
-𠼡	DRxuvx
-𤾊	DRxuvx
-𠍻	DRxuvx
-𥲅	DRxuvx	#𥴳?
-𣚑	DRxuvx
-𢅂	DRxuvx	#𢄛?
-𦺚	DRxuvx
-𪆇	DRxuvx
-𠷎	DRxuvx
-𨅡	DRxuvx
-𩘿	DRxuvx
-𤺜	DRxuvs
-譸	TRxuvx
-疇	DRxuvx
-儔	DRxuvx
-籌	DRxuvx
-躊	DRxuvx
-檮	DRxuvx
-幬	DRxuvx
-燽	DRxuvx
-薵	DRxuvx
-𪇘	DRxuvx
-𦡴	DRxuvx
-懤	DRxuvx
-𨞪	DRxuvx
-䬞	DRxuvx
-𦡴	DRxuvh
-㿒	DRxuvs
-懤	DRxuvs
-扭	TRxuvh
-丑	TRHxuvh	100%	#N
-杻	TRHxuvh
-紐	NRxuvh
-鈕	NRxuvh
-杻	NRxuvh
-扭	NRxuvh
-𨙺	NRxuvh
-𩚖	NRxuvs
-狃	NRxuvh
-莥	NRxuvh
-狃	NRxuvs
-䏔	NRxuvh
-𦱙	NRxuvh
-鄒	TZxuvx
-騶	TZxuvx
-䑼	TZxuvx
-𨃘	TZxuvx
-搊	TZxuvh
-皺	TZxuvs
-縐	TZxuvs
-䐢	TZxuvs
-搊	TZHxuvx
-𢬆	TZHxuvx
-篘	TZHxuvx
-㮲	TZHxuvx
-𥻤	TZHxuvx
-謅	TZHxuvx
-𩌄	TZHxuvh
-㑳	DSxuvs
-瘳	TRHxuvx
-𢔟	NRxuvh
-糅	NRxuvs
-腬	NRxuvs
-猱	NRxuvs
-棸	DRxuvx
-鄹	TZxuvx
-𥣙	DSxuvh
-驟	DSxuvs
-棸	DRxuvh
-齱	TZxuvx
-陬	TZxuvx
-緅	TZxuvx
-菆	TZxuvx
-棷	TZxuvx
-箃	TZxuvx
-黀	TZxuvx
-掫	TZxuvh
-𧌗	TZxuvh
-𩋄	TZHxuvh
-郰	TZxuvx
-禸	NRxuvh
-遚	TZHxuvs
-𢯱	SSxuvx
-𣸈	SSxuvx
-𩜯	SSxuvx
-䬒	SSxuvx
-䤹	SSxuvx
-𤟫	SSxuvx
-𨜛	SSxuvx
-廀	SSxuvx
-䗏	SSxuvx
-䮟	SSxuvx
-𨡻	SSxuvx
-𧼭	SSxuvx
-𦺋	SSxuvx
-𤸃	SSxuvs
-𤶌	SSxuvs
-𢯱	SSxuvx
-溲	SSxuvx
-搜	SSxuvx
-餿	SSxuvx
-颼	SSxuvx
-鎪	SSxuvx
-獀	SSxuvx
-鄋	SSxuvx
-廋	SSxuvx
-螋	SSxuvx
-騪	SSxuvx
-醙	SSxuvx
-𧽏	SSxuvx
-䕅	SSxuvx
-溲	SSxuvh
-瘦	SSxuvs
-䐹	SSxuvx
-鮦	DRxuvh
-蒐	SSxuvx
-兪	TRHxuvs
-盩	TRxuvx
-疛	TRxuvh
-𤶡	TRxuvh
-肘	TRxuvh
-疛	DRxuvs
-䈙	DRxuvh
-葤	DRxuvh
-紂	DRxuvh
-酎	DRxuvs
-晝	TRxuvs
-𦘙	TRxuvh	0%
-𣅯	TRxuvs
-𦘘	TRxuvs
-咮	TRxuvx
-咮	TRxuvs
-##XUR
-畜	TRHxuvsk	#ks
-噣	TRxuvsk	#ks
-漱	SSxuvsk	#ks
-鏉	SSxuvsk
-簉	TZHxuvsk	#ks
-䔏	TZHxuvsk
-㨨	TRHxuvx	#ks
-籀	DRxuvsk
-##JƏV 幽2
-牡	Miəw
-周	TCjəv
-𥺝	TCjəv
-輖	TCjəv
-賙	TCjəv
-郮	TCjəv
-婤	TCjəv
-晭	TCjəw
-𧳜	TCjəw
-䯾	TCjəy
-椆	TCjəy
-舟	TCjəv
-䎿	TSjəv
-啾	TSjəv
-揫	TSjəv
-湫	TSjəv
-秌	TSHjəv	100%
-秋	TSHjəv
-鞦	TSHjəv
-湫	TSHjəv
-鶖	TSHjəv
-鰍	TSHjəv
-楸	TSHjəv
-萩	TSHjəv
-䵸	TSHjəv
-䨂	TSHjəv
-篍	TSHjəv
-䎿	DZjəv
-湫	DZjəw
-愀	DZjəw
-蝵	TSHjəv
-蟗	TSHjəv
-𧔭	TSHjəv
-蠤	TSHjəv
-𧍾	TSHjəv
-𧏋	TSHjəv
-䚻	Jjəv
-䍃	Jjəv
-𨙂	Jjəv
-蘨	Jjəv
-櫾	Jjəv
-㘥	Jjəv
-繇	Jjəv
-櫾	Jjəy
-由	Jjəv
-鮋	DCjəv	#VR
-秞	Jjəv
-蚰	Jjəv
-鮋	Jjəv
-邮	Jjəv
-㕀	Jjəv
-鼬	Jjəy
-柚	Jjəy
-牰	Jjəy
-油	Jjəv
-油	Jjəy
-𣔴	Jjəv
-攸	Jjəv
-浟	Jjəv
-鯈	Jjəv
-悠	Jjəv
-修	Sjəv
-𩝧	Sjəv
-樇	Sjəv
-脩	Sjəv
-滫	Sjəw
-𩛢	Sjəv
-𦅨	Sjəw	#?
-𦄼	Sjəv	#?
-翏	Ljəy
-廖	Ljəy
-䰘	Ljəv
-鷚	Miəv
-繆	Miəv
-摎	Ljəv
-疁	Ljəv
-飂	Ljəv
-䚧	Ljəv
-憀	Ljəv
-鏐	Ljəv
-熮	Ljəw
-鷚	Ljəy
-僇	Ljəy
-飂	Ljəy
-璆	Giəv
-勠	Ljəv
-勠	Ljəy
-咎	Giəw
-𦜵	Hiəv
-綹	Ljəw
-##IƏV
-𦜵	Giəv
-𢛃	Giəv
-倃	Giəw
-麔	Giəw
-𤷑	Giəw
-𢛃	Giəw
-䛮	Giəw
-𢆶	HQiəv
-𪋎	HQiəv
-怮	HQiəv
-䬀	HQiəw
-䱂	HQiəw
-惆	KHiəv
-麀	HQiəv
-䰍	Hiəv
-丩	Kiəv
-𦫶	Kiəv
-𠠳	Kiəv
-朻	Kiəv
-䡂	Kiəv
-㽱	Kiəv
-鼼	NGiəy
-𣪘	Kiəy	0%
-㲃	Kiəy
-廏	Kiəy
-𨖏	Kiəy
-𠣿	Kiəy
-𣪘	KHiəv	0%
-㲃	KHiəv
-# 𨞄	JXiəv
-# 郵	JXiəv
-##IƏVR 幽2
-繡	Sjəyk	#ks
-袖	SZjəyk	#ks
-褎	Jjəyk
-岫	SZjəyk
-𥥉	SZjəyk
-牰	SZjəyk
-䅢	TSjəyk
 ##XƏV
-啁	TRxəv
-調	TRxəv
-婤	TRHxəv
-惆	TRHxəv
-𢃖	DRxəv
-裯	DRxəv
-綢	DRxəv
-稠	DRxəv
-椆	DRxəv
-輈	TRxəv
-侜	TRxəv
-𩢸	TRxəv
-𧻖	TRxəv
-𥎻	TRxəv
-矪	TRxəv
-手	SCjəw
-杽	TRHxəw
-𠿈	TZxəv
-㵞	DSxəv
-愁	DSxəv
-僽	DSxəy
-㾭	TZxəy
-甃	TZxəy
-醔	TZHxəv
-𥈌	TRHxəv
-鯈	DRxəv
-繇	DRxəy
-抽	TRHxəv
-菗	DRxəv
-妯	TRHxəv
-紬	DRxəv
-怞	DRxəv
-鮋	DRxəv
-冑	DRxəy
-𩊄	DRxəy
-宙	DRxəy
-胄	DRxəy
-伷	DRxəy
-䛆	DRxəy
-駎	DRxəy
-###IER
-##IER
-約	HQjeyk	#ks
-𤻲	Ljeyk	#ks
-讑	Jjeyk	#ks
-𧢢	Jjeyk
-𥌺	Jjeyk
-燿	Jjeyk
-耀	Jjeyk
-曜	Jjeyk
-釂	TSjeyk	#ks
-皭	TSjeyk
-爝	TSjeyk
-䂃	TSjeyk
-###幽 -J-類
-蟉	Ljəv
-鏐	Ljəv
-稵	TSjəv
-###IV幽韻 
-##XUV U幽1 -RJ-類
-烋	Hxuvx
-飍	Hxuvx
-䋷	Mxuvx
-觩	Gxuvx
-𤙠	Gxuvx
-䠗	KHxuvs
-鬮	Kxuvh
+啁	TRxəuvx
+調	TRxəuvx
+婤	TRHxəuvx
+惆	TRHxəuvx
+𢃖	DRxəuvx
+裯	DRxəuvx
+綢	DRxəuvx
+稠	DRxəuvx
+椆	DRxəuvx
+輈	TRxəuvx
+侜	TRxəuvx
+𩢸	TRxəuvx
+𧻖	TRxəuvx
+𥎻	TRxəuvx
+矪	TRxəuvx
+手	SCjəuvh
+杽	TRHxəuvh
+𠿈	TZxəuvx
+㵞	DSxəuvx
+愁	DSxəuvx
+僽	DSxəuvs
+㾭	TZxəuvs
+甃	TZxəuvs
+醔	TZHxəuvx
+𥈌	TRHxəuvx
+鯈	DRxəuvx
+繇	DRxəuvs
+抽	TRHxəuvx
+菗	DRxəuvx
+妯	TRHxəuvx
+紬	DRxəuvx
+怞	DRxəuvx
+鮋	DRxəuvx
+冑	DRxəuvs
+𩊄	DRxəuvs
+宙	DRxəuvs
+胄	DRxəuvs
+伷	DRxəuvs
+䛆	DRxəuvs
+駎	DRxəuvs
+##UƏ- VIƏ㞢
+䬌	FPHviəux	#?
+不	FPviəux	2%
+不	FPviəuh	2%
+𡬇	FPHviəux
+𡫺	FPHviəux
+紑	FPviəux
+鴀	FPviəux
+鴀	FPviəuh
+衃	FPHviəux
+肧	FPHviəux
+紑	FPHviəux
+紑	FPHviəuh
+𩂆	FPHviəuh
+罘	FBviəux
+芣	FBviəux
+否	FPviəuh
+痞	FPviəuh
+秠	FPHviəux
+秠	FPHviəuh
+# 伏	FBviəus
+負	FBviəuh
+萯	FBviəuh
+蝜	FBviəuh
+𪃓	FBviəuh
+偩	FBviəux
+婦	FBviəuh
+𧌈	FBviəuh
+殕	FPviəuh
+醅	FPHviəux
+涪	FBviəux
+棓	FBviəux
+掊	FBviəux
+䍌	FBviəux
+菩	FBviəuh
+謀	Mviəux
+䱕	Mviəux
+莓	Mviəus
+𦡘	JXviəux
+𨞄	JXviəux
+腄	JXviəux
+郵	JXviəux
+尤	JXviəux
+𣏞	JXviəux
+疣	JXviəux
+𪐤	JXviəux
+沋	JXviəux
+訧	JXviəux
+𩑣	JXviəus
+忧	JXviəus
+肬	JXviəux
+珛	XSviəus	#V
+有	JXviəuh	100%	#月?肉?
+䳑	JXviəuh
+䀁	JXviəuh
+栯	JXviəuh
+䒴	JXviəuh
+宥	JXviəus
+䀁	JXviəus
+酭	JXviəus
+姷	JXviəus
+䞥	JXviəus
+侑	JXviəus
+囿	JXviəus
+𦳩	JXviəus
+又	JXviəus
+友	JXviəuh	99%
+㕛	JXviəuh
+𤴨	JXviəus
+右	JXviəuh	5%
+𥁓	JXviəuh
+右	JXviəus
+佑	JXviəus
+祐	JXviəus
+㤑	JXviəus	#忧
+𥁓	JXviəus
+##合口?
+鬮	KQvəux
+龜	KQvəux	0%
+龜兹	KQvəux TSjə
+久	KQvəuh
+玖	KQvəuh
+灸	KQvəuh
+𡚮	KQvəuh
+𨾉	KQvəuh
+灸	KQvəus
+㝌	KQvəus
+疚	KQvəus
+柩	Gvəus
+畂	Lvjəus
+丠	KQHvəux
+丘	KQHvəux
+蚯	KQHvəux
+邱	KQHvəux
+𪖛	KQHvəus
+匶	Gvəus
+舊	Gvəus
+牛	NGQvəux
+###幽 
+##-J- JƏV
+蟉	Ljiəvx
+鏐	Ljiəvx
+稵	TSjiəvx
+##XUV -RJ-類
+烋	Hxiux
+飍	Hxiux
+䋷	Mxiux
+觩	Gxiux
+𤙠	Gxiux
+䠗	KHxius
+鬮	Kxiuh
 ##XƏV幽2
-犙	SSxəv
-彪	Pxəv
-𩖛	Bxəv
-淲	Bxəv
-滮	Bxəv
-繆	Mxəv
-鷚	Mxəv
-謬	Mxəy
-繆	Mxəy
-樛	Kxəv
-璆	Gxəv
-鷚	Gxəv
-蟉	Gxəv
-蟉	Gxəw
-聱	NGxəv	#x
-幽	HQxəv
-𢆶	HQxəv	#幽
-𧍘	HQxəv
-泑	HQxəv
-呦	HQxəv
-𣢜	HQxəv
-怮	HQxəv
-黝	HQxəw
-怮	HQxəw
-䬀	HQxəw
-蚴	HQxəw
-泑	HQxəw
-眑	HQxəw
-𣢜	HQxəw
-幼	HQxəy
-朻	Kxəv
-㽱	Kxəv
-糾	Kxəw
-赳	Kxəw
-朻	Kxəw
-虯	Gxəv
-觓	Gxəv
-𧾻	Gxəy
-𦱠	Kxəv
-# 𦭺	Kxəv	0%
-𠃚	Kxəv
-##IƏVR 幽1
-鍑	Piəyk	#ks
-𤸑	FPHiəyk
-𧜰	Biəyk
-𢕒	Biəyk
-復	Biəyk
-複	Biəyk
-𤸑	Biəyk
-椱	Biəyk
-𧠃	FPHiəyk
-𧠃	Biəyk
-覆	FPHiəyk	0%
-覆	Biəyk	0%
-仆	PHviəyk	#ks
-伏	Bviəyk	#ks
-##XIV 幽3 宵2
-瀌	Bxiv
-髟	Pxiv	#x
-驫	Pxiv	#x
-###UƏ- 合口㞢
-䬌	PHviəvx	#?
-不	Pviəvx
-不	Pviəvh
-𡬇	PHviəvx
-𡫺	PHviəvx
-紑	Pviəvx
-鴀	Pviəvx
-鴀	Pviəvh
-衃	PHviəvx
-肧	PHviəvx
-紑	PHviəvx
-紑	PHviəvh
-𩂆	PHviəvh
-罘	Bviəvx
-芣	Bviəvx
-否	Pviəvh
-痞	Pviəvh
-秠	PHviəvx
-秠	PHviəvh
-伏	Bviəvs
-負	Bviəvh
-萯	Bviəvh
-蝜	Bviəvh
-𪃓	Bviəvh
-偩	Bviəvx
-婦	Bviəvh
-𧌈	Bviəvh
-殕	Pviəvh
-醅	PHviəvx
-涪	Bviəvx
-棓	Bviəvx
-掊	Bviəvx
-䍌	Bviəvx
-菩	Bviəvh
-謀	Mviəvx
-䱕	Mviəvx
-莓	Mviəvs
-𦡘	JXviəvx
-𨞄	JXviəvx
-腄	JXviəvx
-郵	JXviəvx
-尤	JXviəvx
-𣏞	JXviəvx
-疣	JXviəvx
-𪐤	JXviəvx
-沋	JXviəvx
-訧	JXviəvx
-𩑣	JXviəvs
-忧	JXviəvs
-肬	JXviəvx
-珛	XSviəvs	#V
-有	JXviəvh	100%	#月?肉?
-䳑	JXviəvh
-䀁	JXviəvh
-栯	JXviəvh
-䒴	JXviəvh
-宥	JXviəvs
-䀁	JXviəvs
-酭	JXviəvs
-姷	JXviəvs
-䞥	JXviəvs
-侑	JXviəvs
-囿	JXviəvs
-𦳩	JXviəvs
-又	JXviəvs
-友	JXviəvh	99%
-㕛	JXviəvh
-𤴨	JXviəvs
-右	JXviəvh	5%
-𥁓	JXviəvh
-右	JXviəvs
-佑	JXviəvs
-祐	JXviəvs
-㤑	JXviəvs	#忧
-𥁓	JXviəvs
-##
-鬮	KQviəvx
-龜	KQviəvx	0%
-久	KQviəvh
-玖	KQviəvh
-灸	KQviəvh
-𡚮	KQviəvh
-𨾉	KQviəvh
-灸	KQviəvs
-㝌	KQviəvs
-疚	KQviəvs
-畂	Ljəvs
-柩	Gviəvs
-丘	KQHviəvx
-丠	KQHviəvx
-蚯	KQHviəvx
-邱	KQHviəvx
-𪖛	KQHviəvs
-匶	Gviəvs
-舊	Gviəvs
-牛	NGQviəvx
+犙	SSxiəuvx
+彪	Pxiəuvx
+𩖛	Bxiəuvx
+淲	Bxiəuvx
+滮	Bxiəuvx
+繆	Mxiəuvx
+鷚	Mxiəuvx
+謬	Mxiəuvs
+繆	Mxiəuvs
+樛	Kxiəuvx
+璆	Gxiəuvx
+鷚	Gxiəuvx
+蟉	Gxiəuvx
+蟉	Gxiəuvh
+聱	NGxiəuvx	#x
+幽	HQxiəuvx
+𢆶	HQxiəuvx	#幽
+𧍘	HQxiəuvx
+泑	HQxiəuvx
+呦	HQxiəuvx
+𣢜	HQxiəuvx
+怮	HQxiəuvx
+黝	HQxiəuvh
+怮	HQxiəuvh
+䬀	HQxiəuvh
+蚴	HQxiəuvh
+泑	HQxiəuvh
+眑	HQxiəuvh
+𣢜	HQxiəuvh
+幼	HQxiəuvs
+朻	Kxiəuvx
+㽱	Kxiəuvx
+糾	Kxiəuvh
+赳	Kxiəuvh
+朻	Kxiəuvh
+虯	Gxiəuvx
+觓	Gxiəuvx
+𧾻	Gxiəuvs
+𦱠	Kxiəuvx
+# 𦭺	Kxiəuvx	0%
+𠃚	Kxiəuvx
+##XIV RJIV
+瀌	Bxiuvx
+髟	Pxiuvx	#x
+驫	Pxiuvx	#x
 #####-M
 ####IAM甘
 ###AM
@@ -12917,7 +12927,7 @@ import_tables:
 𧉫	TRrep
 𦊔	NRreb
 𡤙	NRrep
-䀴	NGQrep	#?
+# 䀴	NGQrep	#?
 㦿	KQHreb
 𣓅	KQHreb
 霎	SSrep
@@ -13532,8 +13542,8 @@ import_tables:
 寖	TSjib
 𥧲	TSjif
 浸	TSjif
-浸	TSHjim
 侵	TSHjim
+浸	TSHjim
 寑	TSHjib
 𡪢	TSHjib
 䈜	TSHjif
@@ -13564,8 +13574,9 @@ import_tables:
 深	SCjuf
 𢊖	SCjuf
 拾	Gjup
-集	DZjup
 亼	DZjup
+集	DZjup
+雧	DZjup
 㗱	TSjup
 潗	TSjup
 䌖	TSjup
@@ -13681,6 +13692,7 @@ import_tables:
 婬	Jjəm
 𥮍	Jjəm
 霪	Jjəm
+亼	DZjəp	#?今
 侺	DCjəf	#?
 𩷒	DZjəm
 梣	DZjəm
@@ -13887,14 +13899,14 @@ import_tables:
 岌	NGxəp
 吸	Hxəp
 㞥	DSxəm
-岑	DSxəm	#今
+岑	DSxəm	#今亼
 涔	DSxəm
 梣	DSxəm
-𦨽	Gxəf
 棽	TRHxəm
 笒	DSxəm
 𩒣	DSxəb
 棽	SSxəm
+𦨽	Gxəf
 今	Kxəm	100%
 黅	Kxəm
 衿	Kxəm
@@ -14395,7 +14407,8 @@ import_tables:
 竷	KQHof
 𧗜	Dof
 寁	TSob	#疌
-龕	KQHom
+𪚕	KQHom
+龕	KQHom	#⿱今龍
 貪	THom
 嗿	THob
 僋	THof
@@ -14573,23 +14586,6 @@ import_tables:
 #####-N
 ####AN
 ###AN
-䀂	HQan
-鞌	HQan
-䢿	HQan
-侒	HQan
-安	HQan
-按	HQaz
-案	HQaz
-洝	HQaz
-荌	HQaz
-䢿	HQaz
-䅁	HQaz
-頞	HQat
-胺	HQat	0%
-咹	HQat
-晏	HQaz
-䯋	KQHat
-臤	KQHan
 羍	THat
 𦍐	THat
 𦍒	THat
@@ -14675,22 +14671,225 @@ import_tables:
 但	Daz
 䖧	Nat
 痑	THan
-湌	TSHan
+𩛻	TSaz
+歺	NGQat
+𣦵	NGQat
+歹	NGQat	1%
+𡰮	NGQat
+𣦼	DZan
+𣦻	DZan
+𣧻	DZan
+㱚	DZan	0%
 餐	TSHan
+湌	TSHan
 粲	TSHaz
 燦	TSHaz
 璨	TSHaz
 薒	TSHaz
 𪆶	TSHaz
 㛑	TSHaz
-𣦼	DZan
-𣦻	DZan
-𣧻	DZan
-㱚	DZan	0%
-歺	NGQat
-𣦵	NGQat
-歹	NGQat	1%
-𡰮	NGQat
+嘆	THan	#N
+嘆	THaz
+暵	XSad
+熯	XSad
+漢	XSaz
+暵	XSaz
+𤳉	XSaz
+䎯	XSaz
+熯	XSaz
+灘	THan
+攤	THan
+難	Nan
+𩁚	Nan
+𩁢	Nan
+攤	Nad
+難	Naz
+攤	Naz
+灘	Naz
+𦍀	Naz
+㬮	Naz
+灘	XSad
+𪇼	Nan
+𤅩	XSaz
+擹	THan
+歎	THaz
+磕	KQHat
+𡅽	Haz
+攃	TSHat
+䌨	TSHat
+礤	TSHat
+攃	Sat
+雃	NGQan
+䉔	TSHan
+𥂫	DZan
+殘	DZan
+䏼	DZan
+帴	DZan
+戔	DZan
+䏼	DZaz
+帴	Saz
+𥻂	Lad
+𢒞	Laz
+闌	Lan
+蘭	Lan
+瀾	Lan
+讕	Lan
+攔	Lan
+籣	Lan
+䪍	Lan
+欄	Lan
+躝	Lan
+幱	Lan
+㘓	Lan
+𥽭	Lad
+讕	Lad
+爛	Laz
+瀾	Laz
+鑭	Laz
+讕	Laz
+爤	Laz
+燗	Laz	#爤
+糷	Laz
+㵶	TSat
+嶻	DZat
+巀	DZat
+骱	HGat
+侃	KQHad
+侃	KQHaz
+偘	KQHaz
+笴	KQad
+𢆃	Naz
+揧	Lat
+䓶	Lat
+瘌	Lat
+𢉨	Lat
+𢃴	Lat
+㻝	Lat
+𥈙	Lat
+楋	Lat
+蝲	Lat
+剌	Lat
+辢	Lat
+獺	THat
+䲚	THat
+嬾	Lad
+懶	Lad
+攋	Lat
+癩	Lat
+䶛	Lat
+拶	TSat
+㳨	TSat
+𨀨	TSat
+𠛱	TSat
+捺	Nat
+𤷈	Nat
+𠱥	NGQat
+枿	NGQat
+𠲗	NGQat
+𨐖	Sat
+摋	Sat
+𥻦	Sat
+𡜜	San
+𥮚	San
+𦚻	San
+𨀢	San
+𦙱	San
+跚	San
+珊	San
+姍	San
+䈀	San
+𥮚	Saz
+䈀	Saz
+𠱡	Sat
+聅	Dan
+𨷻	Lan
+㨏	THan
+湠	THaz
+𣁗	THaz
+㛶	THaz
+炭	THaz
+糲	Lat
+噧	THat
+閼	HQat
+唌	Dan
+蜑	Dad
+誕	Dad
+䩥	Dad
+𡽜	NGQan
+𡹼	NGQaz
+轢	Lat
+䰖	TSad
+讚	TSaz
+酇	TSaz
+饡	TSaz
+趲	TSaz
+灒	TSaz
+㜺	TSaz
+䰖	TSaz
+襸	TSaz
+攢	TSaz
+贊	TSaz
+䰖	TSat
+瓚	DZad
+趲	DZad
+禶	DZad
+㜺	DZaz
+穳	DZaz
+囋	DZaz
+囋	DZat
+𢛁	Tat
+饊	Sad
+糤	Sad
+鏾	Sad
+繖	Sad
+傘	Sad
+𢄻	Sad
+䉈	Sad
+散	Sad
+𦇕	Sad
+𢿨	Sad
+繖	Saz
+𢿨	Saz
+散	Saz
+𢿨	Saz
+䉈	Sat
+𩀼	Sad
+𩀼	Saz
+㪔	Sad
+喭	NGQaz
+㷳	NGQaz
+囐	DZat
+㩵	DZat
+䡾	NGQat
+𣡌	NGQat
+𣎴	NGQat
+㮆	NGQat
+㩵	NGQat
+齾	NGQat
+嶭	NGQat
+𡾦	NGQat
+𡴎	NGQat
+櫱	NGQat
+薩	Sat	#嶭
+𦼧	Sat
+躠	Sat	#NGS
+䀂	HQan
+鞌	HQan
+䢿	HQan
+侒	HQan
+安	HQan
+按	HQaz
+案	HQaz
+洝	HQaz
+荌	HQaz
+䢿	HQaz
+䅁	HQaz
+頞	HQat
+胺	HQat	0%
+咹	HQat
+晏	HQaz
+䯋	KQHat
+臤	KQHan
 匃	KQat
 𩢛	KQat
 獦	KQat
@@ -14800,7 +14999,7 @@ import_tables:
 駻	HGaz
 䏷	HGaz
 㪋	HGaz
-䍑	Had
+䍑	Had	99%
 焊	Had
 蔊	Had
 豻	NGQan
@@ -14846,191 +15045,6 @@ import_tables:
 𡫾	HGan
 𡫮	HGan	0%
 𩡔	Hat
-嘆	THan	#N
-嘆	THaz
-暵	XSad
-熯	XSad
-漢	XSaz
-暵	XSaz
-𤳉	XSaz
-䎯	XSaz
-熯	XSaz
-灘	THan
-攤	THan
-難	Nan
-𩁚	Nan
-𩁢	Nan
-攤	Nad
-難	Naz
-攤	Naz
-灘	Naz
-𦍀	Naz
-㬮	Naz
-灘	XSad
-𪇼	Nan
-𤅩	XSaz
-擹	THan
-歎	THaz
-磕	KQHat
-𡅽	Haz
-攃	TSHat
-䌨	TSHat
-礤	TSHat
-攃	Sat
-雃	NGQan
-䉔	TSHan
-𥂫	DZan
-殘	DZan
-䏼	DZan
-帴	DZan
-戔	DZan
-䏼	DZaz
-帴	Saz
-𥻂	Lad
-𢒞	Laz
-闌	Lan
-蘭	Lan
-瀾	Lan
-讕	Lan
-攔	Lan
-籣	Lan
-䪍	Lan
-欄	Lan
-躝	Lan
-幱	Lan
-㘓	Lan
-𥽭	Lad
-讕	Lad
-爛	Laz
-瀾	Laz
-鑭	Laz
-讕	Laz
-爤	Laz
-燗	Laz	#爤
-糷	Laz
-㵶	TSat
-嶻	DZat
-骱	HGat
-侃	KQHad
-侃	KQHaz
-偘	KQHaz
-笴	KQad
-𢆃	Naz
-揧	Lat
-䓶	Lat
-瘌	Lat
-𢉨	Lat
-𢃴	Lat
-㻝	Lat
-𥈙	Lat
-楋	Lat
-蝲	Lat
-剌	Lat
-辢	Lat
-獺	THat
-䲚	THat
-嬾	Lad
-懶	Lad
-攋	Lat
-癩	Lat
-䶛	Lat
-拶	TSat
-㳨	TSat
-𨀨	TSat
-𠛱	TSat
-捺	Nat
-𤷈	Nat
-𠱥	NGQat
-枿	NGQat
-𠲗	NGQat
-𨐖	Sat
-摋	Sat
-𥻦	Sat
-𡜜	San
-𥮚	San
-𦚻	San
-𨀢	San
-𦙱	San
-跚	San
-珊	San
-姍	San
-䈀	San
-𥮚	Saz
-䈀	Saz
-𠱡	Sat
-聅	Dan
-𨷻	Lan
-㨏	THan
-湠	THaz
-𣁗	THaz
-㛶	THaz
-炭	THaz
-糲	Lat
-噧	THat
-閼	HQat
-躠	Sat	#NGS
-唌	Dan
-蜑	Dad
-誕	Dad
-䩥	Dad
-𡽜	NGQan
-𡹼	NGQaz
-薩	Sat
-喭	NGQaz
-㷳	NGQaz
-囐	DZat
-㩵	DZat
-䡾	NGQat
-𣡌	NGQat
-𣎴	NGQat
-㮆	NGQat
-㩵	NGQat
-齾	NGQat
-嶭	NGQat
-𡾦	NGQat
-𡴎	NGQat
-櫱	NGQat
-𦼧	Sat
-轢	Lat
-𩛻	TSaz
-䰖	TSad
-讚	TSaz
-酇	TSaz
-饡	TSaz
-趲	TSaz
-灒	TSaz
-㜺	TSaz
-䰖	TSaz
-襸	TSaz
-攢	TSaz
-贊	TSaz
-䰖	TSat
-瓚	DZad
-趲	DZad
-禶	DZad
-㜺	DZaz
-穳	DZaz
-囋	DZaz
-囋	DZat
-𢛁	Tat
-饊	Sad
-糤	Sad
-鏾	Sad
-繖	Sad
-傘	Sad
-𢄻	Sad
-䉈	Sad
-散	Sad
-𦇕	Sad
-𢿨	Sad
-繖	Saz
-𢿨	Saz
-散	Saz
-𢿨	Saz
-䉈	Sat
-𩀼	Sad
-𩀼	Saz
-㪔	Sad
 ###VAN
 𠂄	Hvan
 鴅	Hvan
@@ -15040,12 +15054,6 @@ import_tables:
 䀛	Mvat	#u?
 𥄱	PHvat	#u?
 ##VAN
-濊	Hvat	#A
-𤃴	Hvat
-奯	Hvat
-泧	Hvat	#A
-眓	Hvat	#ɢ?
-越	XQvat	1%
 𤳖	Pvan
 番	PHvan
 㽃	PHvan
@@ -15054,6 +15062,173 @@ import_tables:
 磻	Bvan
 蟠	Bvan
 潘	PHvan
+
+##VON
+袚	Pvat
+茇	Pvat
+盋	Pvat
+鉢	Pvat	#盋
+䳊	Pvat
+帗	Pvat
+犮	Bvat
+跋	Bvat
+𧺺	Bvat
+魃	Bvat
+𢇷	Bvat
+軷	Bvat
+䣮	Bvat
+馛	Bvat
+炦	Bvat
+颰	Bvat
+妭	Bvat
+胈	Bvat
+鈸	Bvat
+䳊	Bvat
+䮂	Bvat
+坺	Bvat
+𩃶	Bvat
+茇	Bvat
+䯋	Bvat
+拔	Bvat
+菝	Bvat
+𣎵	PHvat
+𢪹	PHvat
+𨠓	PHvat
+𦍜	PHvat
+䢌	Pvat
+㤄	Pvat
+巿	PHvat
+㧊	PHvat
+䣪	PHvat
+𧘟	PHvat
+䍨	PHvat
+䟛	Bvat
+𧺡	Bvat
+㒼	Mvan
+瞞	Mvan
+顢	Mvan
+蹣	Mvan
+蹣	Bvan
+慲	Mvan
+樠	Mvan
+𤡁	Mvan
+鬗	Mvan
+𢟮	Mvad
+𥲈	Mvad
+鏋	Mvad
+滿	Mvad
+懣	Mvad
+𥄕	Mvat	#?
+𨣱	Mvat
+瀎	Mvat
+𥽘	Mvat
+𩱷	Mvat
+筏	Pvat
+繁	Bvan
+粄	Pvad
+瓪	Pvad
+昄	Pvad
+𠯘	Pvaz
+末	Mvat
+昩	Mvat
+𩑷	Mvat
+䴲	Mvat
+䬴	Mvat
+秣	Mvat
+𥬎	Mvat
+靺	Mvat
+韎	Mvat
+粖	Mvat
+䱅	Mvat
+眜	Mvat
+抹	Mvat
+妺	Mvat
+𠇱	Mvat
+𢗿	Mvat
+𡊉	Mvat
+𩿣	Mvat
+沫	Mvat
+袜	Mvat
+沜	PHvaz
+
+𢯸	PHvat
+𨂩	PHvat
+𨡩	PHvat
+𣸍	PHvat
+𠷑	PHvat
+癹	Bvat	#A
+癶	Pvat
+𦫔	PHvat
+撥	Pvat
+鱍	Pvat
+𩯌	Pvat
+襏	Pvat
+𦪑	Pvat
+驋	Pvat
+鏺	PHvat
+鱍	PHvat
+䚨	Bvat
+䈲	Pvan
+般	Pvan
+槃	Bvan
+鎜	Bvan
+瘢	Bvan
+幋	Bvan
+磐	Bvan
+䰉	Bvan
+搫	Bvan
+鞶	Bvan
+𪄀	Bvan
+𥈼	Bvan
+媻	Bvan
+縏	Bvan
+𪒀	Bvan
+䈲	Bvan
+𤠍	Bvan
+般	Bvan
+盤	Bvan
+半	Pvaz
+䉽	Pvad
+䬳	Pvad
+絆	Pvaz
+靽	Pvaz
+姅	Pvaz
+𩢔	Pvaz
+㪵	Pvaz
+拌	PHvan
+坢	PHvad
+𧺾	PHvad
+判	PHvaz
+泮	PHvaz
+頖	PHvaz
+胖	PHvaz
+姅	PHvaz
+冸	PHvaz
+牉	PHvaz
+柈	Bvan
+伴	Bvad
+拌	Bvad
+畔	Bvaz
+伴	Bvaz
+㚘	Bvad
+叛	Bvaz
+𡞟	Bvaz
+
+濊	Hvat	#A
+𤃴	Hvat
+奯	Hvat
+泧	Hvat	#A
+眓	Hvat	#ɢ?
+越	XQvat	1%
+貆	Hvan	#A
+桓	XQvan	#ɢ
+洹	XQvan
+絙	XQvan
+荁	XQvan
+貆	XQvan
+狟	XQvan
+峘	XQvan
+𡘍	XQvan
 ##A?O
 枂	NGQvat
 羱	NGQvan
@@ -15144,184 +15319,22 @@ import_tables:
 鰀	XQvad
 嵈	XQvad
 䈠	XQvad
-##VON
-袚	Pvut
-茇	Pvut
-盋	Pvut
-鉢	Pvut	#盋
-䳊	Pvut
-帗	Pvut
-犮	Bvut
-跋	Bvut
-𧺺	Bvut
-魃	Bvut
-𢇷	Bvut
-軷	Bvut
-䣮	Bvut
-馛	Bvut
-炦	Bvut
-颰	Bvut
-妭	Bvut
-胈	Bvut
-鈸	Bvut
-䳊	Bvut
-䮂	Bvut
-坺	Bvut
-𩃶	Bvut
-茇	Bvut
-䯋	Bvut
-拔	Bvut
-菝	Bvut
-𣎵	PHvut
-𢪹	PHvut
-𨠓	PHvut
-𦍜	PHvut
-䢌	Pvut
-㤄	Pvut
-巿	PHvut
-㧊	PHvut
-䣪	PHvut
-𧘟	PHvut
-䍨	PHvut
-䟛	Bvut
-𧺡	Bvut
-㒼	Mvun
-瞞	Mvun
-顢	Mvun
-蹣	Mvun
-蹣	Bvun
-慲	Mvun
-樠	Mvun
-𤡁	Mvun
-鬗	Mvun
-𢟮	Mvud
-𥲈	Mvud
-鏋	Mvud
-滿	Mvud
-懣	Mvud
-𥄕	Mvut	#?
-𨣱	Mvut
-瀎	Mvut
-𥽘	Mvut
-𩱷	Mvut
-筏	Pvut
-繁	Bvun
-粄	Pvud
-瓪	Pvud
-昄	Pvud
-𠯘	Pvuz
-末	Mvut
-昩	Mvut
-𩑷	Mvut
-䴲	Mvut
-䬴	Mvut
-秣	Mvut
-𥬎	Mvut
-靺	Mvut
-韎	Mvut
-粖	Mvut
-䱅	Mvut
-眜	Mvut
-抹	Mvut
-妺	Mvut
-𠇱	Mvut
-𢗿	Mvut
-𡊉	Mvut
-𩿣	Mvut
-沫	Mvut
-袜	Mvut
-沜	PHvuz
-貆	Hvun	#A
-桓	XQvun	#ɢ
-洹	XQvun
-絙	XQvun
-荁	XQvun
-貆	XQvun
-狟	XQvun
-峘	XQvun
-𡘍	XQvun
-斡	HQvut	#A
-澣	HGvud
-豁	Hvut
-𧯆	Hvut
-𢯸	PHvut
-𨂩	PHvut
-𨡩	PHvut
-𣸍	PHvut
-𠷑	PHvut
-癹	Bvut	#A
-癶	Pvut
-𦫔	PHvut
-撥	Pvut
-鱍	Pvut
-𩯌	Pvut
-襏	Pvut
-𦪑	Pvut
-驋	Pvut
-鏺	PHvut
-鱍	PHvut
-䚨	Bvut
-䈲	Pvun
-般	Pvun
-槃	Bvun
-鎜	Bvun
-瘢	Bvun
-幋	Bvun
-磐	Bvun
-䰉	Bvun
-搫	Bvun
-鞶	Bvun
-𪄀	Bvun
-𥈼	Bvun
-媻	Bvun
-縏	Bvun
-𪒀	Bvun
-䈲	Bvun
-𤠍	Bvun
-般	Bvun
-盤	Bvun
-半	Pvuz
-䉽	Pvud
-䬳	Pvud
-絆	Pvuz
-靽	Pvuz
-姅	Pvuz
-𩢔	Pvuz
-㪵	Pvuz
-拌	PHvun
-坢	PHvud
-𧺾	PHvud
-判	PHvuz
-泮	PHvuz
-頖	PHvuz
-胖	PHvuz
-姅	PHvuz
-冸	PHvuz
-牉	PHvuz
-柈	Bvun
-伴	Bvud
-拌	Bvud
-畔	Bvuz
-伴	Bvuz
-㚘	Bvud
-叛	Bvuz
-𡞟	Bvuz
-瓛	XZvun	#NG?
-寬	KQHvun
-髖	KQHvun
-𡅻	Hvuz
-𡅽	Hvuz
-萈	HGvun	#𥄕？𠁥
-𦏊	HGvun	#萈
-檜	KQvut
-劊	KQvut
-嬒	HQvut
-鬠	HGvut
+斡	HQvat	#A
+澣	HGvad
+豁	Hvat
+𧯆	Hvat
+瓛	XZvan	#NG?
+寬	KQHvan
+髖	KQHvan
+𡅻	Hvaz
+𡅽	Hvaz
+萈	HGvan	#𥄕？𠁥
+𦏊	HGvan	#萈
+檜	KQvat
+劊	KQvat
+嬒	HQvat
+鬠	HGvat
 #UN?U?O?
-祼	KQvuz
-㷄	KQvuz
-棵	KQHvud
-棵	HGvud
 曼	Mvun
 謾	Mvun
 䊡	Mvun
@@ -15403,6 +15416,123 @@ import_tables:
 奪	Dvut
 𡙜	Dvut
 殩	TSHvuz
+𣀦	Dvun
+㪟	Dvun
+敦	Dvun
+𪆃	Dvun
+𪏆	THvun
+卵	Lvud
+捋	Lvut
+𠜖	Lvut
+蛶	Lvut
+㸹	Lvut
+㭩	Lvut
+鄹	SZvud
+菆	DZvun
+煗	Nvud
+㬉	Nvud
+暖	Nvud	#訓讀煗㬉
+煖	Nvud	#訓讀煗㬉
+餪	Nvud
+渜	Nvud
+稬	Nvud
+偄	Nvuz
+愞	Nvuz
+稬	Nvuz
+渜	Nvuz
+𪋐	Nvuz
+祋	Tvut
+䜌	Lvun
+鑾	Lvun
+鸞	Lvun
+巒	Lvun
+羉	Lvun
+𧄶	Lvun
+㱍	Lvun
+灓	Lvun
+𤼙	Lvun
+圝	Lvun
+曫	Lvun
+灓	Lvuz
+欒	Lvun
+灤	Lvun
+臠	Lvun
+𢿢	Lvuz
+𤔔	Lvuz
+亂	Lvuz
+祘	Svuz
+笇	Svuz
+蒜	Svuz
+筭	Svuz
+算	Svuz
+算	Svud
+匴	Svud
+篹	Svud
+𥣚	DZvun
+纂	TSvud
+繤	TSvud
+攥	TSvut
+疃	THvud	#童u
+彖	THvuz
+褖	THvuz
+湪	THvuz
+䴟	HGvun
+𦫕	Mvut	#𦫔𦫕
+𥄗	HQvut
+𢯲	HQvuz
+䁊	HQvut
+濡	Nvun
+狻	Svun
+䝜	Svun
+痠	Svun
+酸	Svun
+𩆑	Svun
+鑽	TSvun
+𩎈	TSvun
+䡽	TSvun
+𣀶	TSvun
+劗	TSvun
+䂎	TSvud
+纘	TSvud
+儹	TSvud
+籫	TSvud
+酇	TSvud
+䂎	TSvuz
+鑽	TSvuz
+䂎	TSHvuz
+欑	DZvun
+巑	DZvun
+𩎈	DZvun
+襸	DZvun
+酇	DZvun
+穳	DZvun
+劗	DZvun
+攢	DZvuz
+團	Dvun
+竱	Tvun
+慱	Dvun
+篿	Dvun
+剸	Dvun
+鄟	Dvun
+𧐕	Dvun
+漙	Dvun
+鷒	Dvun
+摶	Dvun
+𩅂	Dvun
+掇	Tvut
+剟	Tvut
+鵽	Tvut
+腏	Tvut
+裰	Tvut
+敠	Tvut
+繓	TSvut
+撮	TSvut
+撮	TSHvut
+襊	TSHvut
+祼	KQvuz
+㷄	KQvuz
+棵	KQHvud
+棵	HGvud
 官	KQvun
 悹	KQvun
 棺	KQvun
@@ -15473,72 +15603,6 @@ import_tables:
 䲌	KQHvud
 䥗	KQHvuz
 䲌	KQHvuz
-敦	Dvun
-𣀦	Dvun
-㪟	Dvun
-𪆃	Dvun
-𪏆	THvun
-卵	Lvud
-捋	Lvut
-𠜖	Lvut
-蛶	Lvut
-㸹	Lvut
-㭩	Lvut
-鄹	SZvud
-菆	DZvun
-煗	Nvud
-㬉	Nvud
-暖	Nvud	#訓讀煗㬉
-煖	Nvud	#訓讀煗㬉
-餪	Nvud
-渜	Nvud
-稬	Nvud
-偄	Nvuz
-愞	Nvuz
-稬	Nvuz
-渜	Nvuz
-𪋐	Nvuz
-祋	Tvut
-䜌	Lvun
-鑾	Lvun
-鸞	Lvun
-巒	Lvun
-羉	Lvun
-𧄶	Lvun
-㱍	Lvun
-灓	Lvun
-𤼙	Lvun
-圝	Lvun
-曫	Lvun
-灓	Lvuz
-欒	Lvun
-灤	Lvun
-臠	Lvun
-𢿢	Lvuz
-𤔔	Lvuz
-亂	Lvuz
-祘	Svuz
-笇	Svuz
-蒜	Svuz
-筭	Svuz
-算	Svuz
-算	Svud
-匴	Svud
-篹	Svud
-𥣚	DZvun
-纂	TSvud
-繤	TSvud
-攥	TSvut
-疃	THvud	#童u
-彖	THvuz
-褖	THvuz
-湪	THvuz
-䴟	HGvun
-𦫕	Mvut	#𦫔𦫕
-𥄗	HQvut
-𢯲	HQvuz
-䁊	HQvut
-濡	Nvun
 冠	KQvun
 莞	KQvun
 脘	KQvud
@@ -15588,53 +15652,6 @@ import_tables:
 𧯡	HQvun
 眢	HQvun
 盌	HQvud
-狻	Svun
-䝜	Svun
-痠	Svun
-酸	Svun
-𩆑	Svun
-鑽	TSvun
-𩎈	TSvun
-䡽	TSvun
-𣀶	TSvun
-劗	TSvun
-䂎	TSvud
-纘	TSvud
-儹	TSvud
-籫	TSvud
-酇	TSvud
-䂎	TSvuz
-鑽	TSvuz
-䂎	TSHvuz
-欑	DZvun
-巑	DZvun
-𩎈	DZvun
-襸	DZvun
-酇	DZvun
-穳	DZvun
-劗	DZvun
-攢	DZvuz
-團	Dvun
-竱	Tvun
-慱	Dvun
-篿	Dvun
-剸	Dvun
-鄟	Dvun
-𧐕	Dvun
-漙	Dvun
-鷒	Dvun
-摶	Dvun
-𩅂	Dvun
-掇	Tvut
-剟	Tvut
-鵽	Tvut
-腏	Tvut
-裰	Tvut
-敠	Tvut
-繓	TSvut
-撮	TSvut
-撮	TSHvut
-襊	TSHvut
 ###RAN
 鴳	HQraz
 晏	HQraz
@@ -16082,7 +16099,7 @@ import_tables:
 礬	FBuan
 𨟄	FBuan
 𧢜	FBuan
-䋣	FBuan
+䋣	FBuan	98%
 𦅳	FBuan
 緐	FBuan	0%
 繁	FBuan
@@ -16352,6 +16369,7 @@ import_tables:
 玥	NGuat
 蚏	JXuat
 原	NGuan
+邍	NGuan
 源	NGuan
 嫄	NGuan
 騵	NGuan
@@ -16583,6 +16601,7 @@ import_tables:
 跈	Nəd
 抮	Həd	#L?
 䛹	TSHəz
+𦴛	TSHəz
 茜	TSHəz
 凸	Dət
 唸	Təz
@@ -16815,6 +16834,7 @@ import_tables:
 濺	TSeen
 籛	TSeen
 𥷰	DZeen
+𦙪	KQeen
 肩	KQeen
 𧱚	KQeen
 猏	KQeen
@@ -16875,10 +16895,18 @@ import_tables:
 𥢹	HGeet
 魝	KQeet
 𧾯	KQeet
-截	DZeet
+𤁢	TSeet
+𩯰	TSeet
+𧞩	TSeet
+𢧵	DZeet
+𧾢	DZeet
+巀	DZeet
+𦿐	DZeet
+𩟦	DZeet
 㵶	TSeet
 䰏	TSeet
 𧞛	TSeet
+截	DZeet
 䟌	DZeet
 嶻	DZeet
 䕙	DZeet
@@ -17216,6 +17244,8 @@ import_tables:
 梋	Hven
 駽	Hvez
 ###REN
+##RUN
+蔄	Mroz
 ##RON
 䀣	Mrut	#?
 㑻	Mrut	#?
@@ -17284,8 +17314,6 @@ import_tables:
 𪒜	Mrət
 齂	Mrət
 殷	HQrən
-##RUN
-蔄	Mroz
 ##REN
 斕	Lren
 𢛓	Lren	#?
@@ -17363,6 +17391,7 @@ import_tables:
 𣦷	TZret
 㱜	TZret
 𣧐	TZret
+𪙻	TZHret
 䶪	TZHret
 扴	KQret
 圿	KQret
@@ -17706,9 +17735,12 @@ import_tables:
 𢪍	TSjet
 𣧖	TSjet
 𠯙	TSjet
+蠽	TSjet
+𧓷	TSjet
+𩯰	TSjet
+𪇲	TSjet
 𧕾	TSjet
 䘁	TSjet
-𪇲	TSjet
 䰏	TSjet
 惗	Sjez
 葏	TSjen
@@ -17771,6 +17803,7 @@ import_tables:
 䉦	TSHjen
 韆	TSHjen
 𨝍	TSHjen
+𢰕	TSHjen
 𠑗	Sjen
 𨇴	Sjen
 躚	Sjen
@@ -18155,7 +18188,7 @@ import_tables:
 瑄	Syon
 𩤡	Syon
 渲	Syoz
-##VJAN YAN
+##VJAN YAN K-
 㩊	Syan
 𡈣	Syan
 𩕖	Syan
@@ -18190,7 +18223,7 @@ import_tables:
 雪	Syet
 䨮	Syet
 㡜	Syet
-泉	DZyen
+泉	DZyen	#G-
 𧍭	DZyen
 葲	DZyen
 灥	TCHyen
@@ -18246,6 +18279,7 @@ import_tables:
 㺕	Bxoz
 弁	Bxoz
 㝸	Bxoz
+𢍘	Bxoz
 𢍍	Bxoz
 鴘	Pxod
 鴘	PHxod
@@ -18889,9 +18923,12 @@ import_tables:
 𧪠	DZjit
 𤕺	DZjit
 𢪍	TSjit	#尐jet
-擮	TSjit
 𧉍	TSjit
+𢷿	TSjit
+㘍	TSjit
+擮	TSjit
 𡁶	TSjit
+𧾢	Kjit
 䟌	Kjit
 津	TSjin
 𣸁	TSjin
@@ -18904,11 +18941,11 @@ import_tables:
 䀆	DZjid
 盡	DZjid
 濜	DZjid
+㶳	SZjiz
+燼	SZjiz
 藎	SZjiz
 濜	SZjiz
 璶	SZjiz
-㶳	SZjiz
-燼	SZjiz
 賮	SZjiz
 螼	KHjid
 螼	KHjiz
@@ -19162,6 +19199,7 @@ import_tables:
 濥	Jjid
 濥	Jjiz
 哂	SCjid	#矤
+𧨼	SCjid
 矤	SCjid
 矧	SCjid
 訠	SCjid
@@ -19358,6 +19396,7 @@ import_tables:
 諄	TCyuz
 𥇜	TCyuz
 𦎫	DCyun
+𦎧	DCyun	0%
 醇	DCyun
 鶉	DCyun
 錞	DCyun
@@ -19501,9 +19540,13 @@ import_tables:
 遵	TSyun
 嶟	TSyun
 鷷	TSyun
-壿	TSHyun
+壿	TSHyun	#士
+墫	TSHyun	#土
 竴	TSHyun
 鷷	DZyun
+#?
+迅	Syəz	#?
+迅	Syuz	#?
 ###XIN RJIN
 𡿪	NGxit	#?
 𡿩	NGxit	#
@@ -19515,8 +19558,6 @@ import_tables:
 𢴩	Pxut
 㻶	Pxut
 𨅗	Pxut
-##
-迅	Syəz	#?
 ##XƏN RJƏN
 汃	Pxən
 𥇖	Pxən
@@ -19928,8 +19969,9 @@ import_tables:
 煾	HQən
 恩	HQən
 䭡	HQəz
-###VƏN
+###VƏN ?
 黁	Nvən
+黁	Nvon
 ##VƏN
 昢	PHvət
 䪬	PHvət
@@ -20130,15 +20172,23 @@ import_tables:
 鍎	Dvot
 遁	Dvod
 遁	Dvoz
+𣀦	Tvon
+㪟	Tvon
+𡔋	Tvon
+敦	Tvon
 驐	Tvon
 墩	Tvon
-敦	Tvon
+𣀦	Tvoz
 敦	Tvoz
+𣌘	THvon
+𡃥	THvon
 暾	THvon
 燉	THvon
 噋	THvon
-𧑒	THvon
+𧑒	THvon	#𧑒𧍪
 燉	Dvon
+𢤈	Tvon
+𢐻	Tvon
 惇	Tvon
 弴	Tvon
 𤭞	Tvon
@@ -21408,7 +21458,7 @@ import_tables:
 各	KQak
 胳	KQak
 閣	KQak
-格	KQak
+格	KQak	2%
 袼	KQak
 𦐦	PHak
 絡	Lak
@@ -21726,6 +21776,7 @@ import_tables:
 暀	XQvaq
 尢	HQvac
 𡯁	HQvac
+尣	HQvac
 𡯪	HQvac
 㘀	TSvak
 ###RAŊ
@@ -21756,10 +21807,10 @@ import_tables:
 榜	Praq
 𥓯	PHrac
 磅	PHrac
-㮄
+㮄	Praq
 𢮔	Brac
-𦱘
-𩤐
+𦱘	Brac
+𩤐	Brac
 榜	Brac
 䄘	Brac
 搒	Brac
@@ -21994,9 +22045,8 @@ import_tables:
 窄	TZrak
 𩹺	KQrak	#?
 䩹	NGQrak
-𩹿	KQrak
-格	KQrak
 貉	Mrak
+格	KQrak
 𢓜	KQrak
 茖	KQrak
 骼	KQrak
@@ -22008,6 +22058,7 @@ import_tables:
 𪌣	KQrak
 𢼛	KQrak
 鉻	KQrak
+𩹿	KQrak
 頟	NGQrak
 峉	NGQrak
 詻	NGQrak
@@ -22421,6 +22472,7 @@ import_tables:
 眻	Jjaq
 鯗	Sjag
 養	Jjag
+𢼝	Jjag
 癢	Jjag
 瀁	Jjag
 𧓲	Jjag
@@ -23413,12 +23465,6 @@ import_tables:
 𢞒	THeek
 𢞒	KQHeek
 喫	KQHeek
-冖	Meek
-鼏	Meek
-羃	Meek
-濗	Meek
-䤨	PHeek
-覛	Meek
 繴	Peek
 壁	Peek
 鼊	Peek
@@ -23448,6 +23494,12 @@ import_tables:
 𧇻	Meek
 𧆽	Meek
 糸	Meek
+冖	Meek
+鼏	Meek
+羃	Meek
+濗	Meek
+䤨	PHeek
+覛	Meek
 覓	Meek
 䮭	Meek
 漞	Meek
@@ -23715,7 +23767,7 @@ import_tables:
 匉	PHrec
 抨	PHrec
 砰	PHrec
-庄	Brec
+庄	Brec	#?
 䡰	KQHrec
 殸	KQHrec
 𢿦	DRrec
@@ -23829,7 +23881,7 @@ import_tables:
 蚅	HQrek
 𩚬	HQrek
 𧠞	HQrek
-厄	HQrek
+# 厄	HQrek
 欂	Brek
 鬲	KQrek
 隔	KQrek
@@ -24200,8 +24252,6 @@ import_tables:
 𧬳	Jjak
 𤏵	Jjak
 𩦯	Jjak
-𥽉	SCjak
-𥋭	SCjak
 睪	Jjak
 繹	Jjak
 譯	Jjak
@@ -24220,7 +24270,10 @@ import_tables:
 𠓋	Jjak
 驛	Jjak
 𩴮	Jjak	#𨼸?
-釋	SCjak	#L-
+⿰禾𥇡	SCjak'
+𥽉	SCjak
+𥋭	SCjak
+釋	SCjak	100%	#L-
 𥼶	SCjak
 檡	SCjak
 𦔥	SCjak
@@ -24896,6 +24949,7 @@ import_tables:
 儯	Dəc
 幐	Dəq
 螣	Dək
+###VƏŊ
 薨	XSvəc	#M
 𠐿	XSvəc
 𩖎	XSvəc
@@ -25466,6 +25520,7 @@ import_tables:
 唪	Beug
 埲	Beug
 工	KQeuc
+𢒄	KQeuc
 功	KQeuc
 攻	KQeuc
 疘	KQeuc
@@ -26695,8 +26750,8 @@ import_tables:
 癰	HQioc
 廱	HQioc
 灉	HQioq
-雍	HQioc
 雝	HQioc
+雍	HQioc
 噰	HQioc
 澭	HQioc
 罋	HQioc
@@ -26704,9 +26759,16 @@ import_tables:
 壅	HQioc
 㻾	HQioc
 𧴗	HQioc
+𢹬	HQiog
+𢹭	HQiog
+𡓱	HQiog
+𢺠	HQiog
+𡔏	HQiog
 擁	HQiog
 𢶜	HQiog
 壅	HQiog
+雝	HQioq
+𡓱	HQioq
 雍	HQioq
 壅	HQioq
 𦄼	Sjog
@@ -26990,6 +27052,7 @@ import_tables:
 𩂓	Toc
 𧲴	Toc
 冬	Toc
+𣆼	Toc
 炵	THoc
 疼	Doc
 佟	Doc
@@ -27211,6 +27274,7 @@ import_tables:
 鴤	TCjuc
 泈	TCjuc
 終	TCjuc
+𠂂	TCjuc
 蔠	TCjuc
 䈺	TCjuc
 潀	TCjuc
@@ -27228,6 +27292,7 @@ import_tables:
 忠	TRxuc
 𦬕	TRxuc
 中	TRxuc
+𠁧	TRxuc
 衷	TRxuq
 中	TRxuq
 沖	DRxuc
@@ -27303,7 +27368,7 @@ import_tables:
 宿	Sjuk
 㝛	Sjuk
 透	SCjuk	1%
-趥	TSHjuq
+趥	TSHjuq	#?
 𥷼	TSjuk
 𧑙	TSjuk
 噈	TSjuk
@@ -27417,7 +27482,7 @@ import_tables:
 蒮	Jjuk
 𥉑	Jjuk
 鞴	FBuuk	#絥
-𧜰
+𧜰	FBuuk
 𦞶	FPuuk
 𨫙	FPuuk
 𨎙	FPuuk
