@@ -46,7 +46,7 @@ import_tables:
 衆	TCjuq	0%
 挿	TZHrep	0%
 揷	TZHrep	0%
-俱	Kuox	0%
+俱	Kuux	0%
 寛	KQHvun	0%
 舗	PHos	0%
 告	KQok	0%
@@ -170,13 +170,6 @@ import_tables:
 夀	DCjuh	0%
 菑	TZxəx	0%
 舄	Sjak	0%
-俞	Jyux	0%
-俞	TRHxus	0%
-喻	Jyus	0%
-偷	THəux	0%
-媮	THəux	0%
-媮	Jyux	0%
-榆	Jyux	0%
 鬭	Təusk	0%
 抜	Bvut	0%
 髪	FPuat	0%
@@ -187,9 +180,8 @@ import_tables:
 涉	DCjep	0%
 歳	Syart	0%
 緖	SZjoh	0%
-尓	NCjel	0%	#尒
+# 尓	NCjəl	0%	#尒
 衛	JXwart	0%
-衮	Kvod	0%
 毁	XSwal	0%
 毁	XSwar	0%
 没	Mvət	0%
@@ -208,8 +200,8 @@ import_tables:
 湼	Neik	0%
 𦵐	Neik	0%
 𡍤	Neik	0%
-痩	SSxuvs	0%
-捜	SSxuvx	0%
+痩	SSxus	0%
+捜	SSxux	0%
 惪	Tək	0%
 真	TCjin	0%
 鷏	Dein	0%
@@ -226,51 +218,62 @@ import_tables:
 麫	Meez	%0
 沉	DRxum	0%
 ####異
+# 両	Ljag	0%
+# 隽	DZyod	#雋
+# 䐪	TSyoj	0%
+# 槜	TSyur	0%
+# 䐪	TSyod	0%
+# 㑺	TSyuz	0%
+# 鎸	TSyon	0%
+# 㷪	TSyod	0%
+# 㝦	TSyuz	0%
+# 晩	Muad	0%
 飬	Kwez	0%
 飬	KHwez	0%
+𠢏	KHuoz	0%
 𢽁	Jjag	0%
 羪	Jjag	0%
 𩛬	Jjag	0%
 𠛉	KQHret	0%
 𢼪	Tvon	0%
-豜	KQeen	0%
-𧲨	KQeen	0%
-妍	NGQeen	0%
-豜	NGQeez	0%
-訮	Heen	#?	0%
-訮	THeen	0%
-研	NGQeen	0%
-研	NGQeez	0%
-𢆙	Pjec	0%
-幷	Pjec	0%
-幷	Pjeq	0%
-倂	Beeg	0%
-倂	Pjeg	0%	#𠊧
-倂	Pjeq	0%
-餠	Pjeg	0%
-帲	Pjeg	0%
-逬	Preq	0%
-騈	Been	0%
-屛	Beec	0%
-屛	Pjeg	0%
-𠌸	Bjeq	0%
-甁	Beec	0%
-𤲒	Beec	0%
-並	Beeg	0%
-傡	Breq
-傡	Breg
-併	Breg
-䰃	PHreq	0%
-䰃	Brac	0%
-䰃	Pag	0%
-𥩵	Beec
+# 豜	KQeen	0%
+# 𧲨	KQeen	0%
+# 妍	NGQeen	0%
+# 豜	NGQeez	0%
+# 訮	Heen	#?	0%
+# 訮	THeen	0%
+# 研	NGQeen	0%
+# 研	NGQeez	0%
+# 𢆙	Pjec	0%
+# 幷	Pjec	0%
+# 幷	Pjeq	0%
+# 倂	Beeg	0%
+# 倂	Pjeg	0%	#𠊧
+# 倂	Pjeq	0%
+# 餠	Pjeg	0%
+# 帲	Pjeg	0%
+# 逬	Preq	0%
+# 騈	Been	0%
+# 屛	Beec	0%
+# 屛	Pjeg	0%
+# 𠌸	Bjeq	0%
+# 甁	Beec	0%
+# 𤲒	Beec	0%
+# 𥩵	Beec
+# 並	Beeg	0%
+# 傡	Breq
+# 傡	Breg
+# 併	Breg
+# 䰃	PHreq	0%
+# 䰃	Brac	0%
+# 䰃	Pag	0%
 畊	Beec	0%
-岊	TSeet	0%	#𡴹
-𡴺	TSeet	0%
-𡴺	DZeet	0%
-𡴼	DZeet	0%
-𡷦	DZeet	0%
-岊	DZeet	0%
+# 岊	TSeet	0%	#𡴹
+# 𡴺	TSeet	0%
+# 𡴺	DZeet	0%
+# 𡴼	DZeet	0%
+# 𡷦	DZeet	0%
+# 岊	DZeet	0%
 #
 𦫵	SCjəc	0%
 楽	Lavk	0%
@@ -287,28 +290,29 @@ import_tables:
 𡈽	THoh	0%
 圡	THoh	0%
 𣐷	KQfal	0%
-賔	Pjin	0%
-𩯭	Pjiz	0%
-𣩵	Pjiz	0%
-𡼗	Kav	0%
-濵	Pjin	0%
-瀕	Pjin	0%
-𢷤	Pjiz	0%
-㯽	Pjin	0%
-𧢘	PHjiz	0%
-𨷚	PHjiz	0%
+# 賔	Pjin	0%
+# 𩯭	Pjiz	0%
+# 𣩵	Pjiz	0%
+# 𡼗	Kav	0%
+# 濵	Pjin	0%
+# 瀕	Pjin	0%
+# 𢷤	Pjiz	0%
+# 㯽	Pjin	0%
+# 𧢘	PHjiz	0%
+# 𨷚	PHjiz	0%
 教	KQrav	0%
 教	KQray	0%
-尔	NCjel	0%	#尒
-𦬼	Neet	0%
-𥬞	Neet	0%
-袮	Neil	0%
-祢	Neil	0%
-𩬘	Neil	0%
-𪱾	Neil	0%
-𡭗	NCjel	0%
-你	NRxəh	0%
-弥	Mjej	0%
+# 尓	NCjəl	0%	#尒
+# 尔	NCjəl	0%	#尒
+# 𦬼	Nəət	0%
+# 𥬞	Nəət	0%
+# 袮	Nəil	0%
+# 祢	Nəil	0%
+# 𩬘	Nəil	0%
+# 𪱾	Nəil	0%
+# 𡭗	NCjəl	0%
+# 你	NRxəh	0%
+# 弥	Mjəj	0%
 𠭱	Ljux	0%
 𠞑	Ljux	0%
 㒫	Kiər	0%
@@ -324,20 +328,29 @@ import_tables:
 剰	ZCjəq	0%
 𡹴	ZCjəq	0%
 朩	PHjiz	0%
+𦾔	Gviəus	0%	#臼旧
 児	NCjex	0%
-𦾔	Gviəvs	0%
 𠢎	Giuh	0%
-𦾔	Gviəvs	0%
 㫪	SCjoc	0%
+焔	Jjof	0%
 爂	Pjev	0%
 # 票	FPHjev	0%
 𣄔	FPHjev	0%	#旚
 𨅟	FPHjev	0%
 𣄦	FPHjev	0%
 朙	Mxac	0%
-貟	JXwon	0%
-貟	JXuun	0%
-貟	JXuuz	0%
+# 貟	JXwon	0%	#員
+# 貟	JXuun	0%
+# 貟	JXuuz	0%
+# 姢	HQyen	0%
+# 𣚓	Kyez	0%
+# 䏍	HQvez	0%	#肙
+# 𩢺	Hven	0%
+# 㳙	Kven	0%
+# 䳌	Kven	0%
+# 𦮌	Kven	0%
+# 㻆	HGved	0%
+# 𨹆	HGved	0%
 𡐣	FPHuuk	0%
 峰	PHuoc	0%
 骩	HQwol	0%
@@ -348,12 +361,40 @@ import_tables:
 𠂬	NGQvajh	0%
 𠂘	NGQvajh	0%
 𢀴	NGQvajh	0%
-乆	KQviəvh	0%
+乆	KQviəuh	0%	#久
 褒	Peuvx	0%
 冗	NCjug	0%
 内	Nvorp	0%
 跡	TSjak	0%
 ###??訛
+# 𦤶	TRxisk	0%
+𥛬	Leort	0%
+𥻳	Leort	0%
+𨽾	Leort	0%
+# 攅	TSaz	0%	#贊兟㚘
+# 櫕	DZvon	0%
+# 㠝	DZvon	0%
+# 攢	DZvon	0%
+# 躦	DZvon	0%
+# 𥣪	DZvon	0%
+# 𩍴	DZvon	0%
+# 鄼	DZvon	0%
+# 攅	DZvoz	0%
+# 鑚	TSvon	0%
+# 纉	TSvod	0%
+# 儧	TSvod	0%
+# 鄼	TSvod	0%
+# 𥎞	TSvod	0%
+# 𥎞	TSvoz	0%
+# 鑚	TSvoz	0%
+亽	DZjup	0%
+𥛁	KHwoz	0%	#䄐
+𦦖	TZwut	0%
+𨮱	DRwor	#𨪗
+𨬎	DRwor	#𨪗
+頔	KHyeg	0%	#頃
+𩔥	KHyeg	0%
+𩓏	KHyeg	0%
 簮	TZxəm	0%	#兂簪
 覍	Bxoz	0%	#㝸
 𡭪	Bxoz	0%
@@ -398,12 +439,12 @@ import_tables:
 屑	Sət	0%	#䏌肖
 屑	Svot	0%
 𩐒	TSeij	0%
-𩰘	Kxuvh	0%	#門鬥
+𩰘	Kxiuh	0%	#門鬥
 𨶪	Ljux	0%
 䦵	Mjel	0%
 䦵	Neel	0%
 𨷺	Kiu	0%
-𨷺	Kxuvh	0%
+𨷺	Kxiuh	0%
 閙	NRray
 𢌿	Pjir	0%	#畀
 𢍁	Giəx	0%
@@ -416,12 +457,11 @@ import_tables:
 𨊪	JXwert	0%
 𧌦	Mrac	0%
 肀	Jyut	0%
-銒	HGeec	0%	#幵
-𠛬	HGeec	0%
-郉	HGeec	0%
+# 銒	HGeec	0%	#幵
+# 𠛬	HGeec	0%
+# 郉	HGeec	0%
 𢿿	Heeyk	0%
-𩓓	KQəd	0%
-尢	JXviəvx	0%
+尢	JXviəux	0%
 𣽎	KQeuv	0%
 𤯌	KHom	0%
 𤯎	Kam	0%
@@ -460,7 +500,6 @@ import_tables:
 𠀔	Kuut	0%
 孓	Kiog	0%
 孓	Kuat	0%
-𥬇	Sjoy	0%
 凢	FBuom	0%
 凣	FBuom	0%
 曵	Jjer	0%
@@ -468,6 +507,15 @@ import_tables:
 𩠞	Jjəx	0%	#𦣝
 𩠝	Jjəx	0%
 ###隸定
+𡑸	Dxer	0%
+𡒰	Dxer	0%
+𡒴	Dxer	0%
+𡒿	Dxer	0%
+𡓬	Dxer	0%
+閠	NCyuz	0%
+𩁣	Nan	0%
+𡰟	Lyoj	0%	#尢尣
+𡰟	Lvas	0%
 𡰛	KQrem	0%
 尶	KQrem	0%
 𡰉	KQrem	0%
@@ -485,8 +533,8 @@ import_tables:
 𢘻	Sjit	0%
 𧷈	Kuurt	0%
 𣐈	DSxəh	0%
-𠘯	NCjuh
-𠘯	NRxuvh	0%
+𠘯	NCjuh	0%	#禸
+𠘯	NRxuh	0%
 㽞	Ljux	0%
 畄	Ljux	0%
 𤰛	Ljux	0%
@@ -516,6 +564,8 @@ import_tables:
 𡶫	NGQeet	0%
 䫀	Teed	0%	#?
 䫀	KQəd	0%
+𩓓	KQəd	0%
+𩓓	KQəd	0%
 𥎨	SCjih	0%
 𡗛	SCjih	0%
 𠓡	SCjih	0%
@@ -525,7 +575,7 @@ import_tables:
 顛	THeiz	0%
 𠊯	Səuh	0%
 𥈃	Səuh	0%
-𠷃	SSxuvs	0%
+𠷃	SSxus	0%
 愠	HQuuz	0%
 輼	HQvon	0%
 揾	HQuud	0%
@@ -557,17 +607,15 @@ import_tables:
 獔	HGeuvx	0%
 暭	HGeuvh	0%
 卄	Kioc	0%
-㮀	HGrom	0%	#㮭
-䏍	HQvez	0%
-㳙	Kven	0%
-䳌	Kven	0%
-𦮌	Kven	0%
-㻆	HGved	0%
-𨹆	HGved	0%
 魂	HGvon	0%
 壷	HGo	0%
 𠓛	DZjup	0%	#入人
 堚	HZvon	0%
+𢾋	THaz	0%	#𢾋文
+𢾋	THaz	0%
+𣁏	SZjoh	0%
+叙	SZjoh
+鈫	Gxəf	0%	#鈙
 攵	PHeuk	0%	#攴
 䍩	Jjag	0%
 𢽴	Teuk	0%
@@ -579,7 +627,7 @@ import_tables:
 𢾵	NGioh	0%
 𢻊	NGioh	0%
 㪣	KQHrav	0%
-𢿛	KHuox	0%
+𢿛	KHuux	0%
 𢾞	Mxid	0%
 敿	Kxew	0
 𣀈	TRruk	0%
@@ -618,7 +666,12 @@ import_tables:
 # 粜	THeyk
 # 籴	Deevk
 ###俗
-妞	NRxuv
+𠁽	HGvan	#丸
+𤎤𡮦	Lav TSav	醪醩
+𠠌	Ljep	0%
+𥶢	Ljep	0%
+𢴫	Ljap	0%
+𦡳	Ljap	0%
 勾	Kəu
 佘	DCjax
 佘	ZCjax
@@ -638,9 +691,6 @@ import_tables:
 啣	HGram	#銜	0%
 罕	Had
 罕	Haz
-𣁏	SZjoh	0%
-叙	SZjoh
-鈫	Gxəf	0%
 术	ZCyut
 术	DRwut
 𢘆	HGəc
@@ -684,112 +734,111 @@ import_tables:
 乕	Hoh	#虎
 𢁺	Hoh
 㳤	DCjuk	#淑
-#####同
-####形
+#####同 形
+####
+𠓠	Pjen	#鞭
 𦫷	Kxəv	0%
 𠃾	Kwəx	0%
 𪚨	Kwəx	0%
 𠧷	Jju
-𡑸	Dxer	0%
-𡒰	Dxer	0%
-𡒴	Dxer	0%
-𡒿	Dxer	0%
-𡓬	Dxer	0%
-####音
-旽	THvon
-尷	KQrem
-𡯽	KQrert
-𡯰	KQrert
-𩏜	Hruk	0%
-𨣗	HGeuk	0%
-𧐡	HGeuk	0%
-𨢤	HGeuk	0%
-𪡹	Heuk	0%
-𧹷	Heuk	0%
-𪍱	KQHeuk	0%
-𣫘	KQHeuk	0%
-淾	HQxəb
-滾	Kvod	#混
-𢿻	Lren
-悻	HGeeg
-掂	Teem
-韵	JXuuz
-鱷	NGQak
-哏	HGən
-狠	HGəd
-佷	HGəd
-𨽏	KQvak
-拿	NRrax
-𡞑	KHiəx
-𦝁	Giəx	0%
-𥟝	Kiəx	0%
-𣔔	Kiəx	0%
-鎏	Ljux
-𥰤	Ljux
-琉	Ljux
-晌	SCjag
-𠛨	TZHxit	0%
-𠞩	TZHxit	0%
-㔑	TZHxit	0%
-緲	Mjew
-她	TSjah
-媎	TSjah
-姐	TSjah
-讏	JXwart
-㝔	HQeew
-#增
-#加+
-蘯	Dag	0%
-胚	PHvəx
-㚰	PHvəx
-堺	KQrert
-𧫠	Kiəx
-𧬔	Giəs
-𦸀	Giəx
-𦻆	Giəx
-𦻆	Giəx
-断	Tvaz	0%
-𦧶	SCjas	0%
-姹	TRHrah	0%
-謊	Hvag	0%
-銲	HGaz
-#減-
-㥫	Tvon
-炖	Dvoz
-𪎶	THvon
-洂	Jjak
-𪗞	KHiəx
-𡉊	Kiəx
-𡉝	Kiəx
-𡉨	Kiəx
-𧥽	Giəs
-𥾟	Giəx
-𥾎	Giəx
-𧥽	Giəs
-𢗏	Giəs
-𪗞	Giəx
-𦨘	Giəx
-𥘕	Giəx
-𧿄	Giəx
-䟚	Giəx
-𦬟	Giəx
-䭶	Giəx
-䭼	Giəx
-㫅	Giəx
-㯦	Giəx
-檱	Giəx
-𣍡	Giəx
-𣅆	Giəx
-##絫增
-姹	TRHras
-漩	SZyaz
-漩	SZyan
-掮	Gjen
-迤	Jjej	0%
-迤	Jjel	0%
-𦌻	Syod
-瀫	HGeuk	#𣹬
-𩍤	Hruk
+# ####音
+# 嘴	TSyeh	#觜
+# 𠲿	TSyeh
+# 𠾋	TSyeh
+# 𠿘	TSyeh	#㭰觜
+# 𡁫	TSyeh	
+# 𩓗	KHyeh
+# 𨎥	SZyurt
+# 棰	TCyol
+# 尷	KQrem
+# 𡯽	KQrert
+# 𡯰	KQrert
+# 𩏜	Hruk	0%
+# 𨣗	HGeuk	0%
+# 𧐡	HGeuk	0%
+# 𨢤	HGeuk	0%
+# 𪡹	Heuk	0%
+# 𧹷	Heuk	0%
+# 𪍱	KQHeuk	0%
+# 𣫘	KQHeuk	0%
+# 淾	HQxəb
+# 𢿻	Lren
+# 韵	JXuuz
+# # 鱷	NGQak
+# 哏	HGən
+# 狠	HGəd
+# 佷	HGəd
+# 𨽏	KQvak
+# 拿	NRrax
+# 𡞑	KHiəx
+# 𦝁	Giəx	0%
+# 𥟝	Kiəx	0%
+# 𣔔	Kiəx	0%
+# 鎏	Ljux
+# 𥰤	Ljux
+# 琉	Ljux
+# 晌	SCjag
+# 𠛨	TZHxit	0%
+# 𠞩	TZHxit	0%
+# 㔑	TZHxit	0%
+# 緲	Mjew
+# 她	TSjah
+# 媎	TSjah
+# 姐	TSjah
+# 讏	JXwart
+# 㝔	HQeew
+# #增
+# #加+
+# 蘯	Dag	0%
+# 胚	PHvəx
+# 㚰	PHvəx
+# 堺	KQrert
+# 𧫠	Kiəx
+# 𧬔	Giəs
+# 𦸀	Giəx
+# 𦻆	Giəx
+# 𦻆	Giəx
+# 断	Tvuz	0%
+# 𦧶	SCjas	0%
+# 姹	TRHrah	0%
+# 謊	Hvag	0%
+# 銲	HGaz
+# #減-
+# 旽	THvon
+# 蚋	NCyor
+# 蚋	NCyot
+# 㥫	Tvon
+# 炖	Dvoz
+# 𪎶	THvon
+# 洂	Jjak
+# 𪗞	KHiəx
+# 𡉊	Kiəx
+# 𡉝	Kiəx
+# 𡉨	Kiəx
+# 𧥽	Giəs
+# 𥾟	Giəx
+# 𥾎	Giəx
+# 𧥽	Giəs
+# 𢗏	Giəs
+# 𪗞	Giəx
+# 𦨘	Giəx
+# 𥘕	Giəx
+# 𧿄	Giəx
+# 䟚	Giəx
+# 𦬟	Giəx
+# 䭶	Giəx
+# 䭼	Giəx
+# 㫅	Giəx
+# 㯦	Giəx
+# 檱	Giəx
+# 𣍡	Giəx
+# 𣅆	Giəx
+# ##絫增
+# 姹	TRHras
+# 掮	Gjen
+# 𦌻	Syod
+# 瀫	HGeuk	#𣹬
+# 𩍤	Hruk
 ####意
 ##+
 嶳	Dxer
@@ -829,8 +878,6 @@ import_tables:
 躭	Tom
 嗅	Hius
 灶	TSeuvsk
-駡	Mrah
-駡	Mras
 畊	KQrec
 艶	Jjaf
 匝	TSop
@@ -848,7 +895,6 @@ import_tables:
 媳	Sjək
 
 # 𩒝	Teed
-疤	Pra
 痘	Dəus
 𠍱	DZjup
 傢	Kra	1%
@@ -881,57 +927,16 @@ import_tables:
 ###并
 虻	Mrac
 哧	Hras	#嚇
-###同
+#####同
 閂	SSfan
 𣠯	SSfan	#栓
 𢩠	SSfan
-# 夘	TSeeh
-##
-龡	KCHyoj
-𠑵	FBuət
-𠏹	FBuət
-𰂣	FBuət
-砳	Lrek	#礐
-𥸭	Kiuk	#掬
-㝹	Nəux
-𡰻	Bxaj	#皮
-𤿤	Bxaj
-𠬱	Bxaj
-### 古?
-潂	HGeuc	#洪
-𤀆	HGeuc
-𤅏	HGeuc
-𱦻	HGeuc	#⿰水⿱从凡
-𢮝	NRrax
-𧲐	KQHeuk	#豰
-𨍔	KQeuk	#轂
-忈	NCjin
-鍂	Jyon	#鉛
-𤋬	HQox	#烏
-𤕘	HQox
-𡓓	HQjin	#垔
-抙	Bəu
-𨡳	HQxəb	#㱃
-叁	Sam
-𥔨	TSat	#子末切
-𣹳	Ljux
-𢍗	NGian
-𢍬	NGian
-𧩁	NGian
-𡒒	DCjəvk
-𣄾	XSvən	#昏
-𣄼	XSvən
-𩇿	Gioq
-闆	Prad	#老版
-𨊊	Lavk	#樂
-𡬜	Ljəb
+###
+串	TCHyoz	#穿 患
+𬊇	JXwec
+𢅈	NRray	#鬧
 卍	Muaz
 𠰶	JXuac
-楞	Ləc	0%
-𬙙	Ləc	0%
-⿰木⿱四方	Ləc	0%
-塄	Ləc	0%
-愣	Ləq
 嘩	XSfax
 咩	Mjeh	#羋
 岩	NGrəm
@@ -948,10 +953,87 @@ import_tables:
 𨉦	THeih	1%
 骵	THeih	0%
 躰	THeih	0%
-囝	NGuat
+### 古 奇 
+𢑽	Najx	#𨙻
+𣟎	Najx
+###
+龡	KCHyoj
+𠑵	FBuət
+𠏹	FBuət
+𰂣	FBuət
+砳	Lrek	#礐
+炏	KQHrəs	#烗
+鍂	Jyon	#鉛
+𥸭	Kiuk	#掬
+㝹	Nəux	#䨲
+𡰻	Bxaj	#皮
+𤿤	Bxaj
+𠬱	Bxaj
+𥝫	Leij	#𤛿
+𠣁	Lav	#勞
+𬡤	Lav
+𫸢	Lav
+𫺞	Lav
+𢥒	Lav
+𬏙	Lav
+𣬄	Lav
+𰞪	Lav
+𣬃	Lav
+𣬇	Lav	0%
+淿	Meek
+𠄞	DCjag	#上
+𠄟	HGrah
+𠄠	DCjag	0%
+潂	HGeuc	#洪
+𤀆	HGeuc
+𤅏	HGeuc
+𱦻	HGeuc	#⿰水⿱从凡
+𢮝	NRrax
+𧲐	KQHeuk	#豰
+𨍔	KQeuk	#轂
+忈	NCjin
+𤋬	HQox	#烏
+𤕘	HQox
+𡓓	HQjin	#垔
+抙	Bəu
+𨡳	HQxəb	#㱃
+叁	Sam
+𥔨	TSat	#子末切
+𣹳	Ljux
+𢍗	NGian	#言
+𢍬	NGian
+𧩁	NGian
+𡒒	DCjəvk	#熟𡔊
+𡦦	DCjəvk
+𤋩	DCjəvk
+𤍨	DCjəvk
+𤎼	DCjəvk
+𤒆	DCjəvk
+𤒒	DCjəvk
+𰀅	DCjəvk
+𱫹	DCjəvk
+𣄾	XSvən	#昏
+𣄼	XSvən
+𩇿	Gioq	#共
+闆	Prad	#老版
+𨊊	Lavk	#樂
+𡬜	Ljəb	#凜
+# 𡀓	Leec	#靈
+# 𩆜	Leec
+# 龗	Leec
+# 靇	Leec
+# 䨩	Leec
+# 𩃏	Leec
+# 霊	Leec
+# 𩆮	Leec
+# 孁	Leec
+# 𩁻	Leec	#孁
+# 霛	Leec	0%
+# 灵	Leec	0%	#靈
+囝	NGuat	#月
 𡇹	NGuat
 𠥱	NGuat
-囸	NCjit
+囸	NCjit	#日
 𡆠	NCjit
 𡆸	NCjit
 𡇗	NCjit
@@ -997,11 +1079,9 @@ import_tables:
 埅	Dxer
 埊	Dxer
 𡍑	Dxer	0%
-𡏇	Dxer
-𨻐	Dxer
 𤅴	Dxer
 𪒉	Dxer
-𠄋	Gxan
+𠄋	Gxan	#乾
 𣦖	KQan
 𣉙	KQaz
 𣉙	Gxan
@@ -1009,25 +1089,25 @@ import_tables:
 乹	Gxan
 𠃵	Gxan
 𠄃	Gxan
-堃	KQHvon
+堃	KQHvon	#坤
 𠔜	KQHvon
 𠔧	KQHvon
 𡘩	KQHvon	0%
 𡿦	KQHvon
 𡿭	KQHvon
-𢍳	Svoz
-𩆉	TCjəz
-𩇒	TCjəz
-㫔	KQəz
-𡘅	DRrak
-𨾫	Ljej
+𨾫	Ljej	#離
 𩀌	Ljej	0%
-𡴌	KQrap
-𠔿	Pxag
-𧟴	Krac
+𩆉	TCjəz	#震
+𩇒	TCjəz
+𢍳	Svoz	#巽
+㫔	KQəz	#艮
+𡘅	DRrak	#澤
+𡴌	KQrap	#甲
+𠔿	Pxag	#丙
+𧟴	Krac	#庚
 𢈏	Krac
 𢈰	Krac
-𠙭	TSjəh
+𠙭	TSjəh	#子
 𢀉	TSjəh
 𡐫	TSjəh
 𣕓	TSjəh
@@ -1035,7 +1115,35 @@ import_tables:
 𢀇	TSjəh	0%
 𡿹	TSjəh
 𧆰	TSjəh
-𡴳	NGQruk
+𠃠	TRHxuh	0%
+𦦚	Jjin
+𡓵	Jjin
+𡩟	Jjin
+𡩪	Jjin
+𢁐	Jjin
+㝙	Jjin
+𡨒	Jjin	0%
+𥦕	Jjin	0%
+𤕰	Mrovh
+𦕔	Mrovh
+𩇦	Mrovh
+𩇧	Mrovh
+𩇨	Mrovh
+𠨱	DCjən
+𠨷	DCjən
+𠩟	DCjən
+𨑃	DCjən
+𨑄	DCjən
+𠩐	DCjən	0%
+䢈	DCjən
+𰅭	NGQoh
+𣇗	SCjin	#申
+𢁳	HGəh
+𠦇	HGəh
+𠀅	HGəh
+𠅆	HGəh
+㐪	HGəh
+𡴳	NGQruk	#岳
 𡵽	NGQruk
 𡵹	NGQruk
 𡶳	NGQruk
@@ -1075,16 +1183,6 @@ import_tables:
 昬	XSvən
 
 ###連
-乒	PHeec	0%
-乓	PHac	0%
-乒乓	PHeec PHac
-淜滂	Biəc PHac
-旮	Kra	0%
-旯	Lra	0%
-旮旯	Kra Lra	#角
-囫	Hvot
-圇	Lwin
-囫圇	Hvot Lwin	#混溷渾然
 ###奇
 𡬲	Pxeb	0%
 𦠝	Ljux	0%
@@ -1146,13 +1244,8 @@ import_tables:
 丟	Teiu
 # 𢨋	Bvət	#誖
 〇	Seec
-〇	Leec
+〇	Leec	90%
 〇	JXwon	#員
-凷	KHvar
-凷	KHfer
-𠄞	DCjag
-𠄟	HGrah
-𠄠	DCjag	0%
 𠡿	Pxag
 # 𥆞	HQiaz
 # 𥆞	HQwez
@@ -1251,7 +1344,6 @@ import_tables:
 # 𦐕	Jjert
 # 怈	Jjert
 # 𢖪	Jjert
-覅	Mjevs	#勿要
 𦧿	Ljin
 𪆞	Ljin
 亃	Ljid
@@ -1261,12 +1353,12 @@ import_tables:
 𠤪	HQjik
 #####
 乄	U	#0x4e44
-𠄷	DSeij	0%	#20137齊
+𠄷	DSeəj	0%	#20137齊
 # 𠆭	HQxəm	#201ad
 𠇇	U	0%	#20137傳
 𠍋	U	0%	#2034b𠎦
 𡆢	U	0%	#211a2囚
-𡦹	Kvun	0%	#219b9官
+𡦹	Kvan	0%	#219b9官
 𡧑	U	0%	#219d1實
 𢀓	Gioh	0%	#22013巨
 𦮙	Gyix	0%	#26b99葵
@@ -1280,7 +1372,7 @@ import_tables:
 𭍻	DSvas	0%	#0x2d37b坐
 𠪳	Hoh
 #####
-#####韻書
+#####韻書 
 ####音幖
 # p	P
 # pʰ	PH
@@ -1482,60 +1574,47 @@ u	eu
 ‿	SCjec
 #####
 ###語气詞
-夫	Pa
-无	Ma
-之	Tə
-㞢	Tə
-底	Tə
-的	Tə
-旳	Tə
-哉	TSə
-是	TCjah
-這	TCjah	#者
-若	Nas
-也	La
-邪	La
-已	Lə
-呼	Ha
-乎	Xva
-吁	Xva
-矣	Xə
-兮	HZe
-嗚	HQa
-噫	HQə
-欲	HQjey
-###
-喏	NCjah
-呔	Təj
+夫	pa
+无	ma
+之	tə
+㞢	tə
+底	tə
+的	tə
+旳	tə
+哉	tsə
+是	tjah
+這	tjah	#者
+若	nas
+也	la
+邪	la
+已	lə
+呼	ha
+乎	xva
+吁	xva
+矣	xə
+兮	hze
+嗚	hqa
+噫	hqə
+欲	hqjey
 ###
 喵	Mxev	#貓
 咪	Mjeh
 噗	PHeuk
-酞	THar
 嘿	Hək
 啦	Lop
 吖	HQra
 哪	Nah
 啊	HQa
 嘿	Hej
+哼	Həc
 啥	SCja
-啦	La
-吖	Xia
-哦	Xo
-噢	Xo
-噗	PHeu
-哧	TCHjə	#嗤𣢑
-嗯	NGən
+
 ###
-母	Ma
-父	Bah
-母	Məh
-ǀə	TSə
+母	ma
+父	bah
+母	məh
+ǀə	tsə
 ###訓
-闖	TZHxag	#撞
-混	Kvod	#滾
-聃	Tom	#耽
-蜨	Deep	1%
 頁	Jjep	#葉䈎
 篩	SSrej	#簁
 篩	SSxej
@@ -1547,23 +1626,37 @@ u	eu
 𦶎	KQHfax	#𠇗
 𦹬	Hfaj	#𦶎竵
 敺	HQəuh	#毆
+混	Kvod	#滾
+聃	Tom	#耽
+率	Lyut	#律
+##
+黏	TRxem
+粘	TRxem
+闖	TZHxag	#撞
+蜨	Deep	1%
 另	Leeq
 癌	NGəj
 呆	Təj	#待
 卡	KHrah
-###誤
-旡	TZxəm	0%	#
-㯉	TRHxox	0%
-𥃩	HQeev	#㫐
-胖	PHruq
-盻	PHrəz	#盼
-厄	HQrek	0%	#戹
-呃	HQrek	0%
-扼	HQrek	0%	#㧖搹搤
-軛	HQrek	0%
-阨	HQrek	0%	#阸隘
-𩚚	HQrek	0%
 歹	Təl
+打	Tah
+###誤
+# 厈	TCHjas	0%㡿
+# 乚	HQiəd	0%𠃊
+䎀	XSyut	0%t
+怴	XSyut	0%
+䬂	XSyut	0%
+# 旡	TZxəm	0%	#
+# 㯉	TRHxox	0%	#樗
+𥃩	HQeev	0%	#㫐
+胖	PHruq	0%	#肨
+盻	PHrəz	0%	#盼
+# 厄	HQrek	0%	#戹
+# 呃	HQrek	0%
+# 扼	HQrek	0%	#㧖搹搤
+# 軛	HQrek	0%
+# 阨	HQrek	0%	#阸隘
+# 𩚚	HQrek	0%
 亘	Kəq	0%
 䱎	Kəq	0%
 暅	Kəq	0%
@@ -1572,75 +1665,848 @@ u	eu
 縆	Kəc	0%
 搄	Kəc	0%
 縆	Kəq	0%
-乚	HQiəd	0%
-###異讀
-臃	HQiog
 ####今
 ###俚
-骯髒	HQac TSac
-腌臢	HQac TSac
-腌䐶	HQac TSac
-###俗
+骯髒	hqac tsac
+腌臢	hqac tsac
+腌䐶	hqac tsac
+###俗 言
 ##
-甩	SSwel
-甩	SRval
-佬	Law
-姥	Law
-摔	SSwit
-閪	Hee
-㨃	Tvoj
-砸	DZop
-找	TZraw
-颱	Dəj
-佢	Gio
-𠍲	Gio
-垃	Lop
-圾	Səp
-們	Mvon
-麼	Mva
-倆	Ljah
-猹	DSra
-####近
-咱	TSat
-咱	DZom
-媽	Mra
-嗎	Mra
+您	nrxim
+您	nrxih
+佢	gio
+𠍲	gio
+們	mvon
+麼	mva
+##
+乒	pheec	0%
+乓	phac	0%
+乒乓	pheec phac
+淜滂	Biəc PHac
+囫	Hvot
+圇	Lyin
+囫圇	Hvot Lyin	#混溷渾
+旮	kra	0%
+旯	lra	0%
+旮旯	kra lra	#角
+尕	krah
+屙	hqa
+𡘷	thaw
+𡘷	thay
+妞	nrxu
+甩	sswel
+摔	sswit
+閪	hee
+㨃	tvoj
+砸	dzop	#韴
+找	tzraw
+垃	lop
+圾	səp
+倆	ljah
+猹	dsra
+瘩	top	#㾑疸
+疙瘩	ke ta
+
+####近甩	srval
 ###
-蒂	Teert	#蔕
-𥹁	TSavk
-做	TSos
-扯	TCHjah	#撦
-棕	TSeuc	#椶-u 宗-o
-煊	XSuan	#煖
-鬏	TSjux	#𩭓
-揪	TSju
-柿	DSxəh
-霉	Mxəj
+啦	la
+哈	ha
+吖	jxia
+哦	jxo
+噢	jxo
+噗	pheu
+哧	tchjə	#嗤𣢑
+嗯	ngən
+哎	ngar
+
+咱	tsat
+咱	dzom
+媽	mra
+嗎	mra
+怎	tzxib
+嗨	həj
+喏	ncjah
+呔	təj
+###聲符
+
+###貝
+唄	Par
+###非
+𩇯	Buəj
+㻗	Bvor
+啡	PHəj
+###𣎳𣎵巿
+𣏕	PHres	#𣎳
+###巿
+𢂤	Par
+𠀽	Par	0%
+𢂛	Par	0%
+𢺷	Par	0%
+𢻵	Par
+𢂤	Lvot	0%
+𢻵	Lvot	0%
+# 㤄	Par
+###灰
+脄	Mər
+###咅
+碚	Bəj
+㯁	Bəj
+賠	Bvoj
+菩	Bəj
+焙	Bvor
+𤗏	Bəj
+蓓	Bəj
+# 倍	Bəj
+###
+𤲳	Buər	#𥝈
+𥝈	FBuərt	#𥝋
+###丰
+夆	HGar
+##缶
+𡜊	PHəj
+###服𦨕
+𧌘	Buər
+###北
+##背
+揹	Pvoj
+褙	Pvor
+###未
+㭑	Mar
+沬	Mar
+昧	Mar
+###茍
+##𤰈
+𢟡	Breh
+𢟡	Brer
+###母
+𢮇	Məj
+𢯈	Məj
+###尾
+艉	Muəj
+###黑𪐗
+䆀	Mər
+䆀	Məj
+# 朏	PHəj
+###𪐗黑
+# 䵱	Hiək
+###𢦏
+𨠾	Dər
+###代
+玳	Dər
+###帶
+𤴟	TCjer
+摕	Tar
+###奈
+倷	Nəj
+###采
+睬	TSHəj
+###𠪋厚
+𠩰	HGəuh
+𣆉	HGəuh
+###㕟
+𠜐	KHfar
+###會
+燴	HGvur
+檜	HGvur
+𥵊	KHfar
+###貴䝿
+###鬼
+塊	KHfer
+螝	Kwur
+餽	Kwur
+###歸
+皈	Kuəj
+###退𢓴
+褪	THvor
+###介
+蚧	Krer
+##界
+堺	KQrert
+###回
+鮰	HGvoj
+蛔	HGvoj
+###戈-j
+找	HGful	#𢦚
+𢦻	HGful
+戤	HGər
+###-ng
+𨳮	HQfec
+戥	Təg
+###皆
+蒈	KHrej
+偕	HGrej
+###豈
+呆	NGəj	
+𣪱	NGQəj	0%
+###臬
+䆿	NGjer
+###兀
+阢	NGvoj
+###虫虺
+𩃾	Huəj
+###衞衛
+讏	JXwart
+躛	Hfer
+###胃𦞅
+𦝩	JXuur	0%
+𦛂	JXuur	0%
+𭥫	JXuur	0%
+###惠
+𨎥	SZyirt
+###彙
+彚	JXuər	0%
+###豙
+顡	TRHfer
+###褱
+𣀩	Kfer
+𪊉	HQfej
+瀤	HQfej
+##
+蘹	HGfej
+###艾
+哎	HQar
+
+###戹
+#
+呃	HQrer	0%	#呝
+###危
+𩗜	HQuor
+###畏
+㟪	HQuəj
+餵	HQuər
+#喂	HQuər
+###意
+繶	HQiəj
+###委
+𩗯	HQvoj
+###衣
+庡	HQiəj
+###列
+䮋	Ljer
+###𠩺
+𣀗	Lə	0%
+###雷
+# 靁	Lvoj
+檑	Lvoj
+檑	Lvor
+擂	Lvoj
+擂	Lvor
+###𣎆
+𣎆	Lvujx
+####-V
+###冒
+冃	Maw
+#
+㺺	May	0%	#瑁
+###堥
+楙	Mav
+###包
+袌	Bay
+疱	PHray
+麅	Brav
+疱	Bray
+孢	Braw
+佨	Prav
+刨	Brav
+齙	Brav
+麭	PHray
+###𠤏
+###保𠈃
+煲	Pav
+𩝰	Praw
+𩞛	Praw
+𩜿	Praw
+###猋
+飇	Pjev	#飊
+飊	Pjev
+峁	Mraw
+###拋
+# 抛	PHray
+# 抛	PHrav
+###少M-
+緲	Mjew
+仯	TZHraw
+𨈘	SSraw
+抄	TZHraw
+# 𢆷	HQev
+###苗
+猫	Mxev	#貓
+錨	Mav
+鶓	Mxev
+瞄	Mxev
+###票
+票	FBjey
+###毛
+牦	Mav
+𦹾	May
+耗	Hay
+###
+𣞈	Bjev	#㯱
+###
+𩽁	Pxev
+
+
+###褭裊
 裊	Neew
 嬝	Neew
-伲	NRxəh
+𢴶	New
+###
+䛝	Nav	#?
+###刀
+#
+叼	Tev
+䒒	Tev
+##召
+𢑦	DCjev
+齠	Dev
+笤	Dev
+###𠷎𢏚𠃬
+𠃬	DRxux	#𠷎
+###鳥
+䲽	Tew	#鳥聲 石聲
+隝	Tew
+鵃	Tew
+##島
+窵	Taw
+摀	HQoh
+㠀	Teuw
+搗	Taw	#𢶈
+###聿
+肇	DRxew	#肈
+###弔
+吊	Tey
+銱	Tey
+###椒
+𨲂	New	0%	#䦊
+###
+𪓙	DRxev	#?黽
+###匋
+掏	THav
+淘	Dav
+###𢏚
+𢤉	DRxu
+###州# 咒	TCjus	#詶
+###周
+週	TCju
+碉	Tev
+###𡿺囟𦥓
+瑙	Naw
+𣳦	NRrov
+硇	NRrov
+# 匘	Naw
+###農
+𥗰	NRrov	#硇
+𥗸	NRrov
+農	Nav
+憹	Nav
+###柔
+𢜸	Nav
+###
+訄	Nav
+##而
+##需
+薷	NCyo
+臑	Nav
+穤	Nvas
+懦	Nvas
+糯	Nvas
+###秋秌
+𤇫	TSHjəuvx	#秌
+㾭	TZray
+瞅	TZHxuh
+鍬	TSHjev
+鬏	TSjux	#𩭓
+揪	TSju
+##
+###曹
+蹧	TSav
+###巢
+缫	Sav
+𧃡	TSaw
+𠞰	TSjew
+𠟿	TSjew
+###喿
+操	Səuh
+𠟯	TSjew
+懆	TSHay
+###騷蚤
+鼜	TSHay
+糔	Saw
+慅	TSHay
+###肅
+瀟	Sev
+蠨	Sev
+###
+鏽	Sjus
+###焦
+稍	SSraw
+醮	TSjev
+礁	TSjev
+癄	TSjey
+瞧	DZjev
+###肖
+𦿃	SSraw
+𧣪	SSraw
+䔠	SSraw
+𦓴	SSraw
+髾	SSraw
+潲	SSraw
+艄	SSrav
+𥵦	SSraw
+𡡏	SSraw
+梢	SSraw
+###叜
+# 𣸈	SSxuh
+𢾐	SSraw
+#
+嗖	SSxus
+鎪	Səu
+搜	SSraw
+##縷
+𧃒	Lyuh
+𦺋𧃒	Seuvh Lyuh
+#叜
+䤇	Sjuh
+###隹
+趡	TSjey
+###
+###兆
+朓	TRHxey
+脁	THev
+𣂁	TSHjev
+###芻
+㥮	TZHraw
+###笑𦬫
+㗛	Sjoy
+咲	Sjoy
+𠇄	Sjoy
+𥬇	Sjoy	0%
+𠺑	Sjoy	0%
+###交
+㝔	HQeew
+𩨟	KQHrev
+骹	KHat
+俲	HGray
+餃	Kraw
+咬	NGraw
+###高
+嚆	Hrav
+稿	Kaw
+熇	KHay
+熇	KHaw	#熇
+𣩅	KHaw
+薧	KHay
+藳	Kaw
+𨃤	KHay
+搞	Kraw
+###鑿𣫞
+鑿	TSHay
+###爻
+𢽻	Kraw	0%	#𤉧
+
+###喬
+撟	KHaw
+礄	Gxev
+憍	KHxev
+𦒓	Gxev
+㠐	Gxev
+###垚
+##堯
+蟯	HQev
+撓	NRrav
+###㫐杳窅
+# 𥦒	HQey
+𨓳	HQev
+𡧮	HQev
+𥃺	HQraw
+𥃯	HQraw	0%	#𥄀
+###皋
+唕	DZaw
+翺	NGav
+###
+犳	HQev	#狕
+###奧
+嶴	HQay
+###
+# 嚻	Hxev
+虈	Hxev
+𤣠	Hxev
+###翏
+膠	KHrav
+𨶪	Kew
+###𦫶
+芁	Krav
+###丑
+侴	TRHxuh
+𡥆	Hay
+吜	TRHxuh
+𩪕	NGav
+###
+###夭
+宎	HQev
+###幺
+吆	HQev
+𦔷	HQev
+𩑗	HQev
+###敖
+廒	NGav
+璈	NGav
+鏊	NGav
+###要
+崾	HQjew
+###舀
+謟	THay
+𦥝	Jjew
+韜	THay
+𠚜	THav
+###吿
+𧋓	KHay
+###𭤁
+𢵿	KHey
+敫	Key
+敫	Kew
+撽	KHey
+##考丂
+𥬯	KHaw
+拷	KHaw
+鮳	KHay
+㼥	KHaw
+銬	KHay
+###毳
+𥳈	TZHfurt
+撬	KHey
+###
+𪖷	Lew
+𪖐	NGey
+𪖷𪖐	KQHviəus NGius
+
+###巧
+𩈎	TZHraw
+###皛
+藠	Key
+藠	HGew
+
+###幼
+岰	HQray
+###
+㢧	Kxu
+###豪
+蠔	HGav
+###勞
+嶗	Lav
+橯	Lay
+耮	Lay
+###老
+佬	Law
+姥	Law
+荖	Law
+###䚻
+摇	Jjey
+# 遥	Jjev
+徭	Jjev
+##
+榆	Jyux
+榆	Jjev
+##
+𤩤	Jjey	0%
+𣤦	Jjey	0%	#𤪎
+䚃	Jjux	0%	𧡹
+𨔟	Jjux	0%	
+逌	Jjux	0%	
+###翟
+矅	Jjey
+###睪𥇡
+𢋇	Jjev
+###叵
+笸	PHvah
+𡶅	PHva
+###必
+秘	Pxis
+邲	Pxis
+###
+𢺻	Buo
+##
+# 俖	PHəj
+###匕比
+毘	Bji
+㩺	Bxih
+砒	PHee
+㩺	PHji
+舭	Pjih
+###比?
+紕	TCHjəh	#?
+###
+# 埠	Bos
+𨹺	Biuh
+###霸
+壩	Pras
+𧟳	Pras
+覇	Pras
+
+###
+䥍	Bees	#𨫔
+###巴
+爸	Bah
+耙	Bras
+耙	Pras
+岜	Pra
+筢	Bra
+𩇯	Bxis
+𢀼	Biu
+#
+瞇	Mjeh
+擟	Mje
+###卑
+痺	Pje
+渒	PHees
+𣝁	PHres
+啤	Bje
+錍	Pxe
+䴽	Pxe
+焷	Pxe
+㽡	Pxe
+㗗	Pxe
+痺	Pjis
+萆	Sjəh
+#
+𤰞	Pje	0%
+𦜉	Bje	0%
+𣴪	Pje	0%
+𡌨	Bje	0%
+###布
+鈽	Po
+###普
+###皮
+##波
+啵	Pva
+菠	Pva
+###肥
+𡺮	Bxih
+###𠂢
+##派
+蒎	PHres
+###巴
+羓	Pra
+粑	Pra
+疤	Pra
+###不丕
+胚	PHvəx
+㚰	PHvəx
+###不
+呸	PHxi
+苤	PHxi
+###母
+姆	Məuh
+###-k
+# 坶	Mviək	#牧
+###馬
+獁	Mrah
+螞	Mrah
+瑪	Mrah
+駡	Mrah
+駡	Mras
+###牟
+毪	Miu
+哞	Miu
+###每
+霉	Mxəj
+###眉睂
+猸	Mxij
+###米
+𨤐	Mje	#𥹄
+###无舞
+嘸	Muoh
+###麻
+嘛	Mra
+##磨
+蘑	Mva
+耱	Mvas
+
+###矛
+𢦵	Miu
+茅	DRxoh
+###麻
+嬤	Kvah
+嬤	Mvah
+###羋
+咩	Mja
+蝆	Mjeh
+###武
+鵡	Məuh
+###朵
+# 躲	Tvah
+跺	Tvas
+#
+㛆	Tvas	0%
+𥬸	Dvah	0%
+桗	Tvas	0%
+𨹃	Tva	0%
+刴	Tvas	0%	#剁
+𨦃	Tvahs	0%
+桗	Tvas	0%
+挅	Tvass	0%
+𨹃	Tvah
+𥬸	TRfa
+###低
+眂	DCjis
+###疐𤴛
+𨇈	TRxis
+𢷐	TRxis
+###隓
+䙃	Dvas
+###㞢
+峕	DCjə	0%
+##待
+㣥	DRxəh
+##市
+柿	DSxəh
+###它
+砣	Da
+鴕	Da
+坨	Da
+###也
+牠	THa	1%
+祂	THa	1%
+##
+拖	THa
+沲	Da
+沲	Dah
+迤	Jjej	0%
+迤	Jjel	0%
+###兔
+堍	THos
+###多
+栘	DCee
+茤	Ta
+###豆
+# 厨	DRwo
+# 蹰	DRwo
+櫥	DRxo
+闘	Təus
+# 櫥	DRwo
+###是
+䐎	Dee
+
+###庶
+蟅	TCjas
+
+###
+###單
+奲	Tah
+###者
+𩜼	DCjis
+醏	DCjis
+琽	Toh
+##者
+嘟	To
+###署
+糬	DCjos
+𧱓	Təus	0%	#𧱦
+###屠
+𤺈	Do
+###大
+駄	Das
+#
+䭾	Da	#馱
+䭾	Das
+###豕
+###
+𡏇	Dxer
+𨻐	Dxer
+###度
+𢾖	Doh
+###
+𧢗	Təu	0%	#𧡸
+###乍
+炸	TRras
+###余
+稌	DCjo
+###途
+𥱻	TRHrer
+##茶荼
+𨢬	Dox	#酴
+搽	DRra
+#佘
+𡝙	DRra
+###兜
+蔸	Təu
+兠	Təu
+###
+𣤖	THees
+###賣
+讀	Dəus
+###兌
+𣮆	THvas	#毤
+毻	THva
+兊	Dvar	兌	#0%
+###𨼰
+媠	THvah
+###若
+偌	NCjas
+渃	NCjas
+###奴
+胬	Noh
+孥	Noh
+###如
+蒘	NCjo
+𧧏	NCjas
+###辱
+搙	Nəus
+###乃
+疓	Nəj
+奶	NRreh
 ###尼
-𩉹	Neil
+伲	NRxəh	#伱
+抳	NRxeh
+𧖛	TRHxil	#𡳭
+###女
+𥨲	NCjo	0%	#𡫽
+###主
+䦌	TRHwus	0%	#𨳳
+𢨫	TRHwus	0%	#𢨸
 
-
-#####古
-###西
-拪	TSHjen	1%
-𢬣	TSHjen	1%
-𢫥	TSHjen	1%
-𢍱	TSHjen	1%
-𣳳	Səl
-###欠
-忺	Hiam
-
-
-###需而
-###肩𦙪
-𣓖	KQeex
-###虎虍
-##慮
-櫖	TRHxox
+###夷
+𧱅	SZjih
+###此
+呲	TSje
+呲	DZje
+𦙼	TSHje
+頾	TSje
+𩶆	DZeeh
+齜	DSre
+髭	TSje
+###兹
+𣳯	TSjəx
+鷀	TSjə
+鷀	DZjə
+糍	DZji
+糍	DZjə
+# 磁	DZjə
+###思恖
+腮	Səj
+# 鍶	Sjə
+###犀
+樨	See
+摨	NRrej
+###齊
+𪊆	DZees
+𧓉	DZji
 ###且
+#
+𡎬	TSyah
+##
+𢯽	TSHvas
+##
+# 查	TZra
+齄	TZra
+喳	TZra
+##
+齇	TZra
+𧇣	DZos
+##
+𧄗	TZxo
+###
+咀	HQrat
 ##查査
 楂	DSrax	#苴沮
 楂	TZrax	#樝柤
@@ -1653,13 +2519,2553 @@ u	eu
 查	DSrex
 餷	TZHra
 渣	TZrax	#沮
+碴	DSra	#渣沮
+碴	TZra
+###𠂔
+䪟	TSeəj	#䪡䪢
+䪠	TSeə	0%
+䪣	TSeəj	0%
+𩐆	TSeəj	0%
+𩐇	TSeəj	0%
+𩐈	TSeəj	0%
+𩐊	TSeəj
+𩐋	TSeəj	0%
+𩐎	TSeəj	0%
+𩐑	TSeəj	0%
+##
+# 枾	DSxəh
+𡛷	TSjih
+
+###索
+嗦	Sa
+###絲
+鷥	Sjə
+噝	Sjə
+###士
+茌	DSxə
+###穌
+囌	So
+###素𦃃
+愫	Sos
+# 葘	TZxə
+###
+𥀜	TZxə	0%	#𥀒
+𥀒	TZxə	0%
+𥀖	TZxə	0%
+𥀋	TZxə	0%
+𥀑	TZxə	0%
+𨢧	TZras	#醡
+###㐬
+㐬	Ljux
+䟽	SSxo
+䟽	SSxos
+###流
+鎏	Ljux
+𥰤	Ljux
+琉	Ljux
+###秀
+銹	Sjus
+# 鐁	Sji
+###取
+鯫	DSəuh
+###羞
+饈	Sju
+###𧴪
+嗩	Svah
+###初
+𭃨	TZHxox
+初	TZHxox
+䃼	TZHxox
+𠜆	TZHxox
+𥘉	TZHxox
+𥘨	TZHxox	0%	#示
+𭃡	TZHxox	0%
+𭃨	TZHxox
+𮕥	TZHxox
+###叉
+# 衩	TZHras
+𥘓	TZHras
+䟕	TZHras
+汊	TZHras
+岔	TZHras
+
+###甾
+輺	TZxə
+鍿	TZxə
+湽	TZxə
+###甾-j
+𦸜	TSəj	#菑
+###
+惢	TSje
+
+###沙
+硰	TSvah
+###
+𠧪	See
+###徙
+蓰	SSxeh
+蓰	Sjeh
+###奏
+揍	TSəus
+###垂𠂹
+棰	TCyol
+厜	TSje
+###𢀩差
+嵳	DZa
+𪙉	TZHxe
+磋	TSHvas
+
+###棘朿
+㭰	TSje
+𧠵	TSHji
+##
+𠟴	TZHxəh	0%	#㓼
+###
+𡲁	SZjos
+###使
+𩢲	SSxəs
+###鼓
+臌	Koh
+臌	KQoh
+#
+鼔	Koh
+皷	KQoh
+###規
+# 嫢	TSje
+
+###區
+瞘	KHəu
+慪	HQəus
+慪	HQəuh
+###匸
+匸	Heeh
+###寇
+𣻎	KHəu
+𥲃	KHəus
+蔲	Həus
+𣻎	KHəus
+###夾
+㥷	HQees
+###休
+恘	KHiu
+髹	Hiu
+###奚
+徯	Heeh
+𥉐	Heeh
+𥰥	Heeh
+謑	Heeh
+𦩶	Heeh
+慀	HGre
+###冎
+蝸	Kva
+窩	HQva
+萵	HQva
+##過
+撾	Kva
+撾	TRfa
+撾	HQva
+###嵇
+嵆	HGeij	0%	#嵇
+###果
+餜	Kvah
+㪙	KHvas
+騍	KHvas
+騍	Kvas
+錁	Kvah
+###伊尹
+𧉅	HQji
+###臼
+桕	Giuh
+###氏
+汦	KCji
+
+###耆
+鮨	Gxi
+𦓀	Gxi
+𥉙	Gxi
+𨪌	Gxi
+𧡺	Gxi
+# 耆	Gxi
+鰭	Gxi
+鬐	Gxi
+䅲	Gxi
+愭	Gxi
+###旨
+#旨
+㫑	Kjil	0%
+㫖	Kjil	0%
+𠤔	Kjil	0%
+𠩊	Kjil	0%
+𠮛	Kjil	0%
+𣅌	Kjil	0%
+𣥜	Kjil	0%
+𤮻	Kjil	0%
+𭥍	Kjil	0%
+𭥎	Kjil	0%
+
+###𡕒
+# 𡕒	KHfah
+𡕒	KHfas
+###咎
+𣓌	Giuh
+###憂𢝊
+𢕶	HQiu
+###口
+##扣
+筘	KHəus
+###
+# 𥈸	Huo
+###戶
+##顧
+僱	Kos
+##扈
+熩	HZoh
+###加
+咖	KHra
+###喜
+囍	Hiəh
+鱚	Hiəh
+###九
+艽	Krav
+鼽	Hvoj
+頄	Kwi
+𣓕	HQəus
+###醫
+𢟇	HQees
+###
+𠴺	HQre	#唲
+###庫
+褲	KHos
+###瓜
+𣲖	Ko	0%
+###卡
+鉲	KHrah
+佧	KHrah
+
+
+###叚
+𢱈	Kras
+###奇
+埼	Gxe
+###巨
+岠	Gioh
+###示
+祁	Gxi
+###禾
+##科
+嵙	KHva
+
+###
+###古
+骷	KHo
+咕	Ko
+##故
+做	TSos	#作
+##胡
+衚	HGo
+##姑
+菇	Ko
+##固
+崮	Kos
+##辜
+𨬕	Ko
+##胡
+𧍵	HZo
+###气乞
+汽	KHiər
+虼	Kət
+###
+𨾗	Gwij	0%	#𨾎
+###句
+眗	Guu
+朐	Guu
+够	Kəus
+夠	Kəus
+𪓟	Kəu
+###圭
+##
+洼	HQfej
+嚡	HGre
+##崖
+捱	NGre
+##卦𥦛	Kfah
+###爽
+𧫗	TZHras
+###
+###吳
+𦨳	NGo
+
+# 吴	NGo
+###虛
+嘘	Hios
+###䔢
+𡾀	HZfar
+鷨	Hfa
+嘩	Hfa
+###亞
+埡	HQoh
+埡	HQos
+埡	HQras
+###瓦
+佤	NGfah
+###伿
+𧨍	Heeh	#𧧹
+###孔
+芤	KHəu
+###𩰬
+𡁑	Hfe	0%	#𠿎
+###癸
+暌	KHve
+###臭
+臭	Hius
+###久
+𡚰	Kviəh	#𡚮
+###亓
+𪗞	KHiəx
+𡉊	Kiəx
+𡉝	Kiəx
+𡉨	Kiəx
+𧥽	Giəs
+𥾟	Giəx
+𥾎	Giəx
+𧥽	Giəs
+𢗏	Giəs
+𪗞	Giəx
+𦨘	Giəx
+𥘕	Giəx
+𧿄	Giəx
+䟚	Giəx
+𦬟	Giəx
+䭶	Giəx
+䭼	Giəx
+㫅	Giəx
+𣍡	Giəx
+𣅆	Giəx
+#
+𥟝	Kiəx	0%
+𣔔	Kiəx	0%
+##其
+𦝁	Giəx	0%
+㯦	Giəx
+檱	Giəx
+###畁畀
+𡞑	KHiəx	#娸
+
+#
+𧫠	Kiəx
+𧬔	Giəs
+𦸀	Giəx
+𦻆	Giəx
+𦻆	Giəx
+###可
+𠳊	KHa
+##
+婀	HQa
+##
+疴	HQa
+##
+菏	Ka
+###乎
+烀	Ho
+###亏
+㢪	HQo
+㢪	KHo
+圩	KHuo
+# 污	HQo
+#
+# 𠀒	HGo	0%
+###夸
+垮	KHfah
+##
+# 樗	TRHxo
+###去
+# 祛	KHio
+###己
+𨙬	Giəs
+###
+𢨒	TCHjəs	#𢨀
+###昔𦠡
+諎	TSHvas
+###冓
+韝	Brer
+鞲	Kəu
+###丠丠
+𪖛𪖐	KQHviəus NGius
+坵	KHiu
+###支
+𧷱	Kyex	#𩓡
+###巂嶲
+纗	TSje
+#
+雟	HGvej	0%
+𮒣	HGvej	0%	#巂
+㒞	HGvej	0%
+𡣸	HGvej	0%
+𩟥	HGvej	0%
+𧮄	HGvej	0%
+𢹂	HGvej	0%
+𢤮	HGvej	0%
+𦢥	HGvej	0%
+觽	HGvej	0%
+䥴	HGvej	0%
+𰿅	HGvej	0%
+㼇	HGvej	0%
+㰎	HGvej	0%
+𩍺	HGvej	0%
+𨟎	HGvej	0%
+𩧎	HGvej	0%
+𧲑	HGvej	0%
+𧔍	HGvej
+###侯𥎦
+𣣠	HGəus
+###系
+𡱏	HGfah
+###我
+峩	NGa
+###義
+鸃	NGxe
+𥪺	NGxar	0%	#𥫃
+###乙𠃉
+𠃸	HQiəs	0%	#亄
+𪖐	NGius	#鼼
+乩	Kee	#卟
+###五
+##
+𫝀	NGoh
+##吾
+唔	NGo
+焐	NGos
+牾	NGo
+牾	NGos
+痦	NGos
+###牙
+庌	NGra
+蚜	NGra
+蚜	Hra
+伢	NGra
+#####
+𠀀	Ha	#呵
+###虎虍
+##慮
+櫖	TRHxox
+濾	Ljos
+###舍
+𦧶	SCjas	0%
+猞	SCja
+##邪
+鋣	Jja
+倻	Jja
+琊	Jja
+揶	Jja
+##耶
+爺	Jja
+###野予
+壄	Jjah
+###與
+䑂	Jəj
+###㠯
+##异
+𦚪	Jəj	#䑂
+###
+佁	Jəj
+###台
+抬	TRHxə
+###台-j
+颱	Dəj
+###𦣝𦣞
+# 𦣝	Jjə
+###
+# 茝	TCHəj
+
+###隸
+𰧭	Lərt
+𧎹	TSvar
+# 𨽼	Sjis
+###魯
+###鹵
+嚕	Lo
+氌	Loh
+擼	Lo
+###里
+喱	Ljə
+哩	Ljəh
+裡	Ljəh
+浬	Ljəh
+厘	Ljə
+###利
+俐	Ljis
+鬁	Ljis
+猁	Ljis
+琍	Ljis
+###黎
+犂	Leij	#𤛿
+𤛼	Leij
+䵓	Leij
+#
+𥝤	Ljirt	0%
+###
+𥃏	Lees
+###累厽
+鏍	Lva
+漯	Lvas
+縲	Lyi
+樏	Lyi
+嫘	Lyi
+###
+蕗	Los
+###羅
+玀	La
+𡝤	Ləu
+㭩	Loh
+欏	Lah
+蒞	Ljis
+瘺	Ləus
+###麗
+𧢮	Lees
+𬋞	SSrir
+###矢
+䛈	SCjis
+###彝
+𣟗	Jji
+#
+彞	Jji	0%
+# 𤄕	Jjo
+###式尗
+弒	SCjəs
+###由
+甹	Jju
+###酉
+𥟁	Jjuh
+𤍕	Jjus
+##酋
+鰌	TSHju
+𪓵	TSHju
+
+
+
+
+
+
+
+####-M
+###法
+琺	Puap
+###丏
+𩾳	Kxip
+𩾳	Bxip
+###
+𩾳	Gxep
+###乏
+姂	KHuap
+𥑁	Pxom	#砭
+###𡕢
+𦱏	MFuaff	#𦲯
+#𡕩
+𡕩	MFuab	#𡕢
+𡕫	MFuab
+# 㚇
+# 鍐
+###斬
+嶄	DSreb 
+###占
+##店
+掂	Teem
+惦	Teef
+踮	Teeb
+站	TRrem
+##贛𥫔竷
+䀍	Dof
+##點
+㸃	Teeb
+##站
+𥩠	TRrem	#站
+###厃
+##詹
+譫	TCap
+###𦐇
+溻	THop
+搨	THap
+溻	THap
+塌	THap
+#
+𢴄	Tap	0%	#搨
+###疊𤴁
+㲲	Deep
+###世-p
+##枼
+艓	Deep
+鰈	Deep
+碟	Deep
+鞢	DRrap
+渫	Deep
+屜	THees	#屟
+###
+𩢏	TRxip	#縶
+馽	TRxip	#縶
+𡂣	TRxip
+###耴
+䎎	NRwap
+𣹵	NRwap
+𡷝	NRwap
+###南𡴖
+蝻	Nob
+###念
+𦁇	Neef
+###男
+娚	NRrom	#喃
+###冄冉
+##
+𦐃	Nob
+##
+郍	Nas	0%	#那
+𢰓	Najx	0%	#挪
+###染
+𡜉	NCjeb
+###炎
+𦩗	DRxib
+𠊌	NRrom	#䛁
+###任
+紝	NRxim
+###
+𥄳	Dop	0%	#眔
+###𥥍穼
+探	THof
+𥥦	Dob	#𥥍
+###㦰
+#
+䇝	TSjem	0%	#㦰
+𩃢	SSrem	0%	#𩃔
+𩃢	TSjem	0%
+###帀
+##匝
+咂	TSop
+##斬
+嶄	TZreb
+𩈻	DZam
+###毚
+酁	DSram
+###妾
+唼	TSjep
+唼	SSrap
+唼	TSop
+# 㪪	Sap
+糌	TSom
+###侵
+𡩻	TSjib
+唚	TSHjif
+𡫏	TSjif
+###心
+芯	Sxim
+吢	TSHjif
+
+###臿
+𨇧	TRHwab
+𠑆	TRHwab
+𦑣	TRHwap
+锸	TRHxep
+###甚
+碪	Jjim	#?
+# 䃡	TSjəm
+斟	TCHjip	#斟
+㘰	TCHjip
+###十
+䦹	GCjup	#十方
+什邡	GCjup FPuac
+###甜
+餂	THeeb
+###忝
+舔	THeeb
+掭	THeef
+###冘 -m -v
+醓	THob
+𥁺	THob
+###䑣
+𥉨	TRHxim	0%	#𧡬
+###心
+怹	THam
+###貪
+㵅	THom
+僋	THom
+###兂兓
+##鬵
+𤅬	SZjəm	0%	#灊
+###參
+遪	DCop
+幓	SSxum
+幓	SSrum	#縿
+襂	SSrum
+槮	SSrub
+𣟹	TZHxum	0%	#槮
+𧂅	SSxum
+鰺	SSxim
+###覃𪉷
+覃	SZjim
+###森
+䫖𩕌	TRHxub SSxub
+###甘
+咁	Kam
+疳	Kam
+###凵
+凵	KHuab
+㧄	KHuab
+###欠
+忺	Hiam
+##坎
+莰	KHob
+砍	KHob
+崁	KHof
+
+###函圅
+𡣔	HZob
+𡣊	HZob	0%
+###咸
+堿	Kreb
+###敢
+闞	Hreb
+###
+###甲
+舺	HGrap
+岬	Krap
+##合
+搿	HGop
+哈	Hop
+峇	KHop
+###匃
+#
+丐	Kat
+##曷
+猲	KHuap
+䋵	Lap
+###
+䔾	Mvat
+#
+# 䅥	Kxet
+# 揭	Kxet
+噶	Kat
+###盇盍
+瞌	KHap
+瞌	KHat
+##豔𧰚
+##艷
+灧	Jjef
 ###今
 𩂇	HQxəm
+妗	Gxif
+坅	KHjib
+###夾
+𤷾	KHxep
+##
+𠩧	KHop
+##金
+淾	HQxəb	#飲
+##
+撳	KHxif
+##衾
+𩔝	KHxif
+搇	KHxif
+###
+𩒥	KHiab
+##含
+晗	HGom
+##侌
+癊	HQxif
+𦝴	HQxif
+𤷜	HQxif
+𤸌	HQxif
+
+###禽
+噙	Gxim
+###嵒
+癌	NGrəm	#嵒
+###奄
+𢽱	HQiap
+𢽱	HQxep
+俺	HQob
+鵪	HQom
+###厭猒
+##厭
+嚈	HQjep
+懨	HQjem
+𧞣	HQjeb
+###邑
+䭂	HQiap
+𦤡	HQiap
+鄓	HQiap	#郹?𦤡
+###
+簽	TSHjem
+劍	Kiaf
+籨	Ljem
+襝	Ljem
+澰	Ljeb
+臉	Kxeb
+##匳
+###匳
+𢅸	Ljam	1%
+奩	Ljam
+匲	Ljam	1%
+𡙗	Ljam	1%
+###品
+榀	PHxib
+##臨
+𡒓	Hab
+鑒	Keen
+##監
+㩜	Lam
+###兼
+搛	Ljem
+賺	DRref
+搛	Keef
+##廉
+濓	Leem
+臁	Ljem
+###臽
+欿	THom
+餡	HGreb
+###廩㐭
+燷	Lom
+檁	Ljib
+澟	Ljib
+###尋
+𦠅	SZjim
+𧂗	Dom
+噚	SZjim
+鱘	SZjim
+###彡
+𧵏	SCjeb	#𧴭
+㶒	SCab	0%	#?反切誤
+###審宷
+嬸	SCjib
+####-N
+###半
+眫	PHvaz
+胖	Bvan
+###反
+舨	Prad
+鋬	PHraz
+
+###番
+𤃳	PHuan
+䪤	Buan
+###卞 㝸
+飰	Buaz
+###扁
+藊	Peed
+犏	PHjen
+騙	PHjez
+煸	Peen
+###不
+不	Pvət	0%
+
+##𣬈𣬉
+𣬉	Bjij
+㮰	Beet
+###分
+坋	Buəd
+# 朌	Buən
+坋	Buəz
+# 朌	Pran
+份	Buəz
+吩	Puən
+###弁
+𡊄	Puən
+㨧	Bvod
+𥽒	Puəz
+###燹豩
+𨷹	PHuən
+###賓
+賔	Pjin	0%
+𩯭	Pjiz	0%
+𣩵	Pjiz	0%
+𡼗	Kav	0%
+濵	Pjin	0%
+瀕	Pjin	0%
+𢷤	Pjiz	0%
+㯽	Pjin	0%
+𧢘	PHjiz	0%
+𨷚	PHjiz	0%
+
+###奔
+錛	Pvon
+逩	Pvoz
+##孛
+荸	Bvot
+###犮-t
+鮁	Pvat
+鼥	Bvat
+###犮-r
+韍	Bxis
+袚	Puar
+
+###癶
+##發
+潑	PHvat
+###㡀
+##敝-t
+鱉	Pjet
+# 撇	PHeet
+###敝-r
+𡚁	Bjer	0%	#敝
+# 獘	Bjer
+###弗
+䀟	Buər
+
+##
+###八
+叭	PHret
+趴	PHret
+###畢
+嗶	Pjit
+###伐
+𠲎	Buat
+###卑
+鵯	PHjit
+###本
+缽	Pvat	#盋
+
+###班
+𢣑	Bjed
+癍	Pran
+𢯌	Prek	#㧳
+掰	Prek
+掰	Prej
+##般班
+𣪂	Pran
+𤦦	Pran
+𤼬	Pran
+搬	Pvan
+###門
+燜	Mvoz
+閿	Muən
+###文
+炆	Muən
+玟	Mxin
+螡	Muən
+###民
+抿	Mxin
+抿	Mjid
+苠	Mxin
+㢯	Tvon
+##
+㨉	Mxin
+𦖫	Muən
+𪃯	Mxin
+瑉	Mxin
+緡	Mxin
+鍲	Mxin
+䁕	Mxin
+
+𨍌	Mjid
+𤸅	Mxin
+湣	Mxid
+䁕	Mjin
+
+暋	Mxid
+###昏
+碈	Mxin
+##勿
+𠞍	MFuəd
+䐇	MFuəd	#吻
+肳	MFuəd
+𠯳	MFuəd
+𦝮	MFuəd	0%
+呡	MFuəd	0%
+呅	MFuəd
+
+曶	Hvot
+
+䐇	Mjid
+###
+鍃	Hvot
+
+###滿
+蟎	Mvad
+
+###萬
+澫	Muaz
+躉	Tvod
+###
+麫	Meez
+###免
+娩	PHuaz
+䨲	Muaz
+# 嬔	PHuaz
+###臱𦤝
+𩕰	Mjen
+###曼
+𭆲	Mvuz
+𢿜	Mvuz
+熳	Mvuz
+熳	Mruz
+###𥄕
+苜	Mvat	0%
+###蔑
+𥗥	Mrat
+䁾	Meet
+###未
+茉	Mvat
+###
+𩋦	Dvad
+###突
+宊	THvot
+
+###眞
+# 顚	Teen
+# 塡	TRxin
+# 顚	THeez
+# 鷆	Deen
+# 眞	TCjin
+# 塡	Deez
+# 塡	Deen
+# 愼	DCjiz
+# 巓	Teen
+# 槇	Teen
+槇	TCjid
+###𢇍㡭
+𦇓	KQeesk	#繼
+断	Tvuz	0%
+#
+䜝	THvad
+𢣎	THvad
+籪	Dvad
+###戜
+𡙮	DRxit
+𧽮	DRxit
+###折
+䀿	TCjet
+###展㠭
+囅	TRHxed
+碾	NRxed
+###至
+膣	TRxit
+𦤶	TRxisk	0%
+鵄	TCHji
+
+###典
+琠	Təd
+婰	Təd
+###胥旦
+𢘇	Taz
+##
+蛋	Dad
+###延
+疍	Dad	#蜑
+##丹
+坍	THam	#㘱𡉱
+###叀
+##專
+糰	Dvan
+###𦎫
+㥫	Tvon
+###屯
+炖	Dvoz
+𪎶	THvon
+旽	THvon
+礅	Tvon
+砘	Dvoz
+噸	Tvon
+# 窀	Dfen
+純束	Dvon SCjok
+##段
+𩏇	THvad
+###𦍒羍
+##達
+韃	THat
+鐽	Dat
+噠	Tat
+墶	Dat
+###殿
+癜	Teez
+###曳𦥙-t
+拽	DCjer
+拽	Jjet
+絏	Sjet
+###世-t
+#
+伳	Sjet
+###𠂈殄
+𩒉	TCjiz
+###熱
+𤑔	NCyot
+###內
+蚋	NCyor
+蚋	NCyot
+###善譱
+鱔	DCjed
+蟮	DCjed
+###
+𠬝	NRxed	#?
+###尼
+𪏸	Nel
+###辰
+滣	ZCyun
+###難
+𪇠	Nan
+𩁘	Nan
+𧆖	Nan
+###
+癱	THan
+###年
+𨛲	Neen
+###而-n
+蠕	NCyo
+蠕	NCyod	#蝡
+
+####贊
+#
+趲	TSad
+瓚	DZaz
+䂎	TSHvan
+攢	TSad
+#
+𨇃	DZa
+賛	TSaz	0%	#贊
+𡂐	DZat	0%
+讃	TSaz	0%
+𩯳	TSad	0%
+𡂐	DZaz	0%
+䟎	TSaz	0%
+鄼	TSaz	0%
+𩯳	TSaz	0%
+䟎	DZad	0%
+瓉	DZad	0%
+濽	TSaz	0%
+攅	TSaz	0%
+𥎞	TSHvaz	0%
+𩯳	TSvat	0%
+#
+櫕	DZvon	0%
+㠝	DZvon	0%
+攢	DZvon	0%
+躦	DZvon	0%
+𥣪	DZvon	0%
+𩍴	DZvon	0%
+鄼	DZvon	0%
+攅	DZvoz	0%
+鑚	TSvon	0%
+纉	TSvod	0%
+儧	TSvod	0%
+鄼	TSvod	0%
+𥎞	TSvod	0%
+𥎞	TSvoz	0%
+鑚	TSvoz	0%
+
+###𩛻 贊
+䬤	TSaz
+𡳋	TSaz	0%	𩛻
+###尐
+###竄
+攛	TSHvan
+躥	TSHvan
+躥	TSHvaz
+竄	TSHvan
+##節卪
+𠬨	TSeet
+𢻮	TSeet
+#
+岊	TSeet	0%	#𡴹
+𡴺	TSeet	0%
+𡴺	DZeet	0%
+𡴼	DZeet	0%
+𡷦	DZeet	0%
+岊	DZeet	0%
+###歬
+譾	TSjed
+###寸
+吋	TSHvoz
+###𢧵-t
+# 𢧵	DZeet
+# 𧾢	DZeet
+# 𦿐	DZeet
+# 𩟦	DZeet
+# 𩯰	TSeet
+# 𧞩	TSeet
+# 𤁢	TSeet
+# 𩯰	TSjet
+# 𧓷	TSjet
+# 𤁢	TSat
+# 㘍	TSjit
+# 𪙻	TZHret
+# 𧾢	Kjit
+###𢧵-r
+# 𩯷	TSjer
+# 𩯰	TSjer
+
+###秦
+𧤛	TZxid
+瑧	TSjin
+###則
+鍘	DSrat
+鍘	DSret
+###卒
+崪	DZvot
+㯜	SSxin
+###孱
+驏	DSrad
+###勻
+𤜼	DSven
+###䀆聿
+壗	SZjiz
+###
+𦩨	TSjin
+##
+𨕨	TSeen
+###𣦼
+䱗	TSHan
+###戔
+𥂥	DZan
+###辛
+𣐽	TZxid
+𣓀	TZxid
+𡩁	TSHjin
+###千
+扦	TSHjen
+釺	TSHeen
+###祭
+##察
+擦	TZHret
+嚓	TZHret
+檫	TZHret
+鑔	TZHret
+擦	TSHat
+##專叀
+剸	TCyon
+瑼	TCyon
+摶	TCyon
+𢮛	DCyoz
+叀	TCyon
+磚	TCyon
+###產
+剷	TZHred
+𥽽	TZHfed
+𥽽	SSred
+###算
+籑	DSwoz
+
+###全仝
+輇	TSHyon
+醛	TZHwot
+###七
+齔	TZHxid
+𠮟	TCHjit
+###夋
+朘	TSyon
+睃	TSyuz
+黢	TSHyut
+###隼
+榫	Syid
+榫	Syid
+###均勻旬
+𠣤	Syin	0%
+𠣤	Syid	0%
+𢞛	Syid
+栒	Syud
+𥯗	Syud
+𣕍	Syud
+𣓓	Syun
+昀	Jyin
+###彗
+##雪
+鱈	Syet
+###山
+舢	SSren
+奾	Sjen
+###𠨧
+#
+# 䙲	HGven
+䙲	HGven	0%	䙴
+㒨	Sjen
+###殺
+剎	TZHrat
+摋	SSxet
+###鱻
+䲆	Sjen
+###屑㞕䏌
+𪙇	TSHeet
+###先
+冼	Seed
+###刪
+𦙽	San
+𣧺	SSran
+𥮚	Saz
+𥮚	San
+###飧
+薞	Svon
+###
+虱	SSxit
+鯴	SSxit
+###巽
+𩕧	Svoz
+𦌻	Syod
+###散𢽳𢿨
+撒	Sat
+##
+𣀧	Sad
+𣀧	Saz
+
+###刷
+唰	SSwot
+唰	SSfat
+###倝
+##幹
+擀	Kad
+###乾
+墘	Gxen
+##榦
+###干
+奸	Kran
+# 訐	Kxet
+##
+𣵼	Kaz
+##旱
+桿	Kad
+###雈雚
+鱹	Kvaz
+鑵	Kvaz
+巏	Kvaz
+###欮
+蹷	Guat
+橛	Guat
+##
+鱖	Kwi
+###昆
+崑	Kvon
+###肩𦙪
+掮	Gxen
+𣓖	KQeex
+掮	Gjen
 ###閒
-嫻	HGren	#閒
+㵎	Kraz
+𨣇	Krez
+𤄒	Kred
+覵	Krez
+鐗	Kraz
+襉	Krez
+鬝	KHret
+# 𥳑	Kred
+鬝	KHren
+覵	Kren
+鷳	HGren
+##閑
+𥊺	HGren
+嫻	HGren
+##間
+僴	Kred
+###見
+梘	Keez
+𣎔	HGeez
+梘	Keed
+鋧	HGeed
+###
+涀	Heeh
 ###玄
 妶	HGven
 妶	HGved
+###艮
+裉	KHəz
+哏	HGən
+狠	HGəd
+佷	HGəd
+###旣旡-t
+# 槪	Kər
+# 曁	Kiər
+# 曁	Kxit
+# 曁	Kiət
+# 墍	Gxis
+# 曁	Gxis
+# 墍	Hiər
+# 漑	Kər
+# 槩	Kər
+# 漑	Kiər
+##愛-r
+嬡	HQər
+噯	HQər
+###斤
+庍	Hiəz
+##欣
+鍁	Hian
+###筋
+觔	Kiən	#筋䈥
+
+###卷
+劵	KHuaz
+錈	Kwod
+###困
+𧋕	KHwun
+捆	KHvod
+綑	KHvod
+稛	KHvod
+齫	NGuəd
+###建
+毽	Kiaz
+踺	Giaz
+##
+𥯦	DSrep	#箑
+###毌
+##貫
+𨝑	Kvaz
+䗰	Kvaz
+###官
+館	Kvad
+舘	Kvaz
+綰	Kvaz
+###大
+亣	THat	0%	#謬
+###睘
+𦇏	HGved
+###夬-t
+𦐋	Hwet
+𦐍	Hwet
+# 吷	Hwet
+鴃	Kvet
+##
+𤰮	Kves
+###夬-r
+筷	KHfar
+
+##㓞
+恝	KHees
+𪀡	Ljak
+恝	Kret
+##厥
+橛	Kuat
+噘	Kuat
+獗	Kuat
+###𠯑
+颳	Kfat
+##契
+葜	KHret
+##旱
+趕	Kad	1%
+銲	HGaz	1%
+
+###堇
+螼	KHxiz
+𡎸	Kiəd
+###衮袞
+䙛	Kvod	0%
+滾	Kvod	#混
+蓘	Kvod
+###君
+珺	Guəz
+###軍
+𧞢	Kvod	#緷
+###処
+𠢅	Gxen
+###吉
+# 趌	Kxet
+###吳
+蜈	Keet
+###出
+# 胐	PHvor	#肉
+朏	PHvor	0%	#月昢
+𣍧	PHəl	#朏
+###埶
+#
+𣊓	Sjet	0%	#暬
+䥍	Sjet	0%	#𨫔
+𨫦	Sjet	0%
+𨮲	Sjet	0%
+#
+摰	NGeet
+# 掣	NGeet
+𢴸	NGeet
+𢳊	NGeet
+###辥薛
+蘖	NGat
+# 𧕏	NGxet
+###
+𨇨	Seet
+# 蘖	NGxet
+###原
+螈	NGuan
+###元
+朊	NGuod	#月
+𠒜	NGuad
+###幵开-n
+# 詽	THeen
+# 詽	Heen
+# 姸	NGeen
+# 硏	NGeen
+郉	KHeen
+䵤	Teed
+#
+豜	KQeen	0%
+𧲨	KQeen	0%
+妍	NGQeen	0%
+豜	NGQeez	0%
+訮	Heen	#?	0%
+訮	THeen	0%
+研	NGQeen	0%
+研	NGQeez	0%
+#
+銒	HGeec	0%	#幵
+𠛬	HGeec	0%
+郉	HGeec	0%
+
+##完
+莞	Kvaz
+𦸌	HGvon
+###𢇇
+##聯
+𪚁	Ljen
+𡑜	Ljin
+𤒤	Ljed
+㺦	Ljen
+# 聯	Ljen
+###柬
+煉	Leez
+##闌
+欗	Lan
+# 斓	Lan
+灡	Lad
+###侖
+崙	Lvon
+
+###雁
+贋	NGraz
+##𢽟
+憗	NGxəz	#憖
+
+###术
+𦳯	JXwut
+䫼	XSyut	#𩖶
+䎉	XSyut	0%
+㤜	XSyut	#㾁
+䬄	XSyut	#𩖶
+###矞 內
+𣎛	Kyit	#橘 月在乙曰橘
+𦒑	Jyit	#鴪
+###
+𡙋	Hvad
+𡙋	Kvaz
+𡙋	Guan
+𡙋	Hvad	0%
+𡘨	Hvad	0%
+𥆗	Hvad	0%
+𥆗	Kvaz	0%
+###曰
+汩	Kvot
+抇	HGvot	0%	#𢪏
+###袁
+#
+𡊮	JXuon	0%
+𡋡	JXuon	0%
+逺	JXuod	0%
+逺	JXuoz	0%
+###熏 黑
+𤑕	Huəz
+勲	Huən
+###𠦪
+𦱧	XSuət	#𠦪
+###𣊡
+韅	Heez
+###夭
+祅	Heen
+###乙
+#
+乭	Dvot
+齓	TZHxid
+###穵𠃉-t
+挖	HQfet
+###於烏
+##
+菸	HQeen
+##
+嵨	HQoh
+###安-n
+鞍	HQan
+###安-m
+垵	HQob	#埯
+###晏
+##匽
+匽	HQiaz
+𥈔	HQxez
+椻	HQiaz
+躽	HQiaz
+堰	HQxez
+# 躽	HQxez
+###夗
+##宛
+箢	HQuad
+#
+𦞿	HQvaz	#腕
+###𥁕
+蕰	HQuəd
+蕰	HQuəz
+藴	HQuən
+瘟	HQvon
+蒀	HQuən
+腽	HQvot
+榅	HQvot
+###𥆞𡚇 𡙷
+𡣬	HQfen	0%
+𡣬	HQwen	0%
+𡣬	HQyen	0%
+###㥯
+癮	HQiəd
+###因
+##恩
+蒽	HQən
+摁	HQəz
+###肙
+#
+䏍	HQvez	0%	#員
+𩢺	Hven	0%
+㳙	Kven	0%
+䳌	Kven	0%
+𦮌	Kven	0%
+㻆	HGved	0%
+𨹆	HGved	0%
+###員
+圓	SZyon	1%
+#
+貟	JXwon	0%	#肙
+貟	JXuun	0%
+貟	JXuuz	0%
+姢	HQyen	0%
+𣚓	Kyez	0%
+###䜌
+孿	SSfaz
+##
+圞	Lvun
+𤼣	Lyon
+###連車
+漣	Ljez
+褳	Ljen
+###㷠粦
+𢿻	Lren
+㔂	Ljiz
+粦	Ljin
+###栗
+傈	Ljit
+###輦
+攆	Ljed
+###剌
+喇	Lat
+鬎	Lat
+𢈠	Lat
+辣	Lat
+###列
+咧	Ljet
+趔	Ljet
+#
+###閵𨳌
+躪	Ljiz
+###亦𡗕
+洂	Jjak
+###兗 允 袞
+###兗兖
+𣍬	ZCyon	#从舟 船
+恱	Jyot	#悅
+兖	Jyod
+萒	Jyod
+萒	Gwod
+𠤦	NCyod
+#
+䬇	Jyoz	0%	#𩘍
+###延
+𨕐	Jjan	0%	#𢌨?
+蜒	Deed
+
+###寅
+演	Jjid	2%
+###扇
+搧	SCjen
+謆	SCjez
+騸	SCjez
+###申
+珅	SCjin
+
+###旋
+漩	SZyaz
+漩	SZyan
+𣎓	SZyon
+𦛔	SZyon
+####-NG -Ŋ
+###朋
+##崩
+嘣	Pəc
+鏰	Pəq
+蹦	Bəq
+剻	PHəg
+###平
+鮃	Bxac
+###邦
+綁	Prug
+###并
+#
+𢆙	Pjec	0%
+幷	Pjec	0%
+幷	Pjeq	0%
+倂	Beeg	0%
+倂	Pjeg	0%	#𠊧
+倂	Pjeq	0%
+餠	Pjeg	0%
+帲	Pjeg	0%
+逬	Preq	0%
+騈	Been	0%
+屛	Beec	0%
+屛	Pjeg	0%
+𠌸	Bjeq	0%
+甁	Beec	0%
+𤲒	Beec	0%
+𥩵	Beec
+
+###竝𠀤
+椪	PHreq
+#
+並	Beeg	0%
+傡	Breq
+傡	Breg
+併	Breg
+䰃	PHreq	0%
+䰃	Brac	0%
+䰃	Pag	0%
+##普
+氆	Pag
+##普
+氆	PHoh
+潽	PHo
+###并
+###亯亨
+鞟	KHvak
+哼	Hrac
+烹	PHrac
+###邦
+䲱	PHuag
+###辥辟
+鸊	Beek
+鸊	Pjek
+躃	Bjek
+##
+蘗	Prek	#檗
+###
+鐾	Bees
+鐾	Bjes
+
+###封
+㜂	Puoc
+篈	Puoc
+###平
+𡊞	Bxaq
+玶	Bxac
+###彭
+嘭	Brac
+甏	Braq
+蟛	Brac
+###兵
+捠	Prec
+###𡕨复
+𩺽	Bruk
+###風
+瘋	Puuc
+###㫄旁
+耪	PHag
+###百白
+佰	Prak
+栢	Prak
+##拍
+啪	PHrak
+###
+帕	PHras
+###伏
+袱	Buuk
+###甫
+##尃
+𦼭	Bxak
+愽	Pak
+礡	Bak
+###甫
+豧	PHo
+舖	PHos
+# 埔	PHoh
+葡	Bo
+###
+𡕡	Beuk	#𡰿
+###
+泵	Pəq
+###菐
+瞨	Beuk
+###孟
+勐	Mrag
+錳	Mrag
+###瞢
+朦	Meug
+𦴔	Məc	0%	#瞢
+𦱛	Məc	0%
+𦴲	Məc	0%
+𨞯	Muuc
+𢅴	Məq
+𧀆	Məq
+𩖉	Hvəc
+# 𧀆	Təq
+###冒
+勗	Hiok	0%	#勖
+###蒙冡
+礞	Meuc
+霥	Meuc
+###莽
+蠎	Mag
+###麥
+䴰	ZCjok
+嘜	Mrek
+###莫
+㱳	Mrak
+###
+饃	Mo
+摹	Mo
+###冖
+冪	Meek
+###乇
+乇	TRrak
+# 乇	THak
+托	THak
+姹	TRHras
+姹	TRHrah	0%
+
+
+###屬
+蠾	DRxok
+𪇆	Deuk
+𢺡	DRruk
+欘	DCjok
+###長
+賬	TRxaq
+###登
+噔	Təc
+竳	Təc
+###帝
+蒂	Teert	#蔕
+# 𢝃	TCjer
+###
+##啻-
+𢕮	TRfes
+膪	TRfes
+楴	THees
+##啻啇-k
+嘀	Teek
+嘀	TRrek
+𥛚	TRHrek
+###乇
+乇	TRrak
+# 乇	THak
+托	THak
+姹	TRHras
+姹	TRHrah	0%
+
+###直
+# 𢨀	DCjək	#埴
+𢨀	DRxək	#埴
+###東
+腖	Teuq
+###冬
+咚	Teuc
+䳉	Teuc
+###唐
+醣	Dac
+###延
+延	TCjec
+###戠
+𥋏	TCjək
+###貞
+幀	TRraq
+###丁
+打	Trag
+疔	Teec
+疔	Nrek
+###成
+鋮	DCjec
+###定
+碇	Deeq
+腚	Deeq
+萣	Deeq
+###昜
+𨫖	THaq
+踼	THag
+餳	SZjec
+餳	Dac
+䵮	Jjaq
+##
+靛	Deez
+
+##湯
+燙	THaq
+蘯	Dag	0%
+蕩	Tag
+###知
+##𥏼
+𤁰	DRrak
+###
+###
+###𩱨
+𩱜	NCjok
+###寍
+寗	Neeq
+##寧
+擰	Neeg
+###
+###
+###正
+症	TRxəc
+症	TCjeq
+
+###章
+蟑	TCjac
+嫜	TCjac
+幛	TCjaq
+瞕	TCjaq
+###童
+懂	Teug
+###重
+瘇	DCjog
+###灷𦩎
+𢀹	DRxəb
+##滕𣎌
+籐	Dəc
+###弋忒
+###代
+𧊇	THək
+𢘋	THək
+脦	THək
+𢦭	Jjək
+𧴮	Dək
+𧈱	Dək
+###毒
+𡴛	Dok	#毒
+###呈
+埕	DRxec
+###同
+侗	Deuq
+茼	Deuc
+戙	Deuq
+垌	THeug
+###者
+這	TCjek
+𥖛	TRxak
+###石
+炻	DCjek
+##宕
+菪	Daq
+###穴
+柼	TRraq
+僮	DRruq
+###𤕦
+𠽽	NRrac	0%	𧂘
+𦷠	NRrac	0%
+𧃱	NRrac	0%
+𧅍	NRrac	0%
+𨛲	Neec
+𪔝	Deuc
+###隻
+𩀝	TCjek	#雙
+朒	NCjuk
+肭	NRxuk
+###中
+舯	TRxuc
+###尺
+庹	THak
+呎	TCHjek
+###宂
+𡊫	NCjog
+𤘻	NCjog
+𤘺	NCjog
+###仄夨
+𣅳	TZxək	0%
+𣅦	TZxək
+###脊
+鶺	TSjek
+###宗	#椶-u 宗-o
+#
+棕	TSeuc
+鬃	TSeuc
+###爽
+𡙁	SSxag
+###
+𣪻	TSok
+䪂	SSrek
+𧫣	Seuk
+###息
+螅	Sjək
+###世-k
+髰	Sjek	#鬄
+###束
+速	TSjek	0%
+簌	Seuk
+觫	Seuk
+𨄞	Seuk
+𧋐	Seek
+###
+疎	SSxos
+踈	SSxos
+###桑
+搡	Sag
+嗓	Sag
+# 𠷔	Saq
+###
+# 𤁢	TSjek
+###爭
+掙	TZreq
+掙	TZrec
+###𡭴
+𧈅	SSrek
+###
+嗍	SSruk
+僳	Seuk
+缻	HZruc
+䗛	Sjuk
+###夙𡖊
+㓘	Sjuk
+###就
+𥷛	TSjuk
+###戎
+𨱿	Sjuc
+###叟
+𪄑	Sjəvk	#鷫
+嗖	SSxuk
+𧼭	SSxuk
+
+###翟
+戳	TRHruk
+𣤩	TRHrek
+###昌
+錩	TCHjac
+
+###匿
+匿	THək
+㥾	THək	#慝
+###囊
+饢	Nac
+嚷	NCjag
+攮	NRrug
+囔	Nac
+###農
+㺜	NRxoc
+擃	NRrug
+𨑊	NRrug
+譨	NRruc
+𩟊	NRrug
+###尙
+惝	THag
+瓽	Tag
+党	Tag
+倘	THag
+躺	THag
+耥	THag
+淌	THag
+䟫	DRrac
+緔	DCjaq
+惝	TCHjag
+##
+撐	TRHrac
+##賞
+償	SCjag
+##當
+噹	Tac
+擋	Tag
+
+##堂
+膛	Dac
+嚐	DCjac
+##黨
+攩	Tag
+灙	Tag
+儻	Tag
+𥤗	Tag
+##常
+嫦	DCjac
+樘	Dac
+###斥
+# 𣔳	THak
+# 拆	TRHrak
+𧻀	TSHjas	0%	#䞣
+𮚺	TSHjas	0%
+### 尗  
+𧗂	Nəvk	#惄
+
+###靑
+靗	TRHxeq
+###冊册
+册	TZHrek
+𠕁	TZHrek	0%
+# 𠕋	TZHrek
+# 𣆩	TZHrek
+###囪匆悤
+#
+𢃭	Kvon
+##
+𢃭	TCjog
+𥍷	TZHruc
+# 窗	TZHruc
+牎	TZHruc
+
+###𤴡𤴛疐
+𤴝	TRxisk	0%
+###爿
+##莊𤖄	TZxac
+𤖈	TZxac
+𦻊	TZxac
+𠗎	TZxac
+𤕶	TZxac
+䊋	TZxaq
+粧	TZxac
+###將
+將	TSHjac
+摪	TSjac
+𪙝	TSHjac
+###臧
+##藏
+臟	DZaq
+###𢊁
+# 𢊁	DRxeh
+𨖮	DSrok	#𢋱
+𢋱	DSruk
+𨷓	DZeez
+
+###㚇𡕰
+𧜢	TCjoc	#衳
+𩱛	TSeug
+糭	TSeuq
+###乍
+酢	TSHos
+𥹁	TSavk	#𥽦
+###靑
+錆	TSHjac
+###倉
+艙	TSHac
+嗆	TSHjaq
+傖	TSHac
+嗆	TSHjac
+鶬	TSHjac
+滄	TZHxaq
+戧	TSHjaq
+謒	TSHjac
+篬	TSHjac
+###井
+# 丼	TSjeg 
+###星
+煋	Seec
+###赤
+# 哧	TCHjek
+# 哧	SCjek
+###昔 
+𤰻	Sjak	0%
+𦠪	Sjak
+㫺	Sjak
+𣊦	Sjak	0%
+䎰	DZak
+###曾
+# 曽	TSəc
+###共
+垬	HGeuc
+閧	HGeuq
+# 閧	HGruq
+##
+鍙	Heuk
+###公
+##松
+淞	SZjoc
+忪	Seuc
+惺忪	Seec Seuc
+##翁
+嗡	HQeuc
+嗡	HQeug
+鶲	HQeuc
+###工
+槓	Kruq
+缸	Kac
+##空
+焢	Heuc
+##巩
+𨋑	Kiog
+𩌥	Hruk
+###宮
+𠹒	HGeuq
+###
+# 衋	Hiək
+###𡴘幸
+𧨫	Hraq	0%	#䛭
+###或
+馘	Kvək
+蟈	Kvək
+䰥	HGvək
+𦑍	Hviək
+##國
+膕	Kvək
+筻	Kraq
+###𦤼
+𦤼	HQeuk
+###𧮫
+郄	KHxak
+𤭏	Gxak
+# 𥈜	Hiək
+# 𧼳	TRHrak
+# 𢤋	Hiək
+###兒
+䦧	Heek
+###鬲
+𢡤	Krek
+塥	Krek
+𩱝	KHrek
+# 𥬰	TZHrek
+###曲
+麯	KHiuk	#麴
+蛐	KHiok
+髷	KHiok	#曲
+###局
+焗	Giok
+𩭊	KHiok
+###畺彊
+彊	Kiaq
+繦	Kiag
+糨	Giaq
+###亟
+# 亟	Kiək
+# 𧩦	Kiək
+# 殛	Kiək
+# 㥛	Kiək
+# 極	Giək
+###敬
+㯳	Kxag
+###灮光
+珖	Kvac
+咣	Kvac
+###蒦
+蠼	Kuak
+濩	HQwak
+䪝	HQwak
+㠛	HQwak
+彠	HQwak
+擭	HQwak
+# 豿	Hruk
+###幵开
+# 荆	Kxac
+###戟𢧢
+𦺩	Kxak
+###戒
+# 悈	Kiək
+###
+###支
+##屐
+𨍿	Gxak
+###𡉉 㱿𣪊
+##
+𡠆	KHəus
+𣫔	Teuk
+𧞹	Teuk
+##
+瀫	HGeuk	#𣹬
+濲	Keuk
+# 𣫈	HGeuk
+# 𣪥	Heuk
+###凶
+胸	Hioc
+###王
+##㞷
+𢽃	HQuag
+##匡哐	KHuac
+#
+𠉫	Kuaq
+###夅
+𨋪	Hruc
+###疑
+# 嶷	NGiək
+# 觺	NGiək
+# 薿	NGiək
+###亥
+咳	KHək
+###皇
+崲	HGvac
+鰉	HZvac
+###灮黃
+𨽏	KQvak
+撗	HGvac
+###廣
+擴	KHvak
+###休
+𥊕	THeek
+# 懝	NGiək
+###冂冋
+浻	HQfag
+# 茍	Kiək
+###玉
+鈺	NGiok
+# 䀌	Hiək
+###克
+勊	KHək
+娔	KHək
+###敫
+敫	Keek
+###色
+# 赩	Hiək
+###各
+㪾	Krak
+詻	Ljak
+餎	Lak
+##
+畧	Ljak
+㨼	Ljak
+撂	Ljak
+###
+##路
+##閣
+擱	Kak
+# 㘈	NGiək
+喲	HQiak
+煛	Kveg
+###巠
+頸	Keec
+弳	Keeq
+涇	Gjeg
+# 䩯	KHiək
+###畫畵
+𤰱	HGfek
+𡇍	HGfek
+画	HGfek	0%
+𤲿	HGfek	0%
+𨽶	HGfek	0%
+𤲯	HGfek	0%
+𦘚	HGfek	0%
+𦘕	HGfek	0%
+𠚇	HGfek	0%
+###畜
+畜	TRHxuk
+搐	TRHxuk
+###𡙳
+𥲩	Kiuk
+𥷤	Kiuk
+𦶗	Kiuk
+𨙦	TRHxoc
+
+###戹
+# 軛	HQrek
+# 扼	HQrek
+# 呃	HQrek
+砈	HQrek
+苊	HQrek
+# 阨	HQrek
+###肯肎
+啃	KHəd
+###𢛢亙
+姮	HGəc
+𫰟	HGəc
+##恆
+𣈶	Kəq
+峘	HGəc
+𡷆	HGəc
+𡷗	HGəc
+𡵎	HGəc
+𡴿	HGəc
+###丸
+###卬
+###冰
+###永
+𱍐	JXwag	#永
+###毄
+撃	KQeek	0%
+𤪢	Leek
+###殸聲
+𩍤	Hruk
+𩏜	Hruk	0%
+𨣗	HGeuk	0%
+𧐡	HGeuk	0%
+𨢤	HGeuk	0%
+𪡹	Heuk	0%
+𧹷	Heuk	0%
+𪍱	KQHeuk	0%
+𣫘	KQHeuk	0%
+鏧	Leuc
+䥢	Leuc
+###屰
+# 𡍩	TRHrak
+# 𨂫	THak
+##朔
+搠	SSruk
+###角
+甪	Leuk	0%	#角
+###歷
+壢	Leek
+嚦	Leek
+###龍
+壟	Ljog
+矓	Leuc
+###
+樑	Ljac
+墚	Ljac
+𥹭	Ljac
+###兩
+両	Ljag	0%
+裲	Ljag
+輛	Ljag
+䓣	Ljag
+掚	Ljag
+輛	Ljaq
+###令
+𩆖	Leec
+𪚙	Lec	#龗
+###𠱠
+##靈𤫊
+#
+𡀓	Leec
+𩆜	Leec
+䨩	Leec
+𩃏	Leec
+霊	Leec
+𩆮	Leec
+
+
+#
+欞	Leec
+𩄀	Leec
+𢩙	Leec
+###力
+𩾜	Ljək
+叻	Lək
+##
+泐	Ljək
+##勒
+嘞	Lək
+鰳	Lək
+###夌
+𩜁	Hiəq
+倰	Ləq
+###樂
+藥	Ljak	1%
+###京
+晾	Ljaq
+###良
+鎯	Lac
+螂	Lac
+啷	Lac
+###
+𩝢	Lah
+###亮
+喨	Ljaq
+
+##弄
+挵	Leuq
+###鹿
+熝	HQav
+熝	Lak
+##麃
+䮽	Leuk
+###
+𬙙	Ləc	0%
+楞	Ləc	0%
+⿰木⿱四方	Ləc	0%	#棱
+塄	Ləc	0%
+愣	Ləq
+###羊
+䍧	TSac
+蛘	Jjag
+痒	Jjaq
+##
+𧫛	Jjaq
+𠍵	Jjaq
+𡡂	Jjaq
+###緣
+㑰	Jjaq
+
+###商
+墒	SCjac
+###攸-k
+𨁀	SCjuk
+倐	SCjuk
+###-v
+##
+䱔	Jju
+##修
+䗛	Sju
+###育
+唷	Jjuk
+###容
+榕	Jjoc
+熔	Jjoc
+###谷
+峪	Jjok
+###用
+# 佣	Jjoc
+###甬
+##通
+嗵	THeuc
+##勇
+湧	Jjog
+踴	Jjog
+###向
+晌	SCjag
+
+###堂瑩𤇾
+瀠	Jyec
+瀯	Jyec
+瀠	HQveg
+瑩	HQveq
+𢣙	HQveq
+鎣	HQveq
+瀅	HQveq
+
+###𡴘
+悻	HGeeg
+悻	HGreg
+###邕雍
+臃	HQioc
+臃	HQiog
+㙲	HQioq
+###㠩
+##荒
+# 謊	XSuag	0%
+謊	Hvag	0%
+###
+罡	Kac
+堽	Kac
+
+
+###
+###
+###
+###
+###
+###
+###
+###
+###
+
+###弱
+氼	Neevk
+𡲳	Neevk
+𣲙	Neevk
+####
+####-R -j -n
+###夋
+鋑	TSHvan
+###雋隽
+㻽	SZyon	#璿
+懏	TSyuz
+#
+䐪	TSyoj	0%
+槜	TSyur	0%
+䐪	TSyod	0%
+㑺	TSyuz	0%
+鎸	TSyon	0%
+㷪	TSyod	0%
+㝦	TSyuz	0%
+###西
+拪	TSHjen	1%
+𢬣	TSHjen	1%
+𢫥	TSHjen	1%
+𢍱	TSHjen	1%
+𣳳	Səl
+舾	See
+###夒-j
+𢅼	Naz
+###夒-n
+𢅼	Nvoj
+###希-j
+𢓬	Hrej
+浠	Hiəj
+###希-n
+㾙	Hjid
+脪	Hjid
+###
+𪖪	Hxeh
 ###爾尒
 𦇲	SCje
 㣆	Mjej
@@ -1670,6 +5076,23 @@ u	eu
 𨨮	Mjej
 𩿥	Mjej
 𩿥	SCjej
+𡝠	Meij	0%
+###爾尒-n
+𤣔	Sjed
+#
+尓	NCjəl	0%	#尒
+𡭗	NCjəl	0%
+#
+# 尔	NCjəl	0%	#尒
+𦬼	Nəət	0%
+𥬞	Nəət	0%
+袮	Nəil	0%
+祢	Nəil	0%
+𩬘	Nəil	0%
+𪱾	Nəil	0%
+你	NRxəh	0%
+弥	Mjəj	0%
+
 #####字書
 ####部
 丷	Pret
@@ -1704,10 +5127,6 @@ u	eu
 # ⺼	NCjuk
 ####今
 ###
-杧	Mac
-桉	HQan
-砼	DZyon	#㒰 concrete
-砼	Deuc
 ###物化
 熵	SCjac
 焓	HGəm
@@ -1724,9 +5143,9 @@ u	eu
 羧	Sjag	#carboxyl
 # 酮	Deuc
 酚	PHuən
-醚	Mei
+醚	Meij
 酯	KCjih
-醛	DZyen
+醛	DZyon
 苯	Been	#benzene
 ⌬	Been
 # 蒽	HQən
@@ -1734,41 +5153,43 @@ u	eu
 # 薁	HQiuk
 萜	THeep
 # 茚	HQjiz
+酞	THar
 酐	Kan
-𨫬	Kan
+# 𨫬	Kan
 酰	Sən	#acyl
 # 磺	HGvac	#sulphur
 苄	Bxez
+䏟	Beit
+脒	Meel
 # 肟	HQvos
 肼	TSjeg
 腈	TSjec
-胺	HQaz
-膦	Ljiz
+氰	TSHeec	#靑 cyanogen
+氰	DZjec
 胂	SCjiz
 䶽	TSeuc	#肼酮
 腙	TSeuc
 脲	Neeyk
 胍	Kfa
 胍	Kaa
-氰	TSHeec	#靑 cyanogen
-氰	DZjec
-碸	Puuc	#sulfone
+胺	HQaz
+膦	Ljiz
 氨	HQan
-䏟	Beit
+碸	Puuc	#sulfone
 # 䏲	THeij
 # 鎓	HQeuc	# onium
 鏻	Ljən
 銨	HQad
 鋞	KHjec
 鋶	Ljuh
-⿰金西	səj
-𲇊	səj
+⿰金西	Səj
+𲇊	Səj
 錆	TSHeec
 鉘	FPuət
 # 錄	Ljok
 𲇙	Hius
 ⿰金臭	Hius
-錪	Teed
+# 錪	Teed
 錪	Teid
 ###
 肽	THar
@@ -1777,7 +5198,7 @@ u	eu
 甙	Dəs	#代𤮼
 # 嘌	FPHjev
 # 呤	Leec
-咪	Meex
+咪	Meij
 噻	Səj
 # 吡	Bjit
 脎	SSret
@@ -1840,7 +5261,7 @@ u	eu
 # 鐇	Buam
 釩	Buam
 # 鉻	Krak
-錳	Mrag
+# 錳	Mrag
 # 鐵	THeik
 鈷	Koh
 鎳	NGeet
@@ -1856,7 +5277,7 @@ u	eu
 鍶	Sjə
 釔	HQxit	#Y yttrium -t𠃉
 鋯	Kay
-# 鈮	NRxi
+鈮	Neij	#Nb niobium
 鉬	Muuk
 鍀	Tək
 釕	Leew
@@ -1868,7 +5289,7 @@ u	eu
 # 錫	Seek
 銻	THeij
 碲	Tees
-碘	Teed
+碘	Təd
 氙	Sjen
 氥	Sjen
 氠	SCjin
@@ -1935,15 +5356,16 @@ u	eu
 錀	Lyun	#Rg 1101 roentgenium
 鎶	Ka	#Cn 112 copernicium
 鉨	Neih	#Nh 113 Nihonium 鉩鿭	U+9fed 鈮Nb 41niobium
-# 鉩	Neil
+鉩	Neil
 鈇	Puo	#Fl114 Flerovium
-鏌	Mos	#Mc 115 Moscovium
+# 鏌	Mak	#Mc 115 Moscovium
 鉝	Ljəp	#Lv 116 Livermorium
 鿬	Dein	#Ts 117Teennesine
 鿫	HQoy	#Og118Oganesson
 ##
 氦	Həl	#He helium
-錪	Teid
+# 碘	Teid
+# 錪	Teid
 ###
 腺	Sjez
 #####符
@@ -2021,40 +5443,19 @@ u	eu
 ∫	TSjek
 ✓	Kəux
 ####字部
-###手
-𢯾	May
-㩉	Hxip
-###足
-跴	
-𧿼	Kfax
-踻	Kfah
-𨀩	Kfah
-###目
-###自
-###口
-###耳
-###心
-###囟
-###𩠐首
-###頁
-𩓧	NGxe
-###髟
-䰌	TSHjoc
-###肉
-䏲	THeij
-###骨
-###革
-###毛
-###皮
-###羽
-䎐	TRHraw
-###木
-棵	KHvah
-榿	KHxe
-榿	Kiəj
-棵	KHva
-檤	Daw
-𣜦	Daw
+###一
+###丄
+###示
+𥘯	Mxərt	#魅
+祙	Mxərt
+###三
+###王
+###玉
+###玨
+###气
+###士
+###丨
+###屮
 ###艸
 芉	Kan
 芉	Kad
@@ -2064,57 +5465,64 @@ u	eu
 茚	HQjiz
 蕹	HQeuq
 蕹	HQioc
-###竹
-䇣	Neet
-###丵
-###酉
-###弓
-弫	Tjid
-###鼠
-𪖋	DZet
-###魚
-鰮	HQvon
-鮟	HQan
-鱇	KHac
-魨	Dvon
-###鳥
-窵	Tew
-
-###人
-仫	Mos
-傣	Təj
-###人行
-佻	Tew
-伄	Tew
-###人爲
-佔	TRHxem
-佔	TRHjef
-优	JXviəvx
-倛	KHiə
-###人格
-傢	SZjag
-倆	Ljag
-###女
-㚥	JXuo	#?
-𡣯	TSjet
-###士
-###心
-恓		TSHeij
-𢤶	KHruk	1%
-###天
-###尸
-###立
-𥪁	PHeec
-###女
-###彳
-###辵
+###蓐
+###茻
+######
+###小
+###八
+###釆
+###半
+###牛
+###犛
+###告
+###口
+嗺	TSyuh
+嘴	TSyeh	#觜
+𠲿	TSyeh
+𠾋	TSyeh
+𠿘	TSyeh	#㭰觜
+𡁫	TSyeh	
+###凵
+###吅
+###哭
 ###走
 趡	DZjey
+###止
+###癶
+###步
+###此
+###正
+###是
+###辵
+###彳
 ###廴
-###尢
-###申
-𣌾	Jjiz
-###辛
+𢌨	TSHyaz
+###㢟
+###行
+###齒
+###牙
+###足
+跴	TSHəj
+踩	TSHəj
+𧿼	Kfax
+踻	Kfah
+𨀩	Kfah
+###疋
+###品
+###龠
+###冊
+######
+###㗊
+###舌
+###干
+###𧮫
+###只
+###㕯
+###句
+###丩
+###古
+###十
+###卅𠦄
 ###言
 誫	TCjiz
 誫	TCjeq
@@ -2123,6 +5531,43 @@ u	eu
 詉	HZrav
 𧮠	NCjəz
 䛼	XSwal
+###誩
+###音
+韵	JXuuz
+###䇂
+###丵
+###菐
+###廾𠬞
+###𠬜
+###共𠔏
+###異
+###舁
+###𦥑
+###䢅
+###爨
+###革
+###鬲
+###䰜
+###爪
+###丮
+###鬥
+###又
+###𠂇
+###史㕜
+###支
+###𦘒
+###聿
+###畫畵
+###隶
+###臤
+###臣
+###殳
+###殺
+###𠘧dcyu	几
+###寸
+###皮
+###㼱
+###攴
 ###攴
 敥	Jjef
 敼	Hiəh
@@ -2156,11 +5601,188 @@ u	eu
 ##攵
 㪄	Buət
 𢻾	Sad	0%
+###教
+###卜
+###用
+###爻
+###㸚
+######
+###𡕥
+𡕥	Hviək
+###目
+###䀠
+###眉
+###盾
+###自
+###四
+###鼻
+###白百
+###皕
+###習
+###羽
+䎐	TRHraw
+###隹
+###奞
+###萑
+###𦫳𠁥
+###𥄕
+###羊
+###羴
+###瞿
+###雔
+###雥
+###鳥
+𪀩	KHiə	#𡖾
+𪀩	Tof	#鴆
+###烏
+###𠦒𠌶
+###冓
+###幺
+###𢆶
+###叀
+###玄
+###予
+###放
+###𠬪
+###𣦼
+###歺
+###死
+###冎
+###骨
+###肉
+䏲	THeij
+###筋
+###刀
+# 㔍	TZHxet
+𣀔	TZHwaz
+㔍	TZHwaz	#芻萬切
+𠠀	TZHred
+㔍	TZHwor	#初芮切
+𠟬	TZHwor
+㔍	TZHfat
+𠛨	TZHxit	0%
+𠞩	TZHxit	0%
+㔑	TZHxit	0%
+###刃
+###㓞
+###丯
+###耒
+###角
+######
+###竹
+䇣	Neet
+####箕
+###丌
+###左
+###工
+###㠭
+###巫
+###甘
+###曰
+###乃
+###丂
+###可
+###兮
+###号
+###亏
+###旨
+###喜
+###壴
+###鼓
+###豈
+###豆
+###豊
+###豐
+###䖒
+###虍
+###虎
+###虤
+###皿
+###凵
+###去
+###血
+###丶
+###丹
+###靑
+###丼
+###皀
+###鬯
+###食
+###亼
+###會
+###倉
+###入
+###缶
+###矢
+###高
+###冂冋
+###𩫖
+###京
+###亯
+###㫗𣆪
+㫗	HGəuh
+###畗
+###㐭
+###嗇
+###來
+###麥
+###夊
+###舛
+###䑞
+###韋
+###弟
+###夂
+###久
+###桀
+######
+###木
+棵	KHvah
+榿	KHxe
+榿	Kiəj
+棵	KHva
+檤	Deuw
+𣜦	Deuw
+杧	Mac
+桉	HQan
+###東
+###林
+###才
+###叒
+###之
+###帀
+###出
+###𣎵 
+###生
+###乇
+###𠂹
+###𠌶
+###華
+###𥝌
+###稽
+###巢
+###桼
+###束
+###㯻
+###囗
+囝	Kxed
+囝	Nom
+###員
+###貝
+###邑
+隞	NGav
+###𨛜
+######
 ###日
-###月部
+###旦
+###倝
+###㫃
+###冥
+###晶
+###月
+##
 𣍦	Huaq	#?
 # 𣍥	Kyit	#?
-𣎕	Kfon	#?𥄳 𣎕𩖿 𩹌𩖿
+𣎕	Kfen	#?𥄳 𣎕𩖿 𩹌𩖿
 # 𣎓	SZyen
 # 𦛔	SZyen
 𦡖	Hvor	#?
@@ -2188,13 +5810,13 @@ u	eu
 㬸	THev	#祭名 肉?
 𣎜	Jjəq
 𣎤	Bvan	#鞶
-𣍧	PHəl	#月 朏
+# 𣍧	PHəl	#月 朏
 𣍺	PHəl
 # 𣍠	Giə	#期
 # 𣍣	Giə	#期
 𣍢	Muaq	#朢
 𦙗	NGoh	#㬳
-朐	Guo	#車軛月 从肉胊
+# 朐	Guo	#車軛月 从肉胊
 朎	Leec
 # 㬵	Krav		#从月 交
 㬴	Heug	#㬴㬴
@@ -2217,11 +5839,220 @@ u	eu
 𣎣	Kew	#皎
 𣎩	HQjep	#月動
 𣎮	Hxe	#曦
-###晶品
-###雨
-霐	HQfec
-𩆖	Leec
-###風
+###有
+###朙明
+###囧
+###夕
+###多
+###毌
+###𢎘
+###𣐺
+###𠧪
+###齊
+###朿
+###片
+###鼎
+𪔊	SZyer	#䵻?
+𪔆	Kan
+###克
+###彔
+###禾
+###秝
+###黍
+###香
+###米
+###毇
+###臼
+###凶
+###朩
+###𣏟
+###麻
+###尗
+###耑
+###韭
+###瓜
+###瓠
+###宀
+###宮
+###呂
+###穴
+###㝱
+###疒
+瘝	Kfen
+𤸄	Kfen
+###爿
+𤖤	Bxəsk	0%
+###冖
+###𠔼
+###冃
+###㒳
+###网
+###襾
+###巾
+###巿
+###帛
+###白
+###㡀
+###黹
+######
+###人
+##人族
+仫	Mos
+傣	Təj
+##人行
+佻	Tew
+伄	Tew
+##人爲
+佔	TRxem
+佔	TRjef
+优	JXviəux
+倛	KHiə
+##人格
+傢	SZjag
+倆	Ljag
+##尸𡰣
+##天
+##女
+##匕
+###𠤎
+###匕
+###从
+###并
+###比
+###北
+###丘
+###㐺
+###𡈼
+###重
+###臥
+###身
+###㐆
+###衣
+褂	Kfes
+###裘
+###老
+###毛
+###毳
+###尸
+###尺
+###尾
+###履
+###舟
+###方
+###儿
+###兄
+###兂
+###皃
+###𠑹
+###先
+###禿
+###見
+###覞
+###欠
+###㱃
+###㳄
+###旡
+######
+###頁
+𩓧	NGxe
+𩓗	KHyeh	#頍
+###𦣻
+###面
+###丏
+###首
+###𥄉
+###須
+###彡
+###彣
+###文
+𣁗	THaz
+###髟
+䰌	TSHjoc
+###后
+###司
+###卮
+###卩
+###印
+###色
+###𠨍
+###辟
+###勹
+###包
+###茍
+###鬼
+# 鬽	Mxərt
+𩲢	Gxes
+䰨	Mxərt	#魅
+𩲀	Mxərt
+𩲆	Mxərt
+𩲐	Mxərt
+𩲑	Mxərt
+𩲝	Mxərt
+𩲿	Mxərt
+𩳟	Mxərt
+𩳪	Mxərt
+𩴎	Mxərt
+𩲆	Mxərt
+𩲉	Mxərt
+䰪	Mxərt
+𩴈	Mxərt
+𩴈	Mxərt
+𩱿	Mxərt
+𩲈	Mxərt
+
+###甶
+𠃁	Mxərt	#魅
+𠃁	Mxərt
+𢑙	Mxərt
+𣼙	Mxərt
+𤲄	Mxərt
+𧱋	Mxərt
+𣷛	Mxərt
+###厶
+###嵬
+###山
+嵓	NGQrəm	0%
+###屾
+###屵
+###广
+𤯍	HGam
+𤯍	Dom
+𤯍	Kop
+###厂
+###丸
+###危
+###石
+磺	HGvac
+砡	NGiok
+砼	DZyon	#㒰 concrete
+砼	Deuc
+###長
+###勿
+###冄
+###而
+###豕
+###㣇
+###彑
+###豚
+###豸
+###𤉡
+###易
+###象
+######
+###馬
+###𢊁
+###鹿
+###麤
+###㲋
+###兔
+###萈
+###犬
+###㹜
+###鼠
+𪖋	DZet
+鬛	Ljep
+###能
+###熊
 ###火
 𤆽	DZwed
 灷	DZwed
@@ -2229,25 +6060,166 @@ u	eu
 籽	TSjəh
 烤	KHaw
 熗	TSHjaq
-###𪐗
-黢	TSHyut
-
-###仌
+煊	XSuan	#煖
+###炎
+炏	XXam
+###囪
+###焱
+###炙
+###赤
+###大
+###亦𡗕
+###夨
+###夭
+###交
+###尣尢
+尷	krem	0%
+𡯽	krem	0%
+𡯰	krer	0%
+###壺
+###壹
+###㚔
+###奢
+###亢
+###夲
+###夰
+###亣
+###夫
+###立
+𥪁	PHeec
+###竝
+###囟
+###思
+###心
+##
+恓	TSHeij
+𢤶	KHruk	1%
+忑	THək
+忐	THab
+##
+###惢
+######
 ###水
-𣸐	TSat	#子末切
 沯	TSat
 㶔	Brer
-###巛
+###沝
+𣸐	TSat	#子末切
+###瀕
+###𡿨
+###巜
+###川巛
+圳	DCju
 ###泉
-###云
+###灥
+###永
+###𠂢
+###谷
+###仌
+###雨
+霐	HQfec
+###雲云
 䨺	Dvol
 𩇔	Noc
-###山
-嵓	NGQrəm	0%
-###厂
-𤯍	HGam
-𤯍	Dom
-𤯍	Kop
+###魚𤉯
+鯰	Neem
+鰮	HQvon
+鮟	HQan
+鱇	KHac
+魨	Dvon
+魷	JXvieəu
+鱖	Guot
+䱠	DSred
+𩹆	DSred
+###𩺰
+###燕㷼
+###龍
+###飛
+###非
+###卂
+######
+###𠃉
+###不
+###至
+###西㢴
+###鹵
+###鹽
+###戶
+###門
+𨶝	DCjəvk	0%
+###耳
+###𦣞
+###手
+𢯾	May
+㩉	Hxip
+㨊	Jyul
+𢸦	Jyul
+㨊	Jyol
+撱	Jyol
+扯	TCHjah	#撦
+拿	NRrax
+###𠦬
+###女
+㚥	JXuo	#?
+𡣯	TSjet
+她	TSjah
+媎	TSjah
+姐	TSjah
+###毋
+###民
+###丿乀
+###𠂆
+###乁
+###氏
+###氐
+###戈
+###戉
+###我
+###亅
+###珡
+###𠃊
+###亡亾
+###匸
+###匚
+###曲
+###甾
+###瓦
+###弓
+弫	Tjid
+###弜
+###弦
+###系
+###糸
+絤	Sjez	#線綫
+######
+###素𦃃
+###絲
+##緊
+𦃢	KHwud
+###率
+率	Lyur
+###虫
+###䖵
+##虫
+蝽	TCHyun
+###蟲
+###風
+###它
+###龜
+###黽
+###卵
+###二
+###土
+塭	HQvon
+###垚
+###堇
+###里
+###田
+###畕
+###黃
+###男
+###力
+###劦 
+######
 ###金
 鉘	Puət
 鎓	HQeuc
@@ -2256,1959 +6228,176 @@ u	eu
 䤣	Lyot	#鋝
 鉚	Mraw
 𨦰	Mraw
-###石
-磺	HGvac
-砡	NGiok
-###土
-塭	HQvon
-###玉
-###簪
+鈤	NCjit
+###幵
+###勺
+###几
+###且
+###斤
+###斗
+###矛
+###車
+###𠂤
+###𨸏
+###𨺅
+###厽
+###四亖
+###宁
+###叕
+###亞
+###五
+###六
+###七
+###九
+###禸
+###嘼
+###甲
+###乙
+###丙
+###丁
+###戊
+###己
+###巴
+###庚
+###辛
+###辡
+###壬
+###癸
+###子
+###了
+###孨
+###𠫓
+###丑
+###寅
+###卯戼
+###辰
+###巳
+###午
+###未
+###申
+𣌾	Jjiz
+###酉
+###酋
+###戌
+###亥
+####
+###由
 
-###爿
-𤖤	Bxəsk	0%
-瘝	Kfan
-𤸄	Kfan
-###疒
-瘟	HQvon
-###門
-𨶝	DCjəvk	0%
-###邑
-隞	NGav
-###衣
-褂	Kfes
-###絲
-絤	Sjez	#線線
 ###
 䊆彈	Giuh Dan
 #####
-###zyenpheng
-不	Pvət	0%
-𠬨	TSeet
-𢻮	TSeet
+
+#####
+𣍴	DZyon	#月 夗?
+###
+###
+
+# 𩓧	Syon	#?
+踅	SZyot
+#####无
+𣍥	Kyit	#姓 𦙮
+禤	Hyen
+𠦎	THav
+#####堪
+# 𩖶	Hwut	0%	#A?B
+# 𥄎	Hwet	0%
+# 𥄵	Hwut	0%
+#####zyenpheng
+拼	PHeec
+# 𥸭	Kwoz	#𢍊
+# 頍	Kwis
+# 𨢬	TCyot
+# 𠀐	Gwis	0%	#?
+# 汨	JXwi	0%t	#?
+# 窵	Jyut	0%	#鴪
+# 圳	TCyuz
+# 齣	TCHyut
+# 𦃢	KHwud
+# 𠩰	Tvoj
+# 𧨍	Heeh	#𧧹
+夘	TSeeh
+凷	KHvar
+凷	KHfer
+# 鈮	NRxi
+𩬳	TRfej
+#####
+####合字
+嫑	Pjey
+甭	Bəc
+冇	Maw
+覅	Mjevs
+
+朆	Məc
+覅	Mjey
+####
+夯	Hrug
+夯	Hac
+夼	KHvag
+䦐	THeeg
+
+燚	Jjek
 闆	PHred
-鈮	NRxi
-罡	Kac
-堽	Kac
-𣳦	NRrov
-硇	NRrov
-𥗰	NRrov
-𥗸	NRrov
+###
+𣵹	DRxeg
+䢮	Deek
+擤	Sjeg
+
+𥄃	Mxit
+𦶁	Buən
+覵	Pxed
+𠠵	PHuaz
+夯	Bvod
+
+##
+##
+𥮓	DZeen	#𥮒
+𠎝	KHxen
+
+尜	Krat
+𠵭	HQxet
+牮	TSeez	#?
 抭	JXuət
-癌	NGrəm	#嵒
-猫	Mxev
-垬	HGeuc
-𣪱	NGQəj	0%
-撃	KQeek	0%
+
+丨	Guat
+氽	THvod
+
+爨	TSHvan
+汆	TSHvan
+𡘐	Heet
+𡙄	Heet
+𥃎	Leet
+
+𥥿	SSxim
+
+氹	Dab
+凼	Dab
+囡	Nom
+𨖷	DSrep
+䍹	Hren	#羴
+鑫	Hxim
+
+𣃧	HQiab	#𣃧翳
+𣃧翳	HQiab HQeir
+
+曌	TCjey
+孬	NRrav
+
+皂	DZaw
 𣖄	TSHjev	#?
-亣	THat	0%	#謬
+𠹑	NGey
+滘	Kray
+
+掱	Bra
+
+甦	So
+耍	SSfah
+
+庍	Pres
+𢇩	Pres
+𪌜	THəuh	#䴺𪌜
+###了
 𠙶	HQəuh
-票	FBjey
-皷	KQoh
-臌	KQoh
-彊	Kiaq
-㮰	Beet
-叼	Tev
-# 㥛	Kiək
-脁	THev
-慪	HQəuh
-熳	Mvaz
-闞	Hreb
-蓰	SSxeh
-䊋	TZxaq
-# 丼	TSjeg
-𩯳	TSad
-譾	TSjed
-䍧	TSac
-裲	Ljag
-𠹒	HGeuq
-# 匸	Heeh
-𧫛	Jjaq
-惦	Teef
-𡂐	DZat
-𧱅	SZjih
-# 枾	DSxəh
-𣫔	Teuk
-躽	HQiaz
-笸	PHvah
-𪓟	Kəu
-# 蘖	NGxet
-讃	TSaz
-𡚁	Bjer
-𣀧	Sad
-濩	HQwak
-灙	Tag
-𥰥	Heeh
-𤰞	Pje
-擃	NRrug
-踈	SSxos
-䀟	Buər
-涀	Heeh
-嚦	Leek
-呲	TSje
-胐	PHvor	#肉
-# 聯	Ljen
-𢺡	DRruk
-㥮	TZHraw
-咬	NGraw
-㾭	TZray
-# 匘	Naw
-𢃭	Kvon
-酢	TSHos
-嚓	TZHret
-𨫖	THaq
-𥉐	Heeh
-秘	Pxis
-傈	Ljit
-賬	TRxaq
-蔸	Təu
-𦑣	TRHwap
-斟	TCHjip
-# 𡍩	TRHrak
-坍	THam
-壄	Jjah
-唄	Par
-琺	Puap
-萵	HQva
-䑂	Jəj
-搠	SSruk
-橛	Kuat
-𣅳	TZxək
-峇	KHop
-艙	TSHac
-臉	Kxeb
-坋	Buəz
-# 𦫳	Kfej
 # 𦫳	Kfeh
 # 𦫳	Kfah
-𠉫	Kuaq
-# 塡	TRxin
-嚕	Lo
-㩜	Lam
-䎎	NRwap
-鏰	Pəq
-螅	Sjək
-汩	Kvot
-邲	Pxis
-𧇣	DZos
-㱳	Mrak
-𣻎	KHəus
-𦹾	May
-桿	Kad
-𠒜	NGuad
-# 嬔	PHuaz
-𣞈	Bjev
-綑	KHvod
-榀	PHxib
-# 嶷	NGiək
-𢑦	DCjev
-鮃	Bxac
-党	Tag
-齠	Dev
-𣩅	KHaw
-㥷	HQees
-# 查	TZra
-鑿	TSHay
-呲	DZje
-𠹑	NGey
-恘	KHiu
-弳	Keeq
-𢽻	Kraw
-鋑	TSHvan
-𢘋	THək
-𪙻	TZHret
-謑	Heeh
-攆	Ljed
-繶	HQiəj
-噶	Kat
-# 衋	Hiək
-㪾	Krak
-𡂐	DZaz
-𩽁	Pxev
-噔	Təc
-呃	HQrer
-# 殛	Kiək
-𡝙	DRra
-莰	KHob
-掙	TZreq
-𧞣	HQjeb
-撟	KHaw
-䛝	Nav
-梘	Keed
-錁	Kvah
-𢟡	Breh
-喇	Lat
-𡧮	HQev
-孥	Noh
-托	THak
-# 詽	THeen
-# 詽	Heen
-疍	Dad
-逺	JXuad
-咩	Mja
-# 𧩦	Kiək
-# 謊	XSuag	0%
-摪	TSjac
-飰	Buaz
-嗡	HQeuc
-# 姸	NGeen
-両	Ljag
-郄	KHxak
-𠩧	KHop
-𢺻	Buo
-𩒉	TCjiz
-𥎞	TSHvaz
-臟	DZaq
-恝	KHees
-拽	DCjer
-綁	Prug
-脦	THək
-靗	TRHxeq
-躉	Tvod
-𪚁	Ljen
-𣀩	Kfer
-嘀	Teek
-𨇨	Seet
-𧓉	DZji
-𩇯	Buəj
-㢯	Tvon
-# 荆	Kxac
-鱹	Kvaz
-咀	HQrat
-𩕰	Mjen
-苜	Mvat
-𪙉	TZHxe
-絏	Sjet
-濾	Ljos
-鷀	DZjə
-槓	Kruq
-𩾜	Ljək
-䛈	SCjis
-䲽	Tew
-𦙽	San
-頸	Keec
-肇	DRxew
-翺	NGav
-# 鍶	Sjə
-刴	Tvas
-𧾢	Kjit
-䇝	TSjem
-錨	Mav
-呸	PHxi
-礅	Tvon
-𨈘	SSraw
-𥉙	Gxi
-摋	SSxet
-蹦	Bəq
-皈	Kuəj
-鮁	Pvat
-椻	HQiaz
-𩜁	Hiəq
-𣐽	TZxid
-# 亟	Kiək
-𣤖	THees
-𦺩	Kxak
-眂	DCjis
-齔	TZHxid
-耥	THag
-饢	Nac
-# 揭	Kxet
-蚜	NGra
-舘	Kvaz
-𦺋	Saw
-餳	SZjec
-矓	Leuc
-𡕥	Hviək
-蚜	Hra
-趲	TSad
-躛	Hfer
-孿	SSfaz
-粦	Ljin
-𨦃	Tvah
-𢷐	TRxis
-瓚	DZaz
-冃	Maw
-懆	TSHay
-毘	Bji
-瓽	Tag
-碴	TZra
-筷	KHfar
-𦩗	DRxib
-𣇗	SCjin
-䙃	Dvas
-腮	Səj
-搙	Nəus
-𩏇	THvad
-樨	See
-𨳮	HQfec
-咂	TSop
-樑	Ljac
-犳	HQev
-獁	Mrah
-峕	DCjə
-𣧺	SSran
-覵	Pxed
-嶄	TZreb
-鴕	Da
-嬡	HQər
-𨪌	Gxi
-檑	Lvoj
-埠	Bos
-壩	Pras
-䒒	Tev
-𧮸	Hak
-蠼	Kuak
-擦	TZHret
-掱	Bra
-橯	Lay
-# 撇	PHeet
-𦥝	Jjew
-𠮟	TCHjit
-嶴	HQay
-𥪺	NGxe
-桗	Tva
-糯	Nvas
-𢅼	Nvoj
-奶	NRreh
-螼	KHxiz
-恝	Kret
-䥍	Bees
-輛	Ljaq
-𡒓	Hab
-檫	TZHret
-嫦	DCjac
-𢨀	DCjək
-䳉	Teuc
-脄	Mər
-齇	TZra
-笤	Dev
-𣀧	Saz
-摀	HQoh
-蕰	HQuəz
-騙	PHjez
-# 悈	Kiək
-喱	Ljə
-掮	Gxen
-碈	Mxin
-𧵏	SCjeb
-嫢	TSje
-墚	Ljac
-鍙	Heuk
-啪	PHrak
-𥛚	TRHrek
-螞	Mrah
-牾	NGo
-膛	Dac
-瑧	TSjin
-挅	Tvas
-𥆗	Kvaz
-趴	PHret
-𣮆	THvas
-# 嚻	Hxev
-䢮	Deek
-谷	Giak
-𥵊	KHfar
-𦒓	Gxev
-椪	PHreq
-嘣	Pəc
-熳	Mraz
-燙	THaq
-𥽽	TZHfed
-掰	Prej
-瞨	Beuk
-㙲	HQioq
-茤	Ta
-碚	Bəj
-釺	TSHeen
-𤅬	SZxim
-𥝤	Ljis
-𢓬	Hrej
-耮	Lay
-延	TCjec
-煋	Seec
-暋	Mxid
-# 𡕒	KHfah
-𡕒	KHfas
-呆	NGəj
-屜	THees
-薞	Svon
-# 朌	Pran
-𡠆	KHəus
-嗶	Pjit
-吊	Tey
-崙	Lvon
-烹	PHrac
-𣓌	Giuh
-㟪	HQuəj
-槩	Kər
-𪃯	Mxin
-𧂗	Dom
-戳	TRHruk
-𪀩	KHiə
-曶	Hvot
-𢕶	HQiu
-爸	Bah
-䎰	DZak
-痺	Pje
-𥮚	Saz
-𨲂	New
-氽	THvod
-𠠌	Ljep
-𦙼	TSHje
-𡋡	JXuan
-攢	TSad
-鰭	Gxi
-# 墍	Gxis
-蒘	NCjo
-膠	KHrav
-# 㘍	TSjit
-蟎	Mvad
-輛	Ljag
-囅	TRHxed
-粧	TZxac
-𥲃	KHəus
-𡎬	TSyah
-藮	DZjev
-疓	Nəj
-𩃢	SSrem
-錩	TCHjac
-# 蹰	DRwo
-鸃	NGxe
-𥋏	TCjək
-汽	KHiər
-朊	NGuad	#月
-嘀	TRrek
-㑰	Jjaq
-擀	Kad
-擭	HQwak
-鋣	Jja
-筘	KHəus
-𦤶	TRxis
-鑚	TSvaz
-庌	NGra
-𤣔	Sjed
-瞇	Mjeh
-眫	PHvaz
-嗵	THeuc
-糰	Dvan
-𧨫	Hraq
-胬	Noh
-擟	Mje
-𩾳	Bxip
-𪓙	DRxev
-砘	Dvoz
-腖	Teuq
-氆	Pag
-芁	Krav
-髹	Hiu
-俐	Ljis
-𥃏	Lees
-𦸜	TSəj
-𥎞	TSvad
-隝	Tew
-虱	SSxit
-𧣪	SSraw
-𠎝	KHxen
-# 𥈸	Huo
-甪	Leuk
-鼥	Bvat
-鋬	PHraz
-# 觺	NGiək
-𥟁	Jjuh
-𥃺	HQraw
-叻	Lək
-礁	TSjev
-囡	Nom
-豧	PHo
-樘	Dac
-㧄	KHuab
-侴	TRHxuvh
-䗛	Sju
-𨕐	Jjen
-𩝢	Lah
-蘗	Prek
-覃	SZxim
-鍁	Hian
-餜	Kvah
-䁾	Meet
-緔	DCjaq
-惝	TCHjag
-𦑍	Hviək
-酁	DSram
-僱	Kos
-賛	TSaz
-嗆	TSHjac
-沲	Da
-𪊉	HQfej
-鶬	TSHjac
-𩁣	Nan
-𡰟	Lvas
-𡊄	Puən
-𠟴	TZHxəh
-臁	Ljem
-厈	TCHjas
-躥	TSHvaz
-醮	TSjev
-稌	DCjo
-𥑁	Pxem
-踼	THag
-蹧	TSav
-吩	Puən
-稍	SSraw
-褪	THvor
-缫	Sav
-# 眞	TCjin
-吋	TSHvoz
-哎	NGar
-圞	Lvan
-𠦎	THav
-塌	THap
-灡	Lad
+# 𦫳	Kfej
 𡘐	Hees
-褳	Ljen
-瑉	Mxin
-炆	Muən
-# 𢊁	DRxeh
-# 厨	DRwo
-𣝁	PHres
-打	Trag
-濓	Leem
-忐	THab
-爺	Jja
-摁	HQəz
-渫	Deep
-𡷝	NRwap
-啤	Bje
-蜈	Keet
-𢽱	HQiap
-跺	Tvas
-𩾳	Kxip
-鞍	HQan
-咣	Kvac
-𩕧	Svoz
-奩	Ljem
-𡜉	NCjeb
-眗	Guo
-毪	Miu
-碪	Jjim
-𡥆	Hay
-𩢏	TRxip
-筻	Kraq
-㯁	Bəj
-噠	Tat
-# 𢆷	HQev
-撂	Ljak
-𢕮	TRfes
-韜	THay
-砒	PHee
-搛	Keef
-𧖛	TRHxih
-鐾	Bees
-㩺	Bxih
-𦤼	HQeuk
-醓	THob
-醣	Dac
-嚐	DCjac
-蠕	NCyo
-𨹺	Biuh
-𣓕	HQəus
-錆	TSHjac
-幀	TRraq
-澫	Muaz
-耙	Bras
-𩾳	Gxep
-䲱	PHuag
-宎	HQev
-農	Nav
-𦠅	SZxim
-箢	HQuad
-𡎸	Kiəd
-份	Buəz
-隉	NGeet
-𨖮	DSruk
-挖	HQfet
-𤸌	HQxif
-癜	Teez
-𤭏	Gxak
-䐎	Dee
-㩺	PHji
-# 𥈜	Hiək
-𧃡	TSaw
-魷	JXiu
-鱖	Guat
-礄	Gxev
-鬁	Ljis
-稛	KHvod
-崑	Kvon
-坅	KHjib
-牾	NGos
-𨹃	Tvah
-㵎	Kraz
-# 窀	Dfen
-疔	Teec
-疔	Nrek
-淘	Dav
-錳	Mrag
-蚧	Krer
-𠬝	NRxed
-# 𧼳	TRHrak
-咖	KHra
-鱚	Hiəh
-裉	KHəz
-懦	Nvas
-癄	TSjey
-𥹭	Ljac
-虈	Hxev
-𤊽	Ljey
-𣵹	DRxeg
-撒	Sat
-# 曽	TSəc
-賺	DRref
-撾	TRfa
-# 𢤋	Hiək
-瑙	Naw
-嗦	Sa
-𠜂	SSran
-䮋	Ljer
-㣥	DRxəh
-倻	Jja
-𦐃	Nob
-韃	THat
-搧	SCjen
-鈽	Po
-燜	Mvoz
-忑	THək
-將	TSHjac
-頄	Kwi
-麫	Meez
-𠴺	HQre
-哼	Hrac
-楙	Mav
-賠	Bvoj
-鏍	Lva
-𨇈	TRxis
-䦧	Heek
-㥾	THək
-鏽	Sjus
-𥃎	Leet
-# 𧾢	DZeet
-𨇃	DZa
-籨	Ljem
-朏	PHvor
-毽	Kiaz
-鄼	DZvan
-# 倍	Bəj
-嗺	TSyo
-# 槪	Kər
-𥽒	Puəz
-丨	Guat
-嘜	Mrek
-# 朌	Buən
-# 𦿐	DZeet
-鎪	Səu
-吆	HQev
-䀍	Dof
-祂	THa
-褲	KHos
-𣴪	Pje
-䟎	TSaz
-瀟	Sev
-䐇	Mjid
-仯	TZHraw
-𡳋	TSaz
-𡩁	TSHjin
-蟅	TCjas
-䗰	Kvaz
-郍	Nas
-葜	KHret
-鏊	NGav
-𢡤	Krek
-塥	Krek
-渒	PHees
-鄼	TSaz
-𣲖	Ko
-𦱏	Muaf
-垌	THeug
-噝	Sjə
-痦	NGos
-𣅦	TZxək
-𡑜	Ljin
-髾	SSraw
-砍	KHob
-鶺	TSjek
-窩	HQva
-䜝	THvad
-牠	THa
-憹	Nav
-𦁇	Neef
-𠟯	TSjew
-䤇	Sjuh
-𨤐	Mje
-倰	Ləq
-㱜	TZret
-燚	Jjek
-𪚰	TSjev
-躃	Bjek
-𣵼	Kaz
-嘘	Hios
-薷	NCyo
-趔	Ljet
-𠃸	HQiəs
-茌	DSxə
-儻	Tag
-袌	Bay
-# 𥬰	TZHrek
-䟕	TZHras
-𥤗	Tag
-䪝	HQwak
-𢦭	Jjək
-𢅼	Naz
-潽	PHo
-疱	PHray
-㭑	Mar
-# 顚	THeez
-𥬯	KHaw
-憍	KHxev
-淌	THag
-蔲	Həus
-胖	Bvan
-觔	Kiən
-𢱈	Kras
-# 躲	Tvah
-𢅴	Məq
-尜	Krat
-䅲	Gxi
-髷	KHiok
-繦	Kiag
-# 咒	TCjus
-# 曁	Kiər
-𠍵	Jjaq
-鱔	DCjed
-攅	DZvaz
-鞟	KHvak
-囌	So
-臭	Hius
-呎	TCHjek
-㲲	Deep
-蘖	NGat
-䔠	SSraw
-菸	HQeen
-奲	Tah
-𢽱	HQxep
-𩋦	Dvad
-鼜	TSHay
-# 曁	Kiət
-嚆	Hrav
-襝	Ljem
-吢	TSHjif
-彞	Jji
-𪇆	Deuk
-𨬕	Ko
-𠑆	TRHwab
-埼	Gxe
-𦱛	Məc
-撳	KHxif
-𩄀	Leec
-訄	Nav
-鋮	DCjec
-𩗯	HQvoj
-汊	TZHras
-礞	Meuc
-撓	NRrav
-碇	Deeq
-瑪	Mrah
-摰	NGeet
-𢘇	Taz
-𢟡	Brer
-犏	PHjen
-𡙁	SSxag
-庡	HQiəj
-𩬳	TRfej
-𨑊	NRrug
-𩯳	TSaz
-疱	Bray
-掰	Prek
-煲	Pav
-伢	NGra
-蕩	Tag
-攮	NRrug
-鬎	Lat
-𣟗	Jji
-苤	PHxi
-𣊓	Sjet
-𤁰	DRrak
-耙	Pras
-欞	Leec
-搇	KHxif
-𧗂	Neek
-僋	THom
-滄	TZHxaq
-症	TRxəc
-愫	Sos
-鶓	Mxev
-㨧	Bvod
-𧧏	NCjas
-嘸	Muoh
-屙	HQa
-𥱻	TRHrer
-𣪻	TSeuk
-舾	See
-郉	KHeen
-㜂	Puoc
-辣	Lat
-嶗	Lav
-篈	Puoc
-𧠵	TSHji
-# 極	Giək
-麅	Brav
-㯳	Kxag
-𦼭	Bxak
-餂	THeeb
-櫕	DZvan
-鑚	TSvan
-鑒	Keen
-鷀	TSjə
-瘩	Top
-崾	HQjew
-懨	HQjem
-垮	KHfah
-𡚰	Kiuh
-匽	HQiaz
-蝻	Nob
-瑩	HQveq
-嶄	DSreb
-藊	Peed
-# 俖	PHəj
-# 𤄕	Jjo
-嘟	To
-𡊞	Bxaq
-噘	Kuat
-獗	Kuat
-熝	HQav
-𦞩	Jjiz
-岠	Gioh
-疳	Kam
-愽	Pak
-捆	KHvod
-剎	TZHrat
-# 漑	Kər
-𦚪	Jəj
-𩱛	TSeug
-祁	Gxi
-嵙	KHva
-𦨳	NGo
-脒	Meeh
-艽	Krav
-糔	Saw
-# 塡	TRxiz
-㠝	DZvan
-擰	Neeg
-冼	Seed
-䪂	SSrek
-抄	TZHraw
-# 葘	TZxə
-牎	TZHruc
-𥶢	Ljep
-𧫣	Seuk
-糬	DCjos
-齓	TZHxid
-𧱓	Təus
-蠎	Mag
-𠞰	TSjew
-曌	TCjey
-𢣙	HQveq
-蟑	TCjac
-速	TSjek	0%
-嫜	TCjac
-# 𨂫	THak
-嘭	Brac
-𨣇	Krez
-齄	TZra
-甏	Braq
-臑	Nav
-䭾	Da
-楴	THees
-𩝰	Praw
-摇	Jjey
-磋	TSHvas
-償	SCjag
-鼔	Koh
-蕰	HQuəd
-躥	TSHvan
-㨼	Ljak
-埡	HQoh
-𪇠	Nan
-㺺	May
-# 窗	TZHruc
-搛	Ljem
-噸	Tvon
-喳	TZra
-囍	Hiəh
-𢣎	THvad
-𦶁	Buən
-珖	Kvac
-蠨	Sev
-稿	Kaw
-靛	Deez
-墒	SCjac
-𩪕	NGav
-𠵭	HQxet
-唼	TSjep
-# 茝	TCHəj
-䟫	DRrac
-㠛	HQwak
-崮	Kos
-睬	TSHəj
-癊	HQxif
-𨾗	Gwi
-啃	KHəd
-霥	Meuc
-
-鎯	Lac
-萣	Deeq
-偌	NCjas
-礡	Bak
-娩	PHuaz
-捱	NGre
-餵	HQuər
-怎	TZxib
-# 塡	Deez
-# 𣔳	THak
-琽	Toh
-够	Kəus
-夠	Kəus
-堿	Kreb
-摨	NRrej
-𥍷	TZHruc
-𥦛	Kfah
-𥀜	TZxə
-# 蒈	KHrej
-戥	Təg
-垵	HQob
-𨋑	Kiog
-# 拆	TRHrak
-彠	HQwak
-嚷	NCjag
-咚	Teuc
-𤄒	Kred
-㔍	TZHxet
-豿	Hruk
-骹	KHat
-菩	Bəj
-覵	Krez
-𧫗	TZHras
-𩢺	Hven
-𢮇	Məj
-哎	HQar
-孢	Braw
-岬	Krap
-艉	Muəj
-撾	HQva
-咁	Kam
-唚	TSHjif
-𩁘	Nan
-抳	NRxeh
-嬤	Kvah
-𨍿	Gxak
-頾	TSje
-# 吴	NGo
-橛	Guat
-鷨	Hfa
-𨢧	TZras
-𥎞	TSvaz
-婀	HQa
-𩱝	KHrek
-僴	Kred
-劵	KHuaz
-# 𣪥	Heuk
-琊	Jja
-䥢	Leuc
-躺	THag
-胸	Hioc
-懂	Teug
-膕	Kvək
-緡	Mxin
-# 㪪	Sap
-瞧	DZjev
-𡕡	Beuk
-鐗	Kraz
-荸	Bvot
-糌	TSom
-鸊	Beek
-鸊	Pjek
-弒	SCjəs
-倷	Nəj
-俺	HQob
-騸	SCjez
-踮	Teeb
-蘑	Mva
-𡛷	TSjih
-捠	Prec
-嘩	Hfa
-哩	Ljəh
-簌	Seuk
-𢾖	Doh
-䟽	SSxos
-𥨲	NCjo
-哐	KHuac
-飊	Pjev
-佨	Prav
-氆	PHoh
-𪌜	THəuh
-𥮚	San
-瞅	TZHxuvh
-臌	Koh
-勐	Mrag
-噹	Tac
-籪	Dvad
-舖	PHos
-𧤛	TZxid
-夯	Hrug
-夯	Bvod
-夯	Hac
-籐	Dəc
-𢯽	TSHvas
-探	THof
-𣤩	TRHrek
-埡	HQos
-漯	Lvas
-岜	Pra
-𤃳	PHuan
-𨇧	TRHwab
-焢	Heuc
-𨋪	Hruc
-# 𢝃	TCjer
-燷	Lom
-颳	Kfat
-銹	Sjus
-鍘	DSrat
-# 䵱	Hiək
-萆	Sjəh
-𢣑	Bjed
-𠚜	THav
-# 鐁	Sji
-宊	THvot
-戧	TSHjaq
-壗	SZjiz
-耍	SSfah
-勲	Huən
-鬐	Gxi
-䱗	TSHan
-# 薿	NGiək
-𧋓	KHay
-鍲	Mxin
-佤	NGfah
-茅	DRxoh
-𧈱	Dək
-鰺	SSxim
-擋	Tag
-瞄	Mxev
-𠟿	TSjew
-峁	Mraw
-虼	Kət
-啵	Pva
-猲	KHuap
-𤴟	TCjer
-觫	Seuk
-㪙	KHvas
-䟎	DZad
-蛘	Jjag
-崪	DZvot
-糍	DZji
-𢂤	Lvot
-𧨍	Heeh
-芤	KHəu
-倘	THag
-𣏕	PHres
-𩺽	Bruk
-操	Səuh
-𡙮	DRxit
-𢦵	Miu
-咳	KHək
-廒	NGav
-攛	TSHvan
-癮	HQiəd
-# 曁	Gxis
-噯	HQər
-藥	Ljak	1%
-攢	DZvan
-晾	Ljaq
-鉲	KHrah
-奸	Kran
-滘	Kray
-糨	Giaq
-掭	THeef
-𤷾	KHxep
-岔	TZHras
-庹	THak
-𢵿	KHey
-𢴄	Tap
-鍬	TSHjev
-舭	Pjih
-# 𡁑	Hfe
-朓	TRHxey
-溻	THop
-縲	Lyi
-㭰	TSje
-騍	KHvas
-鯫	DSəuh
-摹	Mo
-饈	Sju
-𩌥	Hruk
-# 衩	TZHras
-𦔷	HQev
-鬃	TSeuc
-搡	Sag
-# 㤄	Par
-𡴛	Deuk
-喂	HQuər
-譨	NRruc
-# 斓	Lan
-𦿃	SSraw
-𥁺	THob
-𧞢	Kvod
-搗	Taw
-𠨲	Jjak
-䋵	Lap
-樏	Lyi
-烀	Ho
-埕	DRxec
-榆	Jjev
-孬	NRrav
-𧊇	THək
-鑔	TZHret
-堰	HQxez
-暌	KHve
-𣹵	NRwap
-𧌘	Buər
-庍	Pres
-𦓴	SSraw
-𡺮	Bxih
-峩	NGa
-寗	Neeq
-㔂	Ljiz
-蒽	HQən
-錍	Pxe
-㶒	SCab
-拼	PHeec
-襉	Krez
-䥍	Sjet
-# 趌	Kxet
-乇	TRrak
-𣀗	Ləj
-嗩	Svah
-蹷	Guat
-侗	Deuq
-𠓜	Ljag
-㨉	Mxin
-蕗	Los
-巏	Kvaz
-鯴	SSxit
-𥬸	TRfa
-癍	Pran
-糍	DZjə
-䀿	TCjet
-帕	PHras
-焙	Bvor
-耗	Hay
-趕	Kad
-𧀆	Təq
-熇	KHay
-氌	Loh
-堍	THos
-欗	Lan
-嵳	DZa
-鍃	Hvot
-𥈔	HQxez
-嬸	SCjib
-站	TRrem
-兊	Dvar
-紝	NRxim
-𥊕	THeek
-𠲎	Buat
-搬	Pvan
-拷	KHaw
-疴	HQa
-坨	Da
-嗨	Həj
-唰	SSfat
-玶	Bxac
-𩶆	DZeeh
-䂎	TSHvan
-嚈	HQjep
-𤪢	Leek
-𥘓	TZHras
-鱉	Pjet
-這	TCjek
-埡	HQras
-煸	Peen
-𦩨	TSjin
-𥗥	Mrat
-甹	Jju
-𧟳	Pras
-𨛲	Neen
-𪖐	NGius
-甦	So
-𪊆	DZees
-贋	NGraz
-裡	Ljəh
-週	TCju
-# 躽	HQxez
-擼	Lo
-𥖛	TRxak
-槇	TCjid
-螂	Lac
-嗡	HQeug
-尕	Krah
-刨	Brav
-茼	Deuc
-剻	PHəg
-鑵	Kvaz
-舢	SSren
-腚	Deeq
-戙	Deuq
-𩯳	TSvat
-# 漑	Kiər
-蛐	KHiok
-乩	Kee
-姂	KHuap
-鎣	HQveq
-櫥	DRxo
-𩈻	DZam
-佁	Jəj
-䓣	Ljag
-遪	DCop
-𥉨	TRHxim
-舔	THeeb
-瞕	TCjaq
-玀	La
-鐾	Bjes
-𥮓	DZeen
-𤍕	Jjus
-揹	Pvoj
-鮳	KHay
-鍿	TZxə
-嬤	Mvah
-䁕	Mxin
-䴽	Pxe
-# 懝	NGiək
-唔	NGo
-𢤉	DRxuv
-䆀	Mər
-𠳊	KHa
-乭	Dvot
-耱	Mvas
-攩	Tag
-炻	DCjek
-猁	Ljis
-# 靁	Lvoj
-躦	DZvan
-浻	HQfag
-塊	KHfer
-齙	Brav
-祅	Heen
-踩	TSHəj
-牦	Mav
-朦	Meug
-𨷹	PHuən
-𡩻	TSjib
-餳	Dac
-妗	Gxif
-奾	Sjen
-咕	Ko
-蝸	Kva
-𤰮	Kves
-氹	Dab
-蟈	Kvək
-# 茍	Kiək
-㹗	TCHəj
-𦜉	Bje
-鄓	HQiap
-𥣪	DZvan
-𨄞	Seuk
-闘	Təus
-圩	KHuo
-唕	DZaw
-鈺	NGiok
-纉	TSvad
-鬝	KHret
-# 祛	KHio
-踈	SSxo
-# 𠷔	Saq
-琍	Ljis
-檁	Ljib
-𡝤	Ləu
-穤	Nvas
-搜	SSraw
-𥥿	SSxim
-嘞	Lək
-𥯦	DSrep
-渃	NCjas
-驏	DSrad
-逩	Pvoz
-姆	Məuh
-纗	TSje
-哈	Hop
-鮨	Gxi
-咧	Ljet
-㸃	Teeb
-擤	Sjeg
-𨙬	Giəs
-𨕨	TSeen
-墘	Gxen
-# 䀌	Hiək
-逺	JXuaz
-㠀	Taw
-韍	Bxis
-痒	Jjaq
-畧	Ljak
-# 䅥	Kxet
-噙	Gxim
-𨃤	KHay
-# 冄	NCjem
-囝	Kxed
-艓	Deep
-埔	PHoh
-碾	NRxed
-浬	Ljəh
-骷	KHo
-唼	SSrap
-𩔝	KHxif
-鰈	Deep
-𤒤	Ljed
-譫	TCap
-𩒥	KHiab
-𢨒	TCHjəs
-喨	Ljaq
-珺	Guəz
-饃	Mo
-娔	KHək
-嬽	HQfen
-𠢅	Gxen
-鵃	Tew
-𦓀	Gxi
-蟛	Brac
-# 朏	PHəj
-𤁢	TSjek
-𡶅	PHva
-潲	SSraw
-𩖉	Hvəc
-哞	Miu
-憗	NGxiz
-鰳	Lək
-蒎	PHres
-鼽	Hvoj
-𩑗	HQev
-𩃢	TSjem
-䟽	SSxo
-症	TCjeq
-𢾐	SSraw
-茉	Mvat
-𥃯	HQraw
-䆿	NGjer
-惢	TSje
-蟯	HQev
-蝆	Mjeh
-嗓	Sag
-醌	Kvon
-慅	TSHay
-坋	Buəd
-鵄	TCHji
-𩟊	NRrug
-幛	TCjaq
-# 塡	Deen
-沬	Mar
-紕	TCHjəh
-敫	Keek
-敫	Key
-敫	Kew
-昧	Mar
-𨝑	Kvaz
-剷	TZHred
-柼	TRraq
-𥩠	TRrem
-䵮	Jjaq
-# 𠕋	TZHrek
-嵨	HQoh
-𦱧	Huət
-韅	Heez
-# 𥦒	HQey
-撬	KHey
-焐	NGos
-竄	TSHvan
-勗	Hiok
-# 抛	PHray
-# 抛	PHrav
-# 愼	DCjiz
-髭	TSje
-銱	Tey
-焗	Giok
-脪	Hjid
-𧋐	Seek
-噚	SZxim
-# 赩	Hiək
-簽	TSHjem
-# 遥	Jjev
-佰	Prak
-荖	Law
-劍	Kiaf
-諎	TSHvas
-拽	Jjet
-擱	Kak
-佧	KHrah
-僮	DRruq
-慪	HQəus
-葡	Bo
-𧄗	TZxo
-硰	TSvah
-𠽽	NRrac
-𢿜	Mvaz
-# 污	HQo
-𤣠	Hxev
-# 𥳑	Kred
-碟	Deep
-𪖐	NGey
-徯	Heeh
-醏	DCjis
-揶	Jja
-竳	Təc
-𨓳	HQev
-螡	Muən
-# 㘈	NGiək
-犂	Lee
-𧢗	Təu
-筢	Bra
-撽	KHey
-玳	Dər
-𠧪	See
-𩃾	Huəj
-䨲	Muaz
-# 巓	Teen
-嘛	Mra
-嗆	TSHjaq
-炸	TRras
-瞌	KHat
-苠	Mxin
-# 曁	Kxit
-𡌨	Bje
-傖	TSHac
-𨍌	Mjid
-# 𢧵	DZeet
-𥄳	Dop
-齜	DSre
-蜒	Deed
-㻗	Bvor
-栘	DCee
-𨶪	Kew
-鶲	HQeuc
-麭	PHray
-艄	SSrav
-𩇯	Bxis
-鯰	Neem
-濽	TSaz
-㵅	THom
-癱	THan
-𡘷	THay
-㺦	Ljen
-猞	SCja
-䪤	Buan
-粑	Pra
-齫	NGuəd
-惝	THag
-朆	Məc
-𣂁	TSHjev
-璈	NGav
-𢈠	Lat
-搨	THap
-覇	Pras
-㭩	Loh
-儧	TSvad
-𧽮	DRxit
-濲	Keuk
-# 𦣝	Jjə
-啡	PHəj
-㾙	Hjid
-焷	Pxe
-湣	Mxid
-𣃧	HQiab
-𩜼	DCjis
-潑	PHvat
-𥽽	SSred
-㽡	Pxe
-鍘	DSret
-碴	DSra
-𤸅	Mxin
-䭾	Das
-䦌	TRHwus
-薧	KHay
-𤜼	DSven
-壢	Leek
-韝	Brer
-𪙇	TSHeet
-莞	Kvaz
-㒨	Sjen
-閿	Muən
-# 靑	TSHeec
-㯜	SSxin
-㠐	Gxev
-徭	Jjev
-吜	TRHxuvh
-煉	Leez
-澟	Ljib
-# 𧕏	NGxet
-𩍴	DZvan
-匿	THək
-檑	Lvor
-怹	THam
-㛆	Tvas
-𥬸	Dvah
-𥂥	DZan
-𦞿	HQvaz
-𠩰	Tvoj
-掙	TZrec
-蓰	Sjeh
-揍	TSəus
-搞	Kraw
-泐	Ljək
-𧻀	TSHjas
-# 訐	Kxet
-𡡂	Jjaq
-叭	PHret
-芯	Sxim
-菏	Ka
-瀠	HQveg
-# 槇	Teen
-𪙝	TSHjac
-搽	DRra
-厜	TSje
-𩈎	TZHraw
-蒀	HQuən
-袚	Puar
-詻	Ljak
-𨷓	DZeez
-牮	TSeez
-𨛲	Neec
-珅	SCjin
-膪	TRfes
-𢜸	Nav
-鐽	Dat
-愭	Gxi
-蛋	Dad
-㗗	Pxe
-拖	THa
-𡣔	HZob
-𡣊	HZob	0%
-䁕	Mjin
-藠	Key
-瞘	KHəu
-餃	Kraw
-喲	HQiak
-𨹃	Tva
-兠	Təu
-𪀡	Ljak
-擦	TSHat
-# 硏	NGeen
-瀤	HQfej
-欏	Lah
-洼	HQfej
-湽	TZxə
-鞲	Kəu
-謆	SCjez
-媠	THvah
-皂	DZaw
-瀅	HQveq
-鞢	DRrap
-爨	TSHvan
-鱖	Kwi
-螈	NGuan
-𧆖	Nan
-𢀼	Biu
-囝	Nom
-砣	Da
-𤲳	Buər
-𪔝	Deuc
-鄼	TSvad
-泵	Pəq
-蒞	Ljis
-玟	Mxin
-餎	Lak
-摕	Tar
-𡡏	SSraw
-趡	TSjey
-𡂣	TRxip
-膣	TRxit
-甭	Bəc
-菪	Daq
-唼	TSop
-覅	Mjey
-菇	Ko
-𧍵	HZo
-瞌	KHap
-囔	Nac
-𥵦	SSraw
-煛	Kveg
-# 獘	Bjer
-# 樗	TRHxo
-痺	Pjis
-𢴶	New
-抬	TRHxə
-𩀝	TCjek
-# 乇	THak
-缸	Kac
-𧎹	TSvar
-𧈅	SSrek
-庍	Hiəz
-䵤	Teed
-# 顚	Teen
-涇	Gjeg
-碉	Tev
-掏	THav
-# 䩯	KHiək
-𡝠	Mee
-攅	TSaz
-𪖪	Hxeh
-鬛	Ljep
-䦐	THeeg
-臃	HQioc
-# 耆	Gxi
-謟	THay
-彚	JXuər
-鴃	Kvet
-坵	KHiu
-擴	KHvak
-鑫	Hxim
-鷥	Sjə
-嫑	Pjey
-𦩶	Heeh
-𠠵	PHuaz
-澰	Ljeb
-𨽼	Sjis
-鰉	HZvac
-啷	Lac
-𢋱	DSruk
-汆	TSHvan
-腽	HQvot
-𧴮	Dək
-桗	Tvas
-篬	TSHjac
-岰	HQray
-𧡺	Gxi
-踺	Giaz
-嗍	SSruk
-鱘	SZxim
-㢪	HQo
-㢪	KHo
-# 櫥	DRwo
-䆀	Məj
-𣓀	TZxid
-𣤦	Jjey
-𣻎	KHəu
-耪	PHag
-凵	KHuab
-舨	Prad
-掚	Ljag
-藳	Kaw
-㢧	Kxuv
-䱔	Jju
-榅	HQvot
-褙	Pvor
-冇	Maw
-# 𣆩	TZHrek
-熩	HZoh
-# 墍	Hiər
-錛	Pvon
-鬝	KHren
-𡜊	PHəj
-讀	Dəus
-溻	THap
-晩	Muad
-覵	Kren
-漣	Ljez
-瓉	DZad
-鰌	TSHju
-𥥦	Dob
-𪓵	TSHju
-僳	Seuk
-擂	Lvoj
-䔾	Mvat
-锸	TRHxep
-𤑕	Huəz
-𡲁	SZjos
-𡘐	Heet
-𡫏	TSjif
-墶	Dat
-㼥	KHaw
-欿	THom
-扦	TSHjen
-𤗏	Bəj
-謒	TSHjac
-崁	KHof
-您	NRxim
-羓	Pra
-# 鷆	Deen
-缻	HZruc
-# 算	Svaz
-浠	Hiəj
-撾	Kva
-栢	Prak
-𩢲	SSxəs
-菠	Pva
-抿	Mxin
-抿	Mjid
-𥄃	Mxit
-𢟇	HQees
-矅	Jjey
-躪	Ljiz
-𢽃	HQuag
-撐	TRHrac
-鵡	Məuh
-挵	Leuq
-丐	Kat
-銬	KHay
-勊	KHək
-輺	TZxə
-䮽	Leuk
-夼	KHvag
-疎	SSxos
-駄	Das
-蓘	Kvod
-鵪	HQom
-梢	SSraw
-𢋇	Jjev
-桕	Giuh
-𨠾	Dər
-瘺	Ləus
-梘	Keez
-𨖷	DSrep
-𧢮	Lees
-嫘	Lyi
-# 磁	DZjə
-厘	Ljə
-𦖫	Muən
-鵯	PHjit
-擂	Lvor
-缽	Pvat
-顡	TRHfer
-冪	Meek
-# 𩟦	DZeet
-𧉅	HQji
-蓓	Bəj
-灧	Jjef
-騍	Kvas
-蟮	DCjed
-𤺈	Do
-綰	Kvaz
-沲	Dah
-袱	Buuk
-畜	TRHxuk
-䗛	Sjuk
-㓘	Sjuk
-朒	NCjuk
-肭	NRxuk
-𥲩	Kiuk
-𨞯	Muuc
-𥷛	TSjuk
-𥷤	Kiuk
-𨁀	SCjuk
-搐	TRHxuk
-舯	TRxuc
-𦶗	Kiuk
-𨱿	Sjuc
-坶	Muuk
-𪄑	Sjuk
-麯	KHiuk	#麴
-唷	Jjuk
-倐	SCjuk
-瘋	Puuc
-嗖	SSxuk
-𧼭	SSxuk
-榕	Jjoc
-淞	SZjoc
-欘	DCjok
-壟	Ljog
-𡊫	NCjog
-𤘻	NCjog
-𤘺	NCjog
-瘇	DCjog
-峪	Jjok
-熔	Jjoc
-𢃭	TCjog
-踴	Jjog
-𨙦	TRHxoc
-蠾	DRxok
-𩱜	NCjok
-# 佣	Jjoc
-䴰	ZCjok
-湧	Jjog
-㺜	NRxoc
-閧	HGeuq
-# 閧	HGruq
-鋧	HGeed
-舺	HGrap
-鮰	HGvoj
-蘹	HGfej
-燴	HGvar
-𦇏	HGved
-戤	HGər
-慀	HGre
-蠔	HGav
-夆	HGar
-檜	HGvar
-䰥	HGvək
-# 𣫈	HGeuk
-藠	HGew
-嵆	HGeix	0%	#嵇
-𦸌	HGvon
-偕	HGrej
-鷳	HGren
-撗	HGvac
-蛔	HGvoj
-抇	HGvot
-衚	HGo
-𡱏	HGfah
-# 𠀒	HGo	0%
-𥊺	HGren
-晗	HGom
-崲	HGvac
-俲	HGray
-𣣠	HGəus
-搿	HGop
-餡	HGreb
-雟	HGve
-䙲	HGven
-嚡	HGre
-𣎔	HGeez
-𡾀	HZfar
-純束	Dvon SCjok
-琠	Təd
-婰	Təd
-忪	Seuc
-𣸈	SSxuvh
-嗖	SSxuvs
-猸	Mxi
-藴	HQuən
-# 軛	HQrek
-# 扼	HQrek
-# 呃	HQrek
-砈	HQrek
-苊	HQrek
-# 阨	HQrek
-# 𩯰	TSeet
-# 𧞩	TSeet
-# 𤁢	TSeet
-# 𩯰	TSjet
-# 𧓷	TSjet
-# 𤁢	TSat
-# 𩯷	TSjer
-# 𩯰	TSjer
-姮	HGəc
-𫰟	HGəc
-𣈶	Kəq
-峘	HGəc
-𡷆	HGəc
-𡷗	HGəc
-𡵎	HGəc
-𡴿	HGəc
-# 哧	TCHjek
-# 哧	SCjek
-汦	KCji
-食	SZjəs
-阢	NGvoj
-馘	Kvək
-演	Jjid	2%
-𡘷	THaw
-叀	TCyon
-磚	TCyon
-𤴝	TRxisk	0%
-悻	HGreg
-#####
-鱈	Syet
-嬽	HQwen
-恱	Jyet
-𣎓	SZyen
-𦛔	SZyen
-𥸭	Kwez
-𣍬	ZCyen	#从舟 船
-𣍴	DZyen	#月
-𦐋	Hwet
-兖	Jyed
-𤑔	NCyet
-串	TCHyez
-剸	TCyen
-𣚓	Kyez
-禤	Hyen
-唰	SSwet
-錈	Kwed
-輇	TSHyen
-𨢬	TCyet
-烕	Hwet
-# 𩓧	Syen	#?
-朘	TSyen
-蠕	NCyed
-醛	TZHwet
-蚋	NCyet
-萒	Jyed
-𤼣	Lyen
-踅	SZyet
-𥛁	KHwez
-瑼	TCyen
-摶	TCyen
-# 吷	Hwet
-𢮛	DCyez
-籑	DSwez
-𥄎	Hwet
-萒	Gwed
-姢	HQyen
-𩖶	Hwet
-圓	SZyen	1%
-# 圎	JXwen
-䬇	Jyez
-𠤦	NCyed
-
-𦳯	JXwit
-汨	JXwit
-閠	NCyiz
-䬄	Hwit
-鵔	Syiz
-栒	Syid
-圳	TCyiz
-睃	TSyiz
-榫	Syid
-率	Lwit
-㤜	Hwit
-齣	TCHyit
-𣓓	Swin
-𥄵	Hwit
-窵	Jyit
-𧋕	KHwin
-𦦖	TZwit
-䎉	Hwit
-昀	Jyin
-𦃢	KHyid
-𠣤	Syid
-滣	ZCyin
-蝽	TCHyin
-𣍥	Kyit	#?
-
-𣎛	Kyit	#橘 月在乙曰橘
-
-嘴	TSyeh
-棰	TCyeh
-率	Lyis	0%
-螝	Kwis
-㨊	Jyih
-嗺	TSyih
-頍	Kwis
-𨎥	SZyis
-𠀐	Gwis
-餽	Kwis
-
-蚋	NCyer
-𪔊	SZyer
-歳	Syer
-𨮱	DRwer
-
-𩓏	KHyeg
-
-𡰟	Lye
-頔	KHyeg
-瀠	Jyec
