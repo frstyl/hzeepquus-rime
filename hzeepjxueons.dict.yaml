@@ -3576,10 +3576,9 @@ import_tables:
 死	Sjih
 𣦸	Sjih
 𠒁	Sjih
-兕	SZjih
+𤉡	SZjih
 𠒅	SZjih
-𧰽	SZjih
-𠒃	SZjih
+兕	SZjih
 黝	HQjix
 # 黝	HQjiu
 㡼	Jjis	#?
@@ -11334,10 +11333,10 @@ import_tables:
 逎	TSjux
 𩭓	TSjux
 牖	Jjuh
-揄	Jjux
+揄	Jjux	#?
 𢋅	Jjux
 受	DCjuh
-𡬳	DCjuh
+𡬳	DCjuh	#受
 綬	DCjuh
 授	DCjus
 㖟	DCjus
@@ -15165,20 +15164,6 @@ import_tables:
 䍨	PHvat
 䟛	Bvat
 𧺡	Bvat
-㒼	Mvan
-瞞	Mvan
-顢	Mvan
-蹣	Mvan
-蹣	Bvan
-慲	Mvan
-樠	Mvan
-𤡁	Mvan
-鬗	Mvan
-𢟮	Mvad
-𥲈	Mvad
-鏋	Mvad
-滿	Mvad
-懣	Mvad
 𥄕	Mvat	#?
 𨣱	Mvat
 瀎	Mvat
@@ -15210,6 +15195,28 @@ import_tables:
 𩿣	Mvat
 沫	Mvat
 袜	Mvat
+曼	Mvan
+謾	Mvan
+䊡	Mvan
+饅	Mvan
+鏝	Mvan
+墁	Mvan
+鰻	Mvan
+䜱	Mvan
+䟂	Mvan
+𦔔	Mvan
+縵	Mvaz
+幔	Mvaz
+𣁜	Mvaz
+𦔔	Mvaz
+獌	Mvaz
+䝢	Mvaz
+墁	Mvaz
+鏝	Mvaz
+謾	Mvaz
+蔓	Mvan
+漫	Mvaz
+槾	Mvan
 沜	PHvaz
 
 𢯸	PHvat
@@ -15424,29 +15431,21 @@ import_tables:
 樌	KQvaz
 鏆	KQvaz
 遦	KQvaz
-#UN?U?O?
-曼	Mvun
-謾	Mvun
-䊡	Mvun
-饅	Mvun
-鏝	Mvun
-墁	Mvun
-鰻	Mvun
-䜱	Mvun
-䟂	Mvun
-𦔔	Mvun
-縵	Mvuz
-幔	Mvuz
-𣁜	Mvuz
-𦔔	Mvuz
-獌	Mvuz
-䝢	Mvuz
-墁	Mvuz
-鏝	Mvuz
-謾	Mvuz
-蔓	Mvun
-漫	Mvuz
-槾	Mvun
+##UN?U?O?
+㒼	Mvun
+瞞	Mvun
+顢	Mvun
+蹣	Mvun
+蹣	Bvun
+慲	Mvun
+樠	Mvun
+𤡁	Mvun
+鬗	Mvun
+𢟮	Mvud
+𥲈	Mvud
+鏋	Mvud
+滿	Mvud
+懣	Mvud
 悗	Mvun
 鞔	Mvun
 絻	Mvun
@@ -15718,11 +15717,6 @@ import_tables:
 𤔔	Lvuz
 亂	Lvuz
 ###RAN
-鴳	HQraz
-晏	HQraz
-騴	HQraz
-䁙	HQraz
-鷃	HQraz
 𠔯	Pran
 帕	Mrat
 班	Pran
@@ -15762,6 +15756,20 @@ import_tables:
 頒	Pran
 鳻	Pran
 肦	Pran	#頒
+獌	Mran
+鬘	Mran
+謾	Mran
+䅼	Mran
+慢	Mraz
+嫚	Mraz
+謾	Mraz
+縵	Mraz
+𪈮	Mran
+矕	Mrad
+蠻	Mran
+𦺖	Mrad
+𪑪	Mran
+帓	Mrat
 擖	KQrat
 𪆰	HQrat
 䦪	HQrat
@@ -15813,15 +15821,6 @@ import_tables:
 獺	TRHrat
 㾺	Mraz
 㾺	TRHraz
-獌	Mran
-鬘	Mran
-謾	Mran
-䅼	Mran
-慢	Mraz
-嫚	Mraz
-謾	Mraz
-縵	Mraz
-帓	Mrat
 赧	NRrad
 𩈶	NRrad
 㬄	TRHraz
@@ -15831,6 +15830,12 @@ import_tables:
 猰	KQrat
 刹	TZHrat
 䓭	TZHrat
+䩆	TZrad
+拃	TZrad
+哳	TRrat
+𧶇	TRrat
+潸	SSran
+潸	SSrad
 訕	SSran
 訕	SSraz
 汕	SSraz
@@ -15843,9 +15848,6 @@ import_tables:
 狦	SSraz
 羼	TZHraz
 眣	TRrat
-𪈮	Mran
-矕	Mrad
-蠻	Mran
 𨰉	DSrat
 舝	HGrat
 𢮟	HGrat
@@ -15870,16 +15872,13 @@ import_tables:
 贗	NGQraz
 鴈	NGQraz
 齾	NGQrat
+鴳	HQraz
+晏	HQraz
+騴	HQraz
+䁙	HQraz
+鷃	HQraz
 劜	HQrat
 㳐	DSrat
-𦺖	Mrad
-𪑪	Mran
-䩆	TZrad
-拃	TZrad
-哳	TRrat
-𧶇	TRrat
-潸	SSran
-潸	SSrad
 ###VRAN VRAN
 䭴	HZfan
 𩡧	HZfan
@@ -16933,7 +16932,7 @@ import_tables:
 蜆	HGeed
 俔	HGeed
 睍	HGeed
-見	HGeez
+見	HGeez	2%
 現	HGeez
 涀	HGeez
 硯	NGQeez
@@ -18297,20 +18296,24 @@ import_tables:
 縓	TSHyan
 縓	TSHyaz
 𥆊	TSHyaz	#𢌨
+泉	DZyan	100%	#G-
+𧍭	DZyan
+葲	DZyan
+灥	TCHyan
+𠄢	Syan
+亘	Syan
+宣	Syan
+揎	Syan
+䳦	Syan
+愃	Syan
+瑄	Syan
+𩤡	Syan
+渲	Syaz
+𡬳	Syan	#M- 曼
+㩊	Syan
+𡈣	Syan
+𩕖	Syan
 ##VJEN
-𠄢	Syen
-亘	Syen
-宣	Syen
-揎	Syen
-䳦	Syen
-愃	Syen
-瑄	Syen
-𩤡	Syen
-渲	Syez
-𡬳	Syen
-㩊	Syen
-𡈣	Syen
-𩕖	Syen
 㯞	Kyez
 𡕥	Hyet	#?
 妜	HQyet
@@ -18327,10 +18330,6 @@ import_tables:
 䨮	Syet
 㡜	Syet
 𨡸	TCyet
-泉	DZyen	100%	#G-
-𧍭	DZyen
-葲	DZyen
-灥	TCHyen
 繎	NCyen
 𨷱	TCyed	#?
 鳶	Jyen	#?
@@ -18662,9 +18661,6 @@ import_tables:
 卷	Kwod
 𨤖	Kwod
 𠨟	Kwod
-𢀻	Kwod
-㢧	Kwod
-𢎠	Kwod
 𩜇	Kwod
 菤	Kwod
 𨹵	Kwod

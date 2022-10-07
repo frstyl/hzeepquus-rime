@@ -212,8 +212,7 @@ import_tables:
 巻	Guod	%0
 巻	Kwod	%0
 圏	Guoz	%0
-圈	KHwen	%0
-圏	KHwen	%0
+# 圏	KHwon	%0
 劵	KHuoz	0%
 麫	Meez	%0
 沉	DRxum	0%
@@ -333,13 +332,20 @@ import_tables:
 𠢎	Giuh	0%
 㫪	SCjoc	0%
 焔	Jjof	0%
+㴞	THeuv	0%
+𣵥	THeuv	0%
+𩏍	THeuv	0%
+𮧲	THeuv	0%
+稲	Deuw	0%
+𨂻	Deuy	0%
+𫺼	KQHeub	0%	#臽
 爂	Pjev	0%
 # 票	FPHjev	0%
 𣄔	FPHjev	0%	#旚
 𨅟	FPHjev	0%
 𣄦	FPHjev	0%
 朙	Mxac	0%
-# 貟	JXwon	0%	#員
+# 貟	JXwon	0%	#員囗厶
 # 貟	JXuun	0%
 # 貟	JXuuz	0%
 # 姢	HQyen	0%
@@ -954,6 +960,9 @@ import_tables:
 骵	THeih	0%
 躰	THeih	0%
 ### 古 奇 
+𦧚	HGfart	話
+𦧵	HGfart
+舙	HGfart
 𢑽	Najx	#𨙻
 𣟎	Najx
 ###
@@ -1323,7 +1332,7 @@ import_tables:
 # 畗	Puok
 # 彑	Kxer
 # 𠬜	PHran
-𤉡	SZjih
+# 𤉡	SZjih
 # 𦣞	Jjəx
 # 珡	Gxim
 # 乁	Jjex
@@ -1523,7 +1532,7 @@ u	eu
 ̃	M
 ˞	R
 ˠ	X
-̚ˤ	O
+ˤ	O
 ʰ	H
 ˡ	L
 ⁿ	N
@@ -1639,7 +1648,6 @@ u	eu
 呆	Təj	#待
 卡	KHrah
 歹	Təl
-打	Tah
 ###誤
 # 厈	TCHjas	0%㡿
 # 乚	HQiəd	0%𠃊
@@ -1874,7 +1882,7 @@ u	eu
 ###畏
 㟪	HQuəj
 餵	HQuər
-#喂	HQuər
+喂	HQuər
 ###意
 繶	HQiəj
 ###委
@@ -3492,7 +3500,6 @@ u	eu
 ###臱𦤝
 𩕰	Mjen
 ###曼
-𭆲	Mvuz
 𢿜	Mvuz
 熳	Mvuz
 熳	Mruz
@@ -3556,6 +3563,9 @@ u	eu
 糰	Dvan
 ###𦎫
 㥫	Tvon
+###耑
+##端
+𤻨	THvad	#瘓
 ###屯
 炖	Dvoz
 𪎶	THvon
@@ -3738,6 +3748,32 @@ u	eu
 剷	TZHred
 𥽽	TZHfed
 𥽽	SSred
+###亘𠄢
+##宣
+煊	XSuan	#煖
+𩀈	XSuan	#䳦
+𪃗	XSuan
+𮘙	XSuan	0%	諠
+箮	Syen
+𩤡	Syen
+𱄨	Syen
+𩝑	Syen
+𧡢	Syed
+𦋠	Syod	#𦌔
+碹	Syez	#䃠
+䃠	Syez
+𩘒	TSyen
+𡺟	DZyen
+𠝳	NGQvun	#刓
+# 縇	Syen
+# 𤸧
+䙋	Syen
+𤟿	Syen
+𤠊	Syen
+# 鰚
+###M-
+𭆲	Syan
+𩉃	Syan	#𩕖
 ###算
 籑	DSwoz
 
@@ -3886,7 +3922,13 @@ u	eu
 ###筋
 觔	Kiən	#筋䈥
 
-###卷
+###卷𢍏
+𢀻	Kwod	0%	#𠨟
+㢧	Kwod	0%
+𢎠	Kwod	0%
+圈	KHwon	#棬
+𥁸	KHwon
+𡈕	Guaz
 劵	KHuaz
 錈	Kwod
 ###困
@@ -4183,6 +4225,8 @@ u	eu
 𦛔	SZyon
 ####-NG -Ŋ
 ###朋
+𢐴	Bəc
+𧱶	Bəc
 ##崩
 嘣	Pəc
 鏰	Pəq
@@ -4371,6 +4415,7 @@ u	eu
 幀	TRraq
 ###丁
 打	Trag
+打	tah
 疔	Teec
 疔	Nrek
 ###成
@@ -4415,8 +4460,9 @@ u	eu
 幛	TCjaq
 瞕	TCjaq
 ###童
-懂	Teug
+僮	DRruq
 ###重
+懂	Teug
 瘇	DCjog
 ###灷𦩎
 𢀹	DRxəb
@@ -4448,7 +4494,6 @@ u	eu
 菪	Daq
 ###穴
 柼	TRraq
-僮	DRruq
 ###𤕦
 𠽽	NRrac	0%	𧂘
 𦷠	NRrac	0%
@@ -6036,6 +6081,16 @@ u	eu
 ###豚
 ###豸
 ###𤉡
+咒	SZjih
+𠒃	SZjih
+𠒊	SZjih
+𠙃	SZjih
+𢍭	SZjih
+𣱻	SZjih
+𧰽	SZjih
+𧱃	SZjih
+𰄒	SZjih
+# 𤉡	SZjih
 ###易
 ###象
 ######
@@ -6060,7 +6115,6 @@ u	eu
 籽	TSjəh
 烤	KHaw
 熗	TSHjaq
-煊	XSuan	#煖
 ###炎
 炏	XXam
 ###囪
