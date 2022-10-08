@@ -3622,14 +3622,6 @@ import_tables:
 㞓	KCHjir
 𦓀	GCjij
 鮨	GCjij	#?
-𧿲	TCjil
-姊	TSjil
-秭	TSjil
-趀	TSHjij
-𡰾	TSHjij
-姉	TSjil
-𡛷	TSjil	0%
-𥞑	TSjil	#𣎵
 懥	TCjisk
 𪀒	TCHjix
 胵	TCHjix
@@ -3815,6 +3807,14 @@ import_tables:
 駟	Sjirt	#ts
 寐	Mjirt	#ts
 ##JƏJ
+𧿲	TCjəl
+姊	TSjəl
+秭	TSjəl
+趀	TSHjəj
+𡰾	TSHjəj
+姉	TSjəl
+𡛷	TSjəl	0%
+𥞑	TSjəl	#𣎵
 齎	TSjəj
 𪗉	TSjəj
 𪗋	TSjəj
@@ -6235,7 +6235,7 @@ import_tables:
 奴	Nox
 胬	Noh
 孥	Noh
-怒	Noh
+怒	Noh	2%
 弩	Noh
 砮	Noh
 努	Noh
@@ -8068,6 +8068,7 @@ import_tables:
 ##
 侮	MFuəh
 䍙	MFuəh
+㑄	MFuəh
 䳇	MFuəh
 𢜮	MFuəx
 𢜮	MFuəh
@@ -16474,23 +16475,23 @@ import_tables:
 # 鴓	Meit
 # 𥉓	Meit
 閉	Peit
-堅	KQein
-鰹	KQein
-鋻	KQein
-䌑	KQein
-鋻	KQeiz
-掔	KQHein
-菣	KQHeiz
-𥧬	KQHeid
-䵖	KQHeid
-蜸	KQHeid
-䵖	KQHeiz
-㹂	HGeit
-臤	HGein
-賢	HGein
-礥	HGein
-㘋	HGein
-臔	HGeid
+# 堅	KQein
+# 鰹	KQein
+# 鋻	KQein
+# 䌑	KQein
+# 鋻	KQeiz
+# 掔	KQHein
+# 菣	KQHeiz
+# 𥧬	KQHeid
+# 䵖	KQHeid
+# 蜸	KQHeid
+# 䵖	KQHeiz
+# 㹂	HGeit
+# 臤	HGein
+# 賢	HGein
+# 礥	HGein
+# 㘋	HGein
+# 臔	HGeid
 牽	KQHein	#掔
 縴	KQHein
 㯠	KQHeiz
@@ -17361,13 +17362,13 @@ import_tables:
 䕸	HGrit
 穵	HQrit	#𠃉-t
 軋	HQrit	#乙-k？
-圠	HQrit
-䰲	HQrit
-札	TZrit
-扎	TZrit
-蚻	TZrit
-紮	TZrit
-𩿤	TZrit
+# 圠	HQrit
+# 䰲	HQrit
+# 札	TZrit
+# 扎	TZrit
+# 蚻	TZrit
+# 紮	TZrit
+# 𩿤	TZrit
 𣁣	Lrin
 潾	Lrin
 ##RƏN
@@ -19002,16 +19003,16 @@ import_tables:
 甄	KCjin
 籈	KCjin
 薽	KCjin
-緊	Kjid
-腎	GCjid
-𦜌	Kjid
-𤷌	Kjid
-𧼒	KHjid
-𤿳	KHjid
-臤	KHjiz	#-n
-菣	KHjiz
-𧼒	KHjiz
-𧼒	Gjin
+# 緊	Kjid
+# 腎	GCjid
+# 𦜌	Kjid
+# 𤷌	Kjid
+# 𧼒	KHjid
+# 𤿳	KHjid
+# 臤	KHjiz	#-n
+# 菣	KHjiz
+# 𧼒	KHjiz
+# 𧼒	Gjin
 吉	Kjit
 趌	Kjit
 狤	Kjit
@@ -21234,8 +21235,8 @@ import_tables:
 炕	Hac
 㰠	Hac
 忼	Hac
-郞	Lac
-狼	Lac
+郞	Lac	95%
+狼	Lac	90%
 閬	Lac
 莨	Lac
 稂	Lac
@@ -23765,23 +23766,6 @@ import_tables:
 𠊧	Breg
 𠊧	Breq
 䨻	Breq
-䆵	DRrec
-噌	TZHrec
-鏳	DSrec
-甍	Mrec
-𣞑	Mrec
-䉚	Mrec
-𧂛	Mrec
-𥌯	Mrec
-鏗	KQHrec
-摼	KQHrec
-硻	KQHrec
-憕	DRrec
-橙	DRrec
-瞪	DRrec
-𧯫	TRrec
-䆸	TRrec
-𠑅	TRrec
 朾	TRrec
 玎	TRrec
 䟓	TRrec
@@ -23829,12 +23813,6 @@ import_tables:
 鑏	NRrec
 䭢	NRrec
 嬣	NRrec
-繃	Prec
-弸	PHrec
-輣	Brec
-棚	Brec
-弸	Brec
-㥊	Brec
 怦	PHrec
 閛	PHrec
 𤘾	PHrec
@@ -23886,6 +23864,31 @@ import_tables:
 嫈	HQrec
 褮	HQrec
 嫈	HQreq
+##RƏŊ
+繃	Prəc
+弸	PHrəc
+輣	Brəc
+棚	Brəc
+弸	Brəc
+㥊	Brəc
+甍	Mrəc
+𣞑	Mrəc
+䉚	Mrəc
+𧂛	Mrəc
+𥌯	Mrəc
+憕	DRrəc
+橙	DRrəc
+瞪	DRrəc
+𧯫	TRrəc
+䆸	TRrəc
+𠑅	TRrəc
+䆵	DRrəc
+噌	TZHrəc
+鏳	DSrəc
+##
+鏗	KQHrec
+摼	KQHrec
+硻	KQHrec
 ##REK
 𥖪	Lrek
 𠕋	TZHrek
@@ -27869,6 +27872,23 @@ import_tables:
 㗧	Teik
 𢲼	Deik
 𡼄	Deik
+堅	KQeic
+鰹	KQeic
+鋻	KQeic
+䌑	KQeic
+鋻	KQeiq
+掔	KQHeic
+菣	KQHeiq
+𥧬	KQHeig
+䵖	KQHeig
+蜸	KQHeig
+䵖	KQHeiq
+㹂	HGeit
+臤	HGeic
+賢	HGeic
+礥	HGeic
+㘋	HGeic
+臔	HGeig
 ###VIŊ
 穴	XQvik	#ɢ 
 坹	XQvik
@@ -27941,6 +27961,21 @@ import_tables:
 茞	GCjic
 䢻	GCjic
 頣	SCjig
+緊	Kjiq
+腎	GCjiq
+𦜌	Kjiq
+𤷌	Kjiq
+𧼒	KHjiq
+𤿳	KHjiq
+臤	KHjiq	#-c
+菣	KHjiq
+𧼒	KHjiq
+𧼒	Gjic
+一	HQjik	100%	#
+弌	HQjik
+壹	HQjik
+印	HQjiq	#
+鮣	HQjiq
 桼	TSHjik	#-g
 漆	TSHjik
 䣛	TSHjik
@@ -27966,9 +28001,6 @@ import_tables:
 # 儭	TSHjiq
 # 瀙	TSHjiq
 # 親	TSHjiq
-一	HQjik	100%	#
-弌	HQjik
-壹	HQjik
 溢	Jjik	#
 鎰	Jjik
 齸	Jjik
@@ -27990,8 +28022,6 @@ import_tables:
 侄	TCjik
 騭	TCjik	#
 實	ZCjik	#
-印	HQjiq	#
-鮣	HQjiq
 晉	TSjiq	#-k?
 搢	TSjiq
 縉	TSjiq
