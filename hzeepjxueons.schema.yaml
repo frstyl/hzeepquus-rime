@@ -129,7 +129,7 @@ speller:
     - abbrev/([A-Z][jxyw])(i|u|ə)([ndztjlr])/$1i$3/  #ii-
     - abbrev/([A-Z][iu])(a|o)([ndzt])/$1a$3/ #ian 元 
     - abbrev/([A-Z][e]?)[aou](v[xhs]|[vwy])/$1a$2/ #av -V -M
-    - abbrev/([A-Z][e]?)(e|u|i|ə)(v[xhs]|[vwy])/$1e$3/ #ev
+    - abbrev/([A-Z])[e]?(e|u|i|ə)(v[xhs]|[vwy])/$1e$3/ #ev
     - abbrev/([A-Z][r])([aeou]|ə)([vwy]|v[xhs])/$1a$3/ #rav
     - abbrev/([A-Z][er]?)[o](v[xhs])/$1u$2/ #euv
     - abbrev/([A-Z][jx])[aeo](v[xhs]|[vwy])/$1e$2/ #iev
@@ -180,7 +180,7 @@ speller:
     - derive/([A-Z])f([aeiouə])/$1o$2/ #二等
     - derive/([A-Z])e(u\w)/$1$2/ #eu vu 一三
     - derive/([A-Z])v([o][jlrndzt])/$1$2/ #von vo 一三
-    - derive/([A-Z])ə(u)/$1$2/ #侯əu u 一三
+    # - derive/([A-Z])ə(u)/$1$2/ #侯əu u 一三
     - derive/([A-Z])e(ə)/$1$2/ #e四等 一三
     - derive/([A-Z]e)[ei]/$1$2/ #e四等 一三
 
@@ -227,9 +227,9 @@ speller:
     - derive/([A-Z])əu([xhs])/$1ov$2/ #ov uv侯
     - derive/([A-Z][jxi])əuv?([xhs])/$1ov$2/ #尤侯iov jov
     - derive/([A-Z][jxi])u([xhs])/$1ov$2/ #
-    - derive/([A-Z])([jxi])əu([xhs])/$1$2ov$3/ #
-    - derive/([A-Z])v(i)əu?([xhs])/$1$2ov$3/ #
-    - derive/([A-Z][jx])iə?uv?([xhs])/$1ov$2/ #幽侯
+    - derive/([A-Z])([jxi])iv([xhs])/$1$2ov$3/ #
+    - derive/([A-Z])v(i)əu([xhs])/$1$2ov$3/ #
+    - derive/([A-Z][jx])iəu([xhs])/$1ov$2/ #幽侯
     - derive/([A-Z][jx])iu([xhs])/$1ov$2/
     - derive/([A-Z])[jxi]ov([xhs])/$1iv$2/ #尤幽侯iv
     # - derive/([A-Z]eiəu)v([xhs])$/$1$2/ #əuv 丩

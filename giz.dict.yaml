@@ -217,16 +217,26 @@ import_tables:
 麫	Meez	%0
 沉	DRxum	0%
 ####異
+𥬸	Dvujh	0%	#朶朵
+㛆	Tvujs	0%
+刴	Tvujs	0%
+桗	Tvujs	0%
+桗	Tvujs	0%
+𨹃	Tvuj	0%
+𨦃	Tvujhs	0%
+挅	Tvujss	0%
+𨹃	Tvujh	0%
+𥬸	TRfuj	0%
 # 両	Ljag	0%
 # 隽	DZyod	#雋
-# 䐪	TSyoj	0%
-# 槜	TSyur	0%
-# 䐪	TSyod	0%
-# 㑺	TSyuz	0%
-# 鎸	TSyon	0%
-# 㷪	TSyod	0%
-# 㝦	TSyuz	0%
-# 晩	Muad	0%
+䐪	TSyoj	0%
+槜	TSyur	0%
+䐪	TSyod	0%
+㑺	TSyuz	0%
+鎸	TSyon	0%
+㷪	TSyod	0%
+㝦	TSyuz	0%
+晩	Muad	0%
 飬	Kwez	0%
 飬	KHwez	0%
 𠢏	KHuoz	0%
@@ -458,10 +468,6 @@ import_tables:
 𢍁	Giəs	0%
 畁	Giə	0%
 畁	Giəs	0%
-𨊢	JXwert	0%
-𨎥	JXwert	0%
-䡺	JXwert	0%
-𨊪	JXwert	0%
 𧌦	Mrac	0%
 肀	Jyut	0%
 # 銒	HGeec	0%	#幵
@@ -554,7 +560,7 @@ import_tables:
 迩	NCjel	0%
 𧧮	XSvac	0%
 𧨆	XSvac	0%
-𦭺	Kxiəuvx	0%
+𦭺	Kxiəvx	0%
 䑕	SCjoh	0%
 𢦔	TSəj	0%
 # 廄	Kiəy
@@ -742,12 +748,17 @@ import_tables:
 𢁺	Hoh
 㳤	DCjuk	#淑
 #####同 形
-####
+####像形
 𠓠	Pjen	#鞭
 𦫷	Kxəv	0%
 𠃾	Kwəx	0%
 𪚨	Kwəx	0%
 𠧷	Jju
+####指事
+####形聲
+####會意
+####叚借
+####轉註
 # ####音
 # 嘴	TSyeh	#觜
 # 𠲿	TSyeh
@@ -961,11 +972,21 @@ import_tables:
 骵	THeih	0%
 躰	THeih	0%
 ### 古 奇 
-𦧚	HGfart	話
+𦧚	HGfart	#話
 𦧵	HGfart
 舙	HGfart
 𢑽	Najx	#𨙻
 𣟎	Najx
+# 㤫
+
+𢞨	XQvirt	#恵
+𢞯	XQvirt
+𢠞	XQvirt
+𢡘	XQvirt
+𢥁	XQvirt
+𦣽	XQvirt
+𦻇	XQvirt	
+ゑ	XQvirt
 ###
 龡	KCHyoj
 𠑵	FBuət
@@ -1381,7 +1402,7 @@ import_tables:
 𭁇	Jjoh	0%	#0x2d047與𮚜
 𭍻	DSvas	0%	#0x2d37b坐
 𠪳	Hoh
-#####
+######
 #####韻書 
 ####音幖
 # p	P
@@ -1582,7 +1603,7 @@ u	eu
 ˌ	SCjec
 .	SCjec
 ‿	SCjec
-#####
+#####借
 ###語气詞
 夫	pa
 无	ma
@@ -1606,7 +1627,7 @@ u	eu
 嗚	hqa
 噫	hqə
 欲	hqjey
-###
+##
 喵	Mxev	#貓
 咪	Mjeh
 噗	PHeuk
@@ -1624,7 +1645,7 @@ u	eu
 父	bah
 母	məh
 ǀə	tsə
-###訓
+####訓
 頁	Jjep	#葉䈎
 篩	SSrej	#簁
 篩	SSxej
@@ -1639,17 +1660,20 @@ u	eu
 混	Kvod	#滾
 聃	Tom	#耽
 率	Lyut	#律
-##
+# 暖	Nvud	#煗㬉
+# 煖	Nvud	#煗㬉
+闖	TZHxag	#撞
+####
 黏	TRxem
 粘	TRxem
-闖	TZHxag	#撞
 蜨	Deep	1%
 另	Leeq
 癌	NGəj
 呆	Təj	#待
 卡	KHrah
 歹	Təl
-###誤
+打	tah
+####誤
 # 厈	TCHjas	0%㡿
 # 乚	HQiəd	0%𠃊
 䎀	XSyut	0%t
@@ -1675,11 +1699,8 @@ u	eu
 搄	Kəc	0%
 縆	Kəq	0%
 ####今
-###俚
-骯髒	hqac tsac
-腌臢	hqac tsac
-腌䐶	hqac tsac
 ###俗 言
+###䛐
 ##
 您	nrxim
 您	nrxih
@@ -1687,7 +1708,12 @@ u	eu
 𠍲	gio
 們	mvon
 麼	mva
+什麼	DCjeh HGat MFuət
+什麼	HGat
 ##
+骯髒	hqac tsac
+腌臢	hqac tsac
+腌䐶	hqac tsac
 乒	pheec	0%
 乓	phac	0%
 乒乓	pheec phac
@@ -1698,6 +1724,7 @@ u	eu
 旮	kra	0%
 旯	lra	0%
 旮旯	kra lra	#角
+旮旯	KQruk
 尕	krah
 屙	hqa
 𡘷	thaw
@@ -1714,7 +1741,8 @@ u	eu
 倆	ljah
 猹	dsra
 瘩	top	#㾑疸
-疙瘩	ke ta
+疙瘩	kə ta
+疙瘩	kət tap
 
 ####近甩	srval
 ###
@@ -1736,7 +1764,7 @@ u	eu
 嗨	həj
 喏	ncjah
 呔	təj
-###聲符
+#####聲符
 
 ###貝
 唄	Par
@@ -1850,6 +1878,14 @@ u	eu
 阢	NGvoj
 ###虫虺
 𩃾	Huəj
+###惠
+𨊢	JXwert	0%	#軎
+𨊪	JXwert	0%
+𨊥	JXwert	0%
+# 叀	JXwert	0%
+𨎥	JXwert	0%
+䡺	JXwert	0%
+𨎥	SZyirt
 ###衞衛
 讏	JXwart
 躛	Hfer
@@ -1857,8 +1893,6 @@ u	eu
 𦝩	JXuur	0%
 𦛂	JXuur	0%
 𭥫	JXuur	0%
-###惠
-𨎥	SZyirt
 ###彙
 彚	JXuər	0%
 ###豙
@@ -1993,15 +2027,19 @@ u	eu
 淘	Dav
 ###𢏚
 𢤉	DRxu
+𥴳	DRxux	0%
+𢄛	DRxux	0%
 ###州# 咒	TCjus	#詶
 ###周
-週	TCju
+週	TCjəv	#周
 碉	Tev
 ###𡿺囟𦥓
 瑙	Naw
 𣳦	NRrov
 硇	NRrov
 # 匘	Naw
+#
+𤝾	Neuvh	#㺁
 ###農
 𥗰	NRrov	#硇
 𥗸	NRrov
@@ -2018,8 +2056,11 @@ u	eu
 穤	Nvas
 懦	Nvas
 糯	Nvas
+###須
+䋶	Syuh	#𦄼
+# 𦄼	Sjos	#宣遇切
 ###秋秌
-𤇫	TSHjəuvx	#秌
+𤇫	TSHjəvx	#秌
 㾭	TZray
 瞅	TZHxuh
 鍬	TSHjev
@@ -2085,11 +2126,13 @@ u	eu
 ###芻
 㥮	TZHraw
 ###笑𦬫
-㗛	Sjoy
-咲	Sjoy
-𠇄	Sjoy
-𥬇	Sjoy	0%
-𠺑	Sjoy	0%
+#
+㗛	Sjay
+咲	Sjay
+𠇄	Sjay
+𥬇	Sjay	0%
+𠺑	Sjay	0%
+𦬦	Sjay	0%
 ###交
 㝔	HQeew
 𩨟	KQHrev
@@ -2344,17 +2387,17 @@ u	eu
 ###朵
 # 躲	Tvah
 跺	Tvas
-#
-㛆	Tvas	0%
-𥬸	Dvah	0%
-桗	Tvas	0%
-𨹃	Tva	0%
-刴	Tvas	0%	#剁
-𨦃	Tvahs	0%
-桗	Tvas	0%
-挅	Tvass	0%
-𨹃	Tvah
-𥬸	TRfa
+#朶
+# 𥬸	Dvujh	0%	#朶朵
+# 㛆	Tvujs	0%
+# 刴	Tvujs	0%
+# 桗	Tvujs	0%
+# 桗	Tvujs	0%
+# 𨹃	Tvuj	0%
+# 𨦃	Tvujhs	0%
+# 挅	Tvujss	0%
+# 𨹃	Tvujh	0%
+# 𥬸	TRfuj	0%
 ###低
 眂	DCjis
 ###疐𤴛
@@ -2387,6 +2430,9 @@ u	eu
 栘	DCee
 茤	Ta
 ###豆
+㤱	Dəus
+㤱	FPHiovh
+##
 # 厨	DRwo
 # 蹰	DRwo
 櫥	DRxo
@@ -2446,7 +2492,10 @@ u	eu
 ###兌
 𣮆	THvas	#毤
 毻	THva
-兊	Dvar	兌	#0%
+#
+兊	Dvur	兌	#0%
+###睿
+𧇖	Jyort	0%
 ###𨼰
 媠	THvah
 ###若
@@ -2580,6 +2629,7 @@ u	eu
 # 鐁	Sji
 ###取
 鯫	DSəuh
+㻓	TZxu
 ###羞
 饈	Sju
 ###𧴪
@@ -2720,6 +2770,7 @@ u	eu
 𡕒	KHfas
 ###咎
 𣓌	Giuh
+###頁
 ###憂𢝊
 𢕶	HQiu
 ###口
@@ -2955,8 +3006,6 @@ u	eu
 蚜	NGra
 蚜	Hra
 伢	NGra
-#####
-𠀀	Ha	#呵
 ###虎虍
 ##慮
 櫖	TRHxox
@@ -3562,9 +3611,7 @@ u	eu
 疍	Dad	#蜑
 ##丹
 坍	THam	#㘱𡉱
-###叀
-##專
-糰	Dvan
+
 ###𦎫
 㥫	Tvon
 ###耑
@@ -3741,13 +3788,17 @@ u	eu
 檫	TZHret
 鑔	TZHret
 擦	TSHat
-##專叀
+###叀
+##專
+叀	TCyon
+##
+磚	TCyon
 剸	TCyon
 瑼	TCyon
 摶	TCyon
 𢮛	DCyoz
-叀	TCyon
-磚	TCyon
+##
+糰	Dvun	#團
 ###產
 剷	TZHred
 𥽽	TZHfed
@@ -4419,7 +4470,6 @@ u	eu
 幀	TRraq
 ###丁
 打	Trag
-打	tah
 疔	Teec
 疔	Nrek
 ###成
@@ -5089,13 +5139,13 @@ u	eu
 㻽	SZyon	#璿
 懏	TSyuz
 #
-䐪	TSyoj	0%
-槜	TSyur	0%
-䐪	TSyod	0%
-㑺	TSyuz	0%
-鎸	TSyon	0%
-㷪	TSyod	0%
-㝦	TSyuz	0%
+# 䐪	TSyoj	0%
+# 槜	TSyur	0%
+# 䐪	TSyod	0%
+# 㑺	TSyuz	0%
+# 鎸	TSyon	0%
+# 㷪	TSyod	0%
+# 㝦	TSyuz	0%
 ###西
 拪	TSHjen	1%
 𢬣	TSHjen	1%
@@ -5141,7 +5191,7 @@ u	eu
 𪱾	Nəil	0%
 你	NRxəh	0%
 弥	Mjəj	0%
-
+######
 #####字書
 ####部
 丷	Pret
@@ -6461,3 +6511,5 @@ u	eu
 # 𦫳	Kfah
 # 𦫳	Kfej
 𡘐	Hees
+龑	NGQram	#巖
+𪚔	NGQram
