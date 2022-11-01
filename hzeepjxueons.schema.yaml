@@ -161,7 +161,7 @@ speller:
     - derive/([A-Z]e?)[au]v(k)/$1a$2/  #avk
     - derive/([A-Z][ijx])[aeo]v(k)/$1a$2/ #iavk
     - derive/([A-Z][ev]?)(e|i|ə)v(k)/$1e$3/ #evk
-    # - abbrev/([A-Z][r])(e|o|i|ə)v(k)/$1e$3/ #revk
+    # - abbrev/([A-Z][r])(i)v(k)/$1e$3/ #revk
     # - abbrev/([A-Z][e])uv(k)/$1u$2/ #uvk
     - derive/([A-Z][ijx])([iu]|ə)v(k)/$1u$3/ #iuvk
     - derive/([A-Z])v([ijx])əv(k)/$1u$2$3/
@@ -226,7 +226,9 @@ speller:
     # - abbrev/([A-Z][ev]?ə)([hs])$/$1j$2/ #ə㞢əj
     # - derive/([A-Z])([ev]?[au])j/$1$2/ #aj 歌
     - derive/([A-Z][ev]?[au])jx$/$1/ #aj vuj  vu va
-    - derive/([A-Z][ev]?[au])j([hs])$/$1$2/ #aj vuj  vu va
+    - derive/([A-Z][ev]?[au])j([xhs])$/$1$2/ #aj vuj  vu va
+    - derive/([A-Z][iujyxw]a)jx/$1/ #aj iaj
+    - derive/([A-Z][iujyxw]a)j([xhs])/$1$2/ #aj iaj
     - derive/([A-Z])([er]u)v([xhs])/$1$2$3/ #皋勹ov rov
     - derive/([A-Z]uu)v([xhs])$/$1$2/ #uuv 孚
     - derive/([A-Z])əu([xhs])/$1ov$2/ #ov uv侯
@@ -277,7 +279,7 @@ speller:
     - derive/(^|')D[SZ](?!$)/dz/
     - derive/(^|')(SZ|ZS|ZZ)(?!$)/sz/
     - derive/(^|')SS(?!$)/s/
-    - derive/(^|')(HG)(?!$)/g/
+    - derive/(^|')(HG|HZ)(?!$)/g/
     - derive/(^|')(JX|XQ|XZ|HZ)(?!$)/x/
     - derive/(^|')JX(?!$)/j/ #邪㠯 喻
     # - derive/(^|')NG(?!$)/ng/
@@ -293,7 +295,11 @@ speller:
     - derive/x$//
     # - derive/(\w)jh$/$1/ #-j
     # - derive/(\w)js$/$1r/
+    - abbrev/(\w)jx$/$j/ #-j
+    - abbrev/(\w)jh$/$1/
+    - abbrev/(\w)js$/$1r/
     - derive/(\w)vh$/$1w/
+    - derive/(\w)vs(k)/$1y$2/
     - derive/(\w)vsk?/$1y/
     # - derive/(\w)l$/$1jh/
     # - derive/(\w)r$/$1js/
@@ -349,7 +355,7 @@ speller:
 
 # # # # # 
     - derive/(^|')([A-Z]+)(?!$)/I/ #聲
-    - derive/(^|')(PH?|B|M)(?!$)/PI/ #聲
+    - derive/(^|')(F?(PH?|B)|MF?)(?!$)/PI/ #聲
     - derive/(^|')(|TSSH?|DZZ|T[CR]?H?|D[CR]?|N[RC]?)(?!$)/TI/ #聲
     - derive/(^|')(T[SZ]H?|D[SZ])(?!$)/TSI/ #聲
     # - derive/(^|')(S[SZ]|ZS|ZZ|S)(?!$)/SI/ #聲
@@ -482,7 +488,7 @@ punctuator:
     '-' : ['-', －,  '−', '∖', ‐, ‑, ‒, –, —, ―] #u2212 u2216
     '_' : ["_", ——]
     '+' : ['+', "＋", "∫", "∑", "⊕", "⨋", ∓, ∔]
-    '=' : ['=', "＝", "≜", "≝", "≔", "≔", "≟", "≠", "≡", "≢", "≣", 々, 〃 ]
+    '=' : ['=', "＝", "≜", "≝", "≔", "≔", "≟", "≠", "≡", "≢", "≣", 々, 〃 ,⇋, ⇌, ↔, ↕, ⇄, ⇅, ⇆, ⇔]
     '[' : ["[", ｢,「, 【, 〔, ［ ]
     ']' : ["]", ｣, 」, 】, 〕, ］ ]
     '{' : ["{", 『, 〖, ｛ ]
