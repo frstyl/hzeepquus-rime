@@ -166,7 +166,7 @@ speller:
     # - abbrev/([A-Z][r])(i)v(k)/$1e$3/ #revk
     # - abbrev/([A-Z][e])uv(k)/$1u$2/ #uvk
     - derive/([A-Z][ijx])([iu]|ə)v(k)/$1u$3/ #iuvk
-    - derive/([A-Z])v([ijx])əv(k)/$1u$2$3/
+    - derive/([A-Z])([ijx])əv(k)/$1u$2$3/
     - derive/([A-Z][r])[aeuo]v(k)/$1u$2/ #ruvk
     - abbrev/([A-Z][r])[aeuo]v(k)/$1u$2/ #ovk
 
@@ -233,7 +233,7 @@ speller:
     - derive/([A-Z][ev]?[au])j([xhs])$/$1$2/ #aj vuj  vu va
     - derive/([A-Z][iujyxw]a)jx?$/$1/ #aj iaj
     - derive/([A-Z][iujyxw]a)j([xhs])/$1$2/ #aj iaj
-    - derive/([A-Z][evjyxwrl]i)j$/$/ #ij
+    - derive/([A-Z][evjyxwrl]i)j$/$1/ #ij
     - derive/([A-Z])([er]u)v([xhs])/$1$2$3/ #皋勹ov rov
     - derive/([A-Z]uu)v([xhs])$/$1$2/ #uuv 孚
     - derive/([A-Z])əu([xhs])/$1ov$2/ #ov uv侯
@@ -275,7 +275,7 @@ speller:
     # - derive/(^|')SS(?!$)/s/
     - derive/(^|')(HG|HZ)(?!$)/g/
     - derive/(^|')(JXQ?|XQ|XZ|HZ)(?!$)/x/
-    - derive/(^|')JX?Q?(?!$)/j/ #邪㠯 喻
+    - derive/(^|')(JQ?|JX)(?!$)/j/ #邪㠯 喻
     - derive/(^|')([XH]S|SX|H)(?!$)/h/
     - derive/(^|')([XH]Z|ZX|XQ|HG)(?!$)/E/
     - derive/(^|')HQ(?!$)/A/
