@@ -86,6 +86,7 @@ import_tables:
 𫰑	KCHyoj	0%
 𠷕	KCHyoj
 𪛐	KCHyoj	0%
+𠋮	DCjuh	#𦓃
 𨊊	Lavk	#樂
 𣡳	THar	#太
 𠑵	BFuət	#佛
@@ -196,13 +197,13 @@ import_tables:
 𩇗	THein
 靔	THein
 靝	THein
-#地	Dxer
-坔	Dxer
-埅	Dxer
-埊	Dxer
-𡍑	Dxer	0%
-𤅴	Dxer
-𪒉	Dxer
+#地	Djir
+坔	Djir
+埅	Djir
+埊	Djir
+𡍑	Djir	0%
+𤅴	Djir
+𪒉	Djir
 𠄋	Gxan	#乾
 𣦖	KQan
 𣉙	KQaz
@@ -867,9 +868,9 @@ u	eu
 呸	PHxi
 苤	PHxi
 ###咅㕻
-碚	Bəj
-賠	Bvoj
+賠	Bvoj	#僃
 焙	Bvor
+碚	Bəj
 𤗏	Bəj
 # 㯁	Bəj
 # 菩	Bəl
@@ -912,8 +913,10 @@ u	eu
 𠙻	PFiuh	0%
 𬼈	PFiuh	0%
 ###朋
-𢐴	Bəc
+𩿾	Bəc	0%
+# 𢐴	Bəc
 𧱶	Bəc
+䣙	Bə
 ##崩
 嘣	Pəc
 鏰	Pəq
@@ -1538,6 +1541,9 @@ u	eu
 𤦦	Pran
 𤼬	Pran
 搬	Pvan
+###棥
+###䋣
+###煩
 ###番
 𤃳	PHuan
 䪤	Buan
@@ -1861,6 +1867,7 @@ u	eu
 ###
 𩽁	Pxev
 ###少M-
+𢆽	Mjey
 緲	Mjew
 仯	TSSHraw
 𨈘	SSraw
@@ -1897,6 +1904,14 @@ u	eu
 𢄔	Tar	0%
 𢅊	Tar	0%
 𭘧	Tar	0%
+###對
+对	Tvorp	0%
+対	Tvorp	0%
+𭔸	Tvorp	0%
+𭔹	Tvorp	0%
+𭔾	Tvorp	0%
+懟	Dvor
+###𠂤
 ###奈
 倷	Nəj
 ###凷
@@ -1959,7 +1974,6 @@ u	eu
 𫤀	HGvor	0%
 𧗏	HGvor	0%
 𡯺	Dvoj	0%	#尵
-###𠂤
 ###歸
 皈	Kuəj
 帰	Kuuj	0%
@@ -2166,13 +2180,25 @@ u	eu
 ###疐𤴛
 𨇈	TRxis
 𢷐	TRxis
-###隓
+###隓𢀡隋
+𢀡	XSyoj
 䙃	Dvas
+𢣝	Dvujh	0%	#惰
+𢣖	Dvujh	0%
+𢢠	Dvujh	0%
+𢡢	Dvujh	0%
+𢞑	Dvujh	0%
+𡡙	Dvujh	0%
+㯐	THvujh
+㰐	THvujh
+椭	THvujh
+楕	THvujh
 ###它
 砣	Da
 鴕	Da
 坨	Da
 ###也?它
+地	Deer	#集韻
 牠	THa	1%
 祂	THa	1%
 ##
@@ -2551,12 +2577,6 @@ u	eu
 # 鬐	Gxi
 # 䅲	Gxi
 # 愭	Gxi
-###𡕒
-# 𡕒	KHfah
-𡕒	KHfas
-#
-# 㐄	KHQfah
-# 㐄	KHQfas
 ###咎
 𣓌	Giuh
 #
@@ -2587,9 +2607,9 @@ u	eu
 ###奇
 埼	Gxe
 ###示
-𧵋	ZCjir	1%
+𧵋	ZCjis	1%
 # 祁	Gxi
-𡭕	ZCjir	0%
+𡭕	ZCjis	0%
 ###禾
 ##科
 嵙	KHva
@@ -2627,6 +2647,17 @@ u	eu
 𠳊	KHa
 ##河
 菏	Ka
+###𡕒-aj
+㐄	KHQfal
+㐄	KHQfar
+#
+𥫀	Hfaj	0%
+𥫇	Hfaj	0%
+𡁑	Hfaj	0%
+##夸-x
+𧿋	KHfas	#跨
+𡗢	KHfax
+𧧳	KHfax
 ##阿
 屙	hqa
 婀	HQa
@@ -2915,6 +2946,17 @@ u	eu
 𢑜	DRxux	0%
 𥴳	DRxux	0%
 𤩉	DCjuk	0%
+夀	DCjuh	0%	#壽
+# 𠋮	DCjuh
+𡔺	DCjuh	0%
+𡔽	DCjuh	0%
+𡭏	DCjuh	0%
+𤕋	DCjuh	0%
+𦓂	DCjuh	0%
+# 𦓃	DCjuh	0%
+𦓆	DCjuh	0%
+𧈙	DCjuh
+𠭵	DRxux	0%	#𠼡
 ###州# 咒	TCjus	#詶
 㖄	TCjux
 #
@@ -3204,7 +3246,7 @@ u	eu
 ###隹
 趡	TSjey
 𨾮	Syuj	0%	#奞
-###
+###崔
 ###兆
 朓	THRxey
 脁	THeev
@@ -3608,6 +3650,15 @@ u	eu
 ###𠪋厚
 𠩰	HGəuh
 𣆉	HGəuh
+###叓
+###𠭏事
+㕝	DZSxəs	0%
+亊	DZSxəs	0%
+叓	DZSxəs	0%
+𠁱	DZSxəs	0%
+𠫺	DZSxəs	0%
+𠭆	DZSxəs	0%
+𤔇	DZSxəs	0%
 ###㞢
 峕	DCjə	0%
 𡳿	TCjəx
@@ -4091,20 +4142,26 @@ u	eu
 ###有
 𧆘	JXviəs
 ###又
-###亏
+###亏于
 㢪	HQo
 㢪	KHo
 圩	KHuo
 # 污	HQo
 #
 # 𠀒	HGo	0%
+圩	JXuox	#与圬別
 ###夸
+𧥢	KHfax	#誇
+𧩊	KHfax	0%
+𮘊	KHfax	0%
+趶	KHfas
+𧿉	KHfas
 垮	KHfah
 ##
 # 樗	THRxo
 ###去
-刦
-刧
+刦	Kiap	2%
+刧	Kiap	2%
 刼	Kiap	2%
 𠉨	Kiap	0%
 𠛗	Kiap	0%
@@ -4585,13 +4642,15 @@ u	eu
 ###厃
 ##詹
 譫	TCap
-###𦐇
+###𦐇翕?
 溻	THeap
 搨	THap
 溻	THap
 塌	THap
 #
 𢴄	Tap	0%	#搨
+###習
+㦻	SZjip	#𧟟擊
 ###疊𤴁
 㲲	Deep
 𣱃	Deep
@@ -4845,8 +4904,6 @@ u	eu
 # 𪉷	Dəm
 𫟛	Dəm	0%
 𮗂	Dəm	0%
-###習
-㦻	SZjip	#𧟟擊
 ###立
 昱	Jjəp	#立 䗑-ip
 煜	Jjəp
@@ -5166,6 +5223,7 @@ u	eu
 ツ	TCHyon
 ###屯
 炖	Dvoz
+𤆚	Dvoz	0%
 𪎶	THvon
 旽	THvon
 礅	Tvon
@@ -5195,14 +5253,6 @@ u	eu
 𡥑	SSruq	#㦼
 ##段
 𩏇	THvad
-###𦍒羍
-##達
-韃	THat
-鐽	Dat
-噠	Tat
-墶	Dat
-#
-# 逹	Dat	0%
 ###殿
 癜	Teez
 ###禼
@@ -5657,10 +5707,10 @@ u	eu
 ###𠨧
 #
 # 䙲	HGven
-䙲	HGven	0%	䙴
+䙲	HGven	0%	#䙴
 㒨	Sjen
 ###殺
-剎	TSSHrat
+剎	TSSHrat	0%
 摋	SSxet
 #
 𠮁	SSret	0%
@@ -5929,6 +5979,18 @@ u	eu
 ##愛-r
 嬡	HQər
 噯	HQər
+###斦質
+𧸲	TCjit
+儨	TCjit
+𨟊	TCjit
+𧓳	TCjit	#蛭
+𩍵	tjit	#搜眞玉鏡
+𡦫	tjit
+𬘋	tjit
+𨐿
+#
+筫	TCjit
+貭	TCjit	0%
 ###斤
 庍	Hiəz
 ##欣
@@ -5991,6 +6053,39 @@ u	eu
 ##太泰
 忲	THar
 㥭	THar
+###𦍒羍-大
+𩍠	THat
+𨔶	Dat
+𨂨	THat
+𣿔	THat
+##達
+韃	THat
+鐽	Dat
+噠	Tat
+墶	Dat
+##幸?
+𦂡	NGxep
+𨵉	NGioh
+#
+挞	THat
+𢪂	THat
+# 韃	THat
+𢹗	THat
+𢺂	THat
+𢽞	THat	0%
+𢾴	THat	0%
+𨘈	THat	0%
+𩋅	THat	0%
+𩌉	THat
+𩌘	THat	0%
+𥀀	THat
+𰤭	THat	0%
+𨂛	THat	0%
+𨔬	Dat	0%
+𨘝	Dat	0%
+𨖫	Dat	0%
+𨔂	Dat	0%
+逹	Dat	0%
 ###敻
 夐	Hvez	0%
 𡕱	Hvez	0%
@@ -6319,6 +6414,9 @@ u	eu
 𤃁	SCjəp
 㫫	Heez	0%
 ###夭
+鴁	HQaw
+𨾘	HQaw
+𣨘	HQxav
 祅	Heen
 ###乙
 #
@@ -6334,6 +6432,8 @@ u	eu
 鞍	HQan
 ###安-m
 垵	HQeab	#埯
+###㫃
+𭤨	HQiad
 ###晏
 ##匽
 匽	HQiaz
@@ -6636,6 +6736,7 @@ u	eu
 𨱘	DRxac	0%
 𭀟	DRxac	0%
 ###帝
+蹢躅	DRxek DRxok	#踟躕 跢跦 歭䠧 𥲅箸 𥲅䠧 躊躇
 # 𢝃	TCjer
 # 𠶷
 𥩶	Teek
@@ -6963,6 +7064,19 @@ u	eu
 #
 𣦽	Sjuk	0%
 𡖕	Sjuk	0%
+###族
+㞺	DZeuk
+𥎩	DZeuk
+𥎼	DZeuk
+𥎽	DZeuk
+𥏁	DZeuk
+𫞀	DZeuk
+𮁽	DZeuk
+𰦚	DZeuk
+𱭻	DZeuk
+𱵉	DZeuk
+𱵌	DZeuk
+𲀫	DZeuk
 ###就
 𥷛	TSjuk
 𩀻	DZjusk	#鷲
@@ -7322,6 +7436,29 @@ u	eu
 ###局
 焗	Giok
 𩭊	KHiok
+###匊
+䪕	Kiuk
+毱	Kiuk
+陱	Kiuk
+𠮑	Kiuk
+𡖁	Kiuk	0%
+𣮓	Kiuk	0%
+𣮕	Kiuk
+𣮥	Kiuk	0%
+𣯲	Kiuk	1%
+𥷥	Kiuk
+𩊸	Kiuk	0%
+𩌽	Kiuk
+𩍔	Kiuk
+踘	Kiuk
+毩	Kiuk	0%
+###𥷚𥱩𠤄訇
+𠣮	KHiuk	0%
+# 鞫	Kiuk
+𩍸	Kiuk
+𠤄	Kiuk	0%
+𠣮	Kiuk	0%
+𣮴	Kiuk	0%
 ###畺彊
 彊	Kiaq
 繦	Kiag
@@ -7634,6 +7771,8 @@ u	eu
 㬲	HQjek
 #
 㳑	HQjek
+𧨦	ZCjisk	0%
+𧫺	ZCjisk	0%
 ####印
 𠘄	HQjiq	#印
 ###卬
@@ -8319,6 +8458,7 @@ u	eu
 碳	THaz	#C 6 carbonium
 氮	Daf	#N 7 nitrogenium azote 
 氧	Jjag	#O xygen
+氱	Jjag
 氟	Puət	#F fluorine
 氖	Nəl	#Ne neon
 鈉	Neap	
@@ -8808,7 +8948,7 @@ u	eu
 圕	tvan #書
 𡈨	NGiok
 ##回
-𫭐	Lioh
+𫭐	Ljoh
 ###員
 ###貝
 ###邑
@@ -8980,12 +9120,14 @@ u	eu
 ###臥
 ###身
 𨈖	Txif	#五音篇海 當禁切
+躾	mxəh
 ###㐆
 ###衣
 褂	Kfes
 ###裘
 ###老
 ###毛
+㲎	Lyux	#氀
 ###毳
 ###尸
 ###尺
@@ -9088,6 +9230,7 @@ u	eu
 ###鼠
 𪖋	DZeet
 鬛	Ljep
+鼰	Neez
 ###能
 ###熊
 ###火
@@ -9252,6 +9395,9 @@ u	eu
 ###瓦
 ###弓
 弫	Tjid
+彁	ka	#无意義
+彁	Giac	1%	#彊
+
 ###弜
 ###弦
 ###系
@@ -9300,7 +9446,9 @@ u	eu
 ###畕
 ###黃
 ###男
+##
 𪟧	Nom
+##耜耕
 ###力
 ###劦 
 ######
