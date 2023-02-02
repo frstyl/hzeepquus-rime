@@ -210,11 +210,11 @@ speller:
 
     - derive/(^|')([PB]|PH|M)v([aei]|ə)/$2$3/ #幫組 一三
     # - derive/([PB]|PH|MF?)u([aei]|ə)/$1$2/ #幫組 一三
-    - derive/([PB]F?|PHF?|MF?)u([aeiouə])/$1i$2/ 
+    - derive/([PB]F?|PHF?|MF?)u([aeiouə][cqgkmbfp])/$1i$2/ 
     # - derive/([PB]|PH|MF?)y/$1j/ 
     # - derive/([PB]|PH|MF?)w/$1x 
     # - derive/(XQ|JX)u([aeoiə])/$1i$2/
-    - derive/(^|')Jj(?!$)/j/
+    - derive/(^|')JQ?j(?!$)/j/ #㠯母
     # - abbrev/JXu([aeiou]|ə)/x$1/
     - derive/(^|')JX[uw]([aeiouə])/x$2/ #雲母
     - abbrev/(XQ)v/$1/ #雲皇母
@@ -273,6 +273,8 @@ speller:
     # - derive/(^|')D[SZ](?!$)/dz/
     - derive/(^|')(SZ|ZS|ZZ)(?!$)/sz/
     - derive/(^|')(TS|DZ|S)S?(H?)(?!$)/\L$2\L$3/
+    - derive/(^|')T[TZ](H?)(?!$)/ts$2/
+    - derive/(^|')D[ZS](?!$)/dz/
     # - derive/(^|')SS(?!$)/s/
     - derive/(^|')(HG|HZ)(?!$)/g/
     - derive/(^|')(JXQ?|XQ|XZ|HZ)(?!$)/x/
