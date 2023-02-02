@@ -6053,34 +6053,34 @@ import_tables:
 褘	XSuəj
 諱	XSuər
 韋	JXuəj
-圍	JXuəj	#ɢʷ
-囗	JXuəj
-幃	JXuəj
-闈	JXuəj
-𩎯	JXuəj
-違	JXuəj
-湋	JXuəj
-鍏	JXuəj
-𢾁	JXuəj
-韙	JXuəl
-煒	JXuəl
-暐	JXuəl
-偉	JXuəl
-瑋	JXuəl
-椲	JXuəl
-韡	JXuəl
-𩘚	JXuəl
-媁	JXuəl
-愇	JXuəl
-鍏	JXuəl
-𢯷	JXuəl
-緯	JXuər
-䙟	JXuəj
-潿	JXuəj
-𧝕	JXuəj
-𠆎	JXuəj
-圍	JXuər	1%
-葦	JXuəl
+圍	XZuəj	#ɢʷ
+囗	XZuəj
+幃	XZuəj
+闈	XZuəj
+𩎯	XZuəj
+違	XZuəj
+湋	XZuəj
+鍏	XZuəj
+𢾁	XZuəj
+韙	XZuəl
+煒	XZuəl
+暐	XZuəl
+偉	XZuəl
+瑋	XZuəl
+椲	XZuəl
+韡	XZuəl
+𩘚	XZuəl
+媁	XZuəl
+愇	XZuəl
+鍏	XZuəl
+𢯷	XZuəl
+緯	XZuər
+䙟	XZuəj
+潿	XZuəj
+𧝕	XZuəj
+𠆎	XZuəj
+圍	XZuər	1%
+葦	XZuəl
 ##UUJ VJUJ 
 歸	Kuuj
 㱕	Kuuj
@@ -13705,15 +13705,7 @@ import_tables:
 嶮	Hxab
 儉	Gxab
 嬐	NGxab
-𢁮	Gxam
-黔	Gxam
-鳹	Gxam
-雂	Gxam
-鈐	Gxam
-𨦄	KHxam
-𩒯	KHxab
-𩑳	KHxab
-炎	JXxam
+炎	JXxam	#?ɢ?L
 燁	JXxap
 爗	JXxap
 皣	JXxap
@@ -13727,6 +13719,14 @@ import_tables:
 砭	Pxof
 𪀐	Gxop
 𥐗	Pxom
+𢁮	Gxom
+黔	Gxom
+鳹	Gxom
+雂	Gxom
+鈐	Gxom
+𨦄	KHxom
+𩒯	KHxob
+𩑳	KHxob
 芡	Gxob
 𢜩	KHxom	#?A?O
 羬	Gxom
@@ -16518,13 +16518,13 @@ import_tables:
 䁔	XSuad
 𧡩	XSuad
 楥	XSuaz
-爰	JXuan	#ɢ
-援	JXuan
-鶢	JXuan
-媛	JXuan
-蝯	JXuan
-猨	JXuan
-𩔃	JXuad
+爰	XZuan	#ɢ
+援	XZuan
+鶢	XZuan
+媛	XZuan
+蝯	XZuan
+猨	XZuan
+𩔃	XZuad
 曰	JXuat	99%	#?
 𡩭	JXuat
 粵	JXuat
@@ -16719,14 +16719,14 @@ import_tables:
 絭	KHuoz
 韏	KHuoz
 𧯦	Guod
-袁	JXuon	#ɢ員〇
-園	JXuon
-猿	JXuon
-轅	JXuon
-榬	JXuon
-溒	JXuon
-遠	JXuod
-遠	JXuoz
+袁	XZuon	#ɢ員〇
+園	XZuon
+猿	XZuon
+轅	XZuon
+榬	XZuon
+溒	XZuon
+遠	XZuod
+遠	XZuoz
 ##A?O? RAN
 月	NGuat
 刖	NGuat
@@ -23288,18 +23288,18 @@ import_tables:
 狂	Guaq
 汪	HQuag
 枉	HQuag
-王	JXuac	99%	#ɢ
-𠙻	JXuac
-彺	JXuac
-蚟	JXuac
-𩵭	JXuac
-旺	JXuaq
-㤮	JXuaq
-迋	JXuaq
-王	JXuaq
-往	JXuag
-暀	JXuag
-暀	JXuaq
+王	XZuac	99%	#ɢ
+𠙻	XZuac
+彺	XZuac
+蚟	XZuac
+𩵭	XZuac
+旺	XZuaq
+㤮	XZuaq
+迋	XZuaq
+王	XZuaq
+往	XZuag
+暀	XZuag
+暀	XZuaq
 怳	XSuag	#M?V?S
 況	XSuaq
 况	XSuaq	0%
@@ -23330,12 +23330,12 @@ import_tables:
 嬳	HQuak
 彠	HQuak
 臒	HQuak
-𧅚	JXuak	#ɢ
-䢲	JXuak
-籆	JXuak
-𧤽	JXuak	#籆
-籰	JXuak
-𥸘	JXuak
+𧅚	XZuak	#ɢ
+䢲	XZuak
+籆	XZuak
+𧤽	XZuak	#籆
+籰	XZuak
+𥸘	XZuak
 矆	HSuak	#VS? w̥
 䂄	HSuak
 彏	HSuak
@@ -25204,7 +25204,7 @@ import_tables:
 𨍺	Gxek
 ###WEŊ
 ##WEŊ
-榮	JXwec	#ɢ
+榮	JXwec	#營?L
 瑩	JXwec
 禜	JXwec
 禜	JXweq
