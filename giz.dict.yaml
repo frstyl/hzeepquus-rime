@@ -12,6 +12,7 @@ import_tables:
 〇	JXwon	#員
 #######指事
 卍	Muaz	#萬
+卐	Muaz
 ####
 ↑	DCjag
 ↓	HGrah
@@ -56,8 +57,6 @@ import_tables:
 𥤶	PHFjir
 𥧔	PHFjir	0%
 𥥓	PHFjir
-歪	Hfaj	#竵
-歪	HQfoj	#烏乖切崴
 軆	THeih	1%
 𩪆	THeih	1%
 𨉦	THeih	1%
@@ -302,13 +301,14 @@ import_tables:
 ####合字
 𱍤	Pvət DCjeh
 奀	Pvət Dar
-奀	deug	#音動
+奀	Deug	#音動
 嫑	Pjey
 孬	nrav
-孬	hfer	#呼怪切
-𨱥	hqreh	#矮
-𧗩	lap	#音臘
-# 歪
+孬	Hfer	#呼怪切
+𨱥	HQreh	#矮
+𧗩	Lap	#音臘
+歪	Hfaj	#竵
+歪	HQfoj	#烏乖切崴
 甭	Bəc
 䬩	TSSrəj	#齋
 冇	Maw
@@ -1539,8 +1539,13 @@ u	eu
 笸	PHvah
 𡶅	PHva
 ###皮
+玻瓈	PHvajx Leij
 #
-𡰻	Bxaj	#皮
+𤿌	Bxajx	0%
+𤿤	Bxajx	0%
+𠬱	Bxajx	0%
+𡰻	Bxajx
+𣪉	Bxajx	0%
 ##波
 啵	Pva
 菠	Pva
@@ -1967,6 +1972,7 @@ u	eu
 𰆉	NGQfort	2%	#𦖥
 𠜐	KHfar
 欳	KHQfort	#喟
+𢽋	KHQfort	0%
 ##
 𩕕	NGQfort
 𦗿	NGQfort	2%
@@ -2139,7 +2145,7 @@ u	eu
 ヱ	XQvirt	1%
 ###衞衛
 讏	JXwart
-躛	Hfer
+# 躛	JXwart
 ###胃𦞅
 猬	JXuur
 #
@@ -2484,6 +2490,8 @@ u	eu
 ###惢
 惢	TSje
 ###沙
+𡋷	SSraj	1%
+𣲓	SSraj	0%
 硰	TSvah
 痧	SSraj
 ###
@@ -2621,6 +2629,8 @@ u	eu
 # 䅲	Gxi
 # 愭	Gxi
 ###咎
+𠧨	Giuh
+𰇌	Giuh	0%
 𣓌	Giuh
 #
 𡅦	KQuv	#鼛
@@ -2701,8 +2711,8 @@ u	eu
 埼	Gxe
 𫮍	Gxe	1%
 𦖊	KHxex
-竒	Gxaj	1%
-竒	Kxaj	1%
+竒	Gxajx	1%
+竒	Kxajx	1%
 𱆟	Gxex	#鬾
 𮪍	GGxajx	1%
 𠋣	HQxajh	1%
@@ -3002,6 +3012,8 @@ u	eu
 銱	Teey
 ##
 屌	Teiw	0%	#鳥
+###寽
+寽	Lyot
 ###聿肈
 肇	DRxew	#肈
 ###
@@ -3420,6 +3432,8 @@ u	eu
 # 𩫕	HGav
 # 𩫚	HGav
 𩫞	HGav
+###好
+𡥆	Heuvh
 ###鑿𣫞𥽿
 𥽦	TSavk	0%
 𪙙	TSavk	0%
@@ -4374,6 +4388,11 @@ u	eu
 ###叚
 𢱈	Kras
 𦎮	Kra
+𱯣	HGrax	0%
+𤖰	KQrah	0%
+𬻷	KQrah	0%
+𭆬	KQrah	0%
+𭮭	KQrah	0%
 ##家豭
 傢	Kra	1%
 宊	Krax	0%
@@ -4601,6 +4620,8 @@ u	eu
 够	Kəus
 夠	Kəus
 𪓟	Kəu
+𢼃	KQəuh	0%	#敂
+𢼒	KQəuh
 ##
 鈎	Kəu
 #
@@ -4827,7 +4848,8 @@ u	eu
 𦐞	Jjer	1%
 𪣅	Deep
 𢺿	SCji
-屜	THees	#屟
+屜	THees	#屟𡲕
+屉	THees
 䄁	Jjer
 ##枼
 枽	Jjep	0%
@@ -5367,6 +5389,13 @@ u	eu
 ###展㠭
 囅	THRxed
 碾	NRxed
+蹍	TRxed
+𨃨	TRxed
+𧿸	TRxed	0%
+###㞋
+𠬝	NRxed	0%
+𡰫	NRxed
+𥑊	NRxed
 ###失
 
 ###至
@@ -6940,6 +6969,11 @@ u	eu
 # 𤡵	Leət
 ###閵𨳌
 躪	Ljiz
+###夕
+###席
+𠩌	SZjak	0%
+𥔆	SZjak	0%
+𥱊	SZjak
 ###亦𡗕
 洂	Jjak
 ##
@@ -9109,6 +9143,7 @@ u	eu
 ###臤
 ###臣
 ###殳
+𣪉	Gxip
 ###殺
 ###𠘧dcyu	几
 ###寸

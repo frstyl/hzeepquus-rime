@@ -1000,6 +1000,7 @@ import_tables:
 㗿	Hrar
 魦	SSraj
 砂	SSraj
+𣲡	SSraj
 紗	SSraj
 沙	SSraj
 沙	SSrar
@@ -1674,7 +1675,7 @@ import_tables:
 𠥸	LSeex
 髢	LZees	#LS
 忚	Heex
-𡲕	LSees	#LS
+𡲕	THees	#LS
 𥱻	LSees	#LS
 ##OEJ
 臡	Neej
@@ -9407,6 +9408,7 @@ import_tables:
 㦣	JXwart
 讆	JXwart
 𤜂	JXwart
+躛	JXwart
 ##WUR WUKS WUTS VRJOR
 綴	TRwort
 醊	TRwort
@@ -18610,11 +18612,11 @@ import_tables:
 牷	DZyon
 䀬	DZyon
 荃	TSHyon
-拙	TCyot
-炪	TCyot
-䂐	TCyot
-䪼	TCyot
-䖦	TCyot
+拙	KCyot
+炪	KCyot
+䂐	KCyot
+䪼	KCyot
+䖦	KCyot
 𣟳	SZyon
 還	SZyon	1%
 𡣱	HQyon
@@ -18809,9 +18811,6 @@ import_tables:
 𤫣	NGxad
 甗	NGxad
 甗	NGxaz
-㞋	NRxad
-𨋚	NRxad
-紾	TRxad
 㢟	LSRxan	#延LS
 脠	LSRxan
 梴	LSRxan
@@ -18885,6 +18884,9 @@ import_tables:
 搌	THRxed
 輾	NRxez
 碾	NRxez
+㞋	NRxed
+𨋚	NRxed
+紾	TRxed
 哲	TRxet
 喆	TRxet
 𡕇	TRxet
@@ -24762,6 +24764,7 @@ import_tables:
 蹠	TCjak
 䗪	TCjak
 席	SZjak
+𠩛	SZjak
 蓆	SZjak
 炙	TCjak
 葃	DZjak
