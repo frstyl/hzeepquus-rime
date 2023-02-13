@@ -289,7 +289,7 @@ speller:
     - derive/(^|')(HQ)(?=(ə|[a-z]))/hq/
     - derive/(^|')(K[CQ]?)(?=(ə|[a-z]))/k/
     - derive/(^|')(KCH|KHQ?)(?=(ə|[a-z]))/kh/
-    - derive/(^|')(HG|HZ|G)(?=(ə|[a-z]))/g/
+    - derive/(^|')(HG|HZ|GC?)(?=(ə|[a-z]))/g/
     - derive/(^|')([XH]S|SX|H)(?=(ə|[a-z]))/h/
 
     - derive/(^|')(JXQ?|XQ|XZ|HZ|X)(?=(ə|[a-z]))/x/

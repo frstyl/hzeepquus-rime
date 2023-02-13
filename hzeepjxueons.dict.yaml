@@ -402,7 +402,7 @@ import_tables:
 瘰	Lvujh
 摞	Lvujs
 𦿌	Lvujx
-蠡	Lvujx
+蠡	Lvujx	#瓠瓢
 𤼠	Lvujh
 卵	Lvujh
 卝	Lvujh
@@ -1695,7 +1695,7 @@ import_tables:
 𩽵	Leel
 欚	Leel
 劙	Leel
-蠡	Leel
+蠡	Leel	#蠡吾縣
 𥯵	Leel
 劙	Leer
 ##OER OEKS OETS
@@ -2741,24 +2741,8 @@ import_tables:
 丽	Ljex
 邐	Ljeh
 㿛	Ljes
+峛	Ljex	#邐
 ##JEJ
-𤿎	PHFjej
-仳	PHFjel
-䚹	PHFjel
-吡	PHFjel
-𪌈	Bjej
-紕	Bjej
-䍘	Mjej
-𦊮	Mjej 0%
-𥹄	Mjej
-𨤐	Mjej 0%
-冞	Mjej
-麊	Mjej
-敉	Mjel
-侎	Mjel
-徙	Sjel	#尐
-𢓊	Sjel	#尐
-𢇌	Sjel	#𠈈佌
 𠈈	Sjel	#佌囟
 𠈈	TSHjel
 #寘	TCjer
@@ -2772,38 +2756,9 @@ import_tables:
 觶	TCjej
 觶	TCjer
 臡	NCjej
-离	Ljej
-離	Ljej
-璃	Ljej
-醨	Ljej
-𪖂	Ljej
-樆	Ljej
-𪅆	Ljej
-縭	Ljej
-褵	Ljej
-䅻	Ljej
-漓	Ljej
-㷰	Ljej
-黐	Ljej
-𢟢	Ljej
-謧	Ljej
-篱	Ljej
-籬	Ljej
-蘺	Ljej
-䍦	Ljej
-㰚	Ljej
-灕	Ljej
-𧕮	Ljej
-攡	Ljej
-𢥗	Ljej
-離	Ljer
-劙	Ljej	#?
-蠡	Ljej
+劙	Ljajx	#?
+蠡	Ljajx
 鵹	Ljej
-𥶾	Ljel
-㸚	Ljel
-峛	Ljel
-罹	Ljej
 ##JER JEKS JETS
 臂	Pjesk	#ks
 譬	PHFjesk
@@ -2837,6 +2792,35 @@ import_tables:
 珕	Ljesp
 懘	TCHjah	#?
 ##JAJ 歌
+罹	Ljajx
+离	Ljaj
+離	Ljaj
+璃	Ljaj
+醨	Ljaj
+𪖂	Ljaj
+樆	Ljaj
+𪅆	Ljaj
+縭	Ljaj
+褵	Ljaj
+䅻	Ljaj
+漓	Ljaj
+㷰	Ljaj
+黐	Ljaj
+𢟢	Ljaj
+謧	Ljaj
+篱	Ljaj
+籬	Ljaj
+蘺	Ljaj
+䍦	Ljaj
+㰚	Ljaj
+灕	Ljaj
+𧕮	Ljaj
+攡	Ljaj
+𢥗	Ljaj
+離	Ljajs
+徙	Sjajh	#尐
+𢓊	Sjajh	#尐
+𢇌	Sjajh	#𠈈佌
 詈	Ljajs
 㢋	TCHjajh	#多?
 侈	TCHjajh
@@ -2918,9 +2902,25 @@ import_tables:
 貤	Jjajs
 ##?
 #JIJ?
-庀	PHFjil
-疕	PHFjil
+庀	PHFjel
+疕	PHFjel
+𤿎	PHFjej
+仳	PHFjel
+䚹	PHFjel
+吡	PHFjel
+𪌈	Bjej
+紕	Bjej
+䍘	Mjej
+𦊮	Mjej 0%
+𥹄	Mjej
+𨤐	Mjej 0%
+冞	Mjej
+麊	Mjej
+敉	Mjel
+侎	Mjel
 ##JƏJ -R
+𥶾	Ljəl
+㸚	Ljəl
 𢏏	Mjəj
 𡝡	Mjəj
 镾	Mjəj
@@ -3095,6 +3095,21 @@ import_tables:
 ##VJƏJ?
 ###XEJ RJEJ
 ##XAJ
+离	RSRxajx	#RS
+摛	RSRxajx
+螭	RSRxajx
+魑	RSRxajx
+黐	RSRxajx
+㷰	RSRxajx
+𡴥	RSRxajx
+簁	SSxajx
+簁	SSxajh
+褷	SSxajx
+縰	SSxajh
+𩌦	SSxajh
+屣	SSxajh
+屣	SSxajs
+𩌦	SSxajs
 池	LZRxajx	#LZ
 馳	LZRxajx
 䪧	LZRxajx
@@ -3219,8 +3234,6 @@ import_tables:
 羆	Pxajx
 䛋	Gxajs
 䚙	Hxajx	#?
-𦍊	Kxajx
-𦌱	Kxajx
 羈	Kxajx
 羇	Kxajx
 奇	Kxajx
@@ -3384,22 +3397,7 @@ import_tables:
 灑	SSxeh
 襹	SSxes
 曬	SSxes
-##XEJ
-簁	SSxej
-簁	SSxel
-褷	SSxej
-縰	SSxel
-𩌦	SSxel
-屣	SSxel
-屣	SSxer
-𩌦	SSxer
-离	RSRxej	#RS
-摛	RSRxej
-螭	RSRxej
-魑	RSRxej
-黐	RSRxej
-㷰	RSRxej
-𡴥	RSRxej
+##XEJ?
 ##XƏJ
 螘	NGxəl	#?
 ###WE WEJ VRJEJ
@@ -3878,8 +3876,8 @@ import_tables:
 佁	Jjəh
 䑂	Jjəh
 #JEJ ?
-貤	ZCjer	#?
-貤	Jjer
+貤	ZCjer	2%	#?
+貤	Jjer	2%
 羨	Jjej
 ###YI VJI
 ##YI
@@ -7507,6 +7505,7 @@ import_tables:
 簠	PHFuos
 簠	PFuox
 簠	PFuoh
+𠤱	PFuoh
 黼	PFuoh
 秿	BFuoh
 秿	PHFuox
@@ -9400,7 +9399,7 @@ import_tables:
 劌	Kwart
 𨇙	Kwart
 𤜂	Kwart
-䘙	JXwart
+䘙	JXwart	98%
 衞	JXwart	2%
 𥶽	JXwart
 𧲝	JXwart
@@ -9428,6 +9427,8 @@ import_tables:
 卂	TRwort
 #####-V
 ####AV豪
+𤓾	Tay	#?姓
+套	THavh
 ###AV豪
 ##OAV
 𠅬	Pav	#?人名
@@ -9627,19 +9628,17 @@ import_tables:
 㿷	TSHay
 洮	LSav	#L-
 挑	LSav
-咷	Dav
-桃	Dav
-逃	Dav
-鼗	Dav
-鞉	Dav
-駣	Dav
-駣	Daw
-𨱵	Daw
-𨱵	Day
+咷	LZav
+桃	LZav
+逃	LZav
+鼗	LZav
+鞉	LZav
+駣	LZav
+駣	LZaw
+𨱵	LZaw
+𨱵	LZay
 𨱵	Naw
 𨱵	Nay
-𤓾	Tay	#?姓
-套	THavh
 ##OUV
 勽	Beuvs
 袍	Beuvs
@@ -10714,47 +10713,6 @@ import_tables:
 劋	TSjaw
 鐰	TSHjav
 幧	TSHjav
-釗	TCjav	#刀
-釖	TCjav
-𩾗	TSjav
-綤	DCjaw
-邵	DCjay
-𦯐	DCjav
-佋	DCjav
-佋	DCjaw
-昭	TCjav
-照	TCjay
-菬	TCjaw
-䈃	TCjaw
-沼	TCjaw
-菬	DZjav
-鉊	TCjav
-招	TCjav
-炤	TCjay
-詔	TCjay
-𨹸	TCjay
-𠧙	TCjay
-怊	TCHjav
-弨	TCHjav
-弨	TCHjaw
-眧	TCHjaw
-韶	DCjav
-㲈	DCjav
-𠧙	DCjav
-玿	DCjav
-軺	DCjav
-柖	DCjav
-㸛	DCjav
-紹	DCjaw
-袑	DCjaw
-䙼	DCjaw
-召	DCjay
-劭	DCjay
-𠧙	DCjay
-𠣫	DCjay
-䬰	DCjay
-卲	DCjay
-軺	Jjav
 蹻	KHjav
 繑	KHjav
 嘺	Gjav
@@ -10902,6 +10860,47 @@ import_tables:
 窯	Jjev	#窰
 溔	Jjew
 𩨴	Jjew
+釗	TCjev	#刀
+釖	TCjev
+𩾗	TSjev
+綤	DCjew
+邵	DCjey
+𦯐	DCjev
+佋	DCjev
+佋	DCjew
+昭	TCjev
+照	TCjey
+菬	TCjew
+䈃	TCjew
+沼	TCjew
+菬	DZjev
+鉊	TCjev
+招	TCjev
+炤	TCjey
+詔	TCjey
+𨹸	TCjey
+𠧙	TCjey
+怊	TCHjev
+弨	TCHjev
+弨	TCHjew
+眧	TCHjew
+韶	DCjev
+㲈	DCjev
+𠧙	DCjev
+玿	DCjev
+軺	DCjev
+柖	DCjev
+㸛	DCjev
+紹	DCjew
+袑	DCjew
+䙼	DCjew
+召	DCjey
+劭	DCjey
+𠧙	DCjey
+𠣫	DCjey
+䬰	DCjey
+卲	DCjey
+軺	Jjev
 𤓪	TSjev	#焦
 焦	TSjev
 㲬	TSjev
@@ -11237,7 +11236,7 @@ import_tables:
 𣟼	TSjux	#?
 #
 噢	HQiuh	#奧
-孚	PHFiux
+孚	PHFiux	#ru
 𤔍	PHFiux
 殍	PHFiux
 罦	PHFiux
@@ -11290,26 +11289,26 @@ import_tables:
 䍖	BFiux
 𦮹	BFiux
 䍍	PFiux
-矛	Miux
-雺	Miux
-𢦧	Miux
-蟊	Miux
-鍪	Miux
-鞪	Miux
-堥	Miux
-𨡭	Miux
-蝥	Miux
-𩭾	Miux
-䋷	Miux
-牟	Miux
-眸	Miux
-侔	Miux
-麰	Miux
-𦭷	Miux
-劺	Miux
-恈	Miux
-鴾	Miux
-蛑	Miux
+矛	MFiux
+雺	MFiux
+𢦧	MFiux
+蟊	MFiux
+鍪	MFiux
+鞪	MFiux
+堥	MFiux
+𨡭	MFiux
+蝥	MFiux
+𩭾	MFiux
+䋷	MFiux
+牟	MFiux
+眸	MFiux
+侔	MFiux
+麰	MFiux
+𦭷	MFiux
+劺	MFiux
+恈	MFiux
+鴾	MFiux
+蛑	MFiux
 韭	Kiuh
 臼	Giuh
 𦥶	Giuh
@@ -11515,7 +11514,6 @@ import_tables:
 揄	Jjux	#?
 𢋅	Jjux
 受	DCjuh
-𡬳	DCjuh	#受
 綬	DCjuh
 授	DCjus
 㖟	DCjus
@@ -13669,7 +13667,7 @@ import_tables:
 㭘	Gxep	#?
 𪏉	TRxem	#?
 㚔	NRxep	#?
-鵖	Kxep	#?
+鵖	Kxep	#?皀
 鍤	THRxep
 𥯥	THRxep
 歃	SSxep	#?
@@ -16502,6 +16500,15 @@ import_tables:
 萬	MFuaz
 万	MFuaz
 𥄎	MFuat
+曼	MFuaz
+㿸	MFuad
+蟃	MFuaz
+鰻	MFuaz
+獌	MFuaz
+䡬	MFuaz
+㿸	MFuaz
+蔓	MFuaz
+𨞼	MFuaz
 赶	Guat
 亅	Guat
 𠄌	Kuat
@@ -16613,15 +16620,6 @@ import_tables:
 樠	MFuon
 䝡	MFuoz
 鬗	MFuoz
-曼	MFuoz
-㿸	MFuod
-蟃	MFuoz
-鰻	MFuoz
-獌	MFuoz
-䡬	MFuoz
-㿸	MFuoz
-蔓	MFuoz
-𨞼	MFuoz
 婏	PHFuoz
 嬎	PHFuoz
 晚	MFuod
@@ -18013,6 +18011,8 @@ import_tables:
 𢣔	Mjan
 䫵	Mjan
 櫋	Mjan
+謾	Mjan
+𣡠	Mjan
 ##JEN
 連	Ljen
 漣	Ljen
@@ -18126,13 +18126,11 @@ import_tables:
 便	Bjez
 㦚	Pjed
 㦚	Bjed
-芇	Mjen
-謾	Mjen
-𣡠	Mjen
 緜	Mjen
 棉	Mjen
 綿	Mjen	#緜
 矊	Mjen
+芇	Mjen
 宀	Mjen
 汅	Mjed
 𧉄	Mjen
@@ -18686,8 +18684,6 @@ import_tables:
 變	Pxoz	
 弁	Bxoz
 㝸	Bxoz
-𢍘	Bxoz
-𢍍	Bxoz
 鴘	Pxod
 鴘	PHxod
 拚	Bxoz
@@ -19537,7 +19533,6 @@ import_tables:
 馹	NCjit
 衵	NCjit
 申	SCjin	99%	#L
-𤰶	SCjin
 𢑚	SCjin
 紳	SCjin
 呻	SCjin
@@ -24789,7 +24784,7 @@ import_tables:
 液	Jjak
 焲	Jjak
 𥇡	Jjak	#LZ
-𥇝	Jjak
+𥇝	Jjak	2%
 𦆎	Jjak
 𧬳	Jjak
 𤏵	Jjak
@@ -25490,7 +25485,7 @@ import_tables:
 ##
 掤	Piəc
 淜	Biəc
-皀	Piək
+皀	Piək	1%
 䫾	Piək
 㘠	Piək
 䁇	Miək
@@ -25900,7 +25895,7 @@ import_tables:
 𡸜	DRxək
 陟	TRxək
 𡮞	TRxək
-飭	LSRxək	#LS
+飭	LSRxək	#LS食
 栻	LSRxək	#LS
 侙	LSRxək
 𪀦	LSRxək
@@ -27842,17 +27837,17 @@ import_tables:
 崈	DZSxuc
 㓽	DZSxuq
 ##ƏŊ
-䠢	Miəq
-瞢	Miəc
-瞢	Miəq
-夢	Miəc
-鄸	Miəc
-懜	Miəc
-𦫰	Miəc
-𧲎	Miəc
-夢	Miəq
-㝱	Miəq
-鄸	Miəq
+䠢	MFiəq
+瞢	MFiəc
+瞢	MFiəq
+夢	MFiəc
+鄸	MFiəc
+懜	MFiəc
+𦫰	MFiəc
+𧲎	MFiəc
+夢	MFiəq
+㝱	MFiəq
+鄸	MFiəq
 雄	JXiəc
 熊	JXiəc
 熋	JXiəc
@@ -28177,10 +28172,10 @@ import_tables:
 副	PHFiək
 𩯅	PHFiək
 䔰	PHFiək
-𤘴	Miək
-牧	Miək
-坶	Miək	#牧
-𦱒	Miək
+𤘴	MFiək
+牧	MFiək
+坶	MFiək	#牧
+𦱒	MFiək
 㦽	HQiək
 戫	HQiək
 𪑝	HQiək
