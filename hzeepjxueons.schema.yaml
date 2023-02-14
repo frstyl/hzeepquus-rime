@@ -112,7 +112,7 @@ speller:
     - abbrev/([A-Z][ywu])([uo]|ə)([xhs])/$1o$3/ #uo uu
 
     - abbrev/([A-Z][vf])[au]([ndzt])/$1a$2/ #van fan vun fun -N -J
-    - abbrev/([A-Z][ev]?)([ei]|ə)([ndzt])/$1e$3/ #en
+    - abbrev/([A-Z][ev])([ei]|ə)([ndzt])/$1e$3/ #en
     - abbrev/([A-Z]r)(a|e|i|o|u|ə)([ndzt])/$1e$3/  #ren
     - abbrev/([A-Z]f)(e|i|o|u)([ndzt])/$1e$3/  #ren
     - derive/([A-Z]v)ə([ndzt])/$1o$2/ #von vo
@@ -130,7 +130,11 @@ speller:
     - abbrev/([A-Z][jxyw])(i|u|ə)([ndztjlr])/$1i$3/  #ii-
     - abbrev/([A-Z][iu])(a|o)([ndzt])/$1a$3/ #ian 元 
     - abbrev/([A-Z][e]?)[aou](v[xhs]|[vwy])/$1a$2/ #av -V -M
-    - abbrev/([A-Z])[e]?(e|u|i|ə)(v[xhs]|[vwy])/$1e$3/ #ev
+    - abbrev/([A-Z])eu(v[xhs])/$1a$3/ #av
+    - abbrev/([A-Z])euvx/$1av/ #av
+    - abbrev/([A-Z])euvh/$1aw/ #av
+    - abbrev/([A-Z])euvs/$1y/ #av
+    - abbrev/([A-Z])(e|i|ə)([vwy])/$1e$3/ #ev
     - abbrev/([A-Z][r])([aeou]|ə)([vwy]|v[xhs])/$1a$3/ #rav
     # - abbrev/([A-Z][er]?)[o](v[xhs])/$1u$2/ #euv
     - abbrev/([A-Z][jx])[aeo](v[xhs]|[vwy])/$1e$2/ #iev
@@ -148,6 +152,7 @@ speller:
     # - derive/([A-Z])(a|ə)([vwy]|v[xhs])/$1ea$3/ #eav
     # - derive/([A-Z])(eu)([xhs])/$1ea$3/ #eav
     - abbrev/([A-Z][re]?)[au]([mbfp])/$1a$2/ #am ram
+    - abbrev/([A-Z][ev])([ei]|ə)([ndzt])/$1e$3/ #em
     - abbrev/([A-Z][re])(e|ə)([mbfp])/$1e$3/ #rem
     - derive/([A-Z])(eu|o|ə)([mbfp])/$1ea$3/ #eam
     - abbrev/([A-Z][jx])[aeo]([mbfp])/$1e$2/  #iem
@@ -185,8 +190,8 @@ speller:
     - derive/([A-Z])e(u\w)/$1$2/ #eu vu 一三
     - derive/([A-Z])v([o][jlrndzt])/$1$2/ #von vo 一三
     # - derive/([A-Z])ə(u)/$1$2/ #侯əu u 一三
-    - derive/([A-Z])e(ə\w)/$1$2/ #e四等 一三
-    - derive/([A-Z]e)[əei](\w)/$1$2/ #e四等 一三
+    - derive/([A-Z])e(ə)/$1$2/ #e四等 一三
+    - derive/([A-Z]e)(e|i|ə)(\w)/$1$3/ #e四等 一三
 
     - abbrev/([A-Z][iu])ə([xhs])/$1$2/ #iə 㞢c
     - derive/([A-Z][iu])ə/$1/ #iə 㞢c

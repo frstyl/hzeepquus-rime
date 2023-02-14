@@ -10565,38 +10565,38 @@ import_tables:
 芍	HGeew
 𦯪	HGeew
 ##IVR
-弔	Teiyk	#ks
-伄	Teiyk
-𨑩	Teiyk
-𧘨	Teiv
-##EIV
-鳥	Teiw	99%	#島
-𧜣	Teiv
-瞗	Teiv
-蔦	Teiw
-𧜣	Teiw
-窵	Teiy
-蔦	Teiy
-䦊	Neiw
+弔	Teəyk	#ks
+伄	Teəyk
+𨑩	Teəyk
+𧘨	Teəv
+##EIV?
+鳥	Teəw	99%	#島
+𧜣	Teəv
+瞗	Teəv
+蔦	Teəw
+𧜣	Teəw
+窵	Teəy
+蔦	Teəy
+䦊	Neəw
 艘	Seəv
 瞍	Seəv
 𧩮	Seəw
 謏	Seəw
-蓧	LSeiv	#LS
-窱	LSeiw
-窱	LSeiy
-條	LZeiv
-樤	LZeiv
-鰷	LZeiv
-鋚	LZeiv
-𧌁	LZeiv
-䩦	LZeiv
-𠤼	LZeiv
-莜	LZeiy
-𥁮	LZeiy
-翛	Seiv
-筱	Seiw
-篠	Seiw
+蓧	LSeəv	#LS
+窱	LSeəw
+窱	LSeəy
+條	LZeəv
+樤	LZeəv
+鰷	LZeəv
+鋚	LZeəv
+𧌁	LZeəv
+䩦	LZeəv
+𠤼	LZeəv
+莜	LZeəy
+𥁮	LZeəy
+翛	Seəv
+筱	Seəw
+篠	Seəw
 ##ƏV
 𦶌	Teəv
 凋	Teəv
@@ -10703,8 +10703,6 @@ import_tables:
 擾	NCjuw
 𤛾	NCjuw
 ##JAV
-皽	TCjav	#𤿘
-𤿘	TCjav
 覞	Jjay
 剿	TSjaw
 勦	TSjaw
@@ -10860,6 +10858,8 @@ import_tables:
 窯	Jjev	#窰
 溔	Jjew
 𩨴	Jjew
+皽	TCjev	#𤿘
+𤿘	TCev
 釗	TCjev	#刀
 釖	TCjev
 𩾗	TSjev
@@ -11893,65 +11893,65 @@ import_tables:
 # 𨞄	JXiəvx
 # 郵	JXiəvx
 ##J
-𭣢	Jjivx
-攸	Jjivx
-浟	Jjivx
-鯈	Jjivx
-悠	Jjivx
-修	Sjivx
-𩝧	Sjivx
-樇	Sjivx
-脩	Sjivx
-滫	Sjivh
-𩛢	Sjivx
-𠷘	TSjivx
-𢱀	TSjivx
-𩏷	TSjivx
-𥾀	TSjivx
-𣹌	TSjivx
-䎿	TSjivx
-啾	TSjivx
-揫	TSjivx
-湫	TSjivx
-秌	TSHjivx	100%
-𥤚	TSHjivx
-𦵒	TSHjivx
-𥰂	TSHjivx
-秋	TSHjivx
-鞦	TSHjivx	#鞧
-湫	TSHjivx
-鶖	TSHjivx
-鰍	TSHjivx	#鰌
-楸	TSHjivx
-萩	TSHjivx
-䵸	TSHjivx	#鼀
-䨂	TSHjivx
-篍	TSHjivx
-䎿	DZjivx
-湫	DZjivh
-愀	DZjivh
-蝵	TSHjivx	#蟗
-蟗	TSHjivx
-次蟗	TSHjis TSHjivx
-蠤	TSHjivx
+𭣢	Jjəvx
+攸	Jjəvx
+浟	Jjəvx
+鯈	Jjəvx
+悠	Jjəvx
+修	Sjəvx
+𩝧	Sjəvx
+樇	Sjəvx
+脩	Sjəvx
+滫	Sjəvh
+𩛢	Sjəvx
+𠷘	TSjəvx
+𢱀	TSjəvx
+𩏷	TSjəvx
+𥾀	TSjəvx
+𣹌	TSjəvx
+䎿	TSjəvx
+啾	TSjəvx
+揫	TSjəvx
+湫	TSjəvx
+秌	TSHjəvx	100%
+𥤚	TSHjəvx
+𦵒	TSHjəvx
+𥰂	TSHjəvx
+秋	TSHjəvx
+鞦	TSHjəvx	#鞧
+湫	TSHjəvx
+鶖	TSHjəvx
+鰍	TSHjəvx	#鰌
+楸	TSHjəvx
+萩	TSHjəvx
+䵸	TSHjəvx	#鼀
+䨂	TSHjəvx
+篍	TSHjəvx
+䎿	DZjəvx
+湫	DZjəvh
+愀	DZjəvh
+蝵	TSHjəvx	#蟗
+蟗	TSHjəvx
+次蟗	TSHjəs TSHjəvx
+蠤	TSHjəvx
 ##
-𥈌	LSRxivx	#LS
-鯈	LZRxivx
-𠿈	TSSxivx	#iv
-𢝲	DZSxivx
-𣿜	DZSxivx
-𤭰	DZSxivx
-愁	DZSxivx
-㵞	DZSxivx
-僽	DZSxivs
-㾭	TSSxivs
-甃	TSSxivs
-醔	TSSHxivx
-𪀖	TSHjivx	#鶖
-手	SCjivh	99%	#NS- u
-𠂿	SCjivh
-𡴤	SCjivh
-杽	THRxivh
+𥈌	LSRxəvx	#LS
+鯈	LZRxəvx
+𠿈	TSSxəvx	#əv
+𢝲	DZSxəvx
+𣿜	DZSxəvx
+𤭰	DZSxəvx
+愁	DZSxəvx
+㵞	DZSxəvx
+僽	DZSxəvs
+㾭	TSSxəvs
+甃	TSSxəvs
+醔	TSSHxəvx
+𪀖	TSHjəvx	#鶖
+手	SCjəvh	99%	#NS- u
+𠂿	SCjəvh
+𡴤	SCjəvh
+杽	THRxəvh
 ##JƏV
 收	SCjəvx
 收	SCjəvs
@@ -12169,9 +12169,12 @@ import_tables:
 牛	NGQviəx
 ###幽 
 ##-J- JƏV
-蟉	Lxivx
-鏐	Lxivx
-稵	TSjivx
+瀌	Bxiux	#jev
+髟	Pxiux	#jev
+驫	Pxiux	#jev
+蟉	Lxiux
+鏐	Lxiux
+稵	TSjiux
 犙	SSxəvx
 ##XUV -RJ-類
 𩖛	Bxiux
@@ -12184,9 +12187,6 @@ import_tables:
 聱	NGxux
 鬮	Kwəh
 ##XIV
-瀌	Bxivx	#jev
-髟	Pxivx	#jev
-驫	Pxivx	#jev
 彪	Pxəvx
 滮	Bxəvx
 淲	Bxəvx
@@ -23937,13 +23937,6 @@ import_tables:
 㦦	XSeek
 𣣉	XSeek
 𠩫	NGQeek
-𪕯	HGeek
-覡	HGeek	#
-䚐	THeek
-䚐	DZeek
-𢞒	THeek
-𢞒	KHQeek
-喫	KHQeek
 繴	Peek
 壁	Peek
 鼊	Peek
@@ -24095,6 +24088,14 @@ import_tables:
 擿	THeek
 綼	Peek
 椑	Beek
+#?
+𪕯	HGeek
+覡	HGeek	#視
+䚐	THeek
+䚐	DZeek
+𢞒	THeek
+𢞒	KHQeek
+喫	KHQeek
 ###VEŊ
 ##VEK
 褧	KHQveg
@@ -28189,81 +28190,81 @@ import_tables:
 哊	JXiək
 囿	JXiək
 ##
-𢞣	SCjivk
-倏	SCjivk
-虪	SCjivk
-㶖	SCjivk
-儵	SCjivk
-跾	SCjivk
-翛	SCjivk
-蹙	TSjivk
-㗤	TSjivk
-摵	TSjivk
-槭	TSjivk
-縬	TSjivk
-𦟠	TSjivk
-顣	TSjivk
-䙘	TSjivk
-尗	SCjivk
-鮛	SCjivk
-𣢰	TSjivk
-琡	TCjivk
-俶	TCHjivk
-琡	TCHjivk
-𣥹	TCHjivk
-埱	TCHjivk
-婌	DCjivk
-淑	DCjivk
-叔	SCjivk
-𡬧	SCjivk
-掓	SCjivk	2%
-菽	SCjivk
-踧	TSjivk
-𠴫	TSjivk
-縬	TSSxivk
-摵	SSxivk	#𢷾
-敊	THRxivk
+𢞣	SCjuk
+倏	SCjuk
+虪	SCjuk
+㶖	SCjuk
+儵	SCjuk
+跾	SCjuk
+翛	SCjuk
+蹙	TSjuk
+㗤	TSjuk
+摵	TSjuk
+槭	TSjuk
+縬	TSjuk
+𦟠	TSjuk
+顣	TSjuk
+䙘	TSjuk
+尗	SCjuk
+鮛	SCjuk
+𣢰	TSjuk
+琡	TCjuk
+俶	TCHjuk
+琡	TCHjuk
+𣥹	TCHjuk
+埱	TCHjuk
+婌	DCjuk
+淑	DCjuk
+叔	SCjuk
+𡬧	SCjuk
+掓	SCjuk	2%
+菽	SCjuk
+踧	TSjuk
+𠴫	TSjuk
+縬	TSSxuk
+摵	SSxuk	#𢷾
+敊	THRxuk
 ##VK
-肅	Sjəvk
-𦘜	Sjəvk
-鷫	Sjəvk
-𪂸	Sjəvk	#鷫
-蟰	Sjəvk
-驌	Sjəvk
-䎘	Sjəvk
-𩘹	Sjəvk
-鱐	Sjəvk
-䃤	Sjəvk
-潚	Sjəvk
-橚	Sjəvk
-㩋	Sjəvk
-璛	Sjəvk
-㪩	Sjəvk
-𣢜	HQiəvk
+肅	Sjuk
+𦘜	Sjuk
+鷫	Sjuk
+𪂸	Sjuk	#鷫
+蟰	Sjuk
+驌	Sjuk
+䎘	Sjuk
+𩘹	Sjuk
+鱐	Sjuk
+䃤	Sjuk
+潚	Sjuk
+橚	Sjuk
+㩋	Sjuk
+璛	Sjuk
+㪩	Sjuk
+𣢜	HQiuk
 ##IƏVK
-𦾷	Ljəvk	#翏
-蓼	Ljəvk
-繆	Miəvk
-戮	Ljəvk
-剹	Ljəvk
-穋	Ljəvk	#稑
-磟	Ljəvk
-僇	Ljəvk
-勠	Ljəvk
+𦾷	Ljuk	#翏
+蓼	Ljuk
+繆	Miuk
+戮	Ljuk
+剹	Ljuk
+穋	Ljuk	#稑
+磟	Ljuk
+僇	Ljuk
+勠	Ljuk
 ##
-蓫	XSiəvk	#L
-蓫	LSRxəvk	#LS
-逐	LZRxəvk
-鱁	LZRxəvk
-𧏿	LZRxəvk
-蓫	LZRxəvk
-䮱	LZRxəvk
-篴	LZRxəvk
-苖	LSRxəvk
-軸	LZRxəvk
-妯	LZRxəvk
-舳	LZRxəvk
-柚	LZRxəvk
+蓫	XSiuk	#L
+蓫	LSRxuk	#LS
+逐	LZRxuk
+鱁	LZRxuk
+𧏿	LZRxuk
+蓫	LZRxuk
+䮱	LZRxuk
+篴	LZRxuk
+苖	LSRxuk
+軸	LZRxuk
+妯	LZRxuk
+舳	LZRxuk
+柚	LZRxuk
 ##
 蒮	Jjavk
 𥉑	Jjavk
