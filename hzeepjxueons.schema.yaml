@@ -92,8 +92,8 @@ speller:
     - derive/([A-Z][evjxywrf]i)g/$1d/
     - derive/([A-Z][evjxywrf]i)q/$1z/
     - abbrev/([A-Z][evjxywrf]i)k/$1t/
-    - abbrev/([A-Z])x[ae]([cgqk])/$1ie$2/ #ieng xang xeng
-    - abbrev/([A-Z])w[ae]([cgqk])/$1ue$2/ #
+    # - abbrev/([A-Z])x[ae]([cgqk])/$1ie$2/ #庚三ieng xang xeng
+    # - abbrev/([A-Z])w[ae]([cgqk])/$1ue$2/ #
     - derive/([A-Z])x[ae]([cgqk])/$1iaa$2/ #iaang 庚三
     - derive/([A-Z])w[ae]([cgqk])/$1uaa$2/ #
     - derive/([A-Z]f)(ə|i)([cgqk])/$1e$2/ #
@@ -384,6 +384,7 @@ speller:
     - abbrev/([\w][jxywrfv]).+/$1/ #介音
 
     - derive/ə/eo/ #EOə eo
+    - derive/ʌ/ea/ #EOə eo
     - derive/e[oa]/;/ #EOə eo
 
 # # # # # 

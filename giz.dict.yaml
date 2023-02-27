@@ -41,7 +41,7 @@ import_tables:
 閄	HZfek
 閂	SSfun		# 𣠯#栓
 ###
-串	TCHyoz		#穿 患
+串	TCHyoz		#慣穿
 𬊇	JXwec		#榮
 𤯽	Sjil		#死
 𠰶	JXuac		#王
@@ -336,8 +336,8 @@ r	R
 ɺ	L
 ###
 # # y	y
-# ax	ea
-ax	a
+# a	ea
+a	a
 ɶ	a
 ᴀ	a
 ɑ	a
@@ -349,28 +349,29 @@ ax	a
 ɜ	e
 ɞ	o
 ʌ	e
+ʌ	ea
 ɔ	o
 ᴇ	e
-əx	eo
+ə	eo
 Ə	eo
-ex	e
+e	e
 ø	o
 ɘ	e
 ɵ	o
 ɤ	e
-ox	o
+o	o
 ɪ	ei
 ʏ	eu
 ᵻ	ei
 ᵿ	eu
 ω	ei
 ʊ	eu
-ix	ei
+i	ei
 y	ei
 ɨ	i
 ʉ	u
 ɯ	ei
-ux	eu
+u	eu
 ɨɐ	ia
 ʉɐ	ua
 ɨɛ	ie
@@ -464,7 +465,7 @@ ux	eu
 咪	Mjeh
 噗	PHeuk
 嘿	Hək
-啦	Leap
+啦	Lʌp
 吖	HQra
 哪	Nah
 啊	HQa
@@ -500,7 +501,7 @@ ux	eu
 粘	TRxem
 蜨	Deep	1%
 癌	NGəj
-呆	Teaj		#待
+呆	Tʌj		#待
 卡	KHrah
 打	tah
 ####誤
@@ -616,12 +617,12 @@ ux	eu
 哎	NGar
 了	lə
 咱	TSat
-咱	DZeam
+咱	DZʌm
 媽	Mra
 嗎	Mra
 怎	tsəb
-嗨	heaj
-咍	Heaj
+嗨	hʌj
+咍	Hʌj
 喏	NCjah		#𠰒
 呔	Təj
 #####聲符
@@ -1957,6 +1958,8 @@ ux	eu
 虺隤	XSfoj Dvoj
 ###虫虺
 𩃾	Huəj
+###化
+䚰	NGQvajx
 ###爲
 𤾸	JXwajh
 𦥮	JXwajx	0
@@ -2952,6 +2955,7 @@ ux	eu
 𠭵	DRxux	0		#𠼡
 ###雔
 讐	DCjux
+𫌵	DCjux	0
 ###州# 咒	TCjus		#詶
 㖄	TCjux
 #
@@ -4321,7 +4325,7 @@ ux	eu
 𢻈	KCjes
 𧷱	Kyex		#𩓡
 ###卡
-卡	DZeap		#從納切
+卡	DZʌp		#從納切
 𠧗	KHrah	0
 拤	KHrah
 # 鉲	KHrah
@@ -4444,14 +4448,15 @@ ux	eu
 埡	HQoh
 埡	HQos
 埡	HQras
-#
-𢙣	HQak	0
-𢛫	HQak	0
-𢝏	HQak	0
 亜	HQrask	0
 𠀓	HQrask
 𠄮	HQrask
 𫸪	HQrask
+#
+𢙣	HQak	0
+𢛫	HQak	0
+𢝏	HQak	0
+𫫇	HQos
 ###伿
 𧨍	Heeh		#𧧹
 ###孔
@@ -4792,7 +4797,7 @@ ux	eu
 踮	Teeb
 站	TRrem
 ##贛𥫔竷
-䀍	Deaf	2%		#?
+䀍	Dʌf	2%		#?
 𧗛	KHQeuf	0		#䀍䘓
 𧖾	KHQeuf	0
 𧗐	KHQeuf	0
@@ -4815,7 +4820,7 @@ ux	eu
 ##詹
 譫	TCap
 ###𦐇翕?
-溻	THeap
+溻	THʌp
 搨	THap
 溻	THap
 塌	THap
@@ -4885,7 +4890,7 @@ ux	eu
 ###念
 𦁇	Neef
 ###內-p
-吶	Neap
+吶	Nʌp
 ###男
 娚	NRrom		#喃
 ###冄冉
@@ -4941,7 +4946,7 @@ ux	eu
 # 𩃢	TSjem	0
 ###帀
 ##匝
-咂	TSeap
+咂	TSʌp
 匝	TSəp
 ##斬
 嶄	TSSreb
@@ -4951,9 +4956,9 @@ ux	eu
 ###妾
 唼	TSjep
 唼	SSrap
-唼	TSeap
+唼	TSʌp
 # 㪪	Sap
-糌	TSeam
+糌	TSʌm
 𥪵
 ###侵
 𡩻	TSjib
@@ -5031,8 +5036,8 @@ ux	eu
 ###心
 怹	THam
 ###貪
-# 㵅	THeam
-# 僋	THeam
+# 㵅	THʌm
+# 僋	THʌm
 ###集亼
 𠓛	DZjəp		#?
 𠍱	DZjup	2%
@@ -5046,7 +5051,7 @@ ux	eu
 ##鬵
 𤅬	SZjəm	0		#灊
 ###參
-遪	DCeap
+遪	DCʌp
 幓	SSxum
 幓	SSrum		#縿
 襂	SSrum
@@ -5062,7 +5067,7 @@ ux	eu
 仨	Sam
 仨	Sap
 ###譶
-𨑂	Deap
+𨑂	Dʌp
 ###𥥍
 罙	Dəb	0
 穼	Dəb	0
@@ -5123,9 +5128,9 @@ ux	eu
 ###欠
 忺	Hiam
 ##坎
-莰	KHeab
-砍	KHeab
-崁	KHeaf
+莰	KHʌb
+砍	KHʌb
+崁	KHʌf
 ###業
 𨼙	NGiap	0
 ###皀
@@ -5137,10 +5142,10 @@ ux	eu
 圾	NGxəp		#岌
 
 ###函圅𢎘
-𡣔	HZeab
-𡡽	HZeab	0
-𡣤	HZeab	0
-𡣊	HZeab	0
+𡣔	HZʌb
+𡡽	HZʌb	0
+𡣤	HZʌb	0
+𡣊	HZʌb	0
 凾	HGeum	0
 # 圅	HGeum	0
 𠚗	HGeum	0
@@ -5164,8 +5169,8 @@ ux	eu
 岬	Krap
 ##合
 哈	Hep
-峇	KHeap		#峇
-峆	HZeap
+峇	KHʌp		#峇
+峆	HZʌp
 ###夾
 𤷾	KHxep
 ###盇盍
@@ -5198,17 +5203,17 @@ ux	eu
 𣶗	HQxəb
 𩚕	HQxəb
 霒	HQxəm
-𠩧	KHeap
+𠩧	KHʌp
 𣢬	KHiom
 欦	KHiom
 𣢲	KHiom
 #
-𠩂	KHeap	0
-厒	KHeap	0
-𠪈	KHeap	0
-𠪦	KHeap	0
-𢩐	KHeap	0
-𭠉	KHeap	0
+𠩂	KHʌp	0
+厒	KHʌp	0
+𠪈	KHʌp	0
+𠪦	KHʌp	0
+𢩐	KHʌp	0
+𭠉	KHʌp	0
 ##金
 淾	HQxəb		#飲
 #
@@ -5224,7 +5229,7 @@ ux	eu
 ###
 𩒥	KHiab
 ##含
-晗	HGeam
+晗	HGʌm
 ###酓
 𨡳	HQxəb		#㱃
 鵪	HQəm		#䳺䨄
@@ -5266,7 +5271,7 @@ ux	eu
 ###奄
 𢽱	HQiap
 𢽱	HQxep
-俺	HQeab
+俺	HQʌb
 ###厭猒
 𤞣	HQjef
 𤟶	HQjef	0
@@ -5351,7 +5356,7 @@ ux	eu
 𣢌	THeum	2%
 𣤉	THeum	2%
 ###㐭廩
-燷	Leam
+燷	Lʌm
 檁	Ljib
 澟	Ljib
 #
@@ -6213,7 +6218,7 @@ ux	eu
 # 𨾀	Leərt
 𨾁	Leərt
 ###出
-岀	KCHyut
+岀	TCHyut
 ###祟-出
 祟	Syut
 𥨒	TSHvuz		#竄
@@ -6899,7 +6904,7 @@ ux	eu
 𫣃	hqan
 鞍	HQan
 ###安-m
-垵	HQeab		#埯
+垵	HQʌb		#埯
 ###㫃
 𭤨	HQiad
 ###晏
@@ -8036,7 +8041,8 @@ ux	eu
 𢞢	KHxaq	0
 𢝑	KHxaq	0
 ##更㪅 
-𩋹	NGQreq	0
+𩋸	NGQraq
+𩋹	NGQreq
 𦛟	KQrag	2%
 ###工
 槓	Kruq
@@ -8071,7 +8077,7 @@ ux	eu
 ###或
 馘	Kvək
 蟈	Kvək
-䰥	HGvək
+䰥	HZvək
 𦑍	Hviək
 #
 𢒖	HQviək	0
@@ -9222,7 +9228,7 @@ ux	eu
 氱	Jjag
 氟	Puət		#F fluorine
 氖	Nəl		#Ne neon
-鈉	Neap	
+鈉	Nʌp	
 鎂	Mxih
 鋁	Ljoh
 矽	SZjek
@@ -9290,10 +9296,10 @@ ux	eu
 銩	Tiux		#Tm 69thulium
 鐿	HQiəs
 鑥	Loh
-# 鉿	Keap
+# 鉿	Kʌp
 鉭	THad
 # 鎢	HQox
-錸	Leaj
+錸	Lʌj
 鋨	NGa
 銥	HQiəj
 鉑	Bak
@@ -9328,7 +9334,7 @@ ux	eu
 # 鑪	Lox		#Ru 104 rutherfordium
 䤣	Lox		#Rutherfordium 金虍錿
 𨧀	Doh		#Db 105d dubnium
-𨭎	Hiəh		#Sg 106 seaborgium
+𨭎	Hiəh		#Sg 106 sʌborgium
 𨨏	Pvax		#Bh 107 bohrium
 𨭆	Hək		#Hs 108 hassium
 䥑	Mrek		#Mt 109 meitnerium
@@ -9567,7 +9573,7 @@ ux	eu
 ###雥
 ###鳥
 𪀩	KHiəx		#𡖾
-𪀩	Teaf		#鴆
+𪀩	Tʌf		#鴆
 𩿷	ZCjir		#?
 䳣	Jyen
 ###烏
@@ -9582,7 +9588,7 @@ ux	eu
 ###𠬪
 ###𣦼
 ###歺
-歹	Teal
+歹	Tʌl
 ###死𣦸
 ###冎
 ###骨
@@ -9719,7 +9725,7 @@ ux	eu
 ###㯻
 ###囗
 囝	Kxed
-囝	neam
+囝	nʌm
 圕	SCjo #書
 圕	tvan #書
 𡈨	NGiok
@@ -9862,7 +9868,7 @@ ux	eu
 ###人
 ##人族
 仫	mos
-傣	teal
+傣	tʌl
 傈	ljit	1%
 僳	sjok	1%
 傈僳	ljit sjok
@@ -10152,7 +10158,7 @@ ux	eu
 撱	Jyol
 扯	TCHjah		#撦
 拿	NRrax
-搿	hzeap
+搿	hzʌp
 𢰋	Dvan	0		#㨡
 ###𠦬
 ###女
@@ -10548,7 +10554,7 @@ ux	eu
 渉	DCjep	0		#涉
 歳	Syart	0		#歲
 緖	SZjoh	0		#者
-衛	JXwart	0		#衞衛䘙
+# 衛	JXwart	0		#衞衛䘙
 没	Mvət	0		#沒
 𣳚	Mvət	0
 殁	Mvət	0

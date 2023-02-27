@@ -4091,7 +4091,7 @@ import_tables:
 浽	Syuj
 䅑	Syuj
 ##YUR YUKS YUTS ju
-出	KCHyurt		#ts
+出	TCHyurt		#ts
 䲊	Jyul
 撱	Jyul
 擩	NCyuj
@@ -4818,7 +4818,7 @@ import_tables:
 鏔	Jjəx
 之	TCjəx
 芝	TCjəx
-㞢	TCjəx
+㞢	TCjəx	1000
 旹	DCjəx
 𢗍	TCjəs
 𦭩	TCHjəx
@@ -4886,8 +4886,8 @@ import_tables:
 莉	DRxəx
 㓼	TSSHxəh
 䰡	THRxəs
-㕜	SSxəh
-𠉕	SSxəh
+㕜	SSxəh	1000
+𠉕	SSxəh	1000
 𠉕	SSxəs
 𩣬	SSxəh
 𩣬	SSxəs
@@ -5346,7 +5346,7 @@ import_tables:
 㧉	KQərt		#ts
 忾	KHQərt
 愾	KHQərt
-㤅	HQərt		#ts
+㤅	HQərt	1000		#ts
 𢟪	HQərt
 愛	HQərt
 𢜤	HQərt
@@ -9414,6 +9414,7 @@ import_tables:
 劌	Kwart
 𨇙	Kwart
 𤜂	Kwart
+衛	JXwart		#衞衛䘙
 䘙	JXwart
 衞	JXwart	2%
 𥶽	JXwart
@@ -18834,8 +18835,8 @@ import_tables:
 䶬	NGxet
 𨵊	DZSxet
 棧	DZSxed
-鏈	THRxen
-䟍	HQxed
+鏈	THRxen		#?
+䟍	HQxed		#?
 闑	NGxet
 𡐤	KHxet
 虔	Gxen
@@ -19787,7 +19788,7 @@ import_tables:
 奞	Syiz	1%
 ##YUN JUN VJUN痕2
 㕯	NCyut	5%
-出	KCHyut
+出	TCHyut
 陙	DCyun
 脣	ZCyun
 漘	ZCyun
@@ -20279,7 +20280,7 @@ import_tables:
 贇	HQwən
 ##WUN XUN
 𦃢	KHwud
-茁	TRwut		#S-K-
+茁	TRwut		#S-K-出
 㤕	TRwut
 窋	TRwut
 絀	TRwut
@@ -22405,9 +22406,10 @@ import_tables:
 盯	DRrec
 偵	TRreq
 瀴	HQreq
-𥉸	KHQrec
 挰	LZRrec		#𡈼
 鋥	LZRreq
+#
+𥉸	KHQric
 ##RƏŊ
 憕	DRrəc
 𩏠	TRrəq
@@ -24179,8 +24181,6 @@ import_tables:
 𦵸	KQreg
 𥉔	KQreg
 耿	KQreg
-鞕	NGQreq		#
-硬	NGQreq
 鳽	KHQrec
 誙	KHQrec
 牼	KHQrec
@@ -24285,9 +24285,14 @@ import_tables:
 噌	TSSHrəc
 鏳	DZSrəc
 ##
-鏗	KHQrec
-摼	KHQrec
-硻	KHQrec
+鞕	NGQreq		#
+硬	NGQreq
+鞕	NGQraq		#梗杏切庚韻
+硬	NGQraq
+##
+鏗	KHQric
+摼	KHQric
+硻	KHQric
 ##REK
 𥖪	Lrek
 𠕋	TSSHrek
