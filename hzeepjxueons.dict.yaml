@@ -4546,7 +4546,7 @@ import_tables:
 𪚦	Kwəx
 𤕣	Kwəx
 𢌳	Gwəx
-頯	Kwəh		#wi yi iiu
+頯	Kwəh		#wi yi iu
 頯	Gwəx
 䟸	Gwəx
 䟸	Kwəx
@@ -5359,8 +5359,9 @@ import_tables:
 槩	KQərt
 漑	KQərt
 槪	KQərt
+溉	KQərt	0
+概	KQərt	0
 㮣	KQərt
-溉	KQərt
 摡	KQərt
 𠌰	KQərt
 慨	KHQərt
@@ -5964,11 +5965,15 @@ import_tables:
 漑	Kiərt
 曁	Kiərt
 蔇	Kiərt
+既	Kiərt	0		#旣
+溉	Kiərt	0
+暨	Kiərt	0
 炁	KHiərt
 䀈	KHiərt
 黖	Hiərt
 𢪑	Hiərt
 墍	Hiərt
+塈	Hiərt	0
 䊠	Hiərt
 𢟪	Hiərt
 摡	Hiərt
@@ -9393,8 +9398,9 @@ import_tables:
 瀱	Kxart
 蘮	Kxart
 罽	Kxart
-𡳅	KHxart		#?憩
 墍	KHxart		#憩
+塈	KHxart	0
+𡳅	KHxart		#?憩
 憩	KHxart
 鎩	SSxart
 蔱	SSxart
@@ -11314,11 +11320,18 @@ import_tables:
 齨	Giuh
 䳎	Giuh
 䊆	Giuh
-㲃	Kiius
-𢋁	Kiius
-𠤙	Kiius		#𢋁
-𨖏	Kiius
-𠣿	Kiius
+㲃	Kius
+𢋁	Kius
+𠤙	Kius		#𢋁
+𨖏	Kius
+𠣿	Kius
+𣪘	Kius	0		#㲃𠧢皀
+廏	Kius	0
+廄	Kius	0
+廐	Kius	0
+𨗋	Kius	0
+匓	Kius	0
+𣪘	KHiux	0
 㲃	KHiux
 九	Kiuh
 𦬖	Giux
@@ -19395,8 +19408,9 @@ import_tables:
 駗	Ljən
 𦕑	TCjəd		#聄
 欪	Hjət
-堲	TSjət
 喞	TSjət
+堲	TSjət		#卽
+唧	TSjət	0
 蝍	TSjət
 楖	TSjət
 揤	DZjət
@@ -21600,6 +21614,7 @@ import_tables:
 炕	Hac
 㰠	Hac
 忼	Hac
+郎	Lac	0		#郞良
 郞	Lac
 狼	Lac
 閬	Lac
@@ -22691,6 +22706,7 @@ import_tables:
 曏	SCjaq
 鄕	Hiac
 𨞰	Hiac
+鄉	Hiac	0		#鄕
 薌	Hiac
 膷	Hiac
 響	Hiag
@@ -23082,15 +23098,15 @@ import_tables:
 纅	Jjavk
 㜰	Jjavk
 擽	Ljavk
-虐	NGjavk		#AV
-𧆱	NGjavk
-瘧	NGjavk
-謔	XSjavk		#NGS
-䅵	TCjavk		#AV?
-禚	TCjavk
-蹻	Kjavk		#EV
-屩	Kjavk
-蹻	Gjavk
+虐	NGiavk		#AV
+𧆱	NGiavk
+瘧	NGiavk
+謔	XSiavk		#NGS
+䅵	TCiavk		#AV?
+禚	TCiavk
+蹻	Kiavk		#EV
+屩	Kiavk
+蹻	Giavk
 #IEVK
 削	Sjevk		#EV
 雀	TSjevk		#EV
@@ -23138,8 +23154,8 @@ import_tables:
 礿	Jjevk
 𦆗	Jjevk
 䋤	Jjevk
-約	HQjevk		#EV
-葯	HQjevk		#白芷葉
+約	HQievk		#EV
+葯	HQievk		#白芷葉
 龠	Jjevk		#LZ-
 禴	Jjevk		#礿
 𨷲	Jjevk
@@ -25637,7 +25653,7 @@ import_tables:
 烝	TCjəq
 氶	TCjəg
 乘	ZCjəc		#M-
-椉	ZCjəc
+椉	ZCjəc	1000
 溗	ZCjəc
 塖	ZCjəc
 騬	ZCjəc
@@ -25648,6 +25664,7 @@ import_tables:
 赩	Hiək
 垐	DZjək
 卽	TSjək
+即	TSjək	0		#皀𢀳卽
 蝍	TSjək
 楖	TSjək
 𨂢	TSjək
