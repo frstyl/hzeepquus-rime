@@ -154,7 +154,7 @@ speller:
     - abbrev/([A-Z][re]?)[au]([mbfp])/$1a$2/ #am ram
     - abbrev/([A-Z][ev])([ei]|ə)([ndzt])/$1e$3/ #em
     - abbrev/([A-Z][re])(e|ə)([mbfp])/$1e$3/ #rem
-    - derive/([A-Z])(eu|o|ə)([mbfp])/$1ea$3/ #eam
+    - abbrev/([A-Z])(eu|o|ə)([mbfp])/$1ea$3/ #eam
     - abbrev/([A-Z][jx])[aeo]([mbfp])/$1e$2/  #iem
     - abbrev/([A-Z][jx])(i|u|ə)([mbfp])/$1i$3/  #iim
     # - abbrev/([A-Z][jx])ə([mbfp])/$1i$2/  #iim
@@ -180,51 +180,53 @@ speller:
     - derive/([A-Z])f([aeiouə])/$1vr$2/
     - derive/([A-Z])x([aeiouə])/$1rj$2/
     - derive/([A-Z])w([aeiouə])/$1ry$2/
+    - derive/([A-Z])w([aeiouə])/$1vx$2/
     - derive/([A-Z])w([aeiouə])/$1vrj$2/
     - derive/([A-Z])x([aeiouə])/$1l$2/
     - derive/([A-Z])vi([aeiouə])/$1u$2/ #uə
     - derive/([A-Z])vi(ə)/$1u$2/ #viə
+    - derive/([A-Z])u([aeiouə])/$1vi$2/ #viə
     # - derive/([A-Z])e([aoə])/$1$2/ #一等
     - derive/([A-Z])r([aeiouə])/$1a$2/ #二等
     - derive/([A-Z])f([aeiouə])/$1o$2/ #二等
-    - derive/([A-Z])e(u\w)/$1$2/ #eu vu 一三
+
+    - abbrev/([A-Z])e(u\w)/$1$2/ #eu vu 一三
     - derive/([A-Z])v([o][jlrndzt])/$1$2/ #von vo 一三
     # - derive/([A-Z])ə(u)/$1$2/ #侯əu u 一三
     - derive/([A-Z])e(ə)/$1$2/ #e四等 一三
     - derive/([A-Z]e)(e|i|ə)(\w)/$1$3/ #e四等 一三
 
-    - abbrev/([A-Z][iu])ə([xhs])/$1$2/ #iə 㞢c
-    - derive/([A-Z][iu])ə/$1/ #iə 㞢c
-    # - derive/([A-Z])vi(ə[xhs])/$1u$2/ #viə 㞢合
-    # - derive/([A-Z])xə([cgqk])/$1ri$2/ #蒸職iəŋ iŋ -v
-    - derive/([A-Z]v?i)ə([cgqk])/$1$2/
-    - abbrev/([A-Z][iu])ə([ndztjlr])/$1$2/ #欣文iən uun 一三
-    - derive/([A-Z]u)ə([ndztjlr])/$1$2/ #欣文iən uun 一三
-    - derive/([A-Z])[yu](u[ndztjlr])/$1$2/ #yun 一三
-    - derive/([A-Z])[yu](u[xhs])/$1$2/ #yu一三
-    - derive/([A-Z])[ij](u[mbfp])/$1$2/ #jum一三
-
-    - abbrev/([A-Z])jə/$1i/ #jən 一三
-    - abbrev/([A-Z])j(i)/$1$2/ #jin 一三
-
     - abbrev/([A-Z])[jxi]/$1i/ #i=jxi
     - abbrev/([A-Z])[ywu]/$1u/ #i=jxi
-    - abbrev/([A-Z])[jxi]ə/$1i/ #iə uə
-    - abbrev/([A-Z])[ywu]ə/$1u/ #iə uə
+    - abbrev/([A-Z])[jxi](i|ə)/$1i/ #i
+    - abbrev/([A-Z])[ywu](i|u|ə)/$1u/ #u
+    - abbrev/([A-Z])[ijx]u/$1u/ #iu
 
+    # - abbrev/([A-Z][iu])ə([xhs])/$1$2/ #iə 㞢c
+    # - derive/([A-Z][iu])ə/$1/ #iə 㞢c
+    # # - derive/([A-Z])vi(ə[xhs])/$1u$2/ #viə 㞢合
+    # # - derive/([A-Z])xə([cgqk])/$1ri$2/ #蒸職iəŋ iŋ -v
+    # - derive/([A-Z]v?i)ə([cgqk])/$1$2/
+    # - abbrev/([A-Z][iu])ə([ndztjlr])/$1$2/ #欣文iən uun 一三
+    # - derive/([A-Z]u)ə([ndztjlr])/$1$2/ #欣文iən uun 一三
+    # - derive/([A-Z])[yu](u[ndztjlr])/$1$2/ #yun 一三
+    # - derive/([A-Z])[yu](u[xhs])/$1$2/ #yu一三
+    # - derive/([A-Z])[ij](u[mbfp])/$1$2/ #jum一三
+    # - abbrev/([A-Z])jə/$1i/ #jən 一三
+    # - abbrev/([A-Z])j(i)/$1$2/ #jin 一三
 
-    - derive/(^|')([PB]|PH|M)v([aei]|ə)/$2$3/ #幫組 一三
+    - derive/(^|')([PB]|PH|M)F?v([aeiə])/$2/ #幫組 一三
     # - derive/([PB]|PH|MF?)u([aei]|ə)/$1$2/ #幫組 一三
-    - derive/([PB]F?|PHF?|MF?)u([aeiouə][cqgkmbfp])/$1i$2/ 
+    - derive/([PB]|PH|M)F?u([aeiouə][cqgkmbfp])/$1i$2/ 
     # - derive/([PB]|PH|MF?)y/$1j/ 
     # - derive/([PB]|PH|MF?)w/$1x 
     # - derive/(XQ|JX)u([aeoiə])/$1i$2/
     - derive/(^|')JQ?j(?!$)/j/ #㠯母
     # - abbrev/JXu([aeiou]|ə)/x$1/
-    - derive/(^|')JX[uw]([aeiouə])/x$2/ #雲母
+    - derive/(^|')JXv/x/ #雲母
     # - abbrev/(XQ)v/$1/ #雲皇母
     # - abbrev/(^|')(HG)(?!$)/x/ #邪
-    - derive/(^|')Lr/l/
+    - abbrev/(^|')Lr/l/
 
     # - xform/([A-Z]+)(ə|[ao])/$1e$2/ #一等无標記 一三
     # - xform/([A-Z]+e)(ə|[eiu])/$1$2/
@@ -460,44 +462,8 @@ unicode:
   tips: 〔unicode〕
 
 punctuator:
-  import_preset: symbols
+  import_preset: symbols	#ascii_punct_0 full_shape_0
   full_shape:
-    '`': ['｀', '·']
-    '~': ～
-    '!': ！
-    '@': ['＠', '©', '®', '℗' ]
-    '#': ['＃', '⌘', №]
-    '$': ['$', '￥', '€', '￡', '¥', '￠', '¤', '￦']
-    '%': [ '％', '°', '℃', ‰, ‱, ℉ ]
-    '^': ['＾', '……', '↑']
-    '&': ['＆', '∩', '∧']
-    '*': ['＊', '×', '∙', '∏', '∐', '∘', '・', '⊙', '※', '❂', '⁂', '☮', '☯', '☣' ] #乘號
-    '(': （
-    ')': ）
-    '-': ['－', '−', '∖', ] #minus setminus
-    '_': ——
-    '=': ['＝', '≜', '≝', '≔', '≔', '≟', '≠', '≡', '≢', '≣']
-    '+': [ '＋', '∫', '∑', '⊕', '⨋',]
-
-    '[': ['「', '［', '【', '〔', ]
-    ']': ['」', '］', '】', '〕', ]
-    '{': ['｛', '『', '〖', ]
-    '}': ['｝', '』', '〗', ]
-
-    ' ' : { commit: '　' }
-    ',' : { commit: ， }
-    '.' : { commit: 。 }
-    '<': ['＜', '《', '〈', '«', '‹', '←', '∈', '⊆', '⊊', '⊈']
-    '>': ['＞', '》', '〉', '»', '›', '→', '∋', '⊇', '⊋', '⊉']
-    '/': ['、', '／', '÷', '∕', '∂', ]
-    '?' : { commit: ？ }
-    ';' : { commit: ； }
-    ':' : { commit: ： }
-    '''' : { pair: [ '‘', '’' ] }
-    '"' : { pair: [ '“', '”' ] }
-    '\': ['＼', '、', '∖'] #set minus
-    '|': ['｜', '∪', '∨', '￤', '§' ]
-  half_shape:
     '1' : [ '1', "１", ₀, ⁰,]
     '2' : [ '2', "２", ₁, ¹]
     '3' : [ '1', "３", ₃, ³]
@@ -531,7 +497,7 @@ punctuator:
     '{' : ["{", 『, 〖, ｛ ]
     '}' : ["}", 』, 〗, ｝ ]
 
-    ' ' : [ ' ' ,'　',]
+    ' ' : [ ' ' ,'　',]	#空格
     # ' ' : {commit: ' '}
     ',' : [",", "，"]
     '.' : [".", "｡", "．", "。"]
@@ -541,10 +507,46 @@ punctuator:
     '?' : {'?', ？,∞, ¿}
     ';' : {";", "；"}
     ':' : {":", "：" }
-    '''' : ["'", "＇", "‘", "’"] #缺‘’“”
+    '''' : ["'", "＇", "‘", "’"]	#引號“”‘’全半缺一
     '"' : ['"', "＂", "“", "”"]
     '\' : ['\', 、, ＼ ,'　']
     '|' : ['|', ｜, '¦', '‖' , "∪", "∨", "￤", "§"]
+  half_shape:
+    '`': ['｀', '·']
+    '~': ～
+    '!': ！
+    '@': ['＠', '©', '®', '℗' ]
+    '#': ['＃', '⌘', №]
+    '$': ['$', '￥', '€', '￡', '¥', '￠', '¤', '￦']
+    '%': [ '％', '°', '℃', ‰, ‱, ℉ ]
+    '^': ['＾', '……', '↑']
+    '&': ['＆', '∩', '∧']
+    '*': ['＊', '×', '∙', '∏', '∐', '∘', '・', '⊙', '※', '❂', '⁂', '☮', '☯', '☣' ] #乘號
+    '(': （
+    ')': ）
+    '-': ['－', '−', '∖', ] #minus setminus
+    '_': ——
+    '=': ['＝', '≜', '≝', '≔', '≔', '≟', '≠', '≡', '≢', '≣']
+    '+': [ '＋', '∫', '∑', '⊕', '⨋',]
+
+    '[': ['「', '［', '【', '〔', ]
+    ']': ['」', '］', '】', '〕', ]
+    '{': ['｛', '『', '〖', ]
+    '}': ['｝', '』', '〗', ]
+
+    ' ' : { commit: '　'}
+    ',' : { commit: ，}
+    '.' : { commit: 。}
+    '<': ['＜', '《', '〈', '«', '‹', '←', '∈', '⊆', '⊊', '⊈']
+    '>': ['＞', '》', '〉', '»', '›', '→', '∋', '⊇', '⊋', '⊉']
+    '/': ['、', '／', '÷', '∕', '∂', ]
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\': ['＼', '、', '∖'] #set minus
+    '|': ['｜', '∪', '∨', '￤', '§' ]
 
   symbols:
     '/idc': [ ⿰, ⿱, ⿲, ⿳, ⿴, ⿵, ⿶, ⿷, ⿸, ⿹, ⿺, ⿻, ⿼, ⿽, ⿾, ⿿, 〾]
