@@ -215,7 +215,7 @@ speller:
     # - abbrev/([A-Z])jə/$1i/ #jən 一三
     # - abbrev/([A-Z])j(i)/$1$2/ #jin 一三
 
-    - derive/(^|')([PB]|PH|M)F?v([aeiə])/$2/ #幫組 一三
+    - derive/(^|')([PB]|PH|M)F?v([aeiə])/$2$3/ #幫組 一三
     # - derive/([PB]|PH|MF?)u([aei]|ə)/$1$2/ #幫組 一三
     - derive/([PB]|PH|M)F?u([aeiouə][cqgkmbfp])/$1i$2/ 
     # - derive/([PB]|PH|MF?)y/$1j/ 
@@ -274,39 +274,39 @@ speller:
     # - derive/(^|')((TSS|T[SZ]|[TK]C?|RT|PF?)H)(?!$)/\L$2/
     # - derive/(^|')(TS|DZ|S)S?(?!$)/\L$2\L$3/
 
-    - derive/(^|')(PHF?)(?=(ə|[a-z]))/ph/
-    - derive/(^|')(PF?)(?=(ə|[a-z]))/p/
-    - derive/(^|')(BF?)(?=(ə|[a-z]))/b/
-    - derive/(^|')(MF?)(?=(ə|[a-z]))/m/
+    - derive/(^|')(PHF?)(?=(ə|ʌ|[a-z]))/ph/
+    - derive/(^|')(PF?)(?=(ə|ʌ|[a-z]))/p/
+    - derive/(^|')(BF?)(?=(ə|ʌ|[a-z]))/b/
+    - derive/(^|')(MF?)(?=(ə|ʌ|[a-z]))/m/
 
-    - derive/(^|')(THR?|TCH|LSR?|RS)(?=(ə|[a-z]))/th/
-    - derive/(^|')(T[RC]?)(?=(ə|[a-z]))/t/
-    - derive/(^|')(LZR?|D[RC]?)(?=(ə|[a-z]))/d/
-    - derive/(^|')(N[CR]?)(?=(ə|[a-z]))/n/
+    - derive/(^|')(THR?|TCH|LSR?|RS)(?=(ə|ʌ|[a-z]))/th/
+    - derive/(^|')(T[RC]?)(?=(ə|ʌ|[a-z]))/t/
+    - derive/(^|')(LZR?|D[RC]?)(?=(ə|ʌ|[a-z]))/d/
+    - derive/(^|')(N[CR]?)(?=(ə|ʌ|[a-z]))/n/
 
 
-    - derive/(^|')(SZ|ZS|ZZ)(?=(ə|[a-z]))/sz/
-    - derive/(^|')(TSS|TSR|T[SZ])(?=(ə|[a-z]))/ts/
-    - derive/(^|')(DZS|DZR|D[ZS])(?=(ə|[a-z]))/dz/
-    - derive/(^|')(TSSH|T[SZ]H)(?=(ə|[a-z]))/tsh/
-    - derive/(^|')SS?(?=(ə|[a-z]))/s/
+    - derive/(^|')(SZ|ZS|ZZ)(?=(ə|ʌ|[a-z]))/sz/
+    - derive/(^|')(TSS|TSR|T[SZ])(?=(ə|ʌ|[a-z]))/ts/
+    - derive/(^|')(DZS|DZR|D[ZS])(?=(ə|ʌ|[a-z]))/dz/
+    - derive/(^|')(TSSH|T[SZ]H)(?=(ə|ʌ|[a-z]))/tsh/
+    - derive/(^|')SS?(?=(ə|ʌ|[a-z]))/s/
 
-    # - derive/(^|')(HQ|NG)(?=(ə|[a-z]))/\L$2/
-    - derive/(^|')(NGQ?)(?=(ə|[a-z]))/ng/
-    - derive/(^|')(HQ)(?=(ə|[a-z]))/hq/
-    - derive/(^|')(K[CQ]?)(?=(ə|[a-z]))/k/
-    - derive/(^|')(KCH|KHQ?)(?=(ə|[a-z]))/kh/
-    - derive/(^|')(HG|HZ|GC?)(?=(ə|[a-z]))/g/
-    - derive/(^|')([XH]S|SX|H)(?=(ə|[a-z]))/h/
+    # - derive/(^|')(HQ|NG)(?=(ə|ʌ|[a-z]))/\L$2/
+    - derive/(^|')(NGQ?)(?=(ə|ʌ|[a-z]))/ng/
+    - derive/(^|')(HQ)(?=(ə|ʌ|[a-z]))/hq/
+    - derive/(^|')(K[CQ]?)(?=(ə|ʌ|[a-z]))/k/
+    - derive/(^|')(KCH|KHQ?)(?=(ə|ʌ|[a-z]))/kh/
+    - derive/(^|')(HG|HZ|GC?)(?=(ə|ʌ|[a-z]))/g/
+    - derive/(^|')([XH]S|SX|H)(?=(ə|ʌ|[a-z]))/h/
 
-    - derive/(^|')(JXQ?|XQ|XZ|HZ|X)(?=(ə|[a-z]))/x/
-    - derive/(^|')(JQ|JX|J)(?=(ə|[a-z]))/j/ #邪㠯 喻
-    - derive/(^|')L(?=(ə|[a-z]))/l/
-    - derive/(^|')SC(?=(ə|[a-z]))/sc/
-    - derive/(^|')ZC(?=(ə|[a-z]))/zc/
+    - derive/(^|')(JXQ?|XQ|XZ|HZ|X)(?=(ə|ʌ|[a-z]))/x/
+    - derive/(^|')(JQ|JX|J)(?=(ə|ʌ|[a-z]))/j/ #邪㠯 喻
+    - derive/(^|')L(?=(ə|ʌ|[a-z]))/l/
+    - derive/(^|')SC(?=(ə|ʌ|[a-z]))/sc/
+    - derive/(^|')ZC(?=(ə|ʌ|[a-z]))/zc/
 
-    - derive/(^|')([XH]Z|ZX|XQ|HG)(?=(ə|[a-z]))/E/
-    - derive/(^|')HQ(?=(ə|[a-z]))/A/
+    - derive/(^|')([XH]Z|ZX|XQ|HG)(?=(ə|ʌ|[a-z]))/E/
+    - derive/(^|')HQ(?=(ə|ʌ|[a-z]))/A/
 
     # - derive/(^|')[TK][RC](?!$)/TSR/ #照
     # - derive/(^|')[DG][RC](H?)(?!$)/DZR$1/
@@ -385,8 +385,8 @@ speller:
     # - derive/^([A-Z]).+$/$1/
     - abbrev/([\w][jxywrfv]).+/$1/ #介音
 
-    - derive/ə/eo/ #EOə eo
     - derive/ʌ/ea/ #EOə eo
+    - derive/ə/eo/ #EOə eo
     - derive/e[oa]/;/ #EOə eo
 
 # # # # # 
@@ -410,7 +410,6 @@ translator:
   spelling_hints: 8
   prism: hzeepjxueons
   preedit_format:
-    - xform/ea/ʌ/
     - xform/;/ə/
     - xform/([PTKQ])H/\L$1ʰ/
     - xform/SX/x/
