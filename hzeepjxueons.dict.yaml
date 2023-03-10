@@ -1292,8 +1292,9 @@ import_tables:
 ####E
 ###E-
 ##OI
-卟	KQeil
-卟	KHQeil
+卟	KQeij
+卟	KHQeil		1000
+乩	KQeij		#卟
 體	RSeil		#RS R̥
 䪆	RSeil
 豊	Leil
@@ -2171,7 +2172,7 @@ import_tables:
 𣏟	PHrer
 洒	SSrer
 ###REJ 皆
-㥟	HGrej
+㥟	HGrej		#彖
 拐	Grel
 箉	Grel
 ###RER皆
@@ -2713,28 +2714,28 @@ import_tables:
 伎	KCjes
 䚳	KCjes
 㩼	KCjes
-馶	KCjes
-跂	KCHjeh
-𢺵	KCHjes
-跂	KCHjes
-𨑤	KCHjes
-蚑	KCHjes
-吱	KCHjes
-岐	GCjex
-歧	GCjex
-𨙸	GCjex
-馶	GCjex
-蚑	GCjex
-䞚	GCjex
-翄	GCjex
-𢻚	GCjex
-汥	GCjex
-跂	GCjex
-伎	GCjex
-𨱜	GCjex
+馶	Kjes
+跂	KHjeh
+𢺵	KHjes
+跂	KHjes
+𨑤	KHjes
+蚑	KHjes
+吱	KHjes
+岐	Gjex
+歧	Gjex
+𨙸	Gjex
+馶	Gjex
+蚑	Gjex
+䞚	Gjex
+翄	Gjex
+𢻚	Gjex
+汥	Gjex
+跂	Gjex
+伎	Gjex
+𨱜	Gjex
 𢻃	GCjes
 豉	GCjes
-𠁭	GCjex		#?
+𠁭	Gjex		#?
 翅	SCjes		#h-
 翄	SCjes
 馶	SCjes
@@ -2812,8 +2813,8 @@ import_tables:
 觶	TCjej
 觶	TCjer
 臡	NCjej
-劙	Ljajx		#?
-蠡	Ljajx
+劙	Ljej		#?𠠍剺
+蠡	Ljej
 鵹	Ljej
 ##JER JEKS JETS
 臂	Pjesk		#ks
@@ -2920,7 +2921,7 @@ import_tables:
 䗐	SCjajx
 施	SCjajx
 𢻱	SCjajx	0
-𢻫	SCjajx
+𢻫	SCjajx		1000
 鍦	SCjajh
 䗐	SCjajh
 㒾	SCjajh
@@ -3235,9 +3236,10 @@ import_tables:
 嚱	Hxajs
 桸	Hxajx
 𪖥	Hxajh
-皮	Bxajx
+𡰻	Bxajx
 𥬖	Bxajx
 𠰎	Bxajx
+皮	Bxajx
 陂	Pxajx
 陂	Pxajs
 𨧦	Pxajx
@@ -4223,8 +4225,8 @@ import_tables:
 訵	THRxirt
 呬	XSxirt
 ##XI
-治	LZRxis		#LZ
-菭	LZRxix
+治	LZRxis	0%		#LZ
+菭	LZRxix	0%
 𦡸	NRxis
 𨎌	TRxis
 騺	TRxis
@@ -5089,8 +5091,8 @@ import_tables:
 醷	HQiəh
 意	HQiəsk		#ks
 鷾	HQiəsk
-値	DRxəsk		#ks
-值	DRxəsk		#直
+値	DRxəsk	0%		#ks
+值	DRxəsk	0%		#直
 植	DRxəsk
 㨁	DRxəsk
 𠍜	DRxəsk
@@ -7767,7 +7769,6 @@ import_tables:
 齲	KHuoh
 ##UO侯
 䓵	PHFuux		#蓲
-酗	Huus
 捄	Kuux		#求
 具	Guus
 𥃲	Guus
@@ -7827,6 +7828,8 @@ import_tables:
 呴	Huus
 昫	Huus
 煦	Huus
+䣱	Huus
+酗	Huus
 咻	Huuh
 區	KHuux
 䧢	KHuux
@@ -9145,7 +9148,7 @@ import_tables:
 杮	PHFuort
 㤄	PHFuort
 䑔	PHFuort
-𤸁	Huort
+𤸁	Huort		#彖
 𣨶	Huort
 餯	Huort
 喙	Huort
@@ -9493,6 +9496,7 @@ import_tables:
 驁	NGQay
 謷	NGQay
 鷔	NGQay
+𩕀	NGQay
 𠢕	HGav	1000
 奡	NGQay		#傲
 夲	THav
@@ -11420,7 +11424,7 @@ import_tables:
 𠁫	KHiux
 羞	Sjux
 䡭	Sjux
-𢝊	HQiux
+𢝊	HQiux	1000
 憂	HQiux
 優	HQiux
 瀀	HQiux
@@ -11955,6 +11959,7 @@ import_tables:
 # 𨞄	JXiəvx
 # 郵	JXiəvx
 ##
+𣲏	Jjəvx
 𭣢	Jjəvx
 攸	Jjəvx
 浟	Jjəvx
@@ -12600,7 +12605,7 @@ import_tables:
 懺	TSSHraf
 䫡	KHQrab
 甉	HGram
-監	KQram
+監	KQram		#K-R
 鑑	KQram
 𥌈	KQram
 礛	KQram
@@ -12716,7 +12721,7 @@ import_tables:
 𣹩	Hiap
 劒	Kiaf
 劍	Kiaf
-厱	KHiam
+厱	KHiam		#s-K-R
 蘞	Hiam
 𩏩	Hiam
 㿌	Hiam
@@ -13225,7 +13230,7 @@ import_tables:
 攕	SSrem
 櫼	SSrem
 𨏪	SSrem
-尲	KQrem
+尲	KQrem	1000
 鹻	KQreb
 䫡	KQref
 歉	KHQreb
@@ -15771,7 +15776,7 @@ import_tables:
 爨	TSHvuz
 短	Tvud
 𢭃	Tvud
-耑	Tvun
+耑	Tvun	1000
 端	Tvun
 褍	Tvun
 剬	Tvun
@@ -16821,8 +16826,8 @@ import_tables:
 縴	KHQein
 㯠	KHQeiz
 牽	KHQeiz
-# 奠	Deiz		#-ŋ
-# 㞟	Deiz
+奠	Deiz		#-ŋ
+㞟	Deiz
 # 戜	LZeit		#-ŋ#L-
 # 鐵	LSeit
 # 𢶋	LSeeit
@@ -18381,9 +18386,7 @@ import_tables:
 䀸	TCjet
 掣	TCHjet
 𠟉	TCjed
-#
 仚	Hjen		#?
-仚	Hxen		#?
 ##JƏN
 燹	Sjəd
 𥙮	Sjəd		#𤣗
@@ -18460,7 +18463,7 @@ import_tables:
 舛	TCHyod
 荈	TCHyod
 𤂳	Syoz
-剶	TSyon
+剶	TSyon		#彖
 緣	Jyon
 蝝	Jyon
 䱲	Jyon
@@ -19070,6 +19073,7 @@ import_tables:
 𥁠	Gwon
 韏	Gwoz
 圜	JXwon
+𥆞	Kwoz
 猭	LSRwon		#LS
 剶	LSRwon
 猭	LSRwoz
@@ -19079,7 +19083,6 @@ import_tables:
 瑑	LZRwod
 䧘	LZRwod
 堟	LZRwod
-𥆞	Kwoz
 ##VRJAN WAN
 蹶	Kwat
 湲	JXwan
@@ -19088,6 +19091,7 @@ import_tables:
 媛	JXwaz
 褑	JXwaz
 噦	HQwat
+𣧡	Hwat
 ##VRJUN WUN
 𠻜	SSwut
 ##VRJEN
@@ -19554,6 +19558,8 @@ import_tables:
 人	NCjin		#-ŋ?
 儿	NCjin
 仁	NCjin
+忎	NCjin
+𡰥	NCjin
 朲	NCjin
 日	NCjit
 𡆠	NCjit
@@ -20396,7 +20402,6 @@ import_tables:
 汩	JXwut		#?Ə
 䫻	JXwut
 𡿯	JXwut		#曰聲
-𩖶	XSwut		#L?
 㡒	TRwun	1
 楯	LSRwun		#LS
 輴	LSRwun
@@ -20406,11 +20411,12 @@ import_tables:
 𧺶	LSRwut
 䟣	LSRwut
 𤝞	LSRwut
-𥄵	XSwut
 朮	LZRwut
 𦬸	LZRwut
 炢	LZRwut
 蒁	JXwut
+𩖶	XSwut		#L?
+𥄵	XSwut
 ##WIN VRJIN
 䎉	XSwit		#w?y?#戌MS 非䬂
 㤜	XSwit
@@ -22482,7 +22488,7 @@ import_tables:
 袹	Mrak
 蛨	Mrak
 貊	Mrak
-佰	Mrak
+佰	Mrak	1%
 㹮	Mrak
 𩢷	Mrak
 洦	Mrak
@@ -22776,6 +22782,10 @@ import_tables:
 蜋	Ljac
 踉	Ljac
 良	Ljac
+𣌩	Ljac
+𡆨	Ljac
+𡰩	Ljac
+𥭷	Ljac
 悢	Ljaq
 踉	Ljaq
 䀶	Ljaq
@@ -24971,6 +24981,8 @@ import_tables:
 㩩	KHyeg
 穎	JQyeg		#ɢ
 潁	JQyeg
+廎	KHyeq
+䯧	KHyeq
 敻	Hyeq
 矎	Hyeq
 瓊	Gyec
@@ -26303,7 +26315,7 @@ import_tables:
 谾	Heuc
 𣪯	Deuc		#?
 㲁	KHeuc
-公	KQeuc
+公	KQeuc	#s-K-
 蚣	KQeuc
 𡉉	KHQruc
 𡴊	KHQruc
@@ -27085,7 +27097,7 @@ import_tables:
 ###IUŊ
 覂	PFiog	
 𢇫	PFiog
-𡉚	PFioc
+𡉚	PFioc		#㞷
 丰	PHFioc
 𡴀	PHFioc
 妦	PHFioc
@@ -27839,15 +27851,17 @@ import_tables:
 𧊕	Sjuc
 䯷	Sjuc
 嵩	Sjuc
+𠂂	TCjuc
+𣴁	TCjuc
+汷	TCjuc
 𣧩	TCjuc
 螽	TCjuc
 鼨	TCjuc
 柊	TCjuc
 䶱	TCjuc
 鴤	TCjuc
-泈	TCjuc
+泈	TCjuc		#𣴁
 終	TCjuc
-𠂂	TCjuc
 蔠	TCjuc
 䈺	TCjuc
 潀	TCjuc
@@ -28350,8 +28364,8 @@ import_tables:
 # 蠮	HQeik
 # 噎	HQeik
 # 䊦	HQeik
-奠	Deiq		#
-㞟	Deiq
+# 奠	Deiq		#
+# 㞟	Deiq
 戜	LZeik		#
 𨮯	LSeik		#L
 𩧀	LSeik
