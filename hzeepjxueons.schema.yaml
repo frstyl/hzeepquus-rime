@@ -61,7 +61,6 @@ engine:
     - simplifier
     - uniquifier
     - cjk_minifier
-    - reverse_lookup_filter@gepxuuz
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcbaABCDEFGHIJKLMNOPQRSTUVWXYZ;'
@@ -405,7 +404,7 @@ speller:
 
 translator:
   dictionary: hzeepjxueons
-  # spelling_hints: 8
+  spelling_hints: 8
   prism: hzeepjxueons
   preedit_format:
     - xform/;/ə/
@@ -427,11 +426,6 @@ translator:
     - xform/Y/ɥ/
     # - xform/eo/ə/
 
-gepxuuz:
-  dictionary: hzeepjxueons
-  overwrite_comment: false
-  tag: [pinyin,zyenpheng]
-  preedit_format:
 
 pinyin:
   dictionary: luna_pinyin
