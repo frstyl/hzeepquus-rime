@@ -46,7 +46,6 @@ engine:
     - abc_segmentor
     - affix_segmentor@pinyin
     - affix_segmentor@zyenpheng
-    # - affix_segmentor@unicode
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -55,16 +54,17 @@ engine:
     - script_translator
     - script_translator@pinyin
     - script_translator@zyenpheng
-    # - table_translator@unicode
     - encode_commit_history
   filters:
     - simplifier
     - uniquifier
     - cjk_minifier
+    - reverse_lookup_filter@pinyin_lookp
+    - reverse_lookup_filter@zyenpheng_lookp
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcbaABCDEFGHIJKLMNOPQRSTUVWXYZ;'
-  delimiter: " "
+  delimiter: "'"
   algebra:
 
 
@@ -276,7 +276,7 @@ speller:
     - derive/(^|')(BF?)(?=(ə|ʌ|[a-z]))/b/
     - derive/(^|')(MF?)(?=(ə|ʌ|[a-z]))/m/
 
-    - derive/(^|')(THR?|TCH|LSR?|RS)(?=(ə|ʌ|[a-z]))/th/
+    - derive/(^|')(THR?|TCH|LSR?|RSR?)(?=(ə|ʌ|[a-z]))/th/
     - derive/(^|')(T[RC]?)(?=(ə|ʌ|[a-z]))/t/
     - derive/(^|')(LZR?|D[RC]?)(?=(ə|ʌ|[a-z]))/d/
     - derive/(^|')(N[CR]?)(?=(ə|ʌ|[a-z]))/n/
@@ -296,7 +296,7 @@ speller:
     - derive/(^|')(HG|HZ|GC?)(?=(ə|ʌ|[a-z]))/g/
     - derive/(^|')([XH]S|SX|H)(?=(ə|ʌ|[a-z]))/h/
 
-    - derive/(^|')(JXQ?|XQ|XZ|HZ|X)(?=(ə|ʌ|[a-z]))/x/
+    - derive/(^|')(JXQ?|JQ|XQ|XZ|HZ|X)(?=(ə|ʌ|[a-z]))/x/
     - derive/(^|')(JQ|JX|J)(?=(ə|ʌ|[a-z]))/j/ #邪㠯 喻
     - derive/(^|')L(?=(ə|ʌ|[a-z]))/l/
     - derive/(^|')SC(?=(ə|ʌ|[a-z]))/sc/
@@ -430,7 +430,7 @@ translator:
 pinyin:
   dictionary: luna_pinyin
   prefix: "i"
-  # suffix: ";"
+  suffix: "'"
   tips: 〔pinyin〕
   tag: pinyin
   # closing_tips:
@@ -439,11 +439,20 @@ pinyin:
 zyenpheng:
   dictionary: zyenpheng
   prefix: "a"
-  suffix: ";"
+  suffix: "'"
   tips: 〔zyenpheng〕
   # contextual_suggestions: #優化
   tag: zyenpheng
 
+zyenpheng_lookp:
+  dictionary: hzeepjxueons
+  overwrite_comment: false
+  tags: [zyenpheng]
+
+pinyin_lookp:
+  dictionary: hzeepjxueons
+  overwrite_comment: false
+  tags: [pinyin]
 
 
 punctuator:
@@ -458,9 +467,9 @@ ascii_composer:
 recognizer:
   import_preset: default
   patterns:
-    pinyin: "^i[a-z]*'?$"
     email: "^[a-z][-_.0-9a-z]*@.*$"
     # punct: '^/([0-9]0?|[A-Za-z]+)$' #配合symbols.yaml中的特殊字符輸入
-    punct: "^/[0-9a-zA-Z]*$" #配合symbols.yaml中的特殊字符輸入
-    zyenpheng: "^a[a-z]*;?$"
+    punct: "^/[0-9a-zA-Z]+$" #配合symbols.yaml中的特殊字符輸入
+    zyenpheng: "^a[a-z]*'?$"
+    pinyin: "^i[a-z]*'?$"
     # unicode: "^u[0-9abcdef]*;?$"
