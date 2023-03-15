@@ -276,9 +276,9 @@ speller:
     - derive/(^|')(BF?)(?=(ə|ʌ|[a-z]))/b/
     - derive/(^|')(MF?)(?=(ə|ʌ|[a-z]))/m/
 
-    - derive/(^|')(THR?|TCH|LSR?|RSR?)(?=(ə|ʌ|[a-z]))/th/
+    - derive/(^|')(THR?|TCH|[LRN]S[RC]?)(?=(ə|ʌ|[a-z]))/th/
     - derive/(^|')(T[RC]?)(?=(ə|ʌ|[a-z]))/t/
-    - derive/(^|')(LZR?|D[RC]?)(?=(ə|ʌ|[a-z]))/d/
+    - derive/(^|')(LZ[RC]?|D[RC]?)(?=(ə|ʌ|[a-z]))/d/
     - derive/(^|')(N[CR]?)(?=(ə|ʌ|[a-z]))/n/
 
 
@@ -380,7 +380,7 @@ speller:
 
     - abbrev/^([a-z])(ə|[aeioujxywrfv]).*$/$1/ #首字母
     # - derive/^([A-Z]).+$/$1/
-    - abbrev/([\w][jxywrfv]).+/$1/ #介音
+    - abbrev/([\w][vjxywrf]).+/$1/ #介音
 
     - derive/ʌ/ea/ #EOə eo
     - derive/ə/eo/ #EOə eo
