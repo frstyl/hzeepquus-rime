@@ -106,14 +106,13 @@ speller:
     # - abbrev/([A-Z][yw])[aeo]([xhs])/$1e$2/ #ie
     # - abbrev/([A-Z][jx])(i|ə)([xhs])/$1i$3/ #ji xi
     # - abbrev/([A-Z][yw])(i|u|ə)([xhs])/$1i$3/ #
-    - abbrev/([A-Z][ywu])([uo]|ə)([xhs])/$1o$3/ #uo uu
+    # - abbrev/([A-Z][ywu])([uo]|ə)([xhs])/$1o$3/ #uo uu
 
     - abbrev/([A-Z][vf])[au]([ndzt])/$1a$2/ #van fan vun fun -N -J
     - abbrev/([A-Z][ev])([ei]|ə)([ndzt])/$1e$3/ #en
     - abbrev/([A-Z]r)(a|e|i|o|u|ə)([ndzt])/$1e$3/  #ren
     - abbrev/([A-Z]f)(e|i|o|u)([ndzt])/$1e$3/  #ren
     - derive/([A-Z]v)ə([ndzt])/$1o$2/ #von vo
-    - abbrev/([A-Z][ywu])([uo]|ə)([xhs])/$1o$3/ #uo uu
     # - abbrev/([A-Z][jx])[ae]([xhs])/$1e$2/ #e-j
     # - abbrev/([A-Z][yw])[aeo]([xhs])/$1e$2/ #e-j
     # - abbrev/([A-Z][jx])(i|ə)([xhsjlr])/$1i$3/ #i-j
@@ -132,7 +131,7 @@ speller:
     - abbrev/([A-Z])euvh/$1aw/ #av
     - abbrev/([A-Z])euvs/$1y/ #av
     - abbrev/([A-Z])(e|i|ə)([vwy])/$1e$3/ #ev
-    - abbrev/([A-Z][r])([aeou]|ə)([vwy]|v[xhs])/$1a$3/ #rav
+    - abbrev/([A-Z][r])([eu]|ə)([vwy]|v[xhs])/$1a$3/ #rav
     # - abbrev/([A-Z][er]?)[o](v[xhs])/$1u$2/ #euv
     - abbrev/([A-Z][jx])[aeo](v[xhs]|[vwy])/$1e$2/ #iev
     # - abbrev/([A-Z]v[^v]*)v/$1/ #viə合口㞢 v u w
@@ -179,7 +178,6 @@ speller:
     - derive/([A-Z])w([aeiouə])/$1ry$2/
     - derive/([A-Z])w([aeiouə])/$1vx$2/
     - derive/([A-Z])w([aeiouə])/$1vrj$2/
-    - derive/([A-Z])x([aeiouə])/$1l$2/
     - derive/([A-Z])vi([aeiouə])/$1u$2/ #uə
     - derive/([A-Z])vi(ə)/$1u$2/ #viə
     - derive/([A-Z])u([aeiouə])/$1vi$2/ #viə
@@ -197,7 +195,7 @@ speller:
     - abbrev/([A-Z])[ywu]/$1u/ #i=jxi
     - abbrev/([A-Z])[jxi](i|ə)/$1i/ #i
     - abbrev/([A-Z])[ywu](i|u|ə)/$1u/ #u
-    - abbrev/([A-Z])[ijx]u/$1u/ #iu
+    # - abbrev/([A-Z])[ijx]u/$1u/ #iu
 
     # - abbrev/([A-Z][iu])ə([xhs])/$1$2/ #iə 㞢c
     # - derive/([A-Z][iu])ə/$1/ #iə 㞢c
@@ -223,7 +221,7 @@ speller:
     - derive/(^|')JXv/x/ #雲母
     # - abbrev/(XQ)v/$1/ #雲皇母
     # - abbrev/(^|')(HG)(?!$)/x/ #邪
-    - abbrev/(^|')Lr/l/
+    - derive/(^|')Lr/l/
 
     # - xform/([A-Z]+)(ə|[ao])/$1e$2/ #一等无標記 一三
     # - xform/([A-Z]+e)(ə|[eiu])/$1$2/
@@ -276,9 +274,11 @@ speller:
     - derive/(^|')(BF?)(?=(ə|ʌ|[a-z]))/b/
     - derive/(^|')(MF?)(?=(ə|ʌ|[a-z]))/m/
 
-    - derive/(^|')(THR?|TCH|[LRN]S[RC]?)(?=(ə|ʌ|[a-z]))/th/
-    - derive/(^|')(T[RC]?)(?=(ə|ʌ|[a-z]))/t/
-    - derive/(^|')(LZ[RC]?|D[RC]?)(?=(ə|ʌ|[a-z]))/d/
+    - derive/(^|')([LRN]S[RC]?)(?=(ə|ʌ|[a-z]))/th/
+    - derive/(^|')(LZ[RC]?)(?=(ə|ʌ|[a-z]))/d/
+    - derive/(^|')(TSCH|TH[RC]?)(?=(ə|ʌ|[a-z]))/th/
+    - derive/(^|')(TSC|T[RC]?)(?=(ə|ʌ|[a-z]))/t/
+    - derive/(^|')(DZC|D[RC]?)(?=(ə|ʌ|[a-z]))/d/
     - derive/(^|')(N[CR]?)(?=(ə|ʌ|[a-z]))/n/
 
 
@@ -291,13 +291,15 @@ speller:
     # - derive/(^|')(HQ|NG)(?=(ə|ʌ|[a-z]))/\L$2/
     - derive/(^|')(NGQ?)(?=(ə|ʌ|[a-z]))/ng/
     - derive/(^|')(HQ)(?=(ə|ʌ|[a-z]))/hq/
-    - derive/(^|')(K[CQ]?)(?=(ə|ʌ|[a-z]))/k/
-    - derive/(^|')(KCH|KHQ?)(?=(ə|ʌ|[a-z]))/kh/
-    - derive/(^|')(HG|HZ|GC?)(?=(ə|ʌ|[a-z]))/g/
-    - derive/(^|')([XH]S|SX|H)(?=(ə|ʌ|[a-z]))/h/
+    - derive/(^|')(TSC|K[CQ]?)(?=(ə|ʌ|[a-z]))/k/
+    - derive/(^|')(TSCH|KH[CQ]?)(?=(ə|ʌ|[a-z]))/kh/
+    - derive/(^|')(DZC|HZG?|HG|GC?)(?=(ə|ʌ|[a-z]))/g/
+    - derive/(^|')(H)(?=(ə|ʌ|[a-z]))/h/
+    - derive/(^|')(HZQ?|XQZ?|XZ|QZ)(?=(ə|ʌ|[a-z]))/x/ #ɢ
 
-    - derive/(^|')(JXQ?|JQ|XQ|XZ|HZ|X)(?=(ə|ʌ|[a-z]))/x/
-    - derive/(^|')(JQ|JX|J)(?=(ə|ʌ|[a-z]))/j/ #邪㠯 喻
+    - derive/(^|')(HXS|NGS|MS|[XH]S|SX|QS)(?=(ə|ʌ|[a-z]))/h/
+    - derive/(^|')(JXQ?|JQ|X)(?=(ə|ʌ|[a-z]))/x/
+    - derive/(^|')(JQ?|J?X|J)(?=(ə|ʌ|[a-z]))/j/ #l
     - derive/(^|')L(?=(ə|ʌ|[a-z]))/l/
     - derive/(^|')SC(?=(ə|ʌ|[a-z]))/sc/
     - derive/(^|')ZC(?=(ə|ʌ|[a-z]))/zc/
@@ -397,9 +399,10 @@ speller:
     - derive/(^|')(JX?)(?!$)/JI/ #聲
     - derive/(^|')(SC|XS)(?!$)/SI/ #聲
     - derive/(^|')(ZC|XZ)(?!$)/ZI/ #聲
-    - derive/(^|')(SZ|ZS|[SZ]C|J)(?!$)/LI/ #聲
-    - derive/(^|')(X[SZ]|M)(?!$)/MI/ #聲
-    - derive/(^|')(N[CR]?|[ZC]C)(?!$)/NI/ #聲
+    - derive/(^|')(SZ|ZS|[SZ]C|L[SZ][RC]?|J)(?!$)/LI/ #聲
+    - derive/(^|')(RS[RC]?|L)(?!$)/RI/ #聲
+    - derive/(^|')(X[SZ]|MS|M)(?!$)/MI/ #聲
+    - derive/(^|')(N[CR]?|[ZC]C|NS[RC]?)(?!$)/NI/ #聲
     - derive/(^|')(NGQ?|X[SZ])(?!$)/NGI/ #聲
 
 translator:
@@ -434,14 +437,14 @@ pinyin:
   tips: 〔pinyin〕
   tag: pinyin
   # closing_tips:
-  # # contextual_suggestions: #優化
+  # # contextual_suggestions: 
  
 zyenpheng:
   dictionary: zyenpheng
   prefix: "a"
   suffix: "'"
   tips: 〔zyenpheng〕
-  # contextual_suggestions: #優化
+  # contextual_suggestions: 
   tag: zyenpheng
 
 zyenpheng_lookp:
@@ -472,4 +475,3 @@ recognizer:
     punct: "^/[0-9a-zA-Z]+$" #配合symbols.yaml中的特殊字符輸入
     zyenpheng: "^a[a-z]*'?$"
     pinyin: "^i[a-z]*'?$"
-    # unicode: "^u[0-9abcdef]*;?$"
