@@ -1,11 +1,11 @@
-# HZeepXueons
+# HZeepXuuns
 基亏廣韻旳 rime 拼音方案。叶韻音系:上古中古溷合，
 拼音説明 https://zhuanlan.zhihu.com/p/388867479
 輸入法說明：
   聲母:
 
-    [影]q [疑]w [匣云]E [透徹昌]r [端知章]t [谿]y (unicode)u (pinyin)i (ʕ)O [幫非]p 
-    (zyenpheng)a [心生]s  [定澄常]d [滂敷]f [羣匣]g [曉書]]h [邪俟以]j [見]k [來]l
+    [影]q [疑]w [匣云]E [透徹昌]r [端知章]t [谿]y ()u ()i (ʕ)O [幫非]p 
+    ()a [心生]s  [定澄常]d [滂敷]f [羣匣]g [曉書]]h [邪俟以]j [見]k [來]l
     [從崇]z [匣云邪俟船]x [精莊]c [淸初]v [並奉]b [泥孃日]n [明微]m
 
     [精莊]ts [淸初]tsh [從崇]dz [邪俟]sz
@@ -52,8 +52,4 @@
     n 韻尾平丄去入-n, -d, -z, -t
     ng韻尾平丄去入,-c, -g, -q, -k
     
-  附:
-    pinyin: i
-    zyenpheng: a
-    unicode:u
 
