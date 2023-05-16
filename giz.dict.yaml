@@ -240,7 +240,7 @@ use_preset_vocabulary: true
 母	ma
 父	pa
 父	bah
-母	məh
+# 母	məh
 ǀəx	tsə
 ####訓
 頁	Jjep		#葉䈎
@@ -494,7 +494,7 @@ use_preset_vocabulary: true
 㔻	PHFxəx
 㶨	PHFxəx
 𠦓	PHFxəx
-###咅㕻
+###咅㕻-j -t
 賠	Bvoj		#僃
 焙	Bvor
 碚	Boʌj
@@ -804,6 +804,7 @@ use_preset_vocabulary: true
 𫬩	scjac
 錛	Pvon
 逩	Pvoz
+###敏
 ###門
 𨷈	mvən
 燜	Mvoz
@@ -4543,7 +4544,12 @@ use_preset_vocabulary: true
 踩	Lyet
 𰗕	TSHoəh
 ###𠪋厚
+𠩞	HGəuh
 𠩰	HGəuh
+𠪀	HGəuh
+𢈲	HGəuh
+𫝗	HGəuh
+𰆝	HGəuh
 𣆉	HGəuh
 ###叓
 ###𠭏事
@@ -8117,22 +8123,22 @@ use_preset_vocabulary: true
 𦥳	KHjed
 𨺺	KHjed
 ###閒
-𪧶	kaen
-𫴨	kaen
-𨰓	KQaez
+𪧶	kaan
+𫴨	kaan
+𨰓	KQaaz
 #
-𩻘	Kaez
-𨣇	Kaez
-𮇻	HZaen
-𨣇	Kaez
-𤄒	Kaed
-襉	Kaez
-鬝	KHaet
-# 𥳑	Kaed
-鷳	HGaen
+𩻘	Kaaz
+𨣇	Kaaz
+𮇻	HZaan
+𨣇	Kaaz
+𤄒	Kaad
+襉	Kaaz
+鬝	KHaat
+# 𥳑	Kaad
+鷳	HGaan
 ##間
 𨰝	KQaez
-𤃦kaen
+𤃦	kaen
 墹	kaen
 蕳	KQaen
 覸	KQaen

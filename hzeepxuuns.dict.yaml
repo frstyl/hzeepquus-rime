@@ -778,7 +778,7 @@ import_tables:
 斜	SZjox
 䔑	Jjox
 斜	Jjox
-余	LZjox
+余	LZCjox
 余	ZCjox
 賖	SCjox
 畬	SCjox
@@ -3623,11 +3623,17 @@ import_tables:
 黝	HQjix		#幺
 㡼	Jjis		#?
 疻	KCjix
+蒫	TSjij
+𨌅	TSHjij
+𨌅	DZjij
+郪	TSHjij
 #
 蟿	KHjis
 𧧰	GCjih		#臣
 䛗	GCjih		#
 ##JIR JIKS JITS
+𩾔	TSHjirt		#𩾙?
+𩾙	TSHjirt
 懥	TCjirt
 𪀒	THCjix
 胵	THCjix
@@ -3914,12 +3920,6 @@ import_tables:
 齍	TSjəj
 薺	DZjəj
 蠐	DZjəj
-蒫	TSjəj
-𨌅	TSHjəj
-𨌅	DZjəj
-郪	TSHjəj
-𩾔	TSHjirt		#𩾙?
-𩾙	TSHjirt
 ##JƏR
 #-P
 涖	Ljərp		#ps
@@ -7168,8 +7168,8 @@ import_tables:
 𦺗	SCjox
 𨛭	SCjox
 鵨	SCjox
-野	LZjoh
-墅	LZjoh
+野	LZCjoh
+墅	LZCjoh
 与	Jjoh
 𢌱	Jjoh
 與	Jjoh
@@ -7232,8 +7232,8 @@ import_tables:
 敘	SZjoh
 漵	SZjoh
 瑹	SCjox
-蜍	LZjox
-稌	LZjox
+蜍	LZCjox
+稌	LZCjox
 諸	TCjox
 㶆	TCjox
 櫧	TCjox
@@ -12071,7 +12071,7 @@ import_tables:
 𩏷	TSjux
 𥾀	TSjux
 ##
-咎	Giuh		#
+咎	Giuh		#休
 𦜵	Hiux
 綹	Ljiuh
 𦜵	Giux
@@ -16277,9 +16277,6 @@ import_tables:
 𩭿	NCaat
 斒	Paan
 鯿	Paan
-辬	Paan
-捌	Paat
-㭭	Paat
 柵	SSaaz
 耫	DZSaat
 呾	HQaat
@@ -16424,6 +16421,9 @@ import_tables:
 汕	SSaez
 疝	SSaez
 #?
+辬	Paen
+捌	Paet
+㭭	Paet
 砎	HGaet		#?
 ##RIN
 眣	TRait
@@ -27715,8 +27715,8 @@ import_tables:
 𦟛	LSRxoc
 𪒒	LSRxoc
 鱅	DCjoc	2%		#LZ- J-
-慵	LZjoc
-𩌨	LZjoc
+慵	LZCjoc
+𩌨	LZCjoc
 庸	Jjoc		#LZ-
 𦤘	Jjoc
 滽	Jjoc

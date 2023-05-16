@@ -64,9 +64,9 @@ speller:
 
 
 
-    # - derive/([A-Z][evjxywarf]i)c/$1n/  #iŋ必
-    # - derive/([A-Z][evjxywarf]i)g/$1d/
-    # - derive/([A-Z][evjxywarf]i)q/$1z/
+    - derive/([A-Z][evjxywarf]i)c/$1n/  #iŋ必
+    - derive/([A-Z][evjxywarf]i)g/$1d/
+    - derive/([A-Z][evjxywarf]i)q/$1z/
     # - abbrev/([A-Z][evjxywarf]i)k/$1t/
     # - abbrev/([A-Z][r])[uo]([cgqk])/$1u$2/  #ruŋ
     # - abbrev/([A-Z][r])[uo]([cgqk])/$1o$2/
