@@ -36,6 +36,7 @@ use_preset_vocabulary: true
 ∫	TSjek PFuən
 °	Doos
 ✓	Kəux
+❌	TSSHaaj
 ¿	MFuəz
 #######會意
 #####
@@ -257,8 +258,8 @@ use_preset_vocabulary: true
 混	Kvod		#滾
 聃	Toum		#耽
 率	Lyut		#律
-# 暖	Nvud		#煗㬉
-# 煖	Nvud		#煗㬉
+# 暖	Nvad		#煗㬉
+# 煖	Nvad		#煗㬉
 闖	TSSHxag		#撞
 ####
 黏	NRiaf
@@ -269,7 +270,7 @@ use_preset_vocabulary: true
 打	tah
 ####誤
 # 厹	NCjuh		#禸
-# 萑	HGvun
+# 萑	HGvan
 # 㢧	Kxux		#𠃚
 # 夆	HGoar		#𡕗
 # 𢎪	HGvəc
@@ -1239,6 +1240,7 @@ use_preset_vocabulary: true
 㿝	Hiac	2
 𤼿	Hiac
 ###方
+䲱	PHuag
 埅	BFuac
 𭤧	PFuac
 ###平
@@ -1334,9 +1336,22 @@ use_preset_vocabulary: true
 𣇱	Mxac
 朙	Mxac
 𬚽	Mxac
+###丰𡴀
+𡵄	PHFioc
+胖	PHauq	1		#肨
+峰	PHioc
 ###邦
+邫	Pauc
+邽	Pauc
+䢶	Pauc
+𠲑	Pauc
+𣬤	Pauc
+𨚜	Pauc
+𨚦	Pauc
+𨛁	Pauc
+𮟵	Pauc
 綁	Paug
-###封
+###封𡉚
 㜂	Pioc
 篈	Pioc
 ###莫
@@ -1361,12 +1376,6 @@ use_preset_vocabulary: true
 𠁗	SCjak
 ###
 𡕡	Bouk		#𡰿
-###丰
-𡵄	PHFioc
-胖	PHauq	1		#肨
-峰	PHioc
-###邦
-䲱	PHuag
 ###蒙冡
 䥂	Mouc
 ##
@@ -1469,22 +1478,22 @@ use_preset_vocabulary: true
 鋬	PHaaz
 ###滿
 蟎	Mvad
-満	Mvud
-𣺏	Mvud
-𣼛	Mvud
-𫉗	Mvud
-𫞜	Mvud
-𭰯	Mvud
-𭱎	Mvud
-𭱩	Mvud
-𭱪	Mvud
-𭱽	Mvud
-𭲞	Mvud
-𭳓	Mvud
-𱧒	Mvud
-𱧽	Mvud
-满	Mvud	0
-𬜯	Mvun	0
+満	Mvad
+𣺏	Mvad
+𣼛	Mvad
+𫉗	Mvad
+𫞜	Mvad
+𭰯	Mvad
+𭱎	Mvad
+𭱩	Mvad
+𭱪	Mvad
+𭱽	Mvad
+𭲞	Mvad
+𭳓	Mvad
+𱧒	Mvad
+𱧽	Mvad
+满	Mvad	0
+𬜯	Mvan	0
 ###萬
 澫	Muaz
 躉	Tvod
@@ -2549,6 +2558,7 @@ use_preset_vocabulary: true
 𢎟	Doaz
 𢎛	Doaz
 ###丹
+円	Tan
 㣋	Toan
 𠁿	Toan
 𠂁	Toan
@@ -2611,7 +2621,7 @@ use_preset_vocabulary: true
 𡷋	Dvurt
 𩒬	THRfat		#䫄
 兑	Dvart
-敚	Dvut
+敚	Dvat
 棁	THvat
 棁	THvot
 悦	Jyot
@@ -2622,8 +2632,8 @@ use_preset_vocabulary: true
 蜕	Jyot
 蜕	THvort
 税	SCyort
-捝	THvut
-捝	Dvut
+捝	THvat
+捝	Dvat
 涚	SCyort
 𣮆	THvas		#毤
 毻	THvax
@@ -3324,7 +3334,7 @@ use_preset_vocabulary: true
 騍	Kvas
 錁	Kvah
 倮	Lvujh
-𥚌	KQvuz
+𥚌	KQvaz
 ###𣎆𦟀KR
 𣎆	Lvujh
 𮌩	Lvujh
@@ -3434,6 +3444,9 @@ use_preset_vocabulary: true
 㠀	Touw
 搗	Toaw		#𢶈
 ###弔
+𢎨	Teiək
+𢎣	Teiək
+𢎱	Teiək
 ##
 吊	Teey
 銱	Teey
@@ -5223,7 +5236,7 @@ use_preset_vocabulary: true
 𧆘	Xuəs		#囿
 ###又
 ###雨
-兩	Xvioh
+# 兩	Xvioh
 𠕒	Xvioh
 𠕘	Xvioh
 𠕲	Xvioh
@@ -6476,7 +6489,7 @@ use_preset_vocabulary: true
 𥡪	Jjəp
 翌	Jjəp
 ###林
-焚	BFuəm		#林-M?
+# 焚	BFuəm		#林-M?
 ##森
 䫖𩕌	THRxub SSxub
 ###甘
@@ -7024,16 +7037,16 @@ use_preset_vocabulary: true
 #
 𢘇	Toaz		#怛
 ###短
-# 䄈	Tvud
-𥎭	Tvud
-𥎶	Tvud
-𥎷	Tvud
-𥏆	Tvud
-𥏸	Tvud
-𥐍	Tvud
-𰦓	Tvud
-𰶘	Tvud
-𰶚	Tvud
+# 䄈	Tvad
+𥎭	Tvad
+𥎶	Tvad
+𥎷	Tvad
+𥏆	Tvad
+𥏸	Tvad
+𥐍	Tvad
+𰦓	Tvad
+𰶘	Tvad
+𰶚	Tvad
 ###耑
 ##端
 𤻨	THvad		#瘓
@@ -7081,8 +7094,8 @@ use_preset_vocabulary: true
 𡥑	SSauq		#㦼
 旾	THCyun
 ##段
-塅	dvuz
-煅	Dvuz
+塅	dvaz
+煅	Dvaz
 𩏇	THvad
 ###𦎫
 㨃	Tvoj
@@ -7594,20 +7607,20 @@ use_preset_vocabulary: true
 ###𣦼
 䱗	TSHoan
 ###爨
-㸑	TSHvuz
-𠆡	TSHvuz
-𣡥	TSHvuz
-𤍾	TSHvuz
-# 𤏷	TSHvuz	5
-𤑇	TSHvuz
-𤑖	TSHvuz
-𤓟	TSHvuz
-𤓥	TSHvuz
-𫴘	TSHvuz
-𬋡	TSHvuz
-𱬩	TSHvuz
-𱬰	TSHvuz
-𱬲	TSHvuz
+㸑	TSHvaz
+𠆡	TSHvaz
+𣡥	TSHvaz
+𤍾	TSHvaz
+# 𤏷	TSHvaz	5
+𤑇	TSHvaz
+𤑖	TSHvaz
+𤓟	TSHvaz
+𤓥	TSHvaz
+𫴘	TSHvaz
+𬋡	TSHvaz
+𱬩	TSHvaz
+𱬰	TSHvaz
+𱬲	TSHvaz
 ###戔
 𥂥	DZoan
 𰮦	DZoan
@@ -7655,11 +7668,11 @@ use_preset_vocabulary: true
 𡞍	TCyon	5
 𰐰	TCyon
 𰺿	DRwon	5
-𫦂	Dvun
-𣶣	Dvun	5
-𣷼	Dvun
-𩃘	Dvun
-𥮔	Dvun
+𫦂	Dvan
+𣶣	Dvan	5
+𣷼	Dvan
+𩃘	Dvan
+𥮔	Dvan
 𦁆	DCyoz		#𢮨
 𦁆	HZQvirt		#繐
 𬘄	HZQvirt		#繐
@@ -7689,10 +7702,10 @@ use_preset_vocabulary: true
 叀	DZCyen
 𠇇	TCyon
 ##
-𠝅	Dvun	1		#剸
-𣂢	Dvun
+𠝅	Dvan	1		#剸
+𣂢	Dvan
 ##
-糰	Dvun		#團
+糰	Dvan		#團
 ###叕
 𦦖	TSSwut
 𠮐	TSSwut
@@ -7702,23 +7715,23 @@ use_preset_vocabulary: true
 䜝	THvad
 𢣎	THvad
 ###斷
-断	Tvud
-㫁	Tvud
-𣂱	Tvud
-𣂾	Tvud
-𣃔	Tvud
-𰻋	Tvud
-𲅫	Tvud
-𣂢	Tvud
-𠝅	Tvud
-𠡱	Tvud
-𣂣	Tvud
-𣂸	Tvud
-𣦕	Tvud
-𣦙	Tvud
-𰕠	Tvud
-𰕤	Tvud
-𱡪	Tvud
+断	Tvad
+㫁	Tvad
+𣂱	Tvad
+𣂾	Tvad
+𣃔	Tvad
+𰻋	Tvad
+𲅫	Tvad
+𣂢	Tvad
+𠝅	Tvad
+𠡱	Tvad
+𣂣	Tvad
+𣂸	Tvad
+𣦕	Tvad
+𣦙	Tvad
+𰕠	Tvad
+𰕤	Tvad
+𱡪	Tvad
 ###亘𠄢
 ##宣
 煊	XSuan		#煖
@@ -7735,7 +7748,7 @@ use_preset_vocabulary: true
 䃠	Syez
 𩘒	TSyen
 𡺟	DZyen
-𠝳	NGQvun		#刓
+𠝳	NGQvan		#刓
 # 縇	Syen
 # 𤸧
 䙋	Syen
@@ -7793,7 +7806,7 @@ use_preset_vocabulary: true
 仚	Sjen
 ###殺
 𰍑	sret
-𰍑	hzvun
+𰍑	hzvan
 剎	TSSHaat
 摋	SSxet
 樧	SSaet
@@ -7936,7 +7949,7 @@ use_preset_vocabulary: true
 㞮	THCyut
 ###祟-出
 祟	Syut
-𥨒	TSHvuz		#竄
+𥨒	TSHvaz		#竄
 𥙋	Syurt	2
 #
 𧎹	TSvar
@@ -7951,17 +7964,17 @@ use_preset_vocabulary: true
 𥨺	TSHvur
 ###𠭥-出
 #欵
-𩺶	KHQvud
-窽	KHQvud	1		#窾
-𡪡	KHQvud
-𥧾	KHQvud
-𫩀	KHQvud	2		#㱁歀
-𣢸	KHQvud
-𣣇	KHQvud
-𣣙	KHQvud
-𣤂	KHQvud
-𢡜	KHQvud	2
-𤘯	KHQvud
+𩺶	KHQvad
+窽	KHQvad	1		#窾
+𡪡	KHQvad
+𥧾	KHQvad
+𫩀	KHQvad	2		#㱁歀
+𣢸	KHQvad
+𣣇	KHQvad
+𣣙	KHQvad
+𣤂	KHQvad
+𢡜	KHQvad	2
+𤘯	KHQvad
 ##岸
 婩	NGiak
 婩斫	NGiak TCjak
@@ -8000,39 +8013,39 @@ use_preset_vocabulary: true
 𡫮	HGoan
 # 𡫾	HGoan
 ###吅
-𠺐	Hvuz
-𧠮	Hvuz
+𠺐	Hvaz
+𧠮	Hvaz
 ###雚吅
-観	KQvun
-覌	KQvun
-观	KQvun	0
-𥍄	KQvun
-𥍕	KQvun
-𧢪	KQvun
-𫟜	KQvun
-𮗚	KQvun
-𰴔	KQvun
-𥍊	KQvun
-𧃼	KQvun
-𥍅	KQvun
-𩁰	KQvun
-𥸑	KQvun
-# 𦻃	KQvuz
-𮥶	KQvuz
-𮥹	KQvuz
-𮥿	KQvuz
+観	KQvan
+覌	KQvan
+观	KQvan	0
+𥍄	KQvan
+𥍕	KQvan
+𧢪	KQvan
+𫟜	KQvan
+𮗚	KQvan
+𰴔	KQvan
+𥍊	KQvan
+𧃼	KQvan
+𥍅	KQvan
+𩁰	KQvan
+𥸑	KQvan
+# 𦻃	KQvaz
+𮥶	KQvaz
+𮥹	KQvaz
+𮥿	KQvaz
 ###雈
 鱹	Kvaz
 鑵	Kvaz
 巏	Kvaz
-𠿅	Hvuz
+𠿅	Hvaz
 ###奐
 𠻍	Hvaz
 ###萈寬
 寛	KHQvan	1		#寬
-𡅱	Hvuz
-𡅻	Hvuz
-𡅽	Hvuz
+𡅱	Hvaz
+𡅻	Hvaz
+𡅽	Hvaz
 ###丯
 𠛉	KHQaet
 𢩬	KHQaet
@@ -8123,19 +8136,19 @@ use_preset_vocabulary: true
 𦥳	KHjed
 𨺺	KHjed
 ###閒
-𪧶	kaan
-𫴨	kaan
-𨰓	KQaaz
+𪧶	kaen
+𫴨	kaen
+𨰓	KQaez
 #
-𩻘	Kaaz
-𨣇	Kaaz
-𮇻	HZaan
-𨣇	Kaaz
-𤄒	Kaad
-襉	Kaaz
-鬝	KHaat
-# 𥳑	Kaad
-鷳	HGaan
+𩻘	Kaez
+𨣇	Kaez
+𮇻	HZaen
+𨣇	Kaez
+𤄒	Kaed
+襉	Kaez
+鬝	KHaet
+# 𥳑	Kaed
+鷳	HGaen
 ##間
 𨰝	KQaez
 𤃦	kaen
@@ -8178,7 +8191,7 @@ use_preset_vocabulary: true
 ##閑
 𥊺	HGaen
 嫻	HGaen
-𭧴kaen
+𭧴	kaen
 𨳡	KQaen
 𨳢	KQaen
 𬮈	KQaen
@@ -8212,12 +8225,12 @@ use_preset_vocabulary: true
 䲻	HZven
 ###盥
 #
-泴	KQvuz
-𮍮	KQvuz
-𰤷	KQvuz
-𰤿	KQvuz
-𰥇	KQvuz
-𱲛	KQvuz
+泴	KQvaz
+𮍮	KQvaz
+𰤷	KQvaz
+𰤿	KQvaz
+𰥇	KQvaz
+𱲛	KQvaz
 ###圣㕢
 𡑧	HGaat
 𡑧	KHvot
@@ -8317,18 +8330,18 @@ use_preset_vocabulary: true
 飬	KHwez
 𠢏	KHuoz
 ###款𡪡
-欵	KHQvud
-歀	KHQvud
-𣢸	KHQvud
-𣢻	KHQvud
-𣢾	KHQvud
-𣣇	KHQvud
-𣣙	KHQvud
-𣤂	KHQvud
-𤘯	KHQvud
-𫎉	KHQvud
-𭭎	KHQvud
-𰙒	KHQvud
+欵	KHQvad
+歀	KHQvad
+𣢸	KHQvad
+𣢻	KHQvad
+𣢾	KHQvad
+𣣇	KHQvad
+𣣙	KHQvad
+𣤂	KHQvad
+𤘯	KHQvad
+𫎉	KHQvad
+𭭎	KHQvad
+𰙒	KHQvad
 𥛁	KHwoz	1		#䄐
 ###困
 𧋕	KHwun
@@ -8364,6 +8377,22 @@ use_preset_vocabulary: true
 亣	THoat	1		#謬
 𧜕	THeert
 ##太泰
+㤗	THoart
+𠆋	THoart
+𠆖	THoart
+𠆗	THoart
+𡇷	THoart
+𡙌	THoart
+𡙥	THoart
+𢗤	THoart
+𣳾	THoart
+𧮼	THoart
+𬽘	THoart
+𭜮	THoart
+𭰣	THoart
+冭	THoart
+# 夳	THoart
+𡗓	THoart
 𣡳	THoar		#太
 忲	THoar
 㥭	THoar
@@ -8411,17 +8440,17 @@ use_preset_vocabulary: true
 𡕱	Hyeq
 ###爰
 ###袁
-𤟗	Xuon
-𤝌	Xuon
-𧳭	Xuon
+𤟗	Xuan
+𤝌	Xuan
+𧳭	Xuan
 #
-𡊮	Xuon
-𡋡	Xuon
-𭎕	Xuon
-逺	Xuod
-𨖸	Xuod
-𢕱	Xuod
-逺	Xuoz
+𡊮	Xuan
+𡋡	Xuan
+𭎕	Xuan
+逺	Xuad
+𨖸	Xuad
+𢕱	Xuad
+逺	Xuaz
 ###瞏睘
 还	HZQfun	0
 𨕔	HZQfun
@@ -8747,7 +8776,7 @@ use_preset_vocabulary: true
 ##䜌
 孿	SSfaz
 𱟛	Lyoz		#戀
-𪈽	Lvun
+𪈽	Lvan
 #
 # 䜌	Lyon
 龻	Lyon
@@ -8755,7 +8784,7 @@ use_preset_vocabulary: true
 𮘎	Lyon
 𰁜	Lyon
 ##
-圞	Lvun
+圞	Lvan
 𤼣	Lyon
 ###戌
 𤇳	Hyit
@@ -8927,11 +8956,11 @@ use_preset_vocabulary: true
 𤑅	HQiad
 𠍛	HQiad
 ###𥄗
-㻨	HQvuz
-𤦼	HQvuz		#	U249bc
-𤦁	HQvuz
-𤧩	HQvuz	0		#	U249e9
-𤧬	HQvuz
+㻨	HQvaz
+𤦼	HQvaz		#	U249bc
+𤦁	HQvaz
+𤧩	HQvaz	0		#	U249e9
+𤧬	HQvaz
 ###尉
 ###鬱
 欎	HQuut
@@ -8955,8 +8984,8 @@ use_preset_vocabulary: true
 𢖭	HQuod
 ##宛
 箢	HQuad
-碗	HQvud	2
-埦	HQvud	2
+碗	HQvad	2
+埦	HQvad	2
 #
 𦞿	HQvaz		#腕
 ###𣶒淵
@@ -9009,11 +9038,11 @@ use_preset_vocabulary: true
 緼	HQvon
 緼	HQuəz
 蕰	HQvon
-蕰	HQuod
-蕰	HQuoz
-藴	HQuon
+蕰	HQuud
+蕰	HQuuz
+藴	HQuun
 瘟	HQvon
-蒀	HQuon
+蒀	HQuun
 腽	HQvot
 榅	HQvot
 塭	HQvon
@@ -9124,27 +9153,27 @@ use_preset_vocabulary: true
 # 姢	HQyen
 # 𣚓	Kyez
 ###
-乱	Lvuz
-乿	Lvuz
-釠	Lvuz
-𠃶	Lvuz
-𠃹	Lvuz
-𠃿	Lvuz
-𠦸	Lvuz
-𠧎	Lvuz
-𠧏	Lvuz
-𠮗	Lvuz
-𢮣	Lvuz
-# 𢿢	Lvuz
-𢿮	Lvuz
-𢿳	Lvuz
-𤔐	Lvuz
-𤔒	Lvuz
-# 𤔔	Lvuz
-𤔦	Lvuz
-𤔬	Lvuz
-𤕅	Lvuz	2
-𤕍	Lvuz
+乱	Lvaz
+乿	Lvaz
+釠	Lvaz
+𠃶	Lvaz
+𠃹	Lvaz
+𠃿	Lvaz
+𠦸	Lvaz
+𠧎	Lvaz
+𠧏	Lvaz
+𠮗	Lvaz
+𢮣	Lvaz
+# 𢿢	Lvaz
+𢿮	Lvaz
+𢿳	Lvaz
+𤔐	Lvaz
+𤔒	Lvaz
+# 𤔔	Lvaz
+𤔦	Lvaz
+𤔬	Lvaz
+𤕅	Lvaz	2
+𤕍	Lvaz
 ###术
 术	ZCyut
 术	DRwut
@@ -9361,13 +9390,13 @@ use_preset_vocabulary: true
 𩅏	Deiz
 𩆫	Deiz
 ###旋
-𭻾	SZyon
-䄈	SZyon
-𡟐	SZyon
-𢭀	SZyon
-𣒀	SZyon
-𱵑	SZyon
-𲀳	SZyon
+𭻾	SZyen
+䄈	SZyen
+𡟐	SZyen
+𢭀	SZyen
+𣒀	SZyen
+𱵑	SZyen
+𲀳	SZyen
 漩	SZyez
 漩	SZyen
 𣎓	SZyen
@@ -11910,9 +11939,9 @@ use_preset_vocabulary: true
 𣳳	Soʌl
 舾	Seej
 ###夋
-夋	Svun
-𨣪	Svun
-痠	Svun
+夋	Svan
+𨣪	Svan
+痠	Svan
 鋑	TSHvan
 ###雋-隽巂
 纗	TSjex
@@ -11994,10 +12023,10 @@ use_preset_vocabulary: true
 ##緣剶喙
 縁	Jyon
 𦄘	Jyon
-𢑡	THvuz
-# 𧰲	THvuz
-𧰳	THvuz
-𮙛	THvuz
+𢑡	THvaz
+# 𧰲	THvaz
+𧰳	THvaz
+𮙛	THvaz
 ###蠡
 𢞶	HGaex
 𢠟	HGaex	1		#蠡

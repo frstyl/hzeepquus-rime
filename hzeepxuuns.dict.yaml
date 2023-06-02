@@ -2068,7 +2068,7 @@ import_tables:
 矮	HQaul
 躷	HQaul
 㢊	HQaal		#A
-###佳
+##佳
 㚷	NRaəl
 嬭	NRaəl
 ##RIJ 佳
@@ -2078,7 +2078,7 @@ import_tables:
 ##RI?
 㿄	HQaes		#?
 㗨	Haex
-###RE 佳
+##RE 佳
 籭	SSaex
 躧	SSaeh
 灑	SSaeh
@@ -2180,15 +2180,15 @@ import_tables:
 猚	NGQaex
 ##
 𩂢	NGQaəx
-###佳
+##佳
 𣎳	PHaer		#?
 𣏟	PHaer
 洒	SSaər
-###REJ 皆
+##REJ
 㥟	HGaej		#彖
 拐	Gael
 箉	Gael
-###RER皆
+##RER
 隘	HQaesk
 䅬	HQaesk
 賹	HQaesk
@@ -2199,13 +2199,55 @@ import_tables:
 膪	TRaesk
 𢕮	TRaesk
 阸	HQaesk
+##FUR FUKS FUTS VRUR
+𨛖	KHQfor		#蒯ts 蒯	KHQfort
+##REJ 佳
+叉	TSSHaej
+扠	THRaej
+釵	TSSHaej
+靫	TSSHaej
+𩑐	TSSHaej
+芆	TSSHaej
+衩	TSSHaer
+杈	TSSHaer
+訍	TSSHaer
+㳗	TSSHaer
+汛	SSaer	1%		#?灑
+𢀩	TSSHaej		#使
+差	TSSHaej
+䐤	TSSHaej
+𠞊	TSSHaej
+瘥	TSSHaer
+𢀩	TSSHaer		#異
+𤻸	TSSHaer
+𧭨	TSSHaer
+𧭯	TSSHaer	1
+𧪘	TSSHaer
+差	TSSHaer
+𨌅	DZSaej
+##
+𦝨	KHQail
+###VRE 佳
+𩝨	Hfex
+䓙	KHQfex
+𦶎	KHQfex		#䓙
+𦹬	KHQfex		#?𦶎
+###REJ皆
+##RE 皆
+街	KQaex
+牌	Baex
+猈	Baex
+鞋	HGaex
+娾	NGQaex
+娾	NGQaeh
+𧡋	NGQaeh
+薢	KQaex
+𠢲	KHQaeh
 ##ROR ROKS ROTS
 拜	Paurt		#ts
 𢳎	Paurt
 𢷎	Paurt
 湃	PHaurt
-##FUR FUKS FUTS VRUR
-𨛖	KHQfor		#蒯ts 蒯	KHQfort
 ##RIJ 皆
 皆	KQaij
 偕	KQaij
@@ -2243,17 +2285,6 @@ import_tables:
 𪗓	TSSaəj
 ##
 𧱘	Maer		#𧱘𧱳 集運皆
-##RE 皆
-𦝨	KHQail
-街	KQaex
-牌	Baex
-猈	Baex
-鞋	HGaex
-娾	NGQaex
-娾	NGQaeh
-𧡋	NGQaeh
-薢	KQaex
-𠢲	KHQaeh
 ##REKS
 艐	KQaesk
 䁓	KQaesk
@@ -2274,30 +2305,6 @@ import_tables:
 㞒	Hairt		#?
 ##RƏ
 # 崽	SSaə
-##REJ 佳
-叉	TSSHaej
-扠	THRaej
-釵	TSSHaej
-靫	TSSHaej
-𩑐	TSSHaej
-芆	TSSHaej
-衩	TSSHaer
-杈	TSSHaer
-訍	TSSHaer
-㳗	TSSHaer
-汛	SSaer	1%		#?灑
-𢀩	TSSHaej		#使
-差	TSSHaej
-䐤	TSSHaej
-𠞊	TSSHaej
-瘥	TSSHaer
-𢀩	TSSHaer		#異
-𤻸	TSSHaer
-𧭨	TSSHaer
-𧭯	TSSHaer	1
-𧪘	TSSHaer
-差	TSSHaer
-𨌅	DZSaej
 ##RER REKS RETS皆
 債	TSSaesk		#ks
 譮	Haerp		#ps 會
@@ -2404,12 +2411,6 @@ import_tables:
 #
 屆	KQaərt		#ts i?
 屆	KQairt		#ts i?
-
-###VRE 佳
-𩝨	Hfex
-䓙	KHQfex
-𦶎	KHQfex		#䓙
-𦹬	KHQfex		#?𦶎
 ##VRE
 𦫳	KQfeh
 𠁥	KQfeh
@@ -3070,9 +3071,9 @@ import_tables:
 𤼒	JQyeh
 瓗	JQyes
 纗	JQyes
-觿	Hyex
-鑴	Hyex
-孈	Hyes
+觿	HSyex
+鑴	HSyex
+孈	HSyes
 ##YIJ ?
 沝	TCyeh
 ##YR -r
@@ -3524,6 +3525,9 @@ import_tables:
 攱	Kweh
 攱	Kwes
 ##WUJ
+縋	DRwur		#?u u
+膇	DRwur
+槌	DRwur
 # 夊	TSSHwuj		#swi
 ##WE
 䪎	SSwex
@@ -3601,13 +3605,6 @@ import_tables:
 姽	NGwol
 𪀗	NGwol
 跪	Gwol
-縋	DRwor		#?o u
-膇	DRwor
-槌	DRwor
-##
-縋	DRwur		#?u u
-膇	DRwur
-槌	DRwur
 ####I
 ###II- JI
 #
@@ -5625,15 +5622,15 @@ import_tables:
 剴	NGQoəj
 獃	NGQoəj
 ###VƏJ
-##
-鮠	NGQvoj
-桅	NGQvoj
-峞	NGQvoj
-頠	NGQvol
-峞	NGQvol
-堁	KHQvor
-輠	HGvol
-㷄	Hvol
+##?
+鮠	NGQvuj
+桅	NGQvuj
+峞	NGQvuj
+頠	NGQvul
+峞	NGQvul
+堁	KHQvur
+輠	HGvul
+㷄	Hvul
 ##VƏJ?
 䣙	Bvəj		#?
 𡜊	PHvəj		#?u
@@ -7133,6 +7130,7 @@ import_tables:
 㼋	NCjoh
 馭	NGios	 #御
 鄦	MSioh		#M
+𨝬	MSioh
 璷	Ljox
 蜡	TSHjos
 𡲁	SZjos
@@ -13035,18 +13033,18 @@ import_tables:
 𧍙	BFuob
 範	BFuob
 犯	BFuob
-##UUM
-凡	BFuum
-帆	BFuum
-𠆩	BFuum
-釩	BFuub
-軓	BFuub
-梵	BFuuf
-帆	BFuuf
-𠆩	BFuuf
-汎	PHFuuf
-颿	BFuum
-颿	BFuuf
+##UUM?
+凡	BFuəm
+帆	BFuəm
+𠆩	BFuəm
+釩	BFuəb
+軓	BFuəb
+梵	BFuəf
+帆	BFuəf
+𠆩	BFuəf
+汎	PHFuəf
+颿	BFuəm
+颿	BFuəf
 ####EM添
 ###EM
 ##UM
@@ -14780,7 +14778,7 @@ import_tables:
 曇	LZoəm		#LZ
 壜	LZoəm
 𢲘	LSoəm
-探	LSoəm		#LS
+探	LSoəm	1%		#LS
 𥥍	LZoəb		#覃探
 㤾	Soəf
 𥸢	TSoəm
@@ -15968,6 +15966,36 @@ import_tables:
 逭	HGvaz
 婠	HQvan
 捾	HQvat
+觀	KQvan
+雚	KQvaz
+矔	KQvaz
+瓘	KQvaz
+罐	KQvaz
+𤼐	KQvaz
+灌	KQvaz
+鸛	KQvaz
+懽	KQvaz
+爟	KQvaz
+觀	KQvaz
+歡	Hvan
+懽	Hvan
+驩	Hvan
+貛	Hvan
+𪈩	Hvan
+酄	Hvan
+獾	Hvan
+犿	Hvan		#獾
+𡚊	Hvan
+讙	Hvan
+嚾	Hvaz
+𠂄	Hvan		#驩兜
+鴅	Hvan
+𣎅	Hvan
+𩿊	Hvan
+𩁧	HZvaz
+雈	HZvan
+𦻃	HZvan
+𦼉	HZvan	2%
 ##UN?U?O?
 漶	HGvuz
 毌	KQvun		#串
@@ -16145,36 +16173,6 @@ import_tables:
 棵	HGvud
 盥	KQvud
 盥	KQvuz
-觀	KQvun
-雚	KQvuz
-矔	KQvuz
-瓘	KQvuz
-罐	KQvuz
-𤼐	KQvuz
-灌	KQvuz
-鸛	KQvuz
-懽	KQvuz
-爟	KQvuz
-觀	KQvuz
-歡	Hvun
-懽	Hvun
-驩	Hvun
-貛	Hvun
-𪈩	Hvun
-酄	Hvun
-獾	Hvun
-犿	Hvun		#獾
-𡚊	Hvun
-讙	Hvun
-嚾	Hvuz
-𠂄	Hvun		#驩兜
-鴅	Hvun
-𣎅	Hvun
-𩿊	Hvun
-𩁧	HZvuz
-雈	HZvun
-𦻃	HZvun
-𦼉	HZvun	2%
 㱁	KHQvud
 款	KHQvud
 歀	KHQvud
@@ -16190,7 +16188,7 @@ import_tables:
 筦	KQvud
 冠	KQvuz
 梡	KHQvud
-完	HZvun		#?NG
+完	HZvun
 梡	HZvun
 莞	HZvun
 綄	HZvun
@@ -16407,15 +16405,15 @@ import_tables:
 騴	HQaaz
 䁙	HQaaz
 鷃	HQaaz
-㵎	KQaaz
-鐗	KQaaz
-䔵	KQaan
-鬜	KHQaan
-僩	HGaad
-憪	HGaad
-𤡥	HGaad
-橌	HGaad
 ##REN
+㵎	KQaez
+鐗	KQaez
+䔵	KQaen
+鬜	KHQaen
+僩	HGaed
+憪	HGaed
+𤡥	HGaed
+橌	HGaed
 訕	SSaen		#山
 訕	SSaez
 汕	SSaez
@@ -16912,12 +16910,6 @@ import_tables:
 笲	BFuon
 笲	BFuod
 軬	BFuod
-勸	KHuoz
-虇	KHuod
-虇	KHuoz
-吅	Huan
-讙	Huon
-䚭	Huon
 菌	Guod
 𣀔	PHFuoz
 𣫑	PHFuoz
@@ -17001,6 +16993,12 @@ import_tables:
 塤	HSQuon		#VS
 壎	HSQuon		#塤
 ##A?O? RAN
+吅	Huan
+勸	KHuaz
+虇	KHuad
+虇	KHuaz
+讙	Huan
+䚭	Huan
 月	NGuat
 刖	NGuat
 跀	NGuat
@@ -18028,7 +18026,31 @@ import_tables:
 疝	SSaen
 邖	SSaen
 汕	SSaed
-
+蕑	KQaen
+覵	KQaen
+襉	KQaez
+覵	KQaez
+㵎	KQaez
+𥳑	KQaed
+𤄒	KQaed
+閒	KQaen
+𧟉	KQaed
+僩	KQaed
+閒	KQaez
+鬜	KHQaen
+鬜	KHQaet
+𤡥	NGQaen
+㗴	NGQaen
+閒	HGaen
+嫺	HGaen
+癇	HGaen
+𩦂	HGaen
+瞯	HGaen
+憪	HGaen
+閑	HGaen
+鷴	HGaen
+𨳢	KQaen
+䉍	KQaez
 ##RAN
 㬮	NRaan
 𨋐	PHaat
@@ -18104,31 +18126,6 @@ import_tables:
 𩥮	SSaad
 𡎻	DZSaan
 𡎻	DZSaan
-蕑	KQaan
-覵	KQaan
-襉	KQaaz
-覵	KQaaz
-㵎	KQaaz
-𥳑	KQaad
-𤄒	KQaad
-閒	KQaan
-𧟉	KQaad
-僩	KQaad
-閒	KQaaz
-鬜	KHQaan
-鬜	KHQaat
-𤡥	NGQaan
-㗴	NGQaan
-閒	HGaan
-嫺	HGaan
-癇	HGaan
-𩦂	HGaan
-瞯	HGaan
-憪	HGaan
-閑	HGaan
-鷴	HGaan
-𨳢	KQaan
-䉍	KQaaz
 ###VREN VREN
 ##VRIN
 # 穵	HQfit		#乙 反切
@@ -18887,7 +18884,7 @@ import_tables:
 䂐	KCyot
 䪼	KCyot
 䖦	KCyot
-𣟳	SZyon
+𣟳	SZyon		#睘瞏
 還	SZyon	1
 𡣱	HQyon
 嬛	HQyon
@@ -18951,7 +18948,7 @@ import_tables:
 㿱	SZyet
 𧋍	SZyet
 孨	TCyed
-準	TCyet
+準	TCyet	1%
 ###RJEN XEN
 ##RJON XON
 變	Pxoz	
@@ -19190,15 +19187,6 @@ import_tables:
 𨥂	Kxet
 ###VRJEN WEN
 ##VRJON
-顴	Gwon
-孉	Gwon
-䠰	Gwon
-蠸	Gwon
-䟒	Gwon
-䑏	Gwon
-𢑆	Gwon
-權	Gwon
-𪈻	Gwon
 𡰝	TRwon
 𧖀	TRwot
 蠿	TRwot
@@ -19328,6 +19316,15 @@ import_tables:
 䧘	LZRwod
 堟	LZRwod
 ##VRJAN WAN
+顴	Gwan
+孉	Gwan
+䠰	Gwan
+蠸	Gwan
+䟒	Gwan
+䑏	Gwan
+𢑆	Gwan
+權	Gwan
+𪈻	Gwan
 蹶	Kwat
 湲	XQZwan
 瑗	XQZwaz
@@ -22642,15 +22639,16 @@ import_tables:
 𤕧	NRaac
 𧂘	NRaac		#蘘
 鬤	NRaac
+䟫	THRaac		#撐橕樘
 橕	THRaac
 牚	THRaaq
-樘	THRaac
 𥊼	DRaaq
 鐺	TSSHaac
 趟	TRaac
 趟	TRaaq
 𣥺	DRaac
 瞠	THRaac
+樘	THRaac
 𩘽	TRaac
 鎗	TSSHaac
 槍	TSSHaac
@@ -22999,7 +22997,7 @@ import_tables:
 唴	KHiaq
 𥇉	KHiaq
 曏	SCjag
-曏	SCjaq
+曏	SCjaq	1%
 鄕	Hiac
 𨞰	Hiac
 鄉	Hiac		#鄕
@@ -23009,7 +23007,7 @@ import_tables:
 饗	Hiag
 蠁	Hiag
 曏	Hiag
-曏	Hiaq
+曏	Hiaq	1%
 䦳	Hiaq
 蠁	Hiaq
 𧬰	Hiaq
@@ -25272,7 +25270,7 @@ import_tables:
 鎣	JQyec
 塋	JQyec
 謍	JQyec
-##YOŊ
+##?
 瞏	Gyec
 𡣱	Gyec
 睘	Gyec

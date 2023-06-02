@@ -209,7 +209,7 @@ speller:
     - derive/([A-Z][xw]a)jx?$/$1/ #aj iaj
     - derive/([A-Z][xw]a)j([xhs])/$1$2/ #aj iaj
     # - derive/([A-Z][yw]o)j$/$1/ #uoj
-    - derive/([A-Z][evjyxwrl]i)j$/$1/ #ij
+    - derive/([A-Z][evjyxwarf]i)j$/$1/ #ij
     - derive/([A-Z])([oer]u)v([xhs])/$1$2$3/ #皋勹ov rov
     # - derive/([A-Z]u[uo])v([xhs])$/$1$2/ #uuv 孚
     - derive/([A-Z])əu([xhs])/$1ov$2/ #ov uv侯
@@ -375,9 +375,9 @@ speller:
     - derive/^th/r/
     - derive/^kh/y/
     - derive/^tsh/v/
-    - derive/^ng/w/
+    - derive/^ng/c/
     - derive/^hq/q/
-    - derive/^ts/c/
+    - derive/^ts/w/
     - derive/^dz/z/
 
     - derive/^(sz)/z/ #邪
@@ -385,7 +385,7 @@ speller:
     - derive/^zc/g/ #書
     - derive/^zc/x/ #書
 
-    - abbrev/^([a-z])[zgh]?(ə|ʌ|[aeioujxywarfv]).*$/$1/ #首字母 聲-介-
+    # - abbrev/^([a-z])[zgh]?(ə|ʌ|[aeioujxywarfv]).*$/$1/ #首字母 聲-介-
     # - derive/^([A-Z]).+$/$1/
     - abbrev/([a-z][vjxywarf]).+/$1/ #介音
 
