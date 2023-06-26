@@ -3419,7 +3419,7 @@ import_tables:
 弜	Gxeq		#?祁
 庋	KxeA
 誺	THRxeq
-知	TRxeq
+知	TRxeq		#矢?
 䝷	TRxeq
 踟	DRxeq
 䣽	TRxeq
@@ -3688,9 +3688,9 @@ import_tables:
 ##JIJ
 示	ZCjijs		#ɢ
 𥘅	ZCjijs
-祁	KCjijq
-視	GCjijq
-眎	GCjijq
+祁	KCjijA
+視	GCjijA
+眎	GCjijA
 視	GCjijs
 𥄙	GCjijs
 眎	GCjijs
@@ -5107,9 +5107,10 @@ import_tables:
 㶼	NGSiəq
 娭	NGSiəq
 䀵	SCjəq
-𧳙	Giəs
-豙	NGiəs
-𧱏	NGiəs
+##
+𧳙	Giərt
+豙	NGiərt
+𧱏	NGiərt
 ##
 𠥽	TSSxəl		#𣎵
 𠂔	TSSxəl
@@ -6192,7 +6193,7 @@ import_tables:
 僾	Aiəl
 靉	Aiəl
 旡	Kiərt		#ts
-旣	Kiərt
+旣	Kiərt	1000
 漑	Kiərt
 曁	Kiərt
 蔇	Kiərt
@@ -6783,11 +6784,10 @@ import_tables:
 五	NGQooA
 㐅	NGQooA
 伍	NGQooA
-吾	NGQooq
-唔	NGQooq
 痦	NGQoos
 牾	NGQoos
 焐	NGQoos
+吾	NGQooq
 牾	NGQooq
 𪁙	NGQooq
 𧋋	NGQooq
@@ -8470,7 +8470,7 @@ import_tables:
 訃	PHFuosk
 赴	PHFuosk
 足	TSyosk		#ks
-敄	MFuosk		#ks
+敄	MFuosk		#ks敄聲 𩭾
 敄	MFuoA
 務	MFuosk
 嵍	MFuosk
@@ -8875,16 +8875,16 @@ import_tables:
 垕	HGəuA
 郈	HGəuA
 㖃	HGəuA
-后	HGəus	2%
+后	HGəus	1%
 鮜	HGəus
 逅	HGəus
 䞧	HGəus
 厚	HGəuA
 𠪋	HGəuA
 𣆪	HGəuA
-厚	HGəus	2%
+厚	HGəus	1%
 後	HGəuA
-後	HGəus	2%
+後	HGəus	1%
 𨒥	HGəuA
 𠹝	Aəus		#㭝𣕽𣓕 地名
 𣕽	Aəus
@@ -9896,6 +9896,7 @@ import_tables:
 𨱵	Noay
 盜	LZoay
 ##OUV
+𩭾	Mouvq		#亡牢切 敄
 勽	Bouvs
 袍	Bouvs
 菢	Bouvs
@@ -11582,7 +11583,7 @@ import_tables:
 㤱	PHFuəA		#𢠲
 㤱	PHFuəsk
 ##IƏ UƏ
-裘	Guəq
+裘	Guəq		#非求
 𧚍	Guəq
 鬮	KQuəq
 龜	KQuəq	1%
@@ -11650,9 +11651,10 @@ import_tables:
 鞪	MFiuq
 堥	MFiuq
 𨡭	MFiuq
-蝥	MFiuq
+蝥	MFiuq	0%		#非
 𩭾	MFiuq
 䋷	MFiuq
+𧔨	MFiuq		#蛑蟊 
 牟	MFiuq
 眸	MFiuq
 侔	MFiuq
@@ -11718,7 +11720,7 @@ import_tables:
 救	Kius
 𧧷	Kius
 脙	Hiuq
-求	Giuq
+求	Giuq		#蛷
 # 𧚍	Giuq
 # 裘	Giuq
 𡨃	Giuq
@@ -24773,20 +24775,21 @@ import_tables:
 ###VREŊ
 𩰎	Afec
 彋	HZQfec
-訇	Hfec
-輷	Hfec
-揈	Hfec
-鍧	Hfec
-渹	Hfec
-𦑟	Hfec
-𢝁	Hfec
-輷	Hfex
 轟	Hfec
 轟	Hfex
 䎕	NGSfec
 嵤	HZQfec		#ɢ
 嶸	HZQfec
 謍	Afec
+##VRIŊ
+訇	Hfic
+輷	Hfic
+揈	Hfic
+鍧	Hfic
+渹	Hfic
+𦑟	Hfic
+𢝁	Hfic
+輷	Hfix
 ##VRƏK
 宏	HZfəc
 紘	HZfəc
@@ -25990,7 +25993,7 @@ import_tables:
 赩	Hiək
 垐	DZjək
 卽	TSjək
-即	TSjək		#皀𢀳卽
+即	TSjək	1		#皀𢀳卽
 蝍	TSjək
 楖	TSjək
 𨂢	TSjək

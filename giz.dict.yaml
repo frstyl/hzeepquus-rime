@@ -13,6 +13,7 @@ use_preset_vocabulary: true
 卍	Muaz		#萬
 卐	Muaz
 ####
+≠	pə təg
 ↑	DCjag
 ↓	HGaaA
 ←	TSoajA
@@ -42,7 +43,7 @@ use_preset_vocabulary: true
 #####
 𪱱	Mouk HGaaA
 畠	Baak Dein
-𦤏	DZjijs Dein
+𦤏	Baak Dein
 畑	HvaA Dein
 畓	HyijA Dein
 𰜆	HyijA Boəc
@@ -172,8 +173,8 @@ use_preset_vocabulary: true
 𥝍	QZuac
 𥝍	NGiok
 咩	MjeA		#羋
-𢦉	kQHouc		#空
-𠀝	kQHouc
+𢦉	KQHouc		#空
+𠀝	KQHouc
 岩	NGaəm		#碞
 𡾏	NGaəm
 𥤶	PHFjijs
@@ -449,7 +450,7 @@ use_preset_vocabulary: true
 哦	QZoo
 噢	QZoo
 噗	PHou
-哧	TSCHjəq		#嗤𣢑
+哧	TSCHjə		#嗤𣢑
 嗯	NGoən
 哎	NGoar
 了	lə
@@ -1061,6 +1062,7 @@ use_preset_vocabulary: true
 茅	DRxoA
 𭿵	MFiuq
 𭿶	MFiuq
+###敄≠矛
 ###牟
 毪	Miuq
 哞	Miuq
@@ -2272,7 +2274,7 @@ use_preset_vocabulary: true
 𩾭	JQyon		#鳶
 𪃘	JQyon
 䳒	JQyon
-找	HZful		#𢦚
+找	HZful	1		#𢦚
 𰓂	HZful
 𢦻	HZful
 戤	HGoʌr
@@ -2417,6 +2419,8 @@ use_preset_vocabulary: true
 哎	Aoar
 ###危
 𩗜	Auor
+𭅐	NGwoj
+𭘊	NGwoj
 ###威
 𠋘	Afoj
 ###畏
@@ -4421,6 +4425,8 @@ use_preset_vocabulary: true
 姥	law
 荖	Loaw
 荖	Bəuq
+𠄰	LouvA
+𦒳	LouvA
 ###婁
 娄	Ləuq
 𡇔	Ləuq
@@ -4656,6 +4662,7 @@ use_preset_vocabulary: true
 𠨣	DəuA
 𨮃	DəuA
 ###斗
+﨣	toow		#𧺯
 鬦	Təusk	2
 𠦁	TəuA
 𣁬	TəuA
@@ -4871,6 +4878,10 @@ use_preset_vocabulary: true
 ###𢆶
 #
 𢆾	Aiiəvq
+𠫬	Axivq
+𡋢	Axivq
+𣾧	Axivq
+𤄘	Axivq
 ###兹𢆶
 𣳯	TSjəq
 鷀	TSjəq
@@ -5189,6 +5200,7 @@ use_preset_vocabulary: true
 𫝀	NGQooA
 𣅎	NGQooA
 ##吾
+唔	NGQooq	1
 𠵥	NGoos
 㕶	ngvoq
 𭇁	NGooq
@@ -5270,6 +5282,8 @@ use_preset_vocabulary: true
 𦘬	QZuəA
 𧆘	QZuəs		#囿
 ###又
+彐	QZuəs		#又 彐變體 ⺕
+𫜹	QZuəs
 ###雨
 # 兩	QZvioA
 𠕒	QZvioA
@@ -5692,6 +5706,8 @@ use_preset_vocabulary: true
 𢐭	HiəA
 𢝫	HiəA
 ###求
+###裘
+𣰐	Guəq
 ###囚
 𡆢	SZjuq	1		#211a2囚
 ###㲃
@@ -5732,8 +5748,10 @@ use_preset_vocabulary: true
 𠧕	HZoa		##?
 #
 㦿	HGvoA
+枦	HGvoA
 户	HGvoA
 戸	HGvoA
+𣥘	HGvoA
 ##顧
 顾	Kvos
 𮨇	Kvos
@@ -7981,6 +7999,15 @@ use_preset_vocabulary: true
 𤬼	NRfat
 岀	THCyut
 㞮	THCyut
+###贅 祟𠭥?
+𩕀	TCyort
+𩕣	TCyort
+𩓁	TCyort
+𧸟	TCyort
+𧸞	TCyort
+𧸆	TCyort
+𧷌	TCyort
+赘	TCyort	0
 ###祟-出
 祟	Syut
 𥨒	TSHvaz		#竄
@@ -9569,6 +9596,8 @@ use_preset_vocabulary: true
 ##常
 嫦	DCjac
 樘	Doac
+###辵
+𣥆	THRxak
 ###𤕦
 𠽽	NRaac	1	#𧂘
 𦷠	NRaac
@@ -10557,7 +10586,7 @@ use_preset_vocabulary: true
 𰌴	KHQouc
 卭	Gioc
 ##空
-𢦉	kQHouc		#空
+𢦉	KQHouc		#空
 焢	Houc
 ##巩
 𨋑	Kiog
@@ -12192,7 +12221,9 @@ use_preset_vocabulary: true
 衤	Aiəj	5		#
 𥫗	TRxuk	5
 糹	Sjəq	5
+糹	Meek	5
 纟	Sjəq	0
+纟	Meek	0
 艹	TSHouvA	5
 耂	LouvA	5
 礻	ZCjijs	5
@@ -12236,6 +12267,7 @@ use_preset_vocabulary: true
 𤇾	Jyec	5
 # ⺼	NCjuk
 龴	Jjog	5
+龴	JjoA	5	#予
 龶	SSae	5
 龸	DCjax	5
 龹	Kwoz	5
@@ -13166,7 +13198,7 @@ use_preset_vocabulary: true
 ###身
 𨈙	Jjer
 𨈖	Txif		#五音篇海 當禁切
-躾	mxəA
+躾	mxiA
 ###㐆
 ###衣
 禤	Hven		#翾
@@ -13190,6 +13222,7 @@ use_preset_vocabulary: true
 ###先
 ###禿
 ###見
+𮗙	KQeez Kuul
 𧠐	Aiaf
 ###覞
 ###欠
