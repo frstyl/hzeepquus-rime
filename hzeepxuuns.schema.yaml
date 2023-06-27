@@ -466,19 +466,19 @@ translator:
     - xform/([A-Z])O/$1ˤ/
     - xform/([A-Z])V/$1ʷ/
     - xform/(.+)H/\L$1ʰ/
-    - xform/(\w\w)q$/$1 /
-    - xform/(\w\w)h$/$1ʔ/
-    - xform/(\w\w)c$/$1ŋ/
-    - xform/(\w\w)g$/$1ŋʔ/
-    - xform/(\w\w)x$/$1ŋs/
-    - xform/(\w\w)b$/$1mʔ/
-    - xform/(\w\w)f$/$1ms/
-    - xform/(\w\w)d$/$1nʔ/
-    - xform/(\w\w)z$/$1ns/
-    - xform/(\w\w)w$/$1vʔ/
-    - xform/(\w\w)y$/$1vs/
-    - xform/(\w\w)l$/$1jʔ/
-    # - xform/(\w\w)r$/$1js/
+    - xform/([aeiouəʌ])q($|')/$1 $2/
+    - xform/([aeiouəʌ])h($|')/$1ʔ$2/
+    - xform/([aeiouəʌ])c($|')/$1ŋ$2/
+    - xform/([aeiouəʌ])g($|')/$1ŋʔ$2/
+    - xform/([aeiouəʌ])x($|')/$1ŋs$2/
+    - xform/([aeiouəʌ])b($|')/$1mʔ$2/
+    - xform/([aeiouəʌ])f($|')/$1ms$2/
+    - xform/([aeiouəʌ])d($|')/$1nʔ$2/
+    - xform/([aeiouəʌ])z($|')/$1ns$2/
+    - xform/([aeiouəʌ])w($|')/$1vʔ$2/
+    - xform/([aeiouəʌ])y($|')/$1vs$2/
+    - xform/([aeiouəʌ])l($|')/$1jʔ$2/
+    # - xform/([aeiouəʌ])r($|')/$1js$2/
   initial_quality: 1.0	# 調整該編譯器出字優先度
 # abc_segmentor:
   # extra_tags: [pinyin]
