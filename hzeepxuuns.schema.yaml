@@ -259,13 +259,16 @@ speller:
     # - abbrev/^([bcdfghjklmnpqrstvwxyz])([aeiouəʌarfoeviujyxw]).+$/$1/
 
 ##########
+    - abbrev/([lrfvjyxw])([aeiouəʌ])([bcdfghjklmnpqrstvwxyz'])/$2$1$3/ #介元序
+    - abbrev/([aeiou])([aeiouəʌ])([bcdfghjklmnpqrstvwxyz'])/$2$1$3/ #介元序
+
     # - xform/([\w])a(ə|a|e|i|o|u)/$1r$2/ #介音替爲輔音
     # - xform/([\w])i(ə|a|e|i|o|u)/$1j$2/
     # - xform/([\w])u(ə|a|e|i|o|u)/$1y$2/
     # - derive/([\w])x(ə|a|e|i|o|u)/$1l$2/ #l=x
-    - abbrev/([lrfvjyxw])([aeiouəʌ])([bcdfghjklmnpqrstvwxyz'])/$2$1$3/ #序
-    - abbrev/([aeiou])([aeiouəʌ])([bcdfghjklmnpqrstvwxyz'])/$2$1$3/ #序
-
+    # - derive/(^|')([bcdfghjklmnpqrstvwxyz])([rfvjyxw])/$1$3$2/ #幷擊雙拼 改去元因介音
+    # - derive/([aeiouəʌ;])([bcdfghjklmnpqrstvwxyz])$/$2$1/ #幷擊雙拼
+#########
     - derive/ʌ/ea/ #EOə eo
     - derive/ə/eo/ #EOə eo
     - derive/(eo|oe|ea)/;/ #EOə eo
@@ -390,5 +393,4 @@ recognizer:
     email: "^[a-z][-_.0-9a-z]*@.*$"
     # punct: '^/([0-9]0?|[A-Za-z]+)$' #配合symbols.yaml中的特殊字符輸入
     punct: "^/[0-9a-zA-Z]+$" #配合symbols.yaml中的特殊字符輸入
-    zyenpheng: "^~[a-z]*'?$"
     pinyin: "^`[a-z]*'?$"

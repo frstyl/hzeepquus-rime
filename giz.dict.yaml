@@ -441,7 +441,7 @@ use_preset_vocabulary: true
 # 麼	məq
 什麼	DCjeA HGoat MFuət
 什麼	HGoat
-輩	mvən
+輩	mən
 瞞	mvən
 ###
 啦	Loa
@@ -2427,6 +2427,17 @@ use_preset_vocabulary: true
 㟪	Auəj
 餵	Auər
 喂	Auər
+𠂽	Auur
+𤰣	Auur
+𤰰	Auur
+𤰲	Auur
+𤰴	Auur
+𤰵	Auur
+𤱖	Auur
+𤱫	Auur
+𪽉	Auur
+𰢼	Auur
+𱰨	Auur
 ###意
 繶	Aiəj
 ###委
@@ -2435,6 +2446,7 @@ use_preset_vocabulary: true
 庡	Aiəj
 𢜺	Aoʌj
 #
+𧘇	Aiəj
 𤫹	Aoən	1		#𤇯
 ###𠩺
 𣀗	Loəq
@@ -3093,6 +3105,7 @@ use_preset_vocabulary: true
 𠂉	KHiərt
 𠯡	Kiət
 𠰆	Kiət
+𰀰	KHiərt
 ##
 刉	Kiəj
 刉	Giəj
@@ -3457,7 +3470,7 @@ use_preset_vocabulary: true
 𢑦	DCjev
 齠	Deev
 笤	Deev
-曌	TCjay		#照
+曌	TCjey		#照
 ###了
 ##𠄏
 𢆴	Teew
@@ -3966,6 +3979,7 @@ use_preset_vocabulary: true
 癄	TSjey		#𥡤
 瞧	DZjev
 ##
+𤊙	TSjev
 㸈	TSjev
 𱬳	TSjev
 𤓬	TSjev
@@ -4052,7 +4066,7 @@ use_preset_vocabulary: true
 𠇄	Sjay
 𥬇	Sjay
 𠺑	Sjay
-𦬦	Sjay	2
+𦬦	Sjay	0
 𥬒	Sjay
 𰩶	Sjay
 𰩾	Sjay
@@ -6868,8 +6882,8 @@ use_preset_vocabulary: true
 𤟶	Ajef
 𤡜	Ajef
 𭙵	Aaap
-厌	Ajef
-𭙵	Ajef
+厌	Ajef	0
+# 𭙵	Ajef
 𱱢	Ajef
 𱱨	Ajef
 ###奄o ə
@@ -7370,6 +7384,8 @@ use_preset_vocabulary: true
 𠦚	Neen
 𠡦	Neen
 𨛲	Neen
+𨚽	Neen
+𨛻	Neen
 ###而-n
 蠕	NCyoq
 蠕	NCyod		#蝡
@@ -7676,6 +7692,10 @@ use_preset_vocabulary: true
 ###戔
 𥂥	DZoan
 𰮦	DZoan
+盏	TSSaad	0
+𥁫	TSSaad
+戋	DZoan	0
+㦮	DZjen
 ###㱚
 𦚛	DZoan
 ###湌
@@ -7695,8 +7715,9 @@ use_preset_vocabulary: true
 𨐍	SSxin
 𦸯	SSxin
 𣘲	SSxin
-𣐽	TSSxid
-𣓀	TSSxid
+𣐽	TSSxin
+# 𣐽	TSSxid
+# 𣓀	TSSxid
 𡩁	TSHjin
 ###千
 釺	TSHeen
@@ -7863,6 +7884,7 @@ use_preset_vocabulary: true
 摋	SSxet
 樧	SSaet
 #
+殺	SSaet
 𠮁	SSaet
 𢼡	SSaet
 𢼢	SSaet
@@ -8074,6 +8096,7 @@ use_preset_vocabulary: true
 𡫮	HGoan
 # 𡫾	HGoan
 ###吅
+𫩏	Huan
 𠺐	Hvaz
 𧠮	Hvaz
 ###雚吅
@@ -8909,7 +8932,7 @@ use_preset_vocabulary: true
 𤽃	QZwut
 抇	HGvot	1		#𢪏
 𡆦	QZuat
-曰	QZuət
+# 曰	QZuat
 ###云雲
 𡄬	hzvon
 𠇌	HZQvon
@@ -9192,6 +9215,8 @@ use_preset_vocabulary: true
 𡕃	Ajit
 𡕈	Ajit
 ###一
+𬂛	edanasi
+𬺰	edanasi
 #
 𠤪	Ajit
 𪛙	Ajit	5
@@ -10754,6 +10779,12 @@ use_preset_vocabulary: true
 𠤄	Kiuk
 𠣮	Kiuk
 𣮴	Kiuk
+##
+𥱩	Kiuk
+𥯺	Kiuk
+𥰬	Kiuk
+𥲩	Kiuk
+𥲾	Kiuk
 ###
 𥨴	Kiuk
 ###茍
@@ -10987,10 +11018,18 @@ use_preset_vocabulary: true
 羮	KQaac
 𡙡	KQaac
 𦎟	KQaac
+###行
+〢	HGrac
+𬽣	HGrac
 ###庚
 𧟴	Kaac		#庚
 𢈏	Kaac
 𢈰	Kaac
+###卝丱
+𨥥	Kfag
+𮀑	Kfag
+𨥑	Kfag
+𥐫	Kfag
 ###灮黃
 # 黄	HGvac	1		#黃
 # 横	KQvac
@@ -11034,6 +11073,7 @@ use_preset_vocabulary: true
 𢂶	KQvec
 ###冂冋
 浻	Afag
+𰃦	KQvec
 ##囧
 䮐	KQvec
 𪕥	KQvec
@@ -13362,6 +13402,7 @@ use_preset_vocabulary: true
 ###壺
 ###壹
 ###㚔
+𰇶	Kook
 ###奢
 ###亢
 ###夲
@@ -13566,6 +13607,7 @@ use_preset_vocabulary: true
 丿	PHeet		#撆
 乀	PHFuət		#拂
 ###𠂆
+𰀪	Jjer		#𠂆
 𠂆	Jjer		#𦥙
 ###乁
 乁	Jjajq		#𦥙迻
