@@ -589,7 +589,7 @@ import_tables:
 鈋	NGQvajq
 囮	NGQvajq
 魤	NGQvajq
-貨	NGSvar		#ŋ̥ Ŋ̥ NGS
+貨	NGSvajs		#ŋ̥ Ŋ̥ NGS
 火	HvajA
 邩	HvajA
 㽿	KQvajq
@@ -12648,8 +12648,6 @@ import_tables:
 矺	Toap
 喊	Hoab
 儑	NGQoap
-埯	Aoab
-揜	Aoab
 𥋙	NGQoap
 嬜	Hoam
 擔	Toam
@@ -12720,6 +12718,8 @@ import_tables:
 啖	LZoaf
 倓	LZoaf
 ##OM
+埯	Aoub
+揜	Aoub
 褡	Toup
 鞳	THoup
 塔	THoup
@@ -16757,6 +16757,7 @@ import_tables:
 坂	PFuad
 返	PFuad
 反	PFuad
+𠬡	PFuad
 販	PFuaz
 畈	PFuaz
 反	PHFuan	2%
@@ -17122,7 +17123,7 @@ import_tables:
 隉	NGQeit
 電	LZeiz		#申LZ-
 𨌈	LZein		#身LZ-
-銕	THeit		#LS
+# 銕	LSeit		#LS鐵
 # 蛈	LSeit		#-ŋ#失L-
 # 眣	LZeit
 # 昳	LZeit
@@ -21239,7 +21240,7 @@ import_tables:
 䫟	HZQvod
 鴛	Avon
 刖	NGQvot
-䰟	HZQvon
+䰟	HZQvon	1000
 魂	HZQvon
 𢣒	HZQvon
 𣝂	HZQvon
@@ -28709,6 +28710,7 @@ import_tables:
 㖏	Neik
 𦛠	Neik
 篞	Neik
+銕	LSeik		#LS
 蛈	LSeik		#
 眣	LZeik
 昳	LZeik
