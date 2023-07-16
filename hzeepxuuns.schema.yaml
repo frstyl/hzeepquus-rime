@@ -80,14 +80,22 @@ speller:
     # - derive/([A-Z]u[uo])v([qAs])$/$1$2/ #uuv 孚
     - derive/([A-Z])əu([qAs])/$1ov$2/ #ov uv侯
     - derive/([A-Z])ə(u[qAs])/$1e$2/ #ov uv侯
-    - derive/([A-Z][jxi])əv([qAs])/$1ov$2/ #尤侯iov jov
-    - derive/([A-Z][jxi])u([qAs])/$1ov$2/ #
-    - derive/([A-Z])([jxi])iv([qAs])/$1$2ov$3/ #
-    - derive/([A-Z][jx])iəu([qAs])/$1ov$2/ #幽侯
-    - derive/([A-Z][jx])iu([qAs])/$1ov$2/
-    # - derive/([A-Z])[jxi]ov([qAs])/$1iv$2/ #尤幽侯iv
-    - derive/([A-Z])[jxi]ov([qAs])/$1iv$2/ #尤幽侯iv
 
+    - derive/([A-Z][jxi])(əv|iv|u)q$/$1ov/ #尤侯iov jov
+    - derive/([A-Z][jxi])(əv|iv|u)A$/$1ow/ #
+    - derive/([A-Z][jxi])(əv|iv|u)s$/$1oy/ #
+    # - derive/([A-Z][jx])iəu([qAs])/$1ov$2/ #幽侯
+    - derive/([A-Z][jx])iə([vwy])$/$1ov$2/
+###
+    # - derive/([A-Z])vio([qAs])/$1ua$2/
+    # - derive/([A-Z][ijx])o([qAs])/$1a$2/
+    # - derive/([A-Z])v(k)$/$1$2/
+    # - derive/([A-Z])[ijx][uo]([cgxk])/$1u$2/ #eu vu 
+    # - derive/([A-Z])[uyw]o([qAs])/$1u$2/
+    # - derive/([A-Z])ouv['q]?/$1uv/
+    # - derive/([A-Z])ouvA/$1uw/
+    # - derive/([A-Z])ouvs/$1uy/
+    # - derive/([A-Z])[jxi]o([vwy])$/$1i$2/ #尤幽侯iv
 ######
     # - derive/([A-Z])y([aeiouə])/$1vj$2/ #介音
     # - derive/([A-Z])f([aeiouə])/$1vr$2/
