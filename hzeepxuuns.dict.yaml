@@ -10238,6 +10238,8 @@ import_tables:
 造	DZouvA
 艁	DZouvA
 ###RAV
+教	KQauv		#孝𡥈
+教	KQauy
 ##RAV
 聱	NGQaav
 謷	NGQaav
@@ -10298,8 +10300,6 @@ import_tables:
 倄	HZaav
 殽	HZaav
 𦺔	HZaav
-教	KQaav		#孝𡥈
-教	KQaay
 瑵	TSSaaw
 䄻	LZRaav		#LZ
 嘮	RSRaav		#RS
@@ -12468,12 +12468,48 @@ import_tables:
 𣢜	AxəvA
 幼	Axəvs
 #####-M
-####IAM甘
-䳴	Doup		#眔
-𦑲	Doup
-嵌	DZoub		#歁
-㟛	DZoub
+####AM甘
 ###AM
+##ƏM
+䳴	Doʌp		#眔
+𦑲	Doʌp
+嵌	DZoʌb		#歁
+㟛	DZoʌb
+揜	Aoʌb		#?合荅
+褡	Toʌp
+鞳	THoʌp
+塔	THoʌp
+搭	THoʌp
+嗒	THoʌp
+##OM
+埯	Aoub		#奄
+䨿	DZoup
+𢶍	DZoup
+䪞	DZoup
+𠎷	Soup
+𠿓	Soup
+𢶍	Soup
+𨆂	Soup
+𩐅	Soup
+紞	Toub
+䒞	Toub
+啗	LZoub		#LZ
+啗	LZouf
+𪉦	KQouf		#KL
+䐄	HGouf
+𤎡	HGouf
+𢁘	Soum
+魶	Noup
+𩚛	Noup
+媣	KQoum
+笝	Noup
+罱	Loub		#南
+黲	TSHoub
+參	Soum	5%
+鬖	Soum
+囃	TSHoup
+𥗭	TSHoup
+##AM
 䍇	Doap		#BL?
 𪊇	THoaf		#KR-
 嚂	KHQoaf
@@ -12717,40 +12753,6 @@ import_tables:
 腅	LZoaf
 啖	LZoaf
 倓	LZoaf
-##OM
-埯	Aoub
-揜	Aoub
-褡	Toup
-鞳	THoup
-塔	THoup
-搭	THoup
-嗒	THoup
-䨿	DZoup
-𢶍	DZoup
-䪞	DZoup
-𠎷	Soup
-𠿓	Soup
-𢶍	Soup
-𨆂	Soup
-𩐅	Soup
-紞	Toub
-䒞	Toub
-啗	LZoub		#LZ
-啗	LZouf
-𪉦	KQouf		#KL
-䐄	HGouf
-𤎡	HGouf
-𢁘	Soum
-魶	Noup
-𩚛	Noup
-媣	KQoum
-笝	Noup
-罱	Loub		#南
-黲	TSHoub
-參	Soum	5%
-鬖	Soum
-囃	TSHoup
-𥗭	TSHoup
 ###RAM
 ##REM
 #?
@@ -14658,10 +14660,12 @@ import_tables:
 熠	QZxəp
 騽	QZxəp
 ####ƏM
-𡪶	Hoʌm		#?
+###ƏM
+𡪶	Hoʌm		#?寢
 𡬖	Hoʌm
 灝	KQoʌb
-###??
+浩	KQoʌp
+𢇞	HGoʌb		#?𢇞嘾
 㐁	THoʌf		#?簟
 𦂀	Doop		#?
 歜	DZoʌb	2%		#?
@@ -14671,7 +14675,7 @@ import_tables:
 卅	Soʌp
 嘁	TSoʌp		#尗㗤
 纜	Loʌb		#?
-##AM?
+##ƏM?
 礏	NGQoʌp
 𣹆	KHQoʌp
 溘	KHQoʌp
@@ -14696,6 +14700,64 @@ import_tables:
 倓	LZoʌb
 𤃨	Loʌf
 ##ƏM
+㾑	Toəp
+𤝰	Toəp
+䶀	THoəp
+佮	THoəp
+𪘁	THoəp
+合	KQoəp
+閤	KQoəp
+鴿	KQoəp
+敆	KQoəp
+鉿	KQoəp
+鮯	KQoəp
+蛤	KQoəp
+郃	KQoəp
+匌	KQoəp
+頜	KQoəp
+佮	KQoəp
+𣭝	KQoəp
+㭘	KQoəp
+鞈	KQoəp
+韐	KQoəp
+𢂷	KQoəp
+匌	KHQoəp
+哈	NGQoəp
+㾑	NGQoəp
+姶	Aoəp
+佮	Aoəp
+欱	Hoəp
+㾑	Hoəp
+頜	HGoəb
+合	HGoəp
+郃	HGoəp
+䢔	HGoəp
+㭘	HGoəp
+詥	HGoəp
+耠	HGoəp
+𡇶	HGoəp
+𪘁	HGoəp
+𦳬	HGoəp
+盒	HGoəp
+䆟	KHQoəp
+畣	Toəp
+𨅞	Toəp
+撘	Toəp
+㯚	Toəp
+答	Toəp
+褡	Toəp
+㜓	Toəp
+嗒	Toəp
+㿯	Toəp
+荅	Toəp
+榙	HGoəp
+弇	KQoəm
+媕	Aoəm
+黭	Aoəb
+媕	Aoəp
+鞥	Aoəp
+龕	KHQoəm
+𪚕	KHQoəm		#龕
 南	Noom
 𡴖	Noom
 𡴟	Noom
@@ -14983,66 +15045,6 @@ import_tables:
 𤛊	Loəp
 摺	Loəp
 ##UM
-浩	KQoop
-𢇞	HGoob		#?
-㾑	Toop
-𤝰	Toop
-䶀	THoop
-佮	THoop
-𪘁	THoop
-合	KQoop
-閤	KQoop
-鴿	KQoop
-敆	KQoop
-鉿	KQoop
-鮯	KQoop
-蛤	KQoop
-郃	KQoop
-匌	KQoop
-頜	KQoop
-佮	KQoop
-𣭝	KQoop
-㭘	KQoop
-鞈	KQoop
-韐	KQoop
-𢂷	KQoop
-匌	KHQoop
-哈	NGQoop
-㾑	NGQoop
-姶	Aoop
-佮	Aoop
-欱	Hoop
-㾑	Hoop
-頜	HGoob
-合	HGoop
-郃	HGoop
-䢔	HGoop
-㭘	HGoop
-詥	HGoop
-耠	HGoop
-𡇶	HGoop
-𪘁	HGoop
-𦳬	HGoop
-盒	HGoop
-䆟	KHQoop
-畣	Toop
-𨅞	Toop
-撘	Toop
-㯚	Toop
-答	Toop
-褡	Toop
-㜓	Toop
-嗒	Toop
-㿯	Toop
-荅	Toop
-榙	HGoop
-弇	KQoom
-媕	Aoom
-黭	Aoob
-媕	Aoop
-鞥	Aoop
-龕	KHQoom
-𪚕	KHQoom		#龕
 㧁	KQoop		#?
 㧁	KHQoop
 傝	THoof
