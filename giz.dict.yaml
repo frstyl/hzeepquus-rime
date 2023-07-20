@@ -4960,14 +4960,7 @@ use_preset_vocabulary: true
 碴	DZSaaq		#渣沮
 碴	TSSaaq
 ###𠂔
-##巿
-𧠎	TSHjəj
-𧠵	TSHjəq
-姉	TSjəl
-##市
-柿	TSSxəl		#柹
-枾	TSSxəl
-𥞑	TSjəl
+#笫	TSSxid		#集韻阻引切
 ##
 𩐒	TSeəj
 䪟	TSeəj		#䪡䪢
@@ -4981,16 +4974,21 @@ use_preset_vocabulary: true
 𩐎	TSeəj
 𩐑	TSeəj
 ##
-#笫	TSSxid		#集韻阻引切
+#巿
+𧠎	TSHjər
+𧠵	TSHjər		#𧠥
+姉	TSjəl
+##市
+柿	DZZxəh		#柹
+枾	DZZxəh
+𥞑	TSjəl
 #
-𪩲	TSSxəA
-𡛷	TSjəl
-𧠥	TSjəl
-𨒘	TSHjəj
-𣐈	DZSxəA
+𪩲	TSSxəl
+𡛷	TSjəj
+𧠥	TSjəj
+𨒘	SZyis
+𣐈	DZSxəl
 𨥳	TSeəj
-𨥳	TSeəj
-𨥳	TSeijq
 𨥳	TSeijq
 𨓫	TCjəl		#1		#𧿲
 ###索
@@ -5072,6 +5070,12 @@ use_preset_vocabulary: true
 𩎎	Kaək
 䪂	Kaək
 䪂	SSaək
+###責𧵩
+䚍	TSHjek
+𧢔	TSHjek
+責	TSSaek
+䝴	TSSaek
+𧶌	TSSaek
 ###膝桼
 𠟴	TSSHxəA		#1		#㓼
 ###舍
@@ -6479,15 +6483,15 @@ use_preset_vocabulary: true
 埁	DZjim
 ###參
 遪	DCoʌp
-幓	SSxum
-幓	SSaum		#縿
-襂	SSaum
-槮	SSaub
-𣟹	TSSHxum		#1		#槮
-𧂅	SSxum
+幓	SSxim
+幓	SSaam		#縿
+襂	SSaam
+# 槮	SSaub
+𣟹	TSSHxim		#1		#槮
+𧂅	SSxim
 鰺	SSxim
-叄	SSxim
 #
+叄	SSxim
 㕘	Soam
 叁	Soam
 𠫰	Soam
@@ -6894,6 +6898,7 @@ use_preset_vocabulary: true
 𪥍	Axob
 𰤏	Axob
 ###邑a ə?
+𦶂𦮾	
 阝	Axəp
 𡇃	Axəp
 䭂	Aiap

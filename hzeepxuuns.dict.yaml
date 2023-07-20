@@ -2861,6 +2861,8 @@ import_tables:
 積	TSjesk
 䛋	TSHjesk
 𦎸	TSjesk
+𣿙	DZjesk
+𣩬	DZjesk
 漬	DZjesk
 𦎸	DZjesk
 㱴	DZjesk
@@ -5115,8 +5117,8 @@ import_tables:
 𠥽	TSSxəl		#𣎵
 𠂔	TSSxəl
 笫	TSSxəl
-柹	TSSxəl		#枾𣐈柿
 胏	TSSxəl
+柹	DZZxəl		#枾𣐈柿
 ##IƏR JƏR
 亟	KHiəsk		#ks
 䀈	KHiəst		#ts
@@ -10561,7 +10563,7 @@ import_tables:
 啁	TRaiv
 䞴	TRaiy
 ##RƏV? RIV
-# 𠿈	TSSoaquq		#?
+# 𠿈	TSSoaq		#?
 𠐋	PHaəv		#翏
 㶀	KQaəv
 膠	KQaəv
@@ -14363,37 +14365,30 @@ import_tables:
 伈	Sjəb
 孴	Jjəp
 ###XIM
-##XIM
-曄	QZxəp		#?
+##XAM?		#Ə?U?
+𩖄	KHxib
+顩	DRxib
+曄	QZxip
 𪔰	QZxif		#鼓聲
-鵖	Pxip		#?
-䯂	DZSxip		#?
+𠪚	NGxim
 㞚	TSSHxip
 𡍪	TSSHxip
 䙄	TSSHxip
-䑣	THRxim		#彡
-𧡬	THRxim
-𧡬	THRxif
-闖	THRxif
 𪀐	Bxip		#KPR-
 㞏	DRxip
 𪀐	Kxip
-𠪚	NGxim
-𦮾	NRxip
-㾕	SSxib		#?
-坫	TRxim
+##
+𦮾	NRxip		#?
+㾕	SSxib		#?辛
+䯂	DZSxip		#?驫莘
+坫	TRxim		#占
 砧	TRxim
 枮	TRxim
-𥊬	TSSxip
-𧥄	TSSxip
-蕺	TSSxip
-𠿠	TSSxip
-霵	TSSxip
-戢	TSSxip
-霵	DZSxip
-㗊	TSSxip
-濈	TSSxip
-𧤏	TSSxip
+##
+䑣	THRxim		#彡
+𧡬	THRxim
+𧡬	THRxif
+闖	THRxif		#同𧡬?
 ##XUM
 椹	TRxum
 戡	TRxub
@@ -14419,14 +14414,21 @@ import_tables:
 㱽	Gxum
 譶	DRxup
 䋻	NRxum
-##XUM?		#Ə?U?
-𩖄	KHxib
-顩	DRxib
+##XƏM
 䛘	NRxəm
 鵀	NRxəm
 拰	NRxəb
 賃	NRxəf
-##XƏM
+𥊬	TSSxəp
+𧥄	TSSxəp
+蕺	TSSxəp
+𠿠	TSSxəp
+霵	TSSxəp
+戢	TSSxəp		#咠?
+霵	DZSxəp
+濈	TSSxəp
+𧤏	TSSxəp
+㗊	TSSxəp
 給	Kxəp
 湁	THRxəp
 翕	Hxəp
@@ -14445,6 +14447,7 @@ import_tables:
 笈	Gxəp
 㧀	Gxəp
 翜	SSxəp
+鵖	Pxəp		#?皀
 皀	Pxəp
 皀	Kxəp
 碞	NGxəm
@@ -14590,7 +14593,7 @@ import_tables:
 浥	Axəp
 䓃	Axəp
 䭂	Axəp
-𦶂	Axəp
+𦶂	Axəp		#𦶂𦮾
 嬜	Hxəm
 歆	Hxəm
 湆	KHxəp
@@ -24657,6 +24660,10 @@ import_tables:
 㾊	SSaek
 拺	SSaek
 𩊯	SSaek
+𧵩	TSSaek
+𡢲	TSSaek
+𥴹	TSSaek
+𢅙	TSSaek
 責	TSSaek
 𩔳	TSSaek
 簀	TSSaek
@@ -24667,11 +24674,14 @@ import_tables:
 𧐐	TSSaek
 𦟜	TSSaek
 嫧	TSSaek
+𡢲	TSSHaek
+𢢻	TSSHaek
 嫧	TSSHaek
 䶦	TSSHaek
 皟	TSSHaek
 㥽	TSSHaek
 𧶷	TSSHaek
+𩼜	DZSaek
 賾	DZSaek
 鰿	DZSaek
 㣱	DZSaek
@@ -25180,11 +25190,14 @@ import_tables:
 𧻕	TSHjek
 洓	TSHjek
 𧙞	TSHjek
+𥢼	TSjek
+𩼜	TSjek
 積	TSjek
 鰿	TSjek
 𧐐	TSjek
 蹟	TSjek
 襀	TSjek
+𡢲	TSHjek
 磧	TSHjek
 䟄	TSHjek
 嫧	TSHjek
