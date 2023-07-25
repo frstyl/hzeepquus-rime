@@ -1,4 +1,4 @@
-# HZeepXuuns
+# HZeepQuuns
 基亏廣韻旳 rime 拼音方案。叶韻音系:上古中古溷合，
 拼音説明 https://zhuanlan.zhihu.com/p/388867479
 輸入法說明：
