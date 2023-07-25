@@ -360,6 +360,11 @@ translator:
     # - xform/([A-Z])V/$1ʷ/
     # - xform/(.+)H/\L$1ʰ/
     # - xform/([aeiouəʌ])q($|')/$1 $2/
+  comment_format:
+    - xform/A/ʔ/
+    - xform/[FQ]//
+    - xform/NG|c($|')/ŋ$1/
+    - xform/([A-Z])/\L$1/
 
   initial_quality: 1.0	# 調整該編譯器出字優先度
 # abc_segmentor:
