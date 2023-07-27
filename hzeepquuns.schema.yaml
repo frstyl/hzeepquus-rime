@@ -15,6 +15,7 @@ schema:
     广韵形声考 https://zhuanlan.zhihu.com/p/493675890
   dependencies:
     - luna_pinyin
+    - cangjie6
 switches:
   - name: ascii_mode
     reset: 0
@@ -43,6 +44,7 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@pinyin
+    - affix_segmentor@cangjie6
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -50,6 +52,7 @@ engine:
     - punct_translator
     - script_translator
     - script_translator@pinyin
+    - table_translator@cangjie6
     - encode_commit_history
   filters:
     - simplifier
@@ -367,11 +370,9 @@ translator:
     - xform/([A-Z])/\L$1/
 
   initial_quality: 1.0	# 調整該編譯器出字優先度
-# abc_segmentor:
-  # extra_tags: [pinyin]
 pinyin:
   dictionary: luna_pinyin
-  prefix: "`"
+  prefix: "~"
   suffix: "'"
   tips: 〔pinyin〕
   tag: pinyin
@@ -379,12 +380,24 @@ pinyin:
   # # contextual_suggestions: 
   initial_quality: 0.6	# 調整該編譯器出字優先度
 
+cangjie6:
+  dictionary: cangjie6
+  prefix: "`"
+  suffix: "'"
+  tips: 〔倉頡6〕
+  tag: cangjie6
+  # closing_tips:
+  preedit_format:
+    - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
+  initial_quality: 0.8
 
+abc_segmentor:
+  extra_tags: [pinyin,cangjie6]
 
 pinyin_lookp:
   dictionary: hzeepquuns
   overwrite_comment: false
-  tags: [pinyin]
+  tags: [pinyin,cangjie6]
 
 
 punctuator:
@@ -401,5 +414,6 @@ recognizer:
   patterns:
     email: "^[a-z][-_.0-9a-z]*@.*$"
     # punct: '^/([0-9]0?|[A-Za-z]+)$' #配合symbols.yaml中的特殊字符輸入
-    punct: "^/[0-9a-zA-Z]+$" #配合symbols.yaml中的特殊字符輸入
-    pinyin: "^`[a-z]*'?$"
+    punct: "^/[0-9a-zA-Z]*$" #配合symbols.yaml中的特殊字符輸入
+    pinyin: "^~[a-z]*'?$"
+    cangjie6: "^`[a-z]*'?$"
