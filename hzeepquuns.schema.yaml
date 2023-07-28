@@ -19,7 +19,7 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, LA ]
+    states: [ 中文, 㢴文 ]
   - name: full_shape
     reset: 0
     states: [ 半長, 全長 ]
@@ -58,7 +58,7 @@ engine:
     - simplifier
     - uniquifier
     # - cjk_minifier
-    - reverse_lookup_filter@pinyin_lookp
+    - reverse_lookup_filter@lookp
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcbaABCDEFGHIJKLMNOPQRSTUVWXYZ;'
@@ -305,7 +305,6 @@ speller:
 
 translator:
   dictionary: hzeepquuns
-  spelling_hints: 8
   prism: hzeepquuns
   preedit_format:
     - xform/;/ə/
@@ -363,11 +362,6 @@ translator:
     # - xform/([A-Z])V/$1ʷ/
     # - xform/(.+)H/\L$1ʰ/
     # - xform/([aeiouəʌ])q($|')/$1 $2/
-  comment_format:
-    - xform/A/ʔ/
-    - xform/[FQ]//
-    - xform/NG|c($|')/ŋ$1/
-    - xform/([A-Z])/\L$1/
 
   initial_quality: 1.0	# 調整該編譯器出字優先度
 pinyin:
@@ -391,13 +385,11 @@ cangjie6:
     - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
   initial_quality: 0.8
 
-abc_segmentor:
-  extra_tags: [pinyin,cangjie6]
 
-pinyin_lookp:
+lookp:
+  tags: [pinyin,cangjie6]
   dictionary: hzeepquuns
   overwrite_comment: false
-  tags: [pinyin,cangjie6]
 
 
 punctuator:
