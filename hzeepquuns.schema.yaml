@@ -132,7 +132,7 @@ speller:
 
 ##
     - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
-    - derive/([\w][eov]u])j/$1/ #aj vuj  vu va
+    - derive/([\w][eov]u])j/$1/
     - derive/([\w][xw]a)j/$1/ #aj iaj
     # - derive/([\w][yw]o)j$/$1/ #uoj
     - derive/([\w][eovjyxwarf]i)j/$1/ #ij
@@ -165,8 +165,8 @@ speller:
     - abbrev/([\w])vi([aeiouə])/$1u$2/ #uə
     - abbrev/([\w])vx([aeiouə])/$1w$2/ #
 
-    - abbrev/(\w)[jxi]/$1i/ #i=jxi
-    - abbrev/(\w)[ywu]/$1u/ #i=jxi
+    - abbrev/(\w)[jx]([aeiouə])/$1i$2/ #i=jxi
+    - abbrev/(\w)[yw]([aeiouə])/$1u$2/ #i=jxi
 
     # - abbrev/(\w)[jxi](i|ə)/$1i/ #i
     # - abbrev/(\w)[ywu](i|u|ə)/$1u/ #u
