@@ -131,11 +131,13 @@ speller:
     - derive/([\w])v([o][jlrndzt])/$1$2/ #von vo 
 
 ##
-    - derive/([\w][eov][au])j/$1/ #aj vuj  vu va
+    - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
+    - derive/([\w][eov]u])j/$1/ #aj vuj  vu va
     - derive/([\w][xw]a)j/$1/ #aj iaj
     # - derive/([\w][yw]o)j$/$1/ #uoj
     - derive/([\w][eovjyxwarf]i)j/$1/ #ij
-    - derive/([\w])([oer]u)v([qhsA])/$1$2$3/ #皋勹ov rov
+    - derive/([\w])([oe]u)v([qhsA])/$1$2$3/ #皋勹ov rov
+    - derive/([\w])([ar]u)v([qhsA])/$1$2$3/
     # - derive/([\w]u[uo])v([qhsA])$/$1$2/ #uuv 孚
     - derive/([\w])əu([qhsA])/$1ov$2/ #ov uv侯
     - derive/([\w])ə(u[qhsA])/$1e$2/ #ov uv侯
@@ -372,7 +374,7 @@ pinyin:
   tag: pinyin
   # closing_tips:
   # # contextual_suggestions: 
-  initial_quality: 0.6	# 調整該編譯器出字優先度
+  initial_quality: 0.8	# 調整該編譯器出字優先度
 
 cangjie6:
   dictionary: cangjie6
@@ -383,7 +385,7 @@ cangjie6:
   # closing_tips:
   preedit_format:
     - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
-  initial_quality: 0.8
+  initial_quality: 0.6
 
 
 lookp:
