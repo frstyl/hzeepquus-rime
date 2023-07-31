@@ -132,7 +132,7 @@ speller:
 
 ##
     - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
-    - derive/([\w][eov]u])j/$1/
+    - derive/([\w][eov]u)j/$1/
     - derive/([\w][xw]a)j/$1/ #aj iaj
     # - derive/([\w][yw]o)j$/$1/ #uoj
     - derive/([\w][eovjyxwarf]i)j/$1/ #ij
@@ -308,6 +308,7 @@ speller:
 translator:
   dictionary: hzeepquuns
   prism: hzeepquuns
+  spelling_hints: 10
   preedit_format:
     - xform/;/ə/
     # - xform/(^|')r/$1th/
@@ -364,6 +365,20 @@ translator:
     # - xform/([A-Z])V/$1ʷ/
     # - xform/(.+)H/\L$1ʰ/
     # - xform/([aeiouəʌ])q($|')/$1 $2/
+  comment_format:
+    - xform/A/ʔ/
+    - xform/NG|c($|')/ŋ$1/
+    - xform/JQ/jq/
+    - xform/(HZQ|XQZ|JXQ?|XZ|QZ|X)/q/
+    - xform/(HXS|HSQ|HQS|NGS|MS|[XH]S|SX|QS)/h/
+    - xform/([KGTDN])C/\L$1/
+
+    - xform/(LZ)/d/
+    - xform/([LRN]S)/th/
+
+    - xform/[FRQ]//
+
+    - xform/([A-Z])/\L$1/
 
   initial_quality: 1.0	# 調整該編譯器出字優先度
 pinyin:
@@ -385,6 +400,8 @@ cangjie6:
   # closing_tips:
   preedit_format:
     - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
   initial_quality: 0.6
 
 
