@@ -81,8 +81,6 @@ speller:
     - derive/(^|')(DZS|DZR|D[ZS])/dz/
     - derive/(^|')(TSSH|TSHS|T[SZ]H)/tsh/
 
-    - derive/(^|')(NGQ?)/ng/
-    - derive/(^|')(HQ|A)/hq/
     - derive/(^|')(HZQ|XZ|HG|HZ)/hz/
     - derive/(^|')(KH[CQ]?)/kh/
     - derive/(^|')(K[CQ]?)/k/
@@ -90,6 +88,8 @@ speller:
     - derive/(^|')(H)/h/
     - derive/(^|')(HXS|HSQ|HQS|NGS|MS|[XH]S|SX|QS)/h/
 
+    # - derive/(^|')(NGQ?)/ng/
+    - derive/(^|')(HQ|A)/hq/
     - derive/(^|')(JXQ?|XQZ|QZ|XZ|X|')/q/
     - derive/^ng/c/
     - derive/(^|')hz/E/
@@ -389,7 +389,11 @@ pinyin:
   tag: pinyin
   # closing_tips:
   # # contextual_suggestions: 
-  initial_quality: 0.8	# 調整該編譯器出字優先度
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue('|$)/$1üe$2/
+    - xform/([jqxy])v/$1u/
+  initial_quality: 0.7	# 調整該編譯器出字優先度
 
 cangjie6:
   dictionary: cangjie6
@@ -409,7 +413,20 @@ lookp:
   tags: [pinyin,cangjie6]
   dictionary: hzeepquuns
   overwrite_comment: false
+  comment_format:
+    - xform/A/ʔ/
+    - xform/NG|c($|')/ŋ$1/
+    - xform/JQ/jq/
+    - xform/(HZQ|XQZ|JXQ?|XZ|QZ|X)/q/
+    - xform/(HXS|HSQ|HQS|NGS|MS|[XH]S|SX|QS)/h/
+    - xform/([KGTDN])C/\L$1/
 
+    - xform/(LZ)/d/
+    - xform/([LRN]S)/th/
+
+    - xform/[FRQ]//
+
+    - xform/([A-Z])/\L$1/
 
 punctuator:
   import_preset: symbols
