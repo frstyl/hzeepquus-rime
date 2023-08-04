@@ -91,7 +91,7 @@ speller:
     # - derive/(^|')(NGQ?)/ng/
     - derive/(^|')(HQ|A)/hq/
     - derive/(^|')(JXQ?|XQZ|QZ|XZ|X|')/q/
-    - derive/^ng/c/
+    - derive/(^|')(NGQ?)/c/
     - derive/(^|')hz/E/
     # - derive/(^|')hq/A/
 
@@ -107,16 +107,6 @@ speller:
     # - derive/(^|')[DG][RC](H?)(?!$)/DZR$1/
     # - derive/(^|')S[SC](?!$)/SR/
     # - derive/(^|')Z[SC](?!$)/ZR/
-##
-    - derive/(^|')(JQZ|JQ|J)j(?!$)/j/ #㠯母
-    - derive/(^|')(JXQ?|XQZ|QZ|X)u([aeiouə])/$1q$3/ #雲母
-    - derive/(^|')(JQZ|XQZ|QZ|XQ|JX|JQ|X)v(i[əaeoi])/$1q$3/
-    - derive/(^|')(L)r/l/
-    - derive/(^|')MSv/h/ #幫組 一三
-    - derive/(^|')PHF?v/ph/
-    - derive/(^|')PF?v/p/
-    - derive/(^|')BF?v/b/
-    - derive/(^|')MF?v/m/
 
 ####韻
     - derive/([\w][eovjxywarf]i)c/$1n/  #iŋ必
@@ -188,6 +178,16 @@ speller:
     - derive/(^|')(TSC)([jy])/k$3/
     - derive/(^|')(TSCH)([jy])/kh$3/
     - derive/(^|')(DZC)([jy])/g$3/
+##
+    - derive/(^|')(JQZ|JQ|J)j(?!$)/j/ #㠯母
+    - derive/(^|')(JXQ?|XQZ|QZ|X)u([aeiouə])/$1q$3/ #雲母
+    - derive/(^|')(JQZ|XQZ|QZ|XQ|JX|JQ|X)v(i[əaeoi])/$1q$3/
+    - derive/(^|')(L)r/l/
+    - abbrev/(^|')MSv/h/ #幫組 一三
+    - derive/(^|')PHF?v/ph/
+    - derive/(^|')PF?v/p/
+    - derive/(^|')BF?v/b/
+    - derive/(^|')MF?v/m/
 ##可選
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo
     # - derive/([\w][ijx])o([qhsA])/$1a$2/
@@ -368,15 +368,13 @@ translator:
   comment_format:
     - xform/A/ʔ/
     - xform/NG|c($|')/ŋ$1/
-    - xform/JQ/jq/
     - xform/(HZQ|XQZ|JXQ?|XZ|QZ|X)/q/
     - xform/(HXS|HSQ|HQS|NGS|MS|[XH]S|SX|QS)/h/
-    - xform/([KGTDN])C/\L$1/
 
     - xform/(LZ)/d/
     - xform/([LRN]S)/th/
 
-    - xform/[FRQ]//
+    - xform/F//
 
     - xform/([A-Z])/\L$1/
 
@@ -416,15 +414,13 @@ lookp:
   comment_format:
     - xform/A/ʔ/
     - xform/NG|c($|')/ŋ$1/
-    - xform/JQ/jq/
     - xform/(HZQ|XQZ|JXQ?|XZ|QZ|X)/q/
     - xform/(HXS|HSQ|HQS|NGS|MS|[XH]S|SX|QS)/h/
-    - xform/([KGTDN])C/\L$1/
 
     - xform/(LZ)/d/
     - xform/([LRN]S)/th/
 
-    - xform/[FRQ]//
+    - xform/F//
 
     - xform/([A-Z])/\L$1/
 
