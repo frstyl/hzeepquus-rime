@@ -3631,16 +3631,24 @@ use_preset_vocabulary: true
 𡔺	DCjuA
 𡔽	DCjuA
 𡭏	DCjuA
-𦓆	DCjuA		#1		#?工コ
+𦓆	DCjuA		#?工コ
 𧈙	DCjuA
 耉	DCjuA
 𤕋	DCjuA
 𦓂	DCjuA
-𦓃	DCjuA
+𦓃	DCjuA		#工
 𱻩	DCjuA
 𱻫	DCjuA
 𱻬	DCjuA
 𱻮	DCjuA
+夀	DCjuA
+寿	DCjuA
+𡔽	DCjuA
+𡭏	DCjuA
+𭉠	DCjuA
+𭐖	DCjuA
+𭐙	DCjuA
+𲅟	DCjuA
 ###雔
 讐	DCjuq
 𫌵	DCjuq
@@ -7383,7 +7391,7 @@ use_preset_vocabulary: true
 𦼌	Neen
 𠦚	Neen
 𠡦	Neen
-𨛲	Neen
+# 𨛲	Neen
 𨚽	Neen
 𨛻	Neen
 ###而-n
@@ -9564,7 +9572,7 @@ use_preset_vocabulary: true
 庹	THoak
 呎	THCjek
 ###者
-者	TooA		#集韻語辭
+者	TooA	1%		#集韻語辭
 𥖛	TRxak
 ###石
 𥥔	Doax
@@ -9626,7 +9634,6 @@ use_preset_vocabulary: true
 𦷠	NRaac
 𧃱	NRaac
 𧅍	NRaac
-𨛲	Neec
 𪔝	Douc
 ###襄
 𤅭	NCjac
@@ -12239,6 +12246,7 @@ use_preset_vocabulary: true
 丶	Teeb	5
 丷	Paet	5
 亠	Dəuq	5
+亠	NCjup	5
 刂	Toav	5
 忄	Sjəm	5
 㣺	Sjəm	5
@@ -13794,23 +13802,23 @@ use_preset_vocabulary: true
 # 鈮	NRxi
 # 𩬳	TRfej
 #####
-乄	U		#0x4e44
+# 乄	U		#0x4e44
 # 𠄷	DZSeəj		#1		#20137齊
 # 𠆭	Axəm		#201ad侌
-𠇇	U		#1		#20137傳
-𠍋	U		#1		#2034b𠎦
-𡆢	U		#1		#211a2囚
+# 𠇇	U		#1		#20137傳
+# 𠍋	U		#1		#2034b𠎦
+# 𡆢	U		#1		#211a2囚
 # 𡦹	Kvan		#1		#219b9官
-𡧑	U		#1		#219d1實
+# 𡧑	U		#1		#219d1實
 # 𢀓	GioA		#1		#22013巨
 # 𦮙	Gyijq		#1		#26b99葵
 𦹗	Bjin		#1		#36e57蘋
-𪜈	U		#1		#2a708トモ
+# 𪜈	U		#1		#2a708トモ
 𪜈	tomo
 𬻿	JjaA		#1		#0x2ceff也
-𬼀	U		#1		#0x2cf00爲
-𬼁	U		#1		#0x2cf01
-𬼂	U		#1		#2cf02也匜
+# 𬼀	U		#1		#0x2cf00爲
+# 𬼁	U		#1		#0x2cf01
+# 𬼂	U		#1		#2cf02也匜
 𭁇	JjoA		#1		#0x2d047與𮚜
 𭍻	DZSvas		#1		#0x2d37b坐
 # 𠪳	HooA		#𪋕

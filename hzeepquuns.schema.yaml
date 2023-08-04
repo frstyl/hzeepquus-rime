@@ -184,10 +184,10 @@ speller:
     - derive/(^|')(JQZ|XQZ|QZ|XQ|JX|JQ|X)v(i[əaeoi])/$1q$3/
     - derive/(^|')(L)r/l/
     - abbrev/(^|')MSv/h/ #幫組 一三
-    - derive/(^|')PHF?v/ph/
-    - derive/(^|')PF?v/p/
-    - derive/(^|')BF?v/b/
-    - derive/(^|')MF?v/m/
+    - derive/(^|')PHF?v([aʌəei])/ph$2/
+    - derive/(^|')PF?v([aʌəei])/p$2/
+    - derive/(^|')BF?v([aʌəei])/b$2/
+    - derive/(^|')MF?v([aʌəei])/m$2/
 ##可選
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo
     # - derive/([\w][ijx])o([qhsA])/$1a$2/
