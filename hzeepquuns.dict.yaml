@@ -735,72 +735,72 @@ import_tables:
 椰	Jjaq
 𥯘	Jjaq
 耶	Jjaq
-#JA-JO
-邪	szjoq
-䓉	Jjoq
-邪	Jjoq
-衺	szjoq
-釾	Jjoq
-𦰳	Jjoq
-𦭿	Jjoq
-瑘	Jjoq
-鎁	Jjoq
-椰	Jjoq
-𥯘	Jjoq
-耶	Jjoq
-車	khcjoq
-硨	khcjoq
-厙	scjos
-謯	tsjoq
-㜘	tsjoq
-罝	tsjoq
-袓	tsjoq
-怚	tsjoq
-姐	tsjoA
-抯	tsjoA
-飷	tsjoA
-且	tshjoA
-笡	tshjos
-㚗	dzjoq
-抯	szjoA
-蝑	sjos
-擨	Jjoq
-社	dcjoA
-𣬕	sjoA
-卸	sjos
-䉣	sjos
-寫	sjoA
-𣞐	sjoA
-瀉	sjoA
-瀉	sjos
-荼	zcjoq
-䔑	szjoq
-斜	szjoq
-䔑	Jjoq
-斜	Jjoq
-余	LZCjoq
-余	zcjoq
-賖	scjoq
-畬	scjoq
-冶	JjoA
-䵦	szjoA
-𣝒	dcjoA		#宜𣝒野
-𥁹	dcjoA
-野	JjoA
-𡐨	JjoA
-者	tcjoA
-赭	tcjoA
-堵	tcjoA	1
-㸙	tcjoq
-諸	tcjoq
-㨋	thcjoA		#擊
-䰩	thcjoA
-奲	thcjoA
-撦	thcjoA		#扯
-闍	dcjoq
-奢	scjoq
-𠰒	ncjoA		#喏
-些	sjoq
+# #JA-JO
+# 邪	szjoq
+# 䓉	Jjoq
+# 邪	Jjoq
+# 衺	szjoq
+# 釾	Jjoq
+# 𦰳	Jjoq
+# 𦭿	Jjoq
+# 瑘	Jjoq
+# 鎁	Jjoq
+# 椰	Jjoq
+# 𥯘	Jjoq
+# 耶	Jjoq
+# 車	khcjoq
+# 硨	khcjoq
+# 厙	scjos
+# 謯	tsjoq
+# 㜘	tsjoq
+# 罝	tsjoq
+# 袓	tsjoq
+# 怚	tsjoq
+# 姐	tsjoA
+# 抯	tsjoA
+# 飷	tsjoA
+# 且	tshjoA
+# 笡	tshjos
+# 㚗	dzjoq
+# 抯	szjoA
+# 蝑	sjos
+# 擨	Jjoq
+# 社	dcjoA
+# 𣬕	sjoA
+# 卸	sjos
+# 䉣	sjos
+# 寫	sjoA
+# 𣞐	sjoA
+# 瀉	sjoA
+# 瀉	sjos
+# 荼	zcjoq
+# 䔑	szjoq
+# 斜	szjoq
+# 䔑	Jjoq
+# 斜	Jjoq
+# 余	LZCjoq
+# 余	zcjoq
+# 賖	scjoq
+# 畬	scjoq
+# 冶	JjoA
+# 䵦	szjoA
+# 𣝒	dcjoA		#宜𣝒野
+# 𥁹	dcjoA
+# 野	JjoA
+# 𡐨	JjoA
+# 者	tcjoA
+# 赭	tcjoA
+# 堵	tcjoA	1
+# 㸙	tcjoq
+# 諸	tcjoq
+# 㨋	thcjoA		#擊
+# 䰩	thcjoA
+# 奲	thcjoA
+# 撦	thcjoA		#扯
+# 闍	dcjoq
+# 奢	scjoq
+# 𠰒	ncjoA		#喏
+# 些	sjoq
 ##JAJ
 哆	thcjal	1%
 䬷	scjal
@@ -20094,6 +20094,7 @@ import_tables:
 侚	szyiz
 㽦	szyin		#均
 ##YUN JUN VJUN痕2
+𰜛	tcyud
 準	tcyud
 准	tcyud
 𣯍	ncyud
@@ -27121,28 +27122,28 @@ import_tables:
 堫	tsshauc
 䎫	tsshaux
 胦	Aauc
-##RUM
+##RUM ?
 戇	traux
-胮	phauc
-𤵸	phauc
-𩐨	phauc
-𪔔	phauc
-𪐿	phauc
-逄	bauc
-胮	bauc
-𩐨	bauc
-舽	bauc
-絳	kqaux
-洚	kqaux
-夅	hgauc
-降	hgauc
-栙	hgauc
-䜶	hgauc
-洚	hgauc
-跭	hgauc
-降	kqaux
-𡲣	kqaux
 ##RUŊ
+胮	phaoc
+𤵸	phaoc
+𩐨	phaoc
+𪔔	phaoc
+𪐿	phaoc
+逄	baoc
+胮	baoc
+𩐨	baoc
+舽	baoc
+絳	kqaox
+洚	kqaox
+夅	hgaoc
+降	hgaoc
+栙	hgaoc
+䜶	hgaoc
+洚	hgaoc
+跭	hgaoc
+降	kqaox
+𡲣	kqaox
 棓	baog		#棒
 䎧	baog
 漴	dzsaox
