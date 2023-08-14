@@ -53,7 +53,6 @@ engine:
     - script_translator
     - script_translator@pinyin
     - table_translator@cangjie6
-    # - encode_commit_history
   filters:
     - simplifier
     - uniquifier
@@ -97,13 +96,14 @@ speller:
     # - derive/^SC/sc/
     # - derive/^ZC/zc/
 
-    - derive/^(LZ)/d/
-    - derive/^([LRN]S)/th/
+
 ####可選
 ##
+    - derive/^(LZ)/d/
+    - derive/^([LRN]S)/th/
 
     - derive/^(HQ|A)/hq/ #影母
-    - derive/^(HZQ|HQZ|HG|HZ|E)/hz/ #匣母
+    - derive/^(HZ|E)/hz/ #匣母
     - derive/^(NG|C)/ng/ #疑母
 
     # - derive/^([tk]h[rc]|ts[sc]h)/tsrh/ #照組
@@ -126,16 +126,16 @@ speller:
     - derive/^h[gz]/g/
 ##介
 
-    - abbrev/([\w])a(ə|a|e|i|o|u)/$1r$2/ #r=a
-    - abbrev/([\w])x(ə|a|e|i|o|u)/$1l$2/ #l=x
-    # - derive/([\w])i(ə|a|e|i|o|u)/$1j$2/
-    # - derive/([\w])u(ə|a|e|i|o|u)/$1y$2/
+    - abbrev/([\w])a(ə|ʌ|a|e|i|o|u)/$1r$2/ #r=a
+    - abbrev/([\w])x(ə|ʌ|a|e|i|o|u)/$1l$2/ #l=x
+    # - derive/([\w])i(ə|ʌ|a|e|i|o|u)/$1j$2/
+    # - derive/([\w])u(ə|ʌ|a|e|i|o|u)/$1y$2/
     - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
 ##韻
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo
     # - derive/([\w][ijx])o([qhsA])/$1a$2/
-    # - derive/([\w])[ijx]u([cgxk])/$1u$2/ #iu- io-
-    # - derive/([\w])[ijx]o([cgxk])/$1u$2/
+    # - derive/([\w])[ijx]u([Ccgxk])/$1u$2/ #iu- io-
+    # - derive/([\w])[ijx]o([Ccgxk])/$1u$2/
     # - derive/([\w])[uyw]o([qhsA])/$1u$2/ #iu- uo-
     # - derive/([\w])[ijx]u([qhsA])/$1u$2/
     # - derive/([\w])[ijx]o([mbfp])/$1u$2/
@@ -146,21 +146,22 @@ speller:
     # - derive/([\w])ng$/$1ng/
 ####韻-尾
 
-    - derive/([\w][eovjxywarf]i)c/$1n/  #iŋ必
+    - derive/([\w][eovjxywarf]i)[Cc]/$1n/  #iŋ必
     - derive/([\w][eovjxywarf]i)g/$1d/
     - derive/([\w][eovjxywarf]i)x/$1z/
 
-    - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
-    - derive/([\w][eov]u)j/$1/
-    - derive/([\w][xw]a)j/$1/ #aj iaj
-    # - derive/([\w][yw]o)j$/$1/ #uoj
-    - derive/([\w][eovjyxwarf]i)j/$1/ #ij
-    - derive/([\w])([oe]u)v([qhsA])/$1$2$3/ #皋勹ov rov
-    - derive/([\w])([ar]u)v([qhsA])/$1$2$3/
-    # - derive/([\w]u[uo])v([qhsA])$/$1$2/ #uuv 孚
-    - derive/([\w])oəu([qhsA])/$1ov$2/ #ov 侯
-    - derive/([\w])oəu([qhsA])/$1e$2/ #eu侯
+    # - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
+    # - derive/([\w][eov]u)j/$1/
+    # - derive/([\w][xw]a)j/$1/ #aj iaj
+    # - derive/([\w][eovjyxwarf]i)j/$1/ #ij
+    # - derive/([\w][o]ʌ)j/$1/ #ʌj
+    # - derive/([\w])([oe]u)v([qhsA])/$1$2$3/ #皋勹ov rov
+    # - derive/([\w])([ar]u)v([qhsA])/$1$2$3/
 
+    - derive/([aeiouəʌ])j([qAhs])$/$1$2/
+    - derive/([\w]u)v([qhsA])/$1$2/ #烋皋勹ov rov
+
+    - derive/([\w]o)əu([qhsA])$/$1ov$2/ #ov 侯
     - derive/([\w][jxi])(əv|iv|u)['q]$/$1ov/ #尤侯iov jov
     - derive/([\w][jxi])(əv|iv|u)[hA]$/$1ow/ #
     - derive/([\w][jxi])(əv|iv|u)s$/$1oy/ #
@@ -175,62 +176,63 @@ speller:
     - derive/([\w])vi([aeiouəʌ])/$1u$2/ #uə
     - derive/([\w])vx([aeiouəʌ])/$1w$2/ #
 
-    - abbrev/(\w)[jx]([aeiouə])/$1i$2/ #i=jxi
-    - abbrev/(\w)[yw]([aeiouə])/$1u$2/ #i=jxi
+    - abbrev/(\w)[jx]([aeiouəʌ])/$1i$2/ #i=jxi
+    - abbrev/(\w)[yw]([aeiouəʌ])/$1u$2/ #i=jxi
 
-    - derive/(\w)[jxi](i|ə)/$1i/ #i
-    - derive/(\w)[ywu](i|u|ə)/$1u/ #u
+    - derive/(\w)[jxi](i|ə|ʌ)/$1i/ #i
+    - derive/(\w)[ywu](i|u|ə|ʌ)/$1u/ #u
 ##三等无介音
     # - xform/([\w])[oe]([aeiouəʌ])/$1o$2/ #一三
-    # - xform/([\w])[ij]([aeiouə])/$1$2/ #一三
+    # - xform/([\w])[ij]([aeiouəʌ])/$1$2/ #一三
 
-    # - xform/([\w])x([aeiouə])/$1r$2/
+    # - xform/([\w])x([aeiouəʌ])/$1r$2/
 
 ####
-    - derive/(^|')(LZ[RC]?)([eovarfxw][aeiouəʌ])/j$3/
-    - derive/(^|')(JX)([xw][aeiouəʌ])/j$3/
-    - derive/(^|')(HZQ?|HQZ|XQZ?|XZ|QZ|E)([eovarf][aeiouəʌ])/q$3/
-    - derive/(^|')(JQZ?)([jy][aeiouəʌ])/q$3/
+    - derive/^(LZ[RC]?)([eovarfxw][aeiouəʌ])/j$2/
+    - derive/^(JX)([xw][aeiouəʌ])/j$2/
+    - derive/^(HZQ?|HQZ|XQZ?|XZ|QZ|E)([eovarf][aeiouəʌ])/q$2/
+    - derive/^(JQZ?)([jy][aeiouəʌ])/q$2/
 
-    # - derive/(^|')(TSC)([jy])/k$3/
-    # - derive/(^|')(TSCH)([jy])/kh$3/
-    # - derive/(^|')(DZC)([jy])/g$3/
+    # - derive/^(TSC)([jy])/k$2/
+    # - derive/^(TSCH)([jy])/kh$2/
+    # - derive/^(DZC)([jy])/g$2/
 
-    - derive/(^|')(hq?z)([eovarf][aeiouəʌ])/q$3/
-    - derive/(^|')(tsc)([jy])/k$3/
-    - derive/(^|')(tsch)([jy])/kh$3/
-    - derive/(^|')(dzc)([jy])/g$3/
-    # - derive/(^|')(jq)([jy][aeiouəʌ])/j$3/
-    # - derive/(^|')(jq)([jy][aeiouəʌ])/q$3/
+    - derive/^(hq?z)([eovarf][aeiouəʌ])/q$2/
+    - derive/^(tsc)([jy])/k$2/
+    - derive/^(tsch)([jy])/kh$2/
+    - derive/^(dzc)([jy])/g$2/
+    # - derive/^(jq)([jy][aeiouəʌ])/j$2/
+    # - derive/^(jq)([jy][aeiouəʌ])/q$3/
 ####聲-介
-    - derive/(^|')(JQZ|JQ|J)j(?!$)/j/ #㠯母
-    - derive/(^|')(JXQ?|XQZ|QZ|X)u([aeiouə])/$1q$3/ #雲母
-    - derive/(^|')(JQZ|XQZ|QZ|XQ|JX|JQ|X)v(i[əaeoi])/$1q$3/
-    - derive/(^|')(L)r/l/
-    - derive/(^|')MSv([ʌəo])/h$2/ #幫組 一三
-    - derive/(^|')(PH|P|B|M)F?v([aʌəei])/\L$2$3/
+    - derive/^(JQZ|JQ|J)j([aeiouəʌ])/j\2/ #㠯母
+    - derive/^(JXQ?|XQZ|QZ|X)u([aeiouəʌ])/$1q$2/ #雲母
+    - derive/^(JQZ|XQZ|QZ|XQ|JX|JQ|X)v(i[aeioəʌ])/$1q$2/
 
+    - derive/^MSv([ʌəo])/h$1/ #幫組 一三
+    - derive/^(PH|P|B|M)F?v([aʌəei])/\L$1$2/
 
-    - derive/(^|')(q)u([aeiouə])/q$3/ #雲母
-    - derive/(^|')(q)v(i[əaeoi])/q$3/
-    - derive/(^|')(l)r/l/
-    - derive/(^|')(ph|p|b|m)v([aʌəei])/$2$3/
+    - derive/^jj/j/
+    - derive/^(l)a/l/
+    - derive/^(l)f/lv/
+    - derive/^(q)u([aeiouəʌ])/q$2/ #雲母
+    - derive/^(q)v(i[aeioəʌ])/q$2/
+    - derive/^(l)r/l/
+    - derive/^(l)f/lv/
+    - derive/^(ph|p|b|m)v([aeiəʌ])/$1$2/
 
 ####尾
-    # - derive/(\w)h$/$1A/
+    - derive/([aeiouəʌ])['q]$/$1/
     - derive/(\w)A$/$1h/
     - derive/(\w)(NG|C)$/$1c/
-    - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
-    # - derive/(\w)v(k)$/$1$2/
-    - derive/(\w)['q]$/$1/
-    # - derive/(\w)jh$/$1/ #-j
-    # - derive/(\w)js$/$1r/
-    - abbrev/(\w)j['q]$/$j/ #-j
+    - abbrev/(\w)j['q]$/$1j/
     - abbrev/(\w)jA$/$1l/
     - abbrev/(\w)js$/$1r/
+    - derive/(\w)vq$/$1v/
     - derive/(\w)vA$/$1w/
-    - derive/(\w)vs(k)/$1y$2/
     - derive/(\w)vsk?/$1y/
+    - derive/(\w)vs(k)/$1y$2/
+    - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
+    # - derive/(\w)v(k)$/$1$2/
 
 ####
     - derive/ʌ/ea/ #EOə eo
@@ -246,7 +248,6 @@ speller:
 
 ####
 
-
     - derive/^ph/f/
     - derive/^th/r/
     - derive/^kh/y/
@@ -259,20 +260,21 @@ speller:
     - derive/^tsr/w/
 ####
     - abbrev/^([\w][zhcqs]?)([rlfvjyxw])([aeiouəʌ])([\w' ])$/$1$3$2$4/ #介元序
-    - abbrev/^([\w][zhcqs]?)([aiu])([aeiouəʌ])([\w' ])$/$1$3$2$4/ #介元序 无o
+    - derive/^([\w][zhcqs]?)([aiu])([aeiouəʌ])([\w' ])$/$1$3$2$4/ #介元序 无o
 ####
-    # - erase/^[a-z][zhcgqs].+$/
 
-    - abbrev/^(\w)[^zhcgqs].*$/$1/ #𥳑
-    # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).*$/$1/ #介
-
+    # - abbrev/^(\w).+$/$1/
+    # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
     # - abbrev/^(tsh?|dz).+$/$1/
     # - abbrev/^([ptkw]h).+$/$1/
     # - abbrev/^(sz).+$/$1/
     # - abbrev/^([sz]c).+$/$1/
     # - abbrev/^(hz|hq).+$/$1/
-
     # - abbrev/^(ng).+$/$1/
+
+    # - erase/^[a-z][zhcgqs].+$/
+    - abbrev/^([a-z])[^zhcgqs].*$/$1/ #𥳑
+
 
 # # # # # # 
     - derive/(^|')([A-Zbcdfghjklmnpqrstvwxyz]+)(?!$)/I/ #聲
@@ -302,7 +304,7 @@ speller:
     - derive/(^|')(n[rc]?)(?!$)/NI/
     - derive/(^|')(NGQ?|X[SZ])(?!$)/NGI/
 
-    - derive/(\w).+/$1U/
+    - derive/^(.+).+$/$1U/
 
 translator:
   dictionary: hzeepquuns
@@ -375,7 +377,8 @@ translator:
     - xform/F//
     - xform/([A-Z])/\L\1/
     - xform/([rs])[ptk]$/$1/
-  initial_quality: 0.7	# 調整該編譯器出字優先度
+  initial_quality: 0.7
+
 pinyin:
   dictionary: luna_pinyin
   prefix: "~"
@@ -387,8 +390,8 @@ pinyin:
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue('|$)/$1üe$2/
-    - xform/([jqxy])v/$1u/
-  initial_quality: 0.5	# 調整該編譯器出字優先度
+    - xform/([jqxy])v/$1ü/
+  initial_quality: 0.1	# 調整該編譯器出字優先度
 
 cangjie6:
   dictionary: cangjie6
@@ -401,7 +404,7 @@ cangjie6:
     - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
-  initial_quality: 0.8
+  initial_quality: 0.5
 
 
 lookp:
