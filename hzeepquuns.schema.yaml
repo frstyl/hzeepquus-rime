@@ -132,8 +132,10 @@ speller:
     # - derive/([\w])u(ə|ʌ|a|e|i|o|u)/$1y$2/
     - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
 ##韻
-    # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo
-    # - derive/([\w][ijx])o([qhsA])/$1a$2/
+    - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo
+    - derive/([\w][ijx])o([qhsA])/$1a$2/
+
+    - derive/([\w][uyw]u)j/$1/
     # - derive/([\w])[ijx]u([Ccgxk])/$1u$2/ #iu- io-
     # - derive/([\w])[ijx]o([Ccgxk])/$1u$2/
     # - derive/([\w])[uyw]o([qhsA])/$1u$2/ #iu- uo-
@@ -161,8 +163,8 @@ speller:
     - derive/([aeiouəʌ])j([qAhs])$/$1$2/
     - derive/([\w]u)v([qhsA])/$1$2/ #烋皋勹ov rov
 
-    - derive/([\w]o)əu([qhsA])$/$1ov$2/ #ov 侯
-    - derive/([\w][jxi])(əv|iv|u)['q]$/$1ov/ #尤侯iov jov
+    - derive/([\w]o)ov([qhsA])$/$1əu$2/ #ov 侯
+    - derive/([\w][jxi])(əv|iv|u)['q]$/$1ov/ # 尤 侯iov jov
     - derive/([\w][jxi])(əv|iv|u)[hA]$/$1ow/ #
     - derive/([\w][jxi])(əv|iv|u)s$/$1oy/ #
     # - derive/([\w][jx])iəu([qhsA])/$1ov$2/ #幽侯
