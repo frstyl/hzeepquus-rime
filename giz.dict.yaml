@@ -1480,7 +1480,7 @@ use_preset_vocabulary: true
 ###貝
 𣀕	baart
 𰶹	baart
-唄	poar
+唄	poar	99
 ###巿
 𢂤	poar
 𠀽	poar
@@ -2873,6 +2873,7 @@ use_preset_vocabulary: true
 嗩	svujA		#1		#八丷
 # 嗩	svujA
 ###叉
+𩉠	TSSHaex
 # 衩	tsshaas
 𥘓	tsshaas
 䟕	tsshaas
@@ -3531,7 +3532,7 @@ use_preset_vocabulary: true
 吊	teey
 銱	teey
 ##
-屌	teiw		#1		#鳥
+屌	teew		#1		#鳥釣
 ###寽
 寽	lyot
 埓	lyot		#1		#爫𱼀
@@ -3926,8 +3927,8 @@ use_preset_vocabulary: true
 𱻸	mauvA
 𱻺	mauvA
 ##
-𦖂	leiv
-𦕵	leiv		#𦕼
+𦖂	leev
+𦕵	leev		#𦕼
 ##畱留
 𫽠	thrxuq
 𭡼	thrxuq
@@ -4285,11 +4286,11 @@ use_preset_vocabulary: true
 𨶪	keew
 𪖷	leew
 #
-䎆	leiv
-𣼢	leiv
-𦑾	leiv
-𮊿	leiv
-𮋀	leiv
+䎆	leev
+𣼢	leev
+𦑾	leev
+𮊿	leev
+𮋀	leev
 𠝧	ljuk
 𠢜	ljuk
 𢑕	ljuk
@@ -5281,7 +5282,7 @@ use_preset_vocabulary: true
 𥧸	Cqoos
 𩄭	Cqoos
 ###牙
-庌	Caaj		#2
+庌	Caaq		#2
 蚜	Caaq
 蚜	haaq
 ##耶
@@ -8674,7 +8675,8 @@ use_preset_vocabulary: true
 堚	Evon
 𧞢	kvod		#緷
 ###
-尕	kaaA		#牙
+尕	kaaA	9		#牙
+尕	Caaq		#牙
 𰮚	kaaA
 ###頁
 #
