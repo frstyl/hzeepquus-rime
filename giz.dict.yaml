@@ -1,4 +1,5 @@
 #---
+#叶韻補充 勹𢬸𠎥䛐形式
 name: giz
 version: "2022.1.15"
 sort: by_weight
@@ -260,7 +261,7 @@ use_preset_vocabulary: true
 敺	AəuA		#毆
 混	kvod		#滾
 聃	toum		#耽
-率	lyut		#律
+率	lyut	9		#律
 # 暖	nvad		#煗㬉
 # 煖	nvad		#煗㬉
 闖	tsshxag		#撞
@@ -2797,6 +2798,7 @@ use_preset_vocabulary: true
 㸄	tseej
 # 𧞓	tsjij
 #
+𮢕	tseej
 𠆈	dzeej
 𮔰	dzeej
 斉	dzeej
@@ -4706,7 +4708,7 @@ use_preset_vocabulary: true
 𤔇	dzsxəs
 ###㞢
 峕	dcjəq
-𡳿	tcjəq
+𡳿	tcjəq	99
 𠔇	tcjəq
 𣱲	tcjəq
 #
@@ -5008,7 +5010,7 @@ use_preset_vocabulary: true
 # 查	tssaaq
 揸	nraaq
 揸	tssaaq		#抯
-猹	dzraq
+猹	dzraaq
 齄	tssaaq
 喳	tssaaq
 ##
@@ -5032,38 +5034,46 @@ use_preset_vocabulary: true
 渣	tssaaq		#沮
 碴	dzsaaq		#渣沮
 碴	tssaaq
-###𠂔
+###𠂔-𠥽𪩲
+𠥽	tssxəA	2		#i
+𠥽	tssxiA
+𠂔	tssxiA
+笫	tssxiA
+胏	tssxiA
+柹	DZZxiA		#枾𣐈柿
 #笫	tssxid		#集韻阻引切
 ##
-𩐒	tseəj
-䪟	tseəj		#䪡䪢
-䪠	tseəq
-䪣	tseəj
-𩐆	tseəj
-𩐇	tseəj
-𩐈	tseəj
-𩐊	tseəj
-𩐋	tseəj
-𩐎	tseəj
-𩐑	tseəj
+𩐒	tseej
+䪟	tseej		#䪡䪢
+䪠	tseej
+䪣	tseej
+𩐆	tseej
+𩐇	tseej
+𩐈	tseej
+𩐊	tseej
+𩐋	tseej
+𩐎	tseej
+𩐑	tseej
 ##
-#巿
-𧠎	tshjər
-𧠵	tshjər		#𧠥
-姉	tsjəl
-##市
-柿	dzZxəA		#柹
-枾	dzZxəA
-𥞑	tsjəl
 #
-𪩲	tssxəl
-𡛷	tsjəj
-𧠥	tsjəj
+䙻	tshjis
+#市
+柿	dzsxəA		#柹
+𥞑	tsjiA		#秭
+#巿?
+𧠎	tshjijs
+姉	tsjiA		#女市
+#
+𪩲	tssxəA
+𡛷	tsjiA
+𧠥	tsjis
 𨒘	zyis
-𣐈	dzsxəl
-𨥳	tseəj
-𨥳	tseijq
-𨓫	tcjəl		#1		#𧿲
+𣐈	dzsxəA
+𨥳	dzeej
+#
+𨓫	tcjiA		#1		#𧿲
+𧠵	tshjis		#𧠥
+枾	dzsxəA		#柿
 ###索
 嗦	soaq
 ###絲
@@ -5452,6 +5462,7 @@ use_preset_vocabulary: true
 𠮡	kcjeA
 嘦	kjey
 ###支
+𨈛	kcjeq
 𣥖	gjeq
 𢻈	kcjes
 𧷱	kyeq		#𩓡
@@ -6745,6 +6756,7 @@ use_preset_vocabulary: true
 # 哈	hep
 峇	khoʌp		#峇
 峆	Eoʌp
+合	hgoʌp
 ###荅
 𥅽	toop
 ###劦叶
@@ -7110,7 +7122,7 @@ use_preset_vocabulary: true
 𬟕	tjid
 ##昚
 𠋚	hfit
-眘	dcjiz
+眘	dcjiz	5
 𡴜	dcjiz
 𡸱	dcjiz
 𡺊	dcjiz
@@ -7388,7 +7400,9 @@ use_preset_vocabulary: true
 𡈎	ncjit
 𡇁	ncjit
 ###肰然
-# 燃	ncjen
+肰	ncjen
+然	ncjen
+燃	ncjen
 𤉷	ncjen
 𤟙	ncjen
 𱪻	ncjen
@@ -8447,6 +8461,7 @@ use_preset_vocabulary: true
 𧯢	kiəd
 ###斤
 庍	hiəz
+𣂠	giəz	9
 ##欣
 鍁	hian
 ###
@@ -8654,6 +8669,9 @@ use_preset_vocabulary: true
 恝	kaet
 ###𠯑
 颳	kfat
+# 舌	kqvat
+𠮮	kqvat
+𠯓	kqvat
 ###堇
 螼	khxiz
 𠪲	gxəz
@@ -9207,7 +9225,7 @@ use_preset_vocabulary: true
 𡊹	Ajin
 𡌓	Ajin
 𡍏	Ajin
-# 𡍯	Ajin
+𡍯	Ajin
 𡎱	Ajin
 𡐲	Ajin
 𦦋	Ajin
@@ -10493,6 +10511,7 @@ use_preset_vocabulary: true
 #
 清	tshjeC		#1		#靑円
 青	tsheeC
+𤯞	tsheeC
 㞭	tsheeC
 𡗡	tsheeC
 𡴏	tsheeC
@@ -10500,8 +10519,8 @@ use_preset_vocabulary: true
 𡴑	tsheeC
 𡴙	tsheeC
 𡷉	tsheeC
-# 𤯝	tsheeC
-# 𰀈	tsheeC
+𤯝	tsheeC
+𰀈	tsheeC
 ###倉
 戧	tsshxaC
 艙	tshoaC
@@ -12175,7 +12194,7 @@ use_preset_vocabulary: true
 䙲	tshjen
 # 𢍹	tshjen
 𦦉	tshjen
-𦦒	tshjen	5
+𦦒	tshjen	99
 𦧂	tshjen
 𧟤	tshjen
 𧟥	tshjen
@@ -12303,10 +12322,10 @@ use_preset_vocabulary: true
 #
 𢀪	ncjəl
 𣙡	ncjəl
-尓	ncjəl		#1		#尒
-𡭗	ncjəl
-𠇍	ncjəl
-尔	ncjəl	0		#尒
+尓	ncjəl	1		#1		#尒
+𡭗	ncjəl	1
+𠇍	ncjəl	1
+尔	ncjəl	1		#尒
 𦬼	neət	0
 𥬞	neət	0
 袮	neəl	0
@@ -12314,6 +12333,7 @@ use_preset_vocabulary: true
 𩬘	neəl	0
 𪱾	neəl	0
 迩	ncjəl	0
+你	nrxəl	0
 你	nrxəA	0
 弥	mjəj	0
 妳	naəl	0

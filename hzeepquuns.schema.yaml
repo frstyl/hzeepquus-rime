@@ -130,10 +130,6 @@ speller:
     # - erase/^[a-z][zhcgqs].+$/
     - abbrev/^([a-z])[^zhcgqs].*$/$1/ #𥳑
 
-##韻
-    - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo
-    - derive/([\w][ijx])o([qhsA])/$1a$2/
-    - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
 ##
     - derive/(?<!^)v(k)$/$1/
 ####韻-尾
@@ -159,6 +155,12 @@ speller:
     - derive/([\w][jxi])(əv|iv|u)s$/$1oy/ #
     # - derive/([\w][jx])iəu([qhsA])/$1ov$2/ #幽侯
     - derive/([\w][jx])iə([vwy])$/$1ov$2/
+    - derive/([\w])[jxi]o([vwy])$/$1i$2/ #尤幽侯iv
+##韻
+    - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo
+    - derive/([\w][ijx])o([qhsA])/$1a$2/
+    - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
+    - derive/([\w])x(aj[qhAs])/$1j$2/ #joj
 ####介
 ##
     - derive/([\w])o(a|o|ə|ʌ)/$1$2/ #一等无介音
@@ -269,7 +271,6 @@ speller:
     # - derive/([\w])[ijx]o([mbfp])/$1u$2/
     # - derive/([\w])[ijx]u([mbfp])/$1u$2/
     - derive/([\w])[ijx][uo]/$1u/ #iu- io-
-    - derive/([\w])[jxi]o([vwy])$/$1i$2/ #尤幽侯iv
 ##
     - derive/([iu])(a)/$2$1/
     - derive/(a)([iu])/$2$1/
