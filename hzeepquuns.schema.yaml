@@ -117,19 +117,6 @@ speller:
     - derive/^(ts|dz)[s]/$1/
     - derive/^([sz])[s]/$1/
     - derive/^h[gz]/g/
-####𥳑
-    # - abbrev/^(\w).+$/$1/
-    # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
-    # - abbrev/^(tsh?|dz).+$/$1/
-    # - abbrev/^([ptkw]h).+$/$1/
-    # - abbrev/^(sz).+$/$1/
-    # - abbrev/^([sz]c).+$/$1/
-    # - abbrev/^(hz|hq).+$/$1/
-    # - abbrev/^(ng).+$/$1/
-
-    # - erase/^[a-z][zhcgqs].+$/
-    - abbrev/^([a-z])[^zhcgqs].*$/$1/ #𥳑
-
 ##
     - derive/(?<!^)v(k)$/$1/
 ####韻-尾
@@ -232,6 +219,19 @@ speller:
 
     - derive/^dzr/z/  #照
     - derive/^tsr/w/
+####𥳑
+    # - abbrev/^(\w).+$/$1/
+    # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
+    # - abbrev/^(tsh?|dz).+$/$1/
+    # - abbrev/^([ptkw]h).+$/$1/
+    # - abbrev/^(sz).+$/$1/
+    # - abbrev/^([sz]c).+$/$1/
+    # - abbrev/^(hz|hq).+$/$1/
+    # - abbrev/^(ng).+$/$1/
+
+    # - erase/^[a-z][zhcgqs].+$/
+    - abbrev/^([a-z])[^zhcgqsrl].*$/$1/ #𥳑
+
 
 # # # # # # 
     - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
@@ -264,9 +264,9 @@ speller:
     - derive/^(.+).+$/$1U/
 ####可選
     - derive/([\w][uyw]u)j/$1/
+    - derive/([\w])[uyw]o([qhsA])/$1u$2/ #iu- uo-
     # - derive/([\w])[ijx]u([Ccgxk])/$1u$2/ #iu- io-
     # - derive/([\w])[ijx]o([Ccgxk])/$1u$2/
-    # - derive/([\w])[uyw]o([qhsA])/$1u$2/ #iu- uo-
     # - derive/([\w])[ijx]u([qhsA])/$1u$2/
     # - derive/([\w])[ijx]o([mbfp])/$1u$2/
     # - derive/([\w])[ijx]u([mbfp])/$1u$2/
@@ -275,12 +275,12 @@ speller:
     - derive/([iu])(a)/$2$1/
     - derive/(a)([iu])/$2$1/
     - abbrev/([aiu])([aeiouəʌ;])/$2$1/ #介元序 无eo
-    - abbrev/(?<!^)([lrfvjyxwaiu])([aeiouəʌ;])/$2$1/
-    - abbrev/(?<!^)a(ə|ʌ|a|e|i|o|u|;)/r$1/ #r=a
-    - abbrev/(?<!^)x(ə|ʌ|a|e|i|o|u|;)/l$1/ #l=x
+    - abbrev/(?<!^)([fvjyxwaiu])([aeiouəʌ;])/$2$1/
+    - abbrev/(?<!^)x(ə|ʌ|a|e|i|o|u|;)/r$1/ #l=x
+    - abbrev/(?<!^)a(ə|ʌ|a|e|i|o|u|;)/l$1/ #r=a
     # - derive/(?<!^)i(ə|ʌ|a|e|i|o|u|;)/j$1/
     # - derive/(?<!^)u(ə|ʌ|a|e|i|o|u|;)/y$1/
-    - abbrev/(?<!^)([lr])([aeiouəʌ;])/$2$1/ #l=x
+    - abbrev/(?<!^)([rl])([aeiouəʌ;])/$2$1/ #l=x
 ####尾
     - derive/([aeiouəʌ;])['q]$/$1/
     - derive/(?<!^)A$/h/
