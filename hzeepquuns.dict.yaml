@@ -608,20 +608,19 @@ import_tables:
 茄	giaq
 枷	giaq
 ###UA
+𦚢	Auaq
 ##UA
 鞾	CSuaq
 ##UAJ
-𢪎	huajq
-靴	huajq
-㗾	huajq
-𠏃	Auajq
-𠏃𠋧	Auajq KHiaq
-瘸	guajq
+𢪎	huaj
+靴	huaj
+㗾	huaj
+𠏃	Auaj
+瘸	guaj
+𩨭	khuaj
+𩨷	khuaj
 ##UOJ VIOJ
-𦣛	luojq
-𦚢	Auoq
-𩨭	khuoj
-𩨷	khuoj
+𦣛	luoj
 侳	tsuoj
 𩛠	tsuoj
 脞	tshuoj
@@ -727,7 +726,7 @@ import_tables:
 邪	zjaq
 䓉	Jjaq
 邪	Jjaq
-衺	zjaq
+衺	zjaq	999
 釾	Jjaq
 𦰳	Jjaq
 𦭿	Jjaq
@@ -4440,17 +4439,17 @@ import_tables:
 辴	thrxəj
 ##XƏR
 #KS
-冀	kxəs		#ks?
+冀	kxəsk		#ks?
 兾	kxəs
-驥	kxəs
-懻	kxəs
+驥	kxəsk
+懻	kxəsk
 絥	bxəsk		#ks
 𩎓	bxəsk
-𤰈	bxəsk
-僃	bxəsk
-𥼓	bxəsk
-𤗩	bxəsk
-𩍁	bxəsk
+𤰈	bxəsk	999
+僃	bxəsk	999
+𥼓	bxəsk	99
+𤗩	bxəsk	99
+𩍁	bxəsk	99
 𤰇	bxəsk		#ks
 備	bxəsk
 俻	bxəsk	1
@@ -5392,6 +5391,7 @@ import_tables:
 袋	LZoʌsk
 𤮼	LZoʌsk
 瑇	doʌsk		#ks
+𡫳	soʌsk
 塞	soʌsk		#ks
 簺	soʌsk
 賽	soʌsk
@@ -6256,8 +6256,8 @@ import_tables:
 褽	Auurt
 䲁	Auurt
 㷉	Auurt
-𦞅	quurt		#ɢ
-𧬴	quur
+𦞅	quurt	999		#ɢ
+𧬴	quur	99
 𡣃	quur
 𧒞	quur
 𱩒	quur
@@ -6267,7 +6267,7 @@ import_tables:
 媦	quurt
 𦩝	quurt
 蝟	quurt
-𢑷	quurt	998
+𢑷	quurt	999
 彙	quurt		#
 渭	quurt
 煟	quurt
@@ -6275,9 +6275,9 @@ import_tables:
 緭	quurt
 𦳢	quurt
 䬑	quurt
-䝿	kuur		#ts
+䝿	kuur	999		#ts
+𥌶	kuur	99
 貴	kuur
-𥌶	kuur
 瞶	kuur
 䙡	khuur
 𢍚	quurt		#𡔱𢍖𣓑𤱿
@@ -7021,9 +7021,9 @@ import_tables:
 嬩	Jjoq
 璵	Jjoq
 輿	Jjoq
-輿	Jjos
+輿	Jjos	2
 𩦡	Jjos
-與	Jjoq
+與	Jjoq	2
 與	Jjos
 藇	Jjos
 穥	Jjos
@@ -15270,13 +15270,12 @@ import_tables:
 𢄻	soad
 䉈	soad
 散	soad
-㪔	soad	999
 𦇕	soad
 𢿨	soad
-繖	soaz
+㪔	soaz	999
 𢿨	soaz
 散	soaz
-𢿨	soaz
+繖	soaz
 䉈	soat
 𩀼	soad
 𩀼	soaz
@@ -15695,7 +15694,7 @@ import_tables:
 𨓈	kqvat	99
 𠈲	kqvat	99
 𦕾	kqvat	99
-𣴠	kqvat	99
+𣴠	kqvat
 𣿛	kqvat	99
 桰	kqvat	99
 𪁝	kqvat	99
@@ -15710,7 +15709,7 @@ import_tables:
 适	kqvat
 佸	kqvat
 聒	kqvat
-活	kqvat
+活	kqvat	2
 𣽅	kqvat
 栝	kqvat
 鴰	kqvat
@@ -18936,8 +18935,8 @@ import_tables:
 䛒	bxed
 𧦪	bxed	1
 別	pxet
-𠛰	pxet
-𠔁	pxet
+𠛰	pxet	999
+𠔁	pxet	999
 䇷	pxet
 𧧸	pxet
 莂	pxet
@@ -19592,10 +19591,10 @@ import_tables:
 䀆	tsjid
 盡	tsjid
 㯸	tsjid
-䀆	dzjid
+䀆	dzjid	999
 盡	dzjid
 濜	dzjid
-㶳	zjiz
+㶳	zjiz	999
 燼	zjiz
 藎	zjiz
 濜	zjiz
@@ -19608,7 +19607,7 @@ import_tables:
 璡	tsjiz
 㲺	tsjit
 七	tshjit
-𠀁	tshjit
+𠀁	tshjit	99
 柒	tshjit
 叱	thcjit
 # 桼	tshjit		#-g
@@ -21635,10 +21634,10 @@ import_tables:
 𣂆	phoaC
 髈	phoag
 䒍	phoag
-㫄	boaC
-𠊓	boaC
-𦜶	boaC
-𩤐	boaC
+㫄	boaC	999
+𠊓	boaC	99
+𦜶	boaC	99
+𩤐	boaC	99
 旁	boaC
 傍	boaC
 膀	boaC
@@ -25027,11 +25026,11 @@ import_tables:
 隻	tcjek
 䨥	tcjek
 𨗁	tcjek		# 啻
-𨗁	scjek
+𨗁	scjek	99
 適	tcjek
 適	scjek
 𡣪	scjek
-𦟝	tsjek
+𦟝	tsjek	999
 𩼿	tsjek
 𨇋	tsjek
 脊	tsjek
@@ -25675,7 +25674,7 @@ import_tables:
 䁇	miək
 皕	piək		#?
 衋	hiək
-仌	piəC
+仌	piəC	999
 冰	piəC
 砯	phiəC
 靐	biəx
@@ -27338,8 +27337,8 @@ import_tables:
 溶	JQjog
 傛	JQjog
 幒	tcjog
-廾	kioC
-𠬞	kioC
+廾	kioC	2
+𠬞	kioC	2
 龏	kiox
 共	kioC
 髸	kioC
@@ -27354,7 +27353,7 @@ import_tables:
 拱	kiog
 𢪒	kiog
 廾	kiog
-𠬞	kiog
+𠬞	kiog	999
 拲	kiog
 珙	kiog
 㤨	kiog
@@ -27367,7 +27366,7 @@ import_tables:
 輁	gioC
 共	giox
 𦱹	giox
-𠔏	giox
+𠔏	giox	999
 蛬	kiog
 蛬	gioC
 孒	kiog
@@ -28158,8 +28157,8 @@ import_tables:
 柷	thcjuk
 祝	tcjuk
 祝	tcjuk
-𡖊	sjuk
-𠈇	sjuk		#㐁
+𡖊	sjuk	999
+𠈇	sjuk	99		#㐁
 𠉦	sjuk
 㝛	sjuk	999
 夙	sjuk
@@ -28178,10 +28177,10 @@ import_tables:
 蹴	tshjuk
 殧	tshjuk
 鞴	BFiuk		#絥
-𧜰	BFiuk
-𦞶	PFiuk
-𨫙	PFiuk
-𨎙	PFiuk
+𧜰	BFiuk	99
+𦞶	PFiuk	99
+𨫙	PFiuk	99
+𨎙	PFiuk	99
 複	PFiuk
 腹	PFiuk
 𠋩	PFiuk
@@ -28191,11 +28190,11 @@ import_tables:
 𧐛	PHFiuk
 蝮	PHFiuk
 㙏	PHFiuk
-𡕨	BFiuk
-𨎙	BFiuk
-𣘅	BFiuk
-𤹫	BFiuk
-𩺽	BFiuk
+𡕨	BFiuk	999
+𨎙	BFiuk	99
+𣘅	BFiuk	99
+𤹫	BFiuk	99
+𩺽	BFiuk	99
 复	BFiuk
 復	BFiuk
 馥	BFiuk

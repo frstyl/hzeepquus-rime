@@ -146,16 +146,13 @@ speller:
 ##韻
     - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo
     - derive/([\w][ijx])o([qhsA])/$1a$2/
-    - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
     - derive/([\w])x(aj[qhAs])/$1j$2/ #joj
+    - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
 ####介
 ##
     - derive/([\w])o(a|o|ə|ʌ)/$1$2/ #一等无介音
     - derive/([\w])e(a|ə)/$1$2/ #e四等 
     - derive/([\w])(e)(a|e|i|ə)/$1$2/ #e四等 
-
-    - derive/([\w])vi([aeiouəʌ;])/$1u$2/ #uə
-    - derive/([\w])vx([aeiouəʌ;])/$1w$2/ #
 
     - abbrev/(\w)[jx]([aeiouəʌ;])/$1i$2/ #i=jxi
     - abbrev/(\w)[yw]([aeiouəʌ;])/$1u$2/ #i=jxi
@@ -233,37 +230,14 @@ speller:
     - abbrev/^([a-z])[^zhcgqsrl].*$/$1/ #𥳑
 
 
-# # # # # # 
-    - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
-    - derive/^(F?(PH?|B)|MF?)(?!$)/PI/
-    - derive/^(ph|p|b|m)(?!$)/PI/
-    - derive/^(TSSH?|DZZ|T[CR]?H?|D[CR]?|N[RC]?)(?!$)/TI/
-    - derive/^((th|t|d|n)[rc]?)(?!$)/TI/
-    - derive/^(T[SZ]H?|D[SZ])(?!$)/TSI/
-    - derive/^((ts|dz)[sc]?h?)(?!$)/TSI/
-    - derive/^(NGQ?|HG|K[CQ]?H?|G[C]?|L|X?QZ|XZ|HQ|A)(?!$)/KI/
-    - derive/^((kh|k|g)(qc)?)(?!$)/KI/
-    - derive/^(X[SZ]|HZ|XQ|HQ|H)(?!$)/HI/
-    - derive/^(h)(?!$)/HI/
-    - derive/^(JX?)(?!$)/JI/
-    - derive/^(j)(?!$)/JI/
-    - derive/^(S[SZ]|ZS|ZZ|S)(?!$)/SI/
-    - derive/^(SC|XS)(?!$)/SI/
-    - derive/^(s[sc]?)(?!$)/SI/
-    - derive/^(ZC|XZ)(?!$)/ZI/
-    - derive/^(s?z|z[sc]?)(?!$)/ZI/
-    - derive/^(SZ|ZS|[SZ]C|L[SZ][RC]?|J)(?!$)/LI/
-    - derive/^(RS[RC]?|L)(?!$)/RI/
-    - derive/^(l)(?!$)/RI/
-    - derive/^(MS|MF|M)(?!$)/MI/
-    - derive/^(m)(?!$)/MI/
-    - derive/^(N[CR]?|[ZC]C|NS[RC]?)(?!$)/NI/
-    - derive/^(n[rc]?)(?!$)/NI/
-    - derive/^(NGQ?|X[SZ])(?!$)/NGI/
-
-    - derive/^(.+).+$/$1U/
 ####可選
-    - derive/([\w][uyw]u)j/$1/
+    - derive/([\w])v([o])/$1$2/ #von vo 
+    - derive/([\w][uyw]u)j$/$1/
+##
+    - derive/([\w])vi([ouə])/$1u$2/ #uə
+    - derive/([\w])vx([uə])/$1w$2/ #
+##
+    - derive/([\w])(v[ix]|[uyw])ə/$1u/ #iu- uo-
     - derive/([\w])[uyw]o([qhsA])/$1u$2/ #iu- uo-
     # - derive/([\w])[ijx]u([Ccgxk])/$1u$2/ #iu- io-
     # - derive/([\w])[ijx]o([Ccgxk])/$1u$2/
@@ -301,6 +275,35 @@ speller:
     - derive/(ʌ|ə)/;/ #EOə eo
     - derive/ʌ/ea/ #EOə eo
     - derive/ə/eo/ #EOə eo
+# # # # # # 
+    - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
+    - derive/^(F?(PH?|B)|MF?)(?!$)/PI/
+    - derive/^(ph|p|b|m)(?!$)/PI/
+    - derive/^(TSSH?|DZZ|T[CR]?H?|D[CR]?|N[RC]?)(?!$)/TI/
+    - derive/^((th|t|d|n)[rc]?)(?!$)/TI/
+    - derive/^(T[SZ]H?|D[SZ])(?!$)/TSI/
+    - derive/^((ts|dz)[sc]?h?)(?!$)/TSI/
+    - derive/^(NGQ?|HG|K[CQ]?H?|G[C]?|L|X?QZ|XZ|HQ|A)(?!$)/KI/
+    - derive/^((kh|k|g)(qc)?)(?!$)/KI/
+    - derive/^(X[SZ]|HZ|XQ|HQ|H)(?!$)/HI/
+    - derive/^(h)(?!$)/HI/
+    - derive/^(JX?)(?!$)/JI/
+    - derive/^(j)(?!$)/JI/
+    - derive/^(S[SZ]|ZS|ZZ|S)(?!$)/SI/
+    - derive/^(SC|XS)(?!$)/SI/
+    - derive/^(s[sc]?)(?!$)/SI/
+    - derive/^(ZC|XZ)(?!$)/ZI/
+    - derive/^(s?z|z[sc]?)(?!$)/ZI/
+    - derive/^(SZ|ZS|[SZ]C|L[SZ][RC]?|J)(?!$)/LI/
+    - derive/^(RS[RC]?|L)(?!$)/RI/
+    - derive/^(l)(?!$)/RI/
+    - derive/^(MS|MF|M)(?!$)/MI/
+    - derive/^(m)(?!$)/MI/
+    - derive/^(N[CR]?|[ZC]C|NS[RC]?)(?!$)/NI/
+    - derive/^(n[rc]?)(?!$)/NI/
+    - derive/^(NGQ?|X[SZ])(?!$)/NGI/
+
+    - derive/^(.+).+$/$1U/
 
 translator:
   dictionary: hzeepquuns
