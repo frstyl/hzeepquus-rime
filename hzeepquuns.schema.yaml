@@ -144,9 +144,6 @@ speller:
     - derive/([\w][jx])iə([vwy])$/$1ov$2/
     - derive/([\w])[jxi]o([vwy])$/$1i$2/ #尤幽侯iv
 ##韻
-    - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo
-    - derive/([\w][ijx])o([qhsA])/$1a$2/
-    - derive/([\w])x(aj[qhAs])/$1j$2/ #joj
     - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
 ####介
 ##
@@ -164,7 +161,6 @@ speller:
     # - xform/([\w])[ij]([aeiouəʌ;])/$1$2/ #一三
 
     # - xform/([\w])x([aeiouəʌ;])/$1r$2/
-
 
 ###########
 # 鈍音 ([PTK]H?|[BDG]|F([PB]|PH)|H[SZGQ]|[SZ]X|XQ|JX|[M]F?|NG)
@@ -194,7 +190,7 @@ speller:
     - derive/^MSv([ʌəo])/h$1/ #幫組 一三
     - derive/^(PH|P|B|M)F?v([aʌəei])/\L$1$2/
 
-    - derive/^(l)a/l/
+    - derive/^(l)a([aeiouəʌ;])/l$2/
     - derive/^(l)f/lv/
     - derive/^(q)u([aeiouəʌ;])/q$2/ #雲母
     - derive/^(q)v(i[aeioəʌ;])/q$2/
@@ -271,6 +267,9 @@ speller:
 
     - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
     # - xform/(?<!^)v(k)$/$1/
+####
+    - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
+    - derive/([\w]v?[ijx])o([qhsA])/$1a$2/
 ####
     - derive/(ʌ|ə)/;/ #EOə eo
     - derive/ʌ/ea/ #EOə eo

@@ -1306,7 +1306,7 @@ import_tables:
 ###E-
 ##OI
 卟	kqeijq
-卟	khqeijA		999
+卟	khqeijA	999
 乩	kqeijq		#卟
 體	RSeijA		#RS R̥
 䪆	RSeijA
@@ -1846,7 +1846,7 @@ import_tables:
 𥫵	LSeart
 𢝹	LSeart
 𧛒	LSeart
-##
+##Ə?E?
 妻	tsheijs		#?脂1
 妻	tsheijq
 萋	tsheijq
@@ -2951,7 +2951,7 @@ import_tables:
 䗐	scjajq
 施	scjajq
 𢻱	scjajq	1
-𢻫	scjajq		999
+𢻫	scjajq	999
 鍦	scjajA
 䗐	scjajA
 㒾	scjajA
@@ -2968,7 +2968,6 @@ import_tables:
 䬁	Jjajq
 蛇	Jjaj	2
 𤜣	dcjajA		#LZ ZC-
-𢻫	scjajq
 弛	scjajA
 阤	scjajA
 𦧇	zcjajA
@@ -5617,7 +5616,7 @@ import_tables:
 𨑧	thvor		#𢓴 NS
 退	thvorp
 𨓤	thvorp		#ps
-𢓴	thvorp		999
+𢓴	thvorp	999
 腿	thvol
 骽	thvol
 對	tvorp		#ps
@@ -14222,7 +14221,7 @@ import_tables:
 莐	drxum
 霃	drxum
 沈	drxum
-沈	drxuf
+沈	drxuf	2
 㱽	trxub
 㓄	trxuf
 𤘣	drxum
@@ -15891,13 +15890,13 @@ import_tables:
 毈	dvuz
 椴	dvuz
 斷	tvud		#𢇍
-𣃔	tvud
-𠜷	tvud
-𠸿	tvud
 𢷖	tvud
 斷	tvuz
 䠪	thvud
 斷	dvud
+𣃔	dvud
+𠜷	dvud
+𠸿	dvud
 奪	dvut
 𡙜	dvut
 殩	tshvuz
@@ -28024,10 +28023,8 @@ import_tables:
 崈	dzsxuC
 㓽	dzsxux
 #ƏŊ
-䠢	MFviəx
 瞢	MFviəC
-瞢	MFviəx
-夢	MFviəC
+夢	MFviəC	2
 鄸	MFviəC
 懜	MFviəC
 𦫰	MFviəC
@@ -28035,7 +28032,9 @@ import_tables:
 夢	MFviəx
 㝱	MFviəx
 鄸	MFviəx
-馮	BFviəC
+䠢	MFviəx
+瞢	MFviəx
+馮	BFviəC		#仌
 𨝭	BFviəC
 雄	XZviəC
 熊	XZviəC
