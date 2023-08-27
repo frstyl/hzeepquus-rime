@@ -98,6 +98,7 @@ speller:
 ##
     - derive/^(LZ)/d/
     - derive/^([LRN]S)/th/
+    - derive/^(C)[cr](.)/n$2/
 
     - derive/^(A)/hq/ #影母
     - derive/^(E)/hz/ #匣母
@@ -119,8 +120,12 @@ speller:
     - derive/^h[gz]/g/
 ##
     - derive/(?<!^)v(k)$/$1/
-####韻-尾
-
+####韻
+##韻-介
+    - derive/([\w])[uyw](u[qAhs])$/$1i$2/ #uu
+    - derive/([\w])vi(ə)/$1u$2/ #uə
+    - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
+##韻-尾
     - derive/([\w][eovjxywarf]i)[Cc]/$1n/  #iŋ必
     - derive/([\w][eovjxywarf]i)g/$1d/
     - derive/([\w][eovjxywarf]i)x/$1z/
@@ -143,8 +148,6 @@ speller:
     # - derive/([\w][jx])iəu([qhsA])/$1ov$2/ #幽侯
     - derive/([\w][jx])iə([vwy])$/$1ov$2/
     - derive/([\w])[jxi]o([vwy])$/$1i$2/ #尤幽侯iv
-##韻
-    - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
 ####介
 ##
     - derive/([\w])o(a|o|ə|ʌ)/$1$2/ #一等无介音
@@ -163,16 +166,11 @@ speller:
     # - xform/([\w])x([aeiouəʌ;])/$1r$2/
 
 ###########
-# 鈍音 ([PTK]H?|[BDG]|F([PB]|PH)|H[SZGQ]|[SZ]X|XQ|JX|[M]F?|NG)
-# 銳音 ([TDNSZKG][C]|[TDN][R]|[TDSNLJ]|TH|[TK]H[CR]||SZ|[TD][SZ]H?|[SZ]S|[SZ]Z)
-# 銳音 (([TK]H?|[NSZDG][C])|([T]H?|[DN][R])|([TDSNLJ]|SZ|TH)|([T][SZ]H?|[D][SZ])|[SZ]S|[SZ]Z)
-
 ####補
     - derive/^(LZ[RC]?)([eovarfxw][aeiouəʌ;])/j$2/
     - derive/^(JX)([xw][aeiouəʌ;])/j$2/
     - derive/^(HZQ?|HQZ|XQZ?|XZ|QZ|E)([eovarf][aeiouəʌ;])/q$2/
     - derive/^(JQZ?)([jy][aeiouəʌ;])/q$2/
-    - derive/^(C)[cr](.)/n$2/
 
     # - derive/^(TSC)([jy])/k$2/
     # - derive/^(TSCH)([jy])/kh$2/
@@ -197,41 +195,13 @@ speller:
     - derive/^(l)r/l/
     - derive/^(l)f/lv/
     - derive/^(ph|p|b|m)v([aeiəʌ;])/$1$2/
-##聲
-    - derive/^sc/h/ #船
-    - derive/^zc/q/ #書
-    - derive/^dz(?!c)/z/
-
-    - derive/^ph/f/
-    - derive/^th/r/
-    - derive/^kh/y/
-    - derive/^tsh/v/
-    - derive/^ts(?!c)/w/
-    - derive/^(hq)/x/
-    - derive/^(ng)/c/
-
-    - derive/^dzr/z/  #照
-    - derive/^tsr/w/
-####𥳑
-    # - abbrev/^(\w).+$/$1/
-    # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
-    # - abbrev/^(tsh?|dz).+$/$1/
-    # - abbrev/^([ptkw]h).+$/$1/
-    # - abbrev/^(sz).+$/$1/
-    # - abbrev/^([sz]c).+$/$1/
-    # - abbrev/^(hz|hq).+$/$1/
-    # - abbrev/^(ng).+$/$1/
-
-    # - erase/^[a-z][zhcgqs].+$/
-    - abbrev/^([a-z])[^zhcgqsrl].*$/$1/ #𥳑
-
 
 ####可選
-    - derive/([\w])v([o])/$1$2/ #von vo 
     - derive/([\w][uyw]u)j$/$1/
 ##
-    - derive/([\w])vi([ouə])/$1u$2/ #uə
-    - derive/([\w])vx([uə])/$1w$2/ #
+    # - derive/([\w])vi([ouə])/$1u$2/ #uə
+    # - derive/([\w])vx([uə])/$1w$2/ #
+    # - derive/([\w])v([o])/$1$2/
 ##
     - derive/([\w])(v[ix]|[uyw])ə/$1u/ #iu- uo-
     - derive/([\w])[uyw]o([qhsA])/$1u$2/ #iu- uo-
@@ -255,8 +225,6 @@ speller:
     - derive/([aeiouəʌ;])['q]$/$1/
     - derive/(?<!^)A$/h/
     - derive/(?<!^)C$/c/
-    # - derive/(.)A$/$1hq/
-    # - derive/(.)C$/$1ng/
     - abbrev/(?<!^)j['q]$/j/
     - abbrev/(?<!^)jA$/l/
     - abbrev/(?<!^)js$/r/
@@ -267,13 +235,43 @@ speller:
 
     - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
     # - xform/(?<!^)v(k)$/$1/
-####
+####補
     - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
     - derive/([\w]v?[ijx])o([qhsA])/$1a$2/
 ####
     - derive/(ʌ|ə)/;/ #EOə eo
     - derive/ʌ/ea/ #EOə eo
     - derive/ə/eo/ #EOə eo
+    # - derive/A/hq/
+    # - derive/C/ng/
+    # - derive/E/hz/
+####聲
+    - derive/^sc/h/ #船
+    - derive/^zc/q/ #書
+    - derive/^dz(?!c)/z/
+
+    - derive/^ph/f/
+    - derive/^th/r/
+    - derive/^kh/y/
+    - derive/^tsh/v/
+    - derive/^ts(?!c)/w/
+    - derive/^(hq)/x/
+    - derive/^(ng)/c/
+
+    - derive/^dzr/z/  #照
+    - derive/^tsr/w/
+##𥳑
+    # - abbrev/^(\w).+$/$1/
+    # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
+    # - abbrev/^(tsh?|dz).+$/$1/
+    # - abbrev/^([ptkw]h).+$/$1/
+    # - abbrev/^(sz).+$/$1/
+    # - abbrev/^([sz]c).+$/$1/
+    # - abbrev/^(hz|hq).+$/$1/
+    # - abbrev/^(ng).+$/$1/
+
+    # - erase/^[a-z][zhcgqs].+$/
+    - abbrev/^([a-z])[^zhcgqsrl].*$/$1/ #𥳑
 # # # # # # 
     - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
     - derive/^(F?(PH?|B)|MF?)(?!$)/PI/
@@ -303,6 +301,7 @@ speller:
     - derive/^(NGQ?|X[SZ])(?!$)/NGI/
 
     - derive/^(.+).+$/$1U/
+
 
 translator:
   dictionary: hzeepquuns

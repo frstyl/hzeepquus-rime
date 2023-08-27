@@ -714,7 +714,7 @@ import_tables:
 赭	tcjaA
 堵	tcjaA	1
 㸙	tcjaq
-諸	tcjaq
+諸	tcjaq	9
 㨋	thcjaA
 䰩	thcjaA
 奲	thcjaA
@@ -4491,24 +4491,24 @@ import_tables:
 𠊾	gwijq
 𨾎	gwijq		#𠊾
 ##WU
-宄	kvxuA
-𠬚	kvxuA
-𡧫	kvxuA
-軌	kvxuA
-𣷾	kvxuA
-匭	kvxuA
-㔲	kvxuA
-朹	kvxuA
-簋	kvxuA		#㔳匭朹 皀㿝𣪘
-𠥗	kvxuA
-氿	kvxuA
-𧗝	kvxuA
-馗	gvxuq
-艽	gvxuq
-頄	gvxuq
-逵	gvxuq
-厬	kvxuA
-晷	kvxuA
+宄	kwuA
+𠬚	kwuA
+𡧫	kwuA
+軌	kwuA
+𣷾	kwuA
+匭	kwuA
+㔲	kwuA
+朹	kwuA
+簋	kwuA		#㔳匭朹 皀㿝𣪘
+𠥗	kwuA
+氿	kwuA
+𧗝	kwuA
+馗	gwuq
+艽	gwuq
+頄	gwuq
+逵	gwuq
+厬	kwuA
+晷	kwuA
 ##WUJ VRJUJ
 桘	drwuj		#oj
 追	trwuj
@@ -5607,7 +5607,7 @@ import_tables:
 背	pvəsk		#ks
 邶	bvəsk
 苝	bvəsk
-背	bvəsk
+背	bvəsk		#倍
 鄁	bvəsk
 偝	bvəsk
 ##VUR VUKS VUTS
@@ -8311,41 +8311,41 @@ import_tables:
 霚	MFuosk
 霧	MFuosk
 ##UU-
-噢	AviuA		#奧
-孚	PHFviuq
-𤔍	PHFviuq
-殍	PHFviuq
-𦋄	PHFviuq
-罦	PHFviuq
-俘	PHFviuq
-桴	PHFviuq
-莩	PHFviuq
-郛	PHFviuq
-筟	PHFviuq
-稃	PHFviuq
-孵	PHFviuq
-㲗	PHFviuq
-䱐	PHFviuq
-䞯	PHFvius
-𠓗	PHFvius		#䞯
-玸	BFviuq
-枹	BFviuq
+噢	AuuA		#奧
+孚	PHFuuq
+𤔍	PHFuuq
+殍	PHFuuq
+𦋄	PHFuuq
+罦	PHFuuq
+俘	PHFuuq
+桴	PHFuuq
+莩	PHFuuq
+郛	PHFuuq
+筟	PHFuuq
+稃	PHFuuq
+孵	PHFuuq
+㲗	PHFuuq
+䱐	PHFuuq
+䞯	PHFuus
+𠓗	PHFuus		#䞯
+玸	BFuuq
+枹	BFuuq
 ##UƏ
-侮	MFviəA
-䍙	MFviəA
-㑄	MFviəA
-䳇	MFviəA
-𢜮	MFviəq
-𢜮	MFviəA
-剖	PHFviəA		#咅
-䋨	PHFviəA
-䯽	PHFviəA
-殕	PHFviəA
-𠟌	PHFviəA
-䞳	PHFviəs
-瓿	BFviəq
-䓏	PHFviəq		#?
-䎷	PHFviəs	1		#?
+侮	MFuəA
+䍙	MFuəA
+㑄	MFuəA
+䳇	MFuəA
+𢜮	MFuəq
+𢜮	MFuəA
+剖	PHFuəA		#咅
+䋨	PHFuəA
+䯽	PHFuəA
+殕	PHFuəA
+𠟌	PHFuəA
+䞳	PHFuəs
+瓿	BFuəq
+䓏	PHFuəq		#?
+䎷	PHFuəs	1		#?
 ####ƏU 侯
 ###ƏU
 ## P- Ə
@@ -11312,128 +11312,128 @@ import_tables:
 𦄼	sjuq	1		#?
 𣟼	tsjuq		#?
 ##UƏ- VIƏ㞢
-䬌	PHFuəq		#?
-不	PFuəq	2
-不	PFuəA	2
-𡬇	PHFuəq
-𡫺	PHFuəq
-紑	PFuəq
-鴀	PFuəq
-鴀	PFuəA
-衃	PHFuəq
-肧	PHFuəq
-紑	PHFuəq
-紑	PHFuəA
-𩂆	PHFuəA
-罘	BFuəq
-芣	BFuəq
-否	PFuəA
-痞	PFuəA
-𦋑	BFuəq
-𦊾	BFuəq		#罘
-秠	PHFuəq
-秠	PHFuəA
-# 伏	BFuəs
-負	BFuəA
-萯	BFuəA
-蝜	BFuəA
-𪃓	BFuəA
-偩	BFuəq
-婦	BFuəA
-𧌈	BFuəA
-殕	PFuəA
-醅	PHFuəq
-涪	BFuəq
-棓	BFuəq
-掊	BFuəq
-䍌	BFuəq
-菩	BFuəA
-謀	muəq
-䱕	muəq
-莓	muəs
-𦡘	quəq
-𨞄	quəq
-腄	quəq
-郵	quəq
-尤	quəq
-𣏞	quəq
-疣	quəq
-𪐤	quəq
-沋	quəq
-訧	quəq
-𩑣	quəs
-忧	quəs
-肬	quəq
-珛	HQSuəs		#VS
-有	quəA		#月?肉?
-䳑	quəA
-䀁	quəA
-栯	quəA
-䒴	quəA
-宥	quəs
-䀁	quəs
-酭	quəs
-姷	quəs
-䞥	quəs
-侑	quəs
-囿	quəs
-𦳩	quəs
-𡈹	quəs		#囿
-𧅲	quəs
-又	quəs
-友	quəA
-𦫹	quəA
-𦐮	quəA
-㕛	quəA
-𤴨	quəs
-右	quəA	2
-𥁓	quəA
-右	quəs
-佑	quəs
-祐	quəs
-㤑	quəs		#忧
-𥁓	quəs
+䬌	PHFviəq		#?
+不	PFviəq	2
+不	PFviəA	2
+𡬇	PHFviəq
+𡫺	PHFviəq
+紑	PFviəq
+鴀	PFviəq
+鴀	PFviəA
+衃	PHFviəq
+肧	PHFviəq
+紑	PHFviəq
+紑	PHFviəA
+𩂆	PHFviəA
+罘	BFviəq
+芣	BFviəq
+否	PFviəA
+痞	PFviəA
+𦋑	BFviəq
+𦊾	BFviəq		#罘
+秠	PHFviəq
+秠	PHFviəA
+# 伏	BFviəs
+負	BFviəA
+萯	BFviəA
+蝜	BFviəA
+𪃓	BFviəA
+偩	BFviəq
+婦	BFviəA
+𧌈	BFviəA
+殕	PFviəA
+醅	PHFviəq
+涪	BFviəq
+棓	BFviəq
+掊	BFviəq
+䍌	BFviəq
+菩	BFviəA
+謀	mviəq
+䱕	mviəq
+莓	mviəs
+𦡘	qviəq
+𨞄	qviəq
+腄	qviəq
+郵	qviəq
+尤	qviəq
+𣏞	qviəq
+疣	qviəq
+𪐤	qviəq
+沋	qviəq
+訧	qviəq
+𩑣	qviəs
+忧	qviəs
+肬	qviəq
+珛	HQSviəs		#VS
+有	qviəA		#月?肉?
+䳑	qviəA
+䀁	qviəA
+栯	qviəA
+䒴	qviəA
+宥	qviəs
+䀁	qviəs
+酭	qviəs
+姷	qviəs
+䞥	qviəs
+侑	qviəs
+囿	qviəs
+𦳩	qviəs
+𡈹	qviəs		#囿
+𧅲	qviəs
+又	qviəs
+友	qviəA
+𦫹	qviəA
+𦐮	qviəA
+㕛	qviəA
+𤴨	qviəs
+右	qviəA	2
+𥁓	qviəA
+右	qviəs
+佑	qviəs
+祐	qviəs
+㤑	qviəs		#忧
+𥁓	qviəs
 ##IƏVR IƏVKS
-輻	PFuəsk		#ks
-富	PFuəsk
-䔰	PFuəsk
-褔	PHFuəsk
-副	PHFuəsk
-𩯅	PHFuəsk
-𢠲	PHFuəsk
-愊	PHFuəsk
-㤱	PHFuəA		#𢠲
-㤱	PHFuəsk
+輻	PFviəsk		#ks
+富	PFviəsk
+䔰	PFviəsk
+褔	PHFviəsk
+副	PHFviəsk
+𩯅	PHFviəsk
+𢠲	PHFviəsk
+愊	PHFviəsk
+㤱	PHFviəA		#𢠲
+㤱	PHFviəsk
 ##IƏ UƏ
-裘	guəq		#非求
-𧚍	guəq
-鬮	kquəq
-龜	kquəq	1
-龜兹	kquəq TSjəq
-久	kquəA
-玖	kquəA
-灸	kquəA
-𡚮	kquəA
-𨾉	kquəA
-灸	kquəs
-㝌	kquəs
-疚	kquəs
-柩	guəs
-畂	luəs
-臼	guəA
-𦥶	guəA
-舅	guəA
-齨	guəA
-䳎	guəA
-䊆	guəA
-舊	guəs
-匶	guəs		#柩
-丠	khquəq
-丘	khquəq
-蚯	khquəq
-邱	khquəq
-𪖛	khquəs
-牛	Cquəq
+裘	gviəq		#非求
+𧚍	gviəq
+鬮	kqviəq
+龜	kqviəq	1
+龜兹	kqviəq TSjəq
+久	kqviəA
+玖	kqviəA
+灸	kqviəA
+𡚮	kqviəA
+𨾉	kqviəA
+灸	kqviəs
+㝌	kqviəs
+疚	kqviəs
+柩	gviəs
+畂	lviəs
+臼	gviəA
+𦥶	gviəA
+舅	gviəA
+齨	gviəA
+䳎	gviəA
+䊆	gviəA
+舊	gviəs
+匶	gviəs		#柩
+丠	khqviəq
+丘	khqviəq
+蚯	khqviəq
+邱	khqviəq
+𪖛	khqviəs
+牛	Cqviəq
 ##IU
 妋	Aiuq
 缶	PFiuA
@@ -17789,8 +17789,10 @@ import_tables:
 限	hgaəd
 硍	hgaəd
 䦘	hgaəd
+𦫒	kqaən	99
+𪤱	kqaən	99
 艱	kqaən
-囏	kqaən		#艱
+囏	kqaən		#壴
 嫼	Aaət
 𪒜	maət
 齂	maət
@@ -18891,7 +18893,7 @@ import_tables:
 鄢	Axan
 嫣	Axad
 唁	Cxaz
-這	Cxaz
+這	Cxaz	9
 㫃	Axad
 愆	khxan
 䇂	khxan
@@ -26258,7 +26260,7 @@ import_tables:
 曈	thouC
 曈	thoug
 童	douC
-僮	douC
+僮	douC	999
 瞳	douC
 罿	douC
 犝	douC

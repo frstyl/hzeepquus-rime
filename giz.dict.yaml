@@ -1,5 +1,5 @@
 #---
-#叶韻補充 勹𢬸𠎥䛐形式
+#叶韻補充
 name: giz
 version: "2022.1.15"
 sort: by_weight
@@ -1057,10 +1057,10 @@ use_preset_vocabulary: true
 𱦒	BFiuq
 𱦓	BFiuq
 𢒒	BFiuq
-𠊻	pouvA		#1		#𠍂
-𠌀	pouvA		#1		#𠍂
-𣎼	pouvA		#1		#呆𡥀
-𤓽	PHFiuq		#1		#孚
+𠊻	pouvA		#𠍂
+𠌀	pouvA		#𠍂
+𣎼	pouvA		#呆𡥀
+𤓽	PHFiuq		#孚
 抙	bouvq		#捊
 ###矛
 𢦵	miuq
@@ -8389,7 +8389,10 @@ use_preset_vocabulary: true
 𡉄	khqvot
 𢘪	kqfort
 ###艮
-䫀	teed		#1		#?
+艰	kqaən	0
+𦫒	kqaən
+𪤱	kqaən
+𱽇䫀	teed		#1		#?
 䫀	kqoʌd
 𩓓	kqoʌd
 𩓓	kqoʌd
@@ -8904,6 +8907,9 @@ use_preset_vocabulary: true
 𩓲	Cqaan
 𩕝	Cqaan
 彦	Cxaz		#1		#彥
+𢒊	Cxaz
+𫝸	Cxaz
+𰩡	Cxaz
 ###產
 𨹞	ssaed
 产	ssaed
@@ -12082,13 +12088,13 @@ use_preset_vocabulary: true
 𢞔	neevk
 ###卓
 𢛂	doay
-㔬	traevk
-𠤚	traevk
-𠤟	traevk
-𠦝	traevk
-𢂚	traevk
-𢂦	traevk
-龺	traevk
+㔬	trauk
+𠤚	trauk
+𠤟	trauk
+𠦝	trauk
+𢂚	trauk
+𢂦	trauk
+龺	trauk
 ###虐
 䖈	Ciavk
 䖋	Ciavk
