@@ -4386,31 +4386,31 @@ import_tables:
 岯	bxəq
 魾	bxəq
 ##XƏJ RJƏJ
-睂	mxəjq
-𨞅	mxəjq
-𡼴	mxəjq
-𣾨	mxəjq
-𤩣	mxəjq
-⿰木睂	mxəjq
-眉	mxəjq
-嵋	mxəjq
-湄	mxəjq
-鶥	mxəjq
-楣	mxəjq
-瑂	mxəjq		#⿰木睂
-郿	mxəjq
-葿	mxəjq
-𦼻	mxəjq
-𡡾	mxəjs
-𨞅	mxəjs
-𥴔	mxəjs
-𥶫	mxəjs
-媚	mxəjs
-郿	mxəjs
-篃	mxəjs
-蝞	mxəjs
-煝	mxəjs
-䉋	mxəjs
+睂	mxəj
+𨞅	mxəj
+𡼴	mxəj
+𣾨	mxəj
+𤩣	mxəj
+⿰木睂	mxəj
+眉	mxəj
+嵋	mxəj
+湄	mxəj
+鶥	mxəj
+楣	mxəj
+瑂	mxəj		#⿰木睂
+郿	mxəj
+葿	mxəj
+𦼻	mxəj
+𡡾	mxər
+𨞅	mxər
+𥴔	mxər
+𥶫	mxər
+媚	mxər
+郿	mxər
+篃	mxər
+蝞	mxər
+煝	mxər
+䉋	mxər
 𡺮	PHFxəl
 𤛎	mxəl
 美	mxəl
@@ -4601,6 +4601,8 @@ import_tables:
 䣀	gwol
 ####Ə
 ###IƏ JƏ㞢
+伱	nriəA	999
+##
 鼒	tsjəq
 蚝	tshjəs
 蛓	tshjəs
@@ -4917,7 +4919,6 @@ import_tables:
 茬	dzsxəq
 㱀	tsshxəA
 恥	thrxəA
-伱	nrxəA	999
 聻	nrxəA
 莉	drxəq
 㓼	tsshxəA
@@ -14141,7 +14142,7 @@ import_tables:
 菻	ljəb
 𦋗	sjəb
 罧	sjəb
-㐭	ljəb
+㐭	ljəb	999
 廩	ljəb
 懍	ljəb
 凜	ljəb
@@ -15094,7 +15095,7 @@ import_tables:
 𡰤	Cqoat		#𠒁
 𣦼	dzoan
 𣦻	dzoan
-𣧻	dzoan
+𣧻	dzoan	999
 㱚	dzoan
 餐	tshoan
 湌	tshoan
@@ -18045,13 +18046,13 @@ import_tables:
 僤	dcjan
 禪	dcjan
 嬋	dcjan
-單	dcjan
+單	dcjan	2
 墠	dcjad
 鱓	dcjad
-單	dcjad	1
+單	dcjad	2
 禪	dcjaz
 𦉕	dcjaz
-單	dcjaz	1
+單	dcjaz	2
 戰	tcjaz
 饘	tcjan
 旜	tcjan
@@ -18594,23 +18595,6 @@ import_tables:
 𤫀	zyon
 𧾩	zyoz
 𤩅	zyon
-旋	zyon
-璇	zyon
-䗠	zyon
-㳬	zyon
-琁	zyon
-蜁	zyon
-䁢	zyon
-嫙	zyon
-鏇	zyon
-㳬	zyoz
-鏇	zyoz
-縼	zyoz
-𢳄	zyoz
-嫙	zyoz
-𦛔	zyoz
-旋	zyoz
-𦛔	Jyen
 遄	dcyon
 圌	dcyon
 顓	tcyon
@@ -18783,6 +18767,24 @@ import_tables:
 𧋍	zyet
 孨	tcyed
 準	tcyet	1
+#
+旋	zyen
+璇	zyen
+䗠	zyen
+㳬	zyen
+琁	zyen
+蜁	zyen
+䁢	zyen
+嫙	zyen
+鏇	zyen
+㳬	zyez
+鏇	zyez
+縼	zyez
+𢳄	zyez
+嫙	zyez
+𦛔	zyez
+旋	zyez
+𦛔	Jyen
 ###RJEN XEN
 ##RJON XON
 變	pxoz
@@ -23969,7 +23971,7 @@ import_tables:
 徎	LSeeg
 桯	HQZeeC		#LS
 聽	LSeeC		#L-
-𦔻	LSeeC
+𦔻	LSeeC	999
 廳	LSeeC
 聽	LSeex
 ##IŊ
@@ -25500,7 +25502,7 @@ import_tables:
 𨁽	toək
 𣌏	toək
 𠮊	toək
-䙷	toək
+䙷	toək	999
 㧹	thoək
 㥂	thoək
 𤙰	doək
@@ -25616,7 +25618,7 @@ import_tables:
 特	doək
 樴	doək
 德	toək
-㥁	toək
+㥁	toək	99
 悳	toək
 𥊸	thoək
 𦫁	doəC

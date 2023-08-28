@@ -112,17 +112,16 @@ speller:
 ####
     - derive/^(kh|ng|k|g)[cq]/$1/
     - derive/^(th|t|d|n)[cr]/$1/
-    - derive/^(tsch)/th/
-    - derive/^(tsc)/t/
-    - derive/^(dzc)/d/
-    - derive/^(ts|dz)[s]/$1/
+
+    - derive/^(tsh|ts|dz)[s]/$1/
     - derive/^([sz])[s]/$1/
     - derive/^h[gz]/g/
-##
-    - derive/(?<!^)v(k)$/$1/
+    - derive/^(tshc)/th/
+    - derive/^(tsc)/t/
+    - derive/^(dzc)/d/
 ####韻
 ##韻-介
-    - derive/([\w])[uyw](u[qAhs])$/$1i$2/ #uu
+    - derive/([\w])u(u[qAhs])$/$1i$2/ #uu
     - derive/([\w])vi(ə)/$1u$2/ #uə
     - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo 
 ##韻-尾
@@ -177,8 +176,8 @@ speller:
     # - derive/^(DZC)([jy])/g$2/
 
     - derive/^(hq?z)([eovarf][aeiouəʌ;])/q$2/
+    - derive/^(tshc)([jy])/kh$2/
     - derive/^(tsc)([jy])/k$2/
-    - derive/^(tsch)([jy])/kh$2/
     - derive/^(dzc)([jy])/g$2/
 ####聲-介
     - derive/^(JQZ|JQ|J)[ji]([aeiouəʌ;])/j\2/ #㠯母
@@ -234,7 +233,7 @@ speller:
     - derive/(?<!^)vs(k)/y$1/
 
     - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
-    # - xform/(?<!^)v(k)$/$1/
+    - derive/(?<!^)v(k)$/$1/
 ####補
     - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
     - derive/([\w]v?[ijx])o([qhsA])/$1a$2/
@@ -253,7 +252,7 @@ speller:
     - derive/^ph/f/
     - derive/^th/r/
     - derive/^kh/y/
-    - derive/^tsh/v/
+    - derive/^ts(s?)h/v$1/
     - derive/^ts(?!c)/w/
     - derive/^(hq)/x/
     - derive/^(ng)/c/
