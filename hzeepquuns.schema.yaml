@@ -9,12 +9,11 @@ schema:
     - 
   description: |
     基于中古音系，參攷上古擬音
-    仿羅馬通字方案 https://zhuanlan.zhihu.com/p/388867479
     韻典網·廣韻 http://ytenx.org/kyonh/
     切韻小鏡 廣韻集韻 http://www.kaom.net/zgy_dw.php
-    广韵形声考 https://zhuanlan.zhihu.com/p/493675890
+    廣韵形聲攷 https://zhuanlan.zhihu.com/p/493675890
   dependencies:
-    - luna_pinyin
+    - luna_quanpin
     - cangjie6
 switches:
   - name: ascii_mode
@@ -48,7 +47,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
-    # - echo_translator
+    - echo_translator
     - punct_translator
     - script_translator
     - script_translator@pinyin
@@ -64,7 +63,7 @@ speller:
   delimiter: "'"
   algebra:
 ####聲
-    - derive/^(PHF)/ph/
+    - derive/^(PFH)/ph/
     - derive/^(PF)/p/
     - derive/^(BF)/b/
     - derive/^(MF)/m/
@@ -96,6 +95,7 @@ speller:
     # - derive/^SC/sc/
     # - derive/^ZC/zc/
 ##
+    - derive/^(LZc)/j/
     - derive/^(LZ)/d/
     - derive/^([LRN]S)/th/
     - derive/^(C)[cr](.)/n$2/
@@ -140,18 +140,20 @@ speller:
     - derive/([aeiouəʌ;])j([qAhs])$/$1$2/
     - derive/([\w]u)v([qhsA])/$1$2/ #烋皋勹ov rov
 
-    - derive/([\w]o)ov([qhsA])$/$1əu$2/ #ov 侯
-    - derive/([\w][jxi])(əv|iv|u)['q]$/$1ov/ # 尤 侯iov jov
-    - derive/([\w][jxi])(əv|iv|u)[hA]$/$1ow/ #
-    - derive/([\w][jxi])(əv|iv|u)s$/$1oy/ #
-    # - derive/([\w][jx])iəu([qhsA])/$1ov$2/ #幽侯
-    - derive/([\w][jx])iə([vwy])$/$1ov$2/
-    - derive/([\w])[jxi]o([vwy])$/$1i$2/ #尤幽侯iv
+    - derive/([\w]o)ov$/$1əuq/ #ov 侯
+    - derive/([\w]o)ow$/$1əuA/
+    - derive/([\w]o)oy$/$1əus/
+    - derive/([\w][ijx])ov$/$1iuq/ #ov 幽
+    - derive/([\w][ijx])ow$/$1iuA/
+    - derive/([\w][ijx])oy$/$1ius/
+    - derive/([\w][ijx])əv$/$1uq/ #ov 尤
+    - derive/([\w][ijx])əw$/$1uA/
+    - derive/([\w][ijx])əy$/$1us/
 ####介
 ##
     - derive/([\w])o(a|o|ə|ʌ)/$1$2/ #一等无介音
     - derive/([\w])e(a|ə)/$1$2/ #e四等 
-    - derive/([\w])(e)(a|e|i|ə)/$1$2/ #e四等 
+    - derive/([\w])(e)(a|e|i|u|ə)/$1$2/ #e四等 
 
     - abbrev/(\w)[jx]([aeiouəʌ;])/$1i$2/ #i=jxi
     - abbrev/(\w)[yw]([aeiouəʌ;])/$1u$2/ #i=jxi
@@ -163,10 +165,15 @@ speller:
     # - xform/([\w])[ij]([aeiouəʌ;])/$1$2/ #一三
 
     # - xform/([\w])x([aeiouəʌ;])/$1r$2/
+##三等二分
+    # - xform/(?<!^)i(ə|ʌ|a|e|i|o|u|;)/j$1/
+    # - xform/(?<!^)u(ə|ʌ|a|e|i|o|u|;)/y$1/
+    # - xform/(?<!^)x(ə|ʌ|a|e|i|o|u|;)/i$1/
+    # - xform/(?<!^)w(ə|ʌ|a|e|i|o|u|;)/u$1/
 
 ###########
 ####補
-    - derive/^(LZ[RC]?)([eovarfxw][aeiouəʌ;])/j$2/
+    - derive/^(LZr?)([eovarfxw][aeiouəʌ;])/j$2/
     - derive/^(JX)([xw][aeiouəʌ;])/j$2/
     - derive/^(HZQ?|HQZ|XQZ?|XZ|QZ|E)([eovarf][aeiouəʌ;])/q$2/
     - derive/^(JQZ?)([jy][aeiouəʌ;])/q$2/
@@ -176,7 +183,7 @@ speller:
     # - derive/^(DZC)([jy])/g$2/
 
     - derive/^(hq?z)([eovarf][aeiouəʌ;])/q$2/
-    - derive/^(tshc)([jy])/kh$2/
+    - derive/^(tshc|tsch)([jy])/kh$2/
     - derive/^(tsc)([jy])/k$2/
     - derive/^(dzc)([jy])/g$2/
 ####聲-介
@@ -187,12 +194,12 @@ speller:
     - derive/^MSv([ʌəo])/h$1/ #幫組 一三
     - derive/^(PH|P|B|M)F?v([aʌəei])/\L$1$2/
 
-    - derive/^(l)a([aeiouəʌ;])/l$2/
-    - derive/^(l)f/lv/
+    # - derive/^(l)a([aeiouəʌ;])/l$2/
+    # - derive/^(l)f/lv/
+    # - derive/^(l)r/l/
+    # - derive/^(l)f/lv/
     - derive/^(q)u([aeiouəʌ;])/q$2/ #雲母
     - derive/^(q)v(i[aeioəʌ;])/q$2/
-    - derive/^(l)r/l/
-    - derive/^(l)f/lv/
     - derive/^(ph|p|b|m)v([aeiəʌ;])/$1$2/
 
 ####可選
@@ -204,26 +211,31 @@ speller:
 ##
     - derive/([\w])(v[ix]|[uyw])ə/$1u/ #iu- uo-
     - derive/([\w])[uyw]o([qhsA])/$1u$2/ #iu- uo-
-    # - derive/([\w])[ijx]u([Ccgxk])/$1u$2/ #iu- io-
-    # - derive/([\w])[ijx]o([Ccgxk])/$1u$2/
-    # - derive/([\w])[ijx]u([qhsA])/$1u$2/
-    # - derive/([\w])[ijx]o([mbfp])/$1u$2/
-    # - derive/([\w])[ijx]u([mbfp])/$1u$2/
-    - derive/([\w])[ijx][uo]/$1u/ #iu- io-
+    # - fuzz/([\w])[ijx]u([Ccgxk])/$1u$2/ #iu- io-
+    # - fuzz/([\w])[ijx]o([Ccgxk])/$1u$2/
+    # - fuzz/([\w])[ijx]u([qhsA])/$1u$2/
+    # - fuzz/([\w])[ijx]o([mbfp])/$1u$2/
+    # - fuzz/([\w])[ijx]u([mbfp])/$1u$2/
+    - fuzz/([\w])[ijx][uo]/$1u/ #iu- io-
+    - fuzz/([\w])[jxi]([oə]v|uq)$/$1iv/ #尤幽侯iv
+    - fuzz/([\w])[jxi]([oə]w|uA)$/$1iw/
+    - fuzz/([\w])[jxi]([oə]y|us)$/$1iy/
 ##
-    - derive/([iu])(a)/$2$1/
-    - derive/(a)([iu])/$2$1/
-    - abbrev/([aiu])([aeiouəʌ;])/$2$1/ #介元序 无eo
-    - abbrev/(?<!^)([fvjyxwaiu])([aeiouəʌ;])/$2$1/
-    - abbrev/(?<!^)x(ə|ʌ|a|e|i|o|u|;)/r$1/ #l=x
-    - abbrev/(?<!^)a(ə|ʌ|a|e|i|o|u|;)/l$1/ #r=a
-    # - derive/(?<!^)i(ə|ʌ|a|e|i|o|u|;)/j$1/
-    # - derive/(?<!^)u(ə|ʌ|a|e|i|o|u|;)/y$1/
-    - abbrev/(?<!^)([rl])([aeiouəʌ;])/$2$1/ #l=x
+    # - fuzz/([iu])(a)/$2$1/
+    # - fuzz/(a)([iu])/$2$1/
+    - fuzz/([aiu])([aeiouəʌ;])/$2$1/ #介元序 无eo
+    - fuzz/(?<!^)x([aeiouəʌ;])/r$1/ #l=x
+    - fuzz/(?<!^)a([aeiouəʌ;])/l$1/ #r=a
+    - fuzz/(?<!^)([fvjyxw])([aeiou]|ə|ʌ)/$2$1/
+    - fuzz/(?<!^)([rl])([aeiou]|ə|ʌ)/$2$1/ #l=x
+    # - fuzz/(?<!^)(a)([aeiouəʌ;])/$2l/ #qAhsjlrvwymbfpndztCcgxk
+    # - fuzz/(?<!^)(x)([aeiouəʌ;])([.])/$2r$3/
 ####尾
     - derive/([aeiouəʌ;])['q]$/$1/
     - derive/(?<!^)A$/h/
     - derive/(?<!^)C$/c/
+    # - derive/(?<!^)A$/hq/
+    # - derive/(?<!^)C$/ng/
     - abbrev/(?<!^)j['q]$/j/
     - abbrev/(?<!^)jA$/l/
     - abbrev/(?<!^)js$/r/
@@ -237,29 +249,29 @@ speller:
 ####補
     - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
     - derive/([\w]v?[ijx])o([qhsA])/$1a$2/
-####
+####轉寫
     - derive/(ʌ|ə)/;/ #EOə eo
     - derive/ʌ/ea/ #EOə eo
     - derive/ə/eo/ #EOə eo
     # - derive/A/hq/
     # - derive/C/ng/
     # - derive/E/hz/
-####聲
-    - derive/^sc/h/ #船
-    - derive/^zc/q/ #書
+####聲𥳑
+    - derive/^sc([jy])/h$1/ #船
+    - derive/^zc([jy])/q$1/ #書
     - derive/^dz(?!c)/z/
 
     - derive/^ph/f/
     - derive/^th/r/
     - derive/^kh/y/
     - derive/^ts(s?)h/v$1/
-    - derive/^ts(?!c)/w/
-    - derive/^(hq)/x/
+    - derive/^ts(?!c)/x/
+    - derive/^(hq)/w/
     - derive/^(ng)/c/
 
     - derive/^dzr/z/  #照
     - derive/^tsr/w/
-##𥳑
+####𥳑
     # - abbrev/^(\w).+$/$1/
     # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
     # - abbrev/^(tsh?|dz).+$/$1/
@@ -304,7 +316,7 @@ speller:
 
 translator:
   dictionary: hzeepquuns
-  prism: hzeepquuns
+  # prism: hzeepquuns
   spelling_hints: 10
   preedit_format:
     - xform/;/ə/
@@ -313,8 +325,8 @@ translator:
     # - xform/(^|')v/$1tsh/
     # - xform/(^|')y/$1kh/
     # - xform/(^|')w/$1ts/
-    # - xform/(^|')c/$1ŋ/
-    # - xform/(^|')x/$1ʔ/
+    # - xform/(^|')x/$1ŋ/
+    # - xform/(^|')w/$1ʔ/
     # - xform/ea/ʌ/
     # - xform/hq/ʔ/
     # - xform/ng/ŋ/
@@ -377,6 +389,7 @@ translator:
 
 pinyin:
   dictionary: luna_pinyin
+  prism: luna_quanpin
   prefix: "~"
   suffix: "'"
   tips: 〔pinyin〕
@@ -400,7 +413,7 @@ cangjie6:
     - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
-  initial_quality: 0.5
+  initial_quality: 0.2
 
 
 lookp:
@@ -418,7 +431,7 @@ lookp:
     - xform/F//
     - xform/([A-Z])/\L\1/
     # - xform/([rs])[ptk]$/$1/
-abc_segmentor: #混用
+abc_segmentor: #混用 不𥳑拼
   extra_tags: [pinyin, cangjie6]
 punctuator:
   import_preset: symbols
