@@ -5,23 +5,23 @@
 輸入法說明：
   聲母:
 
-    [匣云船]q [精莊]w []E [透徹昌]r [端知章]t [谿]y ()u ()i (ʕ)O [幫非]p 
+    [匣云船]q [影]w []E [透徹昌]r [端知章]t [谿]y ()u ()i (ʕ)O [幫非]p 
     (影)A [心生]s  [定澄常]d [滂敷]f [羣匣]g [曉書]]h [邪俟以]j [見]k [來]l [əʌ];
-    [從崇邪俟]z [影]x [疑]c [淸初]v [並奉]b [泥孃日]n [明微]m
+    [從崇邪俟]z [精莊]x [疑]c [淸初]v [並奉]b [泥孃日]n [明微]m
 
-    [精莊]ts [淸初]tsh [從崇]dz [邪俟]sz
+    [精莊]ts [淸初]tsh [從崇]dz [邪俟]z
     [書]sc [船]zc
-    [影]hq,A
+    [影]hq,A [疑]ng
     [滂敷]ph [透徹昌]th [谿]kh  
     [聲]I [韻]U
 
 
 	幫 p	滂 ph	並 b	明 m		
 	非 PF	敷 PHF	奉 BF	微 MF	F	
-	端 t	透 th	定 d	泥 n		來 l,R
+	端 t	透 th	定 d	泥 n		來 l
 	精 ts	淸 tsh	從dz		心 s	邪 z
 	知tr	徹 trh	澄dr	孃 nr		
-	莊 tss	初 tssh	崇 dzs		生 ss	俟 zs
+	莊 tss	初 tssh	崇 dzs		生 ss	俟 z
 	章 tsc	昌 tsch	常 dzc	日 nc	書 sc	船 zc
 	照 tsr	穿 tsrh	牀 dsr		宷 sr	禪 zr
 	章(見)kc
@@ -56,6 +56,6 @@
     次入韻-[rs](-p -t -k)
     m 韻尾平丄去入-m, -b,-f, -p
     n 韻尾平丄去入-n, -d, -z, -t
-    ng韻尾平丄去入,-c, -g, -x, -k
+    ng韻尾平丄去入,-c(C,ng), -g, -x, -k
     
 
