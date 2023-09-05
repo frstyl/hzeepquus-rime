@@ -62,6 +62,60 @@ speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcbaABCDEFGHIJKLMNOPQRSTUVWXYZ;'
   delimiter: "'"
   algebra:
+# # # # # # 
+    # - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
+    # - derive/^(F?(PH?|B)|MF?)(?!$)/pI/
+    # - derive/^(ph|p|b|m)(?!$)/pI/
+    # - derive/^(TSSH?|DZZ|T[CR]?H?|D[CR]?|N[RC]?)(?!$)/tI/
+    # - derive/^((th|t|d|n)[rc]?)(?!$)/tI/
+    # - derive/^(T[SZ]H?|D[SZ])(?!$)/tsI/
+    # - derive/^((ts|dz)[sc]?h?)(?!$)/tsI/
+    # - derive/^(NGQ?|HG|K[CQ]?H?|G[C]?|L|X?QZ|XZ|HQ|A)(?!$)/kI/
+    # - derive/^((kh|k|g)(qc)?)(?!$)/kI/
+    # - derive/^(X[SZ]|HZ|XQ|HQ|H)(?!$)/hI/
+    # - derive/^(h)(?!$)/hI/
+    # - derive/^(JX?)(?!$)/jI/
+    # - derive/^(j)(?!$)/jI/
+    # - derive/^(S[SZ]|ZS|ZZ|S)(?!$)/sI/
+    # - derive/^(SC|XS)(?!$)/sI/
+    # - derive/^(s[sc]?)(?!$)/sI/
+    # - derive/^(ZC|XZ)(?!$)/zI/
+    # - derive/^(s?z|z[sc]?)(?!$)/zI/
+    # - derive/^(SZ|ZS|[SZ]C|L[SZ][RC]?|J)(?!$)/LI/
+    # - derive/^(RS[RC]?|L)(?!$)/RI/
+    # - derive/^(l)(?!$)/RI/
+    # - derive/^(MS|MF|M)(?!$)/mI/
+    # - derive/^(m)(?!$)/mI/
+    # - derive/^(N[CR]?|[ZC]C|NS[RC]?)(?!$)/NI/
+    # - derive/^(n[rc]?)(?!$)/NI/
+    # - derive/^(NGQ?|X[SZ])(?!$)/CI/
+
+# #
+    # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptky]|sk)?)$/U/
+    # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptky]|sk)?)$/$1U/
+    # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptky]|sk)?)$/U$2U/
+
+    # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptky]|sk)?)$/U$3/
+    # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptky]|sk)?)$/$1$2U/
+    # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptky]|sk)?)$/$1U$3/
+    # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptky]|sk)?)$/U$2$3/
+# ##
+    # - derive/([qAs])$/qU/
+    # - derive/([jlr])$/jU/
+    # - derive/([vwy])$/vU/
+    # - derive/([Cgxk])$/CU/
+    # - derive/([mbfp])$/mU/
+    # - derive/([ndzt])$/nU/
+
+    # - derive/([vq]?[qAs])$/QU/
+    # - derive/(j[qAs]|[jlr])$/JU/
+    # - derive/(j|n)$/RU/
+    # - derive/(vsk|yk|vk)$/vkU/
+    # - derive/(sk|k|[qAs])$/sU/
+    # - derive/(r[tp])$/rU/
+    # - derive/(rp|p)$/pU/
+    # - derive/(rt|t)$/tU/
+    # - derive/(sk|k)$/kU/
 ####聲
     - derive/^(PFH)/ph/
     - derive/^(PF)/p/
@@ -210,7 +264,7 @@ speller:
     # - derive/([\w])v([o])/$1$2/
 ##
     - derive/([\w])(v[ix]|[uyw])ə/$1u/ #iu- uo-
-    - derive/([\w])[uyw]o([qhsA])/$1u$2/ #iu- uo-
+    - fuzz/([\w])[uyw]o([qhsA])/$1u$2/ #iu- uo-
     # - fuzz/([\w])[ijx]u([Ccgxk])/$1u$2/ #iu- io-
     # - fuzz/([\w])[ijx]o([Ccgxk])/$1u$2/
     # - fuzz/([\w])[ijx]u([qhsA])/$1u$2/
@@ -283,36 +337,6 @@ speller:
 
     # - erase/^[a-z][zhcgqs].+$/
     - abbrev/^([a-z])[^zhcgqsrl].*$/$1/ #𥳑
-# # # # # # 
-    - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
-    - derive/^(F?(PH?|B)|MF?)(?!$)/PI/
-    - derive/^(ph|p|b|m)(?!$)/PI/
-    - derive/^(TSSH?|DZZ|T[CR]?H?|D[CR]?|N[RC]?)(?!$)/TI/
-    - derive/^((th|t|d|n)[rc]?)(?!$)/TI/
-    - derive/^(T[SZ]H?|D[SZ])(?!$)/TSI/
-    - derive/^((ts|dz)[sc]?h?)(?!$)/TSI/
-    - derive/^(NGQ?|HG|K[CQ]?H?|G[C]?|L|X?QZ|XZ|HQ|A)(?!$)/KI/
-    - derive/^((kh|k|g)(qc)?)(?!$)/KI/
-    - derive/^(X[SZ]|HZ|XQ|HQ|H)(?!$)/HI/
-    - derive/^(h)(?!$)/HI/
-    - derive/^(JX?)(?!$)/JI/
-    - derive/^(j)(?!$)/JI/
-    - derive/^(S[SZ]|ZS|ZZ|S)(?!$)/SI/
-    - derive/^(SC|XS)(?!$)/SI/
-    - derive/^(s[sc]?)(?!$)/SI/
-    - derive/^(ZC|XZ)(?!$)/ZI/
-    - derive/^(s?z|z[sc]?)(?!$)/ZI/
-    - derive/^(SZ|ZS|[SZ]C|L[SZ][RC]?|J)(?!$)/LI/
-    - derive/^(RS[RC]?|L)(?!$)/RI/
-    - derive/^(l)(?!$)/RI/
-    - derive/^(MS|MF|M)(?!$)/MI/
-    - derive/^(m)(?!$)/MI/
-    - derive/^(N[CR]?|[ZC]C|NS[RC]?)(?!$)/NI/
-    - derive/^(n[rc]?)(?!$)/NI/
-    - derive/^(NGQ?|X[SZ])(?!$)/NGI/
-
-    - derive/^(.+).+$/$1U/
-
 
 translator:
   dictionary: hzeepquuns
@@ -390,6 +414,7 @@ translator:
 pinyin:
   dictionary: luna_pinyin
   prism: luna_quanpin
+  enable_completion: false
   prefix: "~"
   suffix: "'"
   tips: 〔pinyin〕
@@ -404,6 +429,13 @@ pinyin:
 
 cangjie6:
   dictionary: cangjie6
+  prism: cangjie6
+  enable_charset_filter: false
+  enable_sentence: false
+  enable_encoder: false
+  encode_commit_history: false
+  # enable_completion: false
+  enable_user_dict: false
   prefix: "`"
   suffix: "'"
   tips: 〔倉頡6〕
@@ -415,6 +447,8 @@ cangjie6:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
   initial_quality: 0.2
 
+abc_segmentor: #混用 不𥳑拼不連打
+  extra_tags: [pinyin, cangjie6]
 
 lookp:
   tags: [pinyin,cangjie6]
@@ -431,8 +465,6 @@ lookp:
     - xform/F//
     - xform/([A-Z])/\L\1/
     # - xform/([rs])[ptk]$/$1/
-abc_segmentor: #混用 不𥳑拼
-  extra_tags: [pinyin, cangjie6]
 punctuator:
   import_preset: symbols
 key_binder:

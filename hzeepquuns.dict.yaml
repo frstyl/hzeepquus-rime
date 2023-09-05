@@ -2937,7 +2937,7 @@ import_tables:
 姼	dcjajA
 卶	scjajA
 𤖻	scjajA
-迻	Jjajq
+迻	Jjajq	999
 乁	Jjajq
 鉹	Jjajq
 𤝻	Jjajq
@@ -8743,6 +8743,7 @@ import_tables:
 𢄇	kqoovs
 句	kqoovs
 𢂁	khqoovq
+够	khqoovq	999
 夠	khqoovq
 怐	khqoovs
 齁	hoovq
@@ -10047,7 +10048,7 @@ import_tables:
 𡙈	pouvsk
 𫁘	tsouvsk
 竈	tsouvsk		#ks窖
-吿	kqouvsk		#ks
+吿	kqouvsk	999		#ks
 告	kqouvsk
 誥	kqouvsk
 郜	kqouvsk
@@ -14047,8 +14048,8 @@ import_tables:
 煁	dcjəm
 瘎	dcjəm
 甚	dcjəb
-𠥄	dcjəf
-𠯕	dcjəf
+𠥄	dcjəb
+𠯕	dcjəb
 甚	dcjəf		#TL-
 葚	zcjəb
 𣞵	zcjəb
@@ -27866,7 +27867,7 @@ import_tables:
 臛	hook
 ##OƏVK
 吿	kqook
-告	kqook	1
+告	kqook
 梏	kqook
 牿	kqook
 䧼	kqook
