@@ -2144,7 +2144,7 @@ import_tables:
 澥	hgaeA
 嶰	hgaeA
 𨼬	hgaeA
-解	hgaeA
+解	hgaeA		#姓
 邂	hgaes
 解	hgaes
 𧵽	maeA
@@ -4980,7 +4980,7 @@ import_tables:
 廁	tsshxəs
 庤	drxəA
 𦥊	thrxəs
-欼	tsshxəA
+欼	tsshxəA		#𠭋-巳
 俟	zsxəA		#s-ɢ
 竢	zsxəA
 涘	zsxəA
@@ -7006,7 +7006,7 @@ import_tables:
 鵨	scjoq
 野	LZcjoA	1
 墅	LZcjoA
-与	JjoA
+与	JjoA	999
 𢌱	JjoA
 與	JjoA
 𪋮	Jjos
@@ -8260,7 +8260,7 @@ import_tables:
 𪐴	trwoA
 拄	trwoA
 駐	trwos
-住	trwos	1
+住	trwos		#駐
 註	trwos
 鉒	trwos
 軴	trwos
@@ -8269,7 +8269,7 @@ import_tables:
 柱	drwoA
 跓	drwoA
 嵀	drwoA
-住	drwos
+住	drwos	1
 馵	tcyos
 㺛	tcyos
 娶	syoq	1
@@ -9736,12 +9736,11 @@ import_tables:
 鴇	pouvA
 駂	pouvA
 保	pouvA
-⿰亻𡥀	pouvA
-𠈃	pouvA	1		#⿰亻𡥀
-𠊻	pouvA
-𠍂	pouvA
-呆	pouvA
-𡥀	pouvA
+𠈃	pouvA		#⿰亻𡥀
+𠊻	pouvA	999
+𠍂	pouvA	99
+呆	pouvA	9
+𡥀	pouvA	99
 堢	pouvA
 堡	pouvA
 褓	pouvA
@@ -12722,9 +12721,9 @@ import_tables:
 ###IAM
 ##IAM
 ##?
-譫	tcjap		#?
-殜	Jiap
-𩐱	Jiap
+譫	tciap		#?
+殜	Jiep
+𩐱	Jiep
 ##
 𡃫	Ciam
 嚴	Ciam
@@ -15105,7 +15104,7 @@ import_tables:
 𣧻	dzoan	999
 㱚	dzoan
 餐	tshoan
-湌	tshoan
+湌	tshoan	999
 粲	tshoaz
 燦	tshoaz
 璨	tshoaz
@@ -17144,7 +17143,7 @@ import_tables:
 㪇	seəz
 先	seəz
 𪙌	tsheət
-㞕	seət		#?
+㞕	seət	999		#?
 榍	seət
 糏	seət
 𦵱	seət
@@ -21520,12 +21519,12 @@ import_tables:
 𤸫	quuz
 員	quuz	2
 㧒	quut		#穴ɢ
-欝	Auut
-𩰪	Auut
 灪	Auut
 爩	Auut
 𥘄	Auut
 鬱	Auut
+欝	Auut
+𩰪	Auut
 䡝	Auun
 䡝	Auud
 黦	Auut
@@ -23003,7 +23002,7 @@ import_tables:
 鋿	dcjaC
 徜	dcjaC
 尙	dcjaC
-尙	dcjax
+尙	dcjax	999
 常	dcjaC
 裳	dcjaC
 𪄹	dcjaC
@@ -23189,41 +23188,42 @@ import_tables:
 煬	Jjax
 諹	Jjax
 ##IAK
-䐘	giak		#?
-𠩃	Jiak		#?
-𤒀	Jiak		#?KL- LZ
-䶳	Jiak		#?
-䖃	Jiak
-𧎾	liak
-略	liak
-䀩	liak
-䌎	liak
-㗉	liak
-䂮	liak
-䛚	liak
-掠	liak
-磭	thciak	2
+𠩃	Jjak		#?𠨲
+𠨲	Jjak		#屮
+𤒀	Jjak		#?KL- LZ
+䶳	Jjak		#?
+䖃	Jjak
+𧎾	ljak
+略	ljak
+䀩	ljak
+䌎	ljak
+㗉	ljak
+䂮	ljak
+䛚	ljak
+掠	ljak
+磭	thcjak	2
 磭	Ciak	2		#?
-謶	tciak
-𧫽	tciak
-斫	tciak
-𥯩	tciak
-鵲	tshiak
-趞	tshiak
-碏	tshiak
-皵	tshiak
-踖	tshiak
-䇎	tshiak
-䱜	tshiak
-舄	tshiak
-獡	sciak
-叒	nciak
-𨀝	nciak
-若	nciak
-鄀	nciak
-箬	nciak
-楉	nciak
-惹	nciak
+謶	tcjak
+𧫽	tcjak
+斫	tcjak
+𥯩	tcjak
+鵲	tshjak
+趞	tshjak
+碏	tshjak
+皵	tshjak
+踖	tshjak
+䇎	tshjak
+䱜	tshjak
+舄	tshjak
+獡	scjak
+叒	ncjak
+𨀝	ncjak
+若	ncjak
+鄀	ncjak
+箬	ncjak
+楉	ncjak
+惹	ncjak
+䐘	giak		#?
 𨟠	khiak
 噱	giak
 臄	giak
@@ -23240,93 +23240,93 @@ import_tables:
 却	khiak		#卻
 ##IAVK
 #AVK JA
-藥	Jiavk		#LZ-
-𤄶	Jiavk
-爍	sciavk
-鑠	sciavk
-㜰	sciavk
-䁻	sciavk
-䟏	sciavk
-櫟	Jiavk
-纅	Jiavk
-㜰	Jiavk
-擽	liavk
+藥	Jjavk		#LZ-
+𤄶	Jjavk
+爍	scjavk
+鑠	scjavk
+㜰	scjavk
+䁻	scjavk
+䟏	scjavk
+櫟	Jjavk
+纅	Jjavk
+㜰	Jjavk
+擽	ljavk
 虐	Ciavk		#AV
 𧆱	Ciavk
 瘧	Ciavk
 謔	CSiavk		#CS
-䅵	kciavk		#AV?
-禚	kciavk
+䅵	kcjavk		#AV?
+禚	kcjavk
 蹻	kiavk		#EV
 屩	kiavk
 蹻	giavk
 #IEVK
-削	sievk		#EV
-雀	tsievk		#EV
-爵	tsievk		#E
-# 𩰨	tsievk
-𩰥	tsievk
-爝	tsievk
-㩱	tsievk
-燋	tsievk
-皭	dzievk
-嚼	dzievk
-爝	dzievk
-𭤁	Jievk		#皃?㫐#KL- LZ-
-敫	Jievk		#EV
-繳	tcievk
-躍	Jievk		#EV LZ
-𩱲	Jievk
-㿑	Jievk
-弱	ncievk		#EV
-溺	ncievk
-蒻	ncievk
-䐞	ncievk
-焯	tcievk		#EV
-綽	thcievk
-繛	thcievk
-婥	thcievk
-㹱	tshievk
-勺	tcievk		#EV
-彴	tcievk
-㣿	tcievk
-酌	tcievk
-妁	tcievk
-犳	tcievk
-䶂	tcievk
-𧘑	tcievk
-灼	tcievk
-勺	dcievk
-妁	dcievk
-汋	dcievk
-杓	dcievk
-仢	dcievk
-芍	dcievk
-䶂	tsievk
-芍	tshievk
-礿	Jievk
-𦆗	Jievk
-䋤	Jievk
+削	sjevk		#EV
+雀	tsjevk		#EV
+爵	tsjevk		#E
+# 𩰨	tsjevk
+𩰥	tsjevk
+爝	tsjevk
+㩱	tsjevk
+燋	tsjevk
+皭	dzjevk
+嚼	dzjevk
+爝	dzjevk
+𭤁	Jjevk		#皃?㫐#KL- LZ-
+敫	Jjevk		#EV
+繳	kcjevk
+躍	Jjevk		#EV LZ
+𩱲	Jjevk
+㿑	Jjevk
+弱	ncjevk		#EV
+溺	ncjevk
+蒻	ncjevk
+䐞	ncjevk
+焯	tcjevk		#EV
+綽	thcjevk
+繛	thcjevk
+婥	thcjevk
+㹱	tshjevk
+勺	tcjevk		#EV
+彴	tcjevk
+㣿	tcjevk
+酌	tcjevk
+妁	tcjevk
+犳	tcjevk
+䶂	tcjevk
+𧘑	tcjevk
+灼	tcjevk
+勺	dcjevk
+妁	dcjevk
+汋	dcjevk
+杓	dcjevk
+仢	dcjevk
+芍	dcjevk
+䶂	tsjevk
+芍	tshjevk
+礿	Jjevk
+𦆗	Jjevk
+䋤	Jjevk
 約	Aievk		#EV
 葯	Aievk		#白芷葉
-龠	Jievk		#LZ-
-禴	Jievk		#礿
-𨷲	Jievk
-鑰	Jievk
-瀹	Jievk
-爚	Jievk
-𢅹	Jievk
-𥌺	Jievk
-𧕋	Jievk
-鸙	Jievk
-䟑	Jievk
-𧢢	Jievk
-䠯	Jievk
-蘥	Jievk
-𤅢	Jievk
-籥	Jievk
-𨈋	Jievk
-爚	scievk
+龠	Jjevk		#LZ-
+禴	Jjevk		#礿
+𨷲	Jjevk
+鑰	Jjevk
+瀹	Jjevk
+爚	Jjevk
+𢅹	Jjevk
+𥌺	Jjevk
+𧕋	Jjevk
+鸙	Jjevk
+䟑	Jjevk
+𧢢	Jjevk
+䠯	Jjevk
+蘥	Jjevk
+𤅢	Jjevk
+籥	Jjevk
+𨈋	Jjevk
+爚	scjevk
 ###YAŊ UAŊ
 𩦠	BFuag
 匚	PFuaC
@@ -24062,9 +24062,10 @@ import_tables:
 𧐶	tsheevk
 𦸗	tsheevk
 磩	tsheevk
+##IVK
+弔	teivk
+𨑩	teivk
 ##ƏVK
-弔	teiək
-𨑩	teəvk
 滌	LZeəvk		#LZ攸
 蓧	LZeəvk
 蓨	LSeəvk
@@ -24989,7 +24990,6 @@ import_tables:
 𠓋	Jjak
 驛	Jjak
 𩴮	Jjak		#𨼸?
-𠨲	Jjak
 ⿰禾𥇡	scjak
 𥽉	scjak
 𥋭	scjak
@@ -25003,7 +25003,7 @@ import_tables:
 麝	zcjak
 射	Jjak	2
 䠶	Jjak	2
-𤆍	tschjak		#赤LS?
+𤆍	tschjak	999		#赤LS?
 赤	tschjak
 烾	tschjak
 郝	tschjak
@@ -27594,6 +27594,7 @@ import_tables:
 𢧳	JjoC
 銿	JjoC
 甬	Jjog
+勈	Jjog	999
 勇	Jjog
 涌	Jjog
 恿	Jjog
@@ -28383,7 +28384,7 @@ import_tables:
 喅	Jjuk
 ##
 燠	Aiuk		#奧
-噢	Aiuk
+噢	Aiuk	2
 墺	Aiuk
 䐿	Aiuk
 薁	Aiuk
