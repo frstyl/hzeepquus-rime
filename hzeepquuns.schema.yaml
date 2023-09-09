@@ -63,7 +63,7 @@ speller:
   delimiter: "'"
   algebra:
 # # # # # # 
-    # - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
+    - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
     # - derive/^(F?(PH?|B)|MF?)(?!$)/pI/
     # - derive/^(ph|p|b|m)(?!$)/pI/
     # - derive/^(TSSH?|DZZ|T[CR]?H?|D[CR]?|N[RC]?)(?!$)/tI/
@@ -137,7 +137,7 @@ speller:
     # - derive/^(K[CQ]?)/k/
     - derive/^(HZG|E)/g/
     # - derive/^(H)/h/
-    - derive/^(HXS|HSQ|HQS|NGS|CS|MS|[XH]S|SX|QS)/h/
+    - derive/^(HNS|HXS|HSQ|HQS|NGS|CS|MS|[XH]S|SX|QS)/h/
     - derive/^(HQZ|XQZ|JXQ?|QZ|XZ|X|')/q/
 
     # - derive/^(HZQ|HQZ|HG|HZ)/E/
@@ -158,11 +158,12 @@ speller:
     - derive/^(E)/hz/ #匣母
     - derive/^(C)/ng/ #疑母
 
-    # - derive/^([tk]h[rc]|ts[sc]h)/tsrh/ #照組
-    # - derive/^([tk][rc]|ts[sc])/tsr/
-    # - derive/^([dg][rc])/dzr$1/
-    # - derive/^(s[sc])/sr/
-    # - derive/^(z[sc])/zr/
+    - derive/^([tk]h[rc]|ts[sc]h)/tsrh/ #照組
+    - derive/^([tk][rc]|ts[sc])/tsr/
+    - derive/^([dg][rc])/dzr$1/
+    - derive/^(s[sc])/sr/
+    - derive/^(z[sc])/zr/
+    - derive/^z/sz/ #衺
 ####
     - derive/^(kh|ng|k|g)[cq]/$1/
     - derive/^(th|t|d|n)[cr]/$1/
@@ -192,11 +193,11 @@ speller:
     # - derive/([\w])([ar]u)v([qhsA])/$1$2$3/
 
     - derive/([aeiouəʌ;])j([qAhs])$/$1$2/
+    # - derive/([aeiouəʌ;])v(k)$/$1/ #-v-視爲韻
     - derive/([\w]u)v([qhsA])/$1$2/ #烋皋勹ov rov
     # - derive/([aeiouəʌ;])vq$/$1v/
     # - derive/([aeiouəʌ;])vA$/$1w/
     # - derive/([aeiouəʌ;])vs$/$1y/
-    # - derive/([aeiouəʌ;])v(k)$/$1/ #-v-視爲韻
 
     - derive/([\w]o)ov$/$1əuq/ #ov 侯
     - derive/([\w]o)ow$/$1əuA/
@@ -300,7 +301,7 @@ speller:
 ##
     # - fuzz/([iu])(a)/$2$1/
     # - fuzz/(a)([iu])/$2$1/
-    - fuzz/([aiu])([aeiouəʌ;])([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/ #介元序 无eo
+    - fuzz/([aiu])([aeiouəʌ;])/$2$1/ #介元序 无eo
     - fuzz/(?<!^)([fvjyxw])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/
     - fuzz/(?<!^)x([aeiouəʌ;])/r$1/ #l=x
     - fuzz/(?<!^)a([aeiouəʌ;])/l$1/ #r=a
@@ -327,8 +328,6 @@ speller:
     - derive/^(hq)/w/
     - derive/^(ng)/c/
 
-    - derive/^dzr/z/  #照
-    - derive/^tsr/w/
 ####𥳑
     # - abbrev/^(\w).+$/$1/
     # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
@@ -355,6 +354,7 @@ translator:
     # - xform/(^|')w/$1ts/
     # - xform/(^|')x/$1ŋ/
     # - xform/(^|')w/$1ʔ/
+    # - xform/eo/ə/
     # - xform/ea/ʌ/
     # - xform/hq/ʔ/
     # - xform/ng/ŋ/
@@ -405,7 +405,7 @@ translator:
   comment_format:
     - xform/A/ʔ/
     - xform/E/ɦ/
-    - xform/(HXS|HSQ|HQS|NGS|CS|MS|[XH]S|SX|QS)/h/
+    - xform/(HNS|HXS|HSQ|HQS|NGS|CS|MS|[XH]S|SX|QS)/h/
     - xform/(LZ)/d/
     - xform/([LRN]S)/th/
     - xform/(HQZ|XQZ|JXQ?|XZ|QZ|X)/q/
@@ -429,7 +429,7 @@ pinyin:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue('|$)/$1üe$2/
     - xform/([jqxy])v/$1ü/
-  initial_quality: 0.1	# 調整該編譯器出字優先度
+  initial_quality: 0.3	# 調整該編譯器出字優先度
 
 cangjie6:
   dictionary: cangjie6
@@ -449,7 +449,7 @@ cangjie6:
     - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
-  initial_quality: 0.2
+  initial_quality: 0.5
 
 abc_segmentor: #混用 不𥳑拼不連打
   extra_tags: [pinyin, cangjie6]
@@ -461,7 +461,7 @@ lookp:
   comment_format:
     - xform/A/ʔ/
     - xform/E/ɦ/
-    - xform/(HXS|HSQ|HQS|NGS|CS|MS|[XH]S|SX|QS)/h/
+    - xform/(HNS|HXS|HSQ|HQS|NGS|CS|MS|[XH]S|SX|QS)/h/
     - xform/(LZ)/d/
     - xform/([LRN]S)/th/
     - xform/(HQZ|XQZ|JXQ?|XZ|QZ|X)/q/

@@ -1374,6 +1374,10 @@ use_preset_vocabulary: true
 𡵄	PFHioC
 胖	phaux		#1		#肨
 峰	phioC
+##
+𢱵	biog
+𣩌	biog
+𫯠	biog
 ###邦
 邫	pauC
 邽	pauC
@@ -3105,6 +3109,7 @@ use_preset_vocabulary: true
 𩠥	khqeijA
 𩠦	khqeijA
 𩠜	khqeijA
+𩒨	khqeijA	99
 𫥉	kcjijq
 𭴛	kcjijq
 𤶓	tcjiA
@@ -3360,12 +3365,17 @@ use_preset_vocabulary: true
 𢦴	CqoajA
 𨈟	CqoajA
 ##義
+羛	ŋxajq
+𠌾	ŋxajq
+𮊫	ŋxajq
+𱻊	ŋxajq
 鸃	Cxeq
-𥪺	Cxajs		#1		#𥫃
-𢐯	Cxajs
-𢐱	Cxajs
-𦏁	Cxajs
-𦏡	Cxajs
+###羲-義
+𥪺	CSxajq		#1		#𥫃
+𢐯	CSxajq
+𢐱	CSxajq
+𦏁	CSxajq
+𦏡	CSxajq
 ###厄
 𱠟	phuət
 𱠟	CvaA
@@ -3812,6 +3822,9 @@ use_preset_vocabulary: true
 𥗸	nrauv
 農	noav
 憹	noav
+##辳
+𫣳	nooC
+𬋔	nooC
 ###柔
 𢜸	noav
 ###夒
@@ -4068,7 +4081,6 @@ use_preset_vocabulary: true
 𤓬	tsjev
 ###肖
 𢖹	tshjew
-稍	ssaaw
 𧣪	ssaaw
 髾	ssaaw
 梢	ssaaw
@@ -4692,7 +4704,6 @@ use_preset_vocabulary: true
 啋	tshoʌl
 跴	tshoʌj
 踩	tshəl
-踩	gyiq
 踩	lyet
 𰗕	tshoʌl
 ###𠪋厚
@@ -4992,9 +5003,10 @@ use_preset_vocabulary: true
 茊	tsjəq
 𠧦	tsjəq
 𦱳	tsjəq
-𡥝	tsjəq		#1		#孳
+𡥝	tsjəq		#孳
 孶	tsjəq
-𢀐	tsjəq		#1		#𦈄
+𦈄	tsjəq
+𢀐	tsjəq		#
 𢇖	tsjəq
 ###思恖
 腮	soʌj
@@ -6779,21 +6791,21 @@ use_preset_vocabulary: true
 𧰨	Cxəm
 𩂢雨	Cxəm qvioA
 ###盇盍
-葢	kqoap
-㗐	kqoap
-𨜨	kqoap
-𣖁	khqoap
-𥔐	khqoap
-盇	hgoap
-𨵵	hgoap
-㗐	hgoap
-𨜨	hgoap
-𣣥	hoap
-葢	kqoarp
-𡎌	Aoarp
-𥔐	khqoarp
-𣹆	khqoarp
-𨜨	khqoarp
+# 葢	kqoap	99
+# 㗐	kqoap	99
+# 𨜨	kqoap	99
+# 𣖁	khqoap	99
+# 𥔐	khqoap	99
+# 盇	hgoap	99
+# 𨵵	hgoap	99
+# 㗐	hgoap	99
+# 𨜨	hgoap	99
+# 𣣥	hoap	99
+# 葢	kqoarp	99
+# 𡎌	Aoarp	99
+# 𥔐	khqoarp	99
+# 𣹆	khqoarp	99
+# 𨜨	khqoarp	99
 㚎	hgoap
 𥁋	hgoap
 𥂊	hgoap
@@ -7398,7 +7410,7 @@ use_preset_vocabulary: true
 𡈎	ncjit
 𡇁	ncjit
 ###肰然
-肰	ncjen
+肰	ncjan
 然	ncjen
 燃	ncjen
 𤉷	ncjen
@@ -9474,7 +9486,7 @@ use_preset_vocabulary: true
 躪	ljiz
 ###㕣
 鍂	Jyon		#鉛
-船	Jyon
+船	Jyon	2
 𣍬	zcyon		#从舟 船
 ###兗 允 袞
 𭀗	Jyud
@@ -9665,7 +9677,7 @@ use_preset_vocabulary: true
 厰	thcjag
 惝	thoag
 瓽	toag
-党	toag
+党	toag		#姓
 倘	thoag
 躺	thoag
 耥	thoag
@@ -11508,6 +11520,8 @@ use_preset_vocabulary: true
 鎣	Avex
 瀅	Avex
 ###邕雍
+𰯩	AioC
+𦡚	AioC
 臃	AioC
 臃	Aiog
 㙲	Aiox
