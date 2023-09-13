@@ -1129,21 +1129,22 @@ use_preset_vocabulary: true
 鵡	moow
 #
 𢎁	mvioA
-###
-𰮇	mSooq
-𪢸	MFvioq
-芜	MFvioq
-璑	MFvioq
-𱲦	MFvioq
-呒	MFvioq
-怃	MFvioq
-𫁲	MFvioq
-庑	MFvioA
-呒	MFvioA
-𣲘	MFvioA
-怃	MFvioA
-妩	MFvioA
-𰢢	MFvioA
+###无
+无	MFvioq	999
+𰮇	MSooq	99
+𪢸	MFvioq	99
+芜	MFvioq	99
+# 璑	MFvioq
+𱲦	MFvioq	99
+呒	MFvioq	99
+怃	MFvioq	99
+𫁲	MFvioq	99
+庑	MFvioA	99
+呒	MFvioA	99
+𣲘	MFvioA	99
+怃	MFvioA	99
+妩	MFvioA	99
+𰢢	MFvioA	99
 ###无舞無
 嘸	mvioq
 嘸	mvioA
@@ -1618,7 +1619,7 @@ use_preset_vocabulary: true
 鮁	pvat
 鼥	bvat
 𡗜	bvat
-友	bvat
+# 友	bvat
 叐	bvat
 鿆	PFHuət
 𢼗	PFHuət
@@ -4694,11 +4695,6 @@ use_preset_vocabulary: true
 𡘅	draak		#澤
 𢋇	Jjev
 ####
-###𢦏
-𨠾	doʌr
-𧧟	gxajs		#䛋
-𢦔	tsoʌj
-𢦒	tsoʌj
 ###采
 睬	tshoʌj
 啋	tshoʌl
@@ -4935,6 +4931,11 @@ use_preset_vocabulary: true
 𦌷	douk
 䦌	thrwos		#1		#𨳳
 𢨫	thrwos		#1		#𢨸
+###𢦏-才
+𨠾	doʌr
+𧧟	gxajs		#䛋
+𢦔	tsoʌj
+𢦒	tsoʌj
 ###才
 𰝸	tsoʌj		#2
 𰞟	tsoʌj
@@ -11447,6 +11448,7 @@ use_preset_vocabulary: true
 𱁃	Aaesk
 𱁄	Aaesk
 ###印
+币	Ajiz
 𠘄	Ajix		#印
 ###卬
 𠨔	Aiək		#𢑏
@@ -12369,91 +12371,90 @@ use_preset_vocabulary: true
 𪱾	neəl	0
 迩	ncjəl	0
 你	nrxəl	0
-你	nrxəA	0
 弥	mjəj	0
 妳	naəl	0
 ######
 #####字書
 ####部
-乛	Axit	5
-丶	teeb	5
-丷	paet	5
-亠	doov	5
-亠	ncjup	5
-刂	toav	5
-忄	sjəm	5
-㣺	sjəm	5
-扌	scjəvA	5
-龵	scjəvA	5
-龰	tcjəA	5
-歹	Cqoat	5
-氵	scyijA	5
-氺	scyijA	5
-灬	hvaA	5
-冫	piəC	5
-亻	ncjin	5
-釒	kxəm	5
+乛	Axit	99
+丶	teeb	99
+丷	paet	99
+亠	doov	99
+亠	ncjup	99
+刂	toav	99
+忄	sjəm	99
+㣺	sjəm	99
+扌	scjəvA	99
+龵	scjəvA	99
+龰	tcjəA	99
+歹	Cqoat	99
+氵	scyijA	99
+氺	scyijA	99
+灬	hvaA	99
+冫	piəC	99
+亻	ncjin	99
+釒	kxəm	99
 钅	kxəm	0
-阝	biuA	5
-阝	Axəp	5
-飠	zcjək	5
+阝	biuA	99
+阝	Axəp	99
+飠	zcjək	99
 饣	zcjək	0
-衤	Aiəj	5		#
-𥫗	trxuk	5
-糹	sjəq	5
-糹	meek	5
+衤	Aiəj	99		#
+𥫗	trxuk	99
+糹	sjəq	99
+糹	meek	99
 纟	sjəq	0
 纟	meek	0
-艹	tshouvA	5
-耂	louvA	5
-礻	zcjijs	5
-訁	Cian	5
+艹	tshouvA	99
+耂	louvA	99
+礻	zcjijs	99
+訁	Cian	99
 讠	Cian	0
-𤣩	Ciok	5
-# 爿	dzjaC	5
+𤣩	Ciok	99
+# 爿	dzjaC	99
 丬	dzjaC	0
-牜	Cquəq	5
-犭	khqved	5
-罓	MFuag	5
-罒	MFuag	5
-冈	MFuag	5
-𦉫	MFuag	5
-𦉰	MFuag	5
-𦉪	MFuag	5
-辶	thrxak	5
-爫	tssauvA	5
-𱼀	ncjuk	5
-罒	miuk	5
-𧾷	tsjok	5
+牜	Cquəq	99
+犭	khqved	99
+罓	MFuag	99
+罒	MFuag	99
+冈	MFuag	99
+𦉫	MFuag	99
+𦉰	MFuag	99
+𦉪	MFuag	99
+辶	thrxak	99
+爫	tssauvA	99
+𱼀	ncjuk	99
+罒	miuk	99
+𧾷	tsjok	99
 ##
-乛	tjet	5
-𠃍	tjet	5
-𠃌	tjet	5
-乙	tjet	5
-𠄎	tjet	5
-亅	tjet	5
-乚	tjet	5
-𠃊	tjet	5
-𠄌	tjet	5
-𠃑	tjet	5
-㇉	tjet	5
-𠃋	tjet	5
-𡿨	tjet	5
-[㇇]	tjet	5
-[㇈]	tjet	5
-[㇁]	tjet	5
-[㇄]	tjet	5
-[㇂]	tjet	5
-𤇾	JyeC	5
+乛	tjet	99
+𠃍	tjet	99
+𠃌	tjet	99
+乙	tjet	99
+𠄎	tjet	99
+亅	tjet	99
+乚	tjet	99
+𠃊	tjet	99
+𠄌	tjet	99
+𠃑	tjet	99
+㇉	tjet	99
+𠃋	tjet	99
+𡿨	tjet	99
+[㇇]	tjet	99
+[㇈]	tjet	99
+[㇁]	tjet	99
+[㇄]	tjet	99
+[㇂]	tjet	99
+𤇾	JyeC	99
 # ⺼	ncjuk
-龴	Jjog	5
-龴	JjoA	5	#予
-龶	ssaeC	5
-龸	dcjax	5
-龹	kwoz	5
-龺	traavk	5
-龻	lyon	5
-𠂒	Cqviəq	5
+龴	Jjog	99
+龴	JjoA	99	#予
+龶	ssaeC	99
+龸	dcjax	99
+龹	kwoz	99
+龺	traavk	99
+龻	lyon	99
+𠂒	Cqviəq	99
 ####今
 ###
 ###物化

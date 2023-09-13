@@ -5202,8 +5202,8 @@ import_tables:
 在	dzoʌA
 𡉈	dzoʌs
 在	dzoʌs
-𢦒	tsoʌq
-𢦏	tsoʌq
+𢦔	tsoʌj	99
+𢦏	tsoʌq	99
 烖	tsoʌq
 載	tsoʌA
 載	tsoʌs
@@ -7615,6 +7615,16 @@ import_tables:
 𣠮	MFvioq
 𦣌	MFvioq
 𦌬	MFvioq
+𣞤	MFvioA	99
+𦨅	MFvioA	99
+𦏶	MFvioA
+𤅅	MFvioA
+舞	MFvioA
+儛	MFvioA	2
+𦌬	MFvioA
+䒉	MFvioA
+𢋑	MFvioA
+𦆞	MFvios
 无	MFvioq	999
 無	MFvioq
 膴	MFvioq
@@ -7629,16 +7639,6 @@ import_tables:
 譕	MFvioq
 鷡	MFvioq
 𨼊	MFvioq
-𣞤	MFvioA
-𦨅	MFvioA
-𦏶	MFvioA
-舞	MFvioA
-儛	MFvioA	2
-𦌬	MFvioA
-䒉	MFvioA
-𢋑	MFvioA
-𦆞	MFvios
-𤅅	MFvioA
 膴	MFvioA
 㒇	MFvioA
 廡	MFvioA
@@ -8927,6 +8927,9 @@ import_tables:
 狽	poart
 浿	phoart
 䟺	boart
+眜	moart
+沫	moart
+枺	moart
 帶	toart
 㿃	toart
 蹛	toart
@@ -8978,9 +8981,6 @@ import_tables:
 藾	loart
 䲚	loart
 㸊	loart
-眜	moart
-沫	moart
-枺	moart
 奈	noart
 柰	noart
 㲡	noart
@@ -9011,7 +9011,7 @@ import_tables:
 汰	LSoart
 戻	LSoart
 泰	LSoart
-##VOR VOKS VOTS
+##OR OKS OTS
 軷	bourt
 𣬪	pourt
 𥄔	pourt
@@ -14177,7 +14177,7 @@ import_tables:
 挹	Ajəp
 愔	Ajəm
 韾	Ajəm
-宷	scjəb
+宷	scjəb	999
 瀋	thcjəb
 審	scjəb
 㰂	scjəb
@@ -15512,42 +15512,42 @@ import_tables:
 磻	bvan
 蟠	bvan
 潘	phvan
+袚	pvut
+茇	pvut
+盋	pvut
+鉢	pvut		#盋
+䳊	pvut
+帗	pvut
+犮	bvut
+跋	bvut
+𧺺	bvut
+魃	bvut
+𢇷	bvut
+軷	bvut
+䣮	bvut
+馛	bvut
+炦	bvut
+颰	bvut
+妭	bvut
+胈	bvut
+鈸	bvut
+䳊	bvut
+䮂	bvut
+坺	bvut
+𩃶	bvut
+茇	bvut
+䯋	bvut
+拔	bvut
+菝	bvut
+䢌	pvut
+㤄	pvut
+㧊	phvut
+䣪	phvut
+𧘟	phvut
+䍨	phvut
+䟛	bvut
+𧺡	bvut
 ##VON
-袚	pvat
-茇	pvat
-盋	pvat
-鉢	pvat		#盋
-䳊	pvat
-帗	pvat
-犮	bvat
-跋	bvat
-𧺺	bvat
-魃	bvat
-𢇷	bvat
-軷	bvat
-䣮	bvat
-馛	bvat
-炦	bvat
-颰	bvat
-妭	bvat
-胈	bvat
-鈸	bvat
-䳊	bvat
-䮂	bvat
-坺	bvat
-𩃶	bvat
-茇	bvat
-䯋	bvat
-拔	bvat
-菝	bvat
-䢌	pvat
-㤄	pvat
-㧊	phvat
-䣪	phvat
-𧘟	phvat
-䍨	phvat
-䟛	bvat
-𧺡	bvat
 𥄕	mvat		#?
 𨣱	mvat
 瀎	mvat
@@ -16603,8 +16603,7 @@ import_tables:
 飯	BFuaz
 䑔	BFuat
 奿	PFHuaz
-㪻	PFHuaz
-韤	MFuat
+韤	MFuat		#?蔑
 韈	MFuat
 襪	MFuat
 㒝	MFuat
@@ -16731,6 +16730,7 @@ import_tables:
 藼	HQSuan
 蕿	HQSuan		#萱
 ##UON
+㪻	PFHuoz
 㤄	PFHuot
 樠	MFuon
 䝡	MFuoz
@@ -16876,7 +16876,7 @@ import_tables:
 ####EN 先
 癟	beet		#?
 ###EN
-##IN眞1
+##IN
 # 琕	bein		#-ŋ?玭
 玭	bein		#-ŋ
 㔡	peit
@@ -19209,7 +19209,7 @@ import_tables:
 𦐋	hwet
 吷	hwet
 𥄎	hwet
-####EIN眞
+####EIN
 ### JIN
 奞	sjiz		#?
 ##JƏN
@@ -21215,15 +21215,6 @@ import_tables:
 㶏	Aiəz
 ###UƏN VIƏN
 ##UƏN VIƏN
-巿	PFuət		#韍 芾
-芾	PFuət
-黻	PFuət		#巿
-紱	PFuət
-韍	PFuət
-翇	PFuət
-冹	PFuət
-帗	PFuət
-祓	PFHuət
 綍	PFuət
 𤉨	PFuət
 𤊸	PFuət
@@ -21448,6 +21439,17 @@ import_tables:
 䲰	quəz
 忶	quəz
 𧶊	quəz
+##
+𣎵	PFuot	99
+巿	PFuot		#韍 芾
+芾	PFuot
+黻	PFuot		#巿
+紱	PFuot
+韍	PFuot
+翇	PFuot
+冹	PFuot
+帗	PFuot
+祓	PFHuot
 ##UUN
 厥	kuut
 孒	kuut
@@ -26404,7 +26406,7 @@ import_tables:
 釭	kqouC
 魟	kqouC
 㓚	kqouC
-虹	kqoux
+虹	kqoux	2
 羾	kqoux
 虹	hgouC
 渱	hgouC
@@ -26886,7 +26888,7 @@ import_tables:
 缸	hgauC
 瓨	hgauC
 跫	khqauC
-虹	kqaux
+虹	kqaux	2
 江	kqauC
 茳	kqauC
 涳	nrauC		#?
@@ -27781,8 +27783,8 @@ import_tables:
 㗢	hgooC		#?
 㗢	hgoox
 湩	toog
-攻	kqooC
-釭	kqooC
+攻	kqooC	2
+釭	kqooC	2
 䯳	sooC
 鬆	sooC
 𢾮	dooC		#宮

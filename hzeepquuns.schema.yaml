@@ -343,7 +343,7 @@ speller:
 
 translator:
   dictionary: hzeepquuns
-  # prism: hzeepquuns
+  prism: hzeepquuns
   spelling_hints: 10
   preedit_format:
     - xform/;/ə/
