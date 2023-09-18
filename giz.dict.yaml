@@ -200,7 +200,6 @@ use_preset_vocabulary: true
 這	tjaA	9		#者遮
 这	tjaA	0
 若	nas
-也	la
 邪	la
 已	lə
 乎	ha
@@ -993,7 +992,7 @@ use_preset_vocabulary: true
 𡭝	meel
 ###眉睂
 猸	mxiq
-𦎨	miaC		#眉羊切 釋典
+𦎨	muaC		#眉羊切 釋典
 ##
 𥋎	mxis		#zx
 𡡚	mxis
@@ -1355,6 +1354,8 @@ use_preset_vocabulary: true
 𢁶	MFuag
 𩖩	MFuag
 𩖩𩗾	MFuag ljag
+##
+氓	maeC		#音變?
 ###明
 𠘨	mxaC		#1		#明
 眀	mxaC
@@ -1362,6 +1363,8 @@ use_preset_vocabulary: true
 𣇱	mxaC
 朙	mxaC
 𬚽	mxaC
+##
+萌	maeC		#音變?
 ###丰𡴀
 𡵄	PFHioC
 胖	phaux		#1		#肨
@@ -4206,7 +4209,7 @@ use_preset_vocabulary: true
 # 𩫕	hgoav
 # 𩫚	hgoav
 𩫞	hgoav
-###好
+###好-丑
 𡥆	houvA
 ###鑿𣫞𥽿
 𥽦	tsoavk
@@ -7090,8 +7093,9 @@ use_preset_vocabulary: true
 𭻺	tcjin toaC
 𥪧	deen
 𩄠	tsjijq
-槇	tcjid
 #
+槙	tcjid
+𭫕	tcjid
 鷏	dein
 巔	tein
 慎	dcjiz
@@ -7407,6 +7411,7 @@ use_preset_vocabulary: true
 𡇁	ncjit
 ###肰然
 肰	ncjan
+肰	ncjen
 然	ncjen
 燃	ncjen
 𤉷	ncjen
@@ -7417,6 +7422,7 @@ use_preset_vocabulary: true
 ###難
 𧆖	noan
 𢺋	thoan
+㸐	ncjan
 ###堇
 𩞎	gxəz
 厪	gxəz		#廑
@@ -7959,6 +7965,7 @@ use_preset_vocabulary: true
 ###山
 舢	ssaen
 奾	sjen
+山	saen
 ##仙
 仚	sjen
 ###殺
@@ -8364,6 +8371,7 @@ use_preset_vocabulary: true
 𨳡	kqaen
 𨳢	kqaen
 𬮈	kqaen
+閑	hgaan
 ###見
 梘	keez
 𣎔	hgeez
@@ -8810,6 +8818,7 @@ use_preset_vocabulary: true
 𰞖	ncjet
 𱫚	ncjet
 𱫡	ncjet
+熱	ncjat		#a?
 ###辥薛
 𡶫	Cxet
 蘖	Coat
@@ -9085,10 +9094,10 @@ use_preset_vocabulary: true
 䑢	Cxit
 𢩧	Axit
 乭	dvot
-###冤𠓗
 ###穵𠃉-t
 挖	Afet
-挖	Aait
+挖	Aaət		#穵
+###冤𠓗
 ###於烏
 扵	Aooq
 𣱏	Aooq
@@ -10561,12 +10570,13 @@ use_preset_vocabulary: true
 ###甡
 𠞏	keet
 ###生
-𠤵	ssaeC
-𠤵	ssaeC
-𠥱	ssaeC
-𤯓	ssaeC
-𭖏	ssaeC
-龶	ssaeC
+𠤵	ssxeC
+𠤵	ssxeC
+𠥱	ssxeC
+𤯓	ssxeC
+𭖏	ssxeC
+龶	ssxeC
+生	ssaeC		#異變
 ##星
 煋	seeC
 垒	seeC
@@ -12443,7 +12453,7 @@ use_preset_vocabulary: true
 # ⺼	ncjuk
 龴	Jjog	99
 龴	JjoA	99	#予
-龶	ssaeC	99
+龶	ssxeC	99
 龸	dcjax	99
 龹	kwoz	99
 龺	traavk	99
@@ -13744,8 +13754,6 @@ use_preset_vocabulary: true
 姐	tsjaA
 毑	tsjaA
 𡚿	女
-娚	noaw		#嫐
-娚	ssaeC		#甥
 嫐	noaw
 𡝋	neew		#龍龕
 𡟘	neew

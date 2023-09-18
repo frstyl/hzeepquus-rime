@@ -126,6 +126,7 @@ speller:
     - abbrev/(\w)[jx]([aeiouəʌ;])/$1i$2/ #i=jxi
     - abbrev/(\w)[yw]([aeiouəʌ;])/$1u$2/
 
+    - derive/([\w])vi([aeiouəʌ;])/$1u$2/ #uə
     - derive/(\w)[jxi](i|ə|ʌ)/$1i/ #i
     - derive/(\w)[ywu](i|ə|ʌ)/$1u/ #u
     - derive/([\w])v[ix]ə/$1u/ #uə
@@ -141,7 +142,7 @@ speller:
     # - xform/(?<!^)w(ə|ʌ|a|e|i|o|u|;)/u$1/
 ###########
 # # # # # # # 
-    # - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
+    - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
     # - derive/^(F?(PH?|B)|MF?)(?!$)/Ip/
     # - derive/^(ph|p|b|m)(?!$)/Ip/
     # - derive/^(TSSH?|DZZ|T[CR]?H?|D[CR]?|N[RC]?)(?!$)/It/
@@ -312,8 +313,9 @@ speller:
 
 ####轉寫
     - derive/(ʌ|ə)/;/ #EOə eo
-    - derive/ʌ/ea/ #EOə eo
-    - derive/ə/eo/ #EOə eo
+    - derive/ʌ/oe/
+    - derive/ə/eo/
+    - derive/(ʌ|ə)/ea/
     # - derive/A/hq/
     # - derive/C/ng/
     # - derive/E/hz/
