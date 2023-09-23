@@ -63,45 +63,10 @@ speller:
   delimiter: "'"
   algebra:
 ####韻
-##韻-介
-    - derive/([\w])u(u[qAhs])$/$1i$2/ #uu孚
-    - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo
-    - derive/([\w])[uy]u([jlrndzt])/$1u$2/ #uun
-##韻-尾
-    - derive/([\w][eovjxywarf]i)[Cc]/$1n/  #iŋ必
-    - derive/([\w][eovjxywarf]i)g/$1d/
-    - derive/([\w][eovjxywarf]i)x/$1z/
 
-    # - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
-    # - derive/([\w][eov]u)j/$1/
-    # - derive/([\w][xw]a)j/$1/ #aj iaj
-    # - derive/([\w][eovjyxwarf]i)j/$1/ #ij
-    # - derive/([\w][o]ʌ)j/$1/ #ʌj
-
-    - derive/([aeiouəʌ;])j([qAhs])$/$1$2/
-    # - derive/([aeiouəʌ;])v(k)$/$1/ #-v-視爲韻
-
-##可選
-    - derive/([\w][uyw]u)j$/$1/
-
-    # - derive/([\w])vi([ouə])/$1u$2/ #uə
-    # - derive/([\w])vx([uə])/$1w$2/ #
-    # - derive/([\w])v([o])/$1$2/
-
-    # - fuzz/([\w])[ijx]u([Ccgxk])/$1u$2/ #iu- io-
-    # - fuzz/([\w])[ijx]o([Ccgxk])/$1u$2/
-    # - fuzz/([\w])[ijx]u([qhsA])/$1u$2/
-    # - fuzz/([\w])[ijx]o([mbfp])/$1u$2/
-    # - fuzz/([\w])[ijx]u([mbfp])/$1u$2/
-    - fuzz/([\w])[ijx][uo]/$1u/ #iu- io-
-    - fuzz/([\w])o[uo]/$1o/ #oo ou
-    # - fuzz/([\w])[jxi]([oə]v|uq)$/$1iv/ #尤幽侯iv
-    # - fuzz/([\w])[jxi]([oə]w|uA)$/$1iw/
-    # - fuzz/([\w])[jxi]([oə]y|us)$/$1iy/
-    - fuzz/([\w]v)ə([jlrndztCgxk])$/$1o$2/
 ##補
     - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
-    - derive/([\w]v?[ijx])o([qhsA])/$1a$2/
+    - derive/([\w]v?)o([qhsA])/$1ia$2/
     # - derive/([\w]o)ov$/$1əuq/ #ov 侯
     # - derive/([\w]o)ow$/$1əuA/
     # - derive/([\w]o)oy$/$1əus/
@@ -111,12 +76,32 @@ speller:
     # - derive/([\w][ijx])əv$/$1uq/ #ov 尤
     # - derive/([\w][ijx])əw$/$1uA/
     # - derive/([\w][ijx])əy$/$1us/
+##可選
+    - derive/([\w][uyw]u)j$/$1/ #u-j
+    - derive/([\w][o]ʌ)j$/$1/ #ʌ-j
+
+    # - derive/([\w])vi([ouə])/$1u$2/ #uə
+    # - derive/([\w])vx([uə])/$1w$2/ #
+    # - derive/([\w])v([o])/$1$2/
+
+    - fuzz/([\w])[ijx][uo]/$1u/ #iu- io-
+    - fuzz/([\w])o[uo]/$1o/ #oo ou
+
+    - fuzz/([\w]v)ə([jlrndztCgxk])$/$1o$2/
+
+##韻-介
+    - derive/([\w])u(u[qAhs])$/$1i$2/ #uu孚
+    - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo
+    - derive/([\w])[uy]u([jlrndzt])/$1u$2/ #uun
+##韻-尾
+    # - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
+    # - derive/([\w][eov]u)j/$1/
+    # - derive/([\w][xw]a)j/$1/ #aj iaj
+    # - derive/([\w][eovjyxwarf]i)j/$1/ #ij
+    - derive/([aeiouəʌ])j([qhsA])/$1$2/ #-j
     # - derive/([\w])([oe]u)v([qhsA])/$1$2$3/ #皋勹ov rov
     # - derive/([\w])([ar]u)v([qhsA])/$1$2$3/
     - derive/([\w]u)v([qhsA])/$1$2/ #烋皋勹球ov aov
-    - derive/([aeiouəʌ;])vq$/$1v/
-    - derive/([aeiouəʌ;])vA$/$1w/
-    - derive/([aeiouəʌ;])vs$/$1y/
 ####介
 ##
     - derive/([\w])o(a|o|ə|ʌ)/$1$2/ #一等无介音
@@ -268,7 +253,7 @@ speller:
     - derive/^(tsc)([jy])/k$2/
     - derive/^(dzc)([jy])/g$2/
 ####聲-介
-    - derive/^(JQZ|JQ|J)[ji]([aeiouəʌ;])/j\2/ #㠯母
+    - derive/^(JQZ|JQ|J)[j]([aeiouəʌ;])/j\2/ #㠯母
     - derive/^(JXQ?|XQZ|QZ|X)u([aeiouəʌ;])/$1q$2/ #雲母
     - derive/^(JQZ|XQZ|QZ|XQ|JX|JQ|X)v(i[aeioəʌ;])/$1q$2/
 
@@ -284,6 +269,7 @@ speller:
     - derive/^(ph|p|b|m)v([aeiəʌ;x])/$1$2/
 
 ####尾
+    - derive/([aeiouəʌ;])j['q]$/$1/
     - derive/([aeiouəʌ;])['q]$/$1/
     - derive/(?<!^)A$/h/
     - derive/(?<!^)C$/c/
@@ -292,18 +278,19 @@ speller:
     - abbrev/(?<!^)j['q]$/j/
     - abbrev/(?<!^)jA$/l/
     - abbrev/(?<!^)js$/r/
-    # - derive/(?<!^)vq$/v/
-    # - derive/(?<!^)vA$/w/
-    # - derive/(?<!^)vs/y/
+    - derive/(?<!^)vq$/v/
+    - derive/(?<!^)vA$/w/
+    - derive/(?<!^)vs/y/
     - derive/(?<!^)vsk/y/
     - derive/(?<!^)vs(k)/y$1/
 
     - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
-    - derive/(?<!^)v(k)$/$1/
+    - derive/(?<!^)([fvjyxwaeiouəʌ;][aeiouəʌ;])v(k)$/$1u$2/ #-v-視爲韻
+    - xform/(?<!^)v(k)$/$1/
 ####可選 介
     # - fuzz/([iu])(a)/$2$1/
     # - fuzz/(a)([iu])/$2$1/
-    - fuzz/([aiu])([aeiouəʌ;])/$2$1/ #介元序 无eo
+    - fuzz/(?<!^)([aiu])([aeiou]|ə|ʌ)/$2$1/ #介元序 无eo
     - fuzz/(?<!^)([fvjyxw])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/
     - fuzz/(?<!^)x([aeiouəʌ;])/r$1/ #l=x
     - fuzz/(?<!^)a([aeiouəʌ;])/l$1/ #r=a
@@ -410,7 +397,7 @@ translator:
     - xform/A/ʔ/
     - xform/E/ɦ/
     - xform/(HNS|HXS|HSQ|HQS|NGS|CS|MS|[XH]S|SX|QS)/h/
-    # - xform/(LZ)/d/
+    - xform/(LZ)/d/
     - xform/([LRN]S)/th/
     - xform/(HQZ|XQZ|JXQ?|XZ|QZ|X)/q/
     - xform/NG|C|c($|')/ŋ$1/

@@ -63,8 +63,8 @@ use_preset_vocabulary: true
 朆	moəC
 覅	mjey
 𣄰	moaA		#无可
-鿗	hgoop Ajiq
-鿘	hgoop Ajiq
+鿗	hgoʌp Ajiq
+鿘	hgoʌp Ajiq
 鿙	khoək Ajiq
 鿚	kaak Ajiq
 鿛	ljəC ncjəl
@@ -74,7 +74,7 @@ use_preset_vocabulary: true
 鿟	ljijs ncjəl
 鿠	ljijs ncjəl
 鿡	loaq ncjəl
-鿢	Jjaq hgoop
+鿢	Jjaq hgoʌp
 鿣	Jjaq khoək
 鿤	Jjaq kaak
 鿥	loaC ncjəl
@@ -215,14 +215,14 @@ use_preset_vocabulary: true
 喵	mxev		#貓
 咪	mjeA
 噗	phouk
-嘿	hoək
-啦	loʌp
-吖	Aaaq
+嘿	hoək	5
+啦	loʌp	5
+吖	Aaaq	5
 哪	noaA
 啊	Aoaq
 嘿	heej
 哼	hoəC
-啥	scjaq
+啥	scjaq	5
 啥	dcjeA hgoat
 ###
 母	ma
@@ -412,7 +412,7 @@ use_preset_vocabulary: true
 瘩	toʌp		#㾑疸
 疙瘩	kə ta
 疙瘩	kət tap
-疙瘩	ktop
+疙瘩	keit
 囫圇	hvot lyin		#混溷渾
 䊆彈	
 父缶	booq douv
@@ -421,13 +421,13 @@ use_preset_vocabulary: true
 𤎤𡮦	loav tsoav
 醪醩	
 ####近
-您	nrxiA pvər
+您	nrxiA pvər		#伱們
 您	nrxiA
 佢	gioq
 𠍲	gioq
 們	mvən
 # 麼	mvaq
-嘛	maaq
+嘛	maaq	5
 # 麼	məq
 什麼	dcjeA hgoat MFuət
 什麼	hgoat
@@ -1170,7 +1170,7 @@ use_preset_vocabulary: true
 𰙈	MFvioq
 𣞣	MFvioq
 ###麻
-麻	maaq
+麻	maajq
 𧫼	maaq
 ##
 嬤	kvaA
@@ -3145,7 +3145,7 @@ use_preset_vocabulary: true
 𣠀	kqouv
 韟	kqouv
 ###加
-# 加	kaaq
+加	kaajq
 鿼	kaaq
 咖	khaaq
 㹢	kaaq
@@ -6538,7 +6538,7 @@ use_preset_vocabulary: true
 㩑	soup
 㪪	soup
 ###集亼
-雑	dzoop
+雑	dzoʌp
 雦	dzjəp
 亼	dzjəp
 𠓛	dzjəp
@@ -6782,7 +6782,7 @@ use_preset_vocabulary: true
 峆	Eoʌp
 合	hgoʌp
 ###荅
-𥅽	toop
+𥅽	toʌp
 ###劦叶
 ###夾
 𤷾	khxep
@@ -6861,25 +6861,25 @@ use_preset_vocabulary: true
 䕃	Axəf
 ##侌
 廕𢊖	
-# 侌	Axəm
-阥	Axəm
-𨹉	Axəm
-𨹩	Axəm
-阴	Axəm
-𨼖	Axəm
-𣱙	Axəm
-𨻔	Axəm
-𣍤	Axəm
-𨽙	Axəm
-𨽭	Axəm
-𩃛	Axəm		#霠
+# 侌	Axim
+阥	Axim
+𨹉	Axim
+𨹩	Axim
+阴	Axim
+𨼖	Axim
+𣱙	Axim
+𨻔	Axim
+𣍤	Axim
+𨽙	Axim
+𨽭	Axim
+𩃛	Axim		#霠
 癊	Axif
 𦝴	Axif
 𤷜	Axif
 𤸌	Axif
-𠆭	Axəm
-䨧	Axəm		#1		#𩃬
-𩄈	Axəm
+𠆭	Axim
+䨧	Axim		#1		#𩃬
+𩄈	Axim
 ##禽
 噙	gxim
 𠎘	gxəm
@@ -8308,9 +8308,13 @@ use_preset_vocabulary: true
 ###肩𦙪
 掮	gjen		#肩
 # 𣓖	kqeej
-###
-𦥳	khjed
+###𨺫
+𦇶	khjed
+𦥳	khjed	9
+#
 𨺺	khjed
+𨕕	khjed
+𮞭	khjed
 ###閒
 𪧶	kaen
 𫴨	kaen
@@ -8394,6 +8398,7 @@ use_preset_vocabulary: true
 𡰲	Eeen
 𢀵	Eeen
 ###玄
+𢆯	hqzven	9
 𠵓	Even
 𤇡	Even
 𤣥	Even		#1		#𤣥𠃋
@@ -8640,33 +8645,35 @@ use_preset_vocabulary: true
 𨖸	quad
 𢕱	quad
 ###瞏睘
-还	hqzfun	0
-𨕔	hqzfun
-𨖞	hqzfun
-𮟃	hqzfun
-# 閂	ssfun
+𦊷	gyeC
+𭾪	gyeC
+还	hqzfan	0
+𨕔	hqzfan
+𨖞	hqzfan
+𮟃	hqzfan
+# 閂	ssfan
 𦇏	hgved
-㝨	hqzfun		#2
-𡕅	hqzfun		#2
-𩍡	hqzfun		#2
-𨫑	hqzfun
-䴉	hqzfun		#2
-䴋	hqzfun		#1	
-𢕼	hqzfun		#2
-𤧖	hqzfun
+㝨	hqzfan		#2
+𡕅	hqzfan		#2
+𩍡	hqzfan		#2
+𨫑	hqzfan
+䴉	hqzfan		#2
+䴋	hqzfan		#1	
+𢕼	hqzfan		#2
+𤧖	hqzfan
 ##
-𨰄	hqzfun
-㶎	hqzfun
-𣠯	ssfun		#栓
-𢩠	ssfun
+𨰄	hqzfan
+㶎	hqzfan
+𣠯	ssfan		#栓
+𢩠	ssfan
 #
-𧑩	XSyod
-𡩲	hqzfun
-𡫖	hqzfun
-𨖞	hqzfun
-𨕔	hqzfun
-𤨔	hqzfun
-𩯙	hqzfun
+𧑩	XSyed
+𡩲	hqzfan
+𡫖	hqzfan
+𨖞	hqzfan
+𨕔	hqzfan
+𤨔	hqzfan
+𩯙	hqzfan
 ##
 𠎽	gyeC
 𡦃	gyeC
@@ -9239,7 +9246,7 @@ use_preset_vocabulary: true
 ###𥆞𡚇 𡙷
 𡣬	Afen
 𡣬	Awen
-# 𡣬	Ayen
+𡣬	Ayen
 ###㥯𠃊
 癮	Aiəd
 #
@@ -10291,7 +10298,7 @@ use_preset_vocabulary: true
 𥹟	sjok
 # 䅇𥻆𥾄
 ###束
-速	tsjek
+# 速	tsjek
 簌	souk
 觫	souk
 𨄞	souk
@@ -12812,7 +12819,7 @@ use_preset_vocabulary: true
 𪙿𪙯	Coat ncoat
 齣	tschyut
 ###牙
-𬌗	hgoop
+𬌗	hgoʌp
 ###足
 ###疋
 ###品
@@ -12898,7 +12905,7 @@ use_preset_vocabulary: true
 𢽴	touk
 𢼂	kqaay
 𡨥	khqooy
-㪉	kqoop
+㪉	kqoʌp
 敘	zjoA
 敪	tvut
 𢾵	CioA
@@ -13704,7 +13711,7 @@ use_preset_vocabulary: true
 𰴪	pvət Cian
 𰴪	moək
 𱍚	pvət toajq
-𱍛	pvət hgoop
+𱍛	pvət hgoʌp
 𱍤	pvət dcjeA
 𱏤	pvət kqvaC
 𱰸	pvət Auur
