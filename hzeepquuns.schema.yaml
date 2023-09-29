@@ -65,8 +65,8 @@ speller:
 ####韻
 
 ##補
-    - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
-    - derive/([\w]v?)o([qhsA])/$1ia$2/
+    # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
+    # - derive/([\w]v?)o([qhsA])/$1ia$2/
     # - derive/([\w]o)ov$/$1əuq/ #ov 侯
     # - derive/([\w]o)ow$/$1əuA/
     # - derive/([\w]o)oy$/$1əus/

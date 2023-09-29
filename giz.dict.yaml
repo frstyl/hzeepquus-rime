@@ -371,9 +371,11 @@ use_preset_vocabulary: true
 𥲅箸	
 𥲅䠧	
 躊躇	
-# 骯髒	
-# 腌臢	
-# 腌䐶	
+骯髒	
+骯𩪎	
+骯髒	AoaC tsoaC		#腌臢
+腌臢	
+腌䐶	
 # 乒	pheC
 # 乓	phaC
 #
@@ -445,7 +447,7 @@ use_preset_vocabulary: true
 哎	Coar
 了	loə
 咱	tsoat
-咱	dzoʌm
+咱	tsa		#兹沙切 中州音韻
 媽	moa
 嗎	moa
 怎	tsoəb
@@ -826,6 +828,7 @@ use_preset_vocabulary: true
 𣏽	mvəj
 𠦩	mvəj
 ###本
+㤓	bvəd	99
 体	bvəd	5
 缽	pvat		#盋
 #
@@ -1063,7 +1066,7 @@ use_preset_vocabulary: true
 ###牟
 毪	miəv
 哞	miəv
-###𢎘㔾
+###𢎘㔾犯
 㔾	hgoum		#p-k?
 㔾	phuof
 𢎘	phuof
@@ -1073,7 +1076,8 @@ use_preset_vocabulary: true
 𦴮	BFuob
 𫈣	BFuob
 𢒿	BFuob
-###乏
+𮅯	BFuob
+##乏
 𤝑	BFuob
 𠂜	BFuop
 𠓟	BFuop
@@ -2006,6 +2010,12 @@ use_preset_vocabulary: true
 䁾	meet
 蔑𤯍	meet koam
 蔑𤯍	meet leek
+薎	meet
+𥰓	meet
+𥱡	meet
+𦸑	meet
+𦹋	meet
+𭾬	meet
 ###烕
 烕	mjet		#𤇳
 𤇳	mjet		#2
@@ -2660,6 +2670,8 @@ use_preset_vocabulary: true
 𠪨	drxan
 𢋨	drxan
 ###單
+𧔳	doajq
+𧕦圍	
 單于	dcjan qvioq
 𧣨	tcjej		#2
 𧣨	tcjer		#2
@@ -2963,6 +2975,9 @@ use_preset_vocabulary: true
 𠦬	dcyoj
 𢏒	dcyoj
 ###左𠂇
+㔫	tsaA
+𡯃	tsaA
+さ	tsaA
 #
 𪘠	dzoajq		#2		#𪘓
 𪘲	dzoajq		#2
@@ -3224,6 +3239,7 @@ use_preset_vocabulary: true
 𱿇	gwuj
 𩵉	gwuj
 ###可
+𧙃袲	AoajA NoajA
 可	kqoajq	2		#柯
 𠳊	khoaq
 ##河
@@ -6837,10 +6853,13 @@ use_preset_vocabulary: true
 鈫	gxəf
 淾	Axəb		#飲
 #
-𠉓	kxəm
-𨥀	kxəm
-𨥄	kxəm
-𨤾	kxəm
+金	kxum
+金	kxim
+𠉓	kxim
+𨥀	kxim
+𨥄	kxim
+𨤾	kxim
+𠈘	kxim
 啣	hgaam		#銜
 ##
 撳	khxif
@@ -7264,7 +7283,8 @@ use_preset_vocabulary: true
 塅	dvaz
 煅	dvaz
 𩏇	thvad
-###𦎫
+###𦎫敦
+憞	dvoz
 㨃	tvoj
 鐜	dvor
 # 𦎧	dcyun
