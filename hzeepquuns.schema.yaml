@@ -109,7 +109,7 @@ speller:
 ####介
 ##
     - derive/([\w])o(a|o|ə|ʌ)/$1$2/ #一等无介音
-    - derive/([\w])e(a|ə)/$1$2/ #e四等 
+    - derive/([\w])e(ə)/$1$2/ #e四等 ea
     - derive/([\w])(e)(a|e|i|u|ə)/$1$2/ #e四等 
 
     - abbrev/(\w)[jx]([aeiouəʌ;])/$1i$2/ #i=jxi
@@ -191,17 +191,17 @@ speller:
     - derive/^(Jqz?|J)/j/ #l
     - derive/^(Lc)/j/
 
-    - derive/^((L)(?!c)|Rz)/d/
+    - derive/^((L)|Rz)/d/
     - derive/^([LRn]sh)/th/
     - derive/^(C)[cr](.)/n$2/
 
-    - derive/^s[Lnq]s?/s/
-    - derive/^z[Lnq]s?/z/
-    - derive/^s([nLC]s?|[ptknmCq])c/sc/
+    - derive/^s[LRnq]s?/s/
+    - derive/^z[LRnq]s?/z/
+    - derive/^s([nLC]s?|[ptkbdgnmCq])c/sc/
     - derive/^[nL]sc/sc/
-    - derive/^z([nLC]s?|[ptknmCq])c/zc/
+    - derive/^z([nLC]s?|[ptkbdgnmCq])c/zc/
 
-    - derive/^(hns|hxs|hsq|hqs|ngs|CS|ms|[xh]s|sx|qs)/h/
+    - derive/^(hms|hns|hxs|hsq|hqs|ngs|CS|ms|qs|xs|hs|sx)/h/
     - derive/^(hqz|Xqz|Xq|qz|Xz|X|')/q/
     - derive/^(hzg|E)/g/
 
@@ -234,7 +234,7 @@ speller:
     - derive/^z/sz/ #衺
 
     - derive/^(Lr?)([eovarfxw][aeiouəʌ;])/j$2/
-    - derive/^(Xq)([xw][aeiouəʌ;])/j$2/
+    - derive/^(Xq?)([xw][aeiouəʌ;])/j$2/
     - derive/^(hzq?|hqz|Xqz?|Xz|qz|E)([eovarf][aeiouəʌ;])/q$2/
     - derive/^(Jq)([jy][aeiouəʌ;])/q$2/
 
@@ -247,8 +247,8 @@ speller:
     - derive/^(dzc)([jy])/g$2/
 ####聲-介
     - derive/^(Jq|J)[j]([aeiouəʌ;])/j\2/ #㠯母
-    - derive/^(Xqz?|qz|X)u([aeiouəʌ;])/$1q$2/ #雲母
-    - derive/^(Jqz|Xqz|qz|Xq|JX|Jq|X)v(i[aeioəʌ;])/$1q$2/
+    - derive/^(Xqz|qz|X|q)u([aeiouəʌ;])/q$2/ #雲母
+    - derive/^(Jqz|Xqz|Jq|Xq|qz|JX|X|q)v(i[aeioəʌ;])/q$2/
 
     - derive/^msv([ʌəo])/h$1/ #幫組 一三
     - derive/^(ms|ph|p|b|m)F?v([aeiəʌ;x])/\L$1$2/
@@ -257,8 +257,7 @@ speller:
     # - derive/^(l)f/lv/
     # - derive/^(l)r/l/
     # - derive/^(l)f/lv/
-    - derive/^(q)u([aeiouəʌ;])/q$2/ #雲母
-    - derive/^(q)v(i[aeioəʌ;])/q$2/
+
     - derive/^(ph|p|b|m)v([aeiəʌ;x])/$1$2/
 
 ####尾
@@ -323,7 +322,7 @@ speller:
     # - abbrev/^(ng).+$/$1/
 
     # - erase/^[a-z][zhcgqs].+$/
-    - abbrev/^([a-z])[^zhcgqsrl].*$/$1/ #𥳑
+    # - abbrev/^([a-z])[^zhcgqsrl].*$/$1/ #𥳑
 
 translator:
   dictionary: hzeepquuns
@@ -387,14 +386,14 @@ translator:
     # - xform/(.+)H/\L$1ʰ/
     # - xform/([aeiouəʌ;])q($|')/$1 $2/
   comment_format:
-    - xform/^s[Lnq]s?/s/
-    - xform/^z[Lnq]s?/z/
-    - xform/^s(ns?|Ls?|Cs?|[ptknmCq])c/sc/
+    - xform/^s[LRnq]s?/s/
+    - xform/^z[LRnq]s?/z/
+    - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/
     - xform/^[nL]sc/sc/
-    - xform/^z(ns?|Ls?|Cs?|[ptknmCq])c/zc/
+    - xform/^z(ns?|Ls?|Cs?|[ptkbdgnmCq])c/zc/
     - xform/A/ʔ/
     - xform/E/ɦ/
-    - xform/(hns|hxs|hsq|hqs|ngs|Cs|ms|[xh]s|sx|qs)/h/
+    - xform/(hns|hxs|hsq|hqs|ngs|CS|ms|qs|xs|hs|sx)/h/
     - xform/(L|Rz)/d/
     - xform/([LRn]sh)/th/
     - xform/(hqz|Xqz|JXq?|xz|qz|X)/q/
@@ -417,7 +416,7 @@ pinyin:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue('|$)/$1üe$2/
     - xform/([jqxy])v/$1ü/
-  initial_quality: 0.3	# 調整該編譯器出字優先度
+  initial_quality: 0.5	# 調整該編譯器出字優先度
 
 cangjie6:
   dictionary: cangjie6
