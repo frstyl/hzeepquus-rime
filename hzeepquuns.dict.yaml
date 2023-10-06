@@ -2300,7 +2300,7 @@ import_tables:
 祭	tssaert		#ts
 瘵	tssaert
 𨝋	tssaert
-##ROR ROKS RoTS
+##Ror ROKS RoTS
 拜	paurt		#ts
 𢳎	paurt
 𢷎	paurt
@@ -2957,17 +2957,17 @@ import_tables:
 熪	Jjajq
 謻	Jjajq
 𠗺	Jjajq
-絁	sLcjajq
-葹	sLcjajq
-鍦	sLcjajq
-䗐	sLcjajq
-施	sLcjajq
-𢻱	sLcjajq	1
-𢻫	sLcjajq	999
-鍦	sLcjajA
-䗐	sLcjajA
-㒾	sLcjajA
-施	sLcjajA
+絁	Lscjajq
+葹	Lscjajq
+鍦	Lscjajq
+䗐	Lscjajq
+施	Lscjajq
+𢻱	Lscjajq	1
+𢻫	Lscjajq	999
+鍦	LscjajA
+䗐	LscjajA
+㒾	LscjajA
+施	LscjajA
 箷	Jjajq
 𥠥	Jjajq
 暆	Jjajq
@@ -2980,8 +2980,8 @@ import_tables:
 䬁	Jjajq
 蛇	Jjajq	2
 𤜣	dcjajA		#LZ zc-
-弛	sLcjajA
-阤	sLcjajA
+弛	LscjajA
+阤	LscjajA
 𦧇	zLcjajA
 𤜣	zLcjajA
 䄬	Jjajq
@@ -3561,7 +3561,7 @@ import_tables:
 䪎	ssweq
 䭨	ssweq
 䬽	sswej		#䭨
-##WOR WOKS WoTS
+##Wor WOKS WoTS
 㨅	nrworp		#ps ?
 ##WoJ
 薳	qwojA
@@ -8303,7 +8303,7 @@ import_tables:
 𩪍	khcyoq
 𤠾	khrwoq
 貙	khrwoq
-##UOR UOKS UoTS
+##Uor UoKS UoTS
 仆	pFhuosk		#ks o
 䟔	pFhuosk
 訃	pFhuosk
@@ -8361,7 +8361,7 @@ import_tables:
 䓏	pFhuəq		#?
 䎷	pFhuəs	1		#?
 ####əu 侯
-###əU
+###əu
 ## P- ə
 # ##U
 # 𩚭	boovq
@@ -8604,13 +8604,13 @@ import_tables:
 𤀨	Loovs
 𠻛	soovA
 陡	toovA		#走
-走	TSoovA
-走	TSoovs	2
-奏	TSoovs
-𡳡	TSoovs	2
-𡲯	TSoovs
-𢽥	TSoovs
-𡴝	TSoovs
+走	tsoovA
+走	tsoovs	2
+奏	tsoovs
+𡳡	tsoovs	2
+𡲯	tsoovs
+𢽥	tsoovs
+𡴝	tsoovs
 輳	tshoovs
 腠	tshoovs
 湊	tshoovs
@@ -8618,11 +8618,11 @@ import_tables:
 楱	tshoovs
 𧱪	tshoovs
 楱	dzoovs
-緅	TSoovq
-陬	TSoovq
-棷	TSoovq
-掫	TSoovq
-𣠏	TSoovq
+緅	tsoovq
+陬	tsoovq
+棷	tsoovq
+掫	tsoovq
+𣠏	tsoovq
 趣	tshoovA
 棷	tshoovA
 取	tshoovA	1
@@ -8873,7 +8873,7 @@ import_tables:
 𨫒	loovs
 𧫞	loovs
 蔄	loovs		#姓
-##OOR OOKS OoTS?
+##Oor OOKS OoTS?
 鬥	toovsk		#ks
 鬪	toovsk
 鬭	toovsk
@@ -9020,7 +9020,7 @@ import_tables:
 汰	Lshoart
 戻	Lshoart
 泰	Lshoart
-##OR OKS oTS
+##or OKS oTS
 軷	bourt
 𣬪	pourt
 𥄔	pourt
@@ -9058,7 +9058,7 @@ import_tables:
 濊	qsvart
 𢃒	tsvart		#碎ts
 㱻	lvart
-##VOR VOKS VoTS
+##Vor VOKS VoTS
 巜	kqvurt		#巜
 娧	Lshvurt
 蛻	Lshvurt
@@ -9153,7 +9153,7 @@ import_tables:
 快	khqfert
 ##
 䈛	kqfort		#?𨛖
-##FOR FOKS FOTS VRoR
+##For FOKS FOTS VRoR
 啐	tsshfurt
 嘬	tsshfurt
 䴝	tsshfurt
@@ -9193,7 +9193,7 @@ import_tables:
 䮹	Auart
 顪	huart
 砩	pFuart
-##UOR UOKS UoTS
+##Uor UOKS UoTS
 祓	pFuort
 𩵥	bFuort
 鼣	bFuort
@@ -9386,7 +9386,7 @@ import_tables:
 叡	Jqyert
 睿	Jqyert
 壡	Jqyert
-##YOR YOKS YoTS
+##Yor YOKS YoTS
 𠭥	tcyort		#祟
 𢿆	tcyort		#𠭥
 𧑎	tsyort
@@ -12320,20 +12320,22 @@ import_tables:
 𣢜	AxəvA
 幼	Axəvs
 #####-M
-####aM甘
+####OaM甘
 ###aM
+㶒	scoab		#?賞敢切
 ##əM
-䳴	doʌp		#眔
-𦑲	doʌp
-嵌	dzoʌb		#歁
-㟛	dzoʌb
-##
-揜	Aoub		#?合荅
-褡	toup
-鞳	thoup
-塔	thoup
-搭	thoup
-嗒	thoup
+䳴	doəp		#眔
+𦑲	doəp
+嵌	dzoəb		#歁
+㟛	dzoəb
+參	soəm	2
+鬖	soəm
+揜	Aoəb		#?合荅
+褡	toəp
+鞳	thoəp
+塔	thoəp
+搭	thoəp
+嗒	thoəp
 ##oM
 埯	Aoub		#奄
 䨿	dzoup
@@ -12358,8 +12360,6 @@ import_tables:
 笝	noup
 罱	loub		#南
 黲	tshoub
-參	soum	2
-鬖	soum
 囃	tshoup
 𥗭	tshoup
 ##aM
@@ -12817,26 +12817,26 @@ import_tables:
 䲜	Ciap
 覎	Aiaf		#𧠐
 ##IəM?oM
-䱒	Aiop		#?o
-裛	Aiop
-浥	Aiop
-𦤡	Aiop
-衱	kiop		#及
-魥	khiop
-昅	giop
-极	giop
-笈	giop
-㪁	khiom
-㪁	khiof
-𤬯	khiof
-欦	khiob
-𩒣	khiob
+䱒	Aiəp		#?ə
+裛	Aiəp
+浥	Aiəp
+𦤡	Aiəp
+衱	kiəp		#及
+魥	khiəp
+昅	giəp
+极	giəp
+笈	giəp
+㪁	khiəm
+㪁	khiəf
+𤬯	khiəf
+欦	khiəb
+𩒣	khiəb
+袷	kiəp		#合
+跲	kiəp
+㢵	hiəp
+跲	giəp
+㭘	giəp
 ##IoM
-袷	kiop		#合
-跲	kiop
-㢵	hiop
-跲	giop
-㭘	giop
 凵	khiob
 㧄	khiob
 䇜	khiob
@@ -12869,26 +12869,26 @@ import_tables:
 𣃳	Aiob		#奄
 ###UaM
 ##?
-猲	khuap
-姂	khuop
-𠑆	thrxab
-𨇧	thrxab
-𦑣	thrxap
-𣹵	nrxap
-𡷝	nrxap
-䎎	nrxap
-㶒	stcjab		#?
+猲	khuap		#獵誤
+姂	khuop	1	#起法切 赴
+𠑆	thruab		#?
+𨇧	thruab
+𦑣	thruap
+𣹵	nruap
+𡷝	nruap
+䎎	nruap
 ##UaM
 灋	pFuap
 法	pFuap
 𥎰	pFhuap
-𣢲	pFhuam		#?
+𣢲	pFhuam	1		#?
 𦜒	pFuab
 𡕢	mFuab
 錽	mFuab
 𦲯	mFuaf
 𢨔	mFuab
 ##UoM
+姂	pFhuop
 𥁔	pFhuof
 姂	pFhuof
 柉	bFuom
@@ -12920,6 +12920,7 @@ import_tables:
 汎	pFhuəf
 颿	bFuəm
 颿	bFuəf
+𣢲	khuəm	1		#?
 ####eM添
 ###eM
 ##uM
@@ -13001,7 +13002,7 @@ import_tables:
 橝	Leəb
 磹	Leəf
 㜤	neəb
-##eM 談2
+##eM 
 厸	meeb		#?
 𡕢	meeb		#?
 𣯉	deep		#眔deup
@@ -13170,7 +13171,7 @@ import_tables:
 鮎	neem
 䬯	neem
 ###-ReM
-###aM
+###RaM
 𢽝	dzsaem		#會意
 旵	thraeb		#?
 #?o-P
@@ -14249,10 +14250,10 @@ import_tables:
 砧	trxim
 枮	trxim
 ##
-䑣	thrxim		#彡
-𧡬	thrxim
-𧡬	thrxif
-闖	thrxif		#同𧡬?
+䑣	Lshrxim		#彡
+𧡬	Lshrxim
+𧡬	Lshrxif
+闖	Lshrxif		#同𧡬?
 ##XuM
 椹	trxum
 戡	trxub
@@ -14286,34 +14287,34 @@ import_tables:
 廕	Axuf
 𤷜	Axuf
 #
-給	kxup		#合
-湁	thrxup
-翕	hxup
-噏	hxup
-歙	hxup
-𧬈	hxup
-潝	hxup
-熻	hxup
-嬆	hxup
-翖	hxup
-𨝫	hxup
-闟	hxup
-𪅲	hxup
-參	tsshxum
-嵾	tsshxum
-槮	tsshxum
-墋	tsshxub
-醦	tsshxub
-磣	tsshxub
-曑	ssxum
-𠻝	ssxum
-參	ssxum
-蔘	ssxum
-槮	ssxum
-瘮	ssxub
-槮	ssxub
-滲	ssxuf
-𥤇	tsshxum
+給	kxəp		#合
+湁	thrxəp
+翕	hxəp
+噏	hxəp
+歙	hxəp
+𧬈	hxəp
+潝	hxəp
+熻	hxəp
+嬆	hxəp
+翖	hxəp
+𨝫	hxəp
+闟	hxəp
+𪅲	hxəp
+參	tsshxəm
+嵾	tsshxəm
+槮	tsshxəm
+墋	tsshxəb
+醦	tsshxəb
+磣	tsshxəb
+曑	ssxəm
+𠻝	ssxəm
+參	ssxəm
+蔘	ssxəm
+槮	ssxəm
+瘮	ssxəb
+槮	ssxəb
+滲	ssxəf
+𥤇	tsshxəm
 ##XəM
 䛘	nrxəm
 鵀	nrxəm
@@ -14546,7 +14547,7 @@ import_tables:
 卅	soʌp
 嘁	tsoʌp		#尗㗤
 纜	loʌb		#?
-##aM
+##OaM?
 紺	kqoʌf		#甘
 𤯍	khqoʌm
 礏	Cqoʌp
@@ -14573,31 +14574,6 @@ import_tables:
 倓	Loʌb
 𤃨	loʌf
 ##uM OOM
-參	tshoom
-驂	tshoom
-䟃	tshoom
-傪	tshoom
-㜗	tshoom
-慘	tshoob
-黲	tshoob
-㜗	tshoob
-傪	tshoob
-䫩	tshoob
-謲	tshoof
-㽩	tshoof
-參	tshoof
-䟃	tshoop
-㜗	tshoop
-遪	tshoop
-篸	tsoom
-篸	tsoof
-毿	soom
-蔘	soom
-犙	soom
-糝	soob
-𢕕	soob
-槮	soob
-䫩	soob
 #
 南	noom
 𡴖	noom
@@ -14612,6 +14588,31 @@ import_tables:
 男	noəm
 𢕬	soəp
 龖	Loəp
+參	tshoəm
+驂	tshoəm
+䟃	tshoəm
+傪	tshoəm
+㜗	tshoəm
+慘	tshoəb
+黲	tshoəb
+㜗	tshoəb
+傪	tshoəb
+䫩	tshoəb
+謲	tshoəf
+㽩	tshoəf
+參	tshoəf
+䟃	tshoəp
+㜗	tshoəp
+遪	tshoəp
+篸	tsoəm
+篸	tsoəf
+毿	soəm
+蔘	soəm
+犙	soəm
+糝	soəb
+𢕕	soəb
+槮	soəb
+䫩	soəb
 錔	thoəp
 䓠	thoəp
 㛥	thoəp
@@ -14859,6 +14860,63 @@ import_tables:
 𣤊	loəp
 𤛊	loəp
 摺	loəp
+#
+㾑	toəp
+𤝰	toəp
+䶀	thoəp
+佮	thoəp
+𪘁	thoəp
+合	kqoəp		#亼?𠓛?
+閤	kqoəp
+鴿	kqoəp
+敆	kqoəp
+鉿	kqoəp
+鮯	kqoəp
+蛤	kqoəp
+郃	kqoəp
+匌	kqoəp
+頜	kqoəp
+佮	kqoəp
+𣭝	kqoəp
+㭘	kqoəp
+鞈	kqoəp
+韐	kqoəp
+𢂷	kqoəp
+匌	khqoəp
+哈	Cqoəp
+㾑	Cqoəp
+姶	Aoəp
+佮	Aoəp
+欱	hoəp
+㾑	hoəp
+頜	hgoəb
+合	hgoəp
+郃	hgoəp
+䢔	hgoəp
+㭘	hgoəp
+詥	hgoəp
+耠	hgoəp
+𡇶	hgoəp
+𪘁	hgoəp
+𦳬	hgoəp
+盒	hgoəp
+䆟	khqoəp
+畣	toəp
+𨅞	toəp
+撘	toəp
+㯚	toəp
+答	toəp
+褡	toəp
+㜓	toəp
+嗒	toəp
+㿯	toəp
+荅	toəp
+榙	hgoəp
+弇	kqoəm
+媕	Aoəm
+黭	Aoəb
+媕	Aoəp
+鞥	Aoəp
 ##oM OUM
 納	noup
 蒳	noup
@@ -14900,62 +14958,6 @@ import_tables:
 襑	Lshoub
 撏	LZoum
 #
-㾑	toup
-𤝰	toup
-䶀	thoup
-佮	thoup
-𪘁	thoup
-合	kqoup		#亼?𠓛?
-閤	kqoup
-鴿	kqoup
-敆	kqoup
-鉿	kqoup
-鮯	kqoup
-蛤	kqoup
-郃	kqoup
-匌	kqoup
-頜	kqoup
-佮	kqoup
-𣭝	kqoup
-㭘	kqoup
-鞈	kqoup
-韐	kqoup
-𢂷	kqoup
-匌	khqoup
-哈	Cqoup
-㾑	Cqoup
-姶	Aoup
-佮	Aoup
-欱	houp
-㾑	houp
-頜	hgoub
-合	hgoup
-郃	hgoup
-䢔	hgoup
-㭘	hgoup
-詥	hgoup
-耠	hgoup
-𡇶	hgoup
-𪘁	hgoup
-𦳬	hgoup
-盒	hgoup
-䆟	khqoup
-畣	toup
-𨅞	toup
-撘	toup
-㯚	toup
-答	toup
-褡	toup
-㜓	toup
-嗒	toup
-㿯	toup
-荅	toup
-榙	hgoup
-弇	kqoum
-媕	Aoum
-黭	Aoub
-媕	Aoup
-鞥	Aoup
 㧁	kqoup		#?
 㧁	khqoup
 傝	thouf

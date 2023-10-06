@@ -43,7 +43,7 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@pinyin
-    - affix_segmentor@cangjie6
+    - affix_segmentor@cangjie6lookup
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -51,7 +51,9 @@ engine:
     - punct_translator
     - script_translator
     - script_translator@pinyin
+    - script_translator@quanpin
     - table_translator@cangjie6
+    - table_translator@cangjie6lookup
   filters:
     - simplifier
     - uniquifier
@@ -132,33 +134,22 @@ speller:
 ###########
 # # # # # # # 
     - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
-    # - derive/^(F?(PH?|B)|MF?)(?!$)/IP/
-    # - derive/^(ph|p|b|m)(?!$)/IP/
-    # - derive/^(TSSH?|DZZ|T[CR]?H?|D[CR]?|N[RC]?)(?!$)/IT/
-    # - derive/^((th|t|d|n)[rc]?)(?!$)/IT/
-    # - derive/^(T[SZ]H?|D[SZ])(?!$)/ITS/
-    # - derive/^((ts|dz)[sc]?h?)(?!$)/ITS/
-    # - derive/^(NGQ?|HG|K[CQ]?H?|G[C]?|L|X?QZ|XZ|HQ|A)(?!$)/IK/
-    # - derive/^((kh|k|g)(qc)?)(?!$)/IK/
-    # - derive/^(X[SZ]|HZ|XQ|HQ|H)(?!$)/IH/
-    # - derive/^(h)(?!$)/IH/
-    # - derive/^(JX?)(?!$)/IJ/
-    # - derive/^(j)(?!$)/IJ/
-    # - derive/^(S[SZ]|ZS|ZZ|S)(?!$)/IS/
-    # - derive/^(SC|XS)(?!$)/IS/
-    # - derive/^(s[sc]?)(?!$)/IS/
-    # - derive/^(ZC|XZ)(?!$)/Iz/
-    # - derive/^(s?z|z[sc]?)(?!$)/Iz/
-    # - derive/^(L[SZ][RC]?|J)(?!$)/IL/
-    # - derive/^([sz]L|L[sz]c)(?!$)/IL/
-    # - derive/^(RS[RC]?|L)(?!$)/IR/
-    # - derive/^(l)(?!$)/IR/
-    # - derive/^(MS|MF|M)(?!$)/IM/
-    # - derive/^(m)(?!$)/IM/
-    # - derive/^(N[CR]?|[ZC]C|NS[RC]?)(?!$)/IN/
-    # - derive/^(n[rc]?|Nsc)(?!$)/IN/
-    # - derive/^(NGQ?|NGS|CS|C)(?!$)/IC/
-    # - derive/^(sCS?c|sC)(?!$)/IC/
+    # - derive/^(pFh|pF|bF|mF)(?!$)/IF/
+    # - derive/^(pFh|pF|bF|mF|ph|p|b|m)(?!$)/Ip/
+    # - derive/^((th|t|d|n)[rc]?)(?!$)/It/
+    # - derive/^((ts|dz)[sc]?h?)(?!$)/Its/
+    # - derive/^([sz][sz]?)(?!$)/Is/
+  
+    # - derive/^(ngq?|Cq?|kh?[qc]?|gc?|hg)(?!$)/Ik/
+    # - derive/^(x[sz]|hz|xq|hq|h|E|A)(?!$)/Ih/
+
+##
+    # - derive/^(ngq?|Cq?|Cs|kh?[cq]?|gc?|hg|hqz|Xqz|Xq|Xz|qs|Jq|q|h|hq|A|hz|E|[sz][kgC][sc]?)(?!$)/IK/
+    # - derive/^((L(sh)?[rc]?)|(L[sz]c)|[sz]Ls?|J)(?!$)/IL/
+    # - derive/^((R(z|sh))|[sz]R[sz]?|c?l)(?!$)/IR/
+    # - derive/^(h?ms|[sz]m[sz]?|m[sc]c|mF|m)(?!$)/IM/
+    # - derive/^(h?ns|ns?[cr]?|[sz]n[szc]?|n[sz]c)(?!$)/IN/
+    # - derive/^(ngs|ngq?|Cq?|Cs|[sz]Cs?[sc]?)(?!$)/IC/
 # #
     - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U/
     # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/$1U/
@@ -201,7 +192,7 @@ speller:
     - derive/^[nL]sc/sc/
     - derive/^z([nLC]s?|[ptkbdgnmCq])c/zc/
 
-    - derive/^(hms|hns|hxs|hsq|hqs|ngs|CS|ms|qs|xs|hs|sx)/h/
+    - derive/^(hms|hns|hCs|hqs|hxs|hsq|ngs|CS|ms|qs|xs|hs|sx)/h/
     - derive/^(hqz|Xqz|Xq|qz|Xz|X|')/q/
     - derive/^(hzg|E)/g/
 
@@ -322,7 +313,9 @@ speller:
     # - abbrev/^(ng).+$/$1/
 
     # - erase/^[a-z][zhcgqs].+$/
-    # - abbrev/^([a-z])[^zhcgqsrl].*$/$1/ #𥳑
+    # - abbrev/^([a-z])[^szhcgqrl].*$/$1/ #𥳑
+
+    - abbrev/^([a-z])[aeiouvfjyxwə].*$/$1/ #𥳑
 
 translator:
   dictionary: hzeepquuns
@@ -399,13 +392,29 @@ translator:
     - xform/(hqz|Xqz|JXq?|xz|qz|X)/q/
     - xform/ng|C|c($|')/ŋ$1/
     - xform/F//
-    # - xform/([rs])[ptk]$/$1/
+    - xform/([rs])[ptk]$/$1/
   initial_quality: 0.7
 
-pinyin:
+quanpin:
   dictionary: luna_pinyin
   prism: luna_quanpin
   enable_completion: false
+  prefix: ""
+  # suffix: "'"
+  tips: 〔quanpin〕
+  tag: quanpin
+  # closing_tips:
+  # # contextual_suggestions: 
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue('|$)/$1üe$2/
+    - xform/([jqxy])v/$1ü/
+  initial_quality: 0.5
+
+pinyin:
+  dictionary: luna_pinyin
+  prism: luna_pinyin
+  # enable_completion: false
   prefix: "~"
   suffix: "'"
   tips: 〔pinyin〕
@@ -416,9 +425,28 @@ pinyin:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue('|$)/$1üe$2/
     - xform/([jqxy])v/$1ü/
-  initial_quality: 0.5	# 調整該編譯器出字優先度
+  initial_quality: 0.5
 
 cangjie6:
+  dictionary: cangjie6
+  prism: cangjie6
+  enable_charset_filter: false
+  enable_sentence: false
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: false
+  enable_user_dict: false
+  prefix: ""
+  tips: 〔倉頡6〕
+  tag: cangjie6
+  # closing_tips:
+  preedit_format:
+    - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
+  initial_quality: 0.6
+
+cangjie6lookup:
   dictionary: cangjie6
   prism: cangjie6
   enable_charset_filter: false
@@ -430,32 +458,37 @@ cangjie6:
   prefix: "`"
   suffix: "'"
   tips: 〔倉頡6〕
-  tag: cangjie6
+  tag: cangjie6lookup
   # closing_tips:
   preedit_format:
     - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
-  initial_quality: 0.5
+  initial_quality: 0.6
 
-abc_segmentor: #混用 不𥳑拼不連打
-  extra_tags: [pinyin, cangjie6]
+abc_segmentor: #混用 
+  extra_tags: [quanpin, cangjie6]
 
 lookp:
-  tags: [pinyin,cangjie6]
+  tags: [pinyin,cangjie6lookup]
   dictionary: hzeepquuns
   overwrite_comment: false
   comment_format:
-    # - xform/A/ʔ/
-    # - xform/E/ɦ/
-    # - xform/(HNS|HXS|HSQ|HQS|NGS|CS|MS|[XH]S|SX|QS)/h/
-    # - xform/(LZ)/d/
-    # - xform/([LRN]S)/th/
-    # - xform/(HQZ|XQZ|JXQ?|XZ|QZ|X)/q/
-    # - xform/NG|C|c($|')/ŋ$1/
-    # - xform/F//
-    # - xform/([A-Z])/\L\1/
-    # - xform/([rs])[ptk]$/$1/
+    - xform/^s[LRnq]s?/s/
+    - xform/^z[LRnq]s?/z/
+    - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/
+    - xform/^[nL]sc/sc/
+    - xform/^z(ns?|Ls?|Cs?|[ptkbdgnmCq])c/zc/
+    - xform/A/ʔ/
+    - xform/E/ɦ/
+    - xform/(hns|hxs|hsq|hqs|ngs|CS|ms|qs|xs|hs|sx)/h/
+    - xform/(L|Rz)/d/
+    - xform/([LRn]sh)/th/
+    - xform/(hqz|Xqz|JXq?|xz|qz|X)/q/
+    - xform/ng|C|c($|')/ŋ$1/
+    - xform/F//
+    - xform/([rs])[ptk]$/$1/
+
 punctuator:
   import_preset: symbols
 key_binder:
@@ -472,4 +505,4 @@ recognizer:
     # punct: '^/([0-9]0?|[A-Za-z]+)$' #配合symbols.yaml中的特殊字符輸入
     punct: "^/[0-9a-zA-Z]*$" #配合symbols.yaml中的特殊字符輸入
     pinyin: "^~[a-z]*'?$"
-    cangjie6: "^`[a-z]*'?$"
+    cangjie6lookup: "^`[a-z]*'?$"
