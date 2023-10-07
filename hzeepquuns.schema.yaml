@@ -160,12 +160,12 @@ speller:
     # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/$1U$3/
     # - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U$2$3/
 # # ##
-    # - derive/([qAs])$/Uq/
-    # - derive/([jlr])$/Uj/
-    # - derive/([vwy])$/Uv/
-    # - derive/([Cgxk])$/UC/
-    # - derive/([mbfp])$/Um/
-    # - derive/([ndzt])$/Un/
+    - derive/([qAs])$/Uq/
+    - derive/([jlr])$/Uj/
+    - derive/([vwy])$/Uv/
+    - derive/([Cgxk])$/UC/
+    - derive/([mbfp])$/Um/
+    - derive/([ndzt])$/Un/
 
     # - derive/([vq]?[qAs])$/UQ/
     # - derive/(j[qAs]|[jlr])$/UJ/
@@ -321,6 +321,7 @@ translator:
   dictionary: hzeepquuns
   prism: hzeepquuns
   spelling_hints: 10
+  enable_completion: false
   preedit_format:
     - xform/;/ə/
     # - xform/(^|')r/$1th/
@@ -386,10 +387,10 @@ translator:
     - xform/^z(ns?|Ls?|Cs?|[ptkbdgnmCq])c/zc/
     - xform/A/ʔ/
     - xform/E/ɦ/
-    - xform/(hns|hxs|hsq|hqs|ngs|CS|ms|qs|xs|hs|sx)/h/
-    - xform/(L|Rz)/d/
-    - xform/([LRn]sh)/th/
-    - xform/(hqz|Xqz|JXq?|xz|qz|X)/q/
+    - xform/^(hns|hxs|hsq|hqs|ngs|CS|ms|qs|xs|hs|sx)/h/
+    - xform/^([LRn]sh)/th/
+    - xform/^(L|Rz)/d/
+    - xform/^(hqz|Xqz|JXq?|xz|qz|X)/q/
     - xform/ng|C|c($|')/ŋ$1/
     - xform/F//
     - xform/([rs])[ptk]$/$1/
@@ -414,7 +415,6 @@ quanpin:
 pinyin:
   dictionary: luna_pinyin
   prism: luna_pinyin
-  # enable_completion: false
   prefix: "~"
   suffix: "'"
   tips: 〔pinyin〕
@@ -425,7 +425,6 @@ pinyin:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue('|$)/$1üe$2/
     - xform/([jqxy])v/$1ü/
-  initial_quality: 0.5
 
 cangjie6:
   dictionary: cangjie6
@@ -450,11 +449,6 @@ cangjie6lookup:
   dictionary: cangjie6
   prism: cangjie6
   enable_charset_filter: false
-  enable_sentence: false
-  enable_encoder: false
-  encode_commit_history: false
-  # enable_completion: false
-  enable_user_dict: false
   prefix: "`"
   suffix: "'"
   tips: 〔倉頡6〕
@@ -464,9 +458,8 @@ cangjie6lookup:
     - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
-  initial_quality: 0.6
 
-abc_segmentor: #混用 
+abc_segmentor: #混用
   extra_tags: [quanpin, cangjie6]
 
 lookp:
