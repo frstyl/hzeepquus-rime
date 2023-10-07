@@ -192,7 +192,7 @@ speller:
     - derive/^[nL]sc/sc/
     - derive/^z([nLC]s?|[ptkbdgnmCq])c/zc/
 
-    - derive/^(hms|hns|hCs|hqs|hxs|hsq|ngs|CS|ms|qs|xs|hs|sx)/h/
+    - derive/^(hms|hns|hCs|hqs|hxs|hsq|ngs|Cs|ms|qs|xs|hs|sx)/h/
     - derive/^(hqz|Xqz|Xq|qz|Xz|X|')/q/
     - derive/^(hzg|E)/g/
 
@@ -387,7 +387,7 @@ translator:
     - xform/^z(ns?|Ls?|Cs?|[ptkbdgnmCq])c/zc/
     - xform/A/ʔ/
     - xform/E/ɦ/
-    - xform/^(hns|hxs|hsq|hqs|ngs|CS|ms|qs|xs|hs|sx)/h/
+    - xform/^(hns|hxs|hsq|hqs|ngs|Cs|ms|qs|xs|hs|sx)/h/
     - xform/^([LRn]sh)/th/
     - xform/^(L|Rz)/d/
     - xform/^(hqz|Xqz|JXq?|xz|qz|X)/q/

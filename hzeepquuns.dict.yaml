@@ -1950,9 +1950,9 @@ import_tables:
 𣶓	seəl
 洒	seəl
 栖	seər
-𥿳	seər
-細	seər
+𥿳	seər	999
 𣳦	seər
+細	seər
 沴	leər
 ##OəR
 #PS
@@ -4654,7 +4654,7 @@ import_tables:
 𤔲	zLjəq
 辤	zLjəq		#𬔖䇂
 𧉠	tshjəs
-伺	sLjəq
+伺	sLjəq	5
 覗	sLjəq
 𥄶	sLjəq
 司	sLjəq
@@ -4714,12 +4714,13 @@ import_tables:
 鈶	zLjəA
 始	LscjəA		#Ls
 齝	Lscjəq
-𦥓	sLjəq	5
-𢙦	sLjəq	999
-恖	sLjəq
-𢆿	sLjəq	1
-謥	sLjəA
-𧪳	sLjəA	1
+𦥓	sLjəq	9
+𢙦	sLjəq	99
+恖	sLjəq	999
+𢇆	sLjəq	99		#緦𧪳
+𢆿	sLjəq
+𦃞	sLjəq
+𧪳	sLjəA
 思	sLjəq
 罳	sLjəq
 𦋮	sLjəq
@@ -4732,7 +4733,7 @@ import_tables:
 葸	sLjəA
 諰	sLjəA
 恖	sLjəs
-思	sLjəs
+思	sLjəs	5
 蕬	sLjəq
 絲	sLjəq
 𠩺	hsjəq		#R?
@@ -19767,7 +19768,7 @@ import_tables:
 𦥓	sjiz
 𠙷	sjiz
 䪿	sjiz
-顖	sjiz	2
+顖	sjiz
 𦞤	sjiz		#辛
 信	sjiz		#N
 㐰	sjiz
@@ -23610,7 +23611,7 @@ import_tables:
 𥠴	thrxax
 刅	tsshxaC
 𠛂	tsshxaC
-刱	tsshxax
+刱	tsshxax	999
 娘	nrxaC		#女郎
 䖆	nrxax
 釀	nrxax
