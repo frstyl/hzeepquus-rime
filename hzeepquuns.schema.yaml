@@ -243,6 +243,7 @@ speller:
 
     - derive/^msv([ʌəo])/h$1/ #幫組 一三
     - derive/^(ms|ph|p|b|m)F?v([aeiəʌ;x])/\L$1$2/
+    - derive/^(ms|ph|p|b|m)F?i([aeiəʌ;x])/\L$1u$2/
 
     # - derive/^(l)a([aeiouəʌ;])/l$2/
     # - derive/^(l)f/lv/

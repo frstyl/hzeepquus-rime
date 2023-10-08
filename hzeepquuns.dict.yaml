@@ -12882,24 +12882,23 @@ import_tables:
 灋	pFuap
 法	pFuap
 𥎰	pFhuap
-𣢲	pFhuam	1		#?
+𣢲	pFhuam	1		#?反切誤
 𦜒	pFuab
 𡕢	mFuab
 錽	mFuab
 𦲯	mFuaf
 𢨔	mFuab
+姂	pFhuap
+𥁔	pFhuaf
+姂	pFhuaf
+柉	bFuam
+乏	bFuap
+姂	bFuap
+䒦	pFhuam
+䒦	pFhuaf
+泛	pFhuaf
+泛	bFuap
 ##UoM
-姂	pFhuop
-𥁔	pFhuof
-姂	pFhuof
-柉	bFuom
-𣥄	bFuop
-乏	bFuop
-姂	bFuop
-䒦	pFhuom
-䒦	pFhuof
-泛	pFhuof
-泛	bFuop
 氾	pFhuof		#𢎘
 䀀	pFhuof
 𦨲	bFuom
@@ -12924,9 +12923,10 @@ import_tables:
 𣢲	khuəm	1		#?
 ####eM添
 ###eM
-##uM
-##oM
-䱤	kouf
+##
+䱤	keef
+厸	meeb		#?
+𡕢	meab		#?
 ##iM
 墊	teif
 𩅀	teif
@@ -13003,9 +13003,7 @@ import_tables:
 橝	Leəb
 磹	Leəf
 㜤	neəb
-##eM 
-厸	meeb		#?
-𡕢	meeb		#?
+##eM
 𣯉	deep		#眔deup
 䕹	dzeep
 孂	kqeeb
@@ -13835,15 +13833,14 @@ import_tables:
 曅	qxap
 𣋓	qxap
 𣋌	qxap
+𦥘	pxab	99		#貶 集韻悲檢切
+砭	pxam
+貶	pxab
+窆	pxaf
+砭	pxaf
+𪀐	gxap
+𥐗	pxam		#砭
 ##XoM
-𡬯	pxob	1		#貶
-𦥘	pxob
-砭	pxom
-貶	pxob
-窆	pxof
-砭	pxof
-𪀐	gxop
-𥐗	pxom
 淹	Axom
 菴	Axom
 崦	Axom
