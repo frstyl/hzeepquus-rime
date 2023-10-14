@@ -244,7 +244,7 @@ use_preset_vocabulary: true
 敺	Aoow		#毆
 混	kvod		#滾
 聃	toum		#耽
-率	lyut	9		#律
+率	lyut		#律
 # 暖	nvad		#煗㬉
 # 煖	nvad		#煗㬉
 闖	tsshxag		#撞
@@ -618,10 +618,10 @@ use_preset_vocabulary: true
 䆀	moʌj
 # 朏	phoʌj
 #
-黒	HSoək
-𦋎	HSoək
-𭴬	HSoək
-𭻞	HSoək
+黒	hsoək
+𦋎	hsoək
+𭴬	hsoək
+𭻞	hsoək
 # 䵱	hiək
 𮮛	hək
 ###服𦨕
@@ -699,12 +699,12 @@ use_preset_vocabulary: true
 ###𢼸微
 𡵂	muəj
 𡵉	muəj
-𢾰	HSuəj
+𢾰	hsuəj
 𣁋	muəj
-䘗	HSuəj
-𡽪	HSuəj
-𧗼	HSuəj
-𫉪	HSuəj
+䘗	hsuəj
+𡽪	hsuəj
+𧗼	hsuəj
+𫉪	hsuəj
 ###弗
 𩱣	puər
 𩱎	puər
@@ -748,12 +748,12 @@ use_preset_vocabulary: true
 昛	mvər
 𠰌	mvər
 𰮒	mvər
-湏	HSvər
-𬐿	HSvər
-𬜃	HSvər
-𤅚	HSvər
-𤅣	HSvər
-𩒌	HSvər
+湏	hsvər
+𬐿	hsvər
+𬜃	hsvər
+𤅚	hsvər
+𤅣	hsvər
+𩒌	hsvər
 #
 昛	mvər
 𠰌	mvər
@@ -789,10 +789,10 @@ use_preset_vocabulary: true
 #
 桒	muər
 ###卉
-芔	HSuər
-𠦄	HSuər
-𡭛	HSuər
-𰏗	HSuər
+芔	hsuər
+𠦄	hsuər
+𡭛	hsuər
+𰏗	hsuər
 ###奔
 𫬩	pvon
 𫬩	scjaC
@@ -834,10 +834,10 @@ use_preset_vocabulary: true
 #
 𡿶	bvəd
 ###昏
-𣄾	HSvən		#昏
-𣄼	HSvən
-𣋯	HSvən
-𣉈	HSvən
+𣄾	hsvən		#昏
+𣄼	hsvən
+𣋯	hsvən
+𣉈	hsvən
 碈	mxin
 ##勿
 𠞍	muəd
@@ -846,12 +846,12 @@ use_preset_vocabulary: true
 𠯳	muəd
 曶	hvot
 䐇	mjid
-𢑼	HSvət
-𣊸	HSvət
-䝆	HSvət
-𧰮	HSvət
+𢑼	hsvət
+𣊸	hsvət
+䝆	hsvət
+𧰮	hsvət
 ##
-昬	HSvən
+昬	hsvən
 𦝮	muəd
 呡	muəd
 ##
@@ -922,10 +922,10 @@ use_preset_vocabulary: true
 𧹈	bxist
 𤳦	bxist
 ###㞒
-𠫍	HSxist
-𡳻	HSxist
-𠩠	HSxist
-𦤋	HSxist
+𠫍	hsxist
+𡳻	hsxist
+𠩠	hsxist
+𦤋	hsxist
 ###必
 虑	piuk
 秘	pxis
@@ -1327,8 +1327,8 @@ use_preset_vocabulary: true
 杧	moaC
 𧌦	maaC
 𤣴	muag		#1		#王𡈼
-𧧮	HSvaC
-𧨆	HSvaC
+𧧮	hsvaC
+𧨆	hsvaC
 ###喪
 # 𠷔	soax
 𡂧	soaC
@@ -1338,9 +1338,9 @@ use_preset_vocabulary: true
 𦦭	soaC
 𦱺	soaC
 ##㠩
-# 謊	HSuag
-謊	HSvag
-𥞙	HSvaC
+# 謊	hsuag
+謊	hsvag
+𥞙	hsvaC
 ###网
 蛧蜽	muag ljag
 𱺴	muag
@@ -1726,8 +1726,8 @@ use_preset_vocabulary: true
 ###毛
 牦	moav
 𦹾	moay
-耗	HSoay
-㘪	HSoay
+耗	hsoay
+㘪	hsoay
 䚽	hoay
 ###𡕢
 ##
@@ -2211,20 +2211,20 @@ use_preset_vocabulary: true
 𣌭	hgvur
 𣥈	hgvur
 ###毀
-䛼	HSwal
-毁	HSwal		#1	#毀𬛸圼
-毁	HSwar
-𢾌	HSwal
-𣪷	HSwal
-𣫏	HSwal
-𭮳	HSwal
-𭮵	HSwal
-𡢶	HSwal
+䛼	hswal
+毁	hswal		#1	#毀𬛸圼
+毁	hswar
+𢾌	hswal
+𣪷	hswal
+𣫏	hswal
+𭮳	hswal
+𭮵	hswal
+𡢶	hswal
 ###毇
-𥽂	HSwal
-𥼹	HSwal
-𥼹	HSwal
-𭮯	HSwal
+𥽂	hswal
+𥼹	hswal
+𥼹	hswal
+𭮯	hswal
 ###貴䝿
 # 肖
 # 䝿
@@ -2333,9 +2333,9 @@ use_preset_vocabulary: true
 囬	Evoj
 ###戈-j
 牫	koaq
-𩾭	JQyon		#鳶
-𪃘	JQyon
-䳒	JQyon
+𩾭	Jqyon		#鳶
+𪃘	Jqyon
+䳒	Jqyon
 找	EfujA	9		#𢦚
 𰓂	EfujA
 𢦻	EfujA
@@ -2375,26 +2375,26 @@ use_preset_vocabulary: true
 𧈭	Cvot
 #
 ###虫虺
-# 虺	XSuəl
-𧉇	XSuəl
-𩗝	XSuəl
-𮓸	XSuəl
-# 虺	XSfoj
-𧉇	XSfoj
-𩗝	XSfoj
-𮓸	XSfoj
-𡯥尵	XSfoj dvoj
-𧉇𫵒	XSfoj dvoj
-虺𪨇	XSfoj dvoj
+# 虺	Xsuəl
+𧉇	Xsuəl
+𩗝	Xsuəl
+𮓸	Xsuəl
+# 虺	Xsfoj
+𧉇	Xsfoj
+𩗝	Xsfoj
+𮓸	Xsfoj
+𡯥尵	Xsfoj dvoj
+𧉇𫵒	Xsfoj dvoj
+虺𪨇	Xsfoj dvoj
 𩃾	huəj
 ###化
-吪	XSfar
-𠯒	XSfar
+吪	Xsfar
+𠯒	Xsfar
 𠮟	Cqvajq
 𫜸	Cqvajq
 䚰	Cqvajq
-㐶	HSfar
-𠆧	HSfar
+㐶	hsfar
+𠆧	hsfar
 ##花
 芲	hfaq
 𦬳	hfaq
@@ -2948,7 +2948,7 @@ use_preset_vocabulary: true
 嗩	svujA		#1		#八丷
 # 嗩	svujA
 ###叉
-𩉠	TSSHaex
+𩉠	tsshaex
 # 衩	tsshaas
 𥘓	tsshaas
 䟕	tsshaas
@@ -4964,7 +4964,7 @@ use_preset_vocabulary: true
 𢎗	noʌl
 𢎧	noʌl
 𱍹	noʌl
-𣅅	nəA
+𣅅	noəA
 ###尼
 伲	nrxəA		#伱
 抳	nrxeA
@@ -5117,7 +5117,7 @@ use_preset_vocabulary: true
 𠂔	tssxiA
 笫	tssxiA
 胏	tssxiA
-柹	DZZxiA		#枾𣐈柿
+柹	dzsxiA		#枾𣐈柿
 #笫	tssxid		#集韻阻引切
 ##
 𩐒	tseej
@@ -5311,18 +5311,18 @@ use_preset_vocabulary: true
 𠙉	scjəA
 ###𦣝𦣞
 # 𦣝	Jjəq
-㷩	XSiəq
-焈	XSiəq
-# 煕	XSiəq
-熈	XSiəq
-# 𤇴	XSiəq
-𤋮	XSiəq
-𤎹	XSiəq
-𤏁	XSiəq
-𤐤	XSiəq
-凞	XSiəq
-㷗	XSiəq
-𠘕	XSiəq
+㷩	Xsiəq
+焈	Xsiəq
+# 煕	Xsiəq
+熈	Xsiəq
+# 𤇴	Xsiəq
+𤋮	Xsiəq
+𤎹	Xsiəq
+𤏁	Xsiəq
+𤐤	Xsiəq
+凞	Xsiəq
+㷗	Xsiəq
+𠘕	Xsiəq
 姫	kiəq		#1		#𦣞臣姬
 # 茝	thcoʌj
 ##
@@ -5501,8 +5501,8 @@ use_preset_vocabulary: true
 圩	qvioq		#与圬別
 ##
 𬐟	qvioq
-𠳲	XSvioq		#1		#冃
-𠳲	XSvioA
+𠳲	Xsvioq		#1		#冃
+𠳲	XsvioA
 ###夸
 𧥢	khfaq		#誇
 𧩊	khfaq
@@ -7503,16 +7503,16 @@ use_preset_vocabulary: true
 嘆	thoaz
 𣥁	thoaz
 𪇽	thoaz
-㸁	HSoaz
-𣶔	HSoaz
-𤁉	HSoaz
-㵄	HSoaz
-𭲑	HSoaz
-𱦰	HSoaz
-𱧻	HSoaz
-𱨓	HSoaz
-𱩩	HSoaz
-𱩭	HSoaz
+㸁	hsoaz
+𣶔	hsoaz
+𤁉	hsoaz
+㵄	hsoaz
+𭲑	hsoaz
+𱦰	hsoaz
+𱧻	hsoaz
+𱨓	hsoaz
+𱩩	hsoaz
+𱩭	hsoaz
 𪇠	noan
 𪅀	noan
 𨿻	noan
@@ -7873,6 +7873,7 @@ use_preset_vocabulary: true
 # 𣐽	tssxid
 # 𣓀	tssxid
 𡩁	tshjin
+𢀝	sjin
 ###千
 釺	tsheen
 ###冣
@@ -7961,10 +7962,10 @@ use_preset_vocabulary: true
 𱡪	dvad
 ###亘𠄢
 ##宣
-煊	XSuan		#煖
-𩀈	XSuan		#䳦
-𪃗	XSuan
-𮘙	XSuan		#1	諠
+煊	Xsuan		#煖
+𩀈	Xsuan		#䳦
+𪃗	Xsuan
+𮘙	Xsuan		#1	諠
 箮	syen
 𩤡	syen
 𱄨	syen
@@ -8307,7 +8308,7 @@ use_preset_vocabulary: true
 𨍤	hgaat
 ##憲
 𰨚	hgoar
-㦥	XSuan		#愋
+㦥	Xsuan		#愋
 ###舝-害
 𢮟	hgaat
 𭷤	hgaat
@@ -8740,7 +8741,7 @@ use_preset_vocabulary: true
 𣠯	ssfan		#栓
 𢩠	ssfan
 #
-𧑩	XSyed
+𧑩	Xsyed
 𡩲	hqzfan
 𡫖	hqzfan
 𨖞	hqzfan
@@ -8751,8 +8752,8 @@ use_preset_vocabulary: true
 𠎽	gyeC
 𡦃	gyeC
 ###夬-t
-# 𦐋	XSwut
-𦐍	XSwut
+# 𦐋	Xswut
+𦐍	Xswut
 # 吷	hwet
 鴃	kvet
 ##
@@ -9059,18 +9060,18 @@ use_preset_vocabulary: true
 𤇳	hwit
 㤜	hwit
 䬄	hwit
-𦐴	HSQwit		#2
-𣧵	HSQwet
-㤜	HSQwet
+𦐴	hsqwit		#2
+𣧵	hsqwet
+㤜	hsqwet
 𣧵	syit
-# 䎉	XSwut
-# 㤜	XSwut		#㾁
-# 䬄	XSwut		#𩖶
+# 䎉	Xswut
+# 㤜	Xswut		#㾁
+# 䬄	Xswut		#𩖶
 #戉
 𤇦	hyit		#1		#𤇳
-# 䎀	XSwut
-# 怴	XSwut
-# 䬂	XSwut
+# 䎀	Xswut
+# 怴	Xswut
+# 䬂	Xswut
 ###矞
 𭫜	kyit
 𭿷	Jyit
@@ -9091,8 +9092,8 @@ use_preset_vocabulary: true
 𮍲	hxəz
 ###戉
 𧻂	quat
-怴	XSuat
-𣧡	XSuat
+怴	Xsuat
+𣧡	Xsuat
 #
 䞲	quat
 𢦰	quat
@@ -9157,7 +9158,7 @@ use_preset_vocabulary: true
 𤑕	huəz
 勲	huən
 ###𠦪
-𦱧	HSuət		#𠦪
+𦱧	hsuət		#𠦪
 ###𣊡㬎
 韅	heed
 #
@@ -9450,7 +9451,7 @@ use_preset_vocabulary: true
 术	drwut
 𦳯	qwut
 𩖶	syut		#2
-# 䫼	XSwut		#𩖶
+# 䫼	Xswut		#𩖶
 ###朮
 㾁	zcyut		#食聿切 音術
 ###連
@@ -11582,16 +11583,16 @@ use_preset_vocabulary: true
 𩑭	khyeC
 𬿦	khyeC
 𱂔	khyeC
-頴	JQyeg
-𥢙	JQyeg
-𩒠	JQyeg
-𩓙	JQyeg
-𮨍	JQyeg
-𰦠	JQyeg
-𰨔	JQyeg
-𱩤	JQyeg
-𱵜	JQyeg
-𱶥	JQyeg
+頴	Jqyeg
+𥢙	Jqyeg
+𩒠	Jqyeg
+𩓙	Jqyeg
+𮨍	Jqyeg
+𰦠	Jqyeg
+𰨔	Jqyeg
+𱩤	Jqyeg
+𱵜	Jqyeg
+𱶥	Jqyeg
 ###永
 𣱵	qwag
 𬽃	qwag
@@ -14098,8 +14099,8 @@ use_preset_vocabulary: true
 # 汙	Avoq		#1		#亏于亐
 # 汚	Avoq
 # 坙	kqeeC		#1		#工土 巠
-# 毁	XSwal		#1		#毀𬛸圼
-# 毁	XSwar
+# 毁	Xswal		#1		#毀𬛸圼
+# 毁	Xswar
 # 𬛸	neik
 # 揑	neik
 # 湼	neik
@@ -14113,7 +14114,7 @@ use_preset_vocabulary: true
 # 媫	tsjep		#1		#疌
 # 毎	mvəA		#1		#每
 # 寜	neeC		#1		#寧
-# 黒	XSoək		#1		#𡆧田 黑𪐗
+# 黒	Xsoək		#1		#𡆧田 黑𪐗
 # 𤋱	huən		#1		#熏
 # 薫	huəz
 # 薫	huən
@@ -14636,8 +14637,8 @@ use_preset_vocabulary: true
 # 𡊹	Ajin
 # 𡫚	Ajin
 # 𤭾	kcjin
-# 𠳲	XSvioq		#1		#冃
-# 𠳲	XSvioA
+# 𠳲	Xsvioq		#1		#冃
+# 𠳲	XsvioA
 # 㢲	svoz
 # 𢁉	svoz
 # 亁	gxan
@@ -14813,7 +14814,7 @@ use_preset_vocabulary: true
 # 𡚇	Aiaz
 # 䛐	zjəq
 # 吞	thein
-# 暖	XSuan
+# 暖	Xsuan
 #𢻱	Jjes
 #𢻫	Jjes
 # 値	drxək
