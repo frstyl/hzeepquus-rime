@@ -186,11 +186,11 @@ speller:
     - derive/^([LRn]sh)/th/
     - derive/^(C)[cr](.)/n$2/
 
-    - derive/^s[LRnq]s?/s/
-    - derive/^z[LRnq]s?/z/
-    - derive/^s([nLC]s?|[ptkbdgnmCq])c/sc/
+    - derive/^s[LRnmCq]s?/s/
+    - derive/^z[LRnmCq]s?/z/
+    - derive/^s([ptkbdgnmCqL])c/sc/
     - derive/^[nL]sc/sc/
-    - derive/^z([nLC]s?|[ptkbdgnmCq])c/zc/
+    - derive/^z([ptkbdgnmCqL])c/zc/
     - derive/^[nL]zc/zc/
 
     - derive/^(hms|hns|hCs|hqs|hxs|hsq|ngs|Cs|ms|qs|Xs|hs)/h/
@@ -382,8 +382,8 @@ translator:
     # - xform/(.+)H/\L$1ʰ/
     # - xform/([aeiouəʌ;])q($|')/$1 $2/
   comment_format:
-    - xform/^s[LRnq]s?/s/
-    - xform/^z[LRnq]s?/z/
+    - xform/^s[LRnmCq]s?/s/
+    - xform/^z[LRnmCq]s?/z/
     - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/
     - xform/^[nL]sc/sc/
     - xform/^z(ns?|Ls?|Cs?|[ptkbdgnmCq])c/zc/
@@ -470,8 +470,8 @@ lookp:
   dictionary: hzeepquuns
   overwrite_comment: false
   comment_format:
-    - xform/^s[LRnq]s?/s/
-    - xform/^z[LRnq]s?/z/
+    - xform/^s[LRnmCq]s?/s/
+    - xform/^z[LRnmCq]s?/z/
     - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/
     - xform/^[nL]sc/sc/
     - xform/^z(ns?|Ls?|Cs?|[ptkbdgnmCq])c/zc/

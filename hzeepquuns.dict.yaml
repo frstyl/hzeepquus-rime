@@ -2979,7 +2979,7 @@ import_tables:
 詑	Jjajq
 䬁	Jjajq
 蛇	Jjajq	2
-𤜣	dcjajA		#LZ zc-
+𤜣	LcjajA		#LZ zc-
 弛	LscjajA
 阤	LscjajA
 𦧇	zLcjajA
@@ -4681,6 +4681,7 @@ import_tables:
 已	Jjəs	1
 圯	Jjəq
 攺	JjəA
+𢻰	JjəA	99
 巸	Jjəq		#?
 戺	dzsxəA		#rj
 𢨪	dzsxəA
@@ -6990,7 +6991,7 @@ import_tables:
 醧	Aios
 舁	Jjoq
 𠢈	kioA
-杵	thcjoA		#ŊS?
+杵	khcjoA		#K-
 許	CsioA		#Ŋ
 予	Jjoq
 予	JjoA
@@ -7004,14 +7005,14 @@ import_tables:
 𤰩	Jjoq
 伃	Jjoq
 序	zLjoA		#sL?
-𡱣	zLjoA
-𡲁	zLjos		#𡱣 sL予
-𡱣	Jjos
 抒	zLjoA
+𡱣	zLjoA
+𡲁	zLjos		#𡱣 sL- 予
+𡱣	Jjos
 抒	LzcjoA		#L?
 紓	LzcjoA
 杼	LzcjoA
-紓	Lscjoq		#Ls
+紓	Lscjoq		#Ls-
 舒	Lscjoq
 𦺗	Lscjoq
 𨛭	Lscjoq
@@ -7173,7 +7174,7 @@ import_tables:
 如	ncjos
 茹	ncjos
 洳	ncjos
-恕	nscjos
+恕	nscjos		#ns-
 𨚴	ncjoq
 茹	ncjoq
 茹	ncjoA
@@ -7400,7 +7401,6 @@ import_tables:
 䙘	tsshxoA
 樗	thrxoq		#㯉
 摴	thrxoq
-茅	drxoA		#
 菹	tssxoq
 沮	tssxoq
 䶥	tssxoq
@@ -7498,12 +7498,13 @@ import_tables:
 宁	drxoA
 佇	drxoA
 苧	drxoA
-芧	drxoA		#苧
+芧	drxoA		#苧 L-?
 杼	drxoA
 眝	drxoA
 竚	drxoA
 羜	drxoA
 紵	drxoA
+茅	drxoA	0		#苧芧?
 櫥	drxoq
 絮	nshrxos		#NS
 攄	Rshrxoq		#虎
@@ -12510,12 +12511,12 @@ import_tables:
 䑙	nshoam
 𣶞	nshoam
 𨈭	nshoam	1
-聃	nshoam
+聃	nshoam	99
 𦕐	nshoam
-䔜	nshoam
-舑	nshoam
-㘱	nshoam
-㴂	nshoam
+䔜	nshoam	99
+舑	nshoam	99
+㘱	nshoam	99
+㴂	nshoam	99
 𠦃	soap
 卅	soap
 三	soam
@@ -13995,9 +13996,9 @@ import_tables:
 祲	tsjif
 𡎹	dzjim
 埐	dzjim
-溼	sCscjip		#顯sŊ
-濕	sCscjip
-䏉	sCscjip
+溼	sCcjip		#顯sŊ
+濕	sCcjip
+䏉	sCcjip
 隰	zCjip
 #
 侺	dcjəf		#?今?岑sg? dz
@@ -14013,7 +14014,6 @@ import_tables:
 諗	nscjib
 淰	nscjib
 ##JuM
-拾	gcjup
 亼	dzjup		#口
 𠓛	dzjup		#合
 集	dzjup
@@ -14223,6 +14223,7 @@ import_tables:
 汁	kcjəp
 十	gcjəp
 什	gcjəp
+拾	gcjəp
 卌	sjəp
 𠦌	sjəp
 𠦜	sjəp
@@ -16547,6 +16548,11 @@ import_tables:
 鬳	Ciaz
 黦	Aiat
 ###UaN
+##
+韗	huaz		#?
+𦁐	khuat		#屈?
+掘	guat
+䞷	guat
 ##UaN
 髮	pFuat
 𩠖	pFuat
@@ -16738,13 +16744,12 @@ import_tables:
 𨇮	kuat
 闕	khuat
 𡡕	Auat
-韗	huaz
-𦁐	khuat
-掘	guat
-䞷	guat
+藼	qsuan
+蕿	qsuan		#萱
+##
 𣵨	quan
 𧼉	quan
-垣	quan		#?ɢ
+垣	quan		#?ɢ -R
 𩫧	quan
 𬴠	quan
 洹	quan
@@ -16765,8 +16770,6 @@ import_tables:
 𩋢	qsuaz
 烜	qsuad
 暅	qsuad
-藼	qsuan
-蕿	qsuan		#萱
 ##UoN
 㪻	pFhuoz
 㤄	pFhuot
@@ -17379,9 +17382,9 @@ import_tables:
 𢴲	heet
 齧	Cqeet
 𡿖	Cqeet
-楔	seet		#SC
-揳	seet
-偰	seet
+楔	sCeet		#sC
+揳	sCeet
+偰	sCeet
 鍥	kqeet
 𪃈	kqeet
 契	khqeet
@@ -17426,7 +17429,7 @@ import_tables:
 𡾦	Cqeet
 𡴎	Cqeet
 嶭	Cqeet	1
-𨆳	seet		#SC躠
+𨆳	sCeet		#sC躠
 燕	Aeen
 㷼	Aeen
 驠	Aeen
@@ -18458,8 +18461,8 @@ import_tables:
 膳	dcjez
 饍	dcjez
 僐	dcjez
-設	sCscjet		#L- Ŋ
-蔎	sCscjet
+設	sCcjet		#L- Ŋ
+蔎	sCcjet
 紲	sjet	1		#曳-t
 泄	sjet	1
 齛	sjet	1
@@ -23437,6 +23440,7 @@ import_tables:
 放	pFuag
 倣	pFuag
 放	pFuax
+𰕆	pFuax	999
 獷	kuag
 𠏤	kuag
 臦	kuax
