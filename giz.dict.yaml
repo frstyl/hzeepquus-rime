@@ -25,22 +25,25 @@ use_preset_vocabulary: true
 ↗	quəs dcjag
 ↘	quəs hgaaA
 ↙	tsoajA hgaaA
-∩	kaev
-∪	pjex
-∈	dcjok qvioq
+∩	kaev	999
+∪	pjex	999
+∈	tcjok qvioq
+∉	pə tcjok qvioq
 ⊆	hgoʌm qvioq
-∀	dzyon
-∃	quəA
-∄	mvioq
-∅	khouC
+⊊	hgoʌm qvioq
+⊈	pə hgoʌm qvioq
+∀	dzyon	999
+∃	quəA	999
+∄	mvioq	999
+∅	khouC	999
 　	khouC
 ∫	tsjek
 ∫	tsjek puən
 °	doos
 ✓	koov
 ❌	tsshaaj
-√	thoʌj puaC
-×	zcjəC
+√	khoʌj puaC
+×	zcjəC	999
 ¿	muəz
 ∞	mvioq giuC
 #######會意
@@ -56,6 +59,7 @@ use_preset_vocabulary: true
 𢌽	neit bvan
 𢌽	nirvana
 ####合字
+⿱二𠄟	dcjag hgaaA
 𫤜	hioC deer
 𫡡	gxav Jjos
 𣍲	CqooA Cuat nrxoA
@@ -306,7 +310,42 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+㺅子	
+玻瓈	
+劈歷	
+霹靂	
+𧕦圍	
+傢俬	kqaaq sjiq
+佬佬	leev leev
+䱀䰲	
+坱圠	
+佔侸	
+# 什邡	
+婩斫	
+偙儶	
+鸊鷉	
+烏鰂	
+糉子	
+##多音
+万俟	moək giəj
+狋氏	gwen TSjeC
+龜兹	kqviəq TSjəq
+咎䌛	kqouvq DRxəvs		#皋陶
+月氏	Cuat kcjeq
+閼氏	Aeen kcjeq
+單于	dcjan qvioq
+憋怤	pjet phuoq
+嚜杘	miuk thrxis
+嘿𣐉	miuk thrxis
+蠦蜰	looq buəj
+純束	dvon scjok
+校尉	hgaey Auər
+大汗	doar hgoan
+大汗	doar hgoaz
+可汗	khah hgoan
 ##連綿?
+蛧蜽	
+𣫔𣫎	
 𪖷鼼	
 𪖷𪖐	
 𪖛鼼		#鼼𪖐
@@ -373,8 +412,8 @@ use_preset_vocabulary: true
 𥲅箸	
 𥲅䠧	
 躊躇	
-骯髒	
-骯𩪎	
+骯髒	khqoag tsoag		#高亢
+骯𩪎	khqoag moag		#體胖
 骯髒	AoaC tsoaC		#腌臢
 腌臢	
 腌䐶	
@@ -382,6 +421,7 @@ use_preset_vocabulary: true
 # 乓	phaC
 #
 乒乓	pheC phaC
+乒乓	pxaC
 𰍧𰍨	pheC phaC
 淜滂	
 # 旮kaaq
@@ -613,8 +653,6 @@ use_preset_vocabulary: true
 𮎳	miəC
 𣓝	miəC
 ###黑𪐗
-嚜杘	
-嘿𣐉	miuk thrxis
 䆀	moʌr
 䆀	moʌj
 # 朏	phoʌj
@@ -1298,7 +1336,6 @@ use_preset_vocabulary: true
 甏	baax
 蟛	baaC
 ###兵
-乒乓	pxaC
 捠	paeC
 𠡿	pxaC		#兵
 ###㫄旁
@@ -1343,7 +1380,6 @@ use_preset_vocabulary: true
 謊	hsvag
 𥞙	hsvaC
 ###网
-蛧蜽	muag ljag
 𱺴	muag
 𮉽	muag
 𫻬	muag
@@ -1484,7 +1520,6 @@ use_preset_vocabulary: true
 𡶅	phvaq
 ###皮
 𦋕	pxeA
-玻瓈	phvajq leiq
 #
 𤿌	bxajq
 𤿤	bxajq
@@ -1938,8 +1973,6 @@ use_preset_vocabulary: true
 鸊	beek
 鸊	pjek
 躃	bjek
-劈歷	pheek leek
-霹靂	
 #
 𨐝	pjek
 𨐓	pjek
@@ -2022,7 +2055,6 @@ use_preset_vocabulary: true
 # 撇	pheet
 龞	pjet
 ###㡀
-憋怤	pjet phuoq
 𭁭	bjer
 彆	peet
 𥏟	peet
@@ -2600,14 +2632,14 @@ use_preset_vocabulary: true
 𣙛	Jjajq
 𨽋	Jjajq
 𢕷	Jjajq
-#地	djis
+地	djis
 坔	djis
 埅	djis
 埊	djis
 𡍑	djis
 𤅴	djis
 𪒉	djis
-# 地	deer		#集韻 四等
+地	deer		#集韻 四等
 地	Leajs		#也
 𭍽	djis
 𮋭	djis
@@ -2694,8 +2726,6 @@ use_preset_vocabulary: true
 𢋨	drxan
 ###單
 𧔳	doajq
-𧕦圍	
-單于	dcjan qvioq
 𧣨	tcjej		#2
 𧣨	tcjer		#2
 𧣄	tcjej		#2
@@ -2912,6 +2942,9 @@ use_preset_vocabulary: true
 𪗎	tseej
 𧅱	tseej
 ###次
+㰷	tsjijs
+𣣰	tsjijs
+𣧋	tsjijs
 𠤣	tshjis
 𠤫	tshjis
 𣬌	tshjis
@@ -2920,7 +2953,7 @@ use_preset_vocabulary: true
 𣄭	tshjis
 𱤺	tshjis
 ###𧰽
-咒	zjiA
+咒	zjiA	0
 𠒃	zjiA
 𠒊	zjiA
 𠙃	zjiA
@@ -2932,7 +2965,6 @@ use_preset_vocabulary: true
 𰄒	zjiA
 ###厶
 俬	sjiq
-傢俬	kqaaq sjiq
 ###師
 𫡆	ssxiq
 𠵀	ssxiq
@@ -4134,7 +4166,7 @@ use_preset_vocabulary: true
 潲	ssaaw
 𡡏	ssaaw
 ###叜
-{⿳𦥔冖叜}	生尤有九
+{⿳𦥔冖叜}	soovA
 𦦼	ssxuA
 𬜀	ssxuA
 # 𣸈	ssxuA
@@ -4210,7 +4242,6 @@ use_preset_vocabulary: true
 𤲽	kqaey
 𨬛	kqaey
 𨬛	tcjəx
-校尉	hgaey Auər
 𪛀	Eaay
 㝔	Aeey		#𡧮
 𩨟	khqaev
@@ -4576,7 +4607,6 @@ use_preset_vocabulary: true
 𣬃	loav
 𣬇	loav
 ###老
-佬佬	leev leev
 佬	law		#䝤
 姥	law
 荖	loaw
@@ -4584,6 +4614,12 @@ use_preset_vocabulary: true
 𠄰	louvA
 𦒳	louvA
 ###婁
+𡢏	swos
+𢾗	swos
+𢿘	swos
+𣀭	swos
+𫾺	swos
+𭤋	swos
 娄	loov
 𡇔	loov
 𡇭	loov
@@ -5370,7 +5406,6 @@ use_preset_vocabulary: true
 𮓜	hooA
 𰓳	kqfak		#0
 ##慮
-蠦蜰	looq buəj
 櫖	thrxoq
 濾	ljos
 ###午
@@ -5793,8 +5828,6 @@ use_preset_vocabulary: true
 𬝨	Efaq
 ###乙-𠃉
 #
-䱀䰲	
-坱圠	
 𰹈	Aait
 𫭖	Aait
 𢩧	tssait
@@ -6257,7 +6290,6 @@ use_preset_vocabulary: true
 # 斬	tssaaf
 嶄	dzsaeb
 ###占
-佔侸	teem toov
 ##店
 掂	teem
 惦	teef
@@ -6567,7 +6599,6 @@ use_preset_vocabulary: true
 𰢧	dcjub
 ###十
 䦹	tscjup		#十方
-什邡	tscjup puaC
 ###甜-㐁餂
 餂	theib
 餂	theif
@@ -6753,6 +6784,7 @@ use_preset_vocabulary: true
 ##
 㤼	kiap
 ###業
+𡁖	Ciap
 𨼙	Ciap
 ###曅𣋓
 晔	qxap
@@ -7019,6 +7051,7 @@ use_preset_vocabulary: true
 𦣸	laef
 ###兼
 搛	ljem
+賺	ljem
 賺	draef
 搛	keef
 䭑	hgauf		#餡
@@ -7295,7 +7328,6 @@ use_preset_vocabulary: true
 砘	dvoz
 噸	tvon
 # 窀	dfen
-純束	dvon scjok
 𡭻	dvon
 #
 𠄤	dvon
@@ -8136,8 +8168,6 @@ use_preset_vocabulary: true
 𨐋	khxan
 𬔖	khxan		#隸定
 ###干
-大汗	doar hgoan
-大汗	doar hgoaz
 罕	hoad
 罕	hoaz
 䍐	hoad
@@ -8225,7 +8255,6 @@ use_preset_vocabulary: true
 𤘯	khqvad
 ##岸
 婩	Ciak
-婩斫	Ciak tciak
 ###倝
 𠐱	kqoaz
 𣁖	kqoaz
@@ -10072,7 +10101,6 @@ use_preset_vocabulary: true
 # 𠶷
 𥩶	teek
 #
-偙儶	
 𠫜	tees
 𠫦	tees
 𡚙	tees
@@ -10084,7 +10112,6 @@ use_preset_vocabulary: true
 𥊔	hyiA
 𥍋	hyiA
 ###𠂆虒-帝
-鸊鷉	
 𧇬	theeq
 𫳔	sjeq
 𰲚	sjeq
@@ -10329,7 +10356,6 @@ use_preset_vocabulary: true
 䢸	tsjək
 𭅺	tsjək
 ###則
-烏鰂	
 戝	dzoək
 𢨗	dzoək
 𧵪	dzoək
@@ -10610,7 +10636,6 @@ use_preset_vocabulary: true
 𩱛	tsoug
 糭	tsoux
 𡕰	tsouC
-糉子	tsoux tsjəA
 ##宗
 棕	tsouC		#2
 鬃	tsouC		#2
@@ -10752,7 +10777,6 @@ use_preset_vocabulary: true
 # 㮤	zjoC
 淞	zjoC
 忪	souC
-惺忪	
 ##翁
 嗡	AouC
 嗡	Aoug
@@ -11078,17 +11102,21 @@ use_preset_vocabulary: true
 𨍔	kqouk		#轂
 䡰	kqouk
 𣫂	kqouk
-𰚅	kqouk	0
-𣫅	hgouk
-𣪛	khqauk
-𧐜	hgouk
-慤	khqauk
+𰚅	kqouk
+𣫅	hgouk		#觳
+𧐜	hgouk		#螜
+慤	khqauk		#愨
+𢡱	khqauk	9
+𰒍	khqauk
+𰒘	khqauk
+𠹢	houk		#嗀
+殼	khqauk		#㲉意㱿形
 殻	khqauk
-𢡱	khqauk
-殼	khqauk
-𠹢	houk
+𣪛	khqauk
 𣪎	khqauk
 𣪊	khqauk
+𭮰	khqauk
+𰚉	khqauk
 𠕓	khqauk
 ##
 𡠆	khooy
@@ -11541,6 +11569,7 @@ use_preset_vocabulary: true
 𠘄	Ajix		#印
 ###卬
 𠨔	Aiək		#𢑏
+𰻟	Aiək
 ###冰
 𣲝	CxəC
 𱐂	CxəC
@@ -12816,7 +12845,6 @@ use_preset_vocabulary: true
 ###丄
 𠧗	kamisimo
 𠧗	dcjag hgaaA
-⿱二𠄟	dcjag hgaaA
 𫡲	hzaaA
 乤	hzaaA
 ###示
@@ -13440,6 +13468,7 @@ use_preset_vocabulary: true
 ###人
 仏	buət
 侢	tsəs
+㑊	Jjes
 ##人族
 仫	moos
 傣	toʌl
@@ -13667,7 +13696,7 @@ use_preset_vocabulary: true
 ###心
 𢖩	teem
 ##
-恓	tsheiq
+恓	tsheej
 𢤶	khauk
 忑	thoək
 忐	thoab
