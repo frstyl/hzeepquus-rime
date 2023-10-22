@@ -43,7 +43,7 @@ engine:
     - matcher
     - abc_segmentor
     - affix_segmentor@pinyin
-    - affix_segmentor@cangjie6lookup
+    - affix_segmentor@cangjie6_lookup
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -53,12 +53,12 @@ engine:
     - script_translator@pinyin
     - script_translator@quanpin
     - table_translator@cangjie6
-    - table_translator@cangjie6lookup
+    - table_translator@cangjie6_lookup
   filters:
     - simplifier
     - uniquifier
     # - cjk_minifier
-    - reverse_lookup_filter@lookp
+    - reverse_lookup_filter@lookup
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcbaABCDEFGHIJKLMNOPQRSTUVWXYZ;'
@@ -448,14 +448,14 @@ cangjie6:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
   initial_quality: 0.6
 
-cangjie6lookup:
+cangjie6_lookup:
   dictionary: cangjie6
   prism: cangjie6
   enable_charset_filter: false
   prefix: "`"
   suffix: "'"
   tips: 〔倉頡6〕
-  tag: cangjie6lookup
+  tag: cangjie6_lookup
   # closing_tips:
   preedit_format:
     - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
@@ -465,8 +465,8 @@ cangjie6lookup:
 abc_segmentor: #混用
   extra_tags: [quanpin, cangjie6]
 
-lookp:
-  tags: [pinyin,cangjie6lookup]
+lookup:
+  tags: [pinyin,cangjie6_lookup]
   dictionary: hzeepquuns
   overwrite_comment: false
   comment_format:
@@ -502,4 +502,4 @@ recognizer:
     # punct: '^/([0-9]0?|[A-Za-z]+)$' #配合symbols.yaml中的特殊字符輸入
     punct: "^/[0-9a-zA-Z]*$" #配合symbols.yaml中的特殊字符輸入
     pinyin: "^~[a-z]*'?$"
-    cangjie6lookup: "^`[a-z]*'?$"
+    cangjie6_lookup: "^`[a-z]*'?$"
