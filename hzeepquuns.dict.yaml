@@ -3878,6 +3878,37 @@ import_tables:
 履	ljijA		#同泥韻
 𡳐	ljijA
 𩕎	ljijA
+姿	tsjijq
+粢	tsjijq
+𣳩	tsjijq
+恣	tsjijs
+𣣌	tsjijs	99
+趑	tshjijq
+次	tshjijs		#
+𠕞	tshjijs
+䳐	tshjijs
+佽	tshjijs
+絘	tshjijs
+𧊒	tshjijs
+𣣌	tshjijs
+䯸	tshjijs
+茨	dzjijq
+餈	dzjijq
+垐	dzjijq
+瓷	dzjijq
+咨	tsjijq
+諮	tsjijq
+𩜴	dzjijq
+資	tsjijq
+澬	tsjijq
+𩆂	tsjijq
+𧾒	tshjijq
+𡳠	tshjijq
+蠀	tshjijq
+薋	dzjijq
+䆅	dzjijq
+澬	dzjijq
+𩆂	dzjijq
 ##ə?
 夷	Jjəjq		#L
 𡰥	Jjəjq		#夷
@@ -3901,37 +3932,6 @@ import_tables:
 洟	Jjəjq
 𡱐	Jjəjq
 郪	tshjəjq		#妻
-姿	tsjəjq
-粢	tsjəjq
-𣳩	tsjəjq
-恣	tsjəjs
-𣣌	tsjəjs	99
-趑	tshjəjq
-次	tshjəjs		#
-𠕞	tshjəjs
-䳐	tshjəjs
-佽	tshjəjs
-絘	tshjəjs
-𧊒	tshjəjs
-𣣌	tshjəjs
-䯸	tshjəjs
-茨	dzjəjq
-餈	dzjəjq
-垐	dzjəjq
-瓷	dzjəjq
-咨	tsjəjq
-諮	tsjəjq
-𩜴	dzjəjq
-資	tsjəjq
-澬	tsjəjq
-𩆂	tsjəjq
-𧾒	tshjəjq
-𡳠	tshjəjq
-蠀	tshjəjq
-薋	dzjəjq
-䆅	dzjəjq
-澬	dzjəjq
-𩆂	dzjəjq
 𧿲	tcjəjA		#?𧾒𠂔
 姊	tsjəjA
 秭	tsjəjA
@@ -5644,10 +5644,11 @@ import_tables:
 ##VUR VUKS VuTS
 昢	phvort		#ts
 內	nvorp		#ps o?u?
-𨑧	nshvorp		#𢓴 NS
+𨑧	nshvorp	99		#𢓴 NS
+𢓇	nshvorp	99
 退	nshvorp
 𨓤	nshvorp		#ps
-𢓴	nshvorp	999
+𢓴	nshvorp	99
 腿	nshvojA
 骽	thvojA
 對	tvorp		#ps
@@ -6228,6 +6229,11 @@ import_tables:
 楎	huəjq
 㫎	huəjq
 𤟤	huəjq
+歸	kuəjq
+㱕	kuəjq	99
+𠐽	kuəjs
+蘬	khuəjq
+𧢦	khuəjq
 ##
 未	mFuərt
 味	mFuərt
@@ -6237,11 +6243,6 @@ import_tables:
 𡶎	mFuərt
 菋	mFuərt
 ##UUJ VJuJ
-歸	kuujq
-㱕	kuujq	99
-𠐽	kuujs
-蘬	khuujq
-𧢦	khuujq
 騩	kuujq
 鬼	kuujA
 磈	AuujA
