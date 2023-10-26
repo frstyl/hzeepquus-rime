@@ -5644,11 +5644,11 @@ import_tables:
 ##VUR VUKS VuTS
 昢	phvort		#ts
 內	nvorp		#ps o?u?
-𨑧	thvorp		#𢓴 NS
-退	thvorp
-𨓤	thvorp		#ps
-𢓴	thvorp	999
-腿	thvojA
+𨑧	nshvorp		#𢓴 NS
+退	nshvorp
+𨓤	nshvorp		#ps
+𢓴	nshvorp	999
+腿	nshvojA
 骽	thvojA
 對	tvorp		#ps
 𡭊	tvorp
@@ -17063,8 +17063,8 @@ import_tables:
 畇	dein		#地名
 僁	seit
 㴽	seit
-汛	seiz
-軐	seiz
+# 汛	seiz		#卂
+# 軐	seiz
 𥰳	seiz
 蠮	Aeit
 噎	Aeit
@@ -17635,8 +17635,8 @@ import_tables:
 𥮒	dzeen	2		#-m?
 睼	theez		#是-r?
 ###VeN
+蠲	kqven		#-ŋ益血? 溢
 ##ViN
-# 蠲	kqvin		#-ŋ益血
 騤	kqvit
 湀	khqvit
 闋	khqvit		#-v-i-
@@ -19270,6 +19270,31 @@ import_tables:
 ### JiN
 奞	sjiz		#?
 駗	ljin		#駖
+##JeN?
+𢪍	tsjit	2		#尐jet
+𧉍	tsjit	2
+𢷿	tsjit		#截𢧵
+㘍	tsjit
+擮	tsjit
+𡁶	tsjit
+𧾢	kjit
+䟌	kjit
+#
+𢪍	tsjet	2		#尐jet
+𧉍	tsjet	2
+𢷿	tsjet		#截𢧵
+㘍	tsjet
+擮	tsjet
+𡁶	tsjet
+𧾢	kjet
+䟌	kjet
+##
+喞	tsjit
+堲	tsjit		#卽ik
+唧	tsjit
+蝍	tsjit
+楖	tsjit
+揤	dzjit
 ##JəN
 睧	mjən		#昏
 𨌲	mjəd
@@ -19292,12 +19317,6 @@ import_tables:
 胗	kjəd
 𦕑	tcjəd		#聄
 欪	hjət
-喞	tsjət
-堲	tsjət		#卽
-唧	tsjət
-蝍	tsjət
-楖	tsjət
-揤	dzjət
 侲	tcjən
 桭	tcjən
 帪	tcjən
@@ -19590,7 +19609,7 @@ import_tables:
 # 𧼒	gjin
 # 挋	kcjiz
 # 䢻	kcjiz
-# 臣	gcjin		#-ŋ
+# 臣	gcjin		#-ŋ瞋?
 # 茞	gcjin
 # 䢻	gcjin
 # 頣	scjid
@@ -19658,14 +19677,6 @@ import_tables:
 𠹋	dzjit
 𧪠	dzjit
 𤕺	dzjit
-𢪍	tsjit	2		#尐jet
-𧉍	tsjit	2
-𢷿	tsjit
-㘍	tsjit
-擮	tsjit
-𡁶	tsjit
-𧾢	kjit
-䟌	kjit
 津	tsjin
 𣸁	tsjin
 𦘔	tsjin
@@ -19759,34 +19770,34 @@ import_tables:
 䊝	sjit
 僁	sjit
 窸	sjit
-辛	sjin
-薪	sjin
-新	sjin
-𧡿	tshjin
-𡪔	tshjin
-親	tshjin
-寴	tshjin
-寴	tshjiz
-儭	tshjiz
-瀙	tshjiz
-親	tshjiz
-囟	sjiz
-𦥓	sjiz
-𠙷	sjiz
-䪿	sjiz
-顖	sjiz
-𦞤	sjiz		#辛
-信	sjiz		#N
-㐰	sjiz
-訫	sjiz
-阠	scjiz
-卂	sjiz
-訊	sjiz
-訙	sjiz
-迅	sjiz
-汛	sjiz
-𤜢	sjiz
-阠	sjiz
+# 辛	sjin
+# 薪	sjin
+# 新	sjin
+# 𧡿	tshjin
+# 𡪔	tshjin
+# 親	tshjin
+# 寴	tshjin
+# 寴	tshjiz
+# 儭	tshjiz
+# 瀙	tshjiz
+# 親	tshjiz
+# 囟	sjiz
+# 𦥓	sjiz
+# 𠙷	sjiz
+# 䪿	sjiz
+# 顖	sjiz
+# 𦞤	sjiz		#辛
+# 信	sjiz		#N平聲人韻
+# 㐰	sjiz
+# 訫	sjiz
+# 阠	scjiz
+# 卂	sjiz		#ŋ?
+# 訊	sjiz
+# 訙	sjiz
+# 迅	sjiz
+# 汛	sjiz
+# 𤜢	sjiz
+# 阠	sjiz
 𢯼	Jjid
 𢯼	Jjiz
 # 溢	Jjit		#-k
@@ -20428,10 +20439,10 @@ import_tables:
 # 飋	ssxit
 # 璱	ssxit
 # 𦆄	ssxit
-扟	ssxin
-籸	ssxin
-阠	ssxin
-蝨	ssxit
+# 扟	ssxin		#卂
+# 籸	ssxin
+# 阠	ssxin
+# 蝨	ssxit
 駰	Axin
 𪔗	Axin
 紖	drxid
@@ -20440,26 +20451,26 @@ import_tables:
 礩	tcjit
 眹	drxid
 𥆵	drxid
-莘	ssxin		#-ŋ
-甡	ssxin		#莘
-燊	ssxin
-䯂	ssxin		#?驫
-𣘘	ssxin
-𨐔	ssxin
-𦐹	ssxin
-㾕	ssxin
-㜪	ssxin
-𣓀	tssxin		#蓁
-𩺵	ssxin
-𩷔	ssxin
-屾	ssxin
-瀙	tssxin		#-ŋ
-櫬	tsshxiz
-瀙	tsshxiz
-嚫	tsshxiz
-䞋	tsshxiz
-襯	tsshxiz
-儭	tsshxiz
+# 莘	ssxin		#-ŋ
+# 甡	ssxin		#莘
+# 燊	ssxin
+# 䯂	ssxin		#?驫
+# 𣘘	ssxin
+# 𨐔	ssxin
+# 𦐹	ssxin
+# 㾕	ssxin
+# 㜪	ssxin
+# 𣓀	tssxin		#蓁
+# 𩺵	ssxin
+# 𩷔	ssxin
+# 屾	ssxin
+# 瀙	tssxin		#-ŋ
+# 櫬	tsshxiz
+# 瀙	tsshxiz
+# 嚫	tsshxiz
+# 䞋	tsshxiz
+# 襯	tsshxiz
+# 儭	tsshxiz
 鼘	Axin
 塡	trxin
 鎭	trxin
@@ -24388,6 +24399,7 @@ import_tables:
 褮	hqzveC
 檾	khqveg
 ##VeK
+𥒐	hvek
 砉	hvek
 狊	kqvek
 郹	kqvek
@@ -25161,7 +25173,7 @@ import_tables:
 𩪧	bjek
 辟	bjek	2
 𠪮	tcjek
-益	Ajek
+益	Ajek		#ik?
 謚	Ajek
 嗌	Ajek
 𠍳	Ajek
@@ -25920,18 +25932,18 @@ import_tables:
 乘	Lzcjəx
 赩	hiək
 垐	dzjək
-卽	tsjək	999
-即	tsjək	1		#皀𢀳卽
-蝍	tsjək
-楖	tsjək
-𨂢	tsjək
-鯽	tsjək		#鰂
-堲	tsjək
-䐚	tsjək
-唧	tsjək
-𪃹	tsjək
-揤	tsjək
-堲	dzjək
+# 卽	tsjək	999		#卩?ik?
+# 即	tsjək	1		#皀𢀳卽
+# 蝍	tsjək
+# 楖	tsjək
+# 𨂢	tsjək
+# 鯽	tsjək		#鰂
+# 堲	tsjək
+# 䐚	tsjək
+# 唧	tsjək
+# 𪃹	tsjək
+# 揤	tsjək
+# 堲	dzjək
 撜	tcjəg
 證	tcjəx
 稷	tsjək
@@ -28562,6 +28574,8 @@ import_tables:
 勠	ljivk
 ####iŊ
 ###iŊ
+汛	seix		#卂
+軐	seix
 節	tseik		#卩-k
 卪	tseik
 卩	tseik
@@ -28707,6 +28721,37 @@ import_tables:
 ###VRiŊ
 䴳	hqzfik		#
 ###JiŊ
+##
+卽	tsjik	999		#卩?ik?
+即	tsjik	1		#皀𢀳卽
+蝍	tsjik
+楖	tsjik
+𨂢	tsjik
+鯽	tsjik		#鰂
+堲	tsjik
+䐚	tsjik
+唧	tsjik
+𪃹	tsjik
+揤	tsjik
+堲	dzjik
+#
+喞	tsjik
+堲	tsjik		#卽ik
+唧	tsjik
+蝍	tsjik
+楖	tsjik
+揤	dzjik
+##
+益	Ajik		#ik
+謚	Ajik
+嗌	Ajik
+𠍳	Ajik
+𨜶	Ajik
+齸	Ajik
+膉	Ajik
+𦶩	Ajik
+𪕶	Ajik
+##
 玭	bjiC		#
 比	bjik		#
 吡	bjik
@@ -28785,21 +28830,38 @@ import_tables:
 𧀬	sjik
 𠲳	nscjiC
 㑗	nscjiC
-身	nscjiC		#人
+身	nscjiC		#人韻
 人	ncjiC		#?
 朲	ncjiC
 仁	ncjiC
 儿	ncjiC
-# 辛	sjiC		#
-# 薪	sjiC
-# 新	sjiC
-# 親	tshjiC
-# 𡪔	tshjiC
-# 寴	tshjiC
-# 寴	tshjix
-# 儭	tshjix
-# 瀙	tshjix
-# 親	tshjix
+辛	sjiC
+薪	sjiC		#人韻
+新	sjiC
+親	tshjiC
+𡪔	tshjiC
+寴	tshjiC
+寴	tshjix
+儭	tshjix
+瀙	tshjix
+親	tshjix
+囟	sjix
+𦥓	sjix
+𠙷	sjix
+䪿	sjix
+顖	sjix
+𦞤	sjix		#辛
+信	sjix		#N平聲人韻
+㐰	sjix
+訫	sjix
+阠	scjix
+卂	sjix		#ŋ?
+訊	sjix
+訙	sjix
+迅	sjix
+汛	sjix
+𤜢	sjix
+阠	sjix
 溢	Jjik		#
 鎰	Jjik
 齸	Jjik
@@ -28903,25 +28965,29 @@ import_tables:
 飋	ssxik
 璱	ssxik
 𦆄	ssxik
-# 瀙	tssxiC		#
-# 櫬	tsshxix
-# 瀙	tsshxix
-# 嚫	tsshxix
-# 䞋	tsshxix
-# 襯	tsshxix
-# 儭	tsshxix
-# 莘	ssxiC
-# 甡	ssxiC		#莘
-# 燊	ssxiC
-# 䯂	ssxiC		#?驫燊?
-# 𣘘	ssxiC
-# 𨐔	ssxiC
-# 𦐹	ssxiC
-# 㾕	ssxiC
-# 㜪	ssxiC
-# 𣓀	tssxiC
-# 𩺵	ssxiC
-# 𩷔	ssxiC
+扟	ssxiC		#卂
+籸	ssxiC
+阠	ssxiC
+蝨	ssxik
+瀙	tssxiC		#
+櫬	tsshxix
+瀙	tsshxix
+嚫	tsshxix
+䞋	tsshxix
+襯	tsshxix
+儭	tsshxix
+莘	ssxiC
+甡	ssxiC		#莘
+燊	ssxiC
+䯂	ssxiC		#?驫燊?
+𣘘	ssxiC
+𨐔	ssxiC
+𦐹	ssxiC
+㾕	ssxiC
+㜪	ssxiC
+𣓀	tssxiC
+𩺵	ssxiC
+𩷔	ssxiC
 # 屾	ssxiC
 挃	trxik		#
 𨖹	trxik

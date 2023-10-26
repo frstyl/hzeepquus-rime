@@ -351,7 +351,7 @@ translator:
     - xform/^(hns|hxs|hsq|hqs|ngs|Cs|ms|qs|Xs|hs|sx)/h/
     - xform/^([LRn]sh)/th/
     - xform/^(L|Rz)/d/
-    - xform/^(hqz|Xqz|JXq?|xz|qz|X)/q/
+    - xform/^(hqz|Xqz|JXq?|xz|qz|Xz|X)/q/
     - xform/ng|C|c($|')/ŋ$1/
     - xform/F//
     - xform/([rs])[ptk]$/$1/
@@ -439,7 +439,7 @@ lookup:
     - xform/^(hns|hxs|hsq|hqs|ngs|Cs|ms|qs|Xs|hs|sx)/h/
     - xform/^([LRn]sh)/th/
     - xform/^(L|Rz)/d/
-    - xform/^(hqz|Xqz|JXq?|xz|qz|X)/q/
+    - xform/^(hqz|Xqz|JXq?|xz|qz|Xz|X)/q/
     - xform/ng|C|c($|')/ŋ$1/
     - xform/F//
     - xform/([rs])[ptk]$/$1/
