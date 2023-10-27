@@ -69,15 +69,9 @@ speller:
 ##補
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
     # - derive/([\w]v?)o([qhsA])/$1ia$2/
-    # - derive/([\w]o)ov$/$1əuq/ #ov 侯
-    # - derive/([\w]o)ow$/$1əuA/
-    # - derive/([\w]o)oy$/$1əus/
-    # - derive/([\w][ijx])ov$/$1iuq/ #ov 幽
-    # - derive/([\w][ijx])ow$/$1iuA/
-    # - derive/([\w][ijx])oy$/$1ius/
-    # - derive/([\w][ijx])əv$/$1uq/ #ov 尤
-    # - derive/([\w][ijx])əw$/$1uA/
-    # - derive/([\w][ijx])əy$/$1us/
+    - derive/([\w])[o]ov([qAs])$/$1əu$2/ #ov 侯
+    - derive/([\w])[ijx]ov([qAs])$/$1eu$2/ #ov 幽 eu=eiu
+    - derive/([\w])[ijx]əv([qAs])$/$1iu$2/ #ov 尤
 
     # - derive/([\w])vi([ouə])/$1u$2/ #uə
     # - derive/([\w])vx([uə])/$1w$2/ #

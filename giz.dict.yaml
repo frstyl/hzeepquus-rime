@@ -40,7 +40,7 @@ use_preset_vocabulary: true
 ∫	tsjek
 ∫	tsjek puən
 °	doos
-✓	koov
+✓	koovq
 ❌	tsshaajq
 √	khoʌjq puaC
 ×	zcjəC	999
@@ -142,15 +142,15 @@ use_preset_vocabulary: true
 耍	ssfaA
 庍	paes
 𢇩	paes
-𪌜	thoow		#䴺𪌜
+𪌜	thoovA		#䴺𪌜
 ####
-𠙶	Aoow
+𠙶	AoovA
 # 𦫳	kfeA
 # 𦫳	kfaA
 # 𦫳	kfejq
 𰻞	piax
-丟	tiəv
-丢	tiəv		#1
+丟	tiəvq
+丢	tiəvq		#1
 #####同
 𡦀	loag		#朗
 龑	Cqaam		#巖
@@ -188,7 +188,7 @@ use_preset_vocabulary: true
 𢑽	noaq		#𨙻
 𣟎	noaq
 # 㤫
-𦣽	hqzvijs		#惠
+𦣽	hqzvejs		#惠
 #######叚借
 #####
 #####借
@@ -247,7 +247,7 @@ use_preset_vocabulary: true
 𦶎	hfajq		#竵
 𦶎	khqfaq		#𠇗
 𦹬	hfajq		#𦶎竵
-敺	Aoow		#毆
+敺	AoovA		#毆
 混	kvod		#滾
 聃	toum		#耽
 率	lyut		#律
@@ -262,9 +262,9 @@ use_preset_vocabulary: true
 卡	khaaA
 打	taA
 ####誤
-# 厹	ncjuA		#禸
+# 厹	ncjuvA		#禸
 # 萑	hgvan
-# 㢧	kxuq		#𠃚
+# 㢧	kxuvq		#𠃚
 # 夆	hgoar		#𡕗
 # 𢎪	hgvəC
 # 厈	thcjas	1㡿
@@ -329,7 +329,7 @@ use_preset_vocabulary: true
 ##多音
 万俟	moək giəjq
 狋氏	gwen TSjeC
-龜兹	kqviəq TSjəq
+龜兹	kquəq TSjəq
 咎䌛	kqouvq DRxəvs		#皋陶
 月氏	Cuat kcjeq
 閼氏	Aeen kcjeq
@@ -387,7 +387,7 @@ use_preset_vocabulary: true
 蘆菔	
 蘿蔔	
 萊菔	
-次蟗	tshjəs tshjuq
+次蟗	tshjəs tshjuvq
 蜘蛛	
 鼅鼄	
 𡰉𡯗	
@@ -443,7 +443,7 @@ use_preset_vocabulary: true
 醭䤍	phouk meeq
 㱎干	kqvon kqoan
 㑻傄	mait hfit
-佔侸	teem toov
+佔侸	teem toovq
 擸㩑	loap soup
 擸𢶍	loap soup
 拉颯	
@@ -502,14 +502,14 @@ use_preset_vocabulary: true
 # 暮	賜	竇	代	奧	至	豹	祭	隊	葢	內
 # 鐸	錫	屋	職	覺	質	藥	月	物	盇	緝
 ###不
-䍒	buəq
-𣏷	buəq
-㐬	puət
+䍒	biuvq		#罘
+𣏷	biuvq		#罘
+# 㐬	puət
 𠀚	puət
 𠙐	puət
 𫠭	puət
 不	pvət
-怀	phiəy
+怀	phiəvs
 柸	phvojq
 #
 𦈧	pvəq
@@ -517,7 +517,7 @@ use_preset_vocabulary: true
 𠥀	pvəq
 𠤯	pvəq
 #
-雬	phuəA		#𩂆
+雬	phiuvA		#𩂆
 ###否
 ###丕
 胚	phvəq
@@ -540,12 +540,12 @@ use_preset_vocabulary: true
 # 倍	boʌjA
 ###
 # 埠	boos
-𨹺	biəw
-# 阝	biəw
-𠻰	biəw
-# 𠼛	biəw
-# 𨸏	biəw
-𭚖	biəw
+𨹺	biəvA
+# 阝	biəvA
+𠻰	biəvA
+# 𠼛	biəvA
+# 𨸏	biəvA
+𭚖	biəvA
 ###某
 #
 𱥯	mvəq
@@ -556,19 +556,20 @@ use_preset_vocabulary: true
 槑	mvəq
 坆	mvəq
 𣒫	mvəq
+𦋡	moovA
 ###母
-䍒	moow
-𣏷	moow
-𦊏	moow
-𦊋	moow
-𦊎	moow
-𦊧	Eoos
+䍒	moovA
+𣏷	moovA
+𦊏	moovA
+𦊋	moovA
+𦊎	moovA
+𦊧	moovA
 𢮇	moʌjq
 𢯈	moʌjq
-𧰷	moow
+𧰷	moovA
 #
-𠆸	muəA		#侮
-姆	moow
+𠆸	miuvA		#侮
+姆	moovA
 ##每
 霉	mxəjq
 𡴋	mvəA
@@ -579,24 +580,25 @@ use_preset_vocabulary: true
 ###-k
 # 坶	muək		#牧
 ###畞
-畝	moow
-亩	moow
-畂	moow
-畆	moow
-畒	moow
-畮	moow
-㽗	moow
-𠭇	moow
-𢽒	moow
-𤰘	moow
-𤰜	moow
-𤰿	moow
-𤱈	moow
-𤱑	moow
-𤱔	moow
-𰢶	moow
-𰢾	moow
+畝	moovA
+亩	moovA
+畂	moovA
+畆	moovA
+畒	moovA
+畮	moovA
+㽗	moovA
+𠭇	moovA
+𢽒	moovA
+𤰘	moovA
+𤰜	moovA
+𤰿	moovA
+𤱈	moovA
+𤱑	moovA
+𤱔	moovA
+𰢶	moovA
+𰢾	moovA
 ###灰
+𡉄	hvojq		#圣灰
 脄	moʌjs
 ###缶
 𡜊	phoʌjq
@@ -604,8 +606,8 @@ use_preset_vocabulary: true
 缻	EauC
 𭅊	douvq
 𰅤	douvq
-𠙻	piəw
-𬼈	piəw
+𠙻	piəvA
+𬼈	piəvA
 ###仌
 氷	piəC
 ##馮
@@ -699,7 +701,7 @@ use_preset_vocabulary: true
 ###來-麥
 來	loʌjq
 ###畐畗
-冨	puəs
+冨	piuvs
 𭻉	biək
 ###伏
 袱	biuk
@@ -1090,27 +1092,27 @@ use_preset_vocabulary: true
 𡭩	pxut
 ###匹
 ###孚
-泘	biəv
-𣵎	biəv
-𱦒	biəv
-𱦓	biəv
-𢒒	biəv
+泘	biəvq
+𣵎	biəvq
+𱦒	biəvq
+𱦓	biəvq
+𢒒	biəvq
 𰐯	pouvA
 𠊻	pouvA		#𠍂
 𠌀	pouvA		#𠍂
 𣎼	pouvA		#呆𡥀
 ⿰亻𡥀	pouvA
-𤓽	phiəv		#孚
+𤓽	phiəvq		#孚
 抙	bouvq		#捊
 ###矛
-𢦵	miəv
+𢦵	miəvq
 茅	drxoA
-𭿵	miəv
-𭿶	miəv
+𭿵	miəvq
+𭿶	miəvq
 ###敄≠矛
 ###牟
-毪	miəv
-哞	miəv
+毪	miəvq
+哞	miəvq
 ###𢎘㔾犯
 㔾	hgoum		#p-k?
 㔾	phuof
@@ -1175,7 +1177,7 @@ use_preset_vocabulary: true
 咐	puos
 仅	puos	9
 ###武
-鵡	moow
+鵡	moovA
 #
 𢎁	mvioA
 ###无
@@ -1261,7 +1263,7 @@ use_preset_vocabulary: true
 岜	paaq
 筢	baaq
 𩇯	bxis
-𢀼	biəv
+𢀼	biəvq
 𠄧	paaq
 𠀧	paaq
 𣬶	paaq
@@ -1713,8 +1715,8 @@ use_preset_vocabulary: true
 𱧷	phauvq
 𨀓	bauvq
 𩛞	pauvA		#飽
-𦊳	biəv
-𦊦	biəv
+𦊳	biəvq
+𦊦	biəvq
 𠣒	pauvq
 𭁳	pauvq
 𮎛	pauvq
@@ -1742,17 +1744,17 @@ use_preset_vocabulary: true
 𩞛	paaw
 𩜿	paaw
 ###裒
-裦	poov
-襃	poov
-𧚱	poov
-# 𧛙	poov	5
-𧜪	poov
-𧜯	poov
-𧝾	poov
-𬡭	poov
-𮖥	poov
+裦	poovq
+襃	poovq
+𧚱	poovq
+# 𧛙	poovq	5
+𧜪	poovq
+𧜯	poovq
+𧝾	poovq
+𬡭	poovq
+𮖥	poovq
 ###戊
-𭠍	mooy
+𭠍	moovs
 ###猋
 飇	pjev		#飊
 飊	pjev
@@ -2215,21 +2217,21 @@ use_preset_vocabulary: true
 𠚀	khqvojs
 ###㕟
 𥲖	khvojq		#1		#䈛㕟
-𰆉	Cqfojs		#2		#𦖥
+𰆉	Cqfer		#2		#𦖥
 𠜐	khfajs
-欳	khqfojs		#喟
-𢽋	khqfojs
+欳	khqfer		#喟
+𢽋	khqfer
 ##
-𩕕	Cqfojs
-𦗿	Cqfojs		#2
+𩕕	Cqfer
+𦗿	Cqfer		#2
 #
-𠣲	khqfojs		#𦳋蒯
-䓒	khqfojs
-𠣯	khqfojs
-𦬿	khqfojs
-𦮍	khqfojs
-𦰵	khqfojs
-𦹣	khqfojs
+𠣲	khqfer		#𦳋蒯
+䓒	khqfer
+𠣯	khqfer
+𦬿	khqfer
+𦮍	khqfer
+𦰵	khqfer
+𦹣	khqfer
 ###會
 燴	hgvujs
 檜	hgvujs
@@ -2274,19 +2276,19 @@ use_preset_vocabulary: true
 𮙺	kuəjs
 𧷈	kuəjs
 #
-𧞸	zyujs		#1		#襚
+𧞸	zyis		#1		#襚
 #
 𥣧	dvojq
 #
-𧷩	khqfojs
-𧸋	khqfojs
-𨙑	gwujs
-𲆀	gwujs
-𨲿	khwujs
-𨖽	Jyujq
-𨗔	Jyujq
-𨗭	Jyujq
-𨗮	Jyujq
+𧷩	khqfer
+𧸋	khqfer
+𨙑	gwis
+𲆀	gwis
+𨲿	khwis
+𨖽	Jyiq
+𨗔	Jyiq
+𨗭	Jyiq
+𨗮	Jyiq
 𤀭	Evojs
 𫤀	Evojs
 𧗏	Evojs
@@ -2748,28 +2750,28 @@ use_preset_vocabulary: true
 䭾	doaq		#馱
 䭾	doas
 ###叡
-㪫	Jyojs
-㲊	Jyojs
-𠮈	Jyojs
-𠮉	Jyojs
-𠮏	Jyojs
-𢿶	Jyojs
-𡓝	Jyojs
-𧇖	Jyojs
-𣦲	Jyojs
-𣦳	Jyojs
+㪫	Jyer
+㲊	Jyer
+𠮈	Jyer
+𠮉	Jyer
+𠮏	Jyer
+𢿶	Jyer
+𡓝	Jyer
+𧇖	Jyer
+𣦲	Jyer
+𣦳	Jyer
 ##
-𣦒	Jyojs
-𥅵	Jyojs
-𣥸	Jyojs
-𥇨	Jyojs
-𥈠	Jyojs
-𧇖	Jyojs
-𧇗	Jyojs
-𧇩	Jyojs
-𧇪	Jyojs
-𧮲	Jyojs
-𱲲	Jyojs
+𣦒	Jyer
+𥅵	Jyer
+𣥸	Jyer
+𥇨	Jyer
+𥈠	Jyer
+𧇖	Jyer
+𧇗	Jyer
+𧇩	Jyer
+𧇪	Jyer
+𧮲	Jyer
+𱲲	Jyer
 ###䜭-夋
 𧸩	syiz
 䞊	syiz
@@ -2791,21 +2793,21 @@ use_preset_vocabulary: true
 棁	thvut
 棁	thvot
 悦	Jyot
-鋭	Jyojs
+鋭	Jyer
 閲	Jyot
 説	Jyot
 説	scyot
 蜕	Jyot
 蜕	thvojs
-税	scyojs
+税	scyer
 捝	thvut
 捝	dvut
-涚	scyojs
+涚	scyer
 𣮆	thvus		#毤
 毻	thvaq
 #
 兊	dvujs		#兌
-哾	scyojs
+哾	scyer
 ###𨼰
 媠	thvaA
 ###夷
@@ -3151,9 +3153,9 @@ use_preset_vocabulary: true
 𢃹	Jyid
 ###臼
 嚿	Efak		#嚄𡄴
-𦾔	giəy		#1		#臼旧
-𠢎	giəw
-桕	giəw
+𦾔	giəvs		#1		#臼旧
+𠢎	giəvA
+桕	giəvA
 ###季
 𡥞	kyijs
 𧇯	kyijs		#𧆰
@@ -3207,9 +3209,9 @@ use_preset_vocabulary: true
 𭥎	kcjiA
 ##耆
 ###咎
-𠧨	giəw
-𰇌	giəw
-𣓌	giəw
+𠧨	giəvA
+𰇌	giəvA
+𣓌	giəvA
 #
 𡅦	kqouv		#鼛
 𪔌	kqouv
@@ -3668,44 +3670,44 @@ use_preset_vocabulary: true
 𦇨	douvs
 𦑢	douvs
 𱵸	touvA
-𠋮	dcjuA		#壽
-𩳺	thcjuq		#醜魗
+𠋮	dcjuvA		#壽
+𩳺	thcjuvq		#醜魗
 ##
 #
-𫜷	dcjuq	0
+𫜷	dcjuvq	0
 #
 𦦾	touw		#搗擣
 𦦰	touw
-㿧	drxuq
-嚋	drxuq
+㿧	drxuvq
+嚋	drxuvq
 瓙	douvs
 #
-𧪀	trxuq		#⿰言𠃬
+𧪀	trxuvq		#⿰言𠃬
 𥛈	touvA		#𥙸
 #
-𠃬	drxuq	5		#𠷎𤲮
-𣪐	dcjuq	5
-𡕪	drxuq
+𠃬	drxuvq	5		#𠷎𤲮
+𣪐	dcjuvq	5
+𡕪	drxuvq
 𣵬	douvq	5
 # 𦒇	douvs		#𦒯𦒛?𦒫𦒞
 𥙸	touvA	5
 𮪇	touvA	5
-𠭵	drxuq	5		#𠼡
-𥲅	drxuq
+𠭵	drxuvq	5		#𠼡
+𥲅	drxuvq
 #
-𢄛	drxuq		#𢅂
-𨢫	dcjuq		#𨣊?
+𢄛	drxuvq		#𢅂
+𨢫	dcjuvq		#𨣊?
 𦒞	douvs
 𦒫	douvs
 #
 𨮩	tcyos
 #
 𥛇	touvA
-𤲮	drxuq
+𤲮	drxuvq
 𩤫	touvA
 #
 𥜣	touvA
-𢢧	dcjuq
+𢢧	dcjuvq
 𦦺	touvA
 𢶈	touvA
 𡑏	touvA
@@ -3716,29 +3718,29 @@ use_preset_vocabulary: true
 𩘿	douvq
 𣾭	douvq		#
 𣚑	douvq		#饕餮
-𢿟	dcjuq
-𣪾	dcjuq
-𢿟	dcjuq
-𦓃	dcjuA		#?𠃬
-𤩈	dcjuA
+𢿟	dcjuvq
+𣪾	dcjuvq
+𢿟	dcjuvq
+𦓃	dcjuvA		#?𠃬
+𤩈	dcjuvA
 𦒛	douvs
-𠾉	drxuq
-𤾦	drxuq
+𠾉	drxuvq
+𤾦	drxuvq
 𩦑	touvA
 𤛴	thouvq
 𢅱	douvs
-𰣚	drxuq
-𠼡	drxuq
-𤾊	drxuq		#𠼡𠷎
-𠷎	drxuq
-𠍻	drxuq
-𣚑	drxuq
-𢅂	drxuq
-𦺚	drxuq
-𪆇	drxuq
-𨅡	drxuq
-𩘿	drxuq
-𤺜	drxus
+𰣚	drxuvq
+𠼡	drxuvq
+𤾊	drxuvq		#𠼡𠷎
+𠷎	drxuvq
+𠍻	drxuvq
+𣚑	drxuvq
+𢅂	drxuvq
+𦺚	drxuvq
+𪆇	drxuvq
+𨅡	drxuvq
+𩘿	drxuvq
+𤺜	drxuvs
 ##
 𨮩	tcyos
 𨮚	tcyos
@@ -3747,22 +3749,22 @@ use_preset_vocabulary: true
 𨮾	tcyos
 𫟱	tcyos
 𮣑	tcyos
-𠃬	drxuq	5		#𠃬𢏚 𢄛 弓匚コ口
-𢏚	drxuq	5		#𤾊 疇
-𤲮	drxuq	5
-𣋬	drxuq
-𤳠	drxuq
-𱰿	drxuq
-{⿴⿷𫸧匚コ}	drxuq
-𠰟	drxuq
-𢑔	drxuq
-𢑜	drxuq
-籌	drxuq
-𥴳	drxuq
-𢤉	drxuq
-𢥰	drxuq
-𥵽	drxuq
-𥲅	drxuq
+𠃬	drxuvq	5		#𠃬𢏚 𢄛 弓匚コ口
+𢏚	drxuvq	5		#𤾊 疇
+𤲮	drxuvq	5
+𣋬	drxuvq
+𤳠	drxuvq
+𱰿	drxuvq
+{⿴⿷𫸧匚コ}	drxuvq
+𠰟	drxuvq
+𢑔	drxuvq
+𢑜	drxuvq
+籌	drxuvq
+𥴳	drxuvq
+𢤉	drxuvq
+𢥰	drxuvq
+𥵽	drxuvq
+𥲅	drxuvq
 𦒞	douvs
 𦒫	douvs
 𦒯	douvs
@@ -3780,56 +3782,56 @@ use_preset_vocabulary: true
 𮖻	touvA
 𱵧	touvA
 𤩉	dcjuk
-夀	dcjuA		#1		#壽
-# 𠋮	dcjuA
-𡔺	dcjuA
-𡔽	dcjuA
-𡭏	dcjuA
-𦓆	dcjuA	99		#?工コ
-𧈙	dcjuA
-# 耉	dcjuA		#耇
-𤕋	dcjuA
-𦓂	dcjuA
-𦓃	dcjuA		#工
-𱻩	dcjuA
-𱻫	dcjuA
-𱻬	dcjuA
-𱻮	dcjuA
-夀	dcjuA
-寿	dcjuA
-𡔽	dcjuA
-𡭏	dcjuA
-𭉠	dcjuA
-𭐖	dcjuA
-𭐙	dcjuA
-𲅟	dcjuA
+夀	dcjuvA		#1		#壽
+# 𠋮	dcjuvA
+𡔺	dcjuvA
+𡔽	dcjuvA
+𡭏	dcjuvA
+𦓆	dcjuvA	99		#?工コ
+𧈙	dcjuvA
+# 耉	dcjuvA		#耇
+𤕋	dcjuvA
+𦓂	dcjuvA
+𦓃	dcjuvA		#工
+𱻩	dcjuvA
+𱻫	dcjuvA
+𱻬	dcjuvA
+𱻮	dcjuvA
+夀	dcjuvA
+寿	dcjuvA
+𡔽	dcjuvA
+𡭏	dcjuvA
+𭉠	dcjuvA
+𭐖	dcjuvA
+𭐙	dcjuvA
+𲅟	dcjuvA
 #
 ###雔
-讐	dcjuq
-𫌵	dcjuq
+讐	dcjuvq
+𫌵	dcjuvq
 ###帚
-𭘒	tcjuA
-###州# 咒	tcjus		#詶
-㖄	tcjuq
+𭘒	tcjuvA
+###州# 咒	tcjuvs		#詶
+㖄	tcjuvq
 #
-刕	tcjuq
-𠃔	tcjuq
-# 𠃕	tcjuq
-𠄓	tcjuq
-𠚴	tcjuq
-𠛏	tcjuq
-𢏝	tcjuq
-𣧓	tcjuq
-𭘀	tcjuq
+刕	tcjuvq
+𠃔	tcjuvq
+# 𠃕	tcjuvq
+𠄓	tcjuvq
+𠚴	tcjuvq
+𠛏	tcjuvq
+𢏝	tcjuvq
+𣧓	tcjuvq
+𭘀	tcjuvq
 ###𠦝朝
 𣶃	drxev
 𠦝	trxev		#日屮
 𣶃	drxev
 ###舟
 #
-丹	tcjuq
-𠔾	tcjuq
-𣍝	tcjuq
+丹	tcjuvq
+𠔾	tcjuvq
+𣍝	tcjuvq
 䢁	trxev
 # 𣎍	trxev
 𨊸	trxev
@@ -3837,20 +3839,20 @@ use_preset_vocabulary: true
 𱼿	trxev
 𱽀	trxev
 ##受
-𬗾	dcjuA
-𠭧	dcjuA
-𡬳	dcjuA		#受
-𣄁	dcjuA		#東觀餘論
+𬗾	dcjuvA
+𠭧	dcjuvA
+𡬳	dcjuvA		#受
+𣄁	dcjuvA		#東觀餘論
 ###周
-週	tcjuq		#周
+週	tcjuvq		#周
 碉	teev
 #
-𠱬	tcjuq
-𠕛	tcjuq
+𠱬	tcjuvq
+𠕛	tcjuvq
 # 𠣘	tcju
-賙	tcjuq
-淍	tcjuq
-週	tcjuq
+賙	tcjuvq
+淍	tcjuvq
+週	tcjuvq
 ###鬧𱜢
 閙	nraay
 𢂂	nraay
@@ -3923,8 +3925,8 @@ use_preset_vocabulary: true
 穤	nvas
 懦	nvas
 糯	nvas
-𩆟	noov
-㝹	noov		#䨲
+𩆟	noovq
+㝹	noovq		#䨲
 ###須
 䋶	syoA		#𦄼
 # 𦄼	sjos		#宣遇切
@@ -3938,7 +3940,7 @@ use_preset_vocabulary: true
 𥽾	tsoav
 # 𠑤	dzouvq
 # 𡅰	dzouvq
-# 𢥱	zjuq
+# 𢥱	zjuvq
 # 𤅍	dzouvq
 # 𣡘	dzouvq
 # 𧅝	dzouvq
@@ -3968,7 +3970,7 @@ use_preset_vocabulary: true
 䒑	tshouvA
 𢂉	tshouvA
 𰏒	tshouvA
-𦵩	dzjuq
+𦵩	dzjuvq
 𨒽	soaq
 𨒽	dzoaw
 ###早
@@ -3990,7 +3992,7 @@ use_preset_vocabulary: true
 𠟿	tsjew
 ###喿
 𢻥	tshoav
-操	soow
+操	soovA
 𠟯	tsjew
 懆	tshoay
 ###騷蚤
@@ -4013,7 +4015,7 @@ use_preset_vocabulary: true
 𤔢	souvq
 掻	souvq
 ###肅
-鏽	sjus
+鏽	sjuvs
 ##蕭
 瀟	seev
 蠨	seev
@@ -4055,87 +4057,87 @@ use_preset_vocabulary: true
 𦖂	leev
 𦕵	leev		#𦕼
 ##畱留
-𫽠	thrxuq
-𭡼	thrxuq
-𦠝	ljuq
+𫽠	thrxuvq
+𭡼	thrxuvq
+𦠝	ljuvq
 #
-𠭱	ljuq		#1		#劉
-𠞑	ljuq
-刘	ljuq
-𠞑	ljuq
-𠭱	ljuq
-𡭀	ljuq
-𡭈	ljuq
-𭄘	ljuq
+𠭱	ljuvq		#1		#劉
+𠞑	ljuvq
+刘	ljuvq
+𠞑	ljuvq
+𠭱	ljuvq
+𡭀	ljuvq
+𡭈	ljuvq
+𭄘	ljuvq
 #
-畄	ljuq
-㽖	ljuq
-㽞	ljuq
-𤰛	ljuq
-𤱊	ljuq
-𤲢	ljuq
-𪽋	ljuq
-𬎿	ljuq
-𭻌	ljuq
-𭻍	ljuq
-𭻏	ljuq
-𰢴	ljuq
-𰣃	ljuq
-𱰯	ljuq
-𱰴	ljuq
-𱰵	ljuq
-𥜑	ljus
-𰨏	ljus
-𰨑	ljus
+畄	ljuvq
+㽖	ljuvq
+㽞	ljuvq
+𤰛	ljuvq
+𤱊	ljuvq
+𤲢	ljuvq
+𪽋	ljuvq
+𬎿	ljuvq
+𭻌	ljuvq
+𭻍	ljuvq
+𭻏	ljuvq
+𰢴	ljuvq
+𰣃	ljuvq
+𱰯	ljuvq
+𱰴	ljuvq
+𱰵	ljuvq
+𥜑	ljuvs
+𰨏	ljuvs
+𰨑	ljuvs
 ###酉
-# 丣	JjuA		#酉
-𠖋	JjuA
-𬻕	JjuA
-𥟁	JjuA
-𤍕	Jjus
-𤠁	Jjuq
-𰡝	Jjuq
-𱮓	Jjuq
+# 丣	JjuvA		#酉
+𠖋	JjuvA
+𬻕	JjuvA
+𥟁	JjuvA
+𤍕	Jjuvs
+𤠁	Jjuvq
+𰡝	Jjuvq
+𱮓	Jjuvq
 ##酋
-鰌	tshjuq
-𪓵	tshjuq		#𪓰鼀
-𫜟	tshjuq
-𦖣	tshjuq		#䎿
-𧔭	tshjuq		#1		#?
-𧍾	tshjuq
-𧏋	tshjuq
-𤡽	Jjuq
-𱮁	Jjuq
+鰌	tshjuvq
+𪓵	tshjuvq		#𪓰鼀
+𫜟	tshjuvq
+𦖣	tshjuvq		#䎿
+𧔭	tshjuvq		#1		#?
+𧍾	tshjuvq
+𧏋	tshjuvq
+𤡽	Jjuvq
+𱮁	Jjuvq
 ###秋秌鼀
-𤇫	tshjuq		#秌
-𥝛	tshjuq
-𥝚	tshjuq
-𥤛	tshjuq		#1		#秋秌
-𪚼	tshjuq
-龝	tshjuq
-𪔁	tshjuq
-𥤚	tshjuq
-𥤠	tshjuq
-𪺋	tshjuq
-𱶩	tshjuq
-𥡄	tshjuq
-𥡌	tshjuq
-𥣨	tshjuq
-穐	tshjuq
-𪛁	tshjuq
-𧇸	tshjuq
+𤇫	tshjuvq		#秌
+𥝛	tshjuvq
+𥝚	tshjuvq
+𥤛	tshjuvq		#1		#秋秌
+𪚼	tshjuvq
+龝	tshjuvq
+𪔁	tshjuvq
+𥤚	tshjuvq
+𥤠	tshjuvq
+𪺋	tshjuvq
+𱶩	tshjuvq
+𥡄	tshjuvq
+𥡌	tshjuvq
+𥣨	tshjuvq
+穐	tshjuvq
+𪛁	tshjuvq
+𧇸	tshjuvq
 㾭	tssaay
-瞅	tsshxuA
+瞅	tsshxuvA
 鍬	tshjev
-鬏	tsjuq		#𩭓
-揪	tsjuq		#揫
-𫆉	tsjuq		#䎿
-𨺹	tsjuq		#
-𪃩	tshjuq		#鶖
-𩹤	tshjuq
-𰂵	dzsxuq		#愁僽
-𤬬	dzsxuq		#甃
-𨡲	tsshxuq
+鬏	tsjuvq		#𩭓
+揪	tsjuvq		#揫
+𫆉	tsjuvq		#䎿
+𨺹	tsjuvq		#
+𪃩	tshjuvq		#鶖
+𩹤	tshjuvq
+𰂵	dzsxuvq		#愁僽
+𤬬	dzsxuvq		#甃
+𨡲	tsshxuvq
 ###𪚰
 𤒅	tsjev
 𪚱	tsjev
@@ -4169,36 +4171,36 @@ use_preset_vocabulary: true
 𡡏	ssaaw
 ###叜
 {⿳𦥔冖叜}	soovA
-𦦼	ssxuA
-𬜀	ssxuA
-# 𣸈	ssxuA
+𦦼	ssxuvA
+𬜀	ssxuvA
+# 𣸈	ssxuvA
 𢾐	ssaaw
 𥔑	seew
 #
-嗖	ssxus
-鎪	soov
+嗖	ssxuvs
+鎪	soovq
 搜	ssaaw
 𥕋	seew
-痩	ssxus		#1		#叜叟
-捜	ssxuq
+痩	ssxuvs		#1		#叜叟
+捜	ssxuvq
 #叜
 𥔉	seew
-䤇	sjuA		#1		#叜叟
-𠊯	soow
-𥈃	soow
-𠷃	ssxus
+䤇	sjuvA		#1		#叜叟
+𠊯	soovA
+𥈃	soovA
+𠷃	ssxuvs
 #
-𠌞	soow
-𠌟	soow
-𠬲	soow
-𡨝	soow
-𡨨	soow
-𡨼	soow
-𫣋	soow
-𭆪	soow
-𮍧	soow
-𠌌	soow
-𧨠	soow
+𠌞	soovA
+𠌟	soovA
+𠬲	soovA
+𡨝	soovA
+𡨨	soovA
+𡨼	soovA
+𫣋	soovA
+𭆪	soovA
+𮍧	soovA
+𠌌	soovA
+𧨠	soovA
 ###叟
 #
 𪄑	sjuk		#鷫
@@ -4223,9 +4225,9 @@ use_preset_vocabulary: true
 𭀡	drxew
 𰃊	drxew
 ###芻
-𩣿	tssxuq
-𩤍	tssxuq
-𱄜	tssxuq
+𩣿	tssxuvq
+𩤍	tssxuvq
+𱄜	tssxuvq
 㥮	tsshaaw
 ###笑
 #
@@ -4252,6 +4254,7 @@ use_preset_vocabulary: true
 餃	kaaw
 咬	Caew		#齩
 㬵	kqaev		#月交
+挍	kaey		#較校
 ###囂
 ###号
 号	Eoav
@@ -4431,46 +4434,46 @@ use_preset_vocabulary: true
 勎	ljuk
 ###丩
 #
-𠮪	kqeəy
-𢎥	kxəw
-𧺇	kxəw
-𧺈	kxəw
-𧺯	kxəw
-虬	gxəv
-𠛿	gxəv
-𧢳	gxəv
-𧾹	gxəy
-𧿀	gxəy
-𤴥	kxəv
-𤴪	kxəv
-𤴮	kxəv
+𠮪	kqeəvs
+𢎥	kxəvA
+𧺇	kxəvA
+𧺈	kxəvA
+𧺯	kxəvA
+虬	gxəvq
+𠛿	gxəvq
+𧢳	gxəvq
+𧾹	gxəvs
+𧿀	gxəvs
+𤴥	kxəvq
+𤴪	kxəvq
+𤴮	kxəvq
 臫	kxew		#1		#𥃧
 𥃤	kxew
 𦬥	kiəvq		#1		#𦫶
 𦭋	kiəvq
 𦭺	kiəvq
 𦫷	kiəvq
-𦮁	kxəv		#1		#𦱠
-𦱲	kxəv
-𦽬	kxəv
-𣎹	kiəv		#1		#朻
+𦮁	kxəvq		#1		#𦱠
+𦱲	kxəvq
+𦽬	kxəvq
+𣎹	kiəvq		#1		#朻
 𠂈	kiəvq		#1		#丩
 𠃖	kiəvq
 # 𠃚	kiəvq
 𠖬	kiəvq
 𠃏	kiəvq
-乣	kxəv
-糺	kxəv		#1		#糾
-紏	kxəv
-𠛩	kxəv
-𠜉	kxəv
-𠞎	kxəv
-𤉥	kxəv
-𤓱	kxəv
-𫃚	kxəv
-𪖐	Cqeəy
-𪖑	Cqeəy
-𪖘	Cqeəy
+乣	kxəvq
+糺	kxəvq		#1		#糾
+紏	kxəvq
+𠛩	kxəvq
+𠜉	kxəvq
+𠞎	kxəvq
+𤉥	kxəvq
+𤓱	kxəvq
+𫃚	kxəvq
+𪖐	Cqeəvs
+𪖑	Cqeəvs
+𪖘	Cqeəvs
 芁	kiəvq
 収	scjəvq
 𠬧	scjəvq
@@ -4529,10 +4532,10 @@ use_preset_vocabulary: true
 𦯝	tsjev
 ###肘
 ###丑
-𠃠	thrxuA
-丒	thrxuA		#1		#丑
-侴	thrxuA
-吜	thrxuA
+𠃠	thrxuvA
+丒	thrxuvA		#1		#丑
+侴	thrxuvA
+吜	thrxuvA
 𩪕	Coav
 #
 衂	nrxuk
@@ -4554,12 +4557,12 @@ use_preset_vocabulary: true
 岰	Aaay
 𡛙㒟	Aeew neew
 #
-糼	Axoy
-㓜	Axoy
-𠣎	Axoy
-𢆱	Axoy
-𢈗	Axoy
-𢆲	Axoy
+糼	Axovs
+㓜	Axovs
+𠣎	Axovs
+𢆱	Axovs
+𢈗	Axovs
+𢆲	Axovs
 ###要
 崾	Ajew
 𠾅	Ajev
@@ -4612,7 +4615,7 @@ use_preset_vocabulary: true
 佬	loaw		#䝤
 姥	loaw
 荖	loaw
-荖	boov
+荖	boovq
 𠄰	louvA
 𦒳	louvA
 ###婁
@@ -4622,18 +4625,18 @@ use_preset_vocabulary: true
 𣀭	swos
 𫾺	swos
 𭤋	swos
-娄	loov
-𡇔	loov
-𡇭	loov
-𡜰	loov
-𡜸	loov
-𡝤	loov
-𡝨	loov
-𡞔	loov
-𡡋	loov
-𡡼	loov
-𣫻	loov
-𱼰	loov
+娄	loovq
+𡇔	loovq
+𡇭	loovq
+𡜰	loovq
+𡜸	loovq
+𡝤	loovq
+𡝨	loovq
+𡞔	loovq
+𡡋	loovq
+𡡼	loovq
+𣫻	loovq
+𱼰	loovq
 𢿙	sswos
 𧲕	lyoq		#2		#䝏
 𫲜	lyoq		#2
@@ -4641,18 +4644,18 @@ use_preset_vocabulary: true
 𧃒	lyoA
 𦺋𧃒	souvA lyoA
 #
-# 娄	loov
-𡇔	loov
-𡇭	loov
-𡜰	loov
-𡜸	loov
-𡝤	loov
-𡝨	loov
-𡞔	loov
-𡡋	loov
-𡡼	loov
-𣫻	loov
-𱼰	loov
+# 娄	loovq
+𡇔	loovq
+𡇭	loovq
+𡜰	loovq
+𡜸	loovq
+𡝤	loovq
+𡝨	loovq
+𡞔	loovq
+𡡋	loovq
+𡡼	loovq
+𣫻	loovq
+𱼰	loovq
 ###尞𤊽
 #
 𤎚	ljey
@@ -4677,18 +4680,18 @@ use_preset_vocabulary: true
 ##
 𥨽	leev
 ###守
-酧	dcjuq		#2		#酬
-𱽦	scjuA		#
-𩊦	scjus		#s狩
-垨	scjuA
+酧	dcjuvq		#2		#酬
+𱽦	scjuvA		#
+𩊦	scjuvs		#s狩
+垨	scjuvA
 #
-𡬮	scjuA		#2
-𡬴	scjuA		#2
+𡬮	scjuvA		#2
+𡬴	scjuvA		#2
 ###首
 衜	douvA
-脜	ncjuq		#䐓
-渞	scjuA
-艏	scjuA
+脜	ncjuvq		#䐓
+渞	scjuvA
+艏	scjuvA
 ##道
 𣿪	douvA
 𨔞	douvA
@@ -4696,13 +4699,13 @@ use_preset_vocabulary: true
 檤	douw
 𣜦	douw
 ###卣
-𠧷	Jjuq
+𠧷	Jjuvq
 ##
 𤩤	Jjey
 𣤦	Jjey		#1		#𤪎
-䚃	Jjuq
-𨔟	Jjuq
-逌	Jjuq
+䚃	Jjuvq
+𨔟	Jjuvq
+逌	Jjuvq
 ###舀
 𤔘	Jjew
 𦥵	Jjew
@@ -4748,18 +4751,18 @@ use_preset_vocabulary: true
 𲁨	Jjev
 𧦇	Jjev
 ##繇䌛
-𡈫	Jjuq
-𡈱	Jjuq
-𣟾	Jjuq
-𨙃	Jjuq
-𨙂	Jjuq
-𦅹	Jjuq
-𧪬	Jjuq
-𨘺	Jjuq
-蘨	Jjuq
-櫾	Jjuq
-㘥	Jjuq
-櫾	Jjus
+𡈫	Jjuvq
+𡈱	Jjuvq
+𣟾	Jjuvq
+𨙃	Jjuvq
+𨙂	Jjuvq
+𦅹	Jjuvq
+𧪬	Jjuvq
+𨘺	Jjuvq
+蘨	Jjuvq
+櫾	Jjuvq
+㘥	Jjuvq
+櫾	Jjuvs
 ###匋
 掏	thoav
 淘	doav
@@ -4786,13 +4789,13 @@ use_preset_vocabulary: true
 踩	lyet
 𰗕	tshoʌjA
 ###𠪋厚
-𠩞	hgoow
-𠩰	hgoow
-𠪀	hgoow
-𢈲	hgoow
-𫝗	hgoow
-𰆝	hgoow
-𣆉	hgoow
+𠩞	hgoovA
+𠩰	hgoovA
+𠪀	hgoovA
+𢈲	hgoovA
+𫝗	hgoovA
+𰆝	hgoovA
+𣆉	hgoovA
 ###叓
 ###𠭏事
 㕝	dzsxəs
@@ -4847,25 +4850,25 @@ use_preset_vocabulary: true
 𭐴	toajq
 𡖈	toajq
 ###𠁁
-𠨣	doow
-𨮃	doow
+𠨣	doovA
+𨮃	doovA
 ###斗
-﨣	toow		#𧺯
-鬦	tooyk		#2
-𠦁	toow
-𣁬	toow
-𣂑	toow
-𤣫	toow
+﨣	toovA		#𧺯
+鬦	toovsk		#2
+𠦁	toovA
+𣁬	toovA
+𣂑	toovA
+𤣫	toovA
 ###鬥
 ###豆
-㤱	dooy
+㤱	doovs
 # 㤱	phiovA
-痘	dooy
+痘	doovs
 ##
 # 厨	drwoq
 # 蹰	drwoq
 櫥	drxoq
-闘	tooy
+闘	toovs
 # 櫥	drwoq
 ###胥
 婿	sees
@@ -4903,7 +4906,7 @@ use_preset_vocabulary: true
 ###徒
 ###度
 ###
-𧢗	toov		#1		#𧡸
+𧢗	toovq		#1		#𧡸
 ###虘
 䖕	dzoajq		#2
 𧇇	dzoajq
@@ -4918,7 +4921,7 @@ use_preset_vocabulary: true
 𫳘	dxoA
 𡦂	dxoA
 𫦵	dzxos
-𡪇	sjuq
+𡪇	sjuvq
 𡨸	dzjəs
 𫳘	dzjəs
 𡦂	dzjəs
@@ -4956,8 +4959,8 @@ use_preset_vocabulary: true
 #佘
 𡝙	draaq
 ###兜
-蔸	toov
-兠	toov
+蔸	toovq
+兠	toovq
 ###殳
 𣤖	thees
 ###卮
@@ -4969,8 +4972,8 @@ use_preset_vocabulary: true
 𠂬	tcjeq
 梔	tcjeq
 ###禸
-𠘯	ncjuA		#1		#禸
-𠘯	nrxuA
+𠘯	ncjuvA		#1		#禸
+𠘯	nrxuvA
 ###女
 𥨲	ncjoq		#1		#𡫽
 㣽	scjos
@@ -4987,7 +4990,7 @@ use_preset_vocabulary: true
 ##拏
 𢮝	nraaq
 ###辱
-搙	nooy
+搙	noovs
 ###乃
 # 疓	noʌjq
 奶	nraəjA
@@ -5247,23 +5250,23 @@ use_preset_vocabulary: true
 𰀔	tsshxoq
 𰀛	tsshxoq
 ###走
-赱	tsoow
-㞫	tsoow
-𡗱	tsoow
-𣥚	tsoow
-𧺆	tsoow
+赱	tsoovA
+㞫	tsoovA
+𡗱	tsoovA
+𣥚	tsoovA
+𧺆	tsoovA
 ###奏
-揍	tsooy
+揍	tsoovs
 #
-𠭕	tsooy
-𠭡	tsooy
-#𢽥	tsooy
-𡘶	tsooy
-𡲱	tsooy
-𡼘	tsooy
-𡙹	tsooy
-𦱧	tsooy
-𡴨	tsooy
+𠭕	tsoovs
+𠭡	tsoovs
+#𢽥	tsoovs
+𡘶	tsoovs
+𡲱	tsoovs
+𡼘	tsoovs
+𡙹	tsoovs
+𦱧	tsoovs
+𡴨	tsoovs
 ###棘朿
 㭰	tsjeq
 𩎎	kaək
@@ -5281,16 +5284,16 @@ use_preset_vocabulary: true
 𦧶	scjas
 猞	scjaq
 ###俞兪
-䵉	doov
+䵉	doovq
 #
 𠈛	Jyoq
 𠉽	Jyoq
 𬾊	Jyoq
 𬾮	Jyoq
 𥦹	Jyoq
-𠐙	doov
-偷	thoov		#1		#俞兪
-媮	thoov
+𠐙	doovq
+偷	thoovq		#1		#俞兪
+媮	thoovq
 ##
 榆	Jyoq
 榆	Jjev
@@ -5470,13 +5473,13 @@ use_preset_vocabulary: true
 𢆰	hgoos
 𤘔	hgoos
 ###侯𥎦
-𬥽	hgooy
-𬭤	hgooy
-𨂸	hgooy
-𰥱	hgooy
-𠋫	hgooy
-𠉀	hgooy
-𣣠	hgooy
+𬥽	hgoovs
+𬭤	hgoovs
+𨂸	hgoovs
+𰥱	hgoovs
+𠋫	hgoovs
+𠉀	hgoovs
+𣣠	hgoovs
 ###系
 𡱏	EfaA
 ###𠀀
@@ -5502,15 +5505,15 @@ use_preset_vocabulary: true
 𠂠	hqzvoq
 𤓳	hqzvoq
 ###有
-峟	qiəy
-迶	qiəy
-𪠥	qviəA
-𰭿	qviəA
-𦘬	qviəA
-𧆘	qviəs		#囿
+峟	qiəvs
+迶	qiəvs
+𪠥	quəA
+𰭿	quəA
+𦘬	quəA
+𧆘	quəs		#囿
 ###又
-彐	quəs	1		#又 彐彑kxer變體 ⺕
-𫜹	quəs
+彐	qiuvs	1		#又 彐彑kxer變體 ⺕
+𫜹	qiuvs
 ###雨
 # 兩	qvioA
 𠕒	qvioA
@@ -5566,18 +5569,18 @@ use_preset_vocabulary: true
 ###孴
 ###冓
 # 韝	baer
-鞲	koov
+鞲	koovq
 ###丠丘
-坵	khiəv
+坵	khiəvq
 #
-㐀	khiəv
-# 业	khiəv
-㘳	khquəq
-𠀈	khquəq
-𠀉	khquəq
-𠀌	khquəq
-𠀜	khquəq
-𠤢	khquəq
+㐀	khiəvq
+# 业	khiəvq
+㘳	khqiuvq
+𠀈	khqiuvq
+𠀉	khqiuvq
+𠀌	khqiuvq
+𠀜	khqiuvq
+𠤢	khqiuvq
 ###只
 𠮡	kcjeA
 嘦	kjey
@@ -5866,7 +5869,7 @@ use_preset_vocabulary: true
 𧨍	heeA		#𧧹
 ###孔
 𡥑	ssaux		#㦼
-芤	khoov
+芤	khoovq
 ###龜
 龜	kuən		#2
 #
@@ -5891,21 +5894,21 @@ use_preset_vocabulary: true
 𮯝	kwəq
 𮯞	kwəq
 𮯟	kwəq
-䦰	kquəq
-𨵜	kquəq
-𨷍	kquəq
-𨷟	kquəq
-𨷺	kquəq
-𩰘	kquəq
+䦰	kqiuvq
+𨵜	kqiuvq
+𨷍	kqiuvq
+𨷟	kqiuvq
+𨷺	kqiuvq
+𩰘	kqiuvq
 ###簋
 #
-𫏯	kvxuA
-𣪕	kvxuA
-𣪘	kvxuA
-㲃	kvxuA
-𣪙	kvxuA
-𣌽	kvxuA
-𥱚	kvxuA
+𫏯	kvxuvA
+𣪕	kvxuvA
+𣪘	kvxuvA
+㲃	kvxuvA
+𣪙	kvxuvA
+𣌽	kvxuvA
+𥱚	kvxuvA
 ###醫
 𢟇	Aees
 ###喜
@@ -5920,17 +5923,17 @@ use_preset_vocabulary: true
 𢝫	hiəA
 ###求
 ###裘
-𣰐	guəq
+𣰐	giuvq
 ###囚
-𡆢	zjuq		#1		#211a2囚
+𡆢	zjuvq		#1		#211a2囚
 ###㲃
-𣪘	kiiəy		#1		#㲃𠧢皀
-廏	kiəy
-廄	kiəy
-廐	kiəy
-𨗋	kiəy
-匓	kiəy
-厩	kiəy
+𣪘	kiiəvs		#1		#㲃𠧢皀
+廏	kiəvs
+廄	kiəvs
+廐	kiəvs
+𨗋	kiəvs
+匓	kiəvs
+厩	kiəvs
 ###韭
 ###九
 軓	kwiA
@@ -5939,21 +5942,21 @@ use_preset_vocabulary: true
 艽	kaav
 鼽	hvojq
 頄	kwiq
-𣓕	Aooy		#㭝地名
-㕤	giəv		#叴
+𣓕	Aoovs		#㭝地名
+㕤	giəvq		#叴
 ###牛
-𰍁	Ciəv
-牰	Ciəv
-𩲍	Ciəv
+𰍁	Ciəvq
+牰	Ciəvq
+𩲍	Ciəvq
 ###憂𢝊
-𢕶	Aiəv
-㥑	Aiəv
-𢙥	Aiəv
-𢚧	Aiəv
-𢞘	Aiəv
+𢕶	Aiəvq
+㥑	Aiəvq
+𢙥	Aiəvq
+𢚧	Aiəvq
+𢞘	Aiəvq
 ###口
 ##扣
-筘	khooy
+筘	khoovs
 ###
 # 𥈸	hvioq
 ###戶
@@ -6002,10 +6005,10 @@ use_preset_vocabulary: true
 㥷	Aees
 𩔯	kqeep
 ###休
-恘	khiəv
+恘	khiəvq
 #
-𩭘	hiəv
-𩮄	hiəv
+𩭘	hiəvq
+𩮄	hiəvq
 ###奚𡗞
 # 徯	heeA
 # 𥉐	heeA
@@ -6024,9 +6027,9 @@ use_preset_vocabulary: true
 𰋙	guos
 𰥍	guos
 ###區
-瞘	khoov
-慪	Aooy
-慪	Aoow
+瞘	khoovq
+慪	Aoovs
+慪	AoovA
 #
 区	khuoq	0
 𭉘	khuoq
@@ -6041,66 +6044,66 @@ use_preset_vocabulary: true
 𪛐	khcyojq
 ###句
 耉	kqoovA		#耇
-勾	koov
+勾	koovq
 眗	guoq
 朐	guoq
-够	kooy
-夠	kooy
-𪓟	koov
-𢼃	kqoow		#1		#敂
-𢼒	kqoow
+够	koovs
+夠	koovs
+𪓟	koovq
+𢼃	kqoovA		#1		#敂
+𢼒	kqoovA
 ##
-鈎	koov
+鈎	koovq
 #
-𠷜	kqoow
-𦯗	kqoow
-𦲆	kqoow
-𦴆	kqoow
-𠯶	kqoov
-𫸧	kqoov
+𠷜	kqoovA
+𦯗	kqoovA
+𦲆	kqoovA
+𦴆	kqoovA
+𠯶	kqoovq
+𫸧	kqoovq
 #
-𣓕	Aooy
+𣓕	Aoovs
 ###寇
-𣻎	khoov
-𥲃	khooy
-蔲	hooy
-𣻎	khooy
+𣻎	khoovq
+𥲃	khoovs
+蔲	hoovs
+𣻎	khoovs
 #
-冦	khqooy
-宼	khqooy
-窛	khqooy
-㓂	khqooy
-䓻	khqooy
-𡨥	khqooy
-𡯷	khqooy
-𥦆	khqooy
-𭁵	khqooy
-𭁿	khqooy
-𭓾	khqooy
-𰍂	khqooy
-𰍈	khqooy
-𰍕	khqooy
-𰍙	khqooy
+冦	khqoovs
+宼	khqoovs
+窛	khqoovs
+㓂	khqoovs
+䓻	khqoovs
+𡨥	khqoovs
+𡯷	khqoovs
+𥦆	khqoovs
+𭁵	khqoovs
+𭁿	khqoovs
+𭓾	khqoovs
+𰍂	khqoovs
+𰍈	khqoovs
+𰍕	khqoovs
+𰍙	khqoovs
 ###使
 𩢲	ssxəs
 ###臭
-臭	hiəy
-嗅	hiəy
+臭	hiəvs
+嗅	hiəvs
 ###𢌳
 𩒶	kwəA		#1		#頯
 𩓚	kwəA
 𩓰	kwəA
 ###尤
-尢	quəq		#1		#尤
-怣	quəq
-𡯊	quəq
-𣧗	quəq
-𣧗殢	quəq theejs
-𡯙	qiəv
+尢	qiuvq		#1		#尤
+怣	qiuvq
+𡯊	qiuvq
+𣧗	qiuvq
+𣧗殢	qiuvq theejs
+𡯙	qiəvq
 ###久
-乆	kqiəw
-𫝄	kqiəw
-𡚰	kuəA		#𡚮
+乆	kqiəvA
+𫝄	kqiəvA
+𡚰	kiuvA		#𡚮
 ###斯
 撕	sjeq		#斯
 𣂕	sjeq
@@ -6198,11 +6201,11 @@ use_preset_vocabulary: true
 邏	loaq
 邏	loaA
 玀	loaq
-𡝤	loov
+𡝤	loovq
 㭩	looA
 欏	loaA
 蒞	ljis
-瘺	looy
+瘺	loovs
 ###履
 𡲟	ljiA
 𢔃	ljiA
@@ -6237,27 +6240,27 @@ use_preset_vocabulary: true
 𠀞	lees
 𠧥	lees
 ###㐬
-㐬	ljuq
+㐬	ljuvq
 䟽	ssxoq
 䟽	ssxos
 ###流
-鎏	ljuq
-𥰤	ljuq
-琉	ljuq
+鎏	ljuvq
+𥰤	ljuvq
+琉	ljuvq
 ###秀
-銹	sjus
+銹	sjuvs
 # 鐁	sjiq
-𫃯	sjus
+𫃯	sjuvs
 ###羑
-羐	JjuA
-羗	JjuA
-𦍶	JjuA
-𦎅	JjuA
-𦎙	JjuA
-𦲃	JjuA
+羐	JjuvA
+羗	JjuvA
+𦍶	JjuvA
+𦎅	JjuvA
+𦎙	JjuvA
+𦲃	JjuvA
 ###取
-鯫	dzsoow
-㻓	tssxuq
+鯫	dzsoovA
+㻓	tssxuvq
 #
 𧼈	tshyos
 ##叢
@@ -6266,7 +6269,7 @@ use_preset_vocabulary: true
 藂	dzouC
 𧆁	dzouC
 ###羞
-饈	sjuq
+饈	sjuvq
 ###斿
 ###鼠
 鼡	scjoA
@@ -6275,13 +6278,13 @@ use_preset_vocabulary: true
 𣆨	scjoA
 𦥩	scjoA
 ###由
-釉	Jjus
+釉	Jjuvs
 #
-ゆ	Jjuq		#2
-ユ	Jjuq		#2
-甴	Jjuq
+ゆ	Jjuvq		#2
+ユ	Jjuvq		#2
+甴	Jjuvq
 ##
-# 甹	Jjuq
+# 甹	Jjuvq
 ####-m
 ###丏
 𩾳	kxip
@@ -6445,7 +6448,7 @@ use_preset_vocabulary: true
 𨬎	drwer		#𨪗
 吶	noʌp
 ###㕯-內 -U-
-# 蚋	ncyojs
+# 蚋	ncyer
 # 蚋	ncyot
 𤜽	nrfot
 ###南𡴖
@@ -7697,13 +7700,12 @@ use_preset_vocabulary: true
 撧	dzyot
 絶	dzyot
 ###毳
-𥳈	tsshfujs
 撬	kheey
 #
-𨊉	tshyojs
-脃	tshyojs
-𣈐	tshyojs
-𨉆	tshyojs
+𨊉	tshyer
+脃	tshyer
+𣈐	tshyer
+𨉆	tshyer
 ###囗
 囲	quəjq
 𠄿	quəjq
@@ -7720,29 +7722,29 @@ use_preset_vocabulary: true
 𥐅	quəjq
 𮧰	quəjq
 ###㒸
-煫	zyujs
-㴚	zyujs
-𨍨	zyujs
-𥠂	zyujs
-隊	zyujs
+煫	zyis
+㴚	zyis
+𨍨	zyis
+𥠂	zyis
+隊	zyis
 #
-𨽡	zyujs
-𥢁	zyujs
-𦼯	zyujs
-𤒮	zyujs
+𨽡	zyis
+𥢁	zyis
+𦼯	zyis
+𤒮	zyis
 ##
-䥙	zyujs
+䥙	zyis
 ##
-𣄚	zyujs
-𨗅	zyujs
-㸂	zyujs
-㸂	zyujs
-鿪	zyujs
-𨓸	zyujs
-𨔱	zyujs
-𨔲	zyujs
+𣄚	zyis
+𨗅	zyis
+㸂	zyis
+㸂	zyis
+鿪	zyis
+𨓸	zyis
+𨔱	zyis
+𨔲	zyis
 ##
-𤑾	zyujs
+𤑾	zyis
 ###卒
 𧺒	dzyut
 崪	dzvot
@@ -7769,7 +7771,7 @@ use_preset_vocabulary: true
 𩫛	tsvot
 𡄰	tshot
 𬙼	tshot
-𡝵	dzyujs
+𡝵	dzyis
 𪋌	tsyiq		#五音篇海子唯切
 𩗶	svar
 蜶	svot
@@ -7794,30 +7796,30 @@ use_preset_vocabulary: true
 𡨧	tsvot
 𢈼	syis
 𢇥	syis
-酔	tsyujs
+酔	tsyis
 崪	dzyut
 𡸝	dzyut
 紣	tsvojs
 𰨞	tsvot
 𡉻	svot
-𦬡	dzyujs
-𩜘	dzyujs		#瘁
-疩	dzyujs
+𦬡	dzyis
+𩜘	dzyis		#瘁
+疩	dzyis
 砕	svojs
-粋	syujs
-翆	tshyujs
-𦑋	tshyujs
+粋	syis
+翆	tshyis
+𦑋	tshyis
 伜	tshvojs
-𱂕	dzyujs
-𥄌	syujs
+𱂕	dzyis
+𥄌	syis
 脺	tsvar
 𦙈	tsvar		#篇海 則外切
 𰙊	tsyut
 𠯥	tsyut
 𠵒	tsyut
 𢪄	dzyut
-忰	dzyujs
-𢜙	dzyujs
+忰	dzyis
+𢜙	dzyis
 𰚡	svot
 𣅢	tsvojs
 㳃	tshvojs
@@ -7844,7 +7846,10 @@ use_preset_vocabulary: true
 晉	tsjez
 𢦞	tsjed
 戬	tsjed		#1		#臸亚晉 戩
-###䀆
+###㶳䀆-聿
+𢣺	zjiz
+𤈠	zjiz
+𱫮	zjiz
 ##盡
 儘	tsjid
 壗	zjiz
@@ -8053,15 +8058,15 @@ use_preset_vocabulary: true
 榫	syid
 凖	tcyid
 ###歲
-㞸	syajs
-亗	syajs
-岁	syajs
-嵗	syajs
-歳	syajs
-𡻕	syajs
-𡻷	syajs
-𢧁	syajs
-𢧡	syajs
+㞸	syer
+亗	syer
+岁	syer
+嵗	syer
+歳	syer
+𡻕	syer
+𡻷	syer
+𢧁	syer
+𢧡	syer
 ###山
 舢	ssaen
 奾	sjen
@@ -8220,26 +8225,26 @@ use_preset_vocabulary: true
 岀	thcyut
 㞮	thcyut
 ###贅 祟𠭥?
-𩕀	tcyojs
-𩕣	tcyojs
-𩓁	tcyojs
-𧸟	tcyojs
-𧸞	tcyojs
-𧸆	tcyojs
-𧷌	tcyojs
-赘	tcyojs	0
+𩕀	tcyer
+𩕣	tcyer
+𩓁	tcyer
+𧸟	tcyer
+𧸞	tcyer
+𧸆	tcyer
+𧷌	tcyer
+赘	tcyer	0
 ###祟-出
 祟	syut
 𥨒	tshvaz		#竄
-𥙋	syujs		#2
+𥙋	syis		#2
 #
 𧎹	tsvar
 𧎃	tsvar
-𣦅	syujs
-𥘣	syujs
-𥚢	syujs
-𥘐	syujs
-𥘈	syujs
+𣦅	syis
+𥘣	syis
+𥚢	syis
+𥘐	syis
+𥘈	syis
 𥩂	tshvujs
 𥧞	tshvujs
 𥨺	tshvujs
@@ -8526,9 +8531,13 @@ use_preset_vocabulary: true
 𡑚	khoot
 𡑧	khoot
 𥈷	khoot
-#
-𡉄	khqvot
-𢘪	kqfojs
+###圣
+# 𡉄	khqvot
+恠	kqfer
+𢘪	kqfer
+𢚬	kqfer
+𪫦	kqfer
+𭜏	kqfer
 ###艮
 艰	kqaən	0
 𦫒	kqaən
@@ -8565,7 +8574,7 @@ use_preset_vocabulary: true
 概	kqoʌjs
 塈	hiəjs
 塈	khxajs
-𣪘	khiəv
+𣪘	khiəvq
 ##愛-r
 嬡	Aoʌjs
 噯	Aoʌjs
@@ -9195,7 +9204,7 @@ use_preset_vocabulary: true
 ###𣊡㬎
 韅	heed
 #
-𤃁	scjəp
+𤃁	scjip
 㫫	heed
 ###夭
 鴁	Aoaw
@@ -9566,8 +9575,8 @@ use_preset_vocabulary: true
 𪾜	leəjs
 𮕡	leəjs
 ###戾
-涙	lyujs
-泪	lyujs		#字彙
+涙	lyis
+泪	lyis		#字彙
 # 𤟵	leət
 # 𤡵	leət
 戻	leət		#1		#戾
@@ -10054,7 +10063,7 @@ use_preset_vocabulary: true
 𭤣	teeg
 𭤥	teeg
 ###貞
-###成
+###成-丁
 晠	dcjex
 鋮	dcjeC
 ###定
@@ -10342,12 +10351,12 @@ use_preset_vocabulary: true
 𠕴	ncjog
 𡦼	ncjog
 #
-𤜴	Jjus
-狖	Jjus		#1		#𮙧
-# 㺠	Jjus
-𤝨	Jjus
-𤟊	Jjus
-𤣛	Jjus
+𤜴	Jjuvs
+狖	Jjuvs		#1		#𮙧
+# 㺠	Jjuvs
+𤝨	Jjuvs
+𤟊	Jjuvs
+𤣛	Jjuvs
 ###仄夨
 𣅳	tssxək
 𪰖	tssxək
@@ -10471,15 +10480,15 @@ use_preset_vocabulary: true
 ###就
 蹵	tshjuk
 𨇳	tshjuk
-𠅮	dzjus
-𡯶	dzjus
-𡰔	dzjus
-𡰗	dzjus
-𡰜	dzjus
-𭕐	dzjus
-𭕒	dzjus
+𠅮	dzjuvs
+𡯶	dzjuvs
+𡰔	dzjuvs
+𡰗	dzjuvs
+𡰜	dzjuvs
+𭕐	dzjuvs
+𭕒	dzjuvs
 𥷛	tsjuk
-𩀻	dzjus		#鷲
+𩀻	dzjuvs		#鷲
 ###勺
 𫞮	teek
 𬐄	teek
@@ -10864,7 +10873,7 @@ use_preset_vocabulary: true
 宫	kiuC
 𬔉	kiuC
 𠹒	hgoux
-守𧎡	scjuA kiuC
+守𧎡	scjuvA kiuC
 熍	kiuC
 ###
 # 衋	hiək
@@ -11121,7 +11130,7 @@ use_preset_vocabulary: true
 𰚉	khqauk
 𠕓	khqauk
 ##
-𡠆	khooy
+𡠆	khoovs
 𣫔	touk
 𧞹	touk
 𣪳	houk
@@ -11861,8 +11870,8 @@ use_preset_vocabulary: true
 𬺠	louk
 𥪬	biuk		#𥪋
 ###尨
-𧱓	tooy		#1		#𧱦
-𧱠	tooy
+𧱓	toovs		#1		#𧱦
+𧱠	toovs
 ###龍
 壟	ljog
 矓	louC
@@ -11911,7 +11920,7 @@ use_preset_vocabulary: true
 塄	loəC
 愣	loəx
 ###昜陽
-𣓾	JjaC
+𣓾	JjaC		#誤
 阦	JjaC
 𨹈	JjaC
 阳	JjaC
@@ -12171,8 +12180,8 @@ use_preset_vocabulary: true
 𢐮	Jjuk
 ###六
 ###𧸇𡍬圥
-讀	dooy
-𡂝	dooy		#2
+讀	doovs
+𡂝	doovs		#2
 𧷏	Jjuk
 𧶠	Jjuk
 𧷨	Jjuk
@@ -12286,26 +12295,26 @@ use_preset_vocabulary: true
 𨁀	scjuk		#跾
 倐	scjuk		#倏
 𧇐	scjuk
-俢	sjuq
+俢	sjuvq
 #
-㣠	Jjuq
-𠆸	Jjuq
-𠇥	Jjuq
-𠈹	Jjuq
-𠗆	Jjuq
-𢓘	Jjuq
-𢻺	Jjuq
-# 𭣢	Jjuq
+㣠	Jjuvq
+𠆸	Jjuvq
+𠇥	Jjuvq
+𠈹	Jjuvq
+𠗆	Jjuvq
+𢓘	Jjuvq
+𢻺	Jjuvq
+# 𭣢	Jjuvq
 ###-v
 ##
-䱔	Jjuq
+䱔	Jjuvq
 ##修
-䗛	sjuq
+䗛	sjuvq
 䗛	sjuk
 #
-修	sjuq
-𢔜	sjuq
-俢	sjuq
+修	sjuvq
+𢔜	sjuvq
+俢	sjuvq
 ###
 ###
 ###
@@ -12333,7 +12342,7 @@ use_preset_vocabulary: true
 𨷫	tsyon
 𩀟	tsyon
 䐪	tsyojq
-槜	tsyujs
+槜	tsyis
 䐪	tsyod
 㑺	tsyuz
 鎸	tsyon
@@ -12507,7 +12516,7 @@ use_preset_vocabulary: true
 乛	Axit	99
 丶	teeb	99
 丷	paet	99
-亠	doov	99
+亠	doovq	99
 亠	ncjup	99
 刂	toav	99
 忄	sjəm	99
@@ -12523,7 +12532,7 @@ use_preset_vocabulary: true
 亻	ncjin	99
 釒	kxim	99
 钅	kxim	0
-阝	biəw	99
+阝	biəvA	99
 阝	Axəp	99
 飠	zcjək	99
 饣	zcjək	0
@@ -12541,7 +12550,7 @@ use_preset_vocabulary: true
 𤣩	Ciok	99
 # 爿	dzjaC	99
 丬	dzjaC	0
-牜	Cquəq	99
+牜	Cqiuvq	99
 犭	khqved	99
 罓	muag	99
 罒	muag	99
@@ -12583,7 +12592,7 @@ use_preset_vocabulary: true
 龹	kwoz	99
 龺	traavk	99
 龻	lyon	99
-𠂒	Cqviəq	99
+𠂒	Cquəq	99
 ####今
 ###
 ###物化
@@ -12595,7 +12604,7 @@ use_preset_vocabulary: true
 烴	theeC
 羥	khiag		#OH hydroqyl
 羰	thaC
-巰	giəv
+巰	giəvq
 烷	Evan
 烯	hiəjq
 炔	khyet
@@ -12644,14 +12653,14 @@ use_preset_vocabulary: true
 鏻	ljin
 銨	Aoad
 鋞	khjeC
-鋶	ljuA
+鋶	ljuvA
 ⿰金西	soʌjq
 𲇊	soʌjq
 錆	tsheeC
 鉘	puət
 # 錄	ljok
-𲇙	hiəy
-⿰金臭	hiəy
+𲇙	hiəvs
+⿰金臭	hiəvs
 # 錪	teed
 錪	teid
 ###
@@ -12668,7 +12677,7 @@ use_preset_vocabulary: true
 脎	soas
 啶	deex
 嘧	mxit
-酶	mvəq
+酶	mvojq
 胩	khaaA
 喹	khveq
 啉	ljəm
@@ -12702,15 +12711,15 @@ use_preset_vocabulary: true
 氕	pheet		#丿
 氘	toav		#刀刂
 氚	thcyon		#川
-氦	hgoʌjA		#he hejAium
+氦	hgoʌjA		#he helium 
 鋰	ljəA		#li lithium
-鈹	bxajq		#be bejsyllium
-硼	boəC		#b bojsum
-碳	thoaz		#C 6 cajsbonium
+鈹	bxajq		#be beryllium
+硼	boəC		#b boracium
+碳	thoaz		#C 6 carbonium
 氮	doaf		#n 7 nitrogenium azote 
 氧	Jjag		#O xygen
 氱	Jjag
-氟	puət		#F fluojsine
+氟	puət		#F fluorine
 氖	noʌjA		#ne neon
 氝	nvojs
 鈉	noʌp
@@ -12719,11 +12728,11 @@ use_preset_vocabulary: true
 矽	zjek
 硅	kveq
 磷	ljin
-# 硫	ljuq
+# 硫	ljuvq
 氯	ljok
 氬	Aaas
 鉀	kaap
-鈣	koar		#Coa cajAcium 
+鈣	koar		#Coa calcium 
 鈧	khoax
 鈦	thoar
 # 鐇	buam
@@ -12739,7 +12748,7 @@ use_preset_vocabulary: true
 鍺	tcjaA
 砷	scjin
 硒	soʌjq
-溴	hiəy
+溴	hiəvs
 氪	khoək
 銣	ncjoq
 鍶	sjəq
@@ -12772,15 +12781,15 @@ use_preset_vocabulary: true
 釹	nrxoA
 鉕	phvaA
 釤	ssaam
-銪	qiəw
+銪	qiəvA
 釓	kaet
-釓	kaq		#乚扎gadojAinium
+釓	kaq		#乚扎gadolinium
 鋱	thoək
 # 鏑	teek
 鈥	hvaA
 錵	hfaq
 鉺	ncjəA
-銩	tiəv		#tm 69thujAium
+銩	tiəvq		#tm 69thulium
 鐿	Aiəs
 鑥	looA
 # 鉿	koʌp
@@ -12800,44 +12809,44 @@ use_preset_vocabulary: true
 釙	phauk
 砹	Aoar
 氡	tooC		#radon
-# 鈁	puaC		#Foa 89 francium
-鐳	lvojq		#Roa 88 radium
-錒	Aoaq		#Ac 89 aCtinium
-釷	thooA		#th 90 thojsium
-# 鏷	book		#poa 91 protaCtinium
-鈾	Jjuq		#U 92 ujsanium
-錼	noar		#np 93 neptunium
+# 鈁	puaC		#Fa 89 francium
+鐳	lvojq		#Ra 88 radium
+錒	Aoaq		#Ac 89 actinium
+釷	thooA		#Th 90 thorium
+# 鏷	book		#Pa 91 Protactinium
+鈾	Jjuvq		#U 92 uranium
+錼	noar		#Np 93 neptunium
 鎿	noaq
-鈈	puət		#pu 94 plutonium
-鎇	mxiq		#Am 95 amejsiCium
-# 鋦	kiok Cm 96 cujsium
-錇	bvojq		#bk 97 berkejAium
-鐦	khoʌjq		#Cf 98 cajAifojsnium
+鈈	puət		#Pu 94 plutonium
+鎇	mxiq		#Am 95 americium
+# 鋦	kiok		#Cm 96 Curium
+錇	bvojq		#Bk 97 berkelium
+鐦	khoʌjq		#Cf 98 californium
 鑀	Aoʌjs		#Es 99einsteinium
 鎄	Aoʌjq
 鐨	phuəjs		#Fm 100fermium
-鍆	mvon		#
-鍩	noak		#md 101 mendejAevium
-鐒	loav		#loa awrencium 103
-# 鑪	looq		#Ru 104 ruthejsfojsdium
-䤣	looq		#Ruthejsfojsdium 金虍錿
-𨧀	dooA		#db 105d dubnium
-𨭎	hiəA		#Sg 106 sʌbojsgium
-𨨏	pvaq		#bh 107 boArium
-𨭆	hoək		#hs 108 hassium
-䥑	maek		#mt 109 meitnejsium
-鐽	doat		#ds 110 dajsmstadtium
+鍆	mvon		#Md 101 mendelevium
+鍩	noak		#No 102 nobelium
+鐒	loav		#Lr 103 lawrencium 103
+# 鑪	looq		#Ru 104 rutherfordium
+䤣	looq		#rutherfordium 金虍錿
+𨧀	dooA		#Db 105d dubnium
+𨭎	hiəA		#Sg 106 seaborgium
+𨨏	pvaq		#Bh 107 bohrium
+𨭆	hoək		#Hs 108 hassium
+䥑	maek		#Mt 109 meitnerium
+鐽	doat		#Ds 110 darmstadtium
 錀	lyun		#Rg 1101 roentgenium
-鎶	koaq		#Cn 112 copejsniCium
-鉨	neiA		#nh 113 niAonium 鉩鿭	U+9fed 鈮nb 41niobium
+鎶	koaq		#Cn 112 copernicium
+鉨	neiA		#Nh 113 nihonium 鉩鿭	U+9fed 鈮nb 41niobium
 鉩	neiA
-鈇	pvioq		#Fl114 Flejsovium
-# 鏌	moak		#mc 115 mooscovium
-鉝	ljəp		#lv 116 livejsmojsium
-鿬	dein		#ts 117teennesine
-鿫	Aooy		#Og118Oganesson
+鈇	pvioq		#Fl 114 Flerovium
+# 鏌	moak		#mc 115 moscovium
+鉝	ljəp		#lv 116 livermorium
+鿬	dein		#Ts 117teennesine
+鿫	Aoovs		#Og118 oganesson
 ##
-氦	hoʌjs		#he hejAium
+氦	hoʌjs		#He helium
 # 碘	teid
 # 錪	teid
 ###
@@ -12857,10 +12866,10 @@ use_preset_vocabulary: true
 𫡲	hzaaA
 乤	hzaaA
 ###示
-𥙰	dcjus
-𣒻	dcjus
-𢼗	kiəy
-𥘦	kiəy
+𥙰	dcjuvs
+𣒻	dcjuvs
+𢼗	kiəvs
+𥘦	kiəvs
 𫻫	tcjək		#戠
 ##𥘅
 ###三
@@ -12904,8 +12913,8 @@ use_preset_vocabulary: true
 𠾋	tsyeA
 𠿘	tsyeA		#㭰觜
 𡁫	tsyeA
-𫬉	khqfojs
-叹	quəs		#又
+𫬉	khqfer
+叹	qiuvs		#又
 另	leex
 㘞	Evas
 ###凵
@@ -13018,11 +13027,11 @@ use_preset_vocabulary: true
 ###㼱
 ###攴
 攵	phouk		#1		#攴
-㳊	Jjuq
+㳊	Jjuvq
 䍩	Jjag
 𢽴	touk
 𢼂	kqaay
-𡨥	khqooy
+𡨥	khqoovs
 㪉	kqoʌp
 敘	zjoA
 敪	tvut
@@ -13056,7 +13065,7 @@ use_preset_vocabulary: true
 㪎	scjeb
 㪓	drfojq
 㪕	seew
-㪗	thoow
+㪗	thoovA
 㪛	trxim
 㪞	moay
 㪠	khaep
@@ -13076,7 +13085,7 @@ use_preset_vocabulary: true
 ###用
 甩	sswiA
 甩	srvajA
-鿿	pvioA mvəq
+鿿	puoA mvojq
 鿿	njiz
 鿿	hzaag
 ###爻
@@ -13166,7 +13175,7 @@ use_preset_vocabulary: true
 ###丌
 ###左
 ###工
-𢀛	khoow
+𢀛	khoovA
 ###㠭
 ###巫
 ###甘
@@ -13217,7 +13226,7 @@ use_preset_vocabulary: true
 ###京
 ###亯
 ###㫗𣆪
-㫗	hgoow
+㫗	hgoovA
 ###畗
 ###㐭
 ###嗇
@@ -13293,7 +13302,7 @@ use_preset_vocabulary: true
 𪰣	Jjuk		#昱
 𪰣	Jjək		#翌
 暊	bvioA
-𣅄	ncjus
+𣅄	ncjuvs
 𣅃	boay
 𣅁	boay
 𬀧	ncjit hgaaA
@@ -13326,7 +13335,7 @@ use_preset_vocabulary: true
 朡	tsouC		#艐
 𣎌	doəC
 𣎎	ljəC
-𣍝	tcjuq		#舟
+𣍝	tcjuvq		#舟
 𣎒	doəC
 𣍵	bvan		#磐
 朌	paan		#頒
@@ -13437,7 +13446,7 @@ use_preset_vocabulary: true
 𦊝	douk
 𦊞	mjiC
 𦊟	kqooA
-𦊠	biəv
+𦊠	biəvq
 𦊡	kqvoq
 𦊩	tsjaq
 # ⿱网矛
@@ -13449,7 +13458,7 @@ use_preset_vocabulary: true
 # ⿱网圭
 # ⿱网肉
 𦋄	phvioq
-𦋑	buəq
+𦋑	biuvq
 𧧜	muag
 𧧧	ljajs
 𧵽	maeA
@@ -13497,7 +13506,7 @@ use_preset_vocabulary: true
 # 佔	trxem
 # 佔	thcjem
 # 佔	traef
-优	quəq
+优	qiuvq
 倛	khiəq
 ##人格
 傢	zjag
@@ -13577,7 +13586,7 @@ use_preset_vocabulary: true
 ###司
 ###卮
 ###卩卪
-𠂑	tsooy		#1		#
+𠂑	tsoovs		#1		#
 ##令
 𧫹	sjen
 𧫹	tshjen
@@ -13725,7 +13734,7 @@ use_preset_vocabulary: true
 𣷥	soos
 淿	meek		#汨
 ###沝
-𣹳	ljuq
+𣹳	ljuvq
 𣸐	tsoat		#子末切
 㵘	mvaz		#字彙補漫
 㵘	neew		#裊
@@ -13733,7 +13742,7 @@ use_preset_vocabulary: true
 ###𡿨
 ###巜
 ###川巛
-圳	dcjuq
+圳	dcjuvq
 ###泉
 ###灥
 ###永
@@ -13756,7 +13765,7 @@ use_preset_vocabulary: true
 鱇	khoaC
 鮟鱇	Aoan khoaC
 魨	dvon
-魷	quəq
+魷	qiuvq
 # 鱖	guat
 䱠	dzsaed
 𩹆	dzsaed
@@ -13821,9 +13830,9 @@ use_preset_vocabulary: true
 𫠬	pvət trxuC
 𫠲	pvət khiok
 𫠻	pvət sjiz
-𬦇	pvət tsoow
+𬦇	pvət tsoovA
 𬦇	trwos
-𭯈	pvət moow
+𭯈	pvət moovA
 𭯈	kvoq
 𭯒	pvət moav
 𭯒	thouk
@@ -13877,7 +13886,7 @@ use_preset_vocabulary: true
 𢪝	tsjeg
 ###𠦬
 ###女
-妞	nrxuq
+妞	nrxuvq
 㚥	qvioq		#?
 𡣯	tsjet
 她	tsjaA
@@ -13934,7 +13943,7 @@ use_preset_vocabulary: true
 ##緊
 𦃢	khwud
 ###率
-率	lyujs	2
+率	lyis	2
 ###虫
 𧌽	pejq
 𧕩	nrxep		#爛也
@@ -13961,7 +13970,7 @@ use_preset_vocabulary: true
 𪚯	tshjuk		#鼀
 𪚯	tshjok
 𪚯䗇	tshjok giuk
-𬟏	tshjuq
+𬟏	tshjuvq
 ###黽
 ###卵
 ###二
@@ -13993,7 +14002,7 @@ use_preset_vocabulary: true
 𨦰	maaw		#卯
 𮡯	maaw
 𨥫	maaw		#2
-𨦰	ljuA		#鏐
+𨦰	ljuvA		#鏐
 錿	hoA
 䤣	lyot		#鋝
 鈤	ncjit		#鍺ge鐳Roa
@@ -14105,11 +14114,11 @@ use_preset_vocabulary: true
 #####體
 # 刋	khqoan		#1		#刊
 # 呑	thoʌn		#1		#吞
-# 丢	tiəv		#1		#丟
+# 丢	tiəvq		#1		#丟
 # 户	hgvoA		#1		#戶
 # 戸	hgvoA
 # 戻	loʌt		#1		#戾
-# 涙	lyujs
+# 涙	lyis
 # 清	tshjeC		#1		#靑円
 # 青	tsheeC
 # 值	drxəs		#1		#直
@@ -14250,13 +14259,13 @@ use_preset_vocabulary: true
 # 概	kqoʌjs
 # 塈	hiəjs
 # 塈	khxajs
-# 𣪘	khiəv
-# 𣪘	kiiəy		#1		#㲃𠧢皀
-# 廏	kiəy
-# 廄	kiəy
-# 廐	kiəy
-# 𨗋	kiəy
-# 匓	kiəy
+# 𣪘	khiəvq
+# 𣪘	kiiəvs		#1		#㲃𠧢皀
+# 廏	kiəvs
+# 廄	kiəvs
+# 廐	kiəvs
+# 𨗋	kiəvs
+# 匓	kiəvs
 # 𥦒	Aeey		#1		#䆞皀㫐
 # 𡨇	Aeey
 # 𤈥	theek
@@ -14275,7 +14284,7 @@ use_preset_vocabulary: true
 # 菑	tssxəq		#1		#葘
 # 抜	bvat		#1		#犮
 # 髪	puat
-# 赱	tsoow		#1		#走
+# 赱	tsoovA		#1		#走
 # 歩	boos		#1		#步
 # 渉	dcjep		#1		#涉
 # 歳	syajs		#1		#歲
@@ -14291,12 +14300,12 @@ use_preset_vocabulary: true
 # 抛	phaey
 # 尪	AvaC		#1		#尢尣
 # 尣	AvaC
-# 痩	ssxus		#1		#叜叟
-# 捜	ssxuq
-# 䤇	sjuA		#1		#火𠔁
-# 𠊯	soow
-# 𥈃	soow
-# 𠷃	ssxus
+# 痩	ssxuvs		#1		#叜叟
+# 捜	ssxuvq
+# 䤇	sjuvA		#1		#火𠔁
+# 𠊯	soovA
+# 𥈃	soovA
+# 𠷃	ssxuvs
 # 真	tcjin		#1		#眞
 # 鷏	dein
 # 巔	tein
@@ -14315,8 +14324,8 @@ use_preset_vocabulary: true
 # 麫	meez
 # 沉	drxum
 ####異
-# 偷	thoov		#1		#俞兪
-# 媮	thoov
+# 偷	thoovq		#1		#俞兪
+# 媮	thoovq
 # 𰍪	scjuk
 # 𦯝	tsjev
 # 斉	dzeəjq		#1		#齊
@@ -14417,16 +14426,16 @@ use_preset_vocabulary: true
 # 兑	dvar
 # 敚	dvut
 # 悦	Jyot
-# 鋭	Jyojs
+# 鋭	Jyer
 # 閲	Jyot
 # 説	Jyot
 # 説	scyot
 # 蜕	Jyot
 # 蜕	thvojs
-# 税	scyojs
+# 税	scyer
 # 捝	thvut
 # 捝	dvut
-# 涚	scyojs
+# 涚	scyer
 # 杂	tvujA
 # 𣎾	tvujA
 # 𣎿	tvujA
@@ -14450,7 +14459,7 @@ use_preset_vocabulary: true
 # 𤬾	dvujA
 # 隽	dzyod		#雋
 # 䐪	tsyojq
-# 槜	tsyujs
+# 槜	tsyis
 # 䐪	tsyod
 # 㑺	tsyuz
 # 鎸	tsyon
@@ -14538,8 +14547,8 @@ use_preset_vocabulary: true
 # 𡭗	ncjəjA
 # 你	nrxəA
 # 弥	mjəjq
-# 𠭱	ljuq		#1		#劉
-# 𠞑	ljuq
+# 𠭱	ljuvq		#1		#劉
+# 𠞑	ljuvq
 # 㒫	kiəjs		#1		#旡
 # 𠒂	kqooA		#1		#𠑹
 # 茲	tsjəq
@@ -14552,8 +14561,8 @@ use_preset_vocabulary: true
 # 剰	zcjəx
 # 𡹴	zcjəx
 # 朩	phjiz
-# 𦾔	giəy		#1		#臼旧
-# 𠢎	giəw
+# 𦾔	giəvs		#1		#臼旧
+# 𠢎	giəvA
 # 児	ncjeq		#1		#兒
 # 㫪	scjoC
 # 焔	Jjof
@@ -14589,7 +14598,7 @@ use_preset_vocabulary: true
 # 靱	ncjəz
 # 間	kaez		#1		#閒
 # 間	kaen
-# 乆	kqiəw		#1		#久
+# 乆	kqiəvA		#1		#久
 # 褒	pouvq
 # 冗	ncjog		#1		#宂
 # 内	nvojs
@@ -14658,7 +14667,7 @@ use_preset_vocabulary: true
 # 𡔣	khqeit
 # 𥲖	khvojq		#1		#䈛㕟
 # 𢻥	tshoav
-# 𦍶	JjuA
+# 𦍶	JjuvA
 # 𤾕	theijs
 # 剏	tsshxax
 # 𣫅	hgouk
@@ -14687,12 +14696,12 @@ use_preset_vocabulary: true
 # 𠄊	gxan
 # 䨧	Axəm
 # 𩄈	Axəm
-# 𠭇	moow
+# 𠭇	moovA
 # 𩐒	tseəjq
-# 𩰘	kxuA		#1		#門鬥
-# 𨷺	kuəq
+# 𩰘	kxuvA		#1		#門鬥
+# 𨷺	kiuvq
 # 𨷺	kwəA
-# 𨶪	ljuq
+# 𨶪	ljuvq
 # 䦵	mjejA
 # 䦵	neejA
 # 閙	nraay
@@ -14708,7 +14717,7 @@ use_preset_vocabulary: true
 # 𠛬	hgeeC
 # 郉	hgeeC
 # 𢿿	ssxək
-# 尢	quəq		#1		#尤
+# 尢	qiuvq		#1		#尤
 # 𠩵	leek		#1		#厤
 # 𤁋	leek
 # 歴	leek
@@ -14730,7 +14739,7 @@ use_preset_vocabulary: true
 # 𢊆	leek
 # 厰	thcjag
 # 厠	tsshxəs
-# 厩	kiəy
+# 厩	kiəvs
 # 厪	gxəz		#廑
 # 舎	scjas		#1		#舍
 # 舎	scjaA
@@ -14752,8 +14761,8 @@ use_preset_vocabulary: true
 # 冼	seəd
 # 𤛉	hgaat
 # 𩎲	hgaat
-# 冦	khqooy		#1		#宀冖
-# 冨	puəs
+# 冦	khqoovs		#1		#宀冖
+# 冨	piuvs
 # 𠖗	tshjib
 # 濳	dzjom
 # 尶	kaam
@@ -14783,8 +14792,8 @@ use_preset_vocabulary: true
 # 𠡢	Cxit
 # 𢘻	sjit
 # 𧷈	kuəjs
-# 𠘯	ncjuA		#1		#禸
-# 𠘯	nrxuA
+# 𠘯	ncjuvA		#1		#禸
+# 𠘯	nrxuvA
 # 覀	haaA
 # 覀	Aaas
 # 棁	thvat
@@ -14799,7 +14808,7 @@ use_preset_vocabulary: true
 # 𢾡	thoaz
 # 㺳	mvəjq		#1		#玟
 # 玫	mvəjq
-# 𠇥	Jjiəv		#1		#攴文
+# 𠇥	Jjiəvq		#1		#攴文
 # 𣁏	zjoA
 # 叙	zjoA
 # 鈫	gxəf
@@ -14819,7 +14828,7 @@ use_preset_vocabulary: true
 # 竒	kxajq
 # 𦦓	scjoC
 # 𦥴	scjoC
-# 𠋫	hgooy
+# 𠋫	hgoovs
 # 粜	theeyk
 # 籴	deevk
 ###俗
@@ -14909,8 +14918,7 @@ use_preset_vocabulary: true
 # 𠃉	laet
 # 厭	Aaap
 # 䢠	soux
-# 倄	Evəy
-# 倄	qiəvojq
+# 倄	Evəvs
 # 冣	tsvar
 # 𨛜	gaux
 # 𨙵	gaux
@@ -14951,7 +14959,7 @@ use_preset_vocabulary: true
 # 𠿘	tsyeA		#㭰觜
 # 𡁫	tsyeA
 # 𩓗	khyeA
-# 𨎥	zyujs
+# 𨎥	zyis
 # 棰	tcyojA
 # 尷	kqaem
 # 𡯽	kqaer
@@ -14977,9 +14985,9 @@ use_preset_vocabulary: true
 # 𦝁	giəq
 # 𥟝	kiəq
 # 𣔔	kiəq
-# 鎏	ljuq
-# 𥰤	ljuq
-# 琉	ljuq
+# 鎏	ljuvq
+# 𥰤	ljuvq
+# 琉	ljuvq
 # 晌	scjag
 # 𠛨	tsshxit
 # 𠞩	tsshxit
@@ -15008,7 +15016,7 @@ use_preset_vocabulary: true
 # 銲	hgoaz
 # #減-
 # 旽	thvon
-# 蚋	ncyojs
+# 蚋	ncyer
 # 蚋	ncyot
 # 㥫	tvon
 # 炖	dvoz

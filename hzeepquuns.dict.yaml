@@ -1991,18 +1991,17 @@ import_tables:
 聧	khqvijq
 睽	khqvijq
 藈	khqvijq
+惠	hqzvijs		#ɢ
+憓	hqzvijs
+潓	hqzvijs
+蟪	hqzvijs
+蕙	hqzvijs
+橞	hqzvijs
+繐	hqzvijs
+譓	hqzvijs
+鏸	hqzvijs
+𦒎	hqzvijs
 ##VIR VIKS ViTS
-惠	hqzvirt		#ts ɢ
-憓	hqzvirt
-潓	hqzvirt
-蟪	hqzvirt
-蕙	hqzvirt
-橞	hqzvirt
-繐	hqzvirt
-譓	hqzvirt
-鏸	hqzvirt
-𦒎	hqzvirt
-暳	qsvirt		#i?
 ##VER VEKS VeTS?
 嘒	qsvert		#ts VS i?
 暳	qsvert		#i?
@@ -2498,6 +2497,14 @@ import_tables:
 𦴂	kqfəjq
 𦫳	kqfəjq
 𠁥	kqfəjq
+顡	trfərt
+𩔀	Cqfərt
+𦘄	Cqfərt
+𢘪	kqfer	999
+恠	kqfər		#𢘪誤
+怪	kqfər		#ts?
+𥑋	kqfər
+𡌪	kqfər
 ##VRuR
 㕟	khqfort
 𦳋	kqfort		#ts
@@ -2508,13 +2515,6 @@ import_tables:
 𠷝	khqfort
 𠿥	khqfort
 喟	khqfort		#ts
-顡	trfort
-𩔀	Cqfort
-𦘄	Cqfort
-怪	kqfort		#ts
-恠	kqfort
-𥑋	kqfort
-𡌪	kqfort
 𡃪	khqfor
 𧂟	khqfor
 𡓤	khqfor
@@ -2863,12 +2863,12 @@ import_tables:
 刺	tshjesk
 刾	tshjesk
 莿	tshjesk
-易	Jjesk		#ks難易 輕
 賜	sLjesk		#s-L?
 𧀩	sLjesk
 儩	sLjesk
 舓	zLcjeA
-㑥	Jjesk
+易	Jjesk		#ks難易 輕 㑥
+㑥	Jjesk	999
 敡	Jjesk
 縊	Ajesk
 㱲	Ajesk
@@ -5561,7 +5561,7 @@ import_tables:
 毸	svəq
 脄	mvəq
 脄	mvəs
-灰	msvəq		#M?
+灰	hsvəq		#M?
 詼	khqvəq
 㷇	khqvəq
 盔	khqvəq
@@ -6716,7 +6716,7 @@ import_tables:
 囌	sooq
 蘇	sooq
 㢝	sooq
-𦃃	soos
+𦃃	soos	999
 素	soos
 愫	soos
 傃	soos
@@ -11347,127 +11347,127 @@ import_tables:
 𦄼	sjuq	1		#?
 𣟼	tsjuq		#?
 ##Uə- VIə㞢
-䬌	pFhviəq		#?
-不	pFviəq	2
-不	pFviəA	2
-𡬇	pFhviəq
-𡫺	pFhviəq
-紑	pFviəq
-鴀	pFviəq
-鴀	pFviəA
-衃	pFhviəq
-肧	pFhviəq
-紑	pFhviəq
-紑	pFhviəA
-𩂆	pFhviəA
-罘	bFviəq
-芣	bFviəq
-否	pFviəA
-痞	pFviəA
-𦋑	bFviəq
-𦊾	bFviəq		#罘
-秠	pFhviəq
-秠	pFhviəA
-# 伏	bFviəs
-負	bFviəA
-萯	bFviəA
-蝜	bFviəA
-𪃓	bFviəA
-偩	bFviəq
-婦	bFviəA
-𧌈	bFviəA
-殕	pFviəA
-醅	pFhviəq
-涪	bFviəq
-棓	bFviəq
-掊	bFviəq
-䍌	bFviəq
-菩	bFviəA
-謀	mviəq
-䱕	mviəq
-莓	mviəs
-𦡘	qviəq
-𨞄	qviəq
-腄	qviəq
-郵	qviəq
-尤	qviəq
-𣏞	qviəq
-疣	qviəq
-𪐤	qviəq
-沋	qviəq
-訧	qviəq
-𩑣	qviəs
-忧	qviəs
-肬	qviəq
-珛	qsviəs		#VS
-有	qviəA		#月?肉?
-䳑	qviəA
-䀁	qviəA
-栯	qviəA
-䒴	qviəA
-宥	qviəs
-䀁	qviəs
-酭	qviəs
-姷	qviəs
-䞥	qviəs
-侑	qviəs
-囿	qviəs
-𦳩	qviəs
-𡈹	qviəs		#囿
-𧅲	qviəs
-友	qviəA
-𦫹	qviəA
-𦐮	qviəA
-㕛	qviəA
-又	qviəs		#與友同源-s
-𤴨	qviəs
-右	qviəA	2
-𥁓	qviəA
-右	qviəs
-佑	qviəs
-祐	qviəs
-㤑	qviəs		#忧
-𥁓	qviəs
+䬌	pFhuəq		#?
+不	pFuəq	2
+不	pFuəA	2
+𡬇	pFhuəq
+𡫺	pFhuəq
+紑	pFuəq
+鴀	pFuəq
+鴀	pFuəA
+衃	pFhuəq
+肧	pFhuəq
+紑	pFhuəq
+紑	pFhuəA
+𩂆	pFhuəA
+罘	bFuəq
+芣	bFuəq
+否	pFuəA
+痞	pFuəA
+𦋑	bFuəq
+𦊾	bFuəq		#罘
+秠	pFhuəq
+秠	pFhuəA
+# 伏	bFuəs
+負	bFuəA
+萯	bFuəA
+蝜	bFuəA
+𪃓	bFuəA
+偩	bFuəq
+婦	bFuəA
+𧌈	bFuəA
+殕	pFuəA
+醅	pFhuəq
+涪	bFuəq
+棓	bFuəq
+掊	bFuəq
+䍌	bFuəq
+菩	bFuəA
+謀	muəq
+䱕	muəq
+莓	muəs
+𦡘	quəq
+𨞄	quəq
+腄	quəq
+郵	quəq
+尤	quəq
+𣏞	quəq
+疣	quəq
+𪐤	quəq
+沋	quəq
+訧	quəq
+𩑣	quəs
+忧	quəs
+肬	quəq
+珛	qsuəs		#VS
+有	quəA		#月?肉?
+䳑	quəA
+䀁	quəA
+栯	quəA
+䒴	quəA
+宥	quəs
+䀁	quəs
+酭	quəs
+姷	quəs
+䞥	quəs
+侑	quəs
+囿	quəs
+𦳩	quəs
+𡈹	quəs		#囿
+𧅲	quəs
+友	quəA
+𦫹	quəA
+𦐮	quəA
+㕛	quəA
+又	quəs		#與友同源-s
+𤴨	quəs
+右	quəA	2
+𥁓	quəA
+右	quəs
+佑	quəs
+祐	quəs
+㤑	quəs		#忧
+𥁓	quəs
 ##IəVR IəVKS
-輻	pFviəsk		#ks
-富	pFviəsk
-䔰	pFviəsk
-褔	pFhviəsk
-副	pFhviəsk
-𩯅	pFhviəsk
-𢠲	pFhviəsk
-愊	pFhviəsk
-㤱	pFhviəA		#𢠲
-㤱	pFhviəsk
+輻	pFuəsk		#ks
+富	pFuəsk
+䔰	pFuəsk
+褔	pFhuəsk
+副	pFhuəsk
+𩯅	pFhuəsk
+𢠲	pFhuəsk
+愊	pFhuəsk
+㤱	pFhuəA		#𢠲
+㤱	pFhuəsk
 ##Iə uə
-裘	gviəq		#非求
-𧚍	gviəq
-鬮	kqviəq
-龜	kqviəq	1
-久	kqviəA
-玖	kqviəA
-灸	kqviəA
-𡚮	kqviəA
-𨾉	kqviəA
-灸	kqviəs
-㝌	kqviəs
-疚	kqviəs
-柩	gviəs
-畂	lviəs
-臼	gviəA
-𦥶	gviəA
-舅	gviəA
-齨	gviəA
-䳎	gviəA
-䊆	gviəA
-舊	gviəs
-匶	gviəs		#柩
-丠	khqviəq
-丘	khqviəq
-蚯	khqviəq
-邱	khqviəq
-𪖛	khqviəs
-牛	Cqviəq
+裘	guəq		#非求
+𧚍	guəq
+鬮	kquəq
+龜	kquəq	1
+久	kquəA
+玖	kquəA
+灸	kquəA
+𡚮	kquəA
+𨾉	kquəA
+灸	kquəs
+㝌	kquəs
+疚	kquəs
+柩	guəs
+畂	luəs
+臼	guəA
+𦥶	guəA
+舅	guəA
+齨	guəA
+䳎	guəA
+䊆	guəA
+舊	guəs
+匶	guəs		#柩
+丠	khquəq
+丘	khquəq
+蚯	khquəq
+邱	khquəq
+𪖛	khquəs
+牛	Cquəq
 ##iU
 妋	Aiuvq
 缶	pFiuvA
@@ -12876,7 +12876,7 @@ import_tables:
 𩋊	Aiop
 餣	Aiop
 䁆	Aiop
-𣃳	Aiob		#奄
+𣃳	Aiob		#奄𣃧
 ###UaM
 ##?
 猲	khuap		#獵誤
@@ -13794,6 +13794,10 @@ import_tables:
 爓	Jjof
 㤿	Ajom
 ###XeM?
+𣄉	Axeb		#奄
+𣃰	Axeb		#奄
+㙷	drxep		#L?
+䌜	nrxep		#?
 ##ə
 衱	gxep
 极	gxep
@@ -13850,7 +13854,7 @@ import_tables:
 𪀐	gxap
 𥐗	pxam		#砭
 ##XoM
-淹	Axom
+淹	Axom		#a?o?
 菴	Axom
 崦	Axom
 醃	Axom
@@ -13917,10 +13921,6 @@ import_tables:
 𣀳	nrxep
 聶	nrxep
 霎	ssxep
-𣄉	Axeb		#奄
-𣃰	Axeb		#奄
-㙷	drxep
-䌜	nrxep
 耴	trxep		#ŊS NS
 輒	trxep
 𦯍	trxep
@@ -14501,8 +14501,6 @@ import_tables:
 澀	ssxəp
 澁	ssxəp
 㒊	ssxəp
-㙷	drxəp
-㬤	khxəp
 孨	nrxəp
 㵫	nrxəp
 𣲷	nrxəp
@@ -14528,6 +14526,8 @@ import_tables:
 讖	tsshxif		#?韱㦰
 襳	ssxim
 ##XiM
+㙷	Lrxip		#L?濕
+㬤	khxip
 馽	trxip		#縶
 𡁉	trxip
 縶	trxip
@@ -17046,22 +17046,22 @@ import_tables:
 # 𢲼	deit
 # 𡼄	deit
 僣	theit
-天	thein		#TH?LS
-蚕	theid
-祆	hsein
-𤲖	theid		#忝聲
-田	dein		#ŋ?L?
-佃	dein
-䟧	dein
-鈿	dein
-沺	dein
-佃	deiz
-鈿	deiz
-畋	dein
-畋	deiz
-甸	deiz
-䡘	dein
-畇	dein		#地名
+# 天	thein		#TH?LS ŋ?
+# 蚕	theid
+# 祆	hsein
+# 𤲖	theid		#忝聲
+# 田	dein		#ŋ?L?
+# 佃	dein
+# 䟧	dein
+# 鈿	dein
+# 沺	dein
+# 佃	deiz
+# 鈿	deiz
+# 畋	dein
+# 畋	deiz
+# 甸	deiz
+# 䡘	dein
+# 畇	dein		#地名
 僁	seit
 㴽	seit
 # 汛	seiz		#卂
@@ -17675,14 +17675,14 @@ import_tables:
 𧝃	kqvit
 䆷	hvit
 瞲	hvit		#𥅜𥄎
-淵	Avin		#?-ŋ?
-𨓯	Avin
-䨊	Avin
-裫	Aviz
-𣶒	Avin
-𠝃	Avin		#淵
-囦	Avin		#淵
-鼘	Avin
+# 淵	Avin		#?-ŋ?
+# 𨓯	Avin
+# 䨊	Avin
+# 裫	Aviz
+# 𣶒	Avin
+# 𠝃	Avin		#淵
+# 囦	Avin		#淵
+# 鼘	Avin
 #
 詃	kqvid
 絃	hviz
@@ -19689,7 +19689,7 @@ import_tables:
 䀆	dzjid	999
 盡	dzjid
 濜	dzjid
-㶳	zjiz	999		#dz?
+㶳	zjiz	999		#燼聿
 燼	zjiz
 藎	zjiz
 濜	zjiz
@@ -19801,9 +19801,9 @@ import_tables:
 # 阠	sjiz
 𢯼	Jjid
 𢯼	Jjiz
-# 溢	Jjit		#-k
-# 鎰	Jjit
-# 齸	Jjit
+溢	Jjit		#-k?佚泆
+鎰	Jjit
+齸	Jjit
 逸	Jjit
 寅	Jjin		#L
 𡩟	Jjin
@@ -19858,7 +19858,7 @@ import_tables:
 黰	tcjid
 𣞟	tcjid
 稹	tcjid
-瞋	thcjin		#臣?
+瞋	tshcjin		#臣?
 嗔	thcjin
 謓	thcjin
 䐜	thcjin
@@ -21113,7 +21113,7 @@ import_tables:
 𩨳	tvot
 鈯	dvot
 泏	khqvot
-圣	khqvot
+圣	khqvot		#堀
 𥁕	Avon	999
 溫	Avon	999
 薀	Avon	99
@@ -25174,7 +25174,7 @@ import_tables:
 𩪧	bjek
 辟	bjek	2
 𠪮	tcjek
-益	Ajek		#ik?
+益	Ajek		#ik? i?
 謚	Ajek
 嗌	Ajek
 𠍳	Ajek
@@ -25769,57 +25769,57 @@ import_tables:
 𡿿	hqzvək
 ###Iə VIə uə
 ##
-掤	piəC
-淜	biəC
-皀	piək	1
-䫾	piək
-㘠	piək
-䁇	miək
-皕	piək		#?
-衋	hiək
-仌	piəC	999
-冰	piəC
-砯	phiəC
-靐	biəx
-馮	biəC
-憑	biəC
-㵗	biəC
-凭	biəC
-凭	biəx
-逼	piək
-偪	piək
-幅	piək
-楅	piək
-䮠	piək
-湢	piək
-𤗚	biək
-𤐧	biək
-畐	phiək
-𤗚	phiək
-稫	phiək
-堛	phiək
-愊	phiək
-踾	phiək
-𩜰	phiək
-揊	phiək
-𢾇	phiək
-腷	biək
-𥻅	biək
-踾	biək
-鶝	biək
-副	phiək
-㽬	phiək
-疈	phiək
-𨺤	phiək
-䦼	phiək
-愎	biək		#?
-馥	biək
-棘	kiək		#?
-襋	kiək
-㻷	kiək
-蕀	kiək
-悈	kiək
+掤	pxəC
+淜	bxəC
+皀	pxək	1
+䫾	pxək
+㘠	pxək
+䁇	mxək
+皕	pxək		#?
+衋	hxək
+仌	pxəC	999
+冰	pxəC
+砯	phxəC
+靐	bxəx
+馮	bxəC
+憑	bxəC
+㵗	bxəC
+凭	bxəC	999
+凭	bxəx
+逼	pxək
+偪	pxək
+幅	pxək
+楅	pxək
+䮠	pxək
+湢	pxək
+𤗚	bxək
+𤐧	bxək
+畐	phxək
+𤗚	phxək
+稫	phxək
+堛	phxək
+愊	phxək
+踾	phxək
+𩜰	phxək
+揊	phxək
+𢾇	phxək
+腷	bxək
+𥻅	bxək
+踾	bxək
+鶝	bxək
+副	phxək
+㽬	phxək
+疈	phxək
+𨺤	phxək
+䦼	phxək
+愎	bxək		#?
+馥	bxək
+棘	kxək		#?
+襋	kxək
+㻷	kxək
+蕀	kxək
 ##
+悈	kiək
 亟	kiək
 殛	kiək
 㥛	kiək
@@ -28131,22 +28131,22 @@ import_tables:
 崈	dzsxuC
 㓽	dzsxux
 #əŊ
-瞢	mFviəC
-夢	mFviəC	2
-鄸	mFviəC
-懜	mFviəC
-𦫰	mFviəC
-𧲎	mFviəC
-夢	mFviəx
-㝱	mFviəx
-鄸	mFviəx
-䠢	mFviəx
-瞢	mFviəx
-馮	bFviəC		#仌
-𨝭	bFviəC
-雄	XzviəC
-熊	XzviəC
-熋	XzviəC
+瞢	mFuəC
+夢	mFuəC	2
+鄸	mFuəC
+懜	mFuəC
+𦫰	mFuəC
+𧲎	mFuəC
+夢	mFuəx
+㝱	mFuəx
+鄸	mFuəx
+䠢	mFuəx
+瞢	mFuəx
+馮	bFuəC		#仌
+𨝭	bFuəC
+雄	XzuəC
+熊	XzuəC
+熋	XzuəC
 #
 𧆉	pFvxəm
 芃	bFvxəm
@@ -28186,69 +28186,69 @@ import_tables:
 𠤈	bFiux
 𪆍	bFiux
 ##IəK VIəK
-虙	bFviək		#伏
-伏	bFviək
-𨋩	bFviək
-洑	bFviək
-𩢰	bFviək
-𩊙	bFviək
-絥	bFviək
-茯	bFviək		#絥
-𩎧	bFviək
-栿	bFviək
-𠬝	bFviək
-𠬩	bFviək
-𦨕	bFviək
-𦨈	bFviək
-𦻉	bFviək
-服	bFviək
-𣍞	bFviək
-菔	bFviək
-鵩	bFviək
-棴	bFviək
-箙	bFviək
-𨌥	bFviək
-畗	pFviək
-𦿁	pFviək
-福	pFviək
-幅	pFviək
-輻	pFviək
-葍	pFviək
-蝠	pFviək
-鶝	pFviək
-踾	pFviək
-偪	pFviək
-楅	pFviək
-畐	bFviək
-匐	bFviək
-副	pFhviək
-𩯅	pFhviək
-䔰	pFhviək
-𤘴	mFviək
-牧	mFviək
-坶	mFviək		#牧
-𦱒	mFviək
-㦽	Aviək
-戫	Aviək
-𪑝	Aviək
-㰲	Aviək
-彧	Aviək
-稶	Aviək
-𠸹	Aviək
-𨪎	Aviək
-郁	Aviək
-栯	Aviək
-哊	qviək
-囿	qviək
-弓	kviəC
-芎	khviəC
-穹	khviəC
-焪	khviəC
-焪	khviəx
-䛪	khviəx
-䠻	khviəx
-閰	kviək		#臼
-𦥑	kviək
+虙	bFuək		#伏
+伏	bFuək
+𨋩	bFuək
+洑	bFuək
+𩢰	bFuək
+𩊙	bFuək
+絥	bFuək
+茯	bFuək		#絥
+𩎧	bFuək
+栿	bFuək
+𠬝	bFuək
+𠬩	bFuək
+𦨕	bFuək
+𦨈	bFuək
+𦻉	bFuək
+服	bFuək
+𣍞	bFuək
+菔	bFuək
+鵩	bFuək
+棴	bFuək
+箙	bFuək
+𨌥	bFuək
+畗	pFuək
+𦿁	pFuək
+福	pFuək
+幅	pFuək
+輻	pFuək
+葍	pFuək
+蝠	pFuək
+鶝	pFuək
+踾	pFuək
+偪	pFuək
+楅	pFuək
+畐	bFuək
+匐	bFuək
+副	pFhuək
+𩯅	pFhuək
+䔰	pFhuək
+𤘴	mFuək
+牧	mFuək
+坶	mFuək		#牧
+𦱒	mFuək
+㦽	Auək
+戫	Auək
+𪑝	Auək
+㰲	Auək
+彧	Auək
+稶	Auək
+𠸹	Auək
+𨪎	Auək
+郁	Auək
+栯	Auək
+哊	quək
+囿	quək
+弓	kuəC
+芎	khuəC
+穹	khuəC
+焪	khuəC
+焪	khuəx
+䛪	khuəx
+䠻	khuəx
+閰	kuək		#臼
+𦥑	kuək
 ##uK
 𡔊	dcjuk		#羞
 𦏧	dcjuk
@@ -28576,20 +28576,24 @@ import_tables:
 勠	ljivk
 ####iŊ
 ###iŊ
+天	theiC		#TH?LS ŋ?
+蚕	theig
+祆	hseiC
+𤲖	theig		#忝聲
+田	geiC		#ŋ?L?
+佃	geiC
+䟧	geiC
+鈿	geiC
+沺	geiC
+佃	geix
+鈿	geix
+畋	geiC
+畋	geix
+甸	geix
+䡘	geiC
+畇	geiC		#地名
 汛	seix		#卂
 軐	seix
-節	tseik		#卩-k
-卪	tseik
-卩	tseik
-𢎟	tseik
-𡴹	tseik
-# 𠬝	tseik	1		#?
-蝍	tseik
-癤	tseik
-㸅	tseik
-䲙	tseik
-幯	tseik
-蠞	dzeik
 年	neiC
 秊	neiC
 𨚶	neiC
@@ -28604,6 +28608,36 @@ import_tables:
 杄	tsheiC
 芊	tsheix
 眠	meiC
+堅	kqeiC
+鰹	kqeiC
+鋻	kqeiC
+䌑	kqeiC
+鋻	kqeix
+掔	khqeiC
+菣	khqeix
+𥧬	khqeig
+䵖	khqeig
+蜸	khqeig
+䵖	khqeix
+㹂	hgeik
+臤	hgeiC
+賢	hgeiC
+礥	hgeiC
+㘋	hgeiC
+臔	hgeig
+##
+節	tseik		#卩-k
+卪	tseik
+卩	tseik
+𢎟	tseik
+𡴹	tseik
+# 𠬝	tseik	1		#?
+蝍	tseik
+癤	tseik
+㸅	tseik
+䲙	tseik
+幯	tseik
+蠞	dzeik
 # 玭	beiC		#
 # 㔡	peik
 # 𢱧	beik
@@ -28618,9 +28652,9 @@ import_tables:
 覕	meik
 鴓	meik
 𥉓	meik
-# 蠮	aEIK
-# 噎	aEIK
-# 䊦	aEIK
+# 蠮	Aeik
+# 噎	Aeik
+# 䊦	Aeik
 戜	Leik		#
 𨮯	Lsheik		#L
 𩧀	Lsheik
@@ -28678,23 +28712,6 @@ import_tables:
 㗧	teik
 𢲼	deik
 𡼄	deik
-堅	kqeiC
-鰹	kqeiC
-鋻	kqeiC
-䌑	kqeiC
-鋻	kqeix
-掔	khqeiC
-菣	khqeix
-𥧬	khqeig
-䵖	khqeig
-蜸	khqeig
-䵖	khqeix
-㹂	hgeik
-臤	hgeiC
-賢	hgeiC
-礥	hgeiC
-㘋	hgeiC
-臔	hgeig
 ###ViŊ
 穴	hqzvik		#ɢ
 坹	hqzvik
@@ -28708,6 +28725,14 @@ import_tables:
 䆝	qsvik
 䒸	qsvik
 蠲	kqviC		#-ŋ
+淵	AviC		#?-ŋ?
+𨓯	AviC
+䨊	AviC
+裫	Aviz
+𣶒	AviC
+𠝃	AviC		#淵
+囦	AviC		#淵
+鼘	AviC
 ###RiŊ
 臤	khqaiC
 慳	khqaiC
@@ -28744,49 +28769,16 @@ import_tables:
 楖	tsjik
 揤	dzjik
 ##
-益	Ajik		#ik
-謚	Ajik
-嗌	Ajik
-𠍳	Ajik
-𨜶	Ajik
-齸	Ajik
-膉	Ajik
-𦶩	Ajik
-𪕶	Ajik
+# 益	Ajik		#ik
+# 謚	Ajik
+# 嗌	Ajik
+# 𠍳	Ajik
+# 𨜶	Ajik
+# 齸	Ajik
+# 膉	Ajik
+# 𦶩	Ajik
+# 𪕶	Ajik
 ##
-玭	bjiC		#
-比	bjik		#
-吡	bjik
-坒	bjik
-必	pjik		#
-覕	pjix
-珌	pjik
-鮅	pjik
-邲	bjik
-柲	bjik
-馝	bjik
-苾	bjik
-䩛	bjik
-佖	bjik
-駜	bjik
-飶	bjik
-鮅	bjik
-怭	bjik
-泌	bjik
-𨠔	bjik
-䖩	bjik
-𣢠	bjik
-咇	bjik
-妼	bjik
-宓	mjik		#
-淧	mjik
-𥁑	mjik
-謐	mjik
-䤉	mjik
-榓	mjik
-蜜	mjik
-𥋱	mjik
-𧖅	mjik
 民	mjiC		#?盲
 泯	mjiC
 怋	mjiC
@@ -28819,17 +28811,6 @@ import_tables:
 # 壹	aJIK
 印	Ajix		#
 鮣	Ajix
-桼	tshjik		#-g
-漆	tshjik
-䣛	tshjik
-𪄭	tshjik
-𦸓	tshjik
-㯃	tshjik
-𣛺	tshjik
-厀	sjik
-卩	sjik
-膝	sjik
-𧀬	sjik
 𠲳	nscjiC
 㑗	nscjiC
 身	nscjiC		#人韻
@@ -28864,9 +28845,61 @@ import_tables:
 汛	sjix
 𤜢	sjix
 阠	sjix
-溢	Jjik		#
-鎰	Jjik
-齸	Jjik
+# 㬜	tsjix
+# 晉	tsjix		#-k?
+# 搢	tsjix
+# 縉	tsjix
+# 瑨	tsjix
+# 𢸰	tsjix
+# 𦇢	tsjix
+##
+玭	bjiC		#
+比	bjik		#
+吡	bjik
+坒	bjik
+必	pjik		#
+覕	pjix
+珌	pjik
+鮅	pjik
+邲	bjik
+柲	bjik
+馝	bjik
+苾	bjik
+䩛	bjik
+佖	bjik
+駜	bjik
+飶	bjik
+鮅	bjik
+怭	bjik
+泌	bjik
+𨠔	bjik
+䖩	bjik
+𣢠	bjik
+咇	bjik
+妼	bjik
+宓	mjik		#
+淧	mjik
+𥁑	mjik
+謐	mjik
+䤉	mjik
+榓	mjik
+蜜	mjik
+𥋱	mjik
+𧖅	mjik
+桼	tshjik		#-g
+漆	tshjik
+䣛	tshjik
+𪄭	tshjik
+𦸓	tshjik
+㯃	tshjik
+𣛺	tshjik
+厀	sjik
+卩	sjik
+膝	sjik
+𧀬	sjik
+# 溢	Jjik		#
+# 鎰	Jjik
+# 齸	Jjik
 # 逸	Jjik		#佚
 # 失	Lscjik		#LS
 # 佚	Jjik		#LZ
@@ -28890,13 +28923,6 @@ import_tables:
 馹	ncjik
 衵	ncjik
 實	zcjik		#?
-# 㬜	tsjix
-# 晉	tsjix		#-k?
-# 搢	tsjix
-# 縉	tsjix
-# 瑨	tsjix
-# 𢸰	tsjix
-# 𦇢	tsjix
 ###VJIŊ YiŊ
 袕	zqcyik		#
 𦙮	kyik
