@@ -145,7 +145,7 @@ speller:
     - derive/^z([ptkbdgnmCqL])c/zc/
     - derive/^[nL]zc/zc/
 
-    - derive/^(hms|hns|hCs|hqs|hxs|hsq|ngs|Cs|ms|qs|Xs|hs)/h/
+    - derive/^(h[mnCLRqXx]s|hsq|ngs|[mnCqX]s|hs)/h/
     - derive/^(hqz|Xqz|Xq|qz|Xz|X|')/q/
     - derive/^(hzg|E)/g/
 
@@ -215,7 +215,7 @@ speller:
     - fuzz/(?<!^)j['q]$/j/
     - fuzz/(?<!^)jA$/l/
     - fuzz/(?<!^)js$/r/
-    - derive/(?<!^)vq$/v/
+    - derive/(?<!^)vq$/v/ #-v視爲韻
     - derive/(?<!^)vA$/w/
     - derive/(?<!^)vs/y/
     - derive/(?<!^)vsk/y/
@@ -342,7 +342,7 @@ translator:
     - xform/^[nL]zc/zc/
     - xform/A/ʔ/
     - xform/E/ɦ/
-    - xform/^(hns|hxs|hsq|hqs|ngs|Cs|ms|qs|Xs|hs|sx)/h/
+    - xform/^(hms|hns|hCs|hqs|hLs|hxs|hsq|ngs|Cs|ms|qs|Xs|hs)/h/
     - xform/^([LRn]sh)/th/
     - xform/^(L|Rz)/d/
     - xform/^(hqz|Xqz|JXq?|xz|qz|Xz|X)/q/
@@ -415,7 +415,7 @@ cangjie6_lookup:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片～|"
 
 abc_segmentor: #混用
-  extra_tags: [quanpin, cangjie6]
+  extra_tags: [quanpin]
 
 lookup:
   tags: [pinyin,cangjie6_lookup]
@@ -430,7 +430,7 @@ lookup:
     - xform/^[nL]zc/zc/
     - xform/A/ʔ/
     - xform/E/ɦ/
-    - xform/^(hns|hxs|hsq|hqs|ngs|Cs|ms|qs|Xs|hs|sx)/h/
+    - xform/^(hms|hns|hCs|hqs|hLs|hxs|hsq|ngs|Cs|ms|qs|Xs|hs)/h/
     - xform/^([LRn]sh)/th/
     - xform/^(L|Rz)/d/
     - xform/^(hqz|Xqz|JXq?|xz|qz|Xz|X)/q/
