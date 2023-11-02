@@ -3,7 +3,7 @@
 #---
 #叶韻 字書基亏廣韻
 #韻典網·廣韻 http://ytenx.org/kyonh/
-#切韻小鏡 廣韻集韻 http://www.kaom.net/zgy_dw.php
+#切韻小鏡 廣韻集韻 http://www.kaom.net/zky_dw.php
 #廣韵形聲攷 https://zhuanlan.zhihu.com/p/493675890
 name: hzeepquuns
 version: "2022.2.7"
@@ -2795,7 +2795,7 @@ import_tables:
 䟗	gcjeA
 氏	gcjeA
 𦐊	skcjes
-舐	zgcjeA
+舐	zkcjeA
 祇	gjeq
 衹	gjeq
 疧	gjeq
@@ -3680,8 +3680,8 @@ import_tables:
 䲀	tcjirp
 𡠗	tcjirp
 勩	Jjirp		#ps
-諡	zgcjisk		#ks?
-謚	zgcjisk
+諡	zkcjisk		#ks?
+謚	zkcjisk
 至	tcjisk		#ks
 𩊞	tcjisk
 痓	thcjisk
@@ -3713,9 +3713,9 @@ import_tables:
 駟	sjirt		#ts
 寐	mjirt		#ts
 ##JiJ
-示	zgcjijs		#sg-c?
-𥘅	zgcjijs
-眎	zgcjijs
+示	zkcjijs		#sg-c?
+𥘅	zkcjijs
+眎	zkcjijs
 祁	kcjijA
 視	gcjijA
 眎	gcjijA
@@ -4891,7 +4891,7 @@ import_tables:
 娡	tcjəs
 䓌	tcjəs
 痣	tcjəs
-寺	zdjəs		#sd- 㞢
+寺	ztjəs		#sd- 㞢
 邿	stcjəq
 畤	tcjəA
 洔	tcjəA
@@ -7112,7 +7112,7 @@ import_tables:
 糬	dcjos
 藷	dcjos
 𧄔	dcjoq
-緒	zdjoA		#sd-
+緒	ztjoA		#sd-
 書	stcjoq
 𦘠	stcjoq	999
 暑	stcjoA
@@ -8408,7 +8408,7 @@ import_tables:
 抔	bouq		#捊?
 抱	bouq
 #Ou?
-牡	mouA		#əuv
+牡	mouA		#əuV
 #Ou
 抔	bouq		#掊?
 咅	thous		#㰯
@@ -9480,7 +9480,7 @@ import_tables:
 𠅬	poavq		#?人名
 𤔣	boavs		#?
 敖	Cqoavq
-𢾍	Cqoav
+𢾍	Cqoavq
 遨	Cqoavq
 聱	Cqoavq
 驁	Cqoavq
@@ -9496,13 +9496,13 @@ import_tables:
 嗸	Cqoavq
 嗷	Cqoavq
 䫨	Cqoavq
-𢧴	Cqoav
+𢧴	Cqoavq
 摮	Cqoavq
 嫯	Cqoavq
 䦋	Cqoavq
-𣘢	Cqoav
-𦪈	Cqoav
-𩪋	Cqoav
+𣘢	Cqoavq
+𦪈	Cqoavq
+𩪋	Cqoavq
 鰲	Cqoavq
 傲	Cqoavs
 嫯	Cqoavs
@@ -9511,17 +9511,17 @@ import_tables:
 驁	Cqoavs
 謷	Cqoavs
 鷔	Cqoavs
-𩕀	Cqoay
+𩕀	Cqoavs
 𠢕	hgoavq	999
 奡	Cqoavs		#傲
 夲	thoavq
-𠦍	thoav
+𠦍	thoavq
 𠦂	thoavq	1		#?
 藨	phoavq
 䲃	tsoavA
 璅	tsoavA
 繅	tsoavA
-𩫥	dzoav
+𩫥	dzoavq
 繅	soavq
 薻	tsoavA
 刀	toavq
@@ -9535,8 +9535,8 @@ import_tables:
 倒	toavs
 菿	toavs
 鞀	doavq
-𠺛	doay
-𩔇	loaw
+𠺛	doavs
+𩔇	loavA
 膏	kqoavq
 髙	kqoavq
 高	kqoavq
@@ -9546,7 +9546,7 @@ import_tables:
 縞	kqoavs
 膏	kqoavs
 䯪	khqoavA
-𩝝	khqoay
+𩝝	khqoavs
 犒	khqoavs
 稾	khqoavs
 䯪	khqoavs
@@ -9558,12 +9558,12 @@ import_tables:
 槀	khqoavA
 燺	khqoavA
 藁	kqoavA
-𣝏	kqoay
+𣝏	kqoavs
 薧	khqoavA
 蒿	hoavq
 薧	hoavq
-𩫚	hgoav
-𩫕	hgoav
+𩫚	hgoavq
+𩫕	hgoavq
 豪	hgoavq
 毫	hgoavq
 濠	hgoavq
@@ -9573,16 +9573,17 @@ import_tables:
 藃	hoavs
 羔	kqoavq
 羙	kqoavq
-𦍚	kqoav
+𦍚	kqoavq
 餻	kqoavq
 諕	Eoavq
 號	Eoavq		#Ŋ-
-𣘫	Eoavq	1
-𨚙	Eoav
-𧇼	Eoaw
-号	Eoavs	999
+𣘫	Eoavq
+号	Eoavq	999	#皐號唬 哭
+𨚙	Eoavq
+𧇼	EoavA
+号	Eoavs	999	#令召
 號	Eoavs
-𤩭	Eoay
+𤩭	Eoavs
 㙱	Eoavs
 饕	thoavq
 勞	loavq
@@ -9594,18 +9595,18 @@ import_tables:
 髝	loavq
 髝	loavs
 憥	loavq
-𤩂	loav
+𤩂	loavq
 澇	loavq
 澇	loavA
 澇	loavs
 僗	loavs
 癆	loavs
-𣟽	loay
+𣟽	loavs
 䕩	loavA
 橑	loavA
 潦	loavA
 潦	loavs
-𧰉	loav
+𧰉	loavq
 簝	loavq
 䝤	loavA
 獠	loavA
@@ -9619,27 +9620,27 @@ import_tables:
 枆	moavq
 酕	moavq
 耄	moavs
-𧂕	moay
+𧂕	moavs
 芼	moavs
 眊	moavs
-𩿂	moay
+𩿂	moavs
 覒	moavs
 㲝	moavs
 䋃	moavs
 秏	msoavs		#M
 旄	moavq
 旄	moavs
-𣹪	moav
-𠬢	thoav
+𣹪	moavq
+𠬢	thoavq
 弢	thoavq
-𤘸	thoav
+𤘸	thoavq
 詜	thoavq
 𩑤	CqoavA		#?
-𦽀	Cqoaw
+𦽀	CqoavA
 氂	moavq
 夭	AoavA
 芺	AoavA
-𪁾	Aoaw
+𪁾	AoavA
 镺	AoavA
 镺	Aoavs
 䴠	AoavA
@@ -9656,7 +9657,7 @@ import_tables:
 躁	tsoavs
 趮	tsoavs
 幧	tshoavq
-𢿾	tshoav
+𢿾	tshoavq
 懆	tshoavA
 鄵	tshoavs
 鐰	dzoavq
@@ -9669,7 +9670,7 @@ import_tables:
 噪	soavs
 㿋	soavs
 髞	soavs
-𢤁	soay
+𢤁	soavs
 悼	doavsk		#ks?
 㿷	tshoavs
 洮	Lshoavq		#L-
@@ -9681,10 +9682,10 @@ import_tables:
 鞉	Loavq
 駣	Loavq
 駣	LoavA
-𨱵	Loaw
-𨱵	Loay
-𨱵	noaw
-𨱵	noay
+𨱵	LoavA
+𨱵	Loavs
+𨱵	noavA
+𨱵	noavs
 盜	Loavs
 ##OuV
 𩭾	mouvq		#亡牢切 敄
@@ -10036,20 +10037,20 @@ import_tables:
 磝	Cqaavq
 巢	dzsaavq
 巢	dzsaavs
-𦗔	tssaav
+𦗔	tssaavq
 罺	tssaavq
 摷	tssaavq
 䜈	tsshaavq
 罺	tsshaavs
 轈	dzsaavq
 勦	dzsaavq
-𡻝	dzsaav
-𣝞	dzsaav
+𡻝	dzsaavq
+𣝞	dzsaavq
 樔	dzsaavq
-𡏮	dzsaav
+𡏮	dzsaavq
 鄛	dzsaavq
 㑿	dzsaavA
-𦾱	tsshaav
+𦾱	tsshaavq
 嘲	traavq		#啁
 鳭	traavq
 䫸	thraavq
@@ -10074,14 +10075,14 @@ import_tables:
 㤊	Eaavq
 䂚	Eaavq
 㤊	Eaavs
-𤉧	kqaaw
+𤉧	kqaavA
 敎	kqaavq		#爻聲
 敎	kqaavs		#爻聲
 𤕝	kqaavs	99
-𧧿	kqaay
+𧧿	kqaavs
 𡥈	kqaavs		#放效
-𩎔	kqaav
-𩾾	haav
+𩎔	kqaavq
+𩾾	haavq
 肴	Eaavq		#ɢ?
 餚	Eaavq
 崤	Eaavq
@@ -10089,7 +10090,7 @@ import_tables:
 淆	Eaavq
 倄	Eaavq
 殽	Eaavq
-𦺔	Eaav
+𦺔	Eaavq
 瑵	tssaavA
 䄻	Lraavq		#LZ
 嘮	Rshraavq		#RS
@@ -10117,9 +10118,9 @@ import_tables:
 棹	draavsk
 淖	nraavsk
 ##ReV
-𢿏	phaev
+𢿏	phaevq
 麃	baevq
-𲎋	baev
+𲎋	baevq
 交	kqaevq
 蛟	kqaevq
 茭	kqaevq
@@ -10129,7 +10130,7 @@ import_tables:
 郊	kqaevq
 䍊	kqaevq
 䢒	kqaevq
-𥹜	kqaev
+𥹜	kqaevq
 鉸	kqaevq
 佼	kqaevq
 詨	kqaevq
@@ -10153,7 +10154,7 @@ import_tables:
 洨	hgaevq
 筊	hgaevq
 姣	hgaevq
-𨠦	hgaev
+𨠦	hgaevq
 胶	hgaevq		#肉
 # 㬵	hgaevq		#月
 佼	hgaevA
@@ -10168,7 +10169,7 @@ import_tables:
 効	hgaevs
 效	hgaevs
 傚	hgaevs
-𢯴	kqaew
+𢯴	kqaevA
 礮	phaevs		#拋
 砲	phaevs		#礮
 貓	maevq
@@ -10196,12 +10197,12 @@ import_tables:
 耖	tsshaevs
 仯	tsshaevs
 觘	tsshaevs
-𦨖	tsshaey
+𦨖	tsshaevs
 䈰	ssaevq
 捎	ssaevq
 莦	ssaevq
 梢	ssaevq
-𡡏	ssaev
+𡡏	ssaevq
 潲	ssaevs
 稍	ssaevs
 筲	ssaevq
@@ -10217,26 +10218,26 @@ import_tables:
 颵	ssaevq
 娋	ssaevq
 娋	ssaevs
-𨛍	ssaey
-𦓴	ssaey
+𨛍	ssaevs
+𦓴	ssaevs
 揱	ssaevs
-𣕇	ssaey
-鐃	nraevq
-譊	nraevq
-䴃	nraevq
-𡽧	nraev
-撓	nraevA
-橈	nraevs
+𣕇	ssaevs
+鐃	Craevq		#堯
+譊	Craevq
+䴃	Craevq
+𡽧	Craevq
+撓	CraevA
+橈	Craevs
 磽	khqaevq
 墝	khqaevq
-𢿣	Cqaev
+𢿣	Cqaevq
 磽	Cqaevs
 穘	Csaevq		#ŊS
 顤	Csaevq
 梎	Aaevq
-𠣑	Aaev
+𠣑	Aaevq
 窅	Aaevq
-𥄀	Aaew
+𥄀	AaevA
 ##ReVR
 礉	khqaevq
 礉	khqaevsk		#ks
@@ -10358,19 +10359,19 @@ import_tables:
 轇	kqaəvq
 摎	kqaəvq
 嘐	kqaəvq
-𥂔	kqaəw
+𥂔	kqaəvA
 膠	kqaəvs
 䀊	kqaəvA
-𥉾	khqaəv
+𥉾	khqaəvq
 㺒	hgaəvA
 䀊	hgaəvA
 嘐	haəvq
-𠐋	laəv
+𠐋	laəvq
 顟	laəvq
 賿	laəvq
 㺒	nraəvA
 𦫶	phaəvq	1
-𦫶	kqaəv
+𦫶	kqaəvq
 㽱	kqaəvA
 䫜	Aaəvq
 坳	Aaəvq
@@ -10378,7 +10379,7 @@ import_tables:
 眑	Aaəvq
 拗	Aaəvs
 鴢	Aaəvs
-𢂊	Aaəy
+𢂊	Aaəvs
 狕	Aaəvs
 靿	Aaəvs
 袎	Aaəvs
@@ -10393,51 +10394,51 @@ import_tables:
 ###eV
 ##eA
 摷	leavq		#巢?
-𧂈	tseaw
+𧂈	tseavA
 劋	tseavA
 芀	teavq		#刀?
-𠚥	teav
+𠚥	teavq
 芀	deavq
 釗	kqeavq
 刁	teavq
-𩾗	teav
+𩾗	teavq
 貂	teavq
 䂏	teavq
 蛁	teavq
-𦨣	teav
+𦨣	teavq
 迢	deavq
 髫	deavq
 苕	deavq
 岧	deavq
-𣬸	deav
+𣬸	deavq
 䎄	heavq		#?
 ##EeV
 撨	seevq
-𢄺	leew
+𢄺	leevA
 嬲	neevA
 褭	neevA	999
 㒟	neevA
 㜵	neevA
 䃵	neevA
-𢸣	neew
+𢸣	neevA
 㭂	tseevA
 踃	seevq
-𦐺	seev
+𦐺	seevq
 㲖	seevq
 箾	seevq
 䂪	khqeevA
 娎	heevs
 𢆷	Aeevq		#?邀
-𥄉	kqeev
+𥄉	kqeevq
 郻	khqeevq		##鄡
-𡩇	khqeev
+𡩇	khqeevq
 梟	kqeevq		#驍
 蟂	kqeevq
 鄡	khqeevq
 嘄	Cqeevs
 皛	hgeevA
 㵿	hgeevA
-𦞵	heev
+𦞵	heevq
 㚠	heevq
 䫞	heevq
 㿟	kqeevA
@@ -10446,7 +10447,7 @@ import_tables:
 晈	kqeevA
 䘨	kqeevA
 窔	Aeevs
-#𠄔	hgeew
+#𠄔	hgeevA
 𩡻	AeevA		#?
 垚	Cqeevq
 堯	Cqeevq
@@ -10456,8 +10457,8 @@ import_tables:
 嬈	neevA
 驍	kqeevq
 澆	kqeevq
-𨎬	kqeey
-𢿣	khqeev
+𨎬	kqeevs
+𢿣	khqeevq
 磽	khqeevA
 嶢	Cqeevq
 僥	Cqeevq
@@ -10474,7 +10475,7 @@ import_tables:
 𤈑	theek		#?
 㫐	Aeevq
 䆞	AeevA		#㝔
-𡧮	Aeew
+𡧮	AeevA
 㫐	AeevA
 䆞	Aeevs
 杳	AeevA
@@ -10489,21 +10490,21 @@ import_tables:
 膋	leevq
 蟧	leevq
 了	leevA
-𠄏	teew
+𠄏	teevA
 釕	teevA
-𩵌	seew
+𩵌	seevA
 䑠	leevA
-𧘈	leew
-𦿌	leev
+𧘈	leevA
+𦿌	leevq
 敹	leevq
 料	leevq
 炓	leevs
 料	leevs
-𥨤	leev
-𨭼	leev
-𥵐	leev
+𥨤	leevq
+𨭼	leevq
+𥵐	leevq
 橑	leevq
-𧂏	leev
+𧂏	leevq
 遼	leevq
 膫	leevq		#膋
 飉	leevq
@@ -10519,7 +10520,7 @@ import_tables:
 嫽	leevq
 蟟	leevq
 瞭	leevq
-𩯊	leev
+𩯊	leevq
 嶚	leevq
 繚	leevq
 憭	leevq
@@ -10531,12 +10532,12 @@ import_tables:
 憭	leevA
 爒	leevA
 撩	leevA
-𩕐	leey
+𩕐	leevs
 嫽	leevs
 嘹	leevs
 鐐	leevs
 璙	leevs
-𦌒	leey
+𦌒	leevs
 𣂁	Lsheevq		#LS
 庣	Lsheevq
 銚	Lsheevq
@@ -10562,19 +10563,19 @@ import_tables:
 趒	Leevq
 鮡	Leevq
 窕	LeevA
-𤕷	Leew
-𤱩	Leew
+𤕷	LeevA
+𤱩	LeevA
 誂	LeevA
 挑	LeevA
 𠧪	Leevq		#?LZ
-𠨋	Leev
+𠨋	Leevq
 ##EVR eVKS
 激	kqeevsk		#ks
 憿	kqeevq
 邀	kqeevq
 徼	kqeevq
 璬	kqeevA
-𢅎	kqeew
+𢅎	kqeevA
 皦	kqeevA
 繳	kqeevA
 儌	kqeevA
@@ -10606,23 +10607,23 @@ import_tables:
 嫋	neevA
 釣	teevsk		#ks
 瘹	teevsk
-𢁕	teew
+𢁕	teevA
 㣿	teevA
 扚	teevA
 䄪	teevA		#𠄏
 尥	leevsk
 芍	hgeevA
-𦯪	hgeew
+𦯪	hgeevA
 ##iVR
 弔	teivsk		#ks
 伄	teivsk
 𨑩	teivsk
-𧘨	teiv
+𧘨	teivq
 鳥	teivA		#島
-𧜣	teiv
+𧜣	teivq
 瞗	teivq
 蔦	teivA
-𧜣	teiw
+𧜣	teivA
 窵	teivs
 蔦	teivs
 ##EiV?
@@ -10634,11 +10635,11 @@ import_tables:
 樤	Leəvq
 鰷	Leəvq
 鋚	Leəvq
-𧌁	Leəv
+𧌁	Leəvq
 䩦	Leəvq
-𠤼	Leəv
+𠤼	Leəvq
 莜	Leəvs
-𥁮	Leəy
+𥁮	Leəvs
 翛	seəvq
 筱	seəvA
 篠	seəvA
@@ -10647,16 +10648,16 @@ import_tables:
 翏	leivq
 漻	leivq
 廖	leivq
-𦗖	leiv
+𦗖	leivq
 憀	leivq
 寥	leivq
 豂	leivq
 髎	leivq
-𡽐	leiv
+𡽐	leivq
 熮	leivq
 蓼	leivA
-𤁸	leiw
-𥗀	leiw
+𤁸	leivA
+𥗀	leivA
 鄝	leivA
 彇	seivq
 蟰	seivq
@@ -10671,10 +10672,10 @@ import_tables:
 䐹	seivs
 熽	seivs
 蕭	seivq
-𩙚	seiv
+𩙚	seivq
 簫	seivq
 ##
-𦶌	teiv
+𦶌	teivq
 凋	teivq
 䯾	teivq
 琱	teivq
@@ -10689,13 +10690,13 @@ import_tables:
 䯾	deivq
 調	deivs
 #i u?
-𧊓	deiv
+𧊓	deivq
 𦕼	leivq		#𦗖
 聊	leivq
-𥲊	leiv
+𥲊	leivq
 艘	seivq
 瞍	seivq
-𧩮	seiw
+𧩮	seivA
 謏	seivA
 ##OəV i?
 叫	kqeəvs
@@ -10706,7 +10707,7 @@ import_tables:
 怮	Aeəvq
 䱂	Aeəvq
 窈	AeəvA
-𨱧	Aeəw
+𨱧	AeəvA
 鴢	AeəvA
 苭	AeəvA
 ###JeV
@@ -10719,11 +10720,11 @@ import_tables:
 㗛	sjavs
 ##e?
 #u
-𧳨	ncjuw
+𧳨	ncjuvA
 㹛	ncjuvq
-𢹎	ncjuw
+𢹎	ncjuvA
 擾	ncjuvA
-𤛾	ncjuw
+𤛾	ncjuvA
 𤪎	Jjuvs		#𣣸
 #o?
 㿁	Jjuvq		#皋
@@ -10743,7 +10744,7 @@ import_tables:
 椒	tsjivq
 茮	tsjivq
 𪚰	tsjivq		#
-𪚱	tsjiv
+𪚱	tsjivq
 鍫	tshjivq
 篍	tshjivq
 㡑	tshjivq
@@ -10753,7 +10754,7 @@ import_tables:
 剿	tsjavA
 勦	tsjavA
 漅	tsjavA
-𡻝	dzjav
+𡻝	dzjavq
 劋	tsjavA
 鐰	tshjavq
 幧	tshjavq
@@ -10773,7 +10774,7 @@ import_tables:
 鰩	Jjavq
 媱	Jjavq
 颻	Jjavq
-𣣳	Jjav
+𣣳	Jjavq
 窰	Jjavq		#𥧳
 䔄	Jjavq
 愮	Jjavq
@@ -10786,29 +10787,29 @@ import_tables:
 搖	Jjavs
 鷂	Jjavs
 鷣	Jjavs	2		#鷂
-𧡷	Jjay
+𧡷	Jjavs
 覞	Jjavs		#𧡷
 䔄	Jjavs
 𤬖	Lscjavq		#LS 䚻
 䌛	Jjavq		#L-
 邎	Jjavq
 蘨	Jjavq
-𤬖	Jjav
-𢑄	Jjav
+𤬖	Jjavq
+𢑄	Jjavq
 ##
 䫞	khjavq
 㚠	khjavq
 窯	Jjavq		#窰
 溔	JjavA
-𩨴	Jjaw
+𩨴	JjavA
 皽	tcjavq		#𤿘
 𤿘	tcavq		#召
 釗	tcjavq		#刀
 釖	tcjavq
-𩾗	tsjav
+𩾗	tsjavq
 綤	dcjavA
 邵	dcjavs
-𦯐	dcjav
+𦯐	dcjavq
 佋	dcjavq
 佋	dcjavA
 昭	tcjavq
@@ -10821,15 +10822,15 @@ import_tables:
 招	tcjavq
 炤	tcjavs
 詔	tcjavs
-𨹸	tcjay
-𠧙	tcjay
+𨹸	tcjavs
+𠧙	tcjavs
 怊	thcjavq
 弨	thcjavq
 弨	thcjavA
 眧	thcjavA
 韶	dcjavq
 㲈	dcjavq
-𠧙	dcjav
+𠧙	dcjavq
 玿	dcjavq
 軺	dcjavq
 柖	dcjavq
@@ -10839,8 +10840,8 @@ import_tables:
 䙼	dcjavA
 召	dcjavs
 劭	dcjavs
-𠧙	dcjay
-𠣫	dcjay
+𠧙	dcjavs
+𠣫	dcjavs
 䬰	dcjavs
 卲	dcjavs
 軺	Jjavq
@@ -10849,11 +10850,11 @@ import_tables:
 猋	pjevq
 驫	pjevq		#?3
 飆	pjevq
-𦠎	pjev
-𣄠	pjev
+𦠎	pjevq
+𣄠	pjevq
 贆	pjevq
-𦠎	phjev
-𩙒	phjev
+𦠎	phjevq
+𩙒	phjevq
 犥	phjevq
 犥	phjevA
 皫	phjevA
@@ -10867,13 +10868,13 @@ import_tables:
 瘭	pjevq
 幖	pjevq	999
 熛	pjevq
-𧽤	pjev
+𧽤	pjevq
 蔈	pjevq
 㠒	pjevq
 𧟈	pjevA	99
 𣠙	pjevA	99
 褾	pjevA
-𧢄	pjew
+𧢄	pjevA
 標	pjevA
 㟽	pjevA
 𤐫	phjevq	99
@@ -10897,11 +10898,11 @@ import_tables:
 慓	phjevq
 彯	phjevq
 摽	phjevq
-𧽤	phjev
-𨄏	phjev
+𧽤	phjevq
+𨄏	phjevq
 嘌	phjevq
 翲	phjevq
-𪅃	phjev
+𪅃	phjevq
 瞟	phjevq
 螵	phjevq
 𦇳	phjevA	99
@@ -10929,10 +10930,10 @@ import_tables:
 嫖	phjevs
 慓	phjevs
 剽	phjevs
-𩙞	bjev
+𩙞	bjevq
 飄	bjevq
 螵	bjevq
-𤬡	bjev
+𤬡	bjevq
 剽	bjevq
 瓢	bjevq
 薸	bjevq
@@ -10945,7 +10946,7 @@ import_tables:
 鰾	bjevA
 慓	bjevA
 顠	bjevA
-𩮳	bjew
+𩮳	bjevA
 膘	bjevA
 驃	bjevs
 篻	mjevq
@@ -10958,7 +10959,7 @@ import_tables:
 篎	mjevs
 䖢	mjevq
 㠺	mjevq
-𪃦	mjev
+𪃦	mjevq
 訬	mjevA
 杪	mjevA
 秒	mjevA
@@ -10966,18 +10967,18 @@ import_tables:
 眇	mjevA
 渺	mjevA
 淼	mjevA
-𦳥	mjew
+𦳥	mjevA
 篎	mjevA
 妙	mjevs
 玅	mjevs
-𨙹	tsjew
+𨙹	tsjevA
 麨	thcjevA		#
 䒚	stcjevA
-𨙹	stcjew
+𨙹	stcjevA
 少	stcjevA		#st?
 少	stcjevs
 釥	tshjevA
-𩵖	sjew
+𩵖	sjevA
 䒕	sjevA
 小	sjevA
 𤓪	tsjevq		#焦
@@ -10989,20 +10990,20 @@ import_tables:
 蟭	tsjevq
 䩌	tsjevq
 僬	tsjevq
-𢄺	tsjew
+𢄺	tsjevA
 醮	tsjevs
-𥛲	tsjey
+𥛲	tsjevs
 䩌	tsjevs
 僬	tsjevs
 趭	tsjevs
-𣟼	tshjev
+𣟼	tshjevq
 劁	dzjevq
 憔	dzjevq
 顦	dzjevq
 譙	dzjevq
 嶕	dzjevq
 鐎	dzjevq
-𨝱	dzjev
+𨝱	dzjevq
 僬	dzjevq
 䩌	dzjevq
 撨	dzjevq
@@ -11014,7 +11015,7 @@ import_tables:
 䌭	tsjevq
 膲	tsjevq
 燋	tsjevq
-𤃭	tsjew
+𤃭	tsjevA
 潐	tsjevs
 樵	dzjevq
 藮	dzjevq
@@ -11023,7 +11024,7 @@ import_tables:
 哨	tshjevs
 俏	tshjevs
 帩	tshjevs
-𪑊	tshjey
+𪑊	tshjevs
 誚	dzjevs
 陗	tshjevs
 㴥	tshjevs
@@ -11041,9 +11042,9 @@ import_tables:
 硝	sjevq
 蛸	sjevq
 哨	sjevq
-𦐺	sjev
+𦐺	sjevq
 鮹	sjevq
-𤞚	sjev
+𤞚	sjevq
 䴛	sjevq
 魈	sjevq
 肖	sjevs
@@ -11051,9 +11052,9 @@ import_tables:
 鞘	sjevs
 揱	sjevq
 㞁	Jjevs		#?
-𦥝	Jjew
+𦥝	JjevA
 舀	JjevA
-𦥟	Jjew
+𦥟	JjevA
 𦥨	JjevA	1
 抭	JjevA		#冗
 㫍	Jjevq
@@ -11064,36 +11065,36 @@ import_tables:
 洮	Jjevq
 烑	Jjevq
 餆	Jjevq
-𦾺	Jjev
+𦾺	Jjevq
 艞	Jjevs
 筄	Jjevs
-𢃳	dcjev
+𢃳	dcjevq
 荍	gjevq
-𤐗	ljev
+𤐗	ljevq
 燎	ljevq
-𦆖	ljew
-𤪃	ljew
-𤒧	ljew
-𡢴	ljew
+𦆖	ljevA
+𤪃	ljevA
+𤒧	ljevA
+𡢴	ljevA
 繚	ljevA
 燎	ljevA
-𢻢	ljew
+𢻢	ljevA
 璙	ljevA
 憭	ljevA
 爒	ljevA
 僚	ljevA
 䩍	ljevA
 嫽	ljevA
-𡼷	ljey
+𡼷	ljevs
 尞	ljevs
-𤊽	ljey
+𤊽	ljevs
 燎	ljevs
 㙩	ljevs
 療	ljevs
 膫	ljevs
 鷯	ljevs
-𥡤	tsjey
-𧄍	gjev
+𥡤	tsjevs
+𧄍	gjevq
 翹	gjevq
 翹	gjevs
 饒	Ccjevq		#Ŋc
@@ -11112,13 +11113,13 @@ import_tables:
 蹺	khjevq
 蟯	Ajevq
 要	Ajevq
-𡢗	Ajev
-𦥺	Ajev
+𡢗	Ajevq
+𦥺	Ajevq
 要	Ajevs
 腰	Ajevq
 葽	Ajevq
 喓	Ajevq
-𧍔	Ajev
+𧍔	Ajevq
 䙅	Ajevq
 䳩	Ajevq
 闄	AjevA
@@ -11142,7 +11143,7 @@ import_tables:
 䂃	tsjevsk
 ###XeV
 ##XəV?
-𥃧	kxew
+𥃧	kxevA
 ##XiV
 孂	kxevA
 ##XOV a?
@@ -11159,7 +11160,7 @@ import_tables:
 廟	mxavs		#庿
 𦩻	trxavq		#
 朝	trxavq
-𣎍	trxav
+𣎍	trxavq
 朝	drxavq
 潮	drxavq
 鼂	drxavq
@@ -11174,14 +11175,14 @@ import_tables:
 訞	Axavq
 殀	AxavA
 仸	AxavA
-𡝩	Axav
+𡝩	Axavq
 䄏	Axavq
-𧨶	Axav
+𧨶	Axavq
 表	pxavA
-𧘝	pxaw
-# 錶	pxaw
-# 婊	pxaw
-# 裱	pxay
+𧘝	pxavA
+# 錶	pxavA
+# 婊	pxavA
+# 裱	pxavs
 俵	pxavs
 巐	thrxavA		#?
 歊	hxavq
@@ -11189,15 +11190,15 @@ import_tables:
 枵	qsxavq
 呺	qsxavq
 鴞	Xzxavq
-𨚙	Xzxav
+𨚙	Xzxavq
 㰶	bxavA
 㹾	bxavA
 囂	Csxavq		#ŊS
 嚻	Csxavq
-𠽸	Csxav
+𠽸	Csxavq
 虈	Csxavq
 㺧	Csxavq
-𩱴	Csxav
+𩱴	Csxavq
 䖀	Csxavq
 喬	kxavq		#高
 驕	kxavq
@@ -11216,12 +11217,12 @@ import_tables:
 嬌	kxavA
 蟜	kxavA
 譑	kxavA
-𨝰	kxaw
+𨝰	kxavA
 蹻	kxavA
 趫	khxavq
-𢄹	khxav
+𢄹	khxavq
 鞽	khxavq
-𠿕	khxay
+𠿕	khxavs
 㢗	khxavs
 譑	khxavs
 毊	hxavq
@@ -11242,7 +11243,7 @@ import_tables:
 䎗	gxavq
 䀉	gxavq
 喬	gxavq
-𨲭	gxaw
+𨲭	gxavA
 嶠	gxavs
 轎	gxavs
 ##
@@ -11250,24 +11251,24 @@ import_tables:
 超	thrxavq
 怊	thrxavq
 欩	thrxavq
-𢁾	thrxav
-𠰉	thrxav
+𢁾	thrxavq
+𠰉	thrxavq
 䫿	thrxavq
 ##XeV
 䔸	pxevA
 鑣	pxevq
-𧥍	pxev
+𧥍	pxevq
 臕	pxevq
 儦	pxevq
 瀌	pxevq
-𦔩	pxev
+𦔩	pxevq
 藨	pxevq
-𧞧	pxew
+𧞧	pxevA
 麃	pFhxevA
 藨	bxevA
 𦳤	bxevA		#藨
-𠬪	bxew
-𧇠	Cxey
+𠬪	bxevA
+𧇠	Cxevs
 趙	drxevA		#?
 趬	khxevs		#KL-
 㚁	khxevs
@@ -11280,12 +11281,12 @@ import_tables:
 鮡	LrxevA
 駣	LrxevA
 垗	LrxevA
-𠧞	Lrxew
+𠧞	LrxevA
 ####IəV IU IiV幽尤 J X
 ###Iu 尤 J
-𦅨	sjuA	1		#?須
-𦄼	sjuq	1		#?
-𣟼	tsjuq		#?
+𦅨	sjuvA	1		#?須
+𦄼	sjuvq	1		#?
+𣟼	tsjuvq		#?
 ##Uə- VIə㞢
 䬌	pFhuəq		#?
 不	pFuəq	2
@@ -12023,19 +12024,19 @@ import_tables:
 𥥉	zLjusk
 牰	zLjusk
 䅢	tsjusk
-###xəv
+###XəV
 ##XUR XUKS XuTS
-嘼	thrxusk		#畜
-畜	thrxusk		#ksQH?
-噣	trxusk		#ks o?
-漱	ssxusk		#ks
-鏉	ssxusk
-簉	tsshxusk		#ks
-䔏	tsshxusk
-㩅	thrxuq		#抽𢭆#RS?
-㨨	thrxuq		#ks#RS
-籀	drxusk
-𢭆	thrxuq
+嘼	thrxuvsk		#畜
+畜	thrxuvsk		#ksQH?
+噣	trxuvsk		#ks o?
+漱	ssxuvsk		#ks
+鏉	ssxuvsk
+簉	tsshxuvsk		#ks
+䔏	tsshxuvsk
+㩅	thrxuvq		#抽𢭆#RS?
+㨨	thrxuvq		#ks#RS
+籀	drxuvsk
+𢭆	thrxuvq
 ##?v
 犙	ssxuvq
 𠃬	drxuvq	99		#𠃬𢏚 𢄛 弓匚コ口
@@ -12163,7 +12164,7 @@ import_tables:
 葤	drxivA
 紂	drxivA
 酎	drxivs
-𠿈	tssxivq		#iv
+𠿈	tssxivq		#iV
 𢝲	dzsxivq	99
 𣿜	dzsxivq
 𤭰	dzsxivq
@@ -12210,17 +12211,17 @@ import_tables:
 𥈌	Lshrxəvq		#LS
 鯈	Lrxəvq
 杽	nshrxəvA		#手
-###iov幽
-𩖛	biov
+###ioV幽
+𩖛	biovq
 聱	Ciovq
 鬮	kiovq
 ##-J- JəV
 稵	tsjovq
 犙	ssxovq
 #
-驫	pxovq		#jev
-瀌	bxovq		#jev
-髟	pxovq		#jev
+驫	pxovq		#jeV
+瀌	bxovq		#jeV
+髟	pxovq		#jeV
 飍	mhxovq		#又風幽切 猋驫
 彪	pxovq		#瀌
 滮	bxovq
@@ -14858,7 +14859,7 @@ import_tables:
 㜓	toəp
 嗒	toəp
 㿯	toəp
-荅	toəp
+荅	toəp	999
 榙	hgoəp
 弇	kqoəm
 媕	Aoəm
@@ -18037,8 +18038,8 @@ import_tables:
 ###JeN
 㿊	tshjen		#憯
 ##JaN
-蛥	zdcjat
-鞨	zgcjat
+蛥	ztcjat
+鞨	zkcjat
 ##JaN
 肰	ncjan	999
 𤉷	ncjan
@@ -19289,7 +19290,7 @@ import_tables:
 晨	dcjən
 曟	dcjən
 鷐	dcjən
-晨	zdcjən
+晨	ztcjən
 唇	tcjən
 㖘	tcjən
 振	tcjən
@@ -19952,24 +19953,24 @@ import_tables:
 㕯	ncyut	2
 出	tschyut
 陙	dcyun
-脣	zdcyun
-漘	zdcyun
-䔚	zdcyun
-㸪	zdcyun
-紃	zdcyun
-順	zdcyuzd
-巡	zdyun
-馴	zdyun
-㸪	zdyun
-紃	zdyun
-盾	zdcyud
-揗	zdcyud
-楯	zdcyud
-揗	zdcyuzd
-循	zdyun
-揗	zdyun
-䋸	zdyun
-楯	zdyun
+脣	ztcyun
+漘	ztcyun
+䔚	ztcyun
+㸪	ztcyun
+紃	ztcyun
+順	ztcyuzt
+巡	ztyun
+馴	ztyun
+㸪	ztyun
+紃	ztyun
+盾	ztcyud
+揗	ztcyud
+楯	ztcyud
+揗	ztcyuzt
+循	ztyun
+揗	ztyun
+䋸	ztyun
+楯	ztyun
 儁	tsyuz
 寯	tsyuz
 𧭺	tcyun
@@ -24100,7 +24101,7 @@ import_tables:
 弔	teivk
 𨑩	teivk
 ##
-迪	Leivk		#LZ由 iv,u
+迪	Leivk		#LZ由 iV,u
 笛	Leivk
 頔	Leivk
 䨤	Leivk
@@ -24970,9 +24971,9 @@ import_tables:
 摭	tcjak
 蹠	tcjak
 䗪	tcjak
-席	zdjak		#石 sd-
-𠩛	zdjak
-蓆	zdjak
+席	ztjak		#石 sd-
+𠩛	ztjak
+蓆	ztjak
 炙	tcjak		#石 庶
 葃	dzjak
 夕	zLjak		#sL?
@@ -27344,10 +27345,10 @@ import_tables:
 𨳗	kcjoC
 鈆	kcjoC
 𨑪	tshjoC		#?skh
-訟	zgjoC		#s-g
-頌	zgjox
-𩔜	zgjox		#容
-訟	zgjox
+訟	zkjoC		#s-g
+頌	zkjox
+𩔜	zkjox		#容
+訟	zkjox
 頌	JqjoC		#頌
 𩔜	JqjoC
 䡆	JqjoC
@@ -27360,9 +27361,9 @@ import_tables:
 倯	skjoC
 𢔋	skjoC
 䯳	skjoC
-松	zgjoC		#SQZ sɢ
-㮤	zgjoC
-凇	zgjoC
+松	zkjoC		#SQZ sɢ
+㮤	zkjoC
+凇	zkjoC
 容	JqjoC
 㝐	JqjoC		#公
 溶	JqjoC
