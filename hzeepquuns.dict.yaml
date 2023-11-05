@@ -1338,7 +1338,7 @@ import_tables:
 澧	leijA
 醴	leijA
 鱧	leijA
-医	Aeijs
+医	Aeijs	999		#與醫稍別
 殹	Aeijs
 嫕	Aeijs
 鷖	Aeijq
@@ -1737,6 +1737,10 @@ import_tables:
 蠡	leeA		#蠡吾縣
 𥯵	leeA
 劙	lees
+#
+𥿳	sees	999
+𣳦	sees
+細	sees
 ##OER OEKS OeTS
 #PS
 荔	leerp		#ps
@@ -1951,9 +1955,6 @@ import_tables:
 𣶓	seəjA
 洒	seəjA
 栖	seəjs
-𥿳	seəjs	999
-𣳦	seəjs
-細	seəjs
 沴	leəjs
 ##OəR
 #PS
@@ -2085,9 +2086,6 @@ import_tables:
 䵘	ssaijs
 䒓	khqaijA
 㼮	tsshaijq		#妻
-##Ri?
-㿄	Aaes		#?
-㗨	haeq
 ##Re 佳
 籭	ssaeq
 躧	ssaeA
@@ -2183,6 +2181,9 @@ import_tables:
 ##?-佳
 𣎳	phaes		#?
 𣏟	phaes
+##Ri?
+㿄	Aaijs		#?醫医
+㗨	haijq		#𧥤
 ##Rə-佳
 𢞎	baəA
 棑	baəq
@@ -2334,11 +2335,11 @@ import_tables:
 龤	hgaijq
 蝔	hgaijq
 䕸	kqaijq
-##-皆
-儕	dzsaijq
-麡	dzsaijq
-齋	tssaijq
-𪗓	tssaijq
+##Rəj-皆
+儕	dzsaəjq		#齊
+麡	dzsaəjq
+齋	tssaəjq
+𪗓	tssaəjq
 搱	nraijq		#屖穉雉
 ##RiTS?
 㶔	bairt		#𡚤
@@ -2836,6 +2837,9 @@ import_tables:
 邐	ljeA
 㿛	ljes
 峛	ljeq		#邐
+#
+𠈈	sjeA		#佌囟
+𠈈	tshjeA
 ##JiJ
 寘	tcjejs
 𡽆	tcjejs
@@ -2844,9 +2848,6 @@ import_tables:
 劙	ljejq		#?𠠍剺
 蠡	ljejq
 鵹	ljejq
-##ə
-𠈈	sjəjA		#佌囟
-𠈈	tshjəjA
 ##a-R
 觶	tcjajq
 觶	tcjajs
@@ -3048,11 +3049,14 @@ import_tables:
 璽	snjəjs
 䌳	nscjəjq
 ###Ye VJE
+##?
+䓈	JqyeA		#?
+##YeR
+𥞃	tscyer
+觖	khyert
+䜜	Jqyer
+贀	Jqyer		#医?䜜
 ##YE
-䜜	Jyes
-贀	Jyes
-䓈	JyeA		#?
-𥞃	kcyes
 觜	tsyeq
 觜	tsyeA
 㭰	tsyeq
@@ -3097,8 +3101,6 @@ import_tables:
 ##YI?Ye?
 沝	tscyeA
 芛	JyejA
-##YeR
-觖	khyert
 ##YoR
 䄲	ncyorp
 𥳙	dcyojq
@@ -6020,9 +6022,9 @@ import_tables:
 毅	Ciərt
 藙	Ciərt
 䉨	Ciərt
-譩	Aiəjq
+譩	Aiəjq	2		#偯
 㰟	kiərt		#ts
-刏	kiəjq
+刏	kiəjq		#刉 j-?
 气	khiərt	999
 氣	khiərt
 盵	khiərt
@@ -9375,15 +9377,15 @@ import_tables:
 蜹	Jyorp
 ###XER XEKS XETS RJeR
 ##əR
-𦭮	drxərt		#㐁
-䇧	drxərt
+𦭮	Lrxərt		#㐁 L?
+䇧	Lrxərt
 ##eR
 揥	thrxert
 傺	thrxert
 𥉻	thrxert
 㡜	ssxert
 瘞	Axerp		#-ps
-銐	drxert		#RS
+銐	Rrxert		#RS
 甈	khxert
 㓷	Cxert
 𧼪	thrxert
@@ -14489,7 +14491,7 @@ import_tables:
 灝	kqoʌb
 浩	kqoʌp
 𢇞	hgoʌb		#?𢇞嘾
-㐁	thoʌf		#?簟
+㐁	Lshoʌf		#?簟
 𦂀	doop		#?
 歜	dzoʌb	2		#?
 厒	khqoʌp
