@@ -129,7 +129,7 @@ speller:
     # - xform/(?<!^)x(ə|ʌ|a|e|i|o|u|;)/i$1/
     # - xform/(?<!^)w(ə|ʌ|a|e|i|o|u|;)/u$1/
 ####聲
-    - derive/^(cl)/l/
+    - derive/^c(.)/$1/
 
     - derive/^(Jqz?|J)/j/ #l
     - derive/^(Lc)/j/
