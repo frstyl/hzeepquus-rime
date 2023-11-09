@@ -26889,6 +26889,11 @@ use_preset_vocabulary: true
 #𡎻	dzsaenq
 #㺗	tschaenq
 #漦	dzcaenq
+#山	ssaenq
+#疝	ssaenq
+#邖	ssaenq
+#訕	ssaenq
+#汕	ssaenq
 #閒	kaenq
 𨳡	kaenq
 #艱	kaenq
@@ -27079,11 +27084,6 @@ use_preset_vocabulary: true
 #䋎	draens
 #羼	tsshaens
 𢺟	tsshaens
-#山	ssaens
-#疝	ssaens
-#邖	ssaens
-#訕	ssaens
-#汕	ssaens
 #襉	kaens
 #閒	kaens
 #犴	kaens
@@ -27144,6 +27144,15 @@ use_preset_vocabulary: true
 #𤷈	nraet
 #褹	nraet
 #𧞍	nraet
+#札	tssaet		#八
+#紮	tssaet
+#𣧖	tssaet
+#𣦷	tssaet
+#𩿤	tssaet
+#蚻	tssaet
+#蠽	tssaet
+#蠿	tssaet
+#扎	tssaet
 #察	tsshaet
 #詧	tsshaet
 #摖	tsshaet
@@ -27209,6 +27218,24 @@ use_preset_vocabulary: true
 #祴	kaet
 #猰	kaet
 #𢗊	kaet
+#𤫶	khaet
+#劼	khaet
+#㓤	khaet
+#㓞	khaet
+鬝	khaet
+#𩮁	khaet
+#硈	khaet
+#矻	khaet
+#𢼣	khaet
+#䂒	khaet
+#咭	khaet
+#𦸉	khaet
+葜	khaet
+#挈	khaet
+𩷻	khaet
+#鮚	khaet
+#戛	khaet
+#絜	khaet
 #軋	Aaet
 #札	Aaet
 #揠	Aaet
@@ -27230,6 +27257,12 @@ use_preset_vocabulary: true
 𥐕	Aaet
 𪖐	Aaet
 #䰲	Aaet
+#黠	Eaet		#戶八
+#䶤	Eaet
+#䕸	Eaet
+#䦖	Eaet
+#礣	Eaet
+#𪗾	Eaet
 #窀	drfenq
 #嘫	nrfenq
 #㬮	nrfenq
@@ -27274,15 +27307,6 @@ use_preset_vocabulary: true
 #肭	nrfet
 𧰹	nrfet
 𥤺	nrfet
-#札	tssfet
-#紮	tssfet
-#𣧖	tssfet
-#𣦷	tssfet
-#𩿤	tssfet
-#蚻	tssfet
-#蠽	tssfet
-#蠿	tssfet
-#扎	tssfet
 #茁	tssfet
 #𪘧	dzsfet
 #選	ssfet
@@ -27294,24 +27318,6 @@ use_preset_vocabulary: true
 #𠜵	kfet
 𪇜	kfet
 #𧽌	kfet
-#𤫶	khfet
-#劼	khfet
-#㓤	khfet
-#㓞	khfet
-鬝	khfet
-#𩮁	khfet
-#硈	khfet
-#矻	khfet
-#𢼣	khfet
-#䂒	khfet
-#咭	khfet
-#𦸉	khfet
-葜	khfet
-#挈	khfet
-𩷻	khfet
-#鮚	khfet
-#戛	khfet
-#絜	khfet
 #䯇	khfet
 #搰	khfet
 䦚	khfet
@@ -27320,7 +27326,7 @@ use_preset_vocabulary: true
 #聐	Cfet
 #聉	Cfet
 #𦘍	Cfet
-#婠	Afet
+#婠	Afet		#八
 #䯉	Afet
 #𠿒	Afet
 #𣁳	Afet
@@ -27330,7 +27336,7 @@ use_preset_vocabulary: true
 #捾	Afet
 #穵	Afet
 𥤺	Afet
-#傄	hfet
+#傄	hfet		#呼八
 #䴳	hfet
 #䀨	hfet
 #𥆠	hfet
@@ -27339,12 +27345,6 @@ use_preset_vocabulary: true
 #毳	hfet
 #欪	hfet
 #齂	hfet
-#黠	Efet
-#䶤	Efet
-#䕸	Efet
-#䦖	Efet
-#礣	Efet
-#𪗾	Efet
 #滑	Efet
 𡰊	Efet
 𡯠	Efet
@@ -50437,7 +50437,7 @@ use_preset_vocabulary: true
 #合	koʌp
 #佮	koʌp
 #匌	koʌp
-㪉	koʌp
+#敆	koʌp
 #頷	koʌp
 秴	koʌp
 #𣭝	koʌp
@@ -53199,7 +53199,7 @@ use_preset_vocabulary: true
 𥃢	laems
 {⿰䍐毛}	daep		#𣯉
 #氎	daep
-箚	traep
+劄	traep
 𩥠	traep
 譗	traep
 #𠍹	traep
@@ -53382,7 +53382,7 @@ use_preset_vocabulary: true
 #䶢	Eaep
 #珨	Eaep
 #給	Eaep
-㪉	Eaep
+#敆	Eaep
 #郃	Eaep
 #袷	Eaep
 #韐	Eaep

@@ -314,6 +314,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+䏨𦞙	
 𤖻俎	drxevq tssxoA
 㺅子	
 玻瓈	
@@ -379,6 +380,7 @@ use_preset_vocabulary: true
 轂轆	lyun
 軱轆	lyun
 軲轆	lyun
+崑崙	kfon
 轂轆	kfon
 軱轆	kfon
 軲轆	kfon
@@ -673,6 +675,7 @@ use_preset_vocabulary: true
 ###服𦨕
 # 𧌘	buəjs		#蜰
 ###北
+𧶙	bvojs		#偝
 ##背
 𪟪	pvəs
 揹	pvojq
@@ -1612,6 +1615,10 @@ use_preset_vocabulary: true
 ###反
 舨	paad
 鋬	phaaz
+反	puad
+𠬡	puad
+𭆥	puad
+𰆗	puad
 ###滿
 蟎	mvad
 満	mvad
@@ -2400,7 +2407,8 @@ use_preset_vocabulary: true
 戤	hgoʌjs
 𣏾	kqvujq
 ###皆
-𣅜	kqaiq
+皆	kqaejq
+𣅜	kqaejq
 蒈	khaejq
 偕	hgaejq
 ###豙
@@ -4922,7 +4930,13 @@ use_preset_vocabulary: true
 闘	toovs
 # 櫥	drwoq
 ###胥
-婿	sees
+聓	seejs
+聟	seejs
+𡎎	seejs
+𦕓	seejs
+𦖜	seejs
+𰭸	seejs
+婿	seejs
 ###者
 𢐼	tcjoA
 𩜼	dcjis
@@ -6950,7 +6964,7 @@ use_preset_vocabulary: true
 合	hgoʌp
 ##荅
 𥅽	toʌp
-##弇
+###弇
 𢍔	kqoʌm
 𥦍	kqoʌm
 𥦦	kqoʌm
@@ -8244,8 +8258,7 @@ use_preset_vocabulary: true
 𣀧	soaz
 ###㕞
 ##刷
-唰	sswot
-唰	ssfat
+唰	ssfet
 ###虔a?-n
 䖍	gxen
 𠧘	gxen
@@ -8478,6 +8491,7 @@ use_preset_vocabulary: true
 𣅞	kuat
 𬇌	kuat
 ##厥
+𤺤	guat
 橛	kuat
 噘	kuat
 獗	kuat
@@ -8512,6 +8526,8 @@ use_preset_vocabulary: true
 𪧶	kaen
 𫴨	kaen
 𨰓	kqaez
+閒	kaenq
+閒	Eaenq
 #
 𩻘	kaez
 𨣇	kaez
@@ -8568,7 +8584,7 @@ use_preset_vocabulary: true
 𨳡	kqaen
 𨳢	kqaen
 𬮈	kqaen
-閑	hgaan
+閑	Eaenq
 ###見
 梘	keez
 𣎔	hgeez
@@ -8954,6 +8970,7 @@ use_preset_vocabulary: true
 𡼛	kaet		#⿰山戛
 𢧻	traat
 ###吉
+𤔎	khaet
 𡔣	kqeit		#1		#𡔢𡔣
 𡔣	khqeit
 # 趌	kxet
