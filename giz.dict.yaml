@@ -245,7 +245,7 @@ use_preset_vocabulary: true
 篩	ssaejq		#簁
 篩	ssxejq
 竵	Afojq		#崴歪
-竵	khqfaq		#𠇗
+竵	khfaq		#𠇗
 䓙	khqfaq		#𠇗
 䓙	hfajq		#竵
 𦶎	hfajq		#竵
@@ -3883,7 +3883,7 @@ use_preset_vocabulary: true
 𣶃	drxevq
 ###舟
 #
-丹	tcjuvq
+丹	tcjuvq	1
 𠔾	tcjuvq
 𣍝	tcjuvq
 䢁	trxevq
@@ -4035,7 +4035,7 @@ use_preset_vocabulary: true
 皁	dzouvA
 皂	dzouvA
 梍	dzouvA
-###爪
+###爪㕚
 𤓰	tssauvA
 𱬴	tssauvA
 找	tssaavA		#爪抓
@@ -8246,8 +8246,8 @@ use_preset_vocabulary: true
 𢁉	svoz
 𢌴	svoz
 ###散𢽳𢿨
-𢴻	ssaat
-𢲳	ssaat
+𢴻	soat
+𢲳	soat
 𪮫	soat
 𢿱	soad
 𢿱	soaz
@@ -10241,7 +10241,7 @@ use_preset_vocabulary: true
 𡍤	neik
 陧	Cqeek
 ###失
-鉄	Lsheik
+鉄	Lsheet
 ###至
 𡉰	tcjis
 𡊏	tcjis
@@ -10722,28 +10722,35 @@ use_preset_vocabulary: true
 𤕶	tssxaC
 䊋	tssxax
 粧	tssxaC
+###將醬𨟻
+##
+奬	tsjag
+奨	tsjag	0
+𤟒	tsjag
+# 㢡	tsjag
+𤍵	tsjag
+𤟌	tsjag		#獎
+𱭗	tsjag
+𤖅	tsjaC
+𭲎	tsjaC
+𤖕	tsjax
+酱	tsjax
+𨡓	tsjax
+𪧷	tsjax
+将	tshjaC
+将	tshjaC
+𭔬	tshjaC
+𰑠	tshjaC
+𰠶	tshjaC
+# 將	tshjaC
+摪	tsjaC		#𢪇
+𪙝	tshjaC
 ###刅
 剏	tsshxax
 剙	tsshxax
 𠝵	tsshxax
 𨱠	tsshxax
 𭄀	tsshxax
-###將
-将	tshjaC
-将	tshjaC
-𭔬	tshjaC
-𰑠	tshjaC
-𰠶	tshjaC
-將	tshjaC
-摪	tsjaC
-𪙝	tshjaC
-奬	tsjag
-奨	tsjag	0
-𤟒	tsjag
-# 㢡	tsjag
-𤍵	tsjag
-# 𤟌	tsjag
-𱭗	tsjag
 ###臧
 ##藏
 臟	dzoax
@@ -11389,6 +11396,7 @@ use_preset_vocabulary: true
 𢈏	kaaC
 𢈰	kaaC
 ###卝丱
+卝	kfag
 𨥥	kfag
 𮀑	kfag
 𨥑	kfag
@@ -12214,23 +12222,23 @@ use_preset_vocabulary: true
 ###呈𡈼
 埕	drxeC
 ##𢧤戜呈
-𧽮	drxik
-𡙮	drxik
-𢧑	drxik
-𢧄	deik
-㦶	deik
-𢎆	deik
-𢦾	deik
-𢧌	deik
-𢧜	drxik
-鋨	theik
-鐡	theik
-鐡	theik
-𨭓	theik
-𮢜	theik
-𮢨	theik
-𮢾	theik
-𮢿	theik
+𧽮	drxit
+𡙮	drxit
+𢧑	drxit
+𢧄	deet
+㦶	deet
+𢎆	deet
+𢦾	deet
+𢧌	deet
+𢧜	drxit
+鋨	theet
+鐡	theet
+鐡	theet
+𨭓	theet
+𮢜	theet
+𮢨	theet
+𮢾	theet
+𮢿	theet
 ###用
 # 佣	JjoC
 ###甬

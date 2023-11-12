@@ -8832,7 +8832,7 @@ import_tables:
 鬥	toovsk		#ks
 鬪	toovsk
 鬭	toovsk
-鬬	toovsk	1
+鬬	toovsk
 𠔼	moovsk		#ks?
 𥩐	Loovsk		#ks LZ𡍬 ?
 竇	Loovsk
@@ -16908,11 +16908,11 @@ import_tables:
 縴	khqein
 㯠	khqeiz
 牽	khqeiz
-# 戜	Leit		#-ŋ#L-
-# 鐵	Lsheit
-# 𢶋	Lsheit
-# 驖	Lsheit
-# 驖	Leit
+戜	Leit		#-ŋ#L-
+鐵	Lsheit
+𢶋	Lsheit
+驖	Lsheit
+驖	Leit
 結	kqeit
 桔	kqeit
 袺	kqeit
@@ -16953,25 +16953,25 @@ import_tables:
 隉	Cqeit
 電	Leiz		#申LZ-
 𨌈	Lein		#身LZ-
-# 銕	Lsheit		#LS鐵
-# 蛈	Lsheit		#-ŋ#失L-
-# 眣	Leit
-# 昳	Leit
-# 胅	Leit
-# 迭	Leit
-# 跌	Leit
-# 軼	Leit
-# 䭿	Leit
-# 𨳺	Leit
-# 瓞	Leit
-# 苵	Leit
-# 镻	Leit
-# 䳀	Leit
-# 詄	Leit
-# 泆	Leit
-# 𥑇	Leit
-# 趃	Leit
-# 柣	tsheit
+銕	Lsheit		#LS鐵
+蛈	Lsheit		#-ŋ#失L-
+眣	Leit
+昳	Leit
+胅	Leit
+迭	Leit
+跌	Leit
+軼	Leit
+䭿	Leit
+𨳺	Leit
+瓞	Leit
+苵	Leit
+镻	Leit
+䳀	Leit
+詄	Leit
+泆	Leit
+𥑇	Leit
+趃	Leit
+柣	tsheit
 # 𠽧	deit		#-ŋ
 # 蛭	teit
 # 咥	teit
@@ -20278,9 +20278,6 @@ import_tables:
 𢽹	mxəd
 𨳌	drxəz
 𠞩	tsshxət
-暱	nrxət
-䘌	nrxət
-㥾	nrxət
 紉	nrxən
 䵑	nrxət
 駪	ssxən
@@ -20289,6 +20286,10 @@ import_tables:
 𢓠	ssxən
 姺	ssxən
 兟	ssxən
+##IəK
+暱	nrxək
+䘌	nrxək
+㥾	nrxək
 #
 乙	Axət		#-k 一
 亄	Axət		#?
@@ -20348,24 +20349,24 @@ import_tables:
 衵	nrxit
 䵒	nrxit
 胂	Lshrxin		#身
-# 㲳	trxit		#-ŋ-k
-# 抶	Lshrxit
-# 眣	Lshrxit
-# 秩	Lrxit
-# 紩	Lrxit
-# 帙	Lrxit
-# 袠	Lrxit
-# 柣	Lrxit
-# 翐	Lrxit
-# 妷	Lrxit
-# 𣗻	Lrxit
-# 豑	Lrxit		#秩
-# 豒	Lrxit
-# 𧰅	Lrxit
-# 𢧤	drxit		#秩
-# 䟈	drxit
-# 𤣆	Rshrxin		#RS
-# 蟋	ssxit
+㲳	trxit		#-ŋ-k 失
+抶	Lshrxit
+眣	Lshrxit
+秩	Lrxit
+紩	Lrxit
+帙	Lrxit
+袠	Lrxit
+柣	Lrxit
+翐	Lrxit
+妷	Lrxit
+𣗻	Lrxit
+豑	Lrxit		#秩
+豒	Lrxit
+𧰅	Lrxit
+𢧤	drxit		#秩
+䟈	drxit
+𤣆	Rshrxin		#RS
+蟋	ssxit
 # 鉍	pxit		#-k?
 # 柲	pxit
 # 泌	pxit
@@ -22740,8 +22741,6 @@ import_tables:
 ###VRAŊ VRaŊ
 卝	Efag
 𨥥	kqfag
-䍔	kqfaC
-𣘯	kqfaC
 觥	kqfaC
 侊	kqfaC
 礦	kqfag
@@ -22809,7 +22808,9 @@ import_tables:
 湱	hfek
 𢝇	hfek
 硅	hfek
-##
+##VRəK
+䍔	kqfəC
+𣘯	kqfəC		#䍔𦊫
 𥥈	Afəx
 𢘌	EfəC
 ###JaŊ
@@ -22985,8 +22986,7 @@ import_tables:
 鱂	tsjaC
 蔣	tsjaC
 螿	tsjaC
-𤟌	tsjag
-獎	tsjag
+獎	tsjag	99
 㢡	tsjag
 䉃	tsjag
 槳	tsjag
@@ -22999,9 +22999,9 @@ import_tables:
 𨄚	tshjaC
 嶈	tshjaC
 蹡	tshjax
-𨟻	tsjax
+𨟻	tsjax	999
 𨡰	tsjax
-𢪇	tsjaC
+𢪇	tsjaC	999
 斨	tshjaC
 牄	tshjaC
 爿	dzjaC
@@ -26066,7 +26066,7 @@ import_tables:
 庱	thrxəC
 睖	thrxəC
 庱	thrxəg
-匿	nrxək
+匿	nrxək		#若?
 𧈟	nrxək
 𧏾	nrxək
 㥾	nrxək
@@ -27589,7 +27589,7 @@ import_tables:
 諥	trxox
 𨤩	thrxoC
 緟	drxoC
-重	drxoC	1
+重	drxoC		#緟
 褈	drxoC
 䳯	drxoC
 蝩	drxoC
@@ -28206,8 +28206,8 @@ import_tables:
 粥	Jjuk		#?
 𤳕	Jjuk
 鬻	Jjuk
-粥	tcjuk
-喌	tcjuk
+粥	tscjuk		#?鬻
+喌	tcjuk		#州
 柷	tcjuk
 柷	thcjuk
 祝	tcjuk
@@ -28598,8 +28598,6 @@ import_tables:
 鴓	meik
 𥉓	meik
 # 蠮	Aeik
-# 噎	Aeik
-# 䊦	Aeik
 戜	Leik		#
 𨮯	Lsheik		#L
 𩧀	Lsheik
@@ -28618,26 +28616,26 @@ import_tables:
 㖏	neik
 𦛠	neik
 篞	neik
-銕	Lsheik		#LS
-蛈	Lsheik		#
-眣	Leik
-昳	Leik
-胅	Leik
-迭	Leik
-跌	Leik
-軼	Leik
-䭿	Leik
-𨳺	Leik
-瓞	Leik
-苵	Leik
-镻	Leik
-䳀	Leik
-詄	Leik
-泆	Leik
-𥑇	Leik
-趃	Leik
-㲳	Leik		#徒結切
-柣	tsheik		#?SLS
+# 銕	Lsheik		#LS
+# 蛈	Lsheik		#
+# 眣	Leik
+# 昳	Leik
+# 胅	Leik
+# 迭	Leik
+# 跌	Leik
+# 軼	Leik
+# 䭿	Leik
+# 𨳺	Leik
+# 瓞	Leik
+# 苵	Leik
+# 镻	Leik
+# 䳀	Leik
+# 詄	Leik
+# 泆	Leik
+# 𥑇	Leik
+# 趃	Leik
+# 㲳	Leik		#徒結切
+# 柣	tsheik		#?SLS
 𠽧	deik		#
 蛭	teik
 咥	teik
@@ -28899,23 +28897,23 @@ import_tables:
 愍	mxig
 𥴲	mxig
 𦌡	mxig		#
-㲳	trxik		#後起
-抶	Lshrxik
-眣	Lshrxik
-秩	Lrxik
-紩	Lrxik
-帙	Lrxik
-袠	Lrxik
-柣	Lrxik
-翐	Lrxik
-妷	Lrxik
-𣗻	Lrxik
-豑	Lrxik		#秩
-豒	Lrxik
-𧰅	Lrxik
-𢧤	Lrxik		#秩
-𧾞	Lrxik
-䟈	Lrxik
+# 㲳	trxik		#後起 失
+# 抶	Lshrxik
+# 眣	Lshrxik
+# 秩	Lrxik
+# 紩	Lrxik
+# 帙	Lrxik
+# 袠	Lrxik
+# 柣	Lrxik
+# 翐	Lrxik
+# 妷	Lrxik
+# 𣗻	Lrxik
+# 豑	Lrxik		#秩
+# 豒	Lrxik
+# 𧰅	Lrxik
+# 𢧤	Lrxik		#秩
+# 𧾞	Lrxik
+# 䟈	Lrxik
 鉍	pxik		#?
 柲	pxik
 泌	pxik
