@@ -3914,7 +3914,7 @@ import_tables:
 澬	dzjijq
 𩆂	dzjijq
 ##ə?
-夷	Jjəjq		#L
+夷	Jjəjq		#L 希夷
 𡰥	Jjəjq		#夷
 羠	zLjəjA
 咦	hsjəjq		#? 類隨
@@ -6720,16 +6720,6 @@ import_tables:
 囌	sooq
 蘇	sooq
 㢝	sooq
-𦃃	soos	999
-素	soos
-愫	soos
-傃	soos
-嗉	soos
-膆	soos
-塐	soos
-䛾	soos
-𤢘	soos
-㨞	soos
 烏	Aooq
 𡗃	Aooq
 於	Aooq
@@ -6788,6 +6778,16 @@ import_tables:
 峹	Looq
 筡	Looq
 ##OAR OAKS OATS aKS
+𦃃	soosk	999
+素	soosk		#索
+愫	soosk
+傃	soosk
+嗉	soosk
+膆	soosk
+塐	soosk
+䛾	soosk
+𤢘	soosk
+㨞	soosk
 殬	toosk		#ks
 斁	toosk
 斁	doosk
@@ -6848,8 +6848,8 @@ import_tables:
 作	tsoosk
 乍	tsoosk
 𣨐	dzooq
-𧩯	soosk
-㴑	soosk
+𧩯	soosk	999
+㴑	soosk	999
 遡	soosk
 𧪜	soosk
 愬	soosk
@@ -6995,11 +6995,9 @@ import_tables:
 鄦	msioA		#M
 𨝬	msioA
 璷	ljoq
-蜡	tshjos
 𧽟	dzjoA
-𥅗	tshjoA
 鄔	Aios
-飫	Aios
+飫	Aios		#?
 醧	Aios
 舁	Jjoq
 𠢈	kioA
@@ -7149,6 +7147,7 @@ import_tables:
 蒩	tshjoq
 𡳆	tshjoq
 𣻐	tshjoq
+𤿚	tshjoA
 坥	tshjos
 䏣	tshjos
 刞	tshjos
@@ -7532,6 +7531,7 @@ import_tables:
 蒘	nrxoq
 𣖹	nrxoq
 ###IAR IaK
+蜡	tshjosk
 庶	stcjosk		#石
 𢉙	stcjosk
 㵂	stcjosk
@@ -20565,7 +20565,7 @@ import_tables:
 珢	kqoən
 𩒝	kqoəd
 詪	kqoəd
-艮	kqoəz
+艮	kqoəz		#-R
 𥃩	kqoəz
 茛	kqoəz
 珢	kqoəz
@@ -22155,7 +22155,7 @@ import_tables:
 𣟄	thoak
 𩧐	thoak
 𩧐	loak
-索	soak
+索	soak		#素
 䌇	soak
 𢱢	soak
 溹	soak
@@ -27025,6 +27025,11 @@ import_tables:
 𣃀	tssauk
 簎	dzsauk
 斮	tssauk
+##Rak
+朔	ssaak
+槊	ssaak
+蒴	ssaak
+㮶	ssaak
 ##RuK -VK
 髉	paavk
 篧	tssaavk
@@ -27059,10 +27064,6 @@ import_tables:
 㩧	baavk
 丵	dzsaavk
 ##RaVK
-朔	ssaavk
-槊	ssaavk
-蒴	ssaavk
-㮶	ssaavk
 眊	maavk
 毣	maavk
 㕰	msaavk		#M
@@ -28132,69 +28133,69 @@ import_tables:
 𠤈	bFiux
 𪆍	bFiux
 ##IəK VIəK
-虙	bFuək		#伏
-伏	bFuək
-𨋩	bFuək
-洑	bFuək
-𩢰	bFuək
-𩊙	bFuək
-絥	bFuək
-茯	bFuək		#絥
-𩎧	bFuək
-栿	bFuək
-𠬝	bFuək
-𠬩	bFuək
-𦨕	bFuək
-𦨈	bFuək
-𦻉	bFuək
-服	bFuək
-𣍞	bFuək
-菔	bFuək
-鵩	bFuək
-棴	bFuək
-箙	bFuək
-𨌥	bFuək
-畗	pFuək
-𦿁	pFuək
-福	pFuək
-幅	pFuək
-輻	pFuək
-葍	pFuək
-蝠	pFuək
-鶝	pFuək
-踾	pFuək
-偪	pFuək
-楅	pFuək
-畐	bFuək
-匐	bFuək
-副	pFhuək
-𩯅	pFhuək
-䔰	pFhuək
-𤘴	mFuək
-牧	mFuək
-坶	mFuək		#牧
-𦱒	mFuək
-㦽	Auək
-戫	Auək
-𪑝	Auək
-㰲	Auək
-彧	Auək
-稶	Auək
-𠸹	Auək
-𨪎	Auək
-郁	Auək
-栯	Auək
-哊	quək
-囿	quək
-弓	kuəC
-芎	khuəC
-穹	khuəC
-焪	khuəC
-焪	khuəx
-䛪	khuəx
-䠻	khuəx
-閰	kuək		#臼
-𦥑	kuək
+虙	bFviək		#伏
+伏	bFviək
+𨋩	bFviək
+洑	bFviək
+𩢰	bFviək
+𩊙	bFviək
+絥	bFviək
+茯	bFviək		#絥
+𩎧	bFviək
+栿	bFviək
+𠬝	bFviək
+𠬩	bFviək
+𦨕	bFviək
+𦨈	bFviək
+𦻉	bFviək
+服	bFviək
+𣍞	bFviək
+菔	bFviək
+鵩	bFviək
+棴	bFviək
+箙	bFviək
+𨌥	bFviək
+畗	pFviək
+𦿁	pFviək
+福	pFviək
+幅	pFviək
+輻	pFviək
+葍	pFviək
+蝠	pFviək
+鶝	pFviək
+踾	pFviək
+偪	pFviək
+楅	pFviək
+畐	bFviək
+匐	bFviək
+副	pFhviək
+𩯅	pFhviək
+䔰	pFhviək
+𤘴	mFviək
+牧	mFviək
+坶	mFviək		#牧
+𦱒	mFviək
+㦽	Aviək
+戫	Aviək
+𪑝	Aviək
+㰲	Aviək
+彧	Aviək
+稶	Aviək
+𠸹	Aviək
+𨪎	Aviək
+郁	Aviək
+栯	Aviək
+哊	qviək
+囿	qviək
+弓	kviəC
+芎	khviəC
+穹	khviəC
+焪	khviəC
+焪	khviəx
+䛪	khviəx
+䠻	khviəx
+閰	kviək		#臼
+𦥑	kviək
 ##uK
 𡔊	dcjuk		#羞
 𦏧	dcjuk
@@ -28525,18 +28526,18 @@ import_tables:
 蚕	theig
 祆	hseiC
 𤲖	theig		#忝聲
-田	geiC		#ŋ?L?
-佃	geiC
-䟧	geiC
-鈿	geiC
-沺	geiC
-佃	geix
-鈿	geix
-畋	geiC
-畋	geix
-甸	geix
-䡘	geiC
-畇	geiC		#地名
+田	deiC		#ŋ?L?
+佃	deiC
+䟧	deiC
+鈿	deiC
+沺	deiC
+佃	deix
+鈿	deix
+畋	deiC
+畋	deix
+甸	deix
+䡘	deiC
+畇	deiC		#地名
 汛	seix		#卂
 軐	seix
 年	neiC

@@ -85,7 +85,7 @@ speller:
 ##韻-介
     - derive/([\w])u(u[qAhs])$/$1i$2/ #uu孚
     - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo
-    - derive/([\w])[uy]u([jlrndzt])/$1u$2/ #uun
+    # - derive/([\w])[uy]u([jlrndzt])/$1u$2/ #uun
 ##韻-尾
 
     - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
@@ -116,7 +116,7 @@ speller:
 
     - derive/([\w])vi([aeiouəʌ;])/$1u$2/ #uə
     - derive/(\w)[jxi](i|ə|ʌ)/$1i/ #i
-    - derive/(\w)[ywu](i|ə|ʌ)/$1u/ #u
+    - derive/(\w)[ywu](i|ə|u)/$1u/ #u
     - derive/([\w])v[ix]ə/$1u/ #uə
 ##三等无介音
     # - xform/([\w])[oe]([aeiouəʌ;])/$1o$2/ #一三
