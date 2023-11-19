@@ -3170,7 +3170,7 @@ use_preset_vocabulary: true
 𡁑	hfeq		#1		#𠿎
 𰹁	Afojq
 ###嵇
-嵆	hgeiq		#1		#嵇
+嵆	hgeejq		#1		#嵇
 ###伊尹
 𧉅	Ajiq
 #
@@ -3528,6 +3528,7 @@ use_preset_vocabulary: true
 # 灬	hvajA
 煷	hvajA		#2
 𤆄	hvajA		#2
+火	msvəjA
 ###尸
 𠃜	scjiq
 ###利
@@ -4393,8 +4394,6 @@ use_preset_vocabulary: true
 𱶉	kqeevq
 ###垚
 ##堯
-蟯	Aeevq
-撓	nraavq
 ###㫐杳窅
 𨓳	Aeevq
 𡧮	Aeevs		#㝔
@@ -4836,6 +4835,7 @@ use_preset_vocabulary: true
 𢋇	Jjevq
 ####
 ###采
+𤟖	tshoʌjA
 睬	tshoʌjq
 啋	tshoʌjA
 跴	tshoʌjq
@@ -5058,9 +5058,9 @@ use_preset_vocabulary: true
 搙	noovs
 ###乃
 # 疓	noʌjq
-奶	nraəjA
-𫡄	nraəjA
-𡇲	nraəjA
+奶	nraeA
+𫡄	nraeA
+𡇲	nraeA
 の	noʌjA
 ノ	noʌjA
 ㄋ	noʌjA
@@ -6391,9 +6391,11 @@ use_preset_vocabulary: true
 𥣲	toam		#擔
 ##詹
 譫	tcoap
-###𦐇翕?
-溻	thoʌp
-搨	thoap
+###沓
+㳫	thoʌp
+##沓𦧥-舌
+###𦐇翕?習?
+搨	toap		#㩉
 溻	thoap
 塌	thoap
 #
@@ -7049,8 +7051,10 @@ use_preset_vocabulary: true
 隂	Axəm
 䕃	Axəf
 ##侌
-廕𢊖	
-# 侌	Axim
+廕	Axim
+𢊖	Axim
+陰	Axim
+侌	Axim
 阥	Axim
 𨹉	Axim
 𨹩	Axim
@@ -7220,9 +7224,6 @@ use_preset_vocabulary: true
 澟	ljib
 #
 𡬜	ljəb		#凜
-###沓
-㳫	thoʌp
-##沓𦧥-舌
 ###尋
 𦠅	zjim
 𧂗	doom		#1		#𧂇
@@ -7738,6 +7739,7 @@ use_preset_vocabulary: true
 𠬨	tseet
 𢻮	tseet
 #
+㞯	tseet
 岊	tseet		#1		#𡴹
 𡴺	tseet		#1		#𡴹
 𡴼	tseet
@@ -7747,7 +7749,7 @@ use_preset_vocabulary: true
 㔾	tseet
 # 卩	tseet
 𢎛	tseet		#1		#𢎟
-巴	tseet
+巴	tseet	5
 𢎡	tseet
 𠁾	tseet
 ###歬前
@@ -9232,6 +9234,7 @@ use_preset_vocabulary: true
 𥃘	hxəz
 𮍲	hxəz
 ###戉
+𫑛	quat
 𧻂	quat
 怴	Xsuat
 𣧡	Xsuat
@@ -11804,6 +11807,7 @@ use_preset_vocabulary: true
 嗍	ssauk
 ###屰
 𰴲	Cxak
+㡿	Cxak
 ###角
 𤰄	kqruk
 𧢲	kqruk	5
@@ -12223,11 +12227,20 @@ use_preset_vocabulary: true
 𰿓	scjex
 ###呈𡈼
 埕	drxeC
-##𢧤戜呈
+##𢧤戜呈𡈼
+𨫓	theet
+𩥳	theet
 𧽮	drxit
+#
+𧾞	drxit
+𨮯	theet		#L
+𩧀	theet
+𩧀	deet
+𢧤	drxit
 𡙮	drxit
 𢧑	drxit
 𢧄	deet
+##
 㦶	deet
 𢎆	deet
 𢦾	deet

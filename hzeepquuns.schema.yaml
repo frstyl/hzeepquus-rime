@@ -118,6 +118,11 @@ speller:
     - derive/(\w)[jxi](i|ə|ʌ)/$1i/ #i
     - derive/(\w)[ywu](i|ə|u)/$1u/ #u
     - derive/([\w])v[ix]ə/$1u/ #uə
+##
+    # - derive/^(((t?s|d?z)s|[tdn]r)h?)i/$1x/ #uə
+    # - derive/^(((t?s|d?z)s|[tdn]r)h?)u/$1w/ #uə
+    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)i/$1j/ #uə
+    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)u/$1y/ #uə
 ##三等无介音
     # - xform/([\w])[oe]([aeiouəʌ;])/$1o$2/ #一三
     # - xform/([\w])[ij]([aeiouəʌ;])/$1$2/ #一三
@@ -215,15 +220,24 @@ speller:
     - fuzz/(?<!^)j['q]$/j/
     - fuzz/(?<!^)jA$/l/
     - fuzz/(?<!^)js$/r/
-    - derive/(?<!^)vq$/v/ #-v視爲韻
-    - derive/(?<!^)vA$/w/
-    - derive/(?<!^)vs/y/
-    - derive/(?<!^)vsk/y/
-    - derive/(?<!^)vs(k)/y$1/
+    - fuzz/(?<!^)vq$/v/ #-v視爲韻
+    - fuzz/(?<!^)vA$/w/
+    - fuzz/(?<!^)vs$/y/
+    - fuzz/(?<!^)vsk$/y/
+    - fuzz/(?<!^)vs(k)$/y$1/
 
     - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
     - derive/(?<!^)([fvjyxwaeiouəʌ;][aeiouəʌ;])v(k)$/$1u$2/ #-v-視爲韻
     - xform/(?<!^)v(k)$/$1/
+
+    - derive/(?<!^)Cq$/c/
+    - xform/(?<!^)([Cmn])q$/$1/
+    - xform/(?<!^)CA$/g/
+    - xform/(?<!^)Cs$/x/
+    - xform/(?<!^)mA$/b/
+    - xform/(?<!^)ms$/f/
+    - xform/(?<!^)nA$/d/
+    - xform/(?<!^)ns$/z/
 ####可選 介
     # - fuzz/([iu])(a)/$2$1/
     # - fuzz/(a)([iu])/$2$1/
@@ -334,6 +348,7 @@ translator:
     # - xform/(.+)H/\L$1ʰ/
     # - xform/([aeiouəʌ;])q($|')/$1 $2/
   comment_format:
+    - xform/^c//
     - xform/^s[LRnmCq]s?/s/
     - xform/^z[LRnmCq]s?/z/
     - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/
@@ -422,6 +437,7 @@ lookup:
   dictionary: hzeepquuns
   overwrite_comment: false
   comment_format:
+    - xform/^c//
     - xform/^s[LRnmCq]s?/s/
     - xform/^z[LRnmCq]s?/z/
     - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/
