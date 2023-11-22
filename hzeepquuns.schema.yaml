@@ -98,7 +98,7 @@ speller:
     # - derive/([\w])([ar]u)v([qhsA])/$1$2$3/
     - derive/([\w]u)v([qhsA])/$1$2/ #烋皋勹球ov aov
 
-    - fuzz/([\w][uyw]u)j/$1/ #u-j
+    # - fuzz/([\w][uyw]u)j/$1/ #u-j
     - fuzz/([\w][o]ʌ)j/$1/ #ʌ-j
     - fuzz/([\w][ev]e)j/$1/ #e-j
 
@@ -197,18 +197,18 @@ speller:
 ####聲-介
     - derive/^(Jq|J)[j]([aeiouəʌ;])/j\2/ #㠯母
     - derive/^(Xqz|qz|X|q)u([aeiouəʌ;])/q$2/ #雲母
-    - derive/^(Jqz|Xqz|Jq|Xq|qz|JX|X|q)v(i[aeioəʌ;])/q$2/
 
     - derive/^msv([ʌəo])/h$1/ #幫組 一三
-    - derive/^(ms|ph|p|b|m)F?v([aeiəʌ;x])/\L$1$2/
-    - derive/^(ms|ph|p|b|m)F?i([aeiəʌ;x])/\L$1u$2/
+    - derive/^(ph|p|b|m)v([aeəʌ;])/\L$1$2/
+
+    # - derive/^(ms|ph|p|b|m)F?i([aeiəʌ;x])/\L$1u$2/ 福
+    # - derive/^(Jqz|Xqz|Jq|Xq|qz|JX|Xz|X|q)v(i[aeioəʌ;])/q$2/
 
     # - derive/^(l)a([aeiouəʌ;])/l$2/
     # - derive/^(l)f/lv/
     # - derive/^(l)r/l/
     # - derive/^(l)f/lv/
 
-    - derive/^(ph|p|b|m)v([aeiəʌ;x])/$1$2/
 
 ####尾
     - fuzz/([aeiouəʌ;])j['q]$/$1/

@@ -4659,7 +4659,7 @@ import_tables:
 里	ljəA
 筣	ljəq
 飤	zLjəs		#sL
-食	zLjəs
+食	zLjəsk		#ks
 叓	ljəs	999
 吏	ljəs
 辭	zLjəq		#sLə
@@ -15560,6 +15560,7 @@ import_tables:
 昄	pvud
 𠯘	pvuz
 ##VaN
+𦫕	mvat		#𦫔𦫕 末
 𥄕	mvat		#?
 𨣱	mvat
 瀎	mvat
@@ -15865,6 +15866,10 @@ import_tables:
 䥗	khqvaz
 䲌	khqvaz
 ##UN?U?o?
+#
+疃	thvud		#童u
+䴟	Evun		#?凡
+#
 漶	hgvuz
 毌	kqvun		#串
 毌	kqvuz
@@ -15962,9 +15967,6 @@ import_tables:
 纂	tsvud
 繤	tsvud
 攥	tsvut
-疃	thvud		#童u
-䴟	Evun		#?凡
-𦫕	mvut		#𦫔𦫕
 𥄗	Avut
 𢯲	Avuz
 𤦼	Avuz
@@ -17259,10 +17261,6 @@ import_tables:
 麵	meez
 片	pheez
 䏒	pheez
-𥓋	Cqeen
-霓	Cqeet
-蜺	Cqeet
-䘽	Cqeet
 懱	meet
 𧂝	meet
 㩢	meet
@@ -17470,6 +17468,10 @@ import_tables:
 涏	Leez
 𦧝	Lsheen		#LS
 ##N?
+𥓋	Cqeen		#-k?
+霓	Cqeet
+蜺	Cqeet
+䘽	Cqeet
 駢	been		#?
 骿	been
 軿	been
@@ -25721,7 +25723,7 @@ import_tables:
 惑	hqzvək
 𡿿	hqzvək
 ###Iə VIə uə
-##
+##xəŋ
 掤	pxəC
 淜	bxəC
 皀	pxək	1
@@ -25771,6 +25773,12 @@ import_tables:
 襋	kxək
 㻷	kxək
 蕀	kxək
+抑	Axək
+𢑏	Axək	999
+𡊁	Axək
+凝	CxəC
+冰	CxəC
+凝	Cxəx
 ##
 悈	kiək
 亟	kiək
@@ -25795,9 +25803,6 @@ import_tables:
 臖	hiəx
 嬹	hiəx
 興	hiəx
-凝	CiəC
-冰	CiəC
-凝	Ciəx
 嶷	Ciək
 薿	Ciək
 㘈	Ciək
@@ -25836,9 +25841,6 @@ import_tables:
 譍	Aiəx
 噟	Aiəx
 應	Aiəx
-抑	Aiək
-𢑏	Aiək	999
-𡊁	Aiək
 ##
 甑	tsjəx
 䰝	tsjəx
@@ -26145,36 +26147,36 @@ import_tables:
 𪀦	Lshrxək
 恜	Lshrxək
 趩	Lshrxək
-###VIəK UəK Ŋŋ
-𧹭	huək
-𥄎	huək
-𠷾	huək
-洫	qsuək		#
-侐	qsuək
-䦗	qsuək
-𨵨	qsuək
-閾	qsuək
-㰲	qsuək		#
-𤷇	qsuək
-𪑝	qsuək
-緎	qsuək
-𦑌	qsuək
-淢	qsuək
-域	quək		#或ɢ
-蜮	quək
-䍞	quək
-罭	quək
-棫	quək
-㚜	quək
-𪂉	quək
-𦈸	quək
-琙	quək
-𪑝	quək
-緎	quək
-䮙	quək
-魊	quək
-淢	quək
-𦱂	quək
+###VIəK UəK WəK
+𧹭	hwək
+𥄎	hwək
+𠷾	hwək
+洫	qswək		#
+侐	qswək
+䦗	qswək
+𨵨	qswək
+閾	qswək
+㰲	qswək		#
+𤷇	qswək
+𪑝	qswək
+緎	qswək
+𦑌	qswək
+淢	qswək
+域	qwək		#或ɢ
+蜮	qwək
+䍞	qwək
+罭	qwək
+棫	qwək
+㚜	qwək
+𪂉	qwək
+𦈸	qwək
+琙	qwək
+𪑝	qwək
+緎	qwək
+䮙	qwək
+魊	qwək
+淢	qwək
+𦱂	qwək
 ##-P
 翊	Jjək		#立 -p
 𥡪	Jjək
@@ -28085,22 +28087,22 @@ import_tables:
 崈	dzsxuC
 㓽	dzsxux
 #əŊ
-瞢	mFuəC
-夢	mFuəC	2
-鄸	mFuəC
-懜	mFuəC
-𦫰	mFuəC
-𧲎	mFuəC
-夢	mFuəx
-㝱	mFuəx
-鄸	mFuəx
-䠢	mFuəx
-瞢	mFuəx
-馮	bFuəC		#仌
-𨝭	bFuəC
-雄	XzuəC
-熊	XzuəC
-熋	XzuəC
+瞢	mFviəC
+夢	mFviəC	2
+鄸	mFviəC
+懜	mFviəC
+𦫰	mFviəC
+𧲎	mFviəC
+夢	mFviəx
+㝱	mFviəx
+鄸	mFviəx
+䠢	mFviəx
+瞢	mFviəx
+馮	bFviəC		#仌
+𨝭	bFviəC
+雄	XzviəC
+熊	XzviəC
+熋	XzviəC
 #
 𧆉	pFvxəm
 芃	bFvxəm
