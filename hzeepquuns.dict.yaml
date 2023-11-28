@@ -4646,7 +4646,7 @@ import_tables:
 𣮉	ljəq
 𠩬	ljəq
 誺	RshRxəs		#RS
-李	ljəA
+李	cljəA
 杍	ljəA
 貍	ljəq
 狸	ljəq
@@ -4904,7 +4904,7 @@ import_tables:
 娡	tcjəs
 䓌	tcjəs
 痣	tcjəs
-寺	ztjəs		#sd- 㞢
+寺	zjəs		#sd- 㞢
 邿	stcjəq
 畤	tcjəA
 洔	tcjəA
@@ -7126,7 +7126,7 @@ import_tables:
 糬	dcjos
 藷	dcjos
 𧄔	dcjoq
-緒	ztjoA		#sd-
+緒	zjoA		#sd-
 書	stcjoq
 𦘠	stcjoq	999
 暑	stcjoA
@@ -9098,9 +9098,6 @@ import_tables:
 喝	Aaart
 嗄	Aaart		#喝
 餲	Aaart
-㕢	hgaart
-䬵	Aaart
-欬	Aaart
 犗	kqaart
 𧜅	kqaart
 𦤬	haart
@@ -9119,6 +9116,10 @@ import_tables:
 砦	dZaart		#?
 寨	dZaart
 𠱡	Saart
+##Rər
+㕢	hgaərt
+䬵	Aaərt
+欬	Aaərt
 ###fer
 夬	kqfert
 叏	kqfert
@@ -12172,7 +12173,7 @@ import_tables:
 蒐	Sxuvq
 兪	LshRxuvs	2		#LS
 俞	LshRxuvs	2
-盩	tRxuvq
+盩	tRxuvq		#?
 晝	tRxuvs
 𦘙	tRxuvA	1
 𣅯	tRxuvs
@@ -14061,7 +14062,7 @@ import_tables:
 任	ncjəF
 絍	ncjəF
 鵀	ncjəF
-㴱	scjəm		#LS
+㴱	scjəm	999		#LS
 深	Lscjəm
 𦸂	Lscjəm
 深	LscjəF
@@ -19048,8 +19049,8 @@ import_tables:
 䟍	Axed		#?
 闑	Cxet
 𡐤	khxet
-𢵈	kxed
-覵	pxed
+𢵈	kxed		#"
+覵	pxed		#?
 䁵	pxed		#? 袁睘
 焆	Axet		#
 𠱝	Axet		#肙
@@ -25068,9 +25069,9 @@ import_tables:
 摭	tcjak
 蹠	tcjak
 䗪	tcjak
-席	ztjak		#石 sd-
-𠩛	ztjak
-蓆	ztjak
+席	zjak		#石 sd-
+𠩛	zjak
+蓆	zjak
 炙	tcjak		#石 庶
 葃	dzjak
 夕	zLjak		#sL?
@@ -25749,7 +25750,7 @@ import_tables:
 等	toəg
 特	doək
 樴	doək
-德	toək
+德	toək		#直?
 㥁	toək	99
 悳	toək
 𥊸	thoək
