@@ -831,6 +831,7 @@ use_preset_vocabulary: true
 # 菩	boʌjA
 # 蓓	boʌjA
 # 倍	boʌjA
+###負-不
 ###
 # 埠	boos
 𨹺	biuvA
@@ -1595,11 +1596,6 @@ use_preset_vocabulary: true
 𢒠	maaA
 𢒧	maaA
 𩡬	maaA
-##普
-氆	poag
-##普
-氆	phooA
-潽	phooq
 ###夫
 伕	pvioq
 𢺻	bvioq
@@ -2253,6 +2249,11 @@ use_preset_vocabulary: true
 䰃	poag
 並	boag
 竝	boag		#aŋ 與併異
+##普-並竝
+氆	poag
+##普
+氆	phooA
+潽	phooq
 ###
 𢯌	paek		#㧳
 掰	paek
@@ -2457,7 +2458,8 @@ use_preset_vocabulary: true
 ###帶
 𤴟	tcjer
 摕	toar
-#
+##帝
+𢝃	tcjer		#㛳𡠹
 蒂	teejs		#1		#蔕
 𧀱	teejs
 蝃	teejs		#螮
@@ -4484,17 +4486,18 @@ use_preset_vocabulary: true
 𱍆	tsjevq
 𪛕	seevq		#簫
 𪛖	seevq
-###焦
-醮	tsjevq
-礁	tsjevq
-癄	tsjevs		#𥡤
-瞧	dzjevq
-##
-𤊙	tsjevq
-㸈	tsjevq
-𱬳	tsjevq
-𤓬	tsjevq
-###肖
+###小-s
+仯	tShaavA
+𨈘	SaavA
+抄	tShaavA
+# 𢆷	Aeevq
+𩵮	Saajq
+#
+仦	tShaevs		#仯
+𠁼	sjevA
+𡭔	sjevA
+𭕄	sjevA
+###肖-小
 𢖹	tshjevA
 𧣪	SaavA
 髾	SaavA
@@ -4509,6 +4512,16 @@ use_preset_vocabulary: true
 ##
 潲	SaavA
 𡡏	SaavA
+###焦
+醮	tsjevq
+礁	tsjevq
+癄	tsjevs		#𥡤
+瞧	dzjevq
+##
+𤊙	tsjevq
+㸈	tsjevq
+𱬳	tsjevq
+𤓬	tsjevq
 ###叜
 {⿳𦥔冖叜}	soovA
 𦦼	SxuvA
@@ -4612,6 +4625,7 @@ use_preset_vocabulary: true
 藳	koavA
 𨃤	khoavs
 搞	kaavA		#攪
+# 𩫀	khqoart		#?䯨
 ##豪
 蠔	hgoavq
 嚎	hgoavq
@@ -4683,12 +4697,14 @@ use_preset_vocabulary: true
 ##堯
 ###㫐杳窅
 𨓳	Aeevq
-𡧮	Aeevs		#㝔
-𥦒	Aeevs		#1		#䆞
-𡨇	Aeevs
 𤈥	theek
 𥃺	AaavA
+𡧮	AeevA		#㝔
+𥦒	AeevA		#1		#䆞
+𡨇	AeevA
 𥃯	AaavA		#1		#𥄀
+𥃩	AeevA	5
+㫐	AeevA
 ###㚖杲?
 𠧵	kqouvA
 𡘅	kqouvA
@@ -4727,17 +4743,6 @@ use_preset_vocabulary: true
 翺	Coavq
 ##
 睾	kqouvq		#1		#𣽎皋澤睪
-###小少
-仯	tShaavA
-𨈘	SaavA
-抄	tShaavA
-# 𢆷	Aeevq
-𩵮	Saajq
-#
-仦	tShaevs		#仯
-𠁼	sjevA
-𡭔	sjevA
-𭕄	sjevA
 ###
 犳	Aeevq		#狕
 ###奧𢍊
@@ -8951,7 +8956,8 @@ use_preset_vocabulary: true
 艰	kqaən	0
 𦫒	kqaən
 𪤱	kqaən
-𱽇䫀	teed		#1		#?
+𱽇	kqoʌz
+䫀	teed		#1		#?𩒝
 䫀	kqoʌd
 𩓓	kqoʌd
 𩓓	kqoʌd
@@ -10530,7 +10536,6 @@ use_preset_vocabulary: true
 𡧡	deex
 ###帝
 𪯐	thees
-# 𢝃	tcjer
 # 𠶷
 𥩶	teek
 #
@@ -11556,6 +11561,12 @@ use_preset_vocabulary: true
 𨈙	kcjeq
 ##屐
 𨍿	gxak
+###屋-𡉉
+𢩈	Aouk
+𦤼	Aouk
+𦤿	Aouk
+𦥂	Aouk
+𦥈	Aouk
 ###𡉉𠕓𡴊 㱿𣪊𡴊
 𧲐	khqouk		#豰
 𨍔	kqouk		#轂
@@ -11812,7 +11823,7 @@ use_preset_vocabulary: true
 ##兢
 𠓆	kiəC
 𠳬	kiəC
-###敫
+###敫-𥃩㫐 -vk
 敫	keevk
 𢵿	kheevs
 敫	keevs
@@ -11974,7 +11985,6 @@ use_preset_vocabulary: true
 𡶳	Cqauk
 𡷒	Cqauk
 # 𠚁	Cqauk
-###屋
 ###應𨿳
 䧹	AiəC
 𡄖	Aiəx
@@ -13310,6 +13320,8 @@ use_preset_vocabulary: true
 ###丯
 ###耒
 ###角
+䚞	toʌjA
+䚟	toʌjA
 ######
 ###竹
 𥮓	dzjem		#𥮒
@@ -13995,7 +14007,7 @@ use_preset_vocabulary: true
 ###戶
 ###門
 閄	Efek
-閂	Sfun		# 𣠯#栓
+閂	Sfan		# 𣠯#栓
 閦	tShxuk
 𠁣𠃛	mvən
 𨷮	hfat

@@ -241,7 +241,8 @@ speller:
 
     - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
     - derive/(?<!^)([fvjyxwaeiouəʌ;][aeiouəʌ;])v(k)$/$1u$2/ #-v-視爲韻
-    - xform/(?<!^)v(k)$/$1/
+    # - xform/(?<!^)v(k)$/$1/
+    - derive/(?<!^)v(k)$/$1/
 
     - derive/(?<!^)Cq$/c/
     - xform/(?<!^)([CmnR])q$/$1/
