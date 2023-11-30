@@ -129,14 +129,16 @@ speller:
     # - xform/(?<!^)[rx](ə|ʌ|a|e|i|o|u|;)/i$1/
     # - xform/(?<!^)w(ə|ʌ|a|e|i|o|u|;)/u$1/
 ####聲-介
-    # - derive/^(((t?s|d?z)s|[tdn]r)h?)i([aeiouəʌ])/$1x$2/ #uə
-    # - derive/^(((t?s|d?z)s|[tdn]r)h?)u([aeiouəʌ])/$1w$2/ #uə
-    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/ #uə
-    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/ #uə
-    - derive/^(tSh?|d?Z|S|th?R|dR|nR)i([aeiouəʌ])/$1x$2/ #uə
-    - derive/^(tSh?|d?Z|S|th?R|dR|nR)u([aeiouəʌ])/$1w$2/ #uə
-    - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/ #uə
-    - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/ #uə
+    # - derive/^(((t?s|d?z)s|[tdn]r)h?)i([aeiouəʌ])/$1x$2/
+    # - derive/^(((t?s|d?z)s|[tdn]r)h?)u([aeiouəʌ])/$1w$2/
+    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
+    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
+    - derive/^(tSh?|d?Z|S|th?R|dR|nR)i([aeiouəʌ])/$1x$2/
+    - derive/^(tSh?|d?Z|S|th?R|dR|nR)u([aeiouəʌ])/$1w$2/
+    - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
+    - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
+    - derive/^([Jl]|t?sc?h?|d?zc?|nc)[ijrx]([aeiouəʌ])/$1i$2/
+    - derive/^([Jl]|t?sc?h?|d?zc?|nc)[uyw]([aeiouəʌ])/$1u$2/
 # ####聲-介
     # - derive/^(JL|J)[j]([aeiouəʌ;])/\1\2/ #㠯母
     # - derive/^(Xqz|qz|X|q)u([aeiouəʌ;])/$1$2/ #雲母
@@ -163,8 +165,8 @@ speller:
     - derive/^([LRn]sh)/th/
     - derive/^(C)(?=[cR])/n/
 
-    - derive/^s[LRnmCq]s?/s/
-    - derive/^z[LRnmCq]s?/z/
+    - derive/^s[ptkLRnmCq]s?/s/
+    - derive/^z[ptkLRnmCq]s?/z/
     - derive/^s([ptkbdgnmCqL])c/sc/
     - derive/^[nL]sc/sc/
     - derive/^z([ptkbdgnmCqL])c/zc/
@@ -368,8 +370,8 @@ translator:
     # - xform/([aeiouəʌ;])q($|')/$1 $2/
   comment_format:
     - xform/^c//
-    - xform/^s[LRnmCq]s?/s/
-    - xform/^z[LRnmCq]s?/z/
+    - xform/^s[ptkLRnmCq]s?/s/
+    - xform/^z[ptkLRnmCq]s?/z/
     - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/
     - xform/^[nL]sc/sc/
     - xform/^z(ns?|Ls?|Cs?|[ptkbdgnmCq])c/zc/

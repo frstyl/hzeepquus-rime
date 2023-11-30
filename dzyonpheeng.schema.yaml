@@ -9,6 +9,7 @@ schema:
     - 
   description: |
     叶韻全拼與反察
+    I表聲母U表介元尾.I+聲母對應相關聲母,U+平聲尾對應四聲
   dependencies:
     - luna_pinyin
     - cangjie6
@@ -81,14 +82,14 @@ speller:
     - derive/^(h?ns|ns?[cr]?|[sz]n[szc]?|n[sz]c)(?!$)/IN/
     - derive/^(ngs|ngq?|Cq?|Cs|[sz]Cs?[sc]?)(?!$)/IC/
 # #
-    - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U/
-    - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/$1U/
-    - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U$2U/
+    - derive/(v?[oeviujyxwaf]?)([aeiou]|ə|ʌ)([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U/
+    - derive/(v?[oeviujyxwaf]?)([aeiou]|ə|ʌ)([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/$1U/
+    - derive/(v?[oeviujyxwaf]?)([aeiou]|ə|ʌ)([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U$2U/
 
-    - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U$3/
-    - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/$1$2U/
-    - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/$1U$3/
-    - derive/(v?[oeviujyxwaf]?)([əʌaeiou])([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U$2$3/
+    - derive/(v?[oeviujyxwaf]?)([aeiou]|ə|ʌ)([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U$3/
+    - derive/(v?[oeviujyxwaf]?)([aeiou]|ə|ʌ)([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/$1$2U/
+    - derive/(v?[oeviujyxwaf]?)([aeiou]|ə|ʌ)([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/$1U$3/
+    - derive/(v?[oeviujyxwaf]?)([aeiou]|ə|ʌ)([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U$2$3/
 # # ##
     - derive/([qAs])$/Uq/
     - derive/([jlr])$/Uj/

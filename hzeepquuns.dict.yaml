@@ -2357,6 +2357,8 @@ import_tables:
 㞒	hairt		#?
 ##
 差	tShaajq
+𡘌	haes	0		#?
+𡘌	tshjeA
 ##Rar
 殺	Saart		#ts
 閷	Saart
@@ -2384,7 +2386,6 @@ import_tables:
 䞗	tShaəq
 豺	dZaəq
 𡺵	dZaəq
-𡘌	haəs		#?
 𢰇	Aaəq
 騃	CqaəA
 𤶗	CqaəA
@@ -3073,7 +3074,7 @@ import_tables:
 㭰	tsyeq
 𦸺	tsyeq
 㭰	tsyeA
-眭	syeq
+眭	sqyeq
 跬	khyeA
 䞨	khyeA
 眭	hyeq
@@ -3719,15 +3720,15 @@ import_tables:
 𥝢	ljirt	1
 䬆	ljirt
 痢	ljirt
-亖	sjirt		#ts?
-四	sjirt		#ts L?
-𦉭	sjirt
-柶	sjirt
-泗	sjirt
-牭	sjirt
-駟	sjirt		#ts
 寐	mjirt		#ts
 ##jij
+亖	sjijs		#s?
+四	sjijs		#s L?
+𦉭	sjijs
+柶	sjijs
+泗	sjijs
+牭	sjijs
+駟	sjijs		#s
 示	zkcjijs		#sg-c?
 𥘅	zkcjijs
 眎	zkcjijs
@@ -4031,7 +4032,7 @@ import_tables:
 猤	gyijs
 揆	gyijA
 葵	gyijq
-維	Jqyijq		#ɢ
+維	Jqyijq		#ɢ鷕
 唯	Jqyijq
 惟	Jqyijq
 琟	Jqyijq
@@ -9117,7 +9118,7 @@ import_tables:
 咶	hfart
 話	Efart
 #
-砦	dZaart		#?
+砦	dZaart		#?此
 寨	dZaart
 𠱡	Saart
 ##Rər
@@ -10747,12 +10748,13 @@ import_tables:
 苭	AeəvA
 ###jev
 𤖻	gjevq		#?多
-奞	sjevq		#?
+奞	sjevq0		#?
 𢃳	dcjevq
 荍	gjevq
 ##e?
 #
-鷕	JLjevA		#?
+奞	sqyij		#先隹反
+鷕	JqjevA	0		#?
 鷕	JqjijA		#?以水反
 #juv?
 𦥝	JLjuvA
@@ -10815,7 +10817,7 @@ import_tables:
 溔	JLjavA
 𩨴	JLjavA
 ##av?u?
-䚻	JLjavq
+䚻	JLjavq	999
 謠	JLjavq
 㑾	JLjavq
 䍃	JLjavq		#肉缶
@@ -11411,7 +11413,7 @@ import_tables:
 富	pFuəsk
 䔰	pFuəsk
 褔	pFhuəsk
-副	pFhuəsk
+副	pFhuəsk		#貳也
 𩯅	pFhuəsk
 𢠲	pFhuəsk
 愊	pFhuəsk
@@ -11896,8 +11898,8 @@ import_tables:
 椱	biusk
 𧠃	pFhiusk
 𧠃	biusk
-覆	pFhiusk
-覆	biusk
+覆	pFhiusk		#葢也
+覆	biusk		#伏兵也
 仆	phiusk		#ks u
 伏	buəsk		#ks
 #
@@ -11940,9 +11942,10 @@ import_tables:
 鷲	dzjusk
 殧	dzjusk
 㠇	dzjusk
-宿	sjusk		#ks
+㝛	sjusk
+宿	sjusk		#ks 聲宿也
 呪	tcjusk		#ks UKS
-祝	tcjusk
+祝	tcjusk		#祭也
 詋	tcjusk
 詶	tcjusk
 咒	tcjusk
@@ -12311,6 +12314,12 @@ import_tables:
 ####Oam甘
 ###am
 㶒	scoab		#?賞敢切
+𠦃	soap
+卅	soap
+三	soam		#彡
+弎	soam
+三	soaF
+三	sxum	99		#s-rum 音變
 ##əm
 䳴	doʌp		#眔
 𦑲	doʌp
@@ -12504,11 +12513,6 @@ import_tables:
 舑	nshoam	99
 㘱	nshoam	99
 㴂	nshoam	99
-𠦃	soap
-卅	soap
-三	soam
-弎	soam
-三	soaF
 耷	toap
 㿴	toap
 䓠	toap
@@ -18542,23 +18546,25 @@ import_tables:
 榗	tsjez
 𥳟	tsjed
 ##jaR
+𢍱	tshjan	999
+𠨧	tshjan	99
+𢍹	tshjan	99
+𨙙	tshjan	999
+𨟦	tshjan	99
+𨝍	tshjan
+遷	tshjan
+𣘝	tshjan
+櫏	tshjan
+䉦	tshjan
+韆	tshjan
+𠑗	sjan	99
+𨇴	sjan	99
+躚	sjan
+僊	sjan
+#
 拪	tshjen
 𢰕	tshjen	99
-𢍱	tshjen	999
-𠨧	tshjen	99
-𢍹	tshjen	99
-𨙙	tshjen	999
-𨟦	tshjen	99
-𨝍	tshjen
-遷	tshjen
-𣘝	tshjen
-櫏	tshjen
-䉦	tshjen
-韆	tshjen
-𠑗	sjen	99
-𨇴	sjen	99
-躚	sjen
-僊	sjen
+##jəR
 燹	sjəd
 𥙮	sjəd		#𤣗
 𤐨	sjəd		#燹
@@ -23411,7 +23417,7 @@ import_tables:
 爝	dzjevk
 𭤁	JLjevk		#皃?㫐#KL- LZ-
 敫	JLjevk		#ev
-繳	kcjevk		#?
+繳	tscjevk		#?
 躍	JLjevk		#ev LZ
 𩱲	JLjevk
 㿑	JLjevk
@@ -24702,9 +24708,6 @@ import_tables:
 礊	khqaek
 罊	khqaek
 鳽	Cqaek
-覈	hgaek
-繳	hgaek
-㮝	hgaek
 𧖴	maek
 衇	maek
 脈	maek
@@ -24730,6 +24733,7 @@ import_tables:
 筴	tShaek		#-p
 擌	Saek
 ##a?e?
+㮝	hgaak
 𥖪	laak
 咋	tSaAk
 葃	dZaek
@@ -24761,6 +24765,8 @@ import_tables:
 𢶉	phaek
 ##
 摵	Saevk		#ks戚
+覈	hgaevk
+繳	hgaevk
 ###vReŋ
 𩰎	AfeC
 彋	hqzfeC
@@ -25650,12 +25656,14 @@ import_tables:
 䲛	moəx
 懜	moəx
 𨮒	moəx
-𦱟	moəC
+𦱟	moəC		#𦲯
 淂	toək
 𨁽	toək
 𣌏	toək
 𠮊	toək
-䙷	toək	999
+𠭁	toək	999
+䙷	toək	99
+𢰐	thoək
 㧹	thoək
 㥂	thoək
 𤙰	doək
@@ -25859,7 +25867,7 @@ import_tables:
 𥻅	bxək
 踾	bxək
 鶝	bxək
-副	phxək
+副	phxək		#析也
 㽬	phxək
 疈	phxək
 𨺤	phxək
@@ -28286,7 +28294,7 @@ import_tables:
 楅	pFviək
 畐	bFviək
 匐	bFviək
-副	pFhviək
+副	pFhviək		#剖也
 𩯅	pFhviək
 䔰	pFhviək
 𤘴	mFviək
@@ -28329,8 +28337,8 @@ import_tables:
 喌	tcjuk		#州
 柷	tcjuk
 柷	thcjuk
-祝	tcjuk
-祝	tcjuk
+呪	tcjuk
+祝	tcjuk		#巫也
 𡖊	sjuk	999
 𠈇	sjuk	99		#㐁
 𠉦	sjuk
@@ -28384,7 +28392,7 @@ import_tables:
 澓	bFiuk
 𥨍	bFiuk
 𧠃	pFhiuk
-覆	pFhiuk
+覆	pFhiuk		#反也
 萺	mFiuk
 𥈆	msiuk		#M
 㙁	mFiuk
@@ -29631,23 +29639,22 @@ import_tables:
 瀳	dzeəRs
 𨷳	dzeəRs
 ##jaR
-拪	tshjeRq
-𢰕	tshjeRq	99
-𢍱	tshjeRq	999
-𠨧	tshjeRq	99
-𢍹	tshjeRq	99
-𨙙	tshjeRq	999
-𨟦	tshjeRq	99
-𨝍	tshjeRq
-遷	tshjeRq
-𣘝	tshjeRq
-櫏	tshjeRq
-䉦	tshjeRq
-韆	tshjeRq
-𠑗	sjeRq	99
-𨇴	sjeRq	99
-躚	sjeRq
-僊	sjeRq
+𢍱	tshjaRq	999
+𠨧	tshjaRq	99
+𢍹	tshjaRq	99
+𨙙	tshjaRq	999
+𨟦	tshjaRq	99
+𨝍	tshjaRq
+遷	tshjaRq
+𣘝	tshjaRq
+櫏	tshjaRq
+䉦	tshjaRq
+韆	tshjaRq
+𠑗	sjaRq	99
+𨇴	sjaRq	99
+躚	sjaRq
+僊	sjaRq
+##jəR 
 燹	sjəRA
 𥙮	sjəRA		#𤣗
 𤐨	sjəRA		#燹

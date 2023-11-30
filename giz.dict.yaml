@@ -136,7 +136,7 @@ use_preset_vocabulary: true
 烴	thjeC		#CH hydroCajsbon
 烴	theeC
 羥	khiag		#OH hydroqyl
-羰	thaC
+羰	thoaC
 巰	giuvq
 烷	Evan
 烯	hiəjq
@@ -625,6 +625,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+佧佤	khaA vaA
 頨𩒖	qvioA Ceez
 傈僳	ljit sjok
 傈僳	lis sus
@@ -3031,7 +3032,7 @@ use_preset_vocabulary: true
 𢎟	doaz
 𢎛	doaz
 ###丹
-円	tan
+円	toan
 㣋	toan
 𠁿	toan
 𠂁	toan
@@ -7051,7 +7052,7 @@ use_preset_vocabulary: true
 㞤	dZxim
 𡻿	dZxim
 埁	dzjim
-###參
+###參-三
 遪	dcoʌp
 幓	Sxim
 幓	Saam		#縿
@@ -7066,12 +7067,16 @@ use_preset_vocabulary: true
 叁	soam
 𠫰	soam
 ###三
+三	sxum	99		#s-rum 音變
 仨	soam
 仨	soap
 ###
 𠦄	soʌp
 𨒍	scjer
 𨓄	dzcjer
+###彡-三
+𧵏	scjeb		#𧴭
+㶒	scoab		#1		#?
 ###譶
 𨑂	doʌp
 ###𥥍
@@ -7533,9 +7538,6 @@ use_preset_vocabulary: true
 鱘	zjim
 #
 㝷	zjum
-###彡
-𧵏	scjeb		#𧴭
-㶒	scoab		#1		#?
 ###審宷
 嬸	scjib
 𫳢	scjib
@@ -10362,9 +10364,26 @@ use_preset_vocabulary: true
 ###匿
 匿	thoək
 㥾	thoək		#慝
-###䙷
+###得䙷𠭁
+𤛀	doək
+𢔨	toək
+𢔶	toək
+𠭁	toək	999
+䙷	toək
 㝶	toək
-###德㥁
+㝵	toək
+䙸	toək
+𡬩	toək
+𥃷	toək
+𧠋	toək
+𧴫	toək
+𬁟	toək
+𬙕	toək
+𮙮	toək
+𮙱	toək
+𰆸	toək
+𱚞	toək
+###德㥁-直
 #
 𱝮	toək
 恴	toək
@@ -10405,12 +10424,14 @@ use_preset_vocabulary: true
 𰅰	dRxək
 𰥐	dRxək
 𰥑	dRxək
-###承
+###承-丞
 𠄘	dcjəC
 𢪐	dcjəC
 𢪻	dcjəC
 𢌼	dcjəC
 ###丞
+𰞜	tcjəC
+𤇶	tcjəC
 𦛆	tcjəC
 𦛫	tcjəC
 𦛬	tcjəC
@@ -10421,6 +10442,11 @@ use_preset_vocabulary: true
 𭵠	tcjəC
 𢫒	tcjəg
 𡏈	tcjəg
+㞼	dcjəC
+𤇏	dcjəC
+𤉋	dcjəC
+𭵠	dcjəC
+𱝟	dcjəC
 ###徵
 徴	tRxəC		#1		#徵 一
 ###爯
@@ -13299,7 +13325,7 @@ use_preset_vocabulary: true
 𣍥	kyit		#姓 𦙮
 𦙮	kyit
 𦛇	kvet
-𦛈	jer
+𦛈	Jjer
 䏲	theiq
 𫜶	tan
 ###筋
@@ -13665,8 +13691,7 @@ use_preset_vocabulary: true
 僳	sjok
 佧	khaA
 佤	CfaA
-佤	vaA
-佧佤	khaA vaA
+佤	qvaA
 ##人行
 佻	teevA
 伄	teevA
