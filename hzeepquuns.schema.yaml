@@ -77,14 +77,11 @@ speller:
     # - derive/([\w])vx([uə])/$1w$2/ #
     # - derive/([\w])v([o])/$1$2/
 
-    - fuzz/([\w])[ijx][uo]/$1u/ #iu- io-
-    - fuzz/([\w])o[uo]/$1o/ #oo ou
-
     - fuzz/([\w]v)ə([jlrndztCgxk][qAs]?)$/$1o$2/
 
 ##韻-介
-    - derive/([\w])u(u[qAhs])$/$1i$2/ #uu孚
-    - derive/([\w])v(o[jlrndzt])/$1$2/ #von vo
+    - fuzz/([\w])u(u[qAhs])$/$1i$2/ #uu孚
+    - fuzz/([\w])v(o[jlrndzt])/$1$2/ #von vo
     # - derive/([\w])[uy]u([jlrndzt])/$1u$2/ #uun
 ##韻-尾
 
@@ -114,10 +111,13 @@ speller:
     - abbrev/(\w)[jrx]([aeiouəʌ;])/$1i$2/ #i=jxi
     - abbrev/(\w)[yw]([aeiouəʌ;])/$1u$2/
 
-    - derive/([\w])vi([aeiouəʌ;])/$1u$2/ #uə
+    - derive/(\w)vi([aeiouəʌ;])/$1u$2/ #uə
     - derive/(\w)[jrxi](i|ə|ʌ)/$1i/ #i
     - derive/(\w)[ywu](i|ə|ʌ|u)/$1u/ #u
-    - derive/([\w])v[rxi]ə/$1u/ #uə
+    - derive/(\w)v[rxi]ə/$1u/ #uə
+
+    - fuzz/([\w])[ijx][uo]/$1u/ #iu- io-
+    - fuzz/([\w])o(u|o|ʌ)/$1o/ #oo ou oʌ 一等
 ##三等无介音
     # - xform/([\w])[oe]([aeiouəʌ;])/$1o$2/ #一三
     # - xform/([\w])[ij]([aeiouəʌ;])/$1$2/ #一三
@@ -129,31 +129,12 @@ speller:
     # - xform/(?<!^)[rx](ə|ʌ|a|e|i|o|u|;)/i$1/
     # - xform/(?<!^)w(ə|ʌ|a|e|i|o|u|;)/u$1/
 ####聲-介
-    # - derive/^(((t?s|d?z)s|[tdn]r)h?)i([aeiouəʌ])/$1x$2/
-    # - derive/^(((t?s|d?z)s|[tdn]r)h?)u([aeiouəʌ])/$1w$2/
-    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
-    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
     - derive/^(tSh?|d?Z|S|th?R|dR|nR)i([aeiouəʌ])/$1x$2/
     - derive/^(tSh?|d?Z|S|th?R|dR|nR)u([aeiouəʌ])/$1w$2/
     - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
     - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
     - derive/^([Jl]|t?sc?h?|d?zc?|nc)[ijrx]([aeiouəʌ])/$1i$2/
     - derive/^([Jl]|t?sc?h?|d?zc?|nc)[uyw]([aeiouəʌ])/$1u$2/
-# ####聲-介
-    # - derive/^(JL|J)[j]([aeiouəʌ;])/\1\2/ #㠯母
-    # - derive/^(Xqz|qz|X|q)u([aeiouəʌ;])/$1$2/ #雲母
-
-    # - derive/^(msv)([ʌəo])/$1$2/ #幫組 一三
-    # - derive/^(ph|p|b|m)v([aeəʌ;])/\L$1$2/
-
-    # # - derive/^(ms|ph|p|b|m)F?i([aeiəʌ;x])/\L$1u$2/ 福
-    # # - derive/^(Jqz|Xqz|Jq|Xq|qz|JX|Xz|X|q)v(i[aeioəʌ;])/q$2/
-
-    # # - derive/^(l)a([aeiouəʌ;])/l$2/
-    # # - derive/^(l)f/lv/
-    # # - derive/^(l)r/l/
-    # # - derive/^(l)f/lv/
-
 
 ####聲
     - derive/^c(.)/$1/

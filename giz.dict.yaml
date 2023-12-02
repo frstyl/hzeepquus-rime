@@ -522,7 +522,9 @@ use_preset_vocabulary: true
 ###
 母	maA
 父	paA
+母	moA		#牡媽
 # 母	məA
+牡	moA
 ǀə	tsə
 ####近
 您	nRxiA pvəjs		#伱們
@@ -625,6 +627,10 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+𤱢𤲰	
+𨱧䦊	
+𧍘蟉	
+蜩蟉	
 佧佤	khaA vaA
 頨𩒖	qvioA Ceez
 傈僳	ljit sjok
@@ -841,7 +847,9 @@ use_preset_vocabulary: true
 # 𠼛	biuvA
 # 𨸏	biuvA
 𭚖	biuvA
-###某
+###某-母
+某	moovA		#私稱也
+𠋦	moovA	999
 #
 𱥯	mvojq
 𰍇	mvojq
@@ -852,7 +860,7 @@ use_preset_vocabulary: true
 坆	mvojq
 𣒫	mvojq
 𦋡	moovA
-###母
+###母 a?o?
 䍒	moovA
 𣏷	moovA
 𦊏	moovA
@@ -2355,6 +2363,7 @@ use_preset_vocabulary: true
 𠂠	baez
 𤓳	baez
 ###免
+免	muad
 晩	muad
 凂	mvəjA
 娩	phuaz
@@ -4821,12 +4830,12 @@ use_preset_vocabulary: true
 𪖑	Cqeəvs
 𪖘	Cqeəvs
 芁	kiuvq
-収	scjəvq
-𠬧	scjəvq
-𭣣	scjəvq
-𭷁	scjəvq
-𰠦	scjəvq
-𱝽	scjəvq
+収	scjuvq
+𠬧	scjuvq
+𭣣	scjuvq
+𭷁	scjuvq
+𰠦	scjuvq
+𱝽	scjuvq
 ###叔尗
 𠦑	dcjuk	5
 㳤	dcjuk	5
@@ -5069,6 +5078,7 @@ use_preset_vocabulary: true
 𨂻	douvs
 𫺼	khqoub		#1		#臽
 ###䚻䍃
+##-ev
 𨘔	Jjevq
 𨔠	Jjevq
 𨓧	Jjevq
@@ -5096,7 +5106,13 @@ use_preset_vocabulary: true
 𧥲	Jjevq
 𲁨	Jjevq
 𧦇	Jjevq
-##繇䌛
+䚻	JLjavq	999
+##繇䌛 -u
+𤫺	Jjuvq
+𤫾	Jjuvq
+# 𤬖	Jjuvq
+𤬔	Jjuvq
+𤬍	Jjuvq
 𡈫	Jjuvq
 𡈱	Jjuvq
 𣟾	Jjuvq
@@ -5704,7 +5720,7 @@ use_preset_vocabulary: true
 𰺬	zjəq
 ###台
 抬	thRxəq
-𠄩	jəq
+𠄩	Jjəq
 ###台-j
 颱	doʌjq
 #
@@ -6066,6 +6082,13 @@ use_preset_vocabulary: true
 褲	khoos
 ###䀠
 𮊂	kvios
+###焸
+燛	kooA
+焽	kooA
+煚	kooA
+煛	kooA
+㷗	kooA
+㷡	kooA
 ###瓜
 罛	kqvoq
 𦊬	kqvoq
@@ -11054,7 +11077,7 @@ use_preset_vocabulary: true
 壮	tSxax	0
 壵	tSxax
 扗	tSxax
-牡	tSxax
+牡	tSxax	1
 𡉟	tSxax
 𢎳	tSxax
 𢩿	tSxax
