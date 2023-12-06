@@ -133,11 +133,15 @@ speller:
     - derive/(?<!^)vsk/y/
     - derive/(?<!^)vs(k)/y$1/
 
-##
+##轉寫
     - derive/^(J)/j/
     - derive/(A)/hq/
     - derive/E/hz/
-    - derive/(C)/ng/
+    - derive/C/ng/
+    - derive/R/rr/
+    - derive/S/ss/
+    - derive/Z/zz/
+    - derive/F/fs/
     # - derive/(ʌ|ə)/;/ #EOə eo
     - derive/ʌ/oe/
     - derive/ə/eo/
