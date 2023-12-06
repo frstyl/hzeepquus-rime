@@ -1,5 +1,5 @@
-![图片](https://github.com/frstyl/HZeepQuuns/assets/56380797/bc8a6744-9b53-44f1-a73b-ccc57fc4fae1)
-# HZeepQuuns
+
+# hzeepquuns
 基亏廣韻旳 rime 拼音方案。叶韻音系:上古中古溷合，
 拼音説明 https://zhuanlan.zhihu.com/p/388867479
 輸入法說明：
@@ -17,13 +17,13 @@
 
 
 	幫 p	滂 ph	並 b	明 m		
-	非 PF	敷 PHF	奉 BF	微 MF	F	
+	非 pF	敷 pFh	奉 bF	微 mF	F	
 	端 t	透 th	定 d	泥 n		來 l
 	精 ts	淸 tsh	從dz		心 s	邪 z
-	知tr	徹 trh	澄dr	孃 nr		
-	莊 tss	初 tssh	崇 dzs		生 ss	俟 z
+	知 trr	徹 trrh	澄dr	孃 nrr		
+	莊 tss	初 tssh	崇 dzz		生 ss	俟 z
 	章 tsc	昌 tsch	常 dzc	日 nc	書 sc	船 zc
-	照 tsr	穿 tsrh	牀 dsr		宷 sr	禪 zr
+	照 tsrr	穿 tsrrh	牀 dsrr		宷 srr	禪 zrr
 	章(見)kc
 	章(端)tc	昌(谿) khc
 	昌(透) thc	常(羣) gc
@@ -42,7 +42,7 @@
       一四等 e,o,∅ v
       二等 a f
       三A j y
-      三B x w
+      三B x/r w
       三C i u
       三  i u
 
@@ -53,7 +53,7 @@
     无韻尾平丄去 -q, -h, -s
     -u韻尾平丄去 -v, -w, -y
     -i韻尾平丄去 -j, -l, -r
-    次入韻-[rs](-p -t -k)
+    次入韻-[rs](-p -t -k),vk
     m 韻尾平丄去入-m, -b,-f, -p
     n 韻尾平丄去入-n, -d, -z, -t
     ng韻尾平丄去入,-c(C,ng), -g, -x, -k
