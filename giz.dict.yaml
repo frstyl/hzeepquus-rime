@@ -627,6 +627,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+𦣸𩖌	laeF tShaam
 𢱧𢃳	
 佧佤	khaA vaA
 頨𩒖	qvioA Ceez
@@ -1790,6 +1791,7 @@ use_preset_vocabulary: true
 𨛁	pauC
 𮟵	pauC
 綁	paug
+峀	paug
 ###封𡉚
 㜂	pioC
 篈	pioC
@@ -2519,6 +2521,8 @@ use_preset_vocabulary: true
 𭔸	tvojs
 𭔹	tvojs
 𭔾	tvojs
+𭄈	tvojs
+𱾉	tvojs
 懟	dvojs
 ###𠂤
 𫡆	tvojq
@@ -2647,7 +2651,6 @@ use_preset_vocabulary: true
 𡯺	dvojq		#1		#尵
 ###歸
 皈	kuəjq
-⿰𠂤帚	kuəjq
 帰	kuəjq
 归	kuəjq
 𡚖	kuəjq
@@ -2658,7 +2661,8 @@ use_preset_vocabulary: true
 𨺜	kuəjq
 𰯳	kuəjq
 𰻂	kuəjq
-𱀠	kuəjq
+𱀠	kuəjq	99
+# ⿰𠂤帚	kuəjq
 𱜹	kuəjq
 𲉐	kuəjq
 𲉒	kuəjq
@@ -3910,8 +3914,9 @@ use_preset_vocabulary: true
 騍	khvas
 騍	kvas
 錁	kvaA
-倮	lvujA
+倮	lvaA
 𥚌	kqvaz
+𣐭	kvaA
 ###𣎆𦟀kr
 𣎆	lvujA
 𮌩	lvujA
@@ -5233,6 +5238,8 @@ use_preset_vocabulary: true
 ###土
 𡈽	thooA		#1		#土
 圡	thooA
+##杜
+𡉿	dooA
 ###兔
 菟	thoos		#1		#兔免
 堍	thoos
@@ -5824,6 +5831,12 @@ use_preset_vocabulary: true
 ##慮
 櫖	thRxoq
 濾	ljos
+###盧
+卢	looq	0
+𥃈	looq
+𧆨	looq
+𭾊	looq
+𭾐	looq
 ###午
 𰅭	CqooA		#午
 ###魚
@@ -5835,6 +5848,10 @@ use_preset_vocabulary: true
 𮫭	Cioq
 𮫮	Cioq
 𮫯	Cioq
+###圉
+𭍤	CiohA
+𰉑	CiohA	99
+𰉓	CiohA
 ###五
 ##
 乂	CqooA
@@ -7523,7 +7540,6 @@ use_preset_vocabulary: true
 𧨭	kaam
 𧩾	kaam
 𦣸	laeF
-𦣸𩖌	laeF tShaam
 㩜	loam
 𦣸	laeF
 ###兼
@@ -9014,6 +9030,7 @@ use_preset_vocabulary: true
 𰤿	kqvaz
 𰥇	kqvaz
 𱲛	kqvaz
+𰤷	kqvaz
 ###圣㕢
 柽	guat
 𡑧	hgaat
@@ -10268,6 +10285,10 @@ use_preset_vocabulary: true
 𬔧	tcjax
 ###唐
 醣	doaC
+𪪒	doaC
+𭇢	doaC
+𰇺	doaC
+𱓒	doaC
 ###眾㐺
 𫡑	tcjux
 𡿻	tcjux
@@ -10382,7 +10403,13 @@ use_preset_vocabulary: true
 𣤽	ncjag
 𥀶	ncjag
 𧐀	noaC		#蠰
-###囊
+㐮	sjaC
+𠆝	sjaC
+𡣿	sjaC
+𦦬	sjaC
+𧞜	sjaC
+𧞻	sjaC	99
+###囊-襄
 𰀉	noaC
 齉	nax
 饢	noaC
@@ -10439,8 +10466,6 @@ use_preset_vocabulary: true
 㥾	thoək		#慝
 ###得䙷𠭁
 𤛀	doək
-𢔨	toək
-𢔶	toək
 𠭁	toək	999
 䙷	toək
 㝶	toək
@@ -10456,6 +10481,9 @@ use_preset_vocabulary: true
 𮙱	toək
 𰆸	toək
 𱚞	toək
+𰳫	toək
+𢔨	toək
+𢔶	toək
 ###德㥁-直
 #
 𱝮	toək
@@ -10477,6 +10505,7 @@ use_preset_vocabulary: true
 𣇣	tRxəs
 𦋘	tRxəs
 𧴴	tRxəs
+𥃭	dRxək
 值	dRxəs		#1		#直
 值	dRxək
 惪	toək		#1		#
@@ -11843,17 +11872,21 @@ use_preset_vocabulary: true
 𧟴	kaaC		#庚
 𢈏	kaaC
 𢈰	kaaC
-###卝丱
+𠩖	kaaC
+𰏳	kaaC
+𫷻	kaaC
+###卝丱-黄
 卝	kfag
 𨥥	kfag
 𮀑	kfag
 𨥑	kfag
 𥐫	kfag
 ###灮黃
-# 黄	hgvaC		#1		#黃
 # 横	kqvaC
 𨽏	kqvak
 撗	hgvaC
+# 黄	hgvaC		#1		#黃
+𡕛	hgvaC
 ##廣
 擴	khvak
 #
@@ -12228,6 +12261,7 @@ use_preset_vocabulary: true
 臃	AioC
 臃	Aiog
 㙲	Aiox
+吕	AioC	99		#古
 ###屰-㡿斥C-
 𦙚	Sauk
 䄴	Sauk

@@ -3519,6 +3519,7 @@ import_tables:
 ##wa
 ##waj
 虧	khwajq
+𧇾	khwajq
 嬀	kwajq
 潙	kwajq
 蟡	kwajA
@@ -3935,7 +3936,7 @@ import_tables:
 夷	JLjəjq		#L 希夷
 𡰥	JLjəjq		#夷
 羠	zLjəjA
-咦	hsjəjq		#? 類隨
+咦	hLsjəjq		#? 類隨#夷
 姨	JLjəjq
 峓	JLjəjq
 恞	JLjəjq
@@ -4459,11 +4460,11 @@ import_tables:
 覬	kxəjs
 𩥉	kxəjs
 忾	hxəjq
-絺	thRxəjq		#?RL
-郗	thRxəjq		#	hiəjq
-𥭘	thRxəjq
-脪	thRxəjq
-瓻	thRxəjq
+絺	LshRxəjq		#?RL#希L-
+郗	LshRxəjq		#hiəjq
+𥭘	LshRxəjq
+脪	LshRxəjq
+瓻	LshRxəjq
 辴	thRxəjq
 飢	kxəjq
 机	kxəjq
@@ -5188,7 +5189,7 @@ import_tables:
 𦋘	tRxəs
 置	tRxəsk
 埴	thcjəsk
-識	tcjəsk		#ks
+識	tcjəsk		#ks#戠
 織	tcjəsk
 熾	thcjəsk
 幟	thcjəsk
@@ -6007,26 +6008,26 @@ import_tables:
 螘	CiəjA
 俟	giəjq	1
 郼	Aiəjq
-希	hiəjq
-𢁫	hiəjq
-晞	hiəjq		#L?
-莃	hiəjq
-鵗	hiəjq
-睎	hiəjq
-稀	hiəjq
-豨	hiəjq
-𧻶	hiəjq
-桸	hiəjq
-悕	hiəjq
-俙	hiəjq
-欷	hiəjq
-豨	hiəjA
-俙	hiəjA
-𪖥	hiəjA
-唏	hiəjA
-欷	hiəjs
-唏	hiəjs
-䮎	hiəjs
+希	hLsiəjq		#集韻展几切#Ls?
+𢁫	hLsiəjq
+晞	hLsiəjq		#L?
+莃	hLsiəjq
+鵗	hLsiəjq
+睎	hLsiəjq
+稀	hLsiəjq
+豨	hLsiəjq
+𧻶	hLsiəjq
+桸	hLsiəjq
+悕	hLsiəjq
+俙	hLsiəjq
+欷	hLsiəjq
+豨	hLsiəjA
+俙	hLsiəjA
+𪖥	hLsiəjA
+唏	hLsiəjA
+欷	hLsiəjs
+唏	hLsiəjs
+䮎	hLsiəjs
 偯	AiəjA
 衣	Aiəjq
 㛄	Aiəjq
@@ -6258,6 +6259,7 @@ import_tables:
 𤟤	huəjq
 歸	kuəjq
 㱕	kuəjq	99
+𱀠	kuəjq	99
 𠐽	kuəjs
 蘬	khuəjq
 𧢦	khuəjq
@@ -6825,7 +6827,7 @@ import_tables:
 渡	doosk
 鍍	doosk
 𥯖	doosk
-妬	toosk		#ks
+妬	toosk		#ks#石
 妒	toosk		#妬
 路	loosk		#ks
 露	loosk
@@ -7385,6 +7387,7 @@ import_tables:
 𩺰	Cioq
 𩼪	Cioq
 圉	CioA
+𰉑	CioA	99
 圄	CioA
 衙	Cioq
 衙	CioA
@@ -22026,7 +22029,8 @@ import_tables:
 棠	doaC
 䉎	doaC
 橖	doaC
-唐	LoaC		#L?R?
+𰇺	LoaC	99
+唐	LoaC		#L?R?#庚聲
 糖	LoaC
 塘	LoaC
 溏	LoaC
@@ -23098,7 +23102,9 @@ import_tables:
 饟	nscjag
 饟	nscjax
 蠰	nscjax
-襄	snjaC		#s-n
+𧞻	snjaC	99
+𡣿	snjaC
+襄	snjaC		#襄s-n
 纕	snjaC
 忀	snjaC
 驤	snjaC
@@ -23268,15 +23274,15 @@ import_tables:
 象	zLjag
 𧰼	zLjag	999
 勨	JLjag
-佯	dzjaC		#L- sg
-詳	zLjaC
-洋	zLjaC	1
-翔	zLjaC
-庠	zLjaC
-祥	zLjaC
-𨀘	zLjaC
-𦍙	zLjaC
-痒	zLjaC	1
+佯	dzjaC		#弱也
+詳	zqjaC		#q- sg#羊
+洋	zqjaC	1
+翔	zqjaC
+庠	zqjaC
+祥	zqjaC
+𨀘	zqjaC
+𦍙	zqjaC
+痒	zqjaC	1
 羊	JqjaC		#ɢ V-
 眻	JqjaC
 佯	JqjaC
@@ -24316,7 +24322,7 @@ import_tables:
 濗	meek
 䤨	pheek
 覛	meek
-覓	meek
+覓	meek		#覛#𠂢
 䮭	meek
 漞	meek
 𧱻	meek
@@ -25635,7 +25641,7 @@ import_tables:
 𪆍	boəC
 堋	boəC
 棚	boəC
-倗	boəC
+倗	boəC	999
 鬅	boəC
 倗	boəx
 踣	boək
@@ -26042,7 +26048,7 @@ import_tables:
 畟	tsjək
 𢯩	dzjək
 𡑠	dcjək
-識	stcjək
+識	stcjək		#戠t-ə-k-s
 𧄹	stcjək
 職	tcjək
 戠	tcjək
@@ -26519,7 +26525,7 @@ import_tables:
 蓪	LshouC		#Ls
 通	LshouC
 俑	LshouC	1
-桶	Lshoug
+桶	Lshoug		#用
 捅	Lshoug
 痛	Lshoux
 㼧	LouC		#L
@@ -27033,7 +27039,7 @@ import_tables:
 梆	pauC
 垹	pauC
 邦	pauC
-𤰫	pauC
+𤰫	pauC	99		#古文
 肨	phaux
 㭋	baug
 玤	baug
