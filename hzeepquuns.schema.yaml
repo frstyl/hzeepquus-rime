@@ -83,6 +83,16 @@ speller:
     - fuzz/([\w])u(u[qAhs])$/$1i$2/ #uu孚
     - fuzz/([\w])v(o[jlrndzt])/$1$2/ #von vo
     # - derive/([\w])[uy]u([jlrndzt])/$1u$2/ #uun
+##韻-尾
+
+    - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
+    - derive/([\w][rxw]a)j/$1/ #aj iaj
+    - derive/([\w][eovaf]u)j/$1/
+    - derive/([\w][eovjyrxwaf]i)j/$1/ #ij
+    # - derive/([aeiouəʌ])j([qhsA])/$1$2/ #-j
+    # - fuzz/([\w][uyw]u)j/$1/ #u-j
+    - fuzz/([\w][o]ʌ)j/$1/ #ʌ-j
+    - fuzz/([\w][ev]e)j/$1/ #e-j
 ####介
 ##
     - derive/([\w])o(a|o|ə|ʌ)/$1$2/ #一等无介音
@@ -119,19 +129,10 @@ speller:
 
 ####韻-尾
 
-    - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
-    - derive/([\w][rxw]a)j/$1/ #aj iaj
-    - derive/([\w][eovaf]u)j/$1/
-    - derive/([\w][eovjyrxwaf]i)j/$1/ #ij
-    # - derive/([aeiouəʌ])j([qhsA])/$1$2/ #-j
-
     # - derive/([\w])([oe]u)v([qhsA])/$1$2$3/ #皋勹ov rov
     # - derive/([\w])([ar]u)v([qhsA])/$1$2$3/
     - derive/([\w]u)v([qhsA])/$1$2/ #烋皋勹球ov aov
 
-    # - fuzz/([\w][uyw]u)j/$1/ #u-j
-    - fuzz/([\w][o]ʌ)j/$1/ #ʌ-j
-    - fuzz/([\w][ev]e)j/$1/ #e-j
 
     - fuzz/(.i)C/$1n/ #iŋ
     - fuzz/(.i)g/$1d/ #iŋ
@@ -183,7 +184,7 @@ speller:
     # - derive/^([dg]c|dR|dz[szc])/ds/
     # - derive/^(s[szc])/sz/
     # - derive/^(z[szc])/zs/
-    - fuzz/^z/zz/ #衺
+    - fuzz/^z/sz/ #衺
 
     - derive/^(Lr?)([eovarfrxw][aeiouəʌ;])/j$2/
     - derive/^(Xq?)([rxw][aeiouəʌ;])/j$2/
