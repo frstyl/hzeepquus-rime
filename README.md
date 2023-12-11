@@ -35,6 +35,10 @@
 	O /ʕ/
 	影 hq, A				曉 h	匣 hz,E,
 
+	![图片](https://github.com/frstyl/hzeepquuns/assets/56380797/e792823b-e067-45b9-84b5-1c972580691c)
+
+  
+  
   韻母：
       六元音aeiouə
 
