@@ -43,6 +43,7 @@ use_preset_vocabulary: true
 ×	zcjəC	999
 ¿	muəz	999
 ∞	mvioq giuC
+々	dRxoC
 ######
 #####字書
 ####部
@@ -649,7 +650,8 @@ use_preset_vocabulary: true
 # 什邡	
 婩斫	
 偙儶	
-鸊鷉	
+𪇊鷉	
+# 鸊鷉	
 烏鰂	
 糉子	
 摴蒲	
@@ -671,6 +673,9 @@ use_preset_vocabulary: true
 大汗	doar hgoaz
 可汗	khah hgoan
 ##連綿?
+㱾㱼	
+㱾𨸜	
+湁湒	
 謉諢	
 偛㑳	
 殑㱡	
@@ -1833,6 +1838,7 @@ use_preset_vocabulary: true
 𥃦	miuk
 𭍞	miuk
 ###𡕨复
+𱵡	biuk
 㚆	biuk
 𠋩	biuk
 𰋏	biuk
@@ -1936,6 +1942,7 @@ use_preset_vocabulary: true
 ###反
 舨	paad
 鋬	phaaz
+版	paad
 反	puad
 𠬡	puad
 𭆥	puad
@@ -4051,6 +4058,7 @@ use_preset_vocabulary: true
 ###聿肈
 肀	Jyut
 肇	dRxevA		#肈
+𦘟	dRxevA
 ###
 𪓙	dRxevq		#?黽
 ###𠷎𢏚𠃬𦓃壽
@@ -4876,15 +4884,13 @@ use_preset_vocabulary: true
 𰠦	scjuvq
 𱝽	scjuvq
 ###叔尗
-𠦑	dcjuk	5
-㳤	dcjuk	5
-𦯂	scjuk	5
-𰓹	scjuk	5
-𨁕	tsjuk	5
-𣒏	tsjuk	5
-𡨜	dzeek	5
-𥆳	dook	5
-𧚛	took	5
+𠦑	dcjuk
+㳤	dcjuk
+𦯂	scjuk
+𰓹	scjuk
+𨁕	tsjuk
+𣒏	tsjuk
+𡨜	dzeek		#寂
 ##
 𤟏	scjuk
 𮛣	tsjuk
@@ -4901,7 +4907,7 @@ use_preset_vocabulary: true
 𢆑	dcjuk
 𭐳	dcjuk
 𭣬	dcjuk
-###尗
+##尗
 ##
 𢙤	neek
 𩒛	tsheek		#戚
@@ -4914,9 +4920,9 @@ use_preset_vocabulary: true
 ##
 𡫁	tsheek
 #
-𨲂	neevA		#1		#䦊
-𠋰	tsheek		#1		#戚
-𠻏	tsoup		#1		#嘁
+𨲂	neevA		#䦊
+𠋰	tsheek		#戚
+𠻏	tsoup		#嘁
 𠎰	tsheek
 𢦫	tsheek
 𢧯	tsheek
@@ -4924,6 +4930,9 @@ use_preset_vocabulary: true
 #
 𰍪	scjuk
 𦯝	tsjevq
+###叔t-u-k
+𥆳	took		#督
+𧚛	took
 ###肘
 ###丑
 𠃠	thRxuvA
@@ -5863,7 +5872,7 @@ use_preset_vocabulary: true
 㕶	Cvoq
 𭇁	Cooq
 𠮣	Cooq
-𫡲	Cojq
+𫡲	Cooq
 唔	Cooq	1
 焐	Coos
 牾	Cooq
@@ -6006,6 +6015,7 @@ use_preset_vocabulary: true
 𠬑	khios
 # 祛	khioq
 ###己
+𣢇	hoʌjq		#㰝
 㞯	khiəA
 𨙬	giəs
 𢀒	kiəA

@@ -4704,7 +4704,7 @@ use_preset_vocabulary: true
 #技	gjeq
 𩩢	Cjeq
 #輗	Cjeq
-𧥤	hjeq
+𧥤	hjeq		#許支切
 #𧦭	hjeq
 #焁	hjeq
 #移	Jjeq
@@ -6770,17 +6770,6 @@ use_preset_vocabulary: true
 #䪳	Ajiq
 #嫛	Ajiq
 𡜬	Ajiq
-#咦	hjiq
-#咥	hjiq
-#忔	hjiq
-#䐅	hjiq
-#㕧	hjiq
-𣢁	hjiq
-𧥤	hjiq
-䐖	hjiq
-#屎	hjiCs		#𣢂
-𣢍	hjiq
-𣢎	hjiq
 #夷	Jjiq
 #𡰥	Jjiq
 #尼	Jjiq
@@ -7112,7 +7101,7 @@ use_preset_vocabulary: true
 #罊	khjis
 #蟿	khjis
 #𢢞	khjis
-#呬	hjis
+#呬	hjis		#許四切
 吚	hjis
 #咥	hjis
 #𢑩	Jjis
@@ -7255,12 +7244,12 @@ use_preset_vocabulary: true
 𥯫	gyiq
 #猤	gyiq
 #洼	Ayiq
-#倠	hyiq
+#倠	hyiq		#呼維切
 #婎	hyiq
 𡠓	hyiq
 #睢	hyiq
 #眭	hyiq
-#屎	hyiCs		#𣢂
+#屎	hyiq		#𣢂
 #奞	hyiq
 #惟	Jyiq
 #維	Jyiq
@@ -7753,6 +7742,17 @@ use_preset_vocabulary: true
 #肌	kxiq
 #机	kxiq
 #虮	kxiq
+#咦	hxiq		#馨夷切
+#咥	hxiq
+#忔	hxiq
+#䐅	hxiq
+#㕧	hxiq
+𣢁	hxiq
+𧥤	hxiq
+䐖	hxiq
+#屎	hxiq		#𣢂
+𣢍	hxiq
+𣢎	hxiq
 #鄙	pxiA
 #啚	pxiA
 𠴿	pxiA
@@ -19110,7 +19110,7 @@ use_preset_vocabulary: true
 #𤿳	khjinA
 #𧼒	khjinA
 #繾	khjinA
-#脪	hjinA
+#脪	hjinA		#興腎切
 #㾙	hjinA
 𦙍	JjinA
 #引	JjinA
@@ -19341,7 +19341,7 @@ use_preset_vocabulary: true
 茚	Ajins
 #𩂥	Ajins
 𩊕	Ajins
-#釁	hjins
+#釁	hjins		#許慎切
 #衅	hjins
 #舋	hjins
 𦉝	hjins
@@ -19678,14 +19678,14 @@ use_preset_vocabulary: true
 #噎	Ajit
 #饐	Ajit
 䬥	Ajit
-#欯	hjit
+#欯	hjit		#鬩吉切
 #㣟	hjit
 #欪	hjit
 #恄	hjit
 #咥	hjit
 #咭	hjit
 𩗊	hjit
-#欯	hjit
+#欯	hjit		#火一切
 #咭	hjit
 #逸	Jjit
 𤖍	Jjit
@@ -42655,7 +42655,7 @@ use_preset_vocabulary: true
 #𦶩	Ajek
 #齸	Ajek
 㜋	Ajek
-#虩	hjek
+#虩	hjek		#火彳切
 #睪	Jjek
 𦎝	Jjek
 #繹	Jjek
@@ -51311,16 +51311,6 @@ use_preset_vocabulary: true
 #䅧	Ajemq
 #餤	Ajemq
 #憛	Ajemq
-#𡝫	hjemq
-#㿌	hjemq
-#㾾	hjemq
-#薟	hjemq
-#馦	hjemq
-#㽐	hjemq
-#䵌	hjemq
-#欦	hjemq
-#㰹	hjemq
-#䌠	hjemq
 #鹽	Jjemq
 𪉟	Jjemq
 𪉩	Jjemq
@@ -51813,16 +51803,6 @@ use_preset_vocabulary: true
 #懕	Ajep
 #揞	Ajep
 #㜇	Ajep
-#偞	hjep
-#歙	hjep
-#惵	hjep
-瞸	hjep
-#䁋	hjep
-䁯	hjep
-鐷	hjep
-#鍱	hjep
-#弽	hjep
-#㢵	hjep
 #葉	Jjep
 #䈎	Jjep
 #枼	Jjep
@@ -51996,6 +51976,16 @@ use_preset_vocabulary: true
 硽	Axemq
 #䛳	Axemq
 䅖	Axemq
+#𡝫	hxemq		#火占切
+#㿌	hxemq
+#㾾	hxemq
+#薟	hxemq
+#馦	hxemq
+#㽐	hxemq
+#䵌	hxemq
+#欦	hxemq
+#㰹	hxemq
+#䌠	hxemq
 #炎	qxemq
 #惔	qxemq
 #𪂈	qxemq
@@ -52070,7 +52060,7 @@ use_preset_vocabulary: true
 䄋	AxemA
 䅖	AxemA
 #䤶	AxemA
-#險	hxemA
+#險	hxemA		#虚檢切
 #嶮	hxemA
 #譣	hxemA
 #憸	hxemA
@@ -52189,6 +52179,16 @@ use_preset_vocabulary: true
 痷	Axep
 #𨂁	Axep
 #罨	Axep
+#偞	hxep		#虚涉切
+#歙	hxep
+#惵	hxep
+瞸	hxep
+#䁋	hxep
+䁯	hxep
+鐷	hxep
+#鍱	hxep
+#弽	hxep
+#㢵	hxep
 #𣋌	qxep
 #曄	qxep
 #曅	qxep

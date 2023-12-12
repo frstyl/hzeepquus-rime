@@ -3728,13 +3728,13 @@ import_tables:
 痢	ljirt
 寐	mjirt		#ts
 ##jij
-亖	sjijs		#s?
-四	sjijs		#s L?
-𦉭	sjijs
-柶	sjijs
-泗	sjijs
-牭	sjijs
-駟	sjijs		#s
+亖	sjir		#ts?
+四	sjir		#s-L-i-t-s
+𦉭	sjir
+柶	sjir
+泗	sjir
+牭	sjir
+駟	sjir		#s
 示	zkcjijs		#sg-c?
 𥘅	zkcjijs
 眎	zkcjijs
@@ -3809,7 +3809,7 @@ import_tables:
 𤉡	zLjijA
 𠒅	zLjijA
 兕	zLjijA
-尸	Lscjijq		#Ls L̥
+尸	Lscjijq		#Ls L̥#-əj?
 𡰣	Lscjijq
 鳲	Lscjijq
 屍	Lscjijq
@@ -11903,8 +11903,8 @@ import_tables:
 𤸑	pFhiusk
 𧜰	biusk
 𢕒	biusk
-復	biusk
-複	biusk
+復	biusk	9
+複	biusk	9		#重複
 𤸑	biusk
 椱	biusk
 𧠃	pFhiusk
@@ -14250,6 +14250,7 @@ import_tables:
 㞏	dRxip
 𪀐	kxip
 ##?
+湁	thRxip		#湁湒
 𦮾	nRxip		#?
 㾕	Sxib		#?辛
 䯂	dZxip		#?驫莘
@@ -14307,7 +14308,6 @@ import_tables:
 𤷜	AxuF
 給	kxup		#合
 #
-湁	thRxəp
 翕	hxəp
 噏	hxəp
 歙	hxəp
@@ -19312,14 +19312,14 @@ import_tables:
 𦐋	hwet
 吷	hwet
 𥄎	hwet
-####ein
+####in
 ###jin
 奞	sjiz		#?
 駗	ljin		#駖
 壣	ljan		#?
 ##jen?
-𢪍	tsjit	2		#尐jet
-𧉍	tsjit	2
+𢪍	tsjit		#尐jet
+𧉍	tsjit
 𢷿	tsjit		#截𢧵?
 㘍	tsjit
 擮	tsjit
@@ -19327,8 +19327,8 @@ import_tables:
 𧾢	kjit
 䟌	kjit
 #
-𢪍	tsjet	2		#尐jet
-𧉍	tsjet	2
+𢪍	tsjet		#尐jet
+𧉍	tsjet
 𢷿	tsjet		#截𢧵
 㘍	tsjet
 擮	tsjet
@@ -24290,16 +24290,16 @@ import_tables:
 繴	peek
 壁	peek
 鼊	peek
-廦	peek
+廦	peek		#室屋
 𧲜	peek
 霹	pheek
 劈	pheek
 澼	pheek
 憵	pheek
-癖	pheek
-僻	pheek
+癖	pheek		#痃癖病
+僻	pheek		#邪僻
 甓	beek
-𪇊	beek
+𪇊	beek		#𪇊鷈
 鷿	beek
 㱸	beek
 幦	meek
@@ -25249,7 +25249,7 @@ import_tables:
 椑	bjek
 萆	bjek
 𣮐	bjek
-辟	pjek
+辟	pjek		#君也
 璧	pjek
 鐴	pjek
 躄	pjek
@@ -25257,16 +25257,16 @@ import_tables:
 襞	pjek
 𨐨	pjek
 僻	phjek
-癖	phjek
-廦	phjek
-辟	phjek	2
+癖	phjek		#腹病
+廦	phjek		#牆也
+辟	phjek		#邪也僻
 擗	bjek
 躄	bjek
 闢	bjek
 㱸	bjek
 𩪧	bjek
-辟	bjek	2
-𠪮	tcjek
+辟	bjek		#便辟又法也
+𠪮	tcjek		#?
 益	Ajek		#ik? i?
 謚	Ajek
 嗌	Ajek
@@ -26029,7 +26029,7 @@ import_tables:
 赩	hiək
 垐	dzjək
 # 卽	tsjək	999		#卩?ik?
-# 即	tsjək	1		#皀𢀳卽
+# 即	tsjək		#皀𢀳卽
 # 蝍	tsjək
 # 楖	tsjək
 # 𨂢	tsjək
@@ -28402,7 +28402,7 @@ import_tables:
 蹴	tshjuk
 殧	tshjuk
 鞴	bFiuk		#絥
-𧜰	bFiuk	99
+𧜰	bFiuk	999
 𦞶	pFiuk	99
 𨫙	pFiuk	99
 𨎙	pFiuk	99
@@ -28416,6 +28416,7 @@ import_tables:
 蝮	pFhiuk
 㙏	pFhiuk
 𡕨	bFiuk	999
+𢕒	bFiuk	999
 𨎙	bFiuk	99
 𣘅	bFiuk	99
 𤹫	bFiuk	99
@@ -28862,7 +28863,7 @@ import_tables:
 ###jiŋ
 ##
 卽	tsjik	999		#卩?ik?
-即	tsjik	1		#皀𢀳卽
+即	tsjik		#皀𢀳卽
 蝍	tsjik
 楖	tsjik
 𨂢	tsjik
@@ -29134,803 +29135,803 @@ import_tables:
 咥	thRxik
 跮	thRxik
 姪	dRxik
-#####-R
-##
-##OaR -j
-嚲	toaRA
-䯬	toaRA
-癉	toaRA
-癉	toaRs
-鼉	doaRq
-驒	doaRq
-𧕦	doaRq
-𧕛	doaRq		#𧕦圍 單
-㔮	noaRq
-𩴓	noaRq
-儺	noaRq
-臡	noaRq
-𠹈	noaRq		#儺𢠸
-##OaR -n
-嘆	thoaRq		#Rqs
-嘆	thoaRs
-暵	hsoaRA
-熯	hsoaRA
-𤁉	hsoaRs	1
-㵄	hsoaRs
-漢	hsoaRs
-暵	hsoaRs
-𤳉	hsoaRs
-䎯	hsoaRs
-熯	hsoaRs
-灘	nshoaRq
-攤	nshoaRq
-𩁘	noaRq
-𪇠	noaRq
-𩀤	noaRq
-𪅀	noaRq
-難	noaRq
-𪄿	noaRq
-𩁢	noaRq
-𪇼	noaRq
-攤	noaRA
-難	noaRs
-攤	noaRs
-灘	noaRs
-𦍀	noaRs
-㬮	noaRs
-灘	hsoaRA
-𤅩	hsoaRs
-擹	nshoaRq		#Rqs
-歎	nshoaRs
-襌	toaRq
-鄲	toaRq
-殫	toaRq
-簞	toaRq
-匰	toaRq
-㠆	toaRq
-癉	toaRq
-䐷	toaRq
-單	toaRq
-嘽	thoaRq
-𦧴	thoaRq
-鷤	doaRq
-癉	doaRq
-撣	doaRq
-彈	doaRq
-驒	doaRq
-繟	doaRq
-貚	doaRq
-潬	doaRA
-僤	doaRA
-憚	doaRs
-彈	doaRs
-𢎟	doaRs
-𢎫	doaRs
-僤	doaRs
-撣	doaRs
-岸	CqoaRs
-厂	CsoaRA		#?
-厈	CsoaRA		#厂
-厂	CsoaRs
-干	kqoaRq
-竿	kqoaRq
-肝	kqoaRq
-汗	kqoaRq	1
-奸	kqoaRq
-鳱	kqoaRq
-玕	kqoaRq
-邗	kqoaRq
-迀	kqoaRq
-㿻	kqoaRq
-忓	kqoaRq
-𡯋	kqoaRq
-皯	kqoaRA
-䵟	kqoaRA
-𤿊	kqoaRA
-秆	kqoaRA
-仠	kqoaRA
-矸	kqoaRA
-衦	kqoaRA
-𥾍	kqoaRA
-杆	kqoaRs
-骭	kqoaRs
-𢁗	kqoaRs
-矸	kqoaRs
-靬	khqoaRq
-刊	khqoaRq
-栞	khqoaRq
-𣓁	khqoaRq
-衎	khqoaRA
-靬	khqoaRs
-衎	khqoaRs
-汗	hgoaRq	5%
-邗	hgoaRq
-虷	hgoaRq
-扞	hgoaRs
-汗	hgoaRs	95%
-鼾	hgoaRs
-豻	hgoaRs
-釬	hgoaRs
-閈	hgoaRs
-馯	hgoaRs
-忓	hgoaRs
-㢨	hgoaRs
-矸	hgoaRs
-旰	kqoaRs
-涆	kqoaRs
-盰	kqoaRs
-𢧀	kqoaRq
-稈	kqoaRA
-䳚	khqoaRs
-䳚	khqoat
-旱	hgoaRA
-𡷛	hgoaRA
-皔	hgoaRA
-䓍	hgoaRA
-䛞	hgoaRA
-捍	hgoaRs
-垾	hgoaRs
-悍	hgoaRs
-𤿧	hgoaRs
-駻	hgoaRs
-䏷	hgoaRs
-㪋	hgoaRs
-䍑	hoaRA
-䍐	hoaRA
-焊	hoaRA
-蔊	hoaRA
-䍑	hoaRs
-䍐	hoaRs
-豻	CqoaRq
-犴	CqoaRq
-犴	CqoaRs
-豻	CqoaRs
-頇	CqoaRs
-頇	Cqoat
-頇	hoaRq
-鼾	hoaRq
-##vaR
-䈲	pvaRs
-般	pvaRs
-𦨗	pvaRs
-槃	bvaRs
-鎜	bvaRs
-瘢	bvaRs
-幋	bvaRs
-磐	bvaRs
-䰉	bvaRs
-搫	bvaRs
-鞶	bvaRs
-𪄀	bvaRs
-𥈼	bvaRs
-媻	bvaRs
-縏	bvaRs
-𪒀	bvaRs
-䈲	bvaRs
-𤠍	bvaRs
-般	bvaRs
-盤	bvaRs
-𤳖	pvaRq
-番	phvaRq
-㽃	phvaRq
-㢖	phvaRq
-𤺏	phvaRq
-磻	bvaRq
-蟠	bvaRq
-潘	phvaRq
-貆	hvaRq		#a
-𣒯	hqzvaRq
-𣵨	hqzvaRq
-𦀞	hqzvaRq
-𧳔	hqzvaRq
-𡘟	hqzvaRq
-桓	hqzvaRq		#ɢ V-
-洹	hqzvaRq
-絙	hqzvaRq
-荁	hqzvaRq
-貆	hqzvaRq
-狟	hqzvaRq
-峘	hqzvaRq
-𡘍	hqzvaRq
-丸	EvaRq
-紈	EvaRq
-汍	EvaRq
-芄	EvaRq
-㿪	EvaRq
-䎠	EvaRq
-𩾞	EvaRq
-肒	EvaRs
-䀓	EvaRs
-𤴯	EvaRs
-觀	kqvaRq
-雚	kqvaRs
-矔	kqvaRs
-瓘	kqvaRs
-罐	kqvaRs
-𤼐	kqvaRs
-灌	kqvaRs
-鸛	kqvaRs
-懽	kqvaRs
-爟	kqvaRs
-觀	kqvaRs
-歡	hvaRq
-懽	hvaRq
-驩	hvaRq
-貛	hvaRq
-𪈩	hvaRq
-酄	hvaRq
-獾	hvaRq
-犿	hvaRq		#獾
-𡚊	hvaRq
-讙	hvaRq
-嚾	hvaRs
-𠂄	hvaRq		#驩兜
-鴅	hvaRq
-𣎅	hvaRq
-𩿊	hvaRq
-𩁧	EvaRs
-雈	EvaRq
-𦻃	EvaRq
-𦼉	EvaRq	2
-##iaR
-㓺	kiaRq		#虔
-屵	CiaRA
-靬	kiaRq
-㔓	kiaRA
-訐	kiat
-赶	giaRq
-軒	hiaRq
-蓒	hiaRq
-##uaR
-番	pFhuaRq
-蕃	pFuaRq
-轓	pFuaRq
-鱕	pFuaRq
-鐇	pFuaRq
-橎	pFuaRA
-飜	pFhuaRq
-翻	pFhuaRq
-幡	pFhuaRq
-轓	pFhuaRq
-繙	pFhuaRq
-番	bFuaRq
-蹯	bFuaRq
-繙	bFuaRq
-膰	bFuaRq
-羳	bFuaRq
-𩐏	bFuaRq
-鷭	bFuaRq
-蟠	bFuaRq
-蕃	bFuaRq
-𪖇	bFuaRq
-鐇	bFuaRq
-璠	bFuaRq
-𥢌	bFuaRq
-㺕	bFuaRq
-襎	bFuaRq
-墦	bFuaRq
-𢐲	bFuaRq
-䮳	bFuaRq
-旛	pFhuaRq
-𤄫	pFhuaRq
-旛	bFuaRq
-燔	bFuaRq
-藩	pFuaRq
-籓	pFuaRq
-𤄜	pFhuaRq
-藩	bFuaRq
-䋣	bFuaRq	999		#表意
-𦅳	bFuaRq
-緐	bFuaRq	1
-繁	bFuaRq
-㶗	bFuaRs
-𦾴	bFuaRq
-蘩	bFuaRq
-瀿	bFuaRq
-赶	guat
-𣵨	quaRq
-𧼉	quaRq
-垣	quaRq		#?ɢ V- -R
-𩫧	quaRq
-𬴠	quaRq
-洹	quaRq
-𧻚	quaRq
-𧳔	qsuaRq
-貆	qsuaRq
-䚙	qsuaRq
-咺	qsuaRA
-暄	qsuaRq
-萱	qsuaRq		#蕿藼
-䳦	qsuaRq
-喧	qsuaRq		#咺讙
-諠	qsuaRq		#諼
-翧	qsuaRq
-蝖	qsuaRq
-愃	qsuaRA
-楦	qsuaRs
-𩋢	qsuaRs
-烜	qsuaRA
-暅	qsuaRA
-勸	khuaRs
-虇	khuaRA
-虇	khuaRs
-讙	huaRq
-䚭	huaRq
-原	CuaRq		#-R
-邍	CuaRq	1
-𨙅	CuaRq
-源	CuaRq
-嫄	CuaRq
-騵	CuaRq
-羱	CuaRq
-𧔞	CuaRq
-榞	CuaRq
-謜	CuaRq
-㹉	CuaRq
-獂	CuaRq
-蒝	CuaRq
-厵	CuaRq
-願	CuaRs
-傆	CuaRs
-愿	CuaRs
-##RoaR -aan
-馯	khqaaRq
-豻	khqaaRq
-骭	hgaaRs
-捍	hgaaRA
-娨	hgaaRs
-𪗙	CqaaRA
-訕	SaaRq		#山
-訕	SaaRs
-汕	SaaRs
-疝	SaaRs
-鏟	tShaaRs
-顏	CqaaRq
-𩠪	CqaaRq
-楌	CqaaRq
-偐	CqaaRs
-雁	CqaaRs
-鳫	CqaaRs
-贗	CqaaRs
-鴈	CqaaRs
-##vROaR -fan
-睅	EfaRA		#?ɢ V-ʷ
-矔	kqfaRs
-##ROaR -aen
-產	SaaRA		#彥
-鏟	tShaaRA
-㦃	tShaaRA
-䐮	tShaaRA
-簅	SaaRA
-摌	SaaRA
-㹌	SaaRA
-嵼	SaaRA
-滻	SaaRA
-㦃	SaaRA
-䊲	SaaRA
-𩥮	SaaRA
-山	SaeRq
-疝	SaeRq
-邖	SaeRq
-汕	SaeRA
-靬	kqaeRq
-山	SaaRq
-疝	SaaRq
-邖	SaaRq
-汕	SaaRA
-靬	kqaaRq
-㺗	thcaan	1		#誤
-䡲	dZaaR
-㬮	nRaaR
-##vROaR -fen
-𡰝	EfaRq
-㦃	tShfaRA
-䊲	tShfaRA
-##jaR
-灛	thcjaRA
-闡	thcjaRA
-樿	tcjaRA
-燀	tcjaRA
-燀	thcjaRq
-燀	thcjaRA
-繟	thcjaRA
-䵐	thcjaRA
-幝	thcjaRA
-𨼒	thcjaRA
-嘽	thcjaRA
-蟬	dcjaRq
-撣	dcjaRq
-僤	dcjaRq
-禪	dcjaRq
-嬋	dcjaRq
-單	dcjaRq	2
-墠	dcjaRA
-鱓	dcjaRA
-單	dcjaRA	2
-禪	dcjaRs
-𦉕	dcjaRs
-單	dcjaRs	2
-戰	tcjaRs
-扇	LscjaRq		#Ls
-煽	LscjaRq
-煽	LscjaRs
-傓	LscjaRs
-𧎥	LscjaRs
-扇	LscjaRs
-𦶋	LscjaRs
-𥰢	LscjaRs
-##vjaR
-泉	dzyaRq		#s-g- 線 gz-
-𧍭	dzyaRq
-葲	dzyaRq
-灥	tschyaRq
-𠄢	sqyaRq
-𢱱	sqyaRq
-𤧺	sqyaRq
-亘	sqyaRq
-宣	sqyaRq
-揎	sqyaRq
-䳦	sqyaRq
-愃	sqyaRq
-瑄	sqyaRq
-𩤡	sqyaRq
-渲	sqyaRs
-##RjaR
-䡲	dZxaRq
-訐	kxat
-乾	gxaRq
-虔	gxaRq		#文
-𦂇	kxaRA
-𧽐	khxaRq
-㗔	khxaRq
-鰬	gxaRq
-𨜻	gxaRq
-榩	gxaRq
-##vRjaR waR
-𡰝	tRwaRq
-顴	gwaRq
-孉	gwaRq
-䠰	gwaRq
-蠸	gwaRq
-䟒	gwaRq
-䑏	gwaRq
-𢑆	gwaRq
-權	gwaRq
-𪈻	gwaRq
-##jiR
-牝	bjiRA		#-R
-##vjR
-尹	JqyiRA		#SG? -R -u-?
-𢂟	JqyiRA
-笋	sqyiRA		#筍
-䪳	JqyiRA
-芛	Jqyit
-##jiR
-伊	AjiRq		#尹 i-R?
-𠈽	AjiRq		#死 i-R?
-咿	AjiRq
-蛜	AjiRq
-##RiR
-齔	tShxiRA
-齔	tShxiRs
-##vjuR -j
-葰	syujq
-荾	syujq
-##vjuR yuR
-俊	tsyuRs
-晙	tsyuRs
-餕	tsyuRs
-畯	tsyuRs
-駿	tsyuRs
-㕙	tsyuRs
-𪕞	tsyuRs
-焌	tsyuRs
-夋	tshyuRq
-逡	tshyuRq
-竣	tshyuRq
-皴	tshyuRq
-㕙	tshyuRq
-捘	tshyuRq
-踆	tshyuRq
-𠣟	tshyuRq
-焌	tshyut
-峻	syuRs
-𡺲	syuRs
-陖	syuRs
-浚	syuRs
-埈	syuRs
-鵔	syuRs
-鵕	syuRs	1
-𢏤	syuRs
-晙	syuRs
-##vRiuR
-僒	gwuRA
-窘	gwuRA
-麏	kwuRq
-頵	kwuRq
-莙	kwuRq
-輑	khwuRq
-峮	khwuRq
-頵	AwuRq
-莙	gwuRA
-##vuR
-涒	thvoRq
-㴫	kqvoRs
-##OəR
-𥙄	neəRA
-㚷	neəRA
-𩰐	neəRA
-𩬯	neəRA
-𣐐	neəRA
-鉩	neəRA
-𡝡	meəRq		#n?m?
-禰	neəRA		#-R?
-嬭	neəRA
-𩰞	neəRA
-𩯨	neəRA
-檷	neəRA		#爾
-𩍦	neəRA
-薾	neəRA
-鑈	neəRA
-瀰	neəRA
-洗	seəRA
-㢴	seəRq	999		#囟
-卤	seəRq
-卥	seəRq
-𠧧	seəRq	1
-西	seəRq
-棲	seəRq
-栖	seəRq
-粞	seəRq
-舾	seəRq
-硒	seəRq
-𣹍	seəRA
-𣶓	seəRA
-洒	seəRA
-栖	seəRs
-##vəR
-門	mvəRq
-捫	mvəRq
-悶	mvəRs
-##OeR
-典	teəRA
-敟	teəRA
-錪	teəRA
-𥮏	teəRA
-腆	theəRA
-痶	theəRA
-淟	theəRA
-錪	theəRA
-㥏	theəRA
-琠	theəRA
-䠄	theəRA
-賟	theəRA
-晪	theəRA
-先	seəRq
-洗	seəRA
-箲	seəRA
-𥑻	seəRq
-銑	seəRA
-跣	seəRA
-毨	seəRA
-姺	seəRA
-筅	seəRA
-㭠	seəRA
-𦭶	seəRA
-𩶤	seəRA
-㪇	seəRs
-先	seəRs
-𦴛	tsheəRs	99
-茜	tsheəRs
-瀳	tseəRq
-韉	tseəRq
-𧲛	tseəRs
-薦	tseəRs
-䍎	tsheəRs
-瀳	dzeəRs
-𨷳	dzeəRs
-##jaR
-𢍱	tshjaRq	999
-𠨧	tshjaRq	99
-𢍹	tshjaRq	99
-𨙙	tshjaRq	999
-𨟦	tshjaRq	99
-𨝍	tshjaRq
-遷	tshjaRq
-𣘝	tshjaRq
-櫏	tshjaRq
-䉦	tshjaRq
-韆	tshjaRq
-𠑗	sjaRq	99
-𨇴	sjaRq	99
-躚	sjaRq
-僊	sjaRq
-##jəR 
-燹	smjəRA
-𥙮	smjəRA		#𤣗
-𤐨	sjəRA		#燹
-𤣗	sjəRA
-獮	sjəRA
-𤣝	sjəRA	2
-苶	ncjət	1
-##RjəR
-𥇖	pxəRq		#非
-閩	mxəRq
-闅	mxəRq
-憫	mxəRA
-潣	mxəRA
-簢	mxəRA
-閔	mxəRA
-旻	mxəRq
-旼	mxəRq
-汶	mxəRq
-忞	mxəRq
-盿	mxəRq
-駪	SxəRq
-詵	SxəRq
-侁	SxəRq
-𢓠	SxəRq
-姺	SxəRq
-兟	SxəRq
-##vəR
-犇	pvəRq		#奔
-奔	pvəRq
-奔	pvəRs
-䴅	pvəRq
-賁	pvəRq
-濆	phvəRq
-噴	phvəRq
-歕	phvəRq
-噴	phvəRs
-歕	phvəRs
-獖	bvəRA
-##iaR
-䘆	hiʌRA		#憲
-##viəR
-鐼	msuəRs		#m
-餴	pFuəRq
-饙	pFuəRq
-𣯻	pFuəRq
-僨	pFuəRs
-㱵	pFuəRs
-墳	bFuəRq
-鼖	bFuəRq
-䩿	bFuəRq
-𪔵	bFuəRq
-濆	bFuəRq
-燌	bFuəRq
-豶	bFuəRq
-羵	bFuəRq
-䴅	bFuəRq
-蕡	bFuəRq
-橨	bFuəRq
-鐼	bFuəRq
-馩	bFuəRq
-轒	bFuəRq
-賁	bFuəRq
-憤	bFuəRA
-㿎	bFuəRA
-墳	bFuəRA
-鱝	bFuəRA
-轒	bFuəRA
-膹	bFuəRA
-㿎	bFuəRs
-##viəR uəR
-聞	mFuəRq
-闅	mFuəRq
-閩	mFuəRq
-聞	mFuəRs
-問	mFuəRs
-文	mFuəRq
-彣	mFuəRq	999
-紋	mFuəRq
-雯	mFuəRq
-馼	mFuəRq
-䘇	mFuəRq
-蚊	mFuəRq
-䰚	mFuəRq
-鳼	mFuəRq
-汶	mFuəRq
-鼤	mFuəRq
-抆	mFuəRA
-汶	mFuəRs
-紊	mFuəRs
-抆	mFuəRs
-鼤	mFuəRs
-蟁	mFuəRq
-𧓢	mFuəRq
-##viuR
-桾	kuuRq
-䇹	kuuRq
-莙	kuuRq
-宭	kuuRq
-鮶	kuuRq
-君	kuuRq
-𠱭	kuuRq
-捃	kuuRs
-裠	guuRq
-宭	guuRq
-帬	guuRq
-𤸷	guuRq
-羣	guuRq
-𣀄	guuRq
-郡	guuRs
-焄	huuRq
-##voR
-耑	tvuRq	999
-端	tvuRq
-褍	tvuRq
-剬	tvuRq
-𧤗	tvuRq
-鍴	tvuRq
-𥠄	tvuRq
-偳	tvuRq
-踹	tvuRs
-𥵣	tvuRq
-𦾸	tvuRq
-湍	thvuRq
-貒	thvuRq
-䵎	thvuRq
-煓	thvuRq
-偳	thvuRq
-貒	thvuRs
-𧶲	EvuRA		#?
-𧶲	tvaRqA
-##voR
-狻	svuRq
-䝜	svuRq
-痠	svuRq
-酸	svuRq
-𨢽	svuRq
-𩆑	svuRq
-##voR -vuj
-揣	tvujA
-𥠄	tvujA
-㪜	tvujA
-褍	tvujA
-葰	svuRA
-䈗	svuRA
-唆	svuRq
-梭	svuRq
-##vuR
-脧	tsvoRq
-䘒	tsvoRq
-𡱥	tsvoRq
-捘	tsvoRs
-##vRuR -j
-葰	SfujA
-誜	Sfujs
-#
-𧫝	SfuA		#誜
-𠻦	tShfuA
-傻	SfuA		#夋
-傻	Sfus
-##yor
-䄲	ncyorp
-𥳙	dcyoRq
-圌	dcyoRq
-𦓝	tcyoRA
-惴	tcyoRs
-𦦇	tcyoRs
-篅	dcyoRq
-瑞	dcyoRs
-##
-遄	dcyoRq
-圌	dcyoRq
-顓	tcyoRq
-諯	tcyoRq
-湍	tcyoRq
-剬	tcyoRA
-𦓝	tcyoRA
-喘	thcyoRA
-㪜	thcyoRA
-諯	thcyoRs
-篅	dcyoRq
-諯	dcyoRq
-輲	dcyoRq
-椯	dcyoRq
-歂	dcyoRq
-腨	dcyoRA
-歂	dcyoRA
-踹	dcyoRA
-諯	tshyoRs
+# #####-R
+# ##
+# ##OaR -j
+# 嚲	toaRA
+# 䯬	toaRA
+# 癉	toaRA
+# 癉	toaRs
+# 鼉	doaRq
+# 驒	doaRq
+# 𧕦	doaRq
+# 𧕛	doaRq		#𧕦圍 單
+# 㔮	noaRq
+# 𩴓	noaRq
+# 儺	noaRq
+# 臡	noaRq
+# 𠹈	noaRq		#儺𢠸
+# ##OaR -n
+# 嘆	thoaRq		#Rqs
+# 嘆	thoaRs
+# 暵	hsoaRA
+# 熯	hsoaRA
+# 𤁉	hsoaRs	1
+# 㵄	hsoaRs
+# 漢	hsoaRs
+# 暵	hsoaRs
+# 𤳉	hsoaRs
+# 䎯	hsoaRs
+# 熯	hsoaRs
+# 灘	nshoaRq
+# 攤	nshoaRq
+# 𩁘	noaRq
+# 𪇠	noaRq
+# 𩀤	noaRq
+# 𪅀	noaRq
+# 難	noaRq
+# 𪄿	noaRq
+# 𩁢	noaRq
+# 𪇼	noaRq
+# 攤	noaRA
+# 難	noaRs
+# 攤	noaRs
+# 灘	noaRs
+# 𦍀	noaRs
+# 㬮	noaRs
+# 灘	hsoaRA
+# 𤅩	hsoaRs
+# 擹	nshoaRq		#Rqs
+# 歎	nshoaRs
+# 襌	toaRq
+# 鄲	toaRq
+# 殫	toaRq
+# 簞	toaRq
+# 匰	toaRq
+# 㠆	toaRq
+# 癉	toaRq
+# 䐷	toaRq
+# 單	toaRq
+# 嘽	thoaRq
+# 𦧴	thoaRq
+# 鷤	doaRq
+# 癉	doaRq
+# 撣	doaRq
+# 彈	doaRq
+# 驒	doaRq
+# 繟	doaRq
+# 貚	doaRq
+# 潬	doaRA
+# 僤	doaRA
+# 憚	doaRs
+# 彈	doaRs
+# 𢎟	doaRs
+# 𢎫	doaRs
+# 僤	doaRs
+# 撣	doaRs
+# 岸	CqoaRs
+# 厂	CsoaRA		#?
+# 厈	CsoaRA		#厂
+# 厂	CsoaRs
+# 干	kqoaRq
+# 竿	kqoaRq
+# 肝	kqoaRq
+# 汗	kqoaRq	1
+# 奸	kqoaRq
+# 鳱	kqoaRq
+# 玕	kqoaRq
+# 邗	kqoaRq
+# 迀	kqoaRq
+# 㿻	kqoaRq
+# 忓	kqoaRq
+# 𡯋	kqoaRq
+# 皯	kqoaRA
+# 䵟	kqoaRA
+# 𤿊	kqoaRA
+# 秆	kqoaRA
+# 仠	kqoaRA
+# 矸	kqoaRA
+# 衦	kqoaRA
+# 𥾍	kqoaRA
+# 杆	kqoaRs
+# 骭	kqoaRs
+# 𢁗	kqoaRs
+# 矸	kqoaRs
+# 靬	khqoaRq
+# 刊	khqoaRq
+# 栞	khqoaRq
+# 𣓁	khqoaRq
+# 衎	khqoaRA
+# 靬	khqoaRs
+# 衎	khqoaRs
+# 汗	hgoaRq	5%
+# 邗	hgoaRq
+# 虷	hgoaRq
+# 扞	hgoaRs
+# 汗	hgoaRs	95%
+# 鼾	hgoaRs
+# 豻	hgoaRs
+# 釬	hgoaRs
+# 閈	hgoaRs
+# 馯	hgoaRs
+# 忓	hgoaRs
+# 㢨	hgoaRs
+# 矸	hgoaRs
+# 旰	kqoaRs
+# 涆	kqoaRs
+# 盰	kqoaRs
+# 𢧀	kqoaRq
+# 稈	kqoaRA
+# 䳚	khqoaRs
+# 䳚	khqoat
+# 旱	hgoaRA
+# 𡷛	hgoaRA
+# 皔	hgoaRA
+# 䓍	hgoaRA
+# 䛞	hgoaRA
+# 捍	hgoaRs
+# 垾	hgoaRs
+# 悍	hgoaRs
+# 𤿧	hgoaRs
+# 駻	hgoaRs
+# 䏷	hgoaRs
+# 㪋	hgoaRs
+# 䍑	hoaRA
+# 䍐	hoaRA
+# 焊	hoaRA
+# 蔊	hoaRA
+# 䍑	hoaRs
+# 䍐	hoaRs
+# 豻	CqoaRq
+# 犴	CqoaRq
+# 犴	CqoaRs
+# 豻	CqoaRs
+# 頇	CqoaRs
+# 頇	Cqoat
+# 頇	hoaRq
+# 鼾	hoaRq
+# ##vaR
+# 䈲	pvaRs
+# 般	pvaRs
+# 𦨗	pvaRs
+# 槃	bvaRs
+# 鎜	bvaRs
+# 瘢	bvaRs
+# 幋	bvaRs
+# 磐	bvaRs
+# 䰉	bvaRs
+# 搫	bvaRs
+# 鞶	bvaRs
+# 𪄀	bvaRs
+# 𥈼	bvaRs
+# 媻	bvaRs
+# 縏	bvaRs
+# 𪒀	bvaRs
+# 䈲	bvaRs
+# 𤠍	bvaRs
+# 般	bvaRs
+# 盤	bvaRs
+# 𤳖	pvaRq
+# 番	phvaRq
+# 㽃	phvaRq
+# 㢖	phvaRq
+# 𤺏	phvaRq
+# 磻	bvaRq
+# 蟠	bvaRq
+# 潘	phvaRq
+# 貆	hvaRq		#a
+# 𣒯	hqzvaRq
+# 𣵨	hqzvaRq
+# 𦀞	hqzvaRq
+# 𧳔	hqzvaRq
+# 𡘟	hqzvaRq
+# 桓	hqzvaRq		#ɢ V-
+# 洹	hqzvaRq
+# 絙	hqzvaRq
+# 荁	hqzvaRq
+# 貆	hqzvaRq
+# 狟	hqzvaRq
+# 峘	hqzvaRq
+# 𡘍	hqzvaRq
+# 丸	EvaRq
+# 紈	EvaRq
+# 汍	EvaRq
+# 芄	EvaRq
+# 㿪	EvaRq
+# 䎠	EvaRq
+# 𩾞	EvaRq
+# 肒	EvaRs
+# 䀓	EvaRs
+# 𤴯	EvaRs
+# 觀	kqvaRq
+# 雚	kqvaRs
+# 矔	kqvaRs
+# 瓘	kqvaRs
+# 罐	kqvaRs
+# 𤼐	kqvaRs
+# 灌	kqvaRs
+# 鸛	kqvaRs
+# 懽	kqvaRs
+# 爟	kqvaRs
+# 觀	kqvaRs
+# 歡	hvaRq
+# 懽	hvaRq
+# 驩	hvaRq
+# 貛	hvaRq
+# 𪈩	hvaRq
+# 酄	hvaRq
+# 獾	hvaRq
+# 犿	hvaRq		#獾
+# 𡚊	hvaRq
+# 讙	hvaRq
+# 嚾	hvaRs
+# 𠂄	hvaRq		#驩兜
+# 鴅	hvaRq
+# 𣎅	hvaRq
+# 𩿊	hvaRq
+# 𩁧	EvaRs
+# 雈	EvaRq
+# 𦻃	EvaRq
+# 𦼉	EvaRq	2
+# ##iaR
+# 㓺	kiaRq		#虔
+# 屵	CiaRA
+# 靬	kiaRq
+# 㔓	kiaRA
+# 訐	kiat
+# 赶	giaRq
+# 軒	hiaRq
+# 蓒	hiaRq
+# ##uaR
+# 番	pFhuaRq
+# 蕃	pFuaRq
+# 轓	pFuaRq
+# 鱕	pFuaRq
+# 鐇	pFuaRq
+# 橎	pFuaRA
+# 飜	pFhuaRq
+# 翻	pFhuaRq
+# 幡	pFhuaRq
+# 轓	pFhuaRq
+# 繙	pFhuaRq
+# 番	bFuaRq
+# 蹯	bFuaRq
+# 繙	bFuaRq
+# 膰	bFuaRq
+# 羳	bFuaRq
+# 𩐏	bFuaRq
+# 鷭	bFuaRq
+# 蟠	bFuaRq
+# 蕃	bFuaRq
+# 𪖇	bFuaRq
+# 鐇	bFuaRq
+# 璠	bFuaRq
+# 𥢌	bFuaRq
+# 㺕	bFuaRq
+# 襎	bFuaRq
+# 墦	bFuaRq
+# 𢐲	bFuaRq
+# 䮳	bFuaRq
+# 旛	pFhuaRq
+# 𤄫	pFhuaRq
+# 旛	bFuaRq
+# 燔	bFuaRq
+# 藩	pFuaRq
+# 籓	pFuaRq
+# 𤄜	pFhuaRq
+# 藩	bFuaRq
+# 䋣	bFuaRq	999		#表意
+# 𦅳	bFuaRq
+# 緐	bFuaRq	1
+# 繁	bFuaRq
+# 㶗	bFuaRs
+# 𦾴	bFuaRq
+# 蘩	bFuaRq
+# 瀿	bFuaRq
+# 赶	guat
+# 𣵨	quaRq
+# 𧼉	quaRq
+# 垣	quaRq		#?ɢ V- -R
+# 𩫧	quaRq
+# 𬴠	quaRq
+# 洹	quaRq
+# 𧻚	quaRq
+# 𧳔	qsuaRq
+# 貆	qsuaRq
+# 䚙	qsuaRq
+# 咺	qsuaRA
+# 暄	qsuaRq
+# 萱	qsuaRq		#蕿藼
+# 䳦	qsuaRq
+# 喧	qsuaRq		#咺讙
+# 諠	qsuaRq		#諼
+# 翧	qsuaRq
+# 蝖	qsuaRq
+# 愃	qsuaRA
+# 楦	qsuaRs
+# 𩋢	qsuaRs
+# 烜	qsuaRA
+# 暅	qsuaRA
+# 勸	khuaRs
+# 虇	khuaRA
+# 虇	khuaRs
+# 讙	huaRq
+# 䚭	huaRq
+# 原	CuaRq		#-R
+# 邍	CuaRq	1
+# 𨙅	CuaRq
+# 源	CuaRq
+# 嫄	CuaRq
+# 騵	CuaRq
+# 羱	CuaRq
+# 𧔞	CuaRq
+# 榞	CuaRq
+# 謜	CuaRq
+# 㹉	CuaRq
+# 獂	CuaRq
+# 蒝	CuaRq
+# 厵	CuaRq
+# 願	CuaRs
+# 傆	CuaRs
+# 愿	CuaRs
+# ##RoaR -aan
+# 馯	khqaaRq
+# 豻	khqaaRq
+# 骭	hgaaRs
+# 捍	hgaaRA
+# 娨	hgaaRs
+# 𪗙	CqaaRA
+# 訕	SaaRq		#山
+# 訕	SaaRs
+# 汕	SaaRs
+# 疝	SaaRs
+# 鏟	tShaaRs
+# 顏	CqaaRq
+# 𩠪	CqaaRq
+# 楌	CqaaRq
+# 偐	CqaaRs
+# 雁	CqaaRs
+# 鳫	CqaaRs
+# 贗	CqaaRs
+# 鴈	CqaaRs
+# ##vROaR -fan
+# 睅	EfaRA		#?ɢ V-ʷ
+# 矔	kqfaRs
+# ##ROaR -aen
+# 產	SaaRA		#彥
+# 鏟	tShaaRA
+# 㦃	tShaaRA
+# 䐮	tShaaRA
+# 簅	SaaRA
+# 摌	SaaRA
+# 㹌	SaaRA
+# 嵼	SaaRA
+# 滻	SaaRA
+# 㦃	SaaRA
+# 䊲	SaaRA
+# 𩥮	SaaRA
+# 山	SaeRq
+# 疝	SaeRq
+# 邖	SaeRq
+# 汕	SaeRA
+# 靬	kqaeRq
+# 山	SaaRq
+# 疝	SaaRq
+# 邖	SaaRq
+# 汕	SaaRA
+# 靬	kqaaRq
+# 㺗	thcaan	1		#誤
+# 䡲	dZaaR
+# 㬮	nRaaR
+# ##vROaR -fen
+# 𡰝	EfaRq
+# 㦃	tShfaRA
+# 䊲	tShfaRA
+# ##jaR
+# 灛	thcjaRA
+# 闡	thcjaRA
+# 樿	tcjaRA
+# 燀	tcjaRA
+# 燀	thcjaRq
+# 燀	thcjaRA
+# 繟	thcjaRA
+# 䵐	thcjaRA
+# 幝	thcjaRA
+# 𨼒	thcjaRA
+# 嘽	thcjaRA
+# 蟬	dcjaRq
+# 撣	dcjaRq
+# 僤	dcjaRq
+# 禪	dcjaRq
+# 嬋	dcjaRq
+# 單	dcjaRq	2
+# 墠	dcjaRA
+# 鱓	dcjaRA
+# 單	dcjaRA	2
+# 禪	dcjaRs
+# 𦉕	dcjaRs
+# 單	dcjaRs	2
+# 戰	tcjaRs
+# 扇	LscjaRq		#Ls
+# 煽	LscjaRq
+# 煽	LscjaRs
+# 傓	LscjaRs
+# 𧎥	LscjaRs
+# 扇	LscjaRs
+# 𦶋	LscjaRs
+# 𥰢	LscjaRs
+# ##vjaR
+# 泉	dzyaRq		#s-g- 線 gz-
+# 𧍭	dzyaRq
+# 葲	dzyaRq
+# 灥	tschyaRq
+# 𠄢	sqyaRq
+# 𢱱	sqyaRq
+# 𤧺	sqyaRq
+# 亘	sqyaRq
+# 宣	sqyaRq
+# 揎	sqyaRq
+# 䳦	sqyaRq
+# 愃	sqyaRq
+# 瑄	sqyaRq
+# 𩤡	sqyaRq
+# 渲	sqyaRs
+# ##RjaR
+# 䡲	dZxaRq
+# 訐	kxat
+# 乾	gxaRq
+# 虔	gxaRq		#文
+# 𦂇	kxaRA
+# 𧽐	khxaRq
+# 㗔	khxaRq
+# 鰬	gxaRq
+# 𨜻	gxaRq
+# 榩	gxaRq
+# ##vRjaR waR
+# 𡰝	tRwaRq
+# 顴	gwaRq
+# 孉	gwaRq
+# 䠰	gwaRq
+# 蠸	gwaRq
+# 䟒	gwaRq
+# 䑏	gwaRq
+# 𢑆	gwaRq
+# 權	gwaRq
+# 𪈻	gwaRq
+# ##jiR
+# 牝	bjiRA		#-R
+# ##vjR
+# 尹	JqyiRA		#SG? -R -u-?
+# 𢂟	JqyiRA
+# 笋	sqyiRA		#筍
+# 䪳	JqyiRA
+# 芛	Jqyit
+# ##jiR
+# 伊	AjiRq		#尹 i-R?
+# 𠈽	AjiRq		#死 i-R?
+# 咿	AjiRq
+# 蛜	AjiRq
+# ##RiR
+# 齔	tShxiRA
+# 齔	tShxiRs
+# ##vjuR -j
+# 葰	syujq
+# 荾	syujq
+# ##vjuR yuR
+# 俊	tsyuRs
+# 晙	tsyuRs
+# 餕	tsyuRs
+# 畯	tsyuRs
+# 駿	tsyuRs
+# 㕙	tsyuRs
+# 𪕞	tsyuRs
+# 焌	tsyuRs
+# 夋	tshyuRq
+# 逡	tshyuRq
+# 竣	tshyuRq
+# 皴	tshyuRq
+# 㕙	tshyuRq
+# 捘	tshyuRq
+# 踆	tshyuRq
+# 𠣟	tshyuRq
+# 焌	tshyut
+# 峻	syuRs
+# 𡺲	syuRs
+# 陖	syuRs
+# 浚	syuRs
+# 埈	syuRs
+# 鵔	syuRs
+# 鵕	syuRs	1
+# 𢏤	syuRs
+# 晙	syuRs
+# ##vRiuR
+# 僒	gwuRA
+# 窘	gwuRA
+# 麏	kwuRq
+# 頵	kwuRq
+# 莙	kwuRq
+# 輑	khwuRq
+# 峮	khwuRq
+# 頵	AwuRq
+# 莙	gwuRA
+# ##vuR
+# 涒	thvoRq
+# 㴫	kqvoRs
+# ##OəR
+# 𥙄	neəRA
+# 㚷	neəRA
+# 𩰐	neəRA
+# 𩬯	neəRA
+# 𣐐	neəRA
+# 鉩	neəRA
+# 𡝡	meəRq		#n?m?
+# 禰	neəRA		#-R?
+# 嬭	neəRA
+# 𩰞	neəRA
+# 𩯨	neəRA
+# 檷	neəRA		#爾
+# 𩍦	neəRA
+# 薾	neəRA
+# 鑈	neəRA
+# 瀰	neəRA
+# 洗	seəRA
+# 㢴	seəRq	999		#囟
+# 卤	seəRq
+# 卥	seəRq
+# 𠧧	seəRq	1
+# 西	seəRq
+# 棲	seəRq
+# 栖	seəRq
+# 粞	seəRq
+# 舾	seəRq
+# 硒	seəRq
+# 𣹍	seəRA
+# 𣶓	seəRA
+# 洒	seəRA
+# 栖	seəRs
+# ##vəR
+# 門	mvəRq
+# 捫	mvəRq
+# 悶	mvəRs
+# ##OeR
+# 典	teəRA
+# 敟	teəRA
+# 錪	teəRA
+# 𥮏	teəRA
+# 腆	theəRA
+# 痶	theəRA
+# 淟	theəRA
+# 錪	theəRA
+# 㥏	theəRA
+# 琠	theəRA
+# 䠄	theəRA
+# 賟	theəRA
+# 晪	theəRA
+# 先	seəRq
+# 洗	seəRA
+# 箲	seəRA
+# 𥑻	seəRq
+# 銑	seəRA
+# 跣	seəRA
+# 毨	seəRA
+# 姺	seəRA
+# 筅	seəRA
+# 㭠	seəRA
+# 𦭶	seəRA
+# 𩶤	seəRA
+# 㪇	seəRs
+# 先	seəRs
+# 𦴛	tsheəRs	99
+# 茜	tsheəRs
+# 瀳	tseəRq
+# 韉	tseəRq
+# 𧲛	tseəRs
+# 薦	tseəRs
+# 䍎	tsheəRs
+# 瀳	dzeəRs
+# 𨷳	dzeəRs
+# ##jaR
+# 𢍱	tshjaRq	999
+# 𠨧	tshjaRq	99
+# 𢍹	tshjaRq	99
+# 𨙙	tshjaRq	999
+# 𨟦	tshjaRq	99
+# 𨝍	tshjaRq
+# 遷	tshjaRq
+# 𣘝	tshjaRq
+# 櫏	tshjaRq
+# 䉦	tshjaRq
+# 韆	tshjaRq
+# 𠑗	sjaRq	99
+# 𨇴	sjaRq	99
+# 躚	sjaRq
+# 僊	sjaRq
+# ##jəR 
+# 燹	smjəRA
+# 𥙮	smjəRA		#𤣗
+# 𤐨	sjəRA		#燹
+# 𤣗	sjəRA
+# 獮	sjəRA
+# 𤣝	sjəRA	2
+# 苶	ncjət	1
+# ##RjəR
+# 𥇖	pxəRq		#非
+# 閩	mxəRq
+# 闅	mxəRq
+# 憫	mxəRA
+# 潣	mxəRA
+# 簢	mxəRA
+# 閔	mxəRA
+# 旻	mxəRq
+# 旼	mxəRq
+# 汶	mxəRq
+# 忞	mxəRq
+# 盿	mxəRq
+# 駪	SxəRq
+# 詵	SxəRq
+# 侁	SxəRq
+# 𢓠	SxəRq
+# 姺	SxəRq
+# 兟	SxəRq
+# ##vəR
+# 犇	pvəRq		#奔
+# 奔	pvəRq
+# 奔	pvəRs
+# 䴅	pvəRq
+# 賁	pvəRq
+# 濆	phvəRq
+# 噴	phvəRq
+# 歕	phvəRq
+# 噴	phvəRs
+# 歕	phvəRs
+# 獖	bvəRA
+# ##iaR
+# 䘆	hiʌRA		#憲
+# ##viəR
+# 鐼	msuəRs		#m
+# 餴	pFuəRq
+# 饙	pFuəRq
+# 𣯻	pFuəRq
+# 僨	pFuəRs
+# 㱵	pFuəRs
+# 墳	bFuəRq
+# 鼖	bFuəRq
+# 䩿	bFuəRq
+# 𪔵	bFuəRq
+# 濆	bFuəRq
+# 燌	bFuəRq
+# 豶	bFuəRq
+# 羵	bFuəRq
+# 䴅	bFuəRq
+# 蕡	bFuəRq
+# 橨	bFuəRq
+# 鐼	bFuəRq
+# 馩	bFuəRq
+# 轒	bFuəRq
+# 賁	bFuəRq
+# 憤	bFuəRA
+# 㿎	bFuəRA
+# 墳	bFuəRA
+# 鱝	bFuəRA
+# 轒	bFuəRA
+# 膹	bFuəRA
+# 㿎	bFuəRs
+# ##viəR uəR
+# 聞	mFuəRq
+# 闅	mFuəRq
+# 閩	mFuəRq
+# 聞	mFuəRs
+# 問	mFuəRs
+# 文	mFuəRq
+# 彣	mFuəRq	999
+# 紋	mFuəRq
+# 雯	mFuəRq
+# 馼	mFuəRq
+# 䘇	mFuəRq
+# 蚊	mFuəRq
+# 䰚	mFuəRq
+# 鳼	mFuəRq
+# 汶	mFuəRq
+# 鼤	mFuəRq
+# 抆	mFuəRA
+# 汶	mFuəRs
+# 紊	mFuəRs
+# 抆	mFuəRs
+# 鼤	mFuəRs
+# 蟁	mFuəRq
+# 𧓢	mFuəRq
+# ##viuR
+# 桾	kuuRq
+# 䇹	kuuRq
+# 莙	kuuRq
+# 宭	kuuRq
+# 鮶	kuuRq
+# 君	kuuRq
+# 𠱭	kuuRq
+# 捃	kuuRs
+# 裠	guuRq
+# 宭	guuRq
+# 帬	guuRq
+# 𤸷	guuRq
+# 羣	guuRq
+# 𣀄	guuRq
+# 郡	guuRs
+# 焄	huuRq
+# ##voR
+# 耑	tvuRq	999
+# 端	tvuRq
+# 褍	tvuRq
+# 剬	tvuRq
+# 𧤗	tvuRq
+# 鍴	tvuRq
+# 𥠄	tvuRq
+# 偳	tvuRq
+# 踹	tvuRs
+# 𥵣	tvuRq
+# 𦾸	tvuRq
+# 湍	thvuRq
+# 貒	thvuRq
+# 䵎	thvuRq
+# 煓	thvuRq
+# 偳	thvuRq
+# 貒	thvuRs
+# 𧶲	EvuRA		#?
+# 𧶲	tvaRqA
+# ##voR
+# 狻	svuRq
+# 䝜	svuRq
+# 痠	svuRq
+# 酸	svuRq
+# 𨢽	svuRq
+# 𩆑	svuRq
+# ##voR -vuj
+# 揣	tvujA
+# 𥠄	tvujA
+# 㪜	tvujA
+# 褍	tvujA
+# 葰	svuRA
+# 䈗	svuRA
+# 唆	svuRq
+# 梭	svuRq
+# ##vuR
+# 脧	tsvoRq
+# 䘒	tsvoRq
+# 𡱥	tsvoRq
+# 捘	tsvoRs
+# ##vRuR -j
+# 葰	SfujA
+# 誜	Sfujs
+# #
+# 𧫝	SfuA		#誜
+# 𠻦	tShfuA
+# 傻	SfuA		#夋
+# 傻	Sfus
+# ##yor
+# 䄲	ncyorp
+# 𥳙	dcyoRq
+# 圌	dcyoRq
+# 𦓝	tcyoRA
+# 惴	tcyoRs
+# 𦦇	tcyoRs
+# 篅	dcyoRq
+# 瑞	dcyoRs
+# ##
+# 遄	dcyoRq
+# 圌	dcyoRq
+# 顓	tcyoRq
+# 諯	tcyoRq
+# 湍	tcyoRq
+# 剬	tcyoRA
+# 𦓝	tcyoRA
+# 喘	thcyoRA
+# 㪜	thcyoRA
+# 諯	thcyoRs
+# 篅	dcyoRq
+# 諯	dcyoRq
+# 輲	dcyoRq
+# 椯	dcyoRq
+# 歂	dcyoRq
+# 腨	dcyoRA
+# 歂	dcyoRA
+# 踹	dcyoRA
+# 諯	tshyoRs

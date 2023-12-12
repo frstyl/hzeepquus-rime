@@ -87,12 +87,16 @@ speller:
 
     - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
     - derive/([\w][rxw]a)j/$1/ #aj iaj
-    - derive/([\w][eovaf]u)j/$1/
+    - derive/([\w][eoviujyrxwaf]u)j/$1/
     - derive/([\w][eovjyrxwaf]i)j/$1/ #ij
     # - derive/([aeiouəʌ])j([qhsA])/$1$2/ #-j
     # - fuzz/([\w][uyw]u)j/$1/ #u-j
     - fuzz/([\w][o]ʌ)j/$1/ #ʌ-j
     - fuzz/([\w][ev]e)j/$1/ #e-j
+
+    - fuzz/(.i)C/$1n/ #iŋ
+    - fuzz/(.i)g/$1d/ #iŋ
+    - fuzz/(.i)x/$1z/ #iŋ
 ####介
 ##
     - derive/([\w])o(a|o|ə|ʌ)/$1$2/ #一等无介音
@@ -128,15 +132,10 @@ speller:
     - derive/^([Jl]|t?sc?h?|d?zc?|nc)[uyw]([aeiouəʌ])/$1u$2/
 
 ####韻-尾
-
     # - derive/([\w])([oe]u)v([qhsA])/$1$2$3/ #皋勹ov rov
     # - derive/([\w])([ar]u)v([qhsA])/$1$2$3/
     - derive/([\w]u)v([qhsA])/$1$2/ #烋皋勹球ov aov
 
-
-    - fuzz/(.i)C/$1n/ #iŋ
-    - fuzz/(.i)g/$1d/ #iŋ
-    - fuzz/(.i)x/$1z/ #iŋ
 ####聲
     - derive/^c(.)/$1/
 
@@ -226,7 +225,7 @@ speller:
     - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
     - derive/(?<!^)([fvjyxwaeiouəʌ;][aeiouəʌ;])v(k)$/$1u$2/ #-v-視爲韻
     # - xform/(?<!^)v(k)$/$1/
-    - derive/(?<!^)v(k)$/$1/
+    - fuzz/(?<!^)v(k)$/$1/
 
     - derive/(?<!^)Cq$/c/
     - xform/(?<!^)([CmnR])q$/$1/
