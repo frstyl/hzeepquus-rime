@@ -103,7 +103,7 @@ speller:
     - derive/([\w])e(ə)/$1$2/ #e四等 ea
     - derive/([\w])(e)(a|e|i|u|ə)/$1$2/ #e四等 
 
-    - abbrev/(\w)[jrx]([aeiouəʌ;])/$1i$2/ #i=jxi
+    - abbrev/(\w)[jrx]([aeiouəʌ;])/$1i$2/ #i=jx
     - abbrev/(\w)[yw]([aeiouəʌ;])/$1u$2/
 
     - derive/(\w)vi([aeiouəʌ;])/$1u$2/ #uə
@@ -128,8 +128,8 @@ speller:
     - derive/^(tSh?|d?Z|S|th?R|dR|nR)u([aeiouəʌ])/$1w$2/
     - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
     - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
-    - derive/^([Jl]|t?sc?h?|d?zc?|nc)[ijrx]([aeiouəʌ])/$1i$2/
-    - derive/^([Jl]|t?sc?h?|d?zc?|nc)[uyw]([aeiouəʌ])/$1u$2/
+    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|th?R|dR|nR)[ijrx]([aeiouəʌ])/$1i$2/ #i=jx
+    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|th?R|dR|nR)[uyw]([aeiouəʌ])/$1u$2/
 
 ####韻-尾
     # - derive/([\w])([oe]u)v([qhsA])/$1$2$3/ #皋勹ov rov
@@ -238,12 +238,13 @@ speller:
 ####可選 介
     # - fuzz/([iu])(a)/$2$1/
     # - fuzz/(a)([iu])/$2$1/
-    - fuzz/(?<!^)([aiu])([aeiou]|ə|ʌ)/$2$1/ #介元序 无eo
-    - fuzz/(?<!^)([fvjyrxw])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/
+    # - fuzz/(?<!^)([aiu])([eo]|ə|ʌ)/$2$1/ #介元序 无eo
+    - abbrev/(?<!^)([aiu])([aeiou]|ə|ʌ)/$2$1/ #介元序 无eo
+    - abbrev/(?<!^)([fvjyrxw])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/
     - fuzz/(?<!^)x([aeiouəʌ;])/r$1/ #r=x
     - fuzz/(?<!^)r([aeiouəʌ;])/x$1/ #
     - fuzz/(?<!^)a([aeiouəʌ;])/l$1/ #l=a
-    - fuzz/(?<!^)([rl])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/ #l=x
+    - abbrev/(?<!^)([rl])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/ #l=x
     # - fuzz/(?<!^)(a)([aeiouəʌ;])/$2l/ #qAhsjlrvwymbfpndztCcgxk
     # - fuzz/(?<!^)(x)([aeiouəʌ;])([.])/$2r$3/
 

@@ -1274,7 +1274,7 @@ import_tables:
 邷	CqfajA
 瓦	Cqfajs
 𩨾	Cqfajq
-化	Csfajs		#ŋs Cs
+化	Csfajs		#ŋs Cs?
 𠤎	Csfajs
 𩲏	Csfajs
 𩵏	Csfajs
@@ -3809,18 +3809,18 @@ import_tables:
 𤉡	zLjijA
 𠒅	zLjijA
 兕	zLjijA
-尸	Lscjijq		#Ls L̥#-əj?
+尸	Lscjijq		#Ls L̥#-əj?#𡰥
 𡰣	Lscjijq
 鳲	Lscjijq
 屍	Lscjijq
 屎	LscjijA
 屍	Lscjijs
-𣢂	hsjijq
-屎	hsjijq	1
-䐅	hsjijq
+𣢂	hLsjijq
+屎	hLsjijq	1
+䐅	hLsjijq
 𦳊	LscjijA
 詄	Lscjijs
-矢	LscjijA		#Ls
+矢	LscjijA		#Ls#𡱁
 𠂕	LscjijA
 䒨	zLjijA		#sL
 薙	zLjijA
@@ -3875,9 +3875,6 @@ import_tables:
 㺨	sjijq
 私	sjijq
 𦮺	sjijq
-寅	JLjijq
-蔩	JLjijq
-鏔	JLjijq
 棃	ljijq
 梨	ljijq
 蔾	ljijq
@@ -3928,6 +3925,9 @@ import_tables:
 澬	dzjijq
 𩆂	dzjijq
 ##jiR
+寅	JLjijq		#矢 -R
+蔩	JLjijq
+鏔	JLjijq
 伊	Ajijq		#尹 i-R?
 𠈽	Ajijq		#死 i-R?
 咿	Ajijq
@@ -8414,70 +8414,70 @@ import_tables:
 ##Oo?
 𩚭	boovq
 ##Ou?
-牡	moəvA		#əuV母
-##Oə?Oo?Ou?-, vo→ov
+牡	moʌvA		#ʌuV母
+##Oʌ?Oo?Ou?-, vo→ov
 某	moovA		#詔前人之言也
-呣	moəvq
-母	moəvA
-拇	moəvA
-胟	moəvA
-𤝕	moəvA
-𤵝	moəvA
-𧿹	moəvA
-䳇	moəvA
-姆	moəvs
-苺	moəvs
-畮	moəvA
-踇	moəvA
-畞	moəvA		#畮
-畝	moəvA	1
+呣	moʌvq
+母	moʌvA
+拇	moʌvA
+胟	moʌvA
+𤝕	moʌvA
+𤵝	moʌvA
+𧿹	moʌvA
+䳇	moʌvA
+姆	moʌvs
+苺	moʌvs
+畮	moʌvA
+踇	moʌvA
+畞	moʌvA		#畮
+畝	moʌvA	1
 ##Ou
-戊	moəvs
-茂	moəvs
-貿	moəvs		#卯
-鄮	moəvs
-㨐	poəvA
-捊	boəvq		#抱
-裒	boəvq		#襃裦 捊
-𧛙	boəvq	9
-抔	boəvq		#捊?
-抱	boəvq
+戊	moʌvs
+茂	moʌvs
+貿	moʌvs		#卯
+鄮	moʌvs
+㨐	poʌvA
+捊	boʌvq		#抱
+裒	boʌvq		#襃裦 捊
+𧛙	boʌvq	9
+抔	boʌvq		#捊?
+抱	boʌvq
 ##Ou
-抔	boəvq		#掊?
-咅	thoəvs		#㰯
-㕻	thoəvs
-𠝒	phoəvA
-𩭸	boəvq
-𡌮	boəvA
-𦜟	boəvA
-掊	poəvA
-剖	phoəvA
-婄	phoəvA
-䳝	phoəvA
-䯽	phoəvA
-蔀	phoəvA
-㕻	phoəvs
-㰴	phoəvs		#㰯
-踣	phoəvs
-仆	phoəvs	1		#踣
-䞳	phoəvs
-掊	boəvq
-䯽	boəvq
-䍌	boəvq
-箁	boəvq
-䏽	boəvq
-部	boəvA		#天水狄部 地名
-郶	boəvA
-培	boəvA
-瓿	boəvA
-䍌	boəvA
-䴺	boəvA
-婄	boəvA
-篰	boəvA
-蔀	boəvA
-䏽	boəvA
-犃	boəvA
-䏽	boəvs
+抔	boʌvq		#掊?
+咅	thoʌvs		#㰯
+㕻	thoʌvs
+𠝒	phoʌvA
+𩭸	boʌvq
+𡌮	boʌvA
+𦜟	boʌvA
+掊	poʌvA
+剖	phoʌvA
+婄	phoʌvA
+䳝	phoʌvA
+䯽	phoʌvA
+蔀	phoʌvA
+㕻	phoʌvs
+㰴	phoʌvs		#㰯
+踣	phoʌvs
+仆	phoʌvs	1		#踣
+䞳	phoʌvs
+掊	boʌvq
+䯽	boʌvq
+䍌	boʌvq
+箁	boʌvq
+䏽	boʌvq
+部	boʌvA		#天水狄部 地名
+郶	boʌvA
+培	boʌvA
+瓿	boʌvA
+䍌	boʌvA
+䴺	boʌvA
+婄	boʌvA
+篰	boʌvA
+蔀	boʌvA
+䏽	boʌvA
+犃	boʌvA
+䏽	boʌvs
 ##Oo Ro?
 兜	toovq
 篼	toovq
@@ -9623,7 +9623,8 @@ import_tables:
 號	Eoavs
 𤩭	Eoavs
 㙱	Eoavs
-饕	thoavq
+饕	thoavq		#叨
+𧈐	thoavq
 勞	loavq
 勞	loavs
 簩	loavq
@@ -11395,7 +11396,7 @@ import_tables:
 忧	quəs
 肬	quəq
 珛	qsuəs		#Vs
-有	quəA		#月?肉?
+有	quəA		#月?肉?牛?
 䳑	quəA
 䀁	quəA
 栯	quəA
@@ -13416,42 +13417,44 @@ import_tables:
 ##Rim
 凹	Aaep
 ###-jem
-##?ə
-㼲	ljep		#?
-檝	tsjep
-楫	tsjep
-䣸	ncjeb		#?
+##
+彡	sjum
+𧴭	scjeb
+彡	sjem		#彡s-u-m
 鏶	tshjep
 穕	tshjep
 䌖	dzjep
-妗	khjem
-酓	Ajeb
-讋	tcjep		#龖
-𧮩	tcjep
-霅	tcjep
-䜆	tcjep
-慴	tcjep		#習
-謵	tschjep
-䌌	tshjep
-摺	tcjep
-䅧	Ajem
-𧴭	scjeb
-彡	sjem
-鍼	gjem
-歙	skcjep
-嚵	dzjeb
-𤓠	zLjem		#燅 sL
-燂	zLjem
-撏	zLjem		#𢸧
-燖	zLjem		#燅燂
-熸	tsjem		#?
-朁	dzjem
-潛	dzjem
-䁮	dzjem
-潛	dzjeF
-鬵	dzjem
-灊	dzjem
-棎	dcjem		#L?
+##?jəm
+㼲	ljop		#?
+檝	tsjop
+楫	tsjop
+䣸	ncjob		#?
+妗	khjom		#今
+酓	Ajob
+讋	tcjop		#龖
+𧮩	tcjop
+霅	tcjop
+䜆	tcjop
+慴	tcjop		#習
+謵	tschjop
+䌌	tshjop
+摺	tcjop
+䅧	Ajom
+鍼	gjom		#咸
+歙	skcjop
+嚵	dzjob
+𤓠	zLjom		#燅 sL
+燂	zLjom
+撏	zLjom		#𢸧
+燖	zLjom		#燅燂
+熸	tsjom		#?
+朁	dzjom
+潛	dzjom
+䁮	dzjom
+潛	dzjoF
+鬵	dzjom
+灊	dzjom
+棎	dcjom		#L?
 ##jem
 鎌	ljem
 𩄡	ljem
@@ -13880,11 +13883,11 @@ import_tables:
 媕	Axob
 𡹮	Axob
 𢜰	AxoF
-㭘	gxop
+㭘	gxop		#合
 諂	LshRxob
 讇	LshRxob
-##
-𢁮	gxom
+##xəm?
+𢁮	gxom		#今
 黔	gxom
 鳹	gxom
 雂	gxom
@@ -14150,7 +14153,7 @@ import_tables:
 熠	JLjəp		#L
 𧟟	zLjəp		#龖
 襲	zLjəp
-鍼	kcjəm		#
+鍼	kcjəm		#咸
 瑊	kcjəm
 葴	kcjəm
 箴	kcjəm
@@ -15960,13 +15963,13 @@ import_tables:
 羱	Cqvan
 豲	hqzvan		#?C
 瘓	thvad		#?痶瘓
-奐	hvaz		#ɢ V-
-喚	hvaz
-煥	hvaz
-渙	hvaz
-𥈉	hvaz
+奐	qsvaz		#ɢ V-
+喚	qsvaz
+煥	qsvaz
+渙	qsvaz
+𥈉	qsvaz
 寏	hqzvan
-院	Evan		#寏
+院	Evan	5		#訓寏
 換	hqzvaz
 𠯑	kqvat	999
 𤯁	kqvat	99
@@ -16808,21 +16811,10 @@ import_tables:
 虇	khuaz
 讙	huan
 䚭	huan
-元	Cuon
-杬	Cuon
-沅	Cuon
-黿	Cuon
-蚖	Cuon
-芫	Cuon
-邧	Cuon
-䬧	Cuon
-阮	Cuon
-阮	Cuod
-𡯱	Cuod
-邧	Cuod
-原	Cuan		#-R
-邍	Cuan	1
+邍	Cuan
 𨙅	Cuan
+𠫐	Cuan
+原	Cuan		#-R
 源	Cuan
 嫄	Cuan
 騵	Cuan
@@ -16940,6 +16932,18 @@ import_tables:
 粵	quot
 塤	qsuon		#Vs
 壎	qsuon		#塤
+元	Cuon
+杬	Cuon
+沅	Cuon
+黿	Cuon
+蚖	Cuon
+芫	Cuon
+邧	Cuon
+䬧	Cuon
+阮	Cuon
+阮	Cuod
+𡯱	Cuod
+邧	Cuod
 ##a?o? Ran
 吅	huan
 月	Cuat
@@ -20064,7 +20068,7 @@ import_tables:
 䔚	ztcyun
 㸪	ztcyun
 紃	ztcyun
-順	ztcyuzt
+順	ztcyuz
 巡	ztyun
 馴	ztyun
 㸪	ztyun
@@ -22826,7 +22830,7 @@ import_tables:
 骼	kqaak
 觡	kqaak
 鵅	kqaak
-挌	kqaak
+挌	kqaak	999
 㦴	kqaak
 蛒	kqaak
 𪌣	kqaak
@@ -27327,7 +27331,7 @@ import_tables:
 䐁	tRauk
 𢽚	tRauk
 椓	tRauk
-剝	pauk
+剝	pauk		#彔p-r-o-k
 䃗	tShauk
 斲	tRauk
 𢿘	sRsauk
@@ -29607,6 +29611,9 @@ import_tables:
 # 䪳	JqyiRA
 # 芛	Jqyit
 # ##jiR
+# 寅	JLjiRq		#矢 -R
+# 蔩	JLjiRq
+# 鏔	JLjiRq
 # 伊	AjiRq		#尹 i-R?
 # 𠈽	AjiRq		#死 i-R?
 # 咿	AjiRq
