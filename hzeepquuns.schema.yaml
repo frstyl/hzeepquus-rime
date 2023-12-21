@@ -81,8 +81,8 @@ speller:
 
 ##韻-介
     - fuzz/([\w])u(u[qAhs])$/$1i$2/ #uu孚
-    - fuzz/([\w])v(o[jlrndzt])/$1$2/ #von vo
-    # - derive/([\w])[uy]u([jlrndzt])/$1u$2/ #uun
+    - fuzz/([\w])v(o[jlrndzt])/$1$2/ #von voj
+    - fuzz/([\w])vu([jlrndzt])/$1o$2/ #vun
 ##韻-尾
 
     - derive/([\w][eov]a)j/$1/ #aj vuj  vu va
@@ -123,13 +123,6 @@ speller:
     # - xform/(?<!^)u(ə|ʌ|a|e|i|o|u|;)/y$1/
     # - xform/(?<!^)[rx](ə|ʌ|a|e|i|o|u|;)/i$1/
     # - xform/(?<!^)w(ə|ʌ|a|e|i|o|u|;)/u$1/
-####聲-介
-    - derive/^(tSh?|d?Z|S|th?R|dR|nR)i([aeiouəʌ])/$1x$2/
-    - derive/^(tSh?|d?Z|S|th?R|dR|nR)u([aeiouəʌ])/$1w$2/
-    - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
-    - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
-    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|th?R|dR|nR)[ijrx]([aeiouəʌ])/$1i$2/ #i=jx
-    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|th?R|dR|nR)[uyw]([aeiouəʌ])/$1u$2/
 
 ####韻-尾
     # - derive/([\w])([oe]u)v([qhsA])/$1$2$3/ #皋勹ov rov
@@ -137,17 +130,14 @@ speller:
     - derive/([\w]u)v([qhsA])/$1$2/ #烋皋勹球ov aov
 
 ####聲
-    - derive/^c(.)/$1/
-
-    - derive/^(Jqz?|JL|J)/j/ #l
-    - derive/^(Lc)/j/
-
     - derive/^([LR])(?!zc)/d/
     - derive/^([LRn]sh)/th/
     - derive/^(C)(?=[cR])/n/
 
-    - derive/^s[ptkLRnmCq]s?/s/
-    - derive/^z[ptkLRnmCq]s?/z/
+    - derive/^s[ptkLRnmCq]/s/
+    - derive/^z[ptkLRnmCq]/z/
+    - derive/^s[ptkLRnmCq]s/S/
+    - derive/^z[ptkLRnmCq][sz]/Z/
     - derive/^s([ptkbdgnmCqL])c/sc/
     - derive/^[nL]sc/sc/
     - derive/^z([ptkbdgnmCqL])c/zc/
@@ -156,19 +146,21 @@ speller:
     - derive/^(h[mnCLRqXx]s|hsq|ngs|[mnCqX]s|hs)/h/
     - derive/^(hqz|Xqz|Xq|qz|Xz|X|')/q/
     - derive/^(hzg|E)/g/
-
-    # - derive/^(hqz|hg|hz)/E/
-    # - derive/^(hq)/A/
-    - derive/^(A)/hq/ #影母
-    - derive/^(E)/hz/ #匣母
-    - derive/^(C)/ng/ #疑母
-    # - derive/^(R)/rr/ #來母
-    - derive/^(S)/ss/ #生母
-    - derive/^(Z)/zz/ #俟母
+####聲-介
+    - derive/^(tSh?|d?Z|S|th?R|dR|nR)i([aeiouəʌ])/$1x$2/
+    - derive/^(tSh?|d?Z|S|th?R|dR|nR)u([aeiouəʌ])/$1w$2/
+    - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
+    - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
+    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|th?R|dR|nR)[ijrx]([aeiouəʌ])/$1i$2/ #i=jx 在Jj前
+    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|th?R|dR|nR)[uyw]([aeiouəʌ])/$1u$2/
+##
+    - derive/^c(.)/$1/
+    - derive/^(Jqz?|JL|J)/j/ #l
+    - derive/^(Lc)/j/
 ####中
     - derive/^([pbm])F(h?)/$1$2/
 
-    - derive/^(kh|ng|k|g)[cq]/$1/
+    - derive/^(kh|k|g|C)[cq]/$1/
     - derive/^(th|t|d|n)[cR]/$1/
 
     - derive/^(t?)S/$1s/ #tsz sz
@@ -177,6 +169,15 @@ speller:
     - derive/^(tsch)/th/
     - derive/^(tsc)/t/
     - derive/^(dzc)/d/
+####
+    # - derive/^(hqz|hg|hz)/E/
+    # - derive/^(hq)/A/
+    - derive/^(A)/hq/ #影母
+    - derive/^(E)/hz/ #匣母
+    - derive/^(C)/ng/ #疑母
+    # - derive/^(R)/rr/ #來母
+    - derive/^(S)/ss/ #生母
+    - derive/^(Z)/zz/ #俟母
 ####聲補
     # - derive/^([tk]hc|thR|ts[szc]h)/tzh/ #照組tsz sz. tss ss
     # - derive/^([tk]c|tR|ts[szc])/tz/
@@ -270,8 +271,8 @@ speller:
     - derive/^kh/y/
     - derive/^ts(s?)h/v$1/
     - derive/^ts(?!c)/x/
-    - derive/^(hq)/w/
-    - derive/^(ng)/c/
+    - derive/^(hq|A)/w/
+    - derive/^(ng|C)/c/
 
 ####𥳑
     # - abbrev/^(\w).+$/$1/
