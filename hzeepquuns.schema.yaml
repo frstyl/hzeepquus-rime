@@ -177,14 +177,14 @@ speller:
     - derive/^(C)/ng/ #疑母
     # - derive/^(R)/rr/ #來母
     - derive/^(S)/ss/ #生母
-    - derive/^(Z)/zz/ #俟母
+    - derive/^(Z)/zs/ #俟母
 ####聲補
     # - derive/^([tk]hc|thR|ts[szc]h)/tzh/ #照組tsz sz. tss ss
     # - derive/^([tk]c|tR|ts[szc])/tz/
     # - derive/^([dg]c|dR|dz[szc])/ds/
     # - derive/^(s[szc])/sz/
-    # - derive/^(z[szc])/zs/
-    - fuzz/^z/sz/ #衺
+    # - derive/^(z[szc])/zz/
+    - fuzz/^z/zz/ #衺
 
     - derive/^(Lr?)([eovarfrxw][aeiouəʌ;])/j$2/
     - derive/^(Xq?)([rxw][aeiouəʌ;])/j$2/
@@ -237,10 +237,9 @@ speller:
     - xform/(?<!^)nA$/d/
     - xform/(?<!^)ns$/z/
 ####可選 介
-    # - fuzz/([iu])(a)/$2$1/
-    # - fuzz/(a)([iu])/$2$1/
-    # - fuzz/(?<!^)([aiu])([eo]|ə|ʌ)/$2$1/ #介元序 无eo
-    - abbrev/(?<!^)([aiu])([aeiou]|ə|ʌ)/$2$1/ #介元序 无eo
+    - fuzz/(?<!^)([aiu])(ə|ʌ)/$2$1/
+    - fuzz/(?<!^)(i)([au])/$2$1/
+    - abbrev/(?<!^)([aiu])([aeiou]|ə|ʌ)/$2$1/ #介元序
     - abbrev/(?<!^)([fvjyrxw])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/
     - fuzz/(?<!^)x([aeiouəʌ;])/r$1/ #r=x
     - fuzz/(?<!^)r([aeiouəʌ;])/x$1/ #
@@ -259,7 +258,7 @@ speller:
     # - derive/E/hz/
     - derive/R/rr/
     # - derive/S/ss/
-    # - derive/Z/zz/
+    # - derive/Z/zs/
     # - derive/F/fs/
 ####聲𥳑
     - derive/^sc/h/ #船
