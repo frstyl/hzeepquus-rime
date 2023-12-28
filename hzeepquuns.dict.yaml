@@ -1322,6 +1322,13 @@ import_tables:
 ####e
 ###e-
 ##
+#
+郋	Eeijq		#自
+䎮	theesk
+㩢	meert		#蔑
+䤍	meeq
+𪓬	meeq		#兒
+啑	tees	1		#?
 #a?
 臡	neajq
 折	deajq
@@ -1505,9 +1512,6 @@ import_tables:
 豷	Aeirt
 㙪	Aeirt
 𧬇	Aeirt
-#
-郋	Eeijq		#自
-䎮	theesk
 ##Oe
 豍	peeq
 𥏠	peeq
@@ -1527,11 +1531,7 @@ import_tables:
 㯅	peeq
 𦸣	beeA
 箄	peeq
-㩢	mees
-𪓬	meeq		#?
-䤍	meeq
 麛	meeq		#麑
-啑	tees	1		#?
 䂑	tseeq
 啙	tseeq
 㧗	tseeA
@@ -5166,7 +5166,7 @@ import_tables:
 㓼	tShxəA		#桼
 䰡	thRxərt		#失
 𧳙	giərt
-豙	Ciərt		#𬔖?
+豙	Ciərt		#𬔖?#𬔖C-a-t#豙C-eo-t
 𧱏	Ciərt
 ##iər jər
 亟	khiəsk		#ks
@@ -12626,8 +12626,8 @@ import_tables:
 腅	LoaF
 啖	LoaF
 倓	LoaF
-###rOam
-##rOem
+###ROam
+##ROem
 #?
 𨂝	baem		#並 e-ŋ
 湴	baeF
@@ -12649,6 +12649,8 @@ import_tables:
 𠗨	LRaep		#L
 喋	LRaep
 𧃹	LRaep
+𩅼	tSaeF
+醶	tShaeb		#僉ts-e-m#僉k-r-a-m
 ##Ram
 翣	Saap
 帹	Saap
@@ -12715,8 +12717,6 @@ import_tables:
 㽉	hgaaF
 㯺	hgaaF
 濫	hgaab
-𩅼	tSaaF
-醶	tShaab
 銜	hgaam
 覱	tSaaF
 𩈻	tSaaF
@@ -12897,7 +12897,7 @@ import_tables:
 𡕢	mFuab
 錽	mFuab
 𦲯	mFuaF
-𢨔	mFuab
+𢨔	mFuab		#僉?刃也
 姂	pFhuap
 𥁔	pFhuaF
 姂	pFhuaF
@@ -13179,15 +13179,15 @@ import_tables:
 𠂼	deeb		#?扂
 鮎	neem
 䬯	neem
-###-Rem
-###Ram
+###Rem
+##Ram
 𢽝	dZaem		#會意?
 旵	thRaeb		#?
 #?o-p
 㷅	tShaup
 㗙	nRaup		#芻a a-p
 㑳	nRaup
-##rOom
+##ROom
 𠕣	khqaup
 鵮	tRaum
 𪉦	kqauF
@@ -13209,7 +13209,7 @@ import_tables:
 㮀	hgaum
 圅	hgaum
 㮭	hgaum
-##rOum
+##ROum
 杉	Saom
 𩁺	Saom
 䀐	Saom
@@ -13237,7 +13237,7 @@ import_tables:
 䞩	hgaop
 䶎	haop
 欱	haop
-##rOəm
+##ROəm
 嵁	dZaəb
 嵁	khqaəm
 湛	dRaəb
@@ -13314,7 +13314,7 @@ import_tables:
 𧍧	haəm
 喊	haəb
 𪒹	kqaəm
-##rOem
+##ROem
 夾	kqaep
 筴	kqaep
 郟	kqaep
@@ -13381,11 +13381,11 @@ import_tables:
 站	tRaeF
 詀	dRaeF
 蘸	tSaeF		#?沾
-##rOam
+##ROam
 圔	Aaap
 鹼	kqaab
 厱	khqaam
-臉	laab
+臉	laab		#臉䑎羮屬
 醶	laab
 撖	khqaab
 鬫	haab
@@ -13416,7 +13416,7 @@ import_tables:
 敮	haap
 ##Rim
 凹	Aaep
-###-jem
+###jem
 ##
 彡	sjum
 𧴭	scjeb
@@ -13594,6 +13594,17 @@ import_tables:
 綅	sjem
 𦃌	sjem
 䯹	sjem
+獫	ljeF
+𩅼	tsjem
+僉	tshjem		#僉ts-e-m
+臉	tshjem	2		#埤倉𦞦也
+鹼	tshjem
+憸	tshjem
+譣	tshjem
+憸	tshjeb
+憸	sjem
+𢘁	sjem		#憸
+𣠺	tshjep
 ##jam
 㯿	JLjap
 巤	ljap
@@ -13615,7 +13626,7 @@ import_tables:
 㯿	ljap
 䜲	ljap
 䃳	ljap
-匳	ljam
+匳	ljam		##僉k-r-a-m
 蘞	ljam
 籢	ljam
 蘞	ljab
@@ -13633,18 +13644,7 @@ import_tables:
 殮	ljaF
 𧸘	ljaF
 𩅼	ljaF
-獫	ljaF
-𩅼	tsjam
-僉	tshjam
-臉	tshjam	2
-鹼	tshjam
-憸	tshjam
-譣	tshjam
-憸	tshjab
-憸	sjam
-𢘁	sjam		#憸
-𣠺	tshjap
-𨣻	Ajam
+𨣻	Ajam		#?
 獦	ljap
 溓	ljab
 爁	ljaF
@@ -13824,7 +13824,7 @@ import_tables:
 拑	gxam
 箝	gxam
 饁	qxap
-檢	kxab
+檢	kxab		#僉k-r-a-m
 瞼	kxab
 顩	Cxab
 䲓	Cxab
@@ -13893,8 +13893,8 @@ import_tables:
 雂	gxom
 鈐	gxom
 𨦄	khxom
-𩒯	khxob
-𩑳	khxob
+𩒣	khxob		#𩒣𩖄#𩓒𩒣𩒯
+𩑳	khxob		#𩑳顩
 芡	gxob
 𢜩	khxom		#?A?O
 羬	gxom
@@ -14242,7 +14242,7 @@ import_tables:
 ###xim
 ##xam?		#ə?u?
 𩖄	khxib
-顩	dRxib
+顩	dRxib		#?#僉
 曄	qxip
 𪔰	qxiF		#鼓聲
 𠪚	Cxim
@@ -15161,7 +15161,7 @@ import_tables:
 殘	dzoan
 䏼	dzoan
 帴	dzoan
-戔	dzoan
+戔	dzoan		#戔ts-a-n#戔ts-e-n
 䏼	dzoaz
 帴	soaz
 𥻂	load
@@ -16174,7 +16174,7 @@ import_tables:
 雈	Evan
 𦻃	Evan
 𦼉	Evan	2
-###ROan  a?e?o?
+###ROan aan a?e?o?
 ##?
 䭴	Efen		#e
 𩡧	Efen
@@ -16203,8 +16203,8 @@ import_tables:
 昄	baud
 魬	baud
 ##ROan?ROen
-礣	maat		#蔑
-㩢	maat
+礣	maet		#蔑苜 #蔑m-e-t
+㩢	maet
 ##ROan
 𠔯	paan		#班
 帕	maat		#鬕#訓帓
@@ -16323,7 +16323,7 @@ import_tables:
 𤜵	Cqaez
 𡿖	Cqaet
 𩮁	kqaet
-猰	kqaat
+猰	kqaet
 斒	paen
 鯿	paen
 哳	tRaet		#折
@@ -16639,14 +16639,14 @@ import_tables:
 𨆌	bFuan
 薠	bFuan
 𢶃	bFuan
-韤	mFuat		#?蔑
+韤	mFuat		#?蔑a?e?
 韈	mFuat
 襪	mFuat
 㒝	mFuat
 贎	mFuaz
 萬	mFuaz
 万	mFuaz
-𥄎	mFuat		#?
+𥄎	mFuat		#?𥄕
 曼	mFuaz
 㿸	mFuad
 蟃	mFuaz
@@ -17545,13 +17545,13 @@ import_tables:
 𪇴	meat
 𥣫	meat
 瀎	meat
-蔑	meat
+蔑	meat		#蔑m-e-t #蔑m-a-t?
 篾	meat
 𥽘	meat
 𩱷	meat		#粖
 𩱵	meat	1
 𩱸	meat	1
-𥄕	meat		#蔑睂
+𥄕	meat	99		#蔑睂
 𦭝	meat
 𤊾	meat
 𦸑	meat	99
@@ -17908,6 +17908,8 @@ import_tables:
 紮	tSaət
 𩿤	tSaət
 ##ORen
+䯦	maet
+礣	maet
 八	paet
 𩡩	paet
 朳	paet
@@ -18019,8 +18021,6 @@ import_tables:
 䊲	Saad
 𩥮	Saad
 ##Ran
-䯦	maat
-礣	maat
 丳	tShaad		#?串
 嘫	nRaan
 殺	Saat
@@ -19315,7 +19315,7 @@ import_tables:
 烕	mswet		#m 滅
 𦐋	hwet
 吷	hwet
-𥄎	hwet
+𥄎	hwet		#?𭆲
 ####in
 ###jin
 奞	sjiz		#?
@@ -25340,10 +25340,10 @@ import_tables:
 垶	syiC
 觪	syiC
 ##vjek
-𦳮	tcyek		#𦳮卷
-𥄎	tshyek
-瞁	hyek		#
-𢔠	tshyek		#𥄎
+𦳮	tscyek		#?𦳮卷 𥄕?
+𥄎	tshyek	1		#?役
+瞁	hyek		#𰥦𥆛
+𢔠	tshyek		#𥄎狊役?
 𥆛	qsyek
 役	Jqyek		#ɢ V-
 䓈	Jqyek
@@ -26293,7 +26293,7 @@ import_tables:
 趩	LshRxək
 ###viək uək wək
 𧹭	hwək
-𥄎	hwək
+𥄎	hwək		#?
 𠷾	hwək
 洫	qswək		#
 侐	qswək
