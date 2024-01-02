@@ -70,8 +70,8 @@ speller:
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
     # - derive/([\w]v?)o([qhsA])/$1ia$2/
     - derive/([\w])[o]ov([qAs])$/$1əu$2/ #ov 侯
-    - derive/([\w])[ijx]ov([qAs])$/$1eu$2/ #ov 幽 eu=eiu
-    - derive/([\w])[ijx]əv([qAs])$/$1iu$2/ #ov 尤
+    - derive/([\w])[jrxi]ov([qAs])$/$1eu$2/ #ov 幽 eu=eiu
+    - derive/([\w])[jrxi]əv([qAs])$/$1iu$2/ #ov 尤
 
     # - derive/([\w])vi([ouə])/$1u$2/ #uə
     # - derive/([\w])vx([uə])/$1w$2/ #
@@ -106,12 +106,15 @@ speller:
     - abbrev/(\w)[jrx]([aeiouəʌ;])/$1i$2/ #i=jx
     - abbrev/(\w)[yw]([aeiouəʌ;])/$1u$2/
 
-    - derive/(\w)vi([aeiouəʌ;])/$1u$2/ #uə
-    - derive/(\w)[jrxi](i|ə|ʌ)/$1i/ #i
-    - derive/(\w)[ywu](i|ə|ʌ|u)/$1u/ #u
-    - derive/(\w)v[rxi]ə/$1u/ #uə
+    - derive/(\w)vi([aeiou]|ə|ʌ|;)/$1u$2/ #uə
+    - derive/(\w)v[jrxi]ə/$1u/ #uə
+    - derive/(\w)[jrxi](ə|ʌ)/$1i/ #i
+    - derive/(\w)[ywu](ə|ʌ)/$1u/ #i
 
-    - fuzz/([\w])[ijx][uo]/$1u/ #iu- io-
+    - fuzz/(\w)[jrxi](i)/$1i/ #i
+    - fuzz/(\w)[ywu](i|u)/$1u/ #u
+
+    - fuzz/([\w])[jrxi][uo]/$1u/ #iu- io-
     - fuzz/([\w])o(u|o|ʌ)/$1o/ #oo ou oʌ 一等
 ##三等无介音
     # - xform/([\w])[oe]([aeiouəʌ;])/$1o$2/ #一三
@@ -169,15 +172,15 @@ speller:
     - derive/^(tsch)/th/
     - derive/^(tsc)/t/
     - derive/^(dzc)/d/
-####
+####聲母轉寫
     # - derive/^(hqz|hg|hz)/E/
     # - derive/^(hq)/A/
     - derive/^(A)/hq/ #影母
     - derive/^(E)/hz/ #匣母
     - derive/^(C)/ng/ #疑母
-    # - derive/^(R)/rr/ #來母
-    - derive/^(S)/ss/ #生母
-    - derive/^(Z)/zs/ #俟母
+    - derive/^(th?|d)(R)/$1rr/ #來母
+    - derive/^(t?)(S)/$1ss/ #生母
+    - derive/^(d?)(Z)/$1zs/ #俟母
 ####聲補
     # - derive/^([tk]hc|thR|ts[szc]h)/tzh/ #照組tsz sz. tss ss
     # - derive/^([tk]c|tR|ts[szc])/tz/
@@ -210,7 +213,7 @@ speller:
     - derive/(?<!^)C([qAs]?)$/c$1/
     - derive/(?<!^)F$/f/
     - derive/(?<!^)R([qAs]?)$/n$1/
-    # - derive/(?<!^)A$/hq/
+    # - derive/(?<!^)A$/hq/ 轉寫
     # - derive/(?<!^)C$/ng/
     # - derive/(?<!^)R/rr/
     # - derive/(?<!^)F/fs/
@@ -256,7 +259,7 @@ speller:
     # - derive/A/hq/
     # - derive/C/ng/
     # - derive/E/hz/
-    - derive/R/rr/
+    # - derive/R/rr/
     # - derive/S/ss/
     # - derive/Z/zs/
     # - derive/F/fs/

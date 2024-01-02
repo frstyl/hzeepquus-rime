@@ -244,7 +244,7 @@ import_tables:
 ѿ	ot
 ѣ	yat
 ####音幖
-# p p
+# p p		#一位一符本不分清濁送气
 # pʰ	ph
 # b b
 # fʰ	Fh
@@ -255,11 +255,14 @@ import_tables:
 ɖ	dR
 ʈ	trr
 ɖ	drr
-ȶ	tc
+ȶ	tc		#非音幖
 # ȶʰ	tch
 ȡ	dc
-c	tc
-ɟ	dc
+ȶ	kc		#非音幖
+# ȶʰ	kch
+ȡ	gc
+c	kc
+ɟ	gc
 # k k
 # kʰ	kh
 g	g
@@ -267,8 +270,7 @@ g	g
 q	kq
 # qʰ	kqh
 ɢ	gq
-ʡ	O
-ʡ	O
+ʡ	Hq
 ʔ	hq
 ʔ	A
 p͡ɸ	pF
@@ -294,23 +296,24 @@ t͡ʂ	tsR
 d͡ʐ	dzR
 t͡ʂ	tsrr
 d͡ʐ	dzrr
-t͡	t
-d͡	d
-ɸ	Fp
-β	Fb
-ɸ	Fps
-β	Fpz
+t͡	tc
+d͡	dc
+ɸ	fp
+β	fb
+ɸ	fps
+β	fpz
 ɸ	sp
 β	zp
-f	Fs
-v	Fz
+f	fs
+v	fz
 v	f
-θ	Ft
-ð	Fd
-θ	Fts
-ð	Ftz
+θ	ft
+ð	fd
+θ	fts
+ð	ftz
 θ	st
 ð	zt
+ð	zd
 # s	s
 # z	z
 ʃ	S
@@ -324,37 +327,44 @@ v	f
 ʐ	zR
 ɕ	sc
 ʑ	zc
-ç	sc
+ç	sc		#當爲无噝
 ʝ	zc
+ç	fc
+ʝ	fc
+ç	fcs
+ʝ	fcz
 ç	hcs
 ʝ	hcz
+x	fk
+ɣ	fg
 x	sk
 ɣ	zk
+ɣ	zg
 x	hk
 ɣ	hg
-x	hks
-ɣ	hgz
-χ	hqs
-ʁ	hqz
 χ	sq
 ʁ	zq
-ʜ	h
-ʢ	h
-ħ	O
+χ	hqs
+ʁ	hqz
+χ	fq
+ʁ	fq
+ʜ	H		#H ʜʢ
+ʢ	O
+ħ	H
 ʕ	O
-ħ	Os
-ʕ	Oz
 # h	h
 h	hs
 ɦ	hz
+h	E
 ɦ	E
 # m	m
-ɱ	mF
+ɱ	mf
 # n	n
 ɳ	nrr
 ɳ	nR
 ɲ	nc
-ȵ	nc
+ȵ	nc		#非音幖
+ȵ	ngc
 ŋ	ng
 Ŋ	ng		#非音幖
 ɴ	nq
@@ -380,9 +390,9 @@ r	r
 ʁ	r
 ɻ	jr
 ɺ	lr
-ʋ	jF
+ʋ	jf
 ɰ	x
-ⱱ	rF
+ⱱ	rf
 ɺ	rl
 l	l
 ɭ	lR
@@ -449,7 +459,7 @@ u	u
 ̃	m		#鼻化
 ˞	r
 ˠ	x
-ˤ	o
+ˤ	O
 ʰ	h
 ˡ	l
 ⁿ	n
