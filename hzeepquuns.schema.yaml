@@ -210,9 +210,10 @@ speller:
     - fuzz/([aeiouəʌ;])j['q]$/$1/
     - derive/([aeiouəʌ;])['q]$/$1/
     - derive/(?<!^)A$/h/
-    - derive/(?<!^)C([qAs]?)$/c$1/
+    - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
-    - derive/(?<!^)R([qAs]?)$/n$1/
+    # - derive/(?<!^)C([qAs]?)$/c$1/
+    # - derive/(?<!^)R([qAs]?)$/n$1/
     # - derive/(?<!^)A$/hq/ 轉寫
     # - derive/(?<!^)C$/ng/
     # - derive/(?<!^)R/rr/
@@ -231,10 +232,9 @@ speller:
     # - xform/(?<!^)v(k)$/$1/
     - fuzz/(?<!^)v(k)$/$1/
 
-    - derive/(?<!^)Cq$/c/
     - xform/(?<!^)([CmnR])q$/$1/
-    - xform/(?<!^)CA$/g/
-    - xform/(?<!^)Cs$/x/
+    - xform/(?<!^)(ng|C|c)A$/g/
+    - xform/(?<!^)(ng|C|c)s$/x/
     - xform/(?<!^)mA$/b/
     - xform/(?<!^)ms$/f/
     - xform/(?<!^)nA$/d/
@@ -274,7 +274,7 @@ speller:
     - derive/^ts(s?)h/v$1/
     - derive/^ts(?!c)/x/
     - derive/^(hq|A)/w/
-    - derive/^(ng|C)/c/
+    - derive/^(ng)/c/
 
 ####𥳑
     # - abbrev/^(\w).+$/$1/
