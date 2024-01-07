@@ -156,8 +156,9 @@ speller:
     - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
     - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|th?R|dR|nR)[ijrx]([aeiouəʌ])/$1i$2/ #i=jx 在Jj前
     - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|th?R|dR|nR)[uyw]([aeiouəʌ])/$1u$2/
-##
-    - derive/^c(.)/$1/
+##古?
+    - derive/^([\w]*)-([\w])/$1$2/
+    - derive/^([\w]*-)([\w])/$2/
     - derive/^(Jqz?|JL|J)/j/ #l
     - derive/^(Lc)/j/
 ####中
@@ -354,7 +355,7 @@ translator:
     # - xform/(.+)H/\L$1ʰ/
     # - xform/([aeiouəʌ;])q($|')/$1 $2/
   comment_format:
-    - xform/^c//
+    - xform/^([\w]*-)//
     - xform/^s[ptkLRnmCq]s?/s/
     - xform/^z[ptkLRnmCq]s?/z/
     - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/
@@ -447,7 +448,7 @@ lookup:
   dictionary: hzeepquuns
   overwrite_comment: false
   comment_format:
-    - xform/^c//
+    - xform/^([\w]*-)//
     - xform/^s[LRnmCq]s?/s/
     - xform/^z[LRnmCq]s?/z/
     - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/

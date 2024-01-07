@@ -2797,21 +2797,22 @@ import_tables:
 企	khjeA
 企	khjes
 𦭲	gjeq		#?
-氏	kcjeq	2		#氐?
-衹	kcjeq
-紙	kcjeA
-帋	kcjeA
-扺	kcjeA
-坁	kcjeA
-𡚼	khcjeA
-忯	gcjeq
-眂	gcjeq
-𣏚	gcjeq
-䟗	gcjeA
-氏	gcjeA
-𦐊	skcjes
-舐	zkcjeA
-祇	gjeq
+氏	tscjeq	2		#氐?#氏t-e =是t-e
+衹	tscjeq
+紙	tscjeA
+帋	tscjeA
+扺	tscjeA
+坁	tscjeA
+𡚼	tschjeA
+忯	dzcjeq
+眂	dzcjeq
+𣏚	dzcjeq
+䟗	dzcjeA
+氏	dzcjeA
+𦐊	stcjes		#氏t-e#氏g-e
+舐	ztcjeA
+汦	tscjeA		#坻坁
+祇	gjeq		#氏g-e =兮
 衹	gjeq
 疧	gjeq
 忯	gjeq
@@ -2822,22 +2823,21 @@ import_tables:
 蚔	gjeq
 𧎪	gjeq
 䉻	gjeq
-汦	gcjeA
 示	gjeq		#祇
-只	kcjeq	1
-胑	kcjeq
-疻	kcjeq
-只	kcjeA
-軹	kcjeA
-枳	kcjeA
-咫	kcjeA
-𣲵	kcjeA
-抧	kcjeA
-䳅	kcjeA
-枳	kcjeA
-伿	kcjes
+只	tscjeq	1
+胑	tscjeq
+疻	tscjeq
+只	tscjeA
+軹	tscjeA
+枳	tscjeA
+咫	tscjeA
+𣲵	tscjeA
+抧	tscjeA
+䳅	tscjeA
+枳	tscjeA
+伿	tscjes
 伿	JLjes
-䅩	kcjeA
+䅩	tscjeA
 髊	dzjes
 酈	ljeq
 𣀷	ljeq
@@ -4621,7 +4621,7 @@ import_tables:
 匱	gwur
 𦆠	gwur
 櫃	gwur
-##wə 㞢wə-
+##wə
 洧	qwəA
 鮪	qwəA
 痏	qwəA
@@ -4657,7 +4657,7 @@ import_tables:
 𣮉	ljəq
 𠩬	ljəq
 誺	RshRxəs		#RS
-李	cljəA
+李	c-ljəA
 杍	ljəA
 貍	ljəq
 狸	ljəq
@@ -4993,7 +4993,7 @@ import_tables:
 颸	tShxəq
 褫	thRxəA
 徵	tRxəA
-漦	zRzxəq		#𠩺 sR?
+漦	zRzxəq		#𠩺 sR?#R-?#ts-?
 甾	tSxəq
 𠙹	tSxəq
 𠙾	tSxəq
@@ -5019,12 +5019,12 @@ import_tables:
 庤	dRxəA
 𦥊	thRxəs
 欼	tShxəA		#𠭋-巳
-俟	zqzxəA		#𠤕矣s-ɢ V-
-竢	zqzxəA
-涘	zqzxəA
-騃	zqzxəA
-𥏳	zqzxəA
-𢓪	zqzxəA
+俟	ZxəA		#大也#訓竢#䇃  #𠤕矣s-ɢ V-?#矣 㠯已巳 矣L-eo
+竢	ZxəA		#𥏳𢓪#䇃
+𥏳	ZxəA
+𢓪	ZxəA
+涘	ZxəA		#汜
+騃	ZxəA
 #?
 𠂔	tSxəA	2		#i
 笫	tSxəA	2
@@ -5156,7 +5156,7 @@ import_tables:
 譺	Ciəs
 㽈	Ciəs
 儗	Ciəs
-矣	XziəA		#ɢ V-疑𠤕
+矣	XziəA		#ɢ V-疑𠤕? #矣q-eo
 𦮸	XziəA
 誒	Csiəq		#ŋ̥ Cs?
 㶼	Csiəq
@@ -5320,7 +5320,7 @@ import_tables:
 𥝌	Cqoəs	9		#訓礙
 毐	Aoəq
 毐	AoəA
-埃	Aoəq
+埃	Aoəq		#矣L-eo #矣A-eo 嘆䛐
 唉	Aoəq
 㶼	Aoəq
 欸	Aoəq
@@ -7498,7 +7498,7 @@ import_tables:
 㽰	Sxoq
 䟽	Sxoq
 蔬	Sxoq
-疎	Sxoq		#疏疋
+疎	Sxoq		#疏-疋聲
 綀	Sxoq
 踈	Sxoq
 踈	Sxos
@@ -7648,7 +7648,7 @@ import_tables:
 䪔	bFvioA
 荂	qsvioq
 荂	pFhvioq
-巫	cmFvioq		#?不同无
+巫	c-mFvioq		#?不同无
 𠳄	mFvioq
 𢍮	mFvioq
 誣	mFvioq
@@ -7720,9 +7720,9 @@ import_tables:
 𣞒	pFhvioq
 陚	pFvios
 賦	pFvios
-雨	cqvios		#雨羽相異
-雨	cqvioA
-𠕲	cqvioA
+雨	c-qvios		#雨羽相異
+雨	c-qvioA
+𠕲	c-qvioA
 羽	qvios
 羽	qvioA
 䨒	qvios
@@ -17672,7 +17672,7 @@ import_tables:
 ##-m?
 𥷰	dzeen		#-m?
 𥮒	dzeen	2		#-m?
-睼	theez		#是-r?
+睼	theez		#是t-e-n?
 ###ven
 蠲	kqven		#-ŋ益血? 溢
 ##vin
@@ -19972,7 +19972,7 @@ import_tables:
 # 賉	sqyit
 # 欰	sqyit
 欥	Jqyit		#曰
-噊	zqcyit
+噊	zqcyit		#矞
 潏	zqcyit
 鱊	zqcyit
 驈	zqcyit
@@ -19984,7 +19984,7 @@ import_tables:
 䤎	kyit
 𣎛	kyit
 獝	hyit
-矞	Jqyit		#ɢ V-
+矞	Jqyit		#ɢ V-#矞
 燏	Jqyit
 鷸	Jqyit
 驈	Jqyit
@@ -23026,24 +23026,24 @@ import_tables:
 蠁	hiax
 𧬰	hiax
 羻	khiax
-涼	cljaC		#京 cRa 涼梁相異
-凉	cljaC
-𩗬	cljaC
-椋	cljaC
-䝶	cljaC
-綡	cljaC
-𣄴	cljaC
-㹁	cljaC
-䣼	cljaC
-輬	cljaC
-亮	cljax		#京
-諒	cljax
-掠	cljax
-㹁	cljax
-𣄴	cljax
-𩗬	cljax
-䁁	cljax
-涼	cljax
+涼	c-ljaC		#京 cRa 涼梁相異
+凉	c-ljaC
+𩗬	c-ljaC
+椋	c-ljaC
+䝶	c-ljaC
+綡	c-ljaC
+𣄴	c-ljaC
+㹁	c-ljaC
+䣼	c-ljaC
+輬	c-ljaC
+亮	c-ljax		#京
+諒	c-ljax
+掠	c-ljax
+㹁	c-ljax
+𣄴	c-ljax
+𩗬	c-ljax
+䁁	c-ljax
+涼	c-ljax
 弶	giax
 梁	ljaC		#cR？
 粱	ljaC
@@ -26087,7 +26087,7 @@ import_tables:
 昇	stcjəC
 陞	stcjəC
 抍	stcjəC
-寔	dcjək
+寔	dcjək		#是t-eo-k =㞢t-eo
 湜	dcjək
 遈	dcjək
 息	sjək		#自

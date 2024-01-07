@@ -169,25 +169,35 @@ use_preset_vocabulary: true
 # 肟	Avos
 肼	tsjeg
 腈	tsjeC
-氰	tsheeC		#靑 cyanogen
-氰	dzjeC
-胂	scjiz
 䶽	tsouC		#肼酮
 腙	tsouC
 脲	neevsk
 胍	kfaq
 胍	kaaq
+䏲	theiq
+胺	Aoan		#amine 同氨 不異讀
 胺	Aoaz
+膦	ljin		#phosphine
 膦	ljiz
-氨	Aoan
-𠼞	Aoaq
-碸	piuC		#sujAfone
-# 䏲	theiq
-# 鎓	AouC		# onium
-鏻	ljin
+胂	scjin		#arsine
+胂	scjiz
+氰	tsheeC		#cyanogen 靑气
+氨	Aoan		#ammonia
+𠼞	Aoak		#ammonia
+碸	piuC		#sulfone
+磺	EvaC		#sulfo
+鎓	AouC		#-onium 後綴 巳弃用
+𨦡	Jjag		#oxonium salts
+𨦡	JjaC
+鏻	ljin		#phosphonium
+鏻	ljid		#
+鉮	scjin		#arsonium
+鉮	scjid		#陽平不用
+銨	Aoan		#ammonium
 銨	Aoad
-鋞	khjeC
+鋶	ljuvq		#sulphonium
 鋶	ljuvA
+鋞	khjeC		#hydrogenium
 ⿰金西	soʌjq
 𲇊	soʌjq
 錆	tsheeC
@@ -281,6 +291,7 @@ use_preset_vocabulary: true
 鎵	kaaq
 鍺	tcjaA
 砷	scjin
+砒	pheiq
 硒	soʌjq
 溴	hiuvs
 氪	khoək
@@ -10404,7 +10415,8 @@ use_preset_vocabulary: true
 ##常
 嫦	dzciaC
 樘	doaC
-###辵
+###辵 疏-㐬
+𦠦	Sioq
 𣥆	thRiak
 ###𤕦
 𠽽	nRaaC		#1	#𧂘
