@@ -60,9 +60,11 @@ speller:
   delimiter: " '"
   algebra:
 ###########
-    - derive/([\w])oov([qAs])$/$1əu$2/ #ov 侯
-    - derive/([\w])iov([qAs])$/$1eu$2/ #ov 幽 eu=eiu
-    - derive/([\w])iəv([qAs])$/$1iu$2/ #ov 尤
+    - derive/-//
+
+    - derive/[o]ov([qAs])$/əu$1/ #ov 侯
+    - derive/[jrxi]ov([qAs])$/eu$1/ #ov 幽 eu=eiu
+    - derive/[jrxi]əv([qAs])$/iu$1/ #ov 尤
 # # # # # # # 
     - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
     - derive/^(pFh|pF|bF|mF)(?!$)/IF/
