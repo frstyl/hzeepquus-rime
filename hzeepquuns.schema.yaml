@@ -472,23 +472,6 @@ lookup:
   dictionary: hzeepquuns
   overwrite_comment: false
   comment_format:
-    # - xform/[\w]-//
-    - xform/-//
-    # - xform/^s[LRnmCq]s?/s/
-    # - xform/^z[LRnmCq]s?/z/
-    # - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/
-    # - xform/^[nL]sc/sc/
-    # - xform/^z(ns?|Ls?|Cs?|[ptkbdgnmCq])c/zc/
-    # - xform/^[nL]zc/zc/
-    - xform/A/ʔ/
-    - xform/E/ɦ/
-    # - xform/^(hms|hns|hCs|hqs|hLs|hxs|hsq|ngs|Cs|ms|qs|Xs|hs)/h/
-    # - xform/^([LRn]sh)/th/
-    # - xform/^(L|Rz)/d/
-    - xform/^JL/J/
-    - xform/^(hqz|Xqz|JXq?|xz|qz|Xz|X)/q/
-    - xform/C/ŋ/
-    # - xform/([rs])[ptk]$/$1/
 
 punctuator:
   import_preset: symbols
