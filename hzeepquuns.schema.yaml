@@ -66,8 +66,8 @@ speller:
   algebra:
 ####
     - derive/-//
-    - derive/ə/eo/
     - derive/ʌ/oe/
+    - derive/ə/eo/
     - derive/\w-//
 ##補
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
@@ -106,7 +106,7 @@ speller:
     - derive/e(ə)/$1/ #e四等 ea
     - derive/(e)(a|e|i|u|ə)/$1/ #e四等 
 
-    - abbrev/[jrx]([aeiouəʌ;])/$1/ #i=jx
+    - abbrev/[jrx]([aeiouəʌ;])/i$1/ #i=jx
     - abbrev/[yw]([aeiouəʌ;])/u$1/
 
     - derive/vi([aeiou]|ə|ʌ|;)/u$1/ #uə
@@ -262,7 +262,7 @@ speller:
     - xform/(?<!^)ns$/z/
 ####可選 介
     - fuzz/(?<!^)([aiu])(ə|ʌ)/$2$1/
-    - fuzz/(?<!^)(i)([au])/$2$1/
+    # - fuzz/(?<!^)(i)([au])/$2$1/
     - abbrev/(?<!^)([aiu])([aeiou]|ə|ʌ)/$2$1/ #介元序
     - abbrev/(?<!^)([fvjyrxw])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/
     - fuzz/(?<!^)x([aeiouəʌ;])/r$1/ #r=x
