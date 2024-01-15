@@ -438,7 +438,7 @@ use_preset_vocabulary: true
 𠁞	pə hgvujs
 𢆓	pə bxeC
 𣨀	pə sjiA
-𡈯	pə qwon
+𡈯	pə qwen
 𠁒	pə tcjin
 𠀱	pə bvioA
 甭	pə Jjox
@@ -646,6 +646,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+蜰𧔥	buəj-q Jyujq
 𠏃𠋧	Auajq khiaq
 𦣸𩖌	laef tShaam
 𣬠𣬶	keeq paaq
@@ -933,7 +934,7 @@ use_preset_vocabulary: true
 𠆸	miuvA		#侮
 姆	moovA
 ##每
-霉	mxijq
+霉	mxiq
 𡴋	mvojA
 毎	mvojA
 𡴕	mvojA
@@ -1069,9 +1070,10 @@ use_preset_vocabulary: true
 𭻉	biək
 ###伏
 袱	biuk
-###-卩巴
+###-卩肥巴配己
 𡚱	phuəjq
 ##肥
+𭨤	buəj
 𡺮	bxiA
 #
 𡝞	phuəjq		#妃
@@ -1443,8 +1445,8 @@ use_preset_vocabulary: true
 𨷚	phjiz
 𦿜	bjin0
 ###閉
-𨳰	peijs
-𨳯	peijs
+𨳰	peis
+𨳯	peis
 ###畢
 嗶	pjit
 𤲃	pjit
@@ -1715,7 +1717,7 @@ use_preset_vocabulary: true
 蟛	baaC
 ###兵
 捠	paeC
-𠡿	piaC		#兵
+𠡿	pxaC		#兵
 ###㫄旁
 耪	phoag
 ###丙
@@ -2056,6 +2058,7 @@ use_preset_vocabulary: true
 𠟟	buat
 𦋬	buat
 ###犮-t
+𩊊	bvat
 鮁	pvat
 鼥	bvat
 𡗜	bvat
@@ -2877,7 +2880,7 @@ use_preset_vocabulary: true
 䡺	qwer
 #
 𠅤	Evejs
-𨎥	zyijs
+𨎥	zyis
 恵	Evejs		#1		#𤰔叀 惠
 𢞨	Evejs
 𢞯	Evejs
@@ -3114,7 +3117,7 @@ use_preset_vocabulary: true
 ###炭
 𢾋	thoaz		#1		#𣁗文-攴
 𢾡	thoaz
-###𢎟
+###𢎟=彈
 𢎝	doaz
 𢎚	doaz
 𢎟	doaz
@@ -3231,9 +3234,9 @@ use_preset_vocabulary: true
 𰠨	seejq
 𡳚	seejq		#犀
 ###自
-𨈻	dzjijs
-𥃭	dzjijs
-𩐍	dzjijs
+𨈻	dzjis
+𥃭	dzjis
+𩐍	dzjis
 #
 𩓑	bjit		#1		#䫁
 𦤫	bjit
@@ -3348,9 +3351,9 @@ use_preset_vocabulary: true
 𪗎	tseejq
 𧅱	tseejq
 ###次
-㰷	tsjijs
-𣣰	tsjijs
-𣧋	tsjijs
+㰷	tsjis
+𣣰	tsjis
+𣧋	tsjis
 𠤣	tshjis
 𠤫	tshjis
 𣬌	tshjis
@@ -3563,11 +3566,11 @@ use_preset_vocabulary: true
 𠢎	giuvA
 桕	giuvA
 ###季
-𡥞	kyijs
-𧇯	kyijs		#𧆰
-𡦠	kyijs
-𩐄	kyijs
-𩐖	kyijs
+𡥞	kyis
+𧇯	kyis		#𧆰
+𡦠	kyis
+𩐄	kyis
+𩐖	kyis
 ###几
 𣬠	kiəjq
 ###旨
@@ -3679,11 +3682,11 @@ use_preset_vocabulary: true
 刉	giəjq
 𣢆	kiəjs
 ###棄弃
-𠆉	khjijs
-𠔚	khjijs
-𠬇	khjijs
-𢍞	khjijs
-𣓪	khjijs
+𠆉	khjis
+𠔚	khjis
+𠬇	khjis
+𢍞	khjis
+𣓪	khjis
 ###癸
 𬝢	kyiA
 𬞂	kyiA
@@ -3935,8 +3938,8 @@ use_preset_vocabulary: true
 𤛼	leiq
 䵓	leiq
 #
-𥝤	ljijs
-𥝢	ljijs
+𥝤	ljis
+𥝢	ljis
 ###累厽
 𠫯	lyeA
 ##
@@ -4189,7 +4192,7 @@ use_preset_vocabulary: true
 𠰟	dRiuvq
 𢑔	dRiuvq
 𢑜	dRiuvq
-籌	dRiuvq
+# 籌	dRiuvq
 𥴳	dRiuvq
 𢤉	dRiuvq
 𢥰	dRiuvq
@@ -4200,7 +4203,7 @@ use_preset_vocabulary: true
 𦒯	doavs
 𣫟	doavs
 𦒇	doavs
-濤	doavq
+# 濤	doavq
 𤁟	doavq
 𤃕	doavq
 𭳍	doavq
@@ -5369,7 +5372,6 @@ use_preset_vocabulary: true
 𧇇	dzoajq
 ###乍
 怎	tsjib		#五音集韻
-炸	tRaas
 𠁙	dzRaas
 ###宁
 𫦵	dzcioA
@@ -5973,6 +5975,8 @@ use_preset_vocabulary: true
 𡱏	EfaA
 ###𠀀
 ###兮
+䂆	kheek
+𥍧	kheek
 肹	hiət
 𦙝	hiət
 𦜱	hiət
@@ -7811,13 +7815,13 @@ use_preset_vocabulary: true
 𡰫	nRxed
 𥑊	nRxed
 ###替
-暜	theijs
-朁	theijs
-㬱	theijs
-㬱	theijs
-𤽽	theijs
-𤾕	theijs
-𰤚	theijs
+暜	theis
+朁	theis
+㬱	theis
+㬱	theis
+𤽽	theis
+𤾕	theis
+𰤚	theis
 ###典
 覥	theed
 琠	teed
@@ -8471,10 +8475,10 @@ use_preset_vocabulary: true
 𩃘	dvan
 𥮔	dvan
 𦁆	dzcyez		#𢮨
-𦁆	hqzvijs		#繐
-𬘄	hqzvijs		#繐
-𦑐	hqzvijs		#𦒎
-𬹢	hqzvijs		#蟪
+𦁆	hqzvis		#繐
+𬘄	hqzvis		#繐
+𦑐	hqzvis		#𦒎
+𬹢	hqzvis		#蟪
 ##專
 专	tscyen	0
 専	tscyen		#1		#𤰔叀 專
@@ -8571,7 +8575,7 @@ use_preset_vocabulary: true
 ###七
 齓	tShxid
 𠮟	tschjit
-𨾅	tshjijs
+𨾅	tshjis
 𫜸	tschjit
 ###夋
 朘	tsyen
@@ -8607,6 +8611,8 @@ use_preset_vocabulary: true
 ###山
 舢	Saen
 奾	sjen
+𠙸	saen
+𡶸	saen
 山	saen
 ##仙
 仚	sjen
@@ -8652,8 +8658,8 @@ use_preset_vocabulary: true
 ###鱻
 䲆	sjen
 ###切
-𪥂	tsheijs
-𭃄	tsheijs		#古七
+𪥂	tsheis
+𭃄	tsheis		#古七
 ###屑㞕䏌
 𪙇	tsheet
 #
@@ -8724,7 +8730,6 @@ use_preset_vocabulary: true
 奸	kaan
 # 訐	kxet
 刋	khqoan		#1		#刊
-干	koaR
 #
 𬼽	kqoan
 ##旱
@@ -10015,7 +10020,7 @@ use_preset_vocabulary: true
 蒽	Aoʌn
 摁	Aoʌz
 ###壹-吉
-𡤵	Axijs
+𡤵	Axis
 壱	Ajit
 夁	Ajit
 𡔾	Ajit
@@ -12134,6 +12139,8 @@ use_preset_vocabulary: true
 ###肯肎
 啃	khoʌd
 ###𢛢亙
+𣍭	koəCq
+𦚸	koəCq
 𫰟	EoəC
 ##恆
 𣈶	koəx
@@ -13308,6 +13315,7 @@ use_preset_vocabulary: true
 ###十
 ###卅𠦄
 ###言
+䛋	Efajs		#𧧐
 𧧐	syit		#訹
 䛜	sjiz		#訊
 誫	tscjiz
@@ -13367,7 +13375,7 @@ use_preset_vocabulary: true
 ###皮
 ###㼱
 ###攴
-攵	phouk		#1		#攴
+𢼄	kius
 㳊	Jiuvq
 䍩	Jiag
 𢽴	touk
@@ -13388,6 +13396,7 @@ use_preset_vocabulary: true
 𢼔	hoajA
 𢾤	tRxim
 𢿴	hxip
+攵	phouk		#1		#攴
 ###攴
 𰕆	puax
 𢻰	JiəA
@@ -14027,6 +14036,7 @@ use_preset_vocabulary: true
 ###能
 ###熊
 ###火
+炸	tRaas		#灹+煠
 𰞱	hoA
 𤋼	hoA
 𤆽	dzwed
