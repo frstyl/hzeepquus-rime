@@ -5834,53 +5834,6 @@ use_preset_vocabulary: true
 𩠝	Jiəq
 𩠛	Jiəq
 𩠛	Jiəq
-###処
-𠢅	gxen
-䖏	khios
-###虎虍
-錿	hoA
-𬟩	hoq
-𧆸	thvojq
-# 虍	hooA
-𩲼	hooA
-𩳰	hooA
-𧇊	khweq
-𧟯	khweq
-𮓩	khweq
-𮦱	khweq
-#
-𪋕	hooA
-𪊖	hooA
-𧇂	hooA
-𧆞	hooA
-𢋪	hooA
-𢁺	hooA
-𠪳	hooA
-俿	hooA
-虝	hooA
-乕	hooA
-𤟝	hooA
-𧆢	hooA
-𧆮	hooA
-𧇁	hooA
-𬻉	hooA
-𭅯	hooA
-𭅰	hooA
-𭆄	hooA
-𭘑	hooA
-𮓗	hooA
-𮓙	hooA
-𮓜	hooA
-𰓳	kqfak		#0
-##慮
-櫖	thRioq
-濾	lios
-###盧
-卢	looq	0
-𥃈	looq
-𧆨	looq
-𭾊	looq
-𭾐	looq
 ###午
 𰅭	CqooA		#午
 ###魚
@@ -5984,11 +5937,58 @@ use_preset_vocabulary: true
 𡗳	Eeq
 𬺸	Eeq
 𬺺	Eeq
+###処
+𠢅	gxen
+䖏	khios
+###虎虍
+錿	hoA
+𬟩	hoq
+𧆸	thvojq
+# 虍	hooA
+𩲼	hooA
+𩳰	hooA
+𧇊	khweq
+𧟯	khweq
+𮓩	khweq
+𮦱	khweq
+#
+𪋕	hooA
+𪊖	hooA
+𧇂	hooA
+𧆞	hooA
+𢋪	hooA
+𢁺	hooA
+𠪳	hooA
+俿	hooA
+虝	hooA
+乕	hooA
+𤟝	hooA
+𧆢	hooA
+𧆮	hooA
+𧇁	hooA
+𬻉	hooA
+𭅯	hooA
+𭅰	hooA
+𭆄	hooA
+𭘑	hooA
+𮓗	hooA
+𮓙	hooA
+𮓜	hooA
+𰓳	kqfak		#0
+##慮
+櫖	thRioq
+濾	lios
+###盧
+卢	looq	0
+𥃈	looq
+𧆨	looq
+𭾊	looq
+𭾐	looq
 ###虖
 𧆪	hooq
 𮓣	hooq
 𰲙	hooq
-###乎
+###乎-虖-虍
 乎	hooq
 𢧶	hooq
 烀	hooq
@@ -5997,7 +5997,7 @@ use_preset_vocabulary: true
 # 𠂞	hqzvoq
 𠂠	hqzvoq
 𤓳	hqzvoq
-###有
+###有-又
 峟	qiuvs
 迶	qiuvs
 𪠥	quəA
@@ -6007,6 +6007,7 @@ use_preset_vocabulary: true
 ###又
 彐	qiuvs	1		#又 彐彑kxer變體 ⺕
 𫜹	qiuvs
+汉	qwiA		#洧
 ###雨
 # 兩	qvioA
 𠕒	qvioA
@@ -8053,7 +8054,8 @@ use_preset_vocabulary: true
 𱪻	ncjen
 𱫙	ncjen
 𱫧	ncjen
-###難
+###難𦰩
+𦰩	noaq
 𧆖	noan
 𢺋	thoan
 㸐	ncjen

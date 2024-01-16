@@ -254,7 +254,7 @@ speller:
     # - xform/(?<!^)v(k)$/$1/
     - fuzz/(?<!^)v(k)$/$1/
 
-    - xform/(?<!^)([CmnR])q$/$1/
+    - xform/(?<!^)([Cmn])q$/$1/
     - xform/(?<!^)(ng|C|c)A$/g/
     - xform/(?<!^)(ng|C|c)s$/x/
     - xform/(?<!^)mA$/b/
@@ -263,6 +263,7 @@ speller:
     - xform/(?<!^)ns$/z/
 ####
 ##𥳑尾
+    # - derive/(?<!^)q$//
     - derive/(?<!^)A$/h/
     - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
@@ -328,20 +329,20 @@ translator:
   enable_completion: false
   preedit_format:
     - xform/;/ə/
-    # - xform/(^|')r/$1th/
-    # - xform/(^|')f/$1ph/
-    # - xform/(^|')v/$1tsh/
-    # - xform/(^|')y/$1kh/
-    # - xform/(^|')w/$1ts/
-    # - xform/(^|')x/$1ŋ/
-    # - xform/(^|')w/$1ʔ/
+    - xform/(^|')r/$1tʰ/
+    - xform/(^|')f/$1pʰ/
+    - xform/(^|')v/$1t͡sʰ/
+    - xform/(^|')y/$1kʰ/
+    - xform/(^|')x/$1t͡s/
+    - xform/(^|')c([jyxrwaeiou]|ə|ʌ|$|')/$1ŋ$2/
+    - xform/(^|')w/$1ʔ/
     # - xform/eo/ə/
     # - xform/ea/ʌ/
     # - xform/hq/ʔ/
     # - xform/ng/ŋ/
     # - xform/hz/ɦ/
-    # - xform/([aeiouəʌ;])h($|')/$1ʔ$2/
-    # - xform/([aeiouəʌ;])c($|')/$1ŋ$2/
+    - xform/([aeiouəʌ;])h($|')/$1ʔ$2/
+    - xform/([aeiouəʌ;])c($|')/$1ŋ$2/
     # - xform/([aeiouəʌ;])g($|')/$1ŋʔ$2/
     # - xform/([aeiouəʌ;])x($|')/$1ŋs$2/
     # - xform/([aeiouəʌ;])b($|')/$1mʔ$2/
