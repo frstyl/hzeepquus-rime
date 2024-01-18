@@ -103,15 +103,15 @@ speller:
     - fuzz/(.i)x/$1z/ #iŋ
 ####介
 ##三等二分
-    # - xform/(.)i(ə|ʌ|a|e|i|o|u|;)/$1j$2/
-    # - xform/(.)u(ə|ʌ|a|e|i|o|u|;)/$1y$2/
+    - derive/i(ə|ʌ|a|e|i|o|u|;)/j$1/
+    - derive/u(ə|ʌ|a|e|i|o|u|;)/y$1/
 
 
-    # - fuzz/[jrxI]([aeiouəʌ;])/i$1/ #i=jx
-    # - fuzz/[ywU]([aeiouəʌ;])/u$1/
+    - fuzz/[jrxI](ə|ʌ|a|e|i|o|u|;)/i$1/ #i=jx
+    - fuzz/[ywU](ə|ʌ|a|e|i|o|u|;)/u$1/
 ##
-    - derive/I/i/
-    - derive/U/u/
+    # - derive/I/i/
+    # - derive/U/u/
     - derive/x([aeiou]|ə|ʌ)/r$1/ #r=x
 
     - derive/o(a|o|ə|ʌ)/$1/ #一等无介音
@@ -180,31 +180,7 @@ speller:
     - derive/^(tsch)/th/
     - derive/^(tsc)/t/
     - derive/^(dzc)/d/
-##古𧜰
-    - derive/^(s[ptkLRnmCq])s/$1/
-    - derive/^z[ptkLRnmCq][sz]/$1/
-    # - derive/^s([ptkbdgnmCqL])c/sc/ #L不c
-    # - derive/^z([ptkbdgnmCqL])c/zc/
-
-    - derive/^((kh|k|g|C)L)[cq]/$1/
-    - derive/^(c[pbm])F/$1/
-##聲母轉寫
-    # - derive/^(hqz|hg|hz)/E/
-    # - derive/^(hq)/A/
-    - derive/^(A)/hq/ #影母
-    - derive/^(E)/hz/ #匣母
-    - derive/^(C)/ng/ #疑母
-    - derive/^(th?|d)(R)/$1rr/ #來母
-    - derive/^(t?)(S)/$1ss/ #生母
-    - derive/^(d?)(Z)/$1zs/ #俟母
-    # - derive/^(L)(?!s)/lz/ L
-    # - derive/^(Lsh)/ls/
-    # - derive/^(R)(?!s)/rz/ R
-    # - derive/^(Rsh)/rs/
-    # - derive/^(kh|hg|k|g|h|C|A)L/$1ll/ #hgL VL AL?
-    # - derive/^([\w]*)-([pbm])F/$1$2ff/
-    - derive/^cmF?/cm/
-####聲補
+##聲補
     # - derive/^([tk]hc|thR|ts[szc]h)/tzh/ #照組tsz sz. tss ss
     # - derive/^([tk]c|tR|ts[szc])/tz/
     # - derive/^([dg]c|dR|dz[szc])/ds/
@@ -220,9 +196,35 @@ speller:
     - derive/^(tshc|tsch)([jy])/kh$2/
     - derive/^(tsc)([jy])/k$2/
     - derive/^(dzc)([jy])/g$2/
+##古𧜰
+    # - derive/^(s[ptkLRnmCq])s/$1/
+    # - derive/^z[ptkLRnmCq][sz]/$1/
+    # - derive/^s([ptkbdgnmCqL])c/sc/ #L不c
+    # - derive/^z([ptkbdgnmCqL])c/zc/
+
+    - derive/^((kh|k|g|C)L)[cq]/$1/
+    - derive/^(c[pbm])F/$1/
+
+    - derive/^([sz][ptkLRnmCq])[sc]/$1/ #心生書s ss sc
+##聲母轉寫
+    # - derive/^(hqz|hg|hz)/E/
+    # - derive/^(hq)/A/
+    - derive/^(A)/hq/ #影母
+    - derive/^(E)/hz/ #匣母
+    - derive/^(C)/ng/ #疑母
+    - derive/^(th?|d)(R)/$1rr/ #來母
+    - derive/^(t?)(S)/$1ss/ #生母
+    - derive/^(d?)(Z)/$1zs/ #俟母
+    # - derive/^(L)(?!s)/lz/ L
+    # - derive/^(Lsh)/ls/
+    # - derive/^(R)(?!s)/rz/ R
+    # - derive/^(Rsh)/rs/
+    # - derive/^(kh|hg|k|g|h|C|A)L/$1ll/ #hgL VL AL?
+
 ####聲-介
     - derive/^(j)[j]([aeiouəʌ;])/$1$2/ #㠯母
     - derive/^(q)u([aeiouəʌ;])/$1$2/ #雲母
+    # - fuzz/^([sz]c)[j]([aeiouəʌ;])/$1$2/ #書
 
     - derive/^(hms)v([ʌəo])/$1$2/ #幫組 一三
     - derive/^(hms)v([ʌəo])/h$2/
@@ -249,7 +251,7 @@ speller:
     # - fuzz/(?<!^)vs(k)$/y$1/
 
     # - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
-    - xform/[ptk]-([sr])$/$1/
+    - xform/[ptk]([sr])$/$1/
     - derive/(?<!^)([fvjyxwaeiouəʌ;][aeiouəʌ;])v(k)$/$1u$2/ #-v-視爲韻
     # - xform/(?<!^)v(k)$/$1/
     - fuzz/(?<!^)v(k)$/$1/
@@ -292,6 +294,7 @@ speller:
     - derive/^(hq|A)/w/
     - derive/^(ng|C)/c/
 
+    - fuzz/^([sz]c)[j]([aeiouəʌ;])/$1$2/ #書
 ##𥳑 首字母
     # - abbrev/^(\w).+$/$1/
     # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
