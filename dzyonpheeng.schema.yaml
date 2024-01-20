@@ -65,6 +65,15 @@ speller:
     - derive/[o]ov([qAs])$/əu$1/ #ov 侯
     - derive/[jrxi]ov([qAs])$/eu$1/ #ov 幽 eu=eiu
     - derive/[jrxi]əv([qAs])$/iu$1/ #ov 尤
+##
+    - derive/^(Lsh[Rc]?|Lsc)/ls/
+    - derive/^(L(?!sh)[Rc]?|JL|Lzc)/lz/
+    - derive/^(Rsh[Rc]?)/rs/
+    - derive/^(R(?!sh)[Rc]?|l)/rz/
+    - derive/^(hms|msF?)/ms/
+    - derive/^(hns|ns[Rc]?)/ns/
+    - derive/^(h?Cs)/ngs/
+    - derive/^(h?qs)/qs/
 # # # # # # # 
     - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
     - derive/^(pFh|pF|bF|mF)(?!$)/IF/
