@@ -103,8 +103,8 @@ speller:
     - fuzz/(.i)x/$1z/ #iŋ
 ####介
 ##三等二分
-    - derive/i(ə|ʌ|a|e|i|o|u|;)/j$1/
-    - derive/u(ə|ʌ|a|e|i|o|u|;)/y$1/
+    - derive/I(ə|ʌ|a|e|i|o|u|;)/j$1/
+    - derive/U(ə|ʌ|a|e|i|o|u|;)/y$1/
 
 
     - fuzz/[jrxI](ə|ʌ|a|e|i|o|u|;)/i$1/ #i=jx
@@ -112,8 +112,6 @@ speller:
 ##
     # - derive/I/i/
     # - derive/U/u/
-    # - derive/i(ə|ʌ|a|e|i|o|u|;)/I$1/
-    # - derive/u(ə|ʌ|a|e|i|o|u|;)/U$1/
     - derive/x([aeiou]|ə|ʌ)/r$1/ #r=x
 
     - derive/o(a|o|ə|ʌ)/$1/ #一等无介音
@@ -180,9 +178,9 @@ speller:
     - derive/^(tsch)/th/
     - derive/^(tsc)/t/
     - derive/^(dzc)/d/
-    - derive/^(tshc|tsch)/kh/
-    - derive/^(tsc)/k/
-    - derive/^(dzc)/g/
+    - derive/^(tshc|tsch)([jy])/kh$2/
+    - derive/^(tsc)([jy])/k$2/
+    - derive/^(dzc)([jy])/g$2/
     - derive/^(ts|dz|s|z)R/$1/
     - derive/^(t)s(h)R/$1$2/
     - derive/^(d)zR/$1/
@@ -495,8 +493,10 @@ abc_segmentor: #混用
 lookup:
   tags: [pinyin,cangjie6_lookup]
   dictionary: hzeepquuns
-  overwrite_comment: false
+  # overwrite_comment: true
   comment_format:
+    - xform/-//
+    - xform/_//
 
 punctuator:
   import_preset: symbols

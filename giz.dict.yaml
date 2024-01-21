@@ -2898,7 +2898,7 @@ use_preset_vocabulary: true
 讏	qwer
 # 躛	qwer
 ###位
-𢓔	qwəjs
+𢓔	qwijs
 ###胃𦞅
 猬	quəjs
 #
@@ -6381,27 +6381,27 @@ use_preset_vocabulary: true
 ###龜
 龜	kuən		#2
 #
-亀	kwəq
-龟	kwəq
-𠁴	kwəq
-𠃾	kwəq
-𤕣	kwəq
-𥥗	kwəq
-𥦣	kwəq
-𧑴	kwəq
-𪚦	kwəq
-𪚧	kwəq
-𪚨	kwəq
-𪚴	kwəq
-𪚿	kwəq
-𬹝	kwəq
-𬺞	kwəq
-𮄣	kwəq
-𮯛	kwəq
-𮯜	kwəq
-𮯝	kwəq
-𮯞	kwəq
-𮯟	kwəq
+亀	kwiq
+龟	kwiq
+𠁴	kwiq
+𠃾	kwiq
+𤕣	kwiq
+𥥗	kwiq
+𥦣	kwiq
+𧑴	kwiq
+𪚦	kwiq
+𪚧	kwiq
+𪚨	kwiq
+𪚴	kwiq
+𪚿	kwiq
+𬹝	kwiq
+𬺞	kwiq
+𮄣	kwiq
+𮯛	kwiq
+𮯜	kwiq
+𮯝	kwiq
+𮯞	kwiq
+𮯟	kwiq
 䦰	kiuvq
 𨵜	kiuvq
 𨷍	kiuvq
@@ -6596,9 +6596,9 @@ use_preset_vocabulary: true
 臭	hiuvs
 嗅	hiuvs
 ###𢌳
-𩒶	kwəA		#1		#頯
-𩓚	kwəA
-𩓰	kwəA
+𩒶	kwiA		#1		#頯
+𩓚	kwiA
+𩓰	kwiA
 ###尤
 尢	qiuvq		#1		#尤
 怣	qiuvq
@@ -11219,6 +11219,20 @@ use_preset_vocabulary: true
 𥍷	tShauC
 ###雙
 𩀝	SauC		#雙
+###薔嗇𥢺
+𣝿	dziaC
+𣞋	dziaC
+𣞱	dziaC
+𣞸	dziaC
+𰔉	dziaC
+𰔩	dziaC
+𤖠	dziaC
+𤖧	dziaC
+𤛷	dziaC
+𱭔	dziaC
+𱭕	dziaC
+𱱙	dziaC
+𣚛	dziaC		#?𧇽
 ###爿
 壮	tSiax	0
 壵	tSiax
@@ -11228,21 +11242,8 @@ use_preset_vocabulary: true
 𢎳	tSiax
 𢩿	tSiax
 𭍼	tSiax
-𣚛	dziaC
-𣝿	dziaC
-𣞋	dziaC
-𣞱	dziaC
-𣞸	dziaC
-𤕽	dziaC
-𰔉	dziaC
-𰔩	dziaC
-𤖠	dziaC
-𤖧	dziaC
-𤛷	dziaC
-𱭔	dziaC
-𱭕	dziaC
-𱱙	dziaC
 𪧇	dZiaC
+𤕽	dziaC
 ##莊𤖄	tSiaC
 #
 𧚌	tSiaC
@@ -12022,7 +12023,25 @@ use_preset_vocabulary: true
 敫	keevs
 敫	keevA
 撽	kheevs
-###嗇
+###嗇-來
+𥢺	Siək
+# 嗇	Siək
+啬	Siək
+𠹫	Siək
+𠻮	Siək
+𠾂	Siək
+𤲝	Siək
+𤲷	Siək
+𤳋	Siək
+𭍠	Siək
+𭍥	Siək
+𮧌	Siək
+𰉒	Siək
+𰣋	Siək
+穯	Siək
+𥣱	Siək
+𱵢	Siək
+𱻶	Siək
 𢿿	Siək
 ###色
 # 赩	hiək
@@ -12191,10 +12210,11 @@ use_preset_vocabulary: true
 𢇭	AiəC
 𢈀	AiəC
 𠩍	AiəC		#2
-###嬰
+###嬰賏
 婴	AjeC	0
 𭒱	AjeC
 桜	AaeC
+𰗻	AaeC
 𰋷	AjeC
 ###戹
 𣲣	Aaek
@@ -14042,7 +14062,7 @@ use_preset_vocabulary: true
 ###熊
 ###火
 𤓤	sjed
-炸	tRaas		#灹+煠
+炸	tsRaas		#灹+煠
 𰞱	hoA
 𤋼	hoA
 𤆽	dzwed
