@@ -171,8 +171,8 @@ speller:
     - derive/^(kh|k|g|C)[cq]/$1/
     - derive/^(th|t|d|n)[cR]/$1/
 
-    - derive/^(t?)S/$1s/ #tsz sz
-    - derive/^(d?)Z/$1z/
+    - derive/^(t?)(S|ss)/$1s/ #tsz sz
+    - derive/^(d?)(Z|zs)/$1z/
     - derive/^(hz|E)/g/
 
     - derive/^(tsch)/th/
