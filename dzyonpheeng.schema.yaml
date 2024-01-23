@@ -61,10 +61,19 @@ speller:
   algebra:
 ###########
     - derive/-//
+    - derive/_//
+    - derive/[Fcq]_//
 
-    - derive/[o]ov([qAs])$/əu$1/ #ov 侯
-    - derive/[jrxi]ov([qAs])$/eu$1/ #ov 幽 eu=eiu
-    - derive/[jrxi]əv([qAs])$/iu$1/ #ov 尤
+    - derive/^(th|t|d|n)[cR]/$1/
+    - derive/^(t?)(S|ss)/$1s/ #tsz sz
+    - derive/^(d?)(Z|zs)/$1z/
+    - derive/^(hz|E)/g/
+
+    - derive/(u)v/$1/ #uv
+    - derive/(ao)v/$1/ #ov
+    # - derive/[o]ov([qAs])$/əu$1/ #ov 侯
+    # - derive/[jrxi]ov([qAs])$/eu$1/ #ov 幽 eu=eiu
+    # - derive/[jrxi]əv([qAs])$/iu$1/ #ov 尤
 ##
     - derive/^(Lsh[Rc]?|Lsc)/ls/
     - derive/^(L(?!sh)[Rc]?|JL|Lzc)/lz/
@@ -126,7 +135,7 @@ speller:
     - derive/(sk|k)$/Uk/
 ##
     - derive/(?<!^)g$/CA/
-    - derive/(?<!^)q$/Cs/
+    - derive/(?<!^)x$/Cs/
     - derive/(?<!^)b$/mA/
     - derive/(?<!^)f$/ms/
     - derive/(?<!^)d$/nA/
@@ -135,12 +144,7 @@ speller:
     - derive/(?<!^)r$/js/
     - derive/(?<!^)w$/vA/
     - derive/(?<!^)y$/vs/
-    - derive/([aeiouəʌ;])j['q]$/$1/
-    # - derive/([aeiouəʌ;])['q]$/$1/
-    - derive/(?<!^)A$/h/
-    - derive/(?<!^)C$/c/
-    # - derive/(?<!^)A$/hq/
-    # - derive/(?<!^)C$/ng/
+
     - abbrev/(?<!^)j['q]$/j/
     - abbrev/(?<!^)jA$/l/
     - abbrev/(?<!^)js$/r/
@@ -150,6 +154,11 @@ speller:
     - derive/(?<!^)vsk/y/
     - derive/(?<!^)vs(k)/y$1/
 
+    # - derive/([aeiouəʌ;])['q]$/$1/
+    - derive/(?<!^)A$/h/
+    - derive/(?<!^)C$/c/
+    - derive/j['q]$/$1/
+    - derive/(?<!^)q$//
 ##轉寫
     - derive/-//
     - derive/^(J)/j/
