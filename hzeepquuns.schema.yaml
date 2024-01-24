@@ -116,12 +116,12 @@ speller:
     # - derive/U/u/
     - derive/x([aeiou]|ə|ʌ)/r$1/ #r=x
     - derive/r([aeiou]|ə|ʌ)/x$1/ #r=x
+    - derive/v[jrxi]([aeiou]|ə|ʌ|;)/u$1/ #uə
 
     - derive/o(a|o|ə|ʌ)/$1/ #一等无介音
     - derive/e(ə)/$1/ #e四等 ea
     - derive/(e)(a|e|i|u|ə)/$1/ #e四等 
 
-    - derive/vi([aeiou]|ə|ʌ|;)/u$1/ #uə
     - derive/v[jrxi]ə/u/ #uə
     - derive/[jrxi](ə|ʌ)/i/ #i
     - derive/[ywu](ə|ʌ)/u/ #i

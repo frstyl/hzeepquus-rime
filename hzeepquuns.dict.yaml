@@ -5041,7 +5041,6 @@ import_tables:
 胏	tssxij-A
 柹	DZZxij-A
 #
-孴	CiəA
 僖	hiəq
 歖	hiəq
 嬉	hiəq
@@ -5167,6 +5166,7 @@ import_tables:
 㶼	hCsiəq
 娭	hCsiəq
 䀵	Cscjəq		#?
+孴	CiəA		#薿 盛皃
 ##
 㓼	tsshxəA		#桼
 䰡	thRxət-r		#失
@@ -5206,7 +5206,7 @@ import_tables:
 潩	JLjək-s
 䔬	JLjək-s
 廙	JLjək-s
-𦱓	sL-jəA		#s-Ls
+𦱓	sL-jəA		#s-Ls萆
 𠪙	sL-jəA
 禩	zL-jəA		#s-Lz
 异	JLjəq
@@ -7473,14 +7473,6 @@ import_tables:
 助	dzsxos
 筯	dRxos
 盨	ssxoA
-𠿝	tsshxoq
-楚	tsshxoA
-濋	tsshxoA
-憷	tsshxoA
-齼	tsshxoA
-礎	tsshxoA
-楚	tsshxos
-儊	tsshxos
 筡	LshRxoq
 悇	LshRxos
 㾻	LshRxos
@@ -7494,6 +7486,14 @@ import_tables:
 㾻	LRxos
 釃	ssxoq
 𦌿	ssxoq
+𠿝	tsshxoq
+楚	tsshxoA		#疋
+濋	tsshxoA
+憷	tsshxoA
+齼	tsshxoA
+礎	tsshxoA
+楚	tsshxos
+儊	tsshxos
 疋	ssxoq
 𤕟	ssxoq
 梳	ssxoq
@@ -8910,7 +8910,7 @@ import_tables:
 涗	Lscyot-r
 䓲	JLyot-r
 脃	tshyot-r		#肉膬
-脆	tshyot-r
+脆	tshyot-r		#俗
 蕝	tsyot-r
 汭	ncyop-r
 枘	ncyop-r
@@ -11919,7 +11919,7 @@ import_tables:
 𧜰	biuk-s
 𢕒	biuk-s
 復	biuk-s	9
-複	biuk-s	9		#重複
+複	biuk-s	9		#複
 𤸑	biuk-s
 椱	biuk-s
 𧠃	pF_hiuk-s
@@ -12553,7 +12553,7 @@ import_tables:
 𠞈	toap
 𩝣	toap
 䪚	toap
-𦐇	thoap		#習?
+𦐇	thoap		#習?#𦐇t-a-p?
 榻	thoap
 毾	thoap
 鰨	thoap
@@ -14257,7 +14257,7 @@ import_tables:
 𨊳	sjəm
 杺	sjəm
 伈	sjəb
-孴	JLjəp
+孴	JLjəp		#?孨
 ###xim
 ##xam?		#ə?u?
 𩖄	khxib
@@ -14479,7 +14479,7 @@ import_tables:
 㱞	Cxəp
 苙	gxəp
 𦶍	gxəp
-泣	khxəp		#立 Ljip
+泣	khxəp		#立R-eo-p
 煜	qxəp
 襟	kxəm
 㦗	kxəm
@@ -23450,7 +23450,7 @@ import_tables:
 ##avk ja
 藥	JLjavk		#L- R?療#樂a?e?
 𤄶	JLjavk
-爍	Lscjavk		#L? ŋ?#樂L-a-v-k
+爍	Lscjavk		#L? ŋ?#樂L-a-v-k##樂C-R-a-v-k
 鑠	Lscjavk
 㜰	Lscjavk
 䁻	Lscjavk
@@ -23458,7 +23458,7 @@ import_tables:
 櫟	JLjavk
 纅	JLjavk
 㜰	JLjavk
-擽	ljavk
+擽	ljavk		#R-
 虐	CIavk		#av
 𧆱	CIavk
 瘧	CIavk
@@ -26358,9 +26358,14 @@ import_tables:
 淢	qwək
 𦱂	qwək
 ##-p
-翊	JLjək		#立 -p
-𥡪	JLjək
-翌	JLjək
+翊	Jjək		#立R-eo-p#翊L-eo-k?#昱L-u-k?
+𥡪	Jjək
+翌	Jjək
+#
+喅	Jqjəp
+翊	Jqjəp		#立 -p
+𥡪	Jqjəp
+翌	Jqjəp		#q-?
 ####oŋ 東鍾江
 ###oŋ
 㬝	souC
@@ -27033,9 +27038,9 @@ import_tables:
 朷	moavk
 棴	soavk
 熇	hoavk
-濼	phoavk		#樂
+濼	phoavk		#樂?
 嚛	hoavk
-觻	loavk
+觻	loavk		#樂
 濼	loavk
 鎐	tsoavk
 毣	moavk
@@ -28012,7 +28017,7 @@ import_tables:
 鉵	LooC
 赨	LooC
 㼻	dzooC
-㗢	hgooC		#?
+㗢	hgooC		#?重
 㗢	hgoox
 湩	toog
 攻	kq_ooC	2
@@ -28290,24 +28295,7 @@ import_tables:
 崇	dzsxuC
 崈	dzsxuC
 㓽	dzsxux
-##jəŋ
-瞢	mF_vIəC
-夢	mF_vIəC	2
-鄸	mF_vIəC
-懜	mF_vIəC
-𦫰	mF_vIəC
-𧲎	mF_vIəC
-夢	mF_vIəx
-㝱	mF_vIəx
-鄸	mF_vIəx
-䠢	mF_vIəx
-瞢	mF_vIəx
-馮	bF_vIəC		#仌
-𨝭	bF_vIəC
-雄	XzvIəC		#厷
-熊	XzvIəC		#
-熋	XzvIəC
-#
+##
 𧆉	pF_vxəm
 芃	bF_vxəm
 梵	bF_vxəm
@@ -28347,6 +28335,31 @@ import_tables:
 鳳	bF_iux
 𠤈	bF_iux
 𪆍	bF_iux
+##-p?
+昱	Jjuk		#立R-eo-p#䗑-ip#昱L-u-k?
+煜	Jjuk
+喅	Jjuk
+#
+昱	Jqjəp		#L-?q-?
+煜	Jqjəp
+喅	Jqjəp
+##jəŋ
+瞢	mF_vIəC
+夢	mF_vIəC	2
+鄸	mF_vIəC
+懜	mF_vIəC
+𦫰	mF_vIəC
+𧲎	mF_vIəC
+夢	mF_vIəx
+㝱	mF_vIəx
+鄸	mF_vIəx
+䠢	mF_vIəx
+瞢	mF_vIəx
+馮	bF_vIəC		#仌
+𨝭	bF_vIəC
+雄	XzvIəC		#厷
+熊	XzvIəC		#
+熋	XzvIəC
 ##Iək vIək
 虙	bF_vIək		#伏
 伏	bF_vIək
@@ -28637,10 +28650,6 @@ import_tables:
 莤	ssxuk
 𧽏	ssxuk
 謏	ssxuk
-##-p?
-昱	JLjuk		#立 䗑-ip
-煜	JLjuk
-喅	JLjuk
 ##
 燠	Aiuk		#奧
 噢	Aiuk	2
