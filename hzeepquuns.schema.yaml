@@ -93,9 +93,9 @@ speller:
     - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun
     - fuzz/(ə|ʌ)([mbfpvwy])/o$2/ #əm
 ##韵介尾
-    - derive/v[jrxi]ə/u/ #uə
-    - derive/[jrxi](ə|ʌ)/i/ #i
-    - derive/[ywu](ə|ʌ)/u/ #i
+    - derive/v[Ijrxi]ə/u/ #uə
+    - derive/[Ijrxi](ə|ʌ)/i/ #i
+    - derive/[Uywu](ə|ʌ)/u/ #i
     - fuzz/[Ijrxi](i)/i/ #i
     - fuzz/[Uywu](i|u)/u/ #u
 
