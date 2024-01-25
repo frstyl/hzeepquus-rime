@@ -5221,8 +5221,7 @@ use_preset_vocabulary: true
 𫨘	Jjevk
 𥌉	Jjevk
 ###翟
-戳	thRauk
-𣤩	thRaek
+戳	thRauk		#㪬
 𩱶	Jjevs		#1		#𩱲
 耀	Jjevs		#燿
 矅	Jjevs
@@ -5403,11 +5402,14 @@ use_preset_vocabulary: true
 敘	zioA
 𣁏	zioA
 叙	zioA
+稌	dzcioq
+𱑷	Jioq
+##舍
 舎	scjas		#1		#舍
 舎	scjaA
 畭	scjaq		#畬
-稌	dzcioq
-𱑷	Jioq
+𦧶	scjas
+猞	scjaq
 ##
 佘	dzcjaq
 佘	zcjaq
@@ -5748,9 +5750,6 @@ use_preset_vocabulary: true
 𧶌	tSaek
 ###膝桼
 𠟴	tShiəA		#1		#㓼
-###舍
-𦧶	scjas
-猞	scjaq
 ###俞兪
 䵉	doovq
 #
@@ -5999,10 +5998,10 @@ use_preset_vocabulary: true
 𢧶	hooq
 烀	hooq
 #
-# 乊	hqzvoq
-# 𠂞	hqzvoq
-𠂠	hqzvoq
-𤓳	hqzvoq
+# 乊	Evoq
+# 𠂞	Evoq
+𠂠	Evoq
+𤓳	Evoq
 ###有-又
 峟	qiuvs
 迶	qiuvs
@@ -6024,7 +6023,7 @@ use_preset_vocabulary: true
 𩁼	qvioA
 𩗿	qvioA
 㲾	qvioA
-𨜄	hqzvoA
+𨜄	EvoA
 ###羽
 𦏲	qvioA
 ###亏于
@@ -6324,10 +6323,10 @@ use_preset_vocabulary: true
 嘩	hfaq		#譁
 嬅	Efas
 #
-𨦚	hqzfaq		#1		#鏵㭉
-𧃭	hqzfaq
-𧄋	hqzfaq
-𧄪	hqzfaq
+𨦚	Efaq		#1		#鏵㭉
+𧃭	Efaq
+𧄋	Efaq
+𧄪	Efaq
 蕐	Efaq
 䔢	Efaq
 𡼀	Efaq
@@ -8212,9 +8211,6 @@ use_preset_vocabulary: true
 吋	tshvoz
 ##村
 ###尊
-###存-才
-𡥂	dzvon
-𰌜	dzvon
 ###疒
 # 𤕬	dzjit
 疔	nRaək
@@ -8394,7 +8390,13 @@ use_preset_vocabulary: true
 𦩨	tsjin
 ##
 𨕨	tseen
-###薦
+###存-才? -ən
+𡥂	dzvon
+𰌜	dzvon
+###薦廌 -ən
+𩍽	tseen
+韉	tseen
+𩎐	tseen
 𣿕	tseen
 𠭶	tseez
 𧄟	tseez
@@ -8477,10 +8479,10 @@ use_preset_vocabulary: true
 𩃘	dvan
 𥮔	dvan
 𦁆	dzcyez		#𢮨
-𦁆	hqzvis		#繐
-𬘄	hqzvis		#繐
-𦑐	hqzvis		#𦒎
-𬹢	hqzvis		#蟪
+𦁆	Evejs		#繐
+𬘄	Evejs		#繐
+𦑐	Evejs		#𦒎
+𬹢	Evejs		#蟪
 ##專
 专	tscyen	0
 専	tscyen		#1		#𤰔叀 專
@@ -9068,7 +9070,7 @@ use_preset_vocabulary: true
 𡰲	Eeen
 𢀵	Eeen
 ###玄
-𢆯	hqzven	9
+𢆯	Even	9
 𠵓	Even
 𤇡	Even
 𤣥	Even		#1		#𤣥𠃋
@@ -9356,33 +9358,33 @@ use_preset_vocabulary: true
 ###瞏睘
 𦊷	gyeC
 𭾪	gyeC
-还	hqzfan	0
-𨕔	hqzfan
-𨖞	hqzfan
-𮟃	hqzfan
+还	Efan	0
+𨕔	Efan
+𨖞	Efan
+𮟃	Efan
 # 閂	Sfan
 𦇏	Eved
-㝨	hqzfan		#2
-𡕅	hqzfan		#2
-𩍡	hqzfan		#2
-𨫑	hqzfan
-䴉	hqzfan		#2
-䴋	hqzfan		#1	
-𢕼	hqzfan		#2
-𤧖	hqzfan
+㝨	Efan		#2
+𡕅	Efan		#2
+𩍡	Efan		#2
+𨫑	Efan
+䴉	Efan		#2
+䴋	Efan		#1	
+𢕼	Efan		#2
+𤧖	Efan
 ##
-𨰄	hqzfan
-㶎	hqzfan
+𨰄	Efan
+㶎	Efan
 𣠯	Sfan		#栓
 𢩠	Sfan
 #
 𧑩	Xsyed
-𡩲	hqzfan
-𡫖	hqzfan
-𨖞	hqzfan
-𨕔	hqzfan
-𤨔	hqzfan
-𩯙	hqzfan
+𡩲	Efan
+𡫖	Efan
+𨖞	Efan
+𨕔	Efan
+𤨔	Efan
+𩯙	Efan
 ##
 𠎽	gyeC
 𡦃	gyeC
@@ -9754,7 +9756,7 @@ use_preset_vocabulary: true
 曰	quot
 ###云雲
 𡄬	Evon
-𠇌	hqzvon
+𠇌	Evon
 #
 𩂱	quən
 𮦖	quən
@@ -13369,9 +13371,6 @@ use_preset_vocabulary: true
 ###䢅
 ###爨
 ###革
-𩍽	ziok
-韉	ziok
-𩎐	ziok
 ###鬲
 ###䰜
 𩱆	Eeem
