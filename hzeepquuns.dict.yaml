@@ -12105,6 +12105,7 @@ import_tables:
 䔏	tsshxuv_k-s
 㩅	thRxuv_q		#抽𢭆#Rs?
 㨨	thRxuv_q		#ks#Rs
+籒	dRxuv_k-s
 籀	dRxuv_k-s
 𢭆	thRxuv_q
 ##?v
@@ -18702,7 +18703,7 @@ import_tables:
 㕣	JLyod
 𧮲	JLyod
 兗	JLyod
-船	Lzcyon
+船	Lzcyon		#沿㕣L-o-n #Lzc=Lc?
 㔯	zL-yon
 沿	JLyon
 鉛	JLyon
@@ -19818,8 +19819,10 @@ import_tables:
 眒	Lscjiz
 抻	Lscjiz
 𥛃	Lzcjin		#Lz? m-L?
-神	Lzcjin
-朄	JLjiz
+神	Lzcjin		#Lc=Lzc?
+# 𣌾	JLjiz		#𣌾𣍃朄#𣌾 東聲#
+# 𣍃	JLjiz
+朄	JLjiz		#𣌾
 𨋙	JLjiz
 伸	Lscjin
 𠲳	scjin
@@ -20928,7 +20931,7 @@ import_tables:
 ##vun
 遯	Lvod
 遯	Lvoz
-豚	Lvon		#豚L-u-n?#彖L-o-n#豕L-a-j
+豚	Lvon		#豚L-u-n?#彖L-o-n#豕L-a-j#豚彖豕溷用
 㦌	hvot		#毳?
 村	tshvon
 忖	tshvod
@@ -26525,7 +26528,7 @@ import_tables:
 𧳆	LshouC
 𨀜	LshouC
 侗	Lshoug
-同	LouC		#L#筒 =用甬
+同	LouC		#L#筒 =用甬桶
 銅	LouC
 桐	LouC
 峒	LouC
@@ -28053,7 +28056,7 @@ import_tables:
 辳	nooC
 𨑋	nooC
 宋	soox
-彤	LooC		#烿
+彤	LooC		#烿肜
 浵	LooC
 苳	tooC
 鴤	tooC
@@ -28257,7 +28260,7 @@ import_tables:
 𩌮	Lzcjok		#𤉐
 𩌮	zL-jok
 𩎇	zL-jok
-肜	JqjuC		#ɢ V-
+肜	JjuC		#ɢ V-?#彤
 𬴥	JLjuC		#L-
 𧖓	JLjuC
 融	JLjuC
