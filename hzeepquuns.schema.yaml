@@ -118,6 +118,7 @@ speller:
     - fuzz/(o)(o|u)/$1/ #oo ou oʌ 一等
 ####介
 ##三等二分
+    - derive/vI(ə|ʌ|a|e|i|o|u|;)/U$1/
     - derive/I(ə|ʌ|a|e|i|o|u|;)/j$1/
     - derive/U(ə|ʌ|a|e|i|o|u|;)/y$1/
 
