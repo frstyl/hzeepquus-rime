@@ -104,9 +104,9 @@ speller:
     - fuzz/([o]ʌ)j/$1/ #ʌ-j
     - fuzz/([ev]e)j/$1/ #e-j
 
-    - fuzz/([eoviujyrxwafIU])C/$1n/ #iŋ
-    - fuzz/([eoviujyrxwafIU])g/$1d/ #iŋ
-    - fuzz/([eoviujyrxwafIU])x/$1z/ #iŋ
+    - fuzz/([eoviujyrxwafIU]i)C/$1n/ #iŋ
+    - fuzz/([eoviujyrxwafIU]i)g/$1d/ #iŋ
+    - fuzz/([eoviujyrxwafIU]i)x/$1z/ #iŋ
 ##韵介尾
     - derive/v[Ijrxi]ə/u/ #uə
     - derive/[Ijrxi](ə|ʌ)/i/ #i
@@ -121,7 +121,6 @@ speller:
     - derive/I(ə|ʌ|a|e|i|o|u|;)/j$1/
     - derive/U(ə|ʌ|a|e|i|o|u|;)/y$1/
 
-
     - derive/[Ijrx](ə|ʌ|a|e|i|o|u|;)/i$1/ #i=jx
     - derive/[Uyw](ə|ʌ|a|e|i|o|u|;)/u$1/
 ##
@@ -130,11 +129,11 @@ speller:
     - derive/x([aeiou]|ə|ʌ)/r$1/ #r=x
     - derive/r([aeiou]|ə|ʌ)/x$1/ #r=x
     - derive/v[jrxi]([aeiou]|ə|ʌ|;)/u$1/ #uə
+    - fuzz/a([aeiou]|ə|ʌ)/l$1/ #l=a
 
     - derive/o(a|o|ə|ʌ)/$1/ #一等无介音
     - derive/e(ə)/$1/ #e四等 ea
     - derive/(e)(a|e|i|u|ə)/$1/ #e四等 
-
 
     - abbrev/[Ijrx]([aeiouəʌ;])/i$1/ #i=jx
     - abbrev/[Uyw]([aeiouəʌ;])/u$1/
@@ -288,7 +287,7 @@ speller:
 ##可選 介 序
     # - fuzz/(?<!^)x([aeiouəʌ;])/r$1/ #r=x
     # - fuzz/(?<!^)r([aeiouəʌ;])/x$1/ #
-    - abbrev/(?<!^)a([aeiouəʌ;])/l$1/ #l=a li=ai=ia
+    # - fuzz/(?<!^)a([aeiouəʌ;])/l$1/ #l=a li=ai=ia
 
     - fuzz/(?<!^)([aiu])(ə|ʌ)/$2$1/
     - fuzz/(?<!^)(i)([au])/$2$1/
