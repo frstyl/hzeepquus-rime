@@ -91,7 +91,7 @@ speller:
     - fuzz/([a])ə([jlrndzt][qAs]?)$/$1o$2/
     - fuzz/([vf])ə([Cgxk][qAs]?)$/$1o$2/
     - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun
-    - fuzz/(ə|ʌ)([mbfpvwy])/o$2/ #əm
+    - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
 ##韻-尾 (-)
 
     # - derive/([eov]a)j/$1/ #aj vuj  vu va
@@ -221,7 +221,7 @@ speller:
     # - derive/^s([ptkbdgnmCqL])c/sc/ #L不c
     # - derive/^z([ptkbdgnmCqL])c/zc/
 
-    - derive/^((kh|k|g|C)L)[cq]/$1/
+    - derive/^(kh|k|g|C|h|A)L[cq]?/$1ll/ ##ll=L(![sz])
     - derive/^(c[pbm])F/$1/
 
     - derive/^([sz][ptkLRnmCq])[sc]/$1/ #心生書s ss sc
