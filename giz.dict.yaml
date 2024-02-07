@@ -980,6 +980,7 @@ use_preset_vocabulary: true
 ##馮
 𠗦	biəC
 ###朋
+綳	paəC
 傰	beoC
 𢲰	piəC
 𢵁	piəC
@@ -1549,7 +1550,6 @@ use_preset_vocabulary: true
 咐	puos
 仅	puos	9
 ###武
-鵡	moovA
 #
 𭟰	muoA
 㱐	muoA
@@ -1668,10 +1668,6 @@ use_preset_vocabulary: true
 𢒧	maaA
 𩡬	maaA
 𫠉	maaA
-𢒗	maaA
-𢒠	maaA
-𢒧	maaA
-𩡬	maaA
 ###夫
 伕	pvioq
 𢺻	bvioq
@@ -2142,6 +2138,7 @@ use_preset_vocabulary: true
 𬡭	poovq
 𮖥	poovq
 ###戊
+茂	mouvA		#子之茂兮
 𭠍	moovs
 ###猋
 飇	pjevq		#飊
@@ -4493,7 +4490,7 @@ use_preset_vocabulary: true
 𤕰	mauvA
 𦕔	mauvA
 卬	mauvA
-夘	mauvA
+# 夘	mauvA
 # 戼	mauvA
 𠨍	mauvA
 𢨯	mauvA
@@ -5603,6 +5600,7 @@ use_preset_vocabulary: true
 𰐽	siəq
 𱞍	siəq
 ###且
+𧠢	tshios
 㸖	tshioq
 𦊕	tsjaq
 𦊥	tsjaq
@@ -5861,6 +5859,10 @@ use_preset_vocabulary: true
 𩠛	Jiəq
 ###午
 𰅭	CqooA		#午
+###馭
+𩤳	Cios
+𩣓	Cios
+𡕺	Cios
 ###魚
 鱼	Cioq	0
 𤉯	Cioq
@@ -7301,6 +7303,8 @@ use_preset_vocabulary: true
 𤮦	doʌm
 罎	doʌm
 ###覃𪉷
+𮆊	deeb
+𥷦	deeb
 罈	doʌm
 墰	doʌm
 覃	zjim
@@ -8710,9 +8714,6 @@ use_preset_vocabulary: true
 𭃄	tshees		#古七
 ###屑㞕䏌
 𪙇	tsheet
-#
-屑	seet		#1		#䏌肖
-屑	svot
 ###先
 𢓠	seen
 ###刪𠜂 删 ?𠕋?册
@@ -9946,7 +9947,7 @@ use_preset_vocabulary: true
 𮫘	Auət
 ###夗
 夘	Auad
-死	Auad	1
+# 死	Auad
 𡖅	Auad
 𢖭	Auad
 ##宛
@@ -11350,8 +11351,7 @@ use_preset_vocabulary: true
 糭	tsoux
 𡕰	tsouC
 ##宗
-棕	tsouC		#2
-鬃	tsouC		#2
+棕	tsooC		#2
 ###乍
 酢	tshoos
 𥹁	tsoavk		#𥽦
@@ -12148,6 +12148,7 @@ use_preset_vocabulary: true
 𭭬	hoak
 𲂜	hoak
 ###各
+𤙑	kaas		#駕
 咯	loak	9
 蕗	loos
 𡅅	Aəq
@@ -13313,6 +13314,9 @@ use_preset_vocabulary: true
 ###正
 ###是
 ###辵
+𨕽	giap
+𨓰	dzjep
+𮞳	dzjep
 𨖷	dZaep
 䢮	deek
 𰻞	piax
@@ -13722,6 +13726,7 @@ use_preset_vocabulary: true
 ###月
 𭨽	kivsaka
 ##
+𰮥	theevq
 𣍦	huax		#?
 # 𣍥	kyit		#?
 𣎕	kfen		#?𥄳  𩹌𩖿
@@ -13750,7 +13755,7 @@ use_preset_vocabulary: true
 𣍟	khoəg		#肯 肉
 𣍟	AvaA		#音猥吐也
 㬳	CooA		#月
-㬸	theevq		#祭名 肉?
+㬸	theevq		#祭名 肉? #脁
 𣎜	Jiəx
 𣎤	bvan		#鞶
 # 𣍧	phoʌjA		#月 朏
@@ -14285,6 +14290,7 @@ use_preset_vocabulary: true
 𢪝	tsjeg
 ###𠦬
 ###女
+㚦	kiəq		#姬 亓
 㚣	kaevA		#姣
 囡	noʌm
 妞	nRiuvq

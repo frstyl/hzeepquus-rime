@@ -99,10 +99,10 @@ speller:
     # - derive/([eoviujyrxwafIU]u)j/$1/
     # - derive/([eoviujyrxwafIU]i)j/$1/ #ij
 
-    - fuzz/([ajx]a)j/$1/ #aa-j jq
-    - fuzz/([af]ə)j/$1/ #ʌ-j
-    - fuzz/([o]ʌ)j/$1/ #ʌ-j
-    - fuzz/([ev]e)j/$1/ #e-j
+    - fuzz/([ajx]a)jq/$1/ #aa-j jq
+    - fuzz/([af]ə)jq/$1/ #ʌ-j
+    - fuzz/([o]ʌ)jq/$1/ #ʌ-j
+    - fuzz/([ev]e)jq/$1/ #e-j
 
     - fuzz/([eoviujyrxwafIU]i)C/$1n/ #iŋ
     - fuzz/([eoviujyrxwafIU]i)g/$1d/ #iŋ
@@ -221,7 +221,7 @@ speller:
     # - derive/^s([ptkbdgnmCqL])c/sc/ #L不c
     # - derive/^z([ptkbdgnmCqL])c/zc/
 
-    - derive/^(kh|k|g|C|h|A)L[cq]?/$1ll/ ##ll=L(![sz])
+    - derive/^(kh|k|g|C|h|A|s|z)L[cq]?/$1ll/ ##ll=L(![sz])
     - derive/^(c[pbm])F/$1/
 
     - derive/^([sz][ptkLRnmCq])[sc]/$1/ #心生書s ss sc
@@ -235,7 +235,7 @@ speller:
     - derive/^(t?)(S)/$1ss/ #生母
     - derive/^(d?)(Z)/$1zs/ #俟母
 
-    # - derive/^(kh|hg|k|g|h|C|A)L/$1ll/ #hgL VL AL?
+    # - derive/L/ll/ #hgL VL AL?
 
 ####聲-介
     - derive/^(j)[j]([aeiouəʌ;])/$1$2/ #㠯母
