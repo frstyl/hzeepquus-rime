@@ -254,7 +254,7 @@ use_preset_vocabulary: true
 氚	soam		#H3 tritium
 氕	pheet		#丿
 氘	toavq		#刀刂
-氚	thcyon		#川
+氚	tschyon		#川
 氦	hgoʌjA		#he helium 
 鋰	ljəA		#li lithium
 鈹	bxajq		#be beryllium
@@ -3810,8 +3810,8 @@ use_preset_vocabulary: true
 𨿫	gxeq
 𱁊	gxeq
 ###𡕒-ajq
-㐄	khfajA
-㐄	khfajs
+㐄	khfaA
+㐄	khfas
 #
 𥫀	hfajq
 𥫇	hfajq
@@ -3903,14 +3903,15 @@ use_preset_vocabulary: true
 #巴
 𦛐	nvaA		#篇海類編
 𦙜	nvaA
-㛂	CqvaA		#1		#㛂?
-𡛣	CqvaA
-㛂	nvaA
-𢫷	CqvaA
 𢫷	nvaA
-𢬯	CqvaA
-𡜮	CqvaA
-𠂬	CqvajA
+𢪦	nvaA
+𢬯	nvaA
+𭡔	nvaA
+𡛣	nvaA
+㛂	nvaA
+𢫷	CvaA
+㛂	CvaA		#1		#㛂?
+𠂬	CvaA
 #
 𠂘	CqvajA
 𢀴	CqvajA
@@ -5147,14 +5148,20 @@ use_preset_vocabulary: true
 𡬮	sciuvA		#2
 𡬴	sciuvA		#2
 ###首
-衜	doavA
 脜	nciuvq		#䐓
 渞	sciuvA
 艏	sciuvA
 ##道
-𣿪	doavA
+𨗓	doavA
+噵	doavA
+𨕥	doavA
+𨖁	doavA
+衜	doavA
+衟	doavA
 𨔞	doavA
 𨕐	doavA
+𠐵	doavA
+𣿪	doavA
 檤	doavA
 𣜦	doavA
 ###卣
@@ -10018,7 +10025,8 @@ use_preset_vocabulary: true
 榅	Avot
 塭	Avon
 鞰	Avon		#韞
-###𥆞𡚇 𡙷
+###𥆞𡚇 𡙷a?o?
+𥆞	kwez
 𡣬	Afen
 𡣬	Awen
 𡣬	Ayen

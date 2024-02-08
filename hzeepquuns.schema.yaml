@@ -221,8 +221,8 @@ speller:
     # - derive/^s([ptkbdgnmCqL])c/sc/ #L不c
     # - derive/^z([ptkbdgnmCqL])c/zc/
 
-    - derive/^(kh|k|g|C|h|A|s|z)L[cq]?/$1ll/ ##ll=L(![sz])
-    - derive/^(c[pbm])F/$1/
+    - derive/^(.+)L-/$1ll/ ##ll=L(![sz])
+    # - derive/^(c[pbm])F/$1/
 
     - derive/^([sz][ptkLRnmCq])[sc]/$1/ #心生書s ss sc
 ##聲母轉寫
