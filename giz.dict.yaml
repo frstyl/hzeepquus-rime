@@ -646,6 +646,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+崴𡾨	
 䃎𥑒	
 𠄍𠄑	kiat kuat
 蜰𧔥	buəj-q Jyujq
@@ -5435,8 +5436,8 @@ use_preset_vocabulary: true
 𦧶	scjas
 猞	scjaq
 ##
-佘	dzcjaq
-佘	zcjaq
+佘	dzcjaq		#余
+# 佘	zcjaq
 畲	scjaq
 賒	scjaq
 ###途
@@ -6168,6 +6169,7 @@ use_preset_vocabulary: true
 虾	Eaaq
 𢗄	EaaA
 ###夏
+厦	EaaA
 𡖃	EaaA
 𠌘	EaaA
 𡕵	Eaas
@@ -6254,7 +6256,9 @@ use_preset_vocabulary: true
 𤓰	kfaq		#1		#瓜
 𣲖	kooq
 ###車
+車	tschjaq
 车	tschjaq	0
+𨏖	tschjaq
 𠦴	tschjaq
 ###𠑹
 𠑼	kooA
@@ -6960,7 +6964,7 @@ use_preset_vocabulary: true
 艓	deep
 鰈	deep
 碟	deep
-鞢	dRaap
+# 鞢	dRaap
 渫	deep
 #
 𡐽	deep
@@ -9499,6 +9503,7 @@ use_preset_vocabulary: true
 ###衮袞
 䙛	kvod
 滾	kvod		#混
+滚	kvod
 蓘	kvod
 ###囷
 𡈀	khwin
@@ -14127,7 +14132,7 @@ use_preset_vocabulary: true
 ###壺
 ###壹
 ###㚔
-𰇶	kook
+𰇶	kook		#梏
 ###奢
 ###亢
 ###夲

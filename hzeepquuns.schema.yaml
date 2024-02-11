@@ -428,7 +428,7 @@ translator:
     - xform/^Xs/h/
     # - xform/^([LRn]sh)/th/
     # - xform/^(L|Rz)/d/
-    - xform/^JL/J/
+    # - xform/^JL/J/
     - xform/^(hqz|Xqz|JXq?|xz|qz|Xz|X)/q/
     - xform/C/ŋ/
     # - xform/([rs])[ptk]($|')/$1/

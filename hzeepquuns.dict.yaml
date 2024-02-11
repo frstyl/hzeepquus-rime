@@ -315,7 +315,7 @@ import_tables:
 魦	svuj-q
 髿	svuj-q
 莏	svuj-q
-𢘿	svuj-q
+𢘿	svuj-q		#莎
 𣜤	svuj-q
 𧴪	svuj-A
 鎖	svuj-A
@@ -891,6 +891,25 @@ import_tables:
 𥝧	baas
 葩	phaaq
 琶	baaq
+馬	maaA
+碼	maaA
+䣕	maaA
+𦋻	maaA
+罵	maaA	1
+𥧓	maaA
+鷌	maaA
+鰢	maaA
+禡	maas
+榪	maas
+㾺	maas
+𦋻	maas
+罵	maas
+䧞	maas
+䣕	maas
+𧪨	maas
+傌	maas
+蟆	maaq
+鬕	maak-s		#ks
 髂	khq_aas		#各k-R-a-k-s
 罅	haas
 㙤	haas
@@ -948,61 +967,7 @@ import_tables:
 賈	kq_aas
 襾	Aaas
 襾	haaA
-馬	maaA
-碼	maaA
-䣕	maaA
-𦋻	maaA
-罵	maaA	1
-𥧓	maaA
-鷌	maaA
-鰢	maaA
-禡	maas
-榪	maas
-㾺	maas
-𦋻	maas
-罵	maas
-䧞	maas
-䣕	maas
-𧪨	maas
-傌	maas
-蟆	maaq
-鬕	maak-s		#ks
-𧬅	tRaaq
-䠧	dRaaq
-䣝	dRaaq
-𨼑	dRaaq
-觰	tRaaq
-觰	tRaaA
-𧬮	thRaas		#?詿𧭑𥈀
-詿	thRaas
-𧭑	thRaas		#詿
-拏	nRaaq	999
-摣	nRaaq		#訓拏
-𪗭	tRaaq
-詉	nRaaq
-𧘽	nRaaq
-𧦮	nRaaq
-笯	nRaaq
-𤓷	nRaaq
-挐	nRaaq
-蒘	nRaaq
-䋈	nRaaA
-絮	nRaas
-𧩶	khq_aas
-抯	tssaaq
-柤	tssaaq		#樝
-査	tssaaq		#柤
-𦳏	tssaaq
-樝	tssaaq
-㪥	tssaaq
-䶥	tssaaq
-皻	tssaaq
-𤹡	tssaaq
-𥡧	tssaaq
-𠭯	tssaaq
-謯	tssaaA
-䶥	dzsaaq
-㢒	dzsaaq
+𧩶	khq_aas		#契
 疋	Cq_aaA
 吾	Cq_aaq	1
 衙	Cq_aaq
@@ -1047,16 +1012,60 @@ import_tables:
 疨	hCsaaq
 岈	hCsaaq
 颬	hCsaaq
+#
+𧬅	tRaaq
+䠧	dRaaq
+䣝	dRaaq
+𨼑	dRaaq
+觰	tRaaq
+觰	tRaaA
+𧬮	thRaas		#?詿𧭑𥈀
+詿	thRaas
+𧭑	thRaas		#詿
+拏	nRaaq	999
+摣	nRaaq		#訓拏
+𪗭	tRaaq
+詉	nRaaq
+𧘽	nRaaq
+𧦮	nRaaq
+笯	nRaaq
+𤓷	nRaaq
+挐	nRaaq
+蒘	nRaaq
+䋈	nRaaA
+絮	nRaas
+#
+抯	tssaaq
+柤	tssaaq		#樝
+査	tssaaq		#柤
+𦳏	tssaaq
+樝	tssaaq
+㪥	tssaaq
+䶥	tssaaq
+皻	tssaaq
+𤹡	tssaaq
+𥡧	tssaaq
+𠭯	tssaaq
+謯	tssaaA
+䶥	dzsaaq
+㢒	dzsaaq
+##Rja
+抯	tssxaq
+柤	tssxaq		#樝
+査	tssxaq		#柤
+𦳏	tssxaq
+樝	tssxaq
+㪥	tssxaq
+䶥	tssxaq
+皻	tssxaq
+𤹡	tssxaq
+𥡧	tssxaq
+𠭯	tssxaq
+謯	tssxaA
+䶥	dzsxaq
+㢒	dzsxaq
 ##ROaj
-哆	tRaajs
-哆	thRaajq
-㗬	thRaajq
-䏧	nRaajs
-奓	tRaajq
-䐒	tRaajq
-䋾	tRaajA
-奓	tRaajs
-䐒	tRaajs
+#
 麻	maajq
 痲	maajq
 犘	maajq
@@ -1075,6 +1084,7 @@ import_tables:
 迦	kq_aajq
 珈	kq_aajq
 駕	kq_aajs
+𤙑	kaas		#駕
 𦙺	kq_aajs
 枷	kq_aajq
 𨔣	kq_aajq
@@ -1092,6 +1102,18 @@ import_tables:
 閜	haajA
 㗿	haajA
 㗿	haajs
+#
+哆	tRaajs
+哆	thRaajq
+㗬	thRaajq
+䏧	nRaajs
+奓	tRaajq
+䐒	tRaajq
+䋾	tRaajA
+奓	tRaajs
+䐒	tRaajs
+藞	laajA
+#
 沙	ssaajq
 魦	ssaajq		#沙
 砂	ssaajq
@@ -1125,7 +1147,40 @@ import_tables:
 杈	tsshaajq
 靫	tsshaajq
 䑡	tsshaajq
-藞	laajA
+##Rjaj
+沙	ssxajq
+魦	ssxajq		#沙
+砂	ssxajq
+𣲡	ssxajq
+紗	ssxajq
+沙	ssxajs
+鯊	ssxajq
+髿	ssxajq
+𩊮	ssxajq
+硰	ssxajq
+裟	ssxajq
+㲚	ssxajq
+桬	ssxajq
+𤁺	tssxajq
+溠	tssxajq
+𥰭	tssxajA
+𤁺	tssxajs
+溠	tssxajs
+𢀩	tsshxajq		#別
+𦪮	tsshxajq
+差	tsshxajq		#差左𠂇#𠂇ts-a-j
+艖	tsshxajq
+鎈	tsshxajq
+䐤	tsshxajq
+𠞊	tsshxajq
+𣞚	dzsxajq
+槎	dzsxajq
+𣞚	dzsxajA
+槎	dzsxajA
+叉	tsshxajq
+杈	tsshxajq
+靫	tsshxajq
+䑡	tsshxajq
 ##ROaks -aas
 怕	phaak-s
 𦫙	baak-s
@@ -1201,6 +1256,13 @@ import_tables:
 𧬮	kq_fas	0		#誤
 䊬	thRfuj-A		#果?
 𢄳	khq_faA		#帛衣#? 㡁
+##
+𡕒	khq_faA		#跨㐄
+𡕒	khq_fas
+㐄	khfaA		#㐄k-a-j?
+㐄	khfas
+㐄	khfajA		#㐄k-a-j?
+㐄	khfajs
 ##vROa -fa
 瓜	kq_faq
 㧓	kq_faq
@@ -1226,10 +1288,6 @@ import_tables:
 銙	khq_faA
 跨	khq_fas
 胯	khq_fas
-𡕒	khq_faA		#跨㐄
-𡕒	khq_fas
-㐄	khfaA
-㐄	khfas
 釫	hqzfaq		#鏵
 𦾓	hqzfaq	999
 䔢	hqzfaq
@@ -2790,7 +2848,6 @@ import_tables:
 𣩠	sjes
 菥	sjeq
 蜤	sjeq
-杫	sjes
 𩆵	sjeq		#?
 𠩗	JLjeq
 支	kc_jeq
@@ -2978,9 +3035,10 @@ import_tables:
 攡	ljajq
 𢥗	ljajq
 離	ljajs
-徙	sjajA		#尐
+徙	sjajA		#尐#沙聲
 𢓊	sjajA		#尐
 𢇌	sjajA		#𠈈佌
+杫	sjajs		#徙省 沙聲
 𧧧	ljajs
 詈	ljajs
 㢋	thc_jajA		#多?
@@ -3263,7 +3321,7 @@ import_tables:
 黐	RshRxaj-q
 㷰	RshRxaj-q
 𡴥	RshRxaj-q
-簁	ssxaj-q
+簁	ssxaj-q		#沙聲#沙s-a-j
 簁	ssxaj-A
 褷	ssxaj-q
 縰	ssxaj-A
@@ -5200,7 +5258,7 @@ import_tables:
 茬	tssxəq
 茬	dzsxəq
 㱀	tsshxəA
-恥	nshrxəA		#ns 耳
+恥	nshRxəA		#ns 耳
 聻	nRxəA
 莉	dRxəq
 㕜	ssxəA	999
@@ -6602,7 +6660,6 @@ import_tables:
 䥈	mooA
 ##
 埠	boos
-𩢕	boos
 樸	booq
 菩	booq
 部	booA
@@ -7218,7 +7275,9 @@ import_tables:
 狐	hgvoq
 弧	hgvoq
 鮬	bvos		#?
-嶀	thvoq		#̥
+𩣔	bvos
+𩢕	bvos		#𩣔
+嶀	thvoq		#
 㻬	thvoq
 扝	khq_voq
 㢪	khq_voq
@@ -7583,24 +7642,18 @@ import_tables:
 𦄽	gioq
 䝣	gioq
 𪆫	gioq
-豦	gioq		#豦虍k-a
+𥴧	kioA
 豦	kios
-勮	gios
 據	kios
-遽	gios
-澽	gios
 澽	kios
-懅	gioq
 鐻	kios
-醵	gios
+豦	gioq		#豦虍k-a#豦k-a-k
+懅	gioq
 醵	gioq
 鐻	gioq
-鐻	gioA
 𥴧	gioq
-𥴧	kioA
 𨞙	gioq
 𦼫	gioq
-𦼫	gioA
 璩	gioq
 㯫	gioq
 䆽	gioq
@@ -7608,7 +7661,13 @@ import_tables:
 䟊	gioq
 𨎶	gioq
 籧	gioq
-淭	gioq
+鐻	gioA
+𦼫	gioA
+勮	gios
+遽	gios
+澽	gios
+醵	gios
+淭	gioq		#淭拏 據渠
 去	khios
 去	khioA	2
 阹	khioq
@@ -7802,7 +7861,7 @@ import_tables:
 紵	dRxoA
 茅	dRxoA	0		#苧芧?
 櫥	dRxoq
-絮	nshrxos		#ns
+絮	nshRxos		#ns
 攄	RshRxoq		#虎虍
 女	nRxoA
 籹	nRxoA
@@ -9630,7 +9689,6 @@ import_tables:
 啕	Louv_q
 蜪	Louv_q
 裪	Louv_q
-討	thouv_A		#肘
 媼	Aouv_A
 蝹	Aouv_A
 䯠	Aouv_A
@@ -9721,9 +9779,6 @@ import_tables:
 䓘	kq_ouv_q
 𣓌	kq_ouv_A
 𥢑	hgouv_A
-𤏶	Aouv_q		#鹿
-䥝	Aouv_q
-鏖	Aouv_q
 牢	louv_q
 窂	louv_q
 㟉	louv_q
@@ -9769,6 +9824,10 @@ import_tables:
 翢	thouv_q
 翢	douv_q
 錭	douv_q
+討	thouv_A		#肘
+𤏶	Aouv_q		#鹿
+䥝	Aouv_q
+鏖	Aouv_q		#𤏶麀
 ###avr
 ##avr
 𧇒	boavk-s
@@ -12267,9 +12326,9 @@ import_tables:
 舟	tc_jəvq
 𠣘	tc_jəvq
 ##
-手	nscjəvA		#ns- u
-𠂿	nscjəvA
-𡴤	nscjəvA
+手	nscjuvA		#ns- u
+𠂿	nscjuvA
+𡴤	nscjuvA
 ##
 鷚	mIivq		#翏R-i-v
 繆	mIivq
@@ -12377,8 +12436,8 @@ import_tables:
 㿒	dRxuv_s
 懤	dRxuv_s
 扭	tRxuv_A
-丑	nshrxuv_A		#ns
-杻	nshrxuv_A
+丑	nshRxuv_A		#ns
+杻	nshRxuv_A
 紐	nRxuv_A
 鈕	nRxuv_A
 杻	nRxuv_A
@@ -12514,7 +12573,7 @@ import_tables:
 𥎻	tRxəvq
 矪	tRxəvq
 #
-杽	nshrxəvA		#手
+杽	nshRxuvA		#杻#手
 ##
 䌛	LRxus
 繇	LRxus		#䌛䍃L-u
@@ -13007,7 +13066,7 @@ import_tables:
 釤	ssaof
 䀐	ssaof
 㣌	ssaof
-##
+## -aam
 攙	tsshaam		#毚ts-a-m?
 儳	tsshaaf
 𤮭	tsshaaf
@@ -13025,7 +13084,7 @@ import_tables:
 讒	dzsaaf
 艬	dzsaaf
 纔	ssaam
-#
+##aəm -aam
 縿	ssaəm		#參ts-eo-m?
 穇	ssaəm
 𩌰	ssaəm
@@ -13616,6 +13675,12 @@ import_tables:
 䞩	hgaop
 䶎	haop
 欱	haop
+#
+嵁	dzsaob
+嵁	khq_aom
+湛	dRaob
+㴴	dRaob
+偡	dRaob
 ##ROəm
 #
 品	phaəb
@@ -13628,12 +13693,13 @@ import_tables:
 黯	Aaəb
 𤟟	Aaəf
 揞	Aaəf
+玪	kq_aəm
+妗	haəm
+𧮰	haəm
+䩂	haəm
+欦	haəb
+韽	Aaəf
 #
-嵁	dzsaəb
-嵁	khq_aəm
-湛	dRaəb
-㴴	dRaəb
-偡	dRaəb
 摻	ssaəm		#參ts-eo-m?
 𩌰	ssaəm
 㺑	ssaəm
@@ -13643,12 +13709,6 @@ import_tables:
 扱	tsshaəp		#?及
 笈	tsshaəp
 𤜯	tsshaəp
-玪	kq_aəm
-妗	haəm
-𧮰	haəm
-䩂	haəm
-欦	haəb
-韽	Aaəf
 ##ə?o?
 𥳒	kq_aəb
 減	kq_aəb
@@ -13682,6 +13742,16 @@ import_tables:
 𧍧	haəm
 喊	haəb
 𪒹	kq_aəm
+##Rjəm
+摻	ssxəm		#參ts-eo-m?
+𩌰	ssxəm
+㺑	ssxəm
+摻	ssxəb
+㺑	ssxəb
+醦	ssxəb
+扱	tsshxəp		#?及
+笈	tsshxəp
+𤜯	tsshxəp
 ##Rjam
 臉	lxab		#臉䑎羮屬
 醶	lxab
@@ -23798,7 +23868,7 @@ import_tables:
 䇎	tshjak
 䱜	tshjak
 舄	tshjak
-獡	st-cjak		#ts?
+獡	scjak		#ts?#舄ts-a-k
 叒	ncjak
 𠭚	ncjak
 𨀝	ncjak
@@ -24196,8 +24266,8 @@ import_tables:
 㲋	thRxak		#兔
 𠜌	thRxak
 𤟭	thRxak
-婼	nshrxak
-蠚	nshrxak
+婼	nshRxak
+蠚	nshRxak
 逽	nRxak
 𨵫	nRxak
 蹃	nRxak
@@ -28292,11 +28362,11 @@ import_tables:
 㰲	tc_jok	2		#𣤁
 𦥑	kiok		#非臼
 𧤑	kiok
-䱡	khiok		#IO
+䱡	khiok	1		#?
 鋦	kiok
 挶	kiok
 梮	kiok
-局	giok
+局	giok		#局句k-o-k
 跼	giok
 駶	giok
 侷	giok
@@ -28930,7 +29000,7 @@ import_tables:
 𧿻	kiuk
 泦	kiuk
 匊	kiuk		#掬
-掬	kiuk
+掬	kiuk		#𰇶鞫鞠匊k-u-k
 菊	kiuk
 㥌	kiuk
 㹼	kiuk
