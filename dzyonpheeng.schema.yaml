@@ -96,12 +96,12 @@ speller:
     - derive/^(tss?h?|dzs?|(tSh?|dZ))(?!$)/Its/
     - derive/^([sz][sz]?)(?!$)/Is/
   
-    - derive/^(ng[qc]?|C[qc]?|kh?[qc]?|gc?|hg|[sz][kCq][sc]?)(?!L)/Ik/
-    - derive/^(ng|C|kh?|g|hg|sq)L[qc]?(?!$)/IkL/
+    - derive/^(ng[qc]?|C[qc]?|kh?[qc]?|gc?|hg|[sz][kCq][sc]?|X)(?!L)/Ik/
+    - derive/^(ng|C|kh?|g|hg|sq|X|h)L[qc]?(?!$)/IkL/
     - derive/^(x[sz]|hz|xq|hq|h|E|A)(?!$)/Ih/
 
 #
-    - derive/^([sz][kqC][sc]?|h[Cq]s|ng[qcs]?|C[qcs]?|kh?[cq]?|gc?|hz|hg|E|hqz|Xqz|Xq|Xz|qs|Jq|q|hq|A|h)(?!$)/IK/
+    - derive/^([sz][kqC][sc]?|h[Cq]s|ng[qcs]?|C[qcs]?|kh?[cq]?|gc?|hz|hg|E|hqz|Xqz|Xq|Xz|qs|Jq|q|hq|A|h|X)(?!$)/IK/
     - derive/^((L(sh)?[rc]?)|(L[sz]c)|[sz]Ls?|JL?)(?!$)/IL/
     - derive/^((R(z?|sh))|[sz]R[scz]?|c?l)(?!$)/IR/
     - derive/^(h?ms|[sz]m[sc]?|mF?)(?!$)/IM/

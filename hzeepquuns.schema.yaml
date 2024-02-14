@@ -68,8 +68,12 @@ speller:
     - derive/[Fcq]_//
     - derive/-//
     - derive/_//
+
+    - derive/,/ʌ/
+    - derive/;/ə/
     - derive/ʌ/oe/
     - derive/ə/eo/
+
     - derive/\w-//
     # - derive/\w_//
 ####韻
@@ -159,8 +163,8 @@ speller:
     - derive/^([LRn]sh)/th/
     - derive/^(C)(?=[cR])/n/
 
-    - derive/^(h[mnCLRqXx]s|hsq|ngs|[mnCqX]s|hs)/h/
-    - derive/^(hqz|Xqz|Xq|qz|Xz|X)/q/ #无別
+    - derive/^(h[mnCLRqx]s|hsq|ngs|[mnCqX]s|hs|X)/h/
+    - derive/^(hqz|Xqz|Xq|qz|Xz)/q/ #无別
     - derive/^(hg)/g/
 
 ####聲-介
@@ -202,14 +206,13 @@ speller:
     - fuzz/^z/zz/ #衺
 
     - derive/^(Lr?)([eovarfrxw][aeiouəʌ;])/j$2/
-    - derive/^(Xq?)([rxw][aeiouəʌ;])/j$2/
     - derive/^(hqz|hzq?|Xqz?|Xz|qz|E)([eovaf][aeiouəʌ;])/q$2/ #雲一 hqz E
     - derive/^(Jq)([jy][aeiouəʌ;])/q$2/ #雲三A
 ##古補
+    - derive/^(Rsh[Rc]?)/rs/
+    - derive/^(R(?!s)[R]?|l)/rz/
     - derive/^(Lsh[Rc]?|Lsc)/ls/
     - derive/^(Lzc|L(?!s)[Rc]?|JL)/lz/ #Lzc? Lc?
-    - derive/^(Rsh[Rc]?)/rs/
-    - derive/^(R(?!s)[Rc]?|l)/rz/
     - derive/^(hms|msF?)/ms/
     - derive/^(hns|ns[Rc]?)/ns/
     - derive/^(h?Cs|Csc)/ngs/
@@ -330,9 +333,12 @@ speller:
 ####轉寫
     - derive/-//
     - derive/_//
-    - derive/(ʌ|ə)/;/ #ə eo 需緟𧜰
+
+    - derive/,/ʌ/
+    - derive/;/ə/
     - derive/ʌ/oe/
     - derive/ə/eo/
+    - derive/ʌ|ə|,/;/ #ə eo 需緟𧜰
     - derive/(ʌ|ə)/ea/
     # - derive/A/hq/
     # - derive/C/ng/
@@ -409,6 +415,8 @@ translator:
     # - xform/[\w]-//
     - xform/-//
     - xform/_//
+    - xform/;/ə/
+    - xform/,/ʌ/
     - xform/([IU])/\L$1/
     # - xform/^s[ptkLRnmCq]s?/s/
     # - xform/^z[ptkLRnmCq]s?/z/
@@ -507,7 +515,8 @@ lookup:
   comment_format:
     - xform/-//
     - xform/_//
-
+    - xform/;/ə/
+    - xform/,/ʌ/
 punctuator:
   import_preset: symbols
 key_binder:
