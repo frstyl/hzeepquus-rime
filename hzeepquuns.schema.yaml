@@ -140,14 +140,14 @@ speller:
     - derive/e(ə)/$1/ #e四等 ea
     - derive/(e)(a|e|i|u|ə)/$1/ #e四等 
 
-    - abbrev/[Ijrx]([aeiouəʌ;])/i$1/ #i=jx
-    - abbrev/[Uyw]([aeiouəʌ;])/u$1/
+    - abbrev/[Ijrx]([aeiouəʌ;,])/i$1/ #i=jx
+    - abbrev/[Uyw]([aeiouəʌ;,])/u$1/
 
 ##三等无介音
-    # - xform/([\w])[oe]([aeiouəʌ;])/$1o$2/ #一三
-    # - xform/([\w])[ij]([aeiouəʌ;])/$1$2/ #一三
+    # - xform/([\w])[oe]([aeiouəʌ;,])/$1o$2/ #一三
+    # - xform/([\w])[ij]([aeiouəʌ;,])/$1$2/ #一三
 
-    # - xform/([\w])[rx]([aeiouəʌ;])/$1r$2/
+    # - xform/([\w])[rx]([aeiouəʌ;,])/$1r$2/
 
 ####韻-介尾 (+)
 
@@ -156,8 +156,8 @@ speller:
 
 ####聲
 ##古
-    - derive/^[nL]sc/sc/
-    - derive/^[nL]zc/zc/
+    - derive/^[mnCL]sc/sc/
+    - derive/^[mnCL]zc/zc/
 
     - derive/^([LR])(?!zc)/d/
     - derive/^([LRn]sh)/th/
@@ -205,9 +205,9 @@ speller:
 
     - fuzz/^z/zz/ #衺
 
-    - derive/^(Lr?)([eovarfrxw][aeiouəʌ;])/j$2/
-    - derive/^(hqz|hzq?|Xqz?|Xz|qz|E)([eovaf][aeiouəʌ;])/q$2/ #雲一 hqz E
-    - derive/^(Jq)([jy][aeiouəʌ;])/q$2/ #雲三A
+    - derive/^(Lr?)([eovarfrxw][aeiouəʌ;,])/j$2/
+    - derive/^(hqz|hzq?|Xqz?|Xz|qz|E)([eovaf][aeiouəʌ;,])/q$2/ #雲一 hqz E
+    - derive/^(Jq)([jy][aeiouəʌ;,])/q$2/ #雲三A
 ##古補
     - derive/^(Rsh[Rc]?)/rs/
     - derive/^(R(?!s)[R]?|l)/rz/
@@ -241,13 +241,13 @@ speller:
     # - derive/L/ll/ #hgL VL AL?
 
 ####聲-介
-    - derive/^(j)[j]([aeiouəʌ;])/$1$2/ #㠯母
-    - derive/^(q)u([aeiouəʌ;])/$1$2/ #雲母
-    # - fuzz/^([sz]c)[j]([aeiouəʌ;])/$1$2/ #書
+    - derive/^(j)[j]([aeiouəʌ;,])/$1$2/ #㠯母
+    - derive/^(q)u([aeiouəʌ;,])/$1$2/ #雲母
+    # - fuzz/^([sz]c)[j]([aeiouəʌ;,])/$1$2/ #書
 
     - derive/^(hms)v([ʌəo])/$1$2/ #幫組 一三
     - derive/^(hms)v([ʌəo])/h$2/
-    - derive/^(ph|p|b|m)v([aeəʌ;])/$1$2/
+    - derive/^(ph|p|b|m)v([aeəʌ;,])/$1$2/
     - derive/^(ph|p|b|m)v(i[oə])/$1$2/
 
 ####尾
@@ -256,7 +256,7 @@ speller:
     - derive/(?<!^)R([sAq])$/rr$1/
     # - derive/(?<!^)F/ff/
 
-    - derive/([aeiouəʌ;])['q]$/$1/
+    - derive/([aeiouəʌ;,])['q]$/$1/
 
     - fuzz/(?<!^)([jv])['q]$/$1/ #-j-v視爲韻
     # - fuzz/(?<!^)[j]['q]$/j/
@@ -270,7 +270,7 @@ speller:
 
     # - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
     - xform/[ptk]([sr])$/$1/
-    - derive/(?<!^)([fvIUjyxwaeiouəʌ;][aeiouəʌ;])v(k)$/$1u$2/ #-v-視爲韻
+    - derive/(?<!^)([fvIUjyxwaeiouəʌ;,][aeiouəʌ;,])v(k)$/$1u$2/ #-v-視爲韻
     # - xform/(?<!^)v(k)$/$1/
     - fuzz/(?<!^)v(k)$/$1/
 
@@ -284,14 +284,14 @@ speller:
 ####
 ##𥳑尾
     # - derive/(?<!^)q$//
-    # - fuzz/([aeiouəʌ;])j['q]$/$1/ #jq
     - derive/(?<!^)A$/h/
     - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
+    - abbrev/([aeiouəʌ;,])jq$/$1/ #jq
 ##可選 介 序
-    # - fuzz/(?<!^)x([aeiouəʌ;])/r$1/ #r=x
-    # - fuzz/(?<!^)r([aeiouəʌ;])/x$1/ #
-    # - fuzz/(?<!^)a([aeiouəʌ;])/l$1/ #l=a li=ai=ia
+    # - fuzz/(?<!^)x([aeiouəʌ;,])/r$1/ #r=x
+    # - fuzz/(?<!^)r([aeiouəʌ;,])/x$1/ #
+    # - fuzz/(?<!^)a([aeiouəʌ;,])/l$1/ #l=a li=ai=ia
 
     - fuzz/(?<!^)([aiu])(ə|ʌ)/$2$1/
     - fuzz/(?<!^)(i)([au])/$2$1/
@@ -299,8 +299,8 @@ speller:
     - abbrev/(?<!^)([lfvIUjyrxw])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/
     # - fuzz/(?<!^)(a)([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$1l$2/ #l=x
     # - abbrev/(?<!^)([r])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/ #l=x
-    # - fuzz/(?<!^)(a)([aeiouəʌ;])/$2l/ #qAhsjlrvwymbfpndztCcgxk
-    # - fuzz/(?<!^)(x)([aeiouəʌ;])([.])/$2r$3/
+    # - fuzz/(?<!^)(a)([aeiouəʌ;,])/$2l/ #qAhsjlrvwymbfpndztCcgxk
+    # - fuzz/(?<!^)(x)([aeiouəʌ;,])([.])/$2r$3/
 
 ##聲𥳑
     - derive/^sc/h/ #船
@@ -315,7 +315,7 @@ speller:
     - derive/^(hq|A)/w/
     - derive/^(ng|C)/c/
 
-    - fuzz/^([sz]c)[j]([aeiouəʌ;])/$1$2/ #書
+    - fuzz/^([sz]c)[j]([aeiouəʌ;,])/$1$2/ #書
 ##𥳑 首字母
     # - abbrev/^(\w).+$/$1/
     # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
@@ -368,18 +368,18 @@ translator:
     # - xform/hq/ʔ/
     # - xform/ng/ŋ/
     # - xform/hz/ɦ/
-    - xform/([aeiouəʌ;])h($|')/$1ʔ$2/
-    - xform/([aeiouəʌ;])c($|')/$1ŋ$2/
-    # - xform/([aeiouəʌ;])g($|')/$1ŋʔ$2/
-    # - xform/([aeiouəʌ;])x($|')/$1ŋs$2/
-    # - xform/([aeiouəʌ;])b($|')/$1mʔ$2/
-    # - xform/([aeiouəʌ;])f($|')/$1ms$2/
-    # - xform/([aeiouəʌ;])d($|')/$1nʔ$2/
-    # - xform/([aeiouəʌ;])z($|')/$1ns$2/
-    # - xform/([aeiouəʌ;])w($|')/$1vʔ$2/
-    # - xform/([aeiouəʌ;])y($|')/$1vs$2/
-    # - xform/([aeiouəʌ;])l($|')/$1jʔ$2/
-    # # - xform/([aeiouəʌ;])r($|')/$1js$2/
+    - xform/([aeiouəʌ;,])h($|')/$1ʔ$2/
+    - xform/([aeiouəʌ;,])c($|')/$1ŋ$2/
+    # - xform/([aeiouəʌ;,])g($|')/$1ŋʔ$2/
+    # - xform/([aeiouəʌ;,])x($|')/$1ŋs$2/
+    # - xform/([aeiouəʌ;,])b($|')/$1mʔ$2/
+    # - xform/([aeiouəʌ;,])f($|')/$1ms$2/
+    # - xform/([aeiouəʌ;,])d($|')/$1nʔ$2/
+    # - xform/([aeiouəʌ;,])z($|')/$1ns$2/
+    # - xform/([aeiouəʌ;,])w($|')/$1vʔ$2/
+    # - xform/([aeiouəʌ;,])y($|')/$1vs$2/
+    # - xform/([aeiouəʌ;,])l($|')/$1jʔ$2/
+    # # - xform/([aeiouəʌ;,])r($|')/$1js$2/
 
     # - xform/hg/ʁ/
     # - xform/xz/ɣ/
@@ -410,7 +410,7 @@ translator:
     # - xform/([A-Z])O/$1ˤ/
     # - xform/([A-Z])V/$1ʷ/
     # - xform/(.+)H/\L$1ʰ/
-    # - xform/([aeiouəʌ;])q($|')/$1 $2/
+    # - xform/([aeiouəʌ;,])q($|')/$1 $2/
   comment_format:
     # - xform/[\w]-//
     - xform/-//
@@ -437,7 +437,7 @@ translator:
     # - xform/^([LRn]sh)/th/
     # - xform/^(L|Rz)/d/
     # - xform/^JL/J/
-    - xform/^(hqz|Xqz|JXq?|xz|qz|Xz|X)/q/
+    - xform/^(hqz|Xqz|JXq?|xz|qz|Xz)/q/
     - xform/C/ŋ/
     # - xform/([rs])[ptk]($|')/$1/
   initial_quality: 0.7

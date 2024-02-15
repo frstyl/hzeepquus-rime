@@ -6,7 +6,7 @@ sor: by_weight
 use_preset_vocabulary: true
 ...
 ####
-≠	pə təg
+≠	pə toəg
 ↑	dcjag
 ↓	hgaaA
 ←	tsoajA
@@ -583,12 +583,6 @@ use_preset_vocabulary: true
 篩	Saejq		#簁
 篩	Sxejq
 竵	Afojq		#崴歪
-竵	khfaq		#𠇗
-䓙	khfaq		#𠇗
-䓙	hfajq		#竵
-𦶎	hfajq		#竵
-𦶎	khfaq		#𠇗
-𦹬	hfajq		#𦶎竵
 敺	AoovA		#毆
 混	kvod		#滾
 聃	toum		#耽
@@ -646,6 +640,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+靉靅	
 崴𡾨	
 䃎𥑒	
 𠄍𠄑	kiat kuat
@@ -2785,6 +2780,23 @@ use_preset_vocabulary: true
 𣅜	kaejq
 蒈	khaejq
 偕	Eaejq
+###乖𠁥
+𠁬	kfejq
+𦭅	kfejq
+𠁰	kfejq
+𠂯	kfejq
+𠦬	kfejq
+𦮃	kfejq
+𱥮	kfejq
+𦴂	khfeq	#䓙
+䓙	kfejq		#集韻艸也
+##
+𡚅	khfeq
+𦶎	khfeq
+𦹬	khfeq
+#𦮃	khfeq
+竵	khfeq
+#𠇗	khfeq
 ###豙
 顡	thRfer
 ###褱眔
@@ -3562,9 +3574,6 @@ use_preset_vocabulary: true
 撾	kvaq
 撾	tRfaq
 撾	Avaq
-###𩰬
-𡁑	hfeq		#1		#𠿎
-𰹁	Afojq
 ###嵇
 嵆	Eeejq		#1		#嵇
 ###伊尹
@@ -3810,13 +3819,15 @@ use_preset_vocabulary: true
 𩸞	gxeq
 𨿫	gxeq
 𱁊	gxeq
-###𡕒-ajq
+###𩰬
+𡁑	hfeq
+𥫀	hfeq
+𥫇	hfaq
+𰹁	Afojq
+###𡕒-aj?q
 㐄	khfaA
 㐄	khfas
 #
-𥫀	hfajq
-𥫇	hfajq
-𡁑	hfajq
 ##夸-x
 𧿋	khfas		#跨
 𡗢	khfaq
@@ -6376,18 +6387,18 @@ use_preset_vocabulary: true
 𬝨	Efaq
 ###乙-𠃉
 #
-𰹈	Aait
-𫭖	Aait
-𢩧	tSait
-𣎷	tSait
 䎲	Cxit
-𥾱	tSait
-紥	tSait
 𠃸	Ai;s		#1		#亄
-###乚
-𢮊	tSait
 ##
-𪐘	Ai;js
+𪐘	Ai;s
+###札乚
+𢮊	tSait
+𰹈	Aaet
+𫭖	Aaet
+𢩧	tSaet
+𣎷	tSaet
+𥾱	tSaet
+紥	tSaet
 ###丫
 𮨸	Aaaq
 ###亞
@@ -8825,6 +8836,15 @@ use_preset_vocabulary: true
 𤬼	nRfat
 岀	tschyit
 㞮	tschyit
+###
+屈	khu;t
+𡲒	khu;t
+𡲗	khu;t
+𡲬	khu;t
+𡲶	khu;t
+𡳘	khu;t
+𰍾	khu;t
+𡕜	khu;t
 ###贅 祟𠭥?
 𩕀	tscyer
 𩕣	tscyer
@@ -13174,7 +13194,16 @@ use_preset_vocabulary: true
 𢒀	tscjins		#2
 𢒁	tscjins
 ###㐱
+##
 𣳅	leejs		#沴
+𤵲	thRxins
+𤵜	thRxins
+𮚶	thRxins
+趂	thRxins
+𭹀	tRxinq
+𧦜	dRxins
+𧦽	dRxins
+𧧂	dRxins
 ###㐆
 㐆	Ai;jq
 𠂣	Ai;jq
@@ -14232,7 +14261,7 @@ use_preset_vocabulary: true
 ######
 ###𠃉乚
 ###不
-奀	tschi;A		#搜眞玉鏡 尺止切
+奀	tschi;A		#搜眞玉鏡 尺止切#止?
 奀	doug		#音動
 𱍤	pv;t dcjeA
 嫑	pv;t Ajevs

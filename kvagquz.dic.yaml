@@ -1,5 +1,5 @@
 #
-#廣韻 緟排序
+#廣韻
 name: kvagquz
 version: "2022.10.15"
 sort: by_weight
@@ -4439,7 +4439,6 @@ use_preset_vocabulary: true
 哆	tschjeA
 卶	tschjes
 姼	dzcjeq
-栘	dzcjeq
 恀	dzcjeA
 姼	dzcjeA
 卶	scjes
@@ -5335,7 +5334,6 @@ use_preset_vocabulary: true
 䫁	bjis
 𤹝	bjis
 鵧	bjiq
-地	djis
 䛗	tscjiA
 𧠥	tshjiq
 粢	tsjiq
@@ -6096,6 +6094,9 @@ use_preset_vocabulary: true
 娺	tRwiq
 㿷	tshRwis
 腃	khwis
+㯁	bo,jq
+𤗏	bo,jq
+俖	pho,jA
 𤆎	tso,jq
 𩛥	tso,js
 䞗	tsho,jq
@@ -6388,7 +6389,6 @@ use_preset_vocabulary: true
 抔	phvojq
 𩑢	bvojq
 桮	pvojq
-俖	phvojA
 坯	phvojq
 䖶	hvojq
 虺	hvojq
@@ -6659,12 +6659,10 @@ use_preset_vocabulary: true
 䣙	bvojq
 蓓	bvojA
 倍	bvojA
-㯁	bvojq
 陪	bvojq
 㾦	phvojq
 醅	phvojq
 𤬃	phvojq
-𤗏	bvojq
 培	bvojq
 婄	bvojq
 棓	bvojq
@@ -6729,7 +6727,6 @@ use_preset_vocabulary: true
 玟	mvojq
 鼿	hvojq
 𣴵	hvojs
-倄	EvojA
 㕈	Avojs
 顡	CvojA
 蚘	Evojq
@@ -8486,7 +8483,6 @@ use_preset_vocabulary: true
 棷	tshoovA
 取	tshoovA
 鯫	dzoovq
-鯫	dzoovA
 棷	soovA
 㝅	noovA
 𣫌	noovs
@@ -11098,7 +11094,6 @@ use_preset_vocabulary: true
 䳻	dZaams
 㨻	SaamA
 𦤡	Aiap
-㶒	sciamA
 姂	khiap
 砝	kiap
 猲	khiap
@@ -11205,7 +11200,6 @@ use_preset_vocabulary: true
 䱒	Aiap
 裛	Aiap
 浥	Aiap
-譫	tsciap
 𥁔	phuams
 姂	phuams
 柉	buamq
@@ -14192,7 +14186,6 @@ use_preset_vocabulary: true
 螌	paanq
 䰉	paanq
 般	paanq
-𩭿	ncaat
 斒	paanq
 鯿	paanq
 辬	paanq
@@ -16660,7 +16653,6 @@ use_preset_vocabulary: true
 掔	khaenq
 藖	Eaenq
 藖	Eaens
-㺗	tschaenq
 䡲	dZaenq
 譠	tRaenq
 㣶	tRaenq
@@ -16863,7 +16855,6 @@ use_preset_vocabulary: true
 㕯	nRfet
 豽	nRfet
 肭	nRfet
-窀	dRfenq
 嗢	Afet
 傄	hfet
 幻	Efens
@@ -16875,7 +16866,6 @@ use_preset_vocabulary: true
 劀	kfet
 鱊	kfet
 湲	Efenq
-𤜼	dZfenq
 娺	tRfet
 鵽	tRfet
 窡	tRfet
@@ -19902,7 +19892,6 @@ use_preset_vocabulary: true
 嫡	tRaak
 𥧮	tRaak
 盯	tRaaCA
-打	tRaaCA
 䟓	thRaaCq
 盯	dRaaCq
 偵	tRaaCs
@@ -25331,15 +25320,16 @@ use_preset_vocabulary: true
 禜	queCq
 禜	queCs
 醟	queCs
+##反常
 㹗	tscho,jq
 疓	nco,jA
 𦚪	Jo,jA
 茝	tscho,jA
 佁	Jo,jA
 䑂	Jo,jA
-栘	dzceq
+栘	dzceeq
 㶒	scoamA
-譫	tscap
+譫	tscoap
 遪	dzco,p
 𩭿	ncaat
 㺗	tschaenq
@@ -25350,3 +25340,12 @@ use_preset_vocabulary: true
 鯫	dZoovA
 爹	tRjaq
 地	djis
+#
+栘	dzcjeq
+㶒	sciamA
+譫	tsciap
+窀	dRfenq
+𤜼	Evenq
+打	toaCA
+倄	EvojA
+鯫	dzoovA
