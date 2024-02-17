@@ -65,7 +65,7 @@ speller:
   delimiter: "'"
   algebra:
 ####
-    - derive/[Fcq]_//
+    - derive/[FcqR]_//
     - derive/-//
     - derive/_//
 
@@ -74,8 +74,8 @@ speller:
     - derive/ʌ/oe/
     - derive/ə/eo/
 
-    - derive/\w-//
-    # - derive/\w_//
+    - derive/.-// #- - 同旹觸發
+    # - derive/._//
 ####韻
 ##補
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
@@ -106,11 +106,18 @@ speller:
     - fuzz/([ajx]a)jq/$1/ #aa-j jq
     - fuzz/([af]ə)jq/$1/ #ʌ-j
     - fuzz/([o]ʌ)jq/$1/ #ʌ-j
+    - derive/([e]ə)jq/$1/ #ʌ-j
     - fuzz/([ev]e)jq/$1/ #e-j
+    - fuzz/([eovjyrxwaf]u)jq/$1/ #aa-j jq
+
+    - fuzz/([aeiouəʌ;,])jq$/$1/ #jq
 
     - fuzz/([eoviujyrxwafIU]i)C/$1n/ #iŋ
     - fuzz/([eoviujyrxwafIU]i)g/$1d/ #iŋ
     - fuzz/([eoviujyrxwafIU]i)x/$1z/ #iŋ
+
+    - derive/([ixwov]a)j/$1/ #aj
+    - derive/(i)j/$1/ #ij
 ##韵介尾
     - derive/v[Ijrxi]ə/u/ #uə
     - derive/[Ijrxi](ə|ʌ)/i/ #i
@@ -149,7 +156,7 @@ speller:
 
     # - xform/([\w])[rx]([aeiouəʌ;,])/$1r$2/
 
-####韻-介尾 (+)
+####韻-介尾 (+) 介後
 
     - derive/(u)v/$1/ #uv
     - derive/(ao)v/$1/ #ov
@@ -187,7 +194,7 @@ speller:
     - derive/^(d?)(Z|zs)/$1z/
     - derive/^(hz|E)/g/
 
-    - derive/^(tsch)/th/
+    - derive/^(tsch)/th/ #章組不獨立 sc半獨立
     - derive/^(tsc)/t/
     - derive/^(dzc)/d/
     - derive/^(tshc|tsch)([jy])/kh$2/
@@ -256,7 +263,6 @@ speller:
     - derive/(?<!^)R([sAq])$/rr$1/
     # - derive/(?<!^)F/ff/
 
-    - derive/([aeiouəʌ;,])['q]$/$1/
 
     - fuzz/(?<!^)([jv])['q]$/$1/ #-j-v視爲韻
     # - fuzz/(?<!^)[j]['q]$/j/
@@ -283,11 +289,12 @@ speller:
     - xform/(?<!^)ns$/z/
 ####
 ##𥳑尾
-    # - derive/(?<!^)q$//
+    - derive/([aeiouəʌ;,])['q]$/$1/
     - derive/(?<!^)A$/h/
     - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
-    - abbrev/([aeiouəʌ;,])jq$/$1/ #jq
+    - abbrev/([aeiouəʌ;,])j([qAs])$/$1$2/ #jq
+    - derive/(?<!^)q$//
 ##可選 介 序
     # - fuzz/(?<!^)x([aeiouəʌ;,])/r$1/ #r=x
     # - fuzz/(?<!^)r([aeiouəʌ;,])/x$1/ #
@@ -412,7 +419,7 @@ translator:
     # - xform/(.+)H/\L$1ʰ/
     # - xform/([aeiouəʌ;,])q($|')/$1 $2/
   comment_format:
-    # - xform/[\w]-//
+    # - xform/.-//
     - xform/-//
     - xform/_//
     - xform/;/ə/

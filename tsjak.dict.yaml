@@ -1,0 +1,1424 @@
+#---
+#借䛐
+name: tsjak
+version: "2022.1.15"
+sor: by_weight
+use_preset_vocabulary: true
+...
+####今
+###
+###物化
+熵	scjaC
+焓	hgo,m
+㶲	Jjox
+###
+烴	thjeC		#CH hydroCajsbon
+烴	theeC
+羥	khiag		#OH hydroqyl
+羰	thoaC
+巰	giuvq
+烷	Evan
+烯	hi;jq
+炔	khyet
+羧	svaq
+羧	sjag		#cajsboqyl
+# 酮	douC
+酚	phu;n
+醚	meiq
+# 酯	kcjiA
+酯	kcjiq
+酯	kcjiA
+醛	dzyen
+⌬	been
+苯	been		#benzene
+# 蒽	Ao,n
+萘	noar
+# 薁	Aiuk
+萜	theep
+# 茚	Ajiz
+酞	thoar
+酐	koan
+# 𨫬	koan
+酰	se;n		#acyl
+# 磺	hgvaC		#sujAphujs
+苄	bxez
+莰	kho,b
+蒈	khaeq
+䏟	beit
+脒	meejA
+# 肟	Avos
+肼	tsjeg
+腈	tsjeC
+䶽	tsouC		#肼酮
+腙	tsouC
+脎	Saet
+脎	soas
+脲	neevsk
+胍	kfaq
+胍	kaaq
+胺	Aoan		#amine 同氨 不異讀
+胺	Aoaz
+膦	ljin		#phosphine
+膦	ljiz
+胂	scjin		#arsine
+胂	scjiz
+䏲	theiq
+氰	tsheeC		#cyanogen 靑气
+氨	Aoan		#ammonia
+𠼞	Aoak		#ammonia
+碸	piuC		#sulfone
+磺	EvaC		#sulfo
+鎓	AouC		#-onium 後綴 巳弃用
+𨦡	Jjag		#oxonium salts
+𨦡	JjaC
+鏻	ljin		#phosphonium
+鏻	ljid		#
+鉮	scjin		#arsonium
+鉮	scjid		#陽平不用
+銨	Aoan		#ammonium
+銨	Aoad
+鋶	ljuvq		#sulphonium
+鋶	ljuvA
+鋞	khjeC		#hydrogenium
+⿰金西	so,jq
+𲇊	so,jq
+錆	tsheeC
+鉘	pu;t
+# 錄	ljok
+𲇙	hiuvs
+⿰金臭	hiuvs
+錪	teed
+###
+腺	sjez
+肽	thoar
+䏓	Cuan		#肉元 proton
+# 苷	koam
+甙	do,js		#代𤮼
+# 嘌	phjevq
+# 呤	leeC
+咪	meiq
+噻	so,jq
+# 吡	bjit
+啶	deex
+嘧	mxit
+酶	mvojq
+胩	khaaA
+喹	khveq
+啉	lj;m
+唑	dzvas
+嗪	dzjin
+咯	koak
+哚	tvaA
+吲	Jjid
+# 吖	Aaaq
+# 呋	pvioq
+# 喃	no,m
+㖕	sjin
+###
+輕鋰鈉鉀銣銫鈁	tcyoA dzouk
+鈹鎂鈣鍶鋇镭	tcyoA dzouk
+硼鋁鎵銦鉈鉨	tcyoA dzouk
+碳硅鍺錫鉛鈇	tcyoA dzouk
+氮磷砷銻鉍鏌	tcyoA dzouk
+氧硫硒碲釙鉝	tcyoA dzouk
+氟氯溴碘砹鿬	tcyoA dzouk
+氦氖氬氪氙氡鿫	tcyoA dzouk
+鑭鈰鐠釹鉕釤銪釓鋱鏑鈥鉺銩鐿鑥	loan hgees
+錒釷鏷鈾錼鈈鎇鋦錇鐦鎄鐨鍆鍩鐒	Aoa hgees
+##
+氫	khjeC		#H 1 hydrogen
+⿹气水	khjeC
+氕	Ajit		#H1 protium
+氘	ncjis		#H2 deutejsium
+氚	soam		#H3 tritium
+氕	pheet		#丿
+氘	toavq		#刀刂
+氚	tschyon		#川
+氦	hgo,jA		#he helium 
+鋰	lj;A		#li lithium
+鈹	bxajq		#be beryllium
+硼	bo;C		#b boracium
+碳	thoaz		#C 6 carbonium
+氮	doaf		#n 7 nitrogenium azote 
+氧	Jjag		#O xygen
+氱	Jjag
+氟	pu;t		#F fluorine
+氖	no,jA		#ne neon
+氝	nvojs
+鈉	no,p
+鎂	mxiA
+鋁	ljoA
+矽	zjek
+硅	kveq
+磷	ljin
+# 硫	ljuvq
+氯	ljok
+氬	Aaas
+鉀	kaap
+鈣	koar		#Coa calcium 
+鈧	khoax
+鈦	thoar
+# 鐇	buam
+釩	buam
+# 鉻	kaak
+# 錳	maag
+# 鐵	theik
+鈷	kooA
+鎳	Ceet
+# 銅	douC
+鋅	sjin
+鎵	kaaq
+鍺	tcjaA
+砷	scjin
+砒	pheiq
+硒	so,jq
+溴	hiuvs
+氪	kho;k
+銣	ncjoq
+鍶	sj;q
+釔	Axit		#Y ytRrium -t
+錷	Axit
+鋯	koavs
+鈮	neiq		#nb niobium
+鉬	miuk
+鍀	to;k
+釕	leevA
+銠	loavA		# rhodium
+鈀	paaA
+# 銀	Cx;n
+鎘	kaek
+鉲	khoaA
+銦	Ajin
+# 錫	seek
+銻	theejq
+碲	teejs
+碘	teed
+氙	sjen
+氥	sjen
+氠	scjin
+𣱧	dRxox
+銫	Sx;k
+# 鋇	poar
+# 鑭	loaz		#loa57 lanthanum
+鈰	dcj;A
+鐠	phooA
+釹	nRxoA
+鉕	phvaA
+釤	Saam
+銪	qiuvA
+釓	kaet
+釓	koaq		#乚扎gadolinium
+鋱	tho;k
+# 鏑	teek
+鈥	hvaA
+錵	hfaq
+鉺	ncj;A
+銩	tiuvq		#tm 69thulium
+鐿	Ai;s
+鑥	looA
+# 鉿	ko,p
+鉭	thoad
+# 鎢	Aooq
+錸	lo,jq
+鋨	Coaq
+銥	Ai;jq
+鉑	boak
+# 黃金	kx;m
+汞	koug
+汞	hgoug
+澒	hgoug		#汞
+# 鉈	dcjajq
+# 鉛	Jyon
+# 鉍	pxik
+釙	phauk
+砹	Aoar
+氡	tooC		#radon
+# 鈁	puaC		#Fa 89 francium
+鐳	lvojq		#Ra 88 radium
+錒	Aoaq		#Ac 89 actinium
+釷	thooA		#Th 90 thorium
+# 鏷	book		#Pa 91 Protactinium
+鈾	Jjuvq		#U 92 uranium
+錼	noar		#Np 93 neptunium
+鎿	noaq
+鈈	pu;s		#Pu 94 plutonium
+鎇	mxiq		#Am 95 americium
+# 鋦	kiok		#Cm 96 Curium
+錇	bvojq		#Bk 97 berkelium
+鐦	kho,jq		#Cf 98 californium
+鑀	Ao,js		#Es 99einsteinium
+鎄	Ao,jq
+鐨	phu;js		#Fm 100fermium
+鍆	mvon		#Md 101 mendelevqium
+鍩	noak		#No 102 nobelium
+鐒	loavq		#Lr 103 lavArencium 103
+# 鑪	looq		#Ru 104 rutherfordium
+䤣	looq		#rutherfordium 金虍錿
+𨧀	dooA		#Db 105d dubnium
+𨭎	hi;A		#Sg 106 seaborgium
+𨨏	pvaq		#Bh 107 bohrium
+𨭆	ho;k		#Hs 108 haSium
+䥑	maek		#Mt 109 meitnerium
+鐽	doat		#Ds 110 darmstadtium
+錀	lyun		#Rg 1101 roentgenium
+鎶	koaq		#Cn 112 copernicium
+鉨	neiA		#Nh 113 nihonium 鉩鿭	U+9fed 鈮nb 41niobium
+鉩	neiA
+鈇	pvioq		#Fl 114 Flerovqium
+# 鏌	moak		#mc 115 moscovqium
+鉝	lj;p		#lv 116 livqermorium
+鿬	dein		#Ts 117teenResine
+鿫	Aoovs		#Og118 oganeSon
+##
+氦	ho,js		#He helium
+#########
+###借䛐
+鿱	paaq
+𪻕	kooA
+
+
+
+
+𠁣𠃛	mv;n
+坷垃	kha lo,p
+坷垃	kh; lo,p
+坷垃	khfer		#凷
+垃圾	loop so;p
+瘩	to,p		#㾑疸
+# 疙瘩	ko;q ta
+# 疙瘩	ko;t tap
+疙禿	
+疙瘩	keit
+処	kta
+佧佤	khaA vaA
+𤲭𣕎	
+傢俬	kaaq sjiq
+骯髒	khoag tsoag		#高亢
+骯𩪎	khoag moag		#體胖
+骯髒	AoaC tsoaC		#腌臢
+腌臢	
+腌䐶	
+# 乒	pheC
+# 乓	phaC
+#
+乒乓	pheC phaC
+乒乓	pxaC
+𰍧𰍨	pheC phaC
+打	taA
+閪	heejq
+氹	doab
+凼	doab
+𰛄𰛅	scyiA
+⿰氵𦊴	nRxep		#𣹵⿰氵𦊴
+𰛄	phaes		#派?
+𰛅	lo,js		#瀨?
+炸	tsRaas		#灹+煠
+齉	noax
+玍	koaA
+𫜶	toan
+𣖍	Afejq
+𣛓	AaeA
+𣖍𣛓	Afejq AaeA
+𤠫𤢂	ljit siok
+猓玀	kvaA lvaA
+狇	mous
+𤝂	mous
+
+
+彁	koaq		#无意義
+
+錿	hooA
+𣬠𣬶	keejq paaq
+傈僳	ljit sjok
+傈僳	liis sous
+鿼鿻	kaaq poos
+㞎	paA
+乸	naA
+屙	Aaq
+#######借䛐
+𬻀	booq soat		#菩薩
+𬻀	bodhisattva
+𢌽	neit bvan
+𢌽	nirvana
+鿖	christ
+鿖	khrir
+#######會意
+#####
+𱍚	pə toajq
+𱍛	pə hgo,p
+𱍤	pə dcjeA
+𱏤	pə kvaC
+𱰸	pə Au;js
+𱷣	pə lj;p
+𡀆	pə hi;A
+𰴪	pə Cian
+𰑼	pə Aoak
+𰀚	pə tcjex
+𭯒	pə moavq
+𭯈	pə moovA
+𫠫	pə Cuan
+𫠬	pə tRxuC
+𫠲	pə khiok
+𫠻	pə sjiz
+𬦇	pə tsoovA
+𪜄	pə khoajA
+𧗩	pə hgaaC
+𩖲	pə piuC
+𤯚	pə SaeC
+𣈇	pə mxaC
+𡍂	pə dzvujs
+𠁞	pə hgvujs
+𢆓	pə bxeC
+𣨀	pə sjiA
+𡈯	pə qwen
+𠁒	pə tcjin
+𠀱	pə bvioA
+甭	pə Jjox
+䬩	pə zcj;k
+歪	pə tcjex
+奀	pə doar
+𪱱	mouk hgaaA
+𮗙	keez ku;jA
+𭂴	piuC ljoA
+颪	EaaA piuC
+𭂳	EaaA piuC
+凪	piuC tcj;A
+凩	piuC mouk
+####合字
+鿿	puoA mvojq
+𡗀	toaq tcjaA		#四庫人名用字咸平六年李繼遷寇洪德砦蕃官癿𡗀慶擊走之
+𱁬	dvojA do;p
+𣍲	CqooA Cuat nRxoA
+𠧗	dzciag EaaA
+𪸃	tshjeC khi;js
+𬒭	dcjan Sxiq
+⿱二𠄟	dcjag EaaA
+𫤜	hioC deejs
+𫡡	gxavq Jjos
+𫣵	tcjin zj;A
+𭻺	tcjin toaC
+覅	mjevs
+朆	mo;C
+覅	mjevs
+𣄰	moaA		#无可
+鿗	hgo,p Ajiq
+鿘	hgo,p Ajiq
+鿙	kho;k Ajiq
+鿚	kaak Ajiq
+鿛	lj;C ncj;jA
+鿜	lo,p ncj;jA
+鿝	lo;C ncj;jA
+鿞	ljet ncj;jA
+鿟	ljis ncj;jA
+鿠	ljis ncj;jA
+鿡	loaq ncj;jA
+鿢	Jjaq hgo,p
+鿣	Jjaq kho;k
+鿤	Jjaq kaak
+鿥	loaC ncj;jA
+鿦	AxaC mu;jq
+鿧	ljuC ncj;jA
+鿨	lvojq ncj;jA
+鿩	looA ncj;jA
+瓩	tshen CqfaA
+兛	tshen kho;k
+粁	tshen meiA
+竏	tshen
+𫦥	kaajq Ajit
+𫦤	lj;k Ajit
+𫡷	paak Aaas
+竡	paak Aaas
+粨	paak meiA
+瓸	paak CqfaA
+兡	paak kho;k
+𭨗	kxag dooq		#景圖
+𬀧	ncjit EaaA
+𮥌	Aoaq EaaA
+#######叚借
+#####
+#####借
+###語气詞
+不	pə
+夫	pa
+无	ma
+之	tə
+㞢	tə
+底	tə
+的	tə
+旳	tə
+哉	tsə
+昰	tjaA
+這	tjaA	9		#者遮
+这	tjaA	0
+若	nas
+邪	la
+已	lə
+乎	ha
+𠮱	Eva
+矣	Aə
+兮	hejq
+嗚	Aa
+嗚呼	Aa ha
+烏乎	Aa ha
+噫	Aə
+欲	Ajevs
+##
+喵	mxevq		#貓
+咪	mjeA
+噗	phouk
+嘿	ho;k	5
+啦	lo,p	5
+吖	Aaaq	5
+哪	noaA
+啊	Aoaq
+嘿	heejq
+哼	ho;C
+啥	scjaq	5
+啥	dcjeA hgoat
+###古
+母	maA
+父	paA
+母	moA		#牡媽
+# 母	məA
+牡	moA
+ǀə	tsə
+####近
+您	nRxiA pv;js		#伱們
+您	nRxiA
+佢	gioq
+𠍲	gioq
+們	mv;n
+# 麼	mvaq
+嘛	maaq	5
+# 麼	məq
+什麼	dcjeA hgoat mu;t
+什麼	hgoat
+輩	mən
+瞞	mv;n
+###
+啦	loa
+哈	hoa
+吖	Aia
+哦	qoo
+噢	qoo
+噗	phou
+哧	tschj;		#嗤𣢑
+嗯	Co,n
+咱	tsoat
+咱	tsa		#兹沙切 中州音韻
+哎	Coar
+嗨	ho,jq
+咍	ho,jq
+喏	ncjaA		#𠰒
+呔	to,jq
+了	lo;
+# 媽	moa
+# 嗎	moa
+怎	tso;b
+######字部
+####1
+###一
+###丄
+卡	khaaA
+###示
+##𥘅
+###三
+###王
+###玉
+鿱	paaq
+𪻕	kooA
+###玨
+###气
+氫	khjeC		#H 1 hydrogen
+⿹气水	khjeC
+氕	Ajit		#H1 protium
+氘	ncjis		#H2 deutejsium
+氚	soam		#H3 tritium
+氕	pheet		#丿
+氘	toavq		#刀刂
+氚	tschyon		#川
+氦	hgo,jA		#he helium 
+氦	ho,js		#He helium
+氮	doaf		#n 7 nitrogenium azote 
+氧	Jjag		#O xygen
+氱	Jjag
+氟	pu;t		#F fluorine
+氖	no,jA		#ne neon
+氝	nvojs
+氯	ljok
+氬	Aaas
+氪	kho;k
+氙	sjen
+氥	sjen
+氠	scjin
+𣱧	dRxox
+氡	tooC		#radon
+鿫	Aoovs		#Og118 oganeSon
+氰	tsheeC		#cyanogen 靑气
+氨	Aoan		#ammonia
+###士
+###丨
+###屮
+###艸
+莰	kho,b
+蒈	khaeq
+# 苷	koam
+苄	bxez
+苯	been		#benzene
+# 蒽	Ao,n
+萘	noar
+# 薁	Aiuk
+萜	theep
+# 茚	Ajiz
+###蓐
+###茻
+####
+###小
+###八
+###釆
+###半
+###牛
+###犛
+###吿-告
+###口
+啦	loa
+哈	hoa
+吖	Aia
+哦	qoo
+噢	qoo
+噗	phou
+哧	tschj;		#嗤𣢑
+嗯	Co,n
+咱	tsoat
+咱	tsa		#兹沙切 中州音韻
+哎	Coar
+嗨	ho,jq
+咍	ho,jq
+喏	ncjaA		#𠰒
+呔	to,jq
+###凵
+###吅
+###哭
+###走
+###止 止𣥂夊㐄
+###癶
+###步
+###此
+###正
+###是
+###辵
+###彳
+###廴
+###㢟
+###行
+###齒
+###牙
+𬌗	Eo,p
+###足
+###疋
+###品
+###龠
+###冊
+####
+###㗊
+###舌
+###干
+###𧮫
+###只
+嘦	kjevs
+###㕯
+###句
+###丩
+###古
+###十
+###卅𠦄
+###言
+##
+##
+###誩
+###音
+###䇂
+###丵
+###菐
+###廾𠬞
+###𠬜
+###共𠔏
+###異
+###舁
+###𦥑
+###䢅
+###爨
+###革
+###鬲
+###䰜
+###爪
+###丮
+###鬥
+###又
+##父
+###𠂇
+###史㕜
+###支
+###𦘒
+###聿
+###畫畵
+###隶
+###臤
+###臣
+###殳
+###殺
+###𠘧dcyuq殳	几
+###寸
+###皮
+###㼱
+###攴
+###攴
+##攵
+###教
+###卜
+###用
+甩	SwiA
+甩	sRvajA
+##甫
+鿿	njiz
+鿿	Eaag
+###爻
+###㸚
+####
+###𡕥
+###目
+###䀠
+###眉
+###盾
+###自
+###四
+###鼻
+###白百
+###皕
+###習
+###羽
+###隹
+###奞
+###萑雈
+###𦫳𠁥
+###𥄕
+###羊
+羥	khiag		#OH hydroqyl
+羰	thoaC
+羧	svaq
+###羴
+###瞿
+###雔
+###雥
+###鳥
+###烏
+###𠦒𠌶
+###冓
+###幺
+###𢆶
+###叀
+###玄
+###予
+###放
+###𠬪
+###𣦼
+###歺
+###死𣦸
+###冎
+###骨
+###肉
+腺	sjez
+胩	khaaA
+肽	thoar
+䏓	Cuan		#肉元 proton
+䏟	beit
+脒	meejA
+肟	Avos
+肼	tsjeg
+腈	tsjeC
+䶽	tsouC		#肼酮
+腙	tsouC
+脎	Saet
+脎	soas
+脲	neevsk
+胍	kfaq
+胍	kaaq
+胺	Aoan		#amine 同氨 不異讀
+胺	Aoaz
+膦	ljin		#phosphine
+膦	ljiz
+胂	scjin		#arsine
+胂	scjiz
+䏲	theiq
+###筋
+###刀
+###刃
+###㓞
+###丯
+###耒
+###角
+####
+###竹
+####箕
+###丌
+###左
+###工
+###㠭
+###巫
+###甘
+###曰
+###乃
+###丂
+###可
+###兮
+###号
+###亏
+###旨
+###喜
+###壴
+###鼓
+###豈
+###豆
+###豊
+###豐
+###䖒
+###虍
+###虎
+###虤
+###皿
+###凵
+###去
+###血
+###丶
+###丹
+###靑
+###丼
+###皀
+###鬯
+###食
+###亼-口
+𠼞	Aoak		#ammonia
+###𠓛-入一
+###會
+###倉
+###入
+###缶
+###矢
+###高
+###冂冋
+###𩫖
+###京
+###亯
+###㫗𣆪
+###畗
+###㐭
+###嗇
+###來
+###麥
+###夊
+###舛
+###䑞
+###韋
+###弟
+###夂
+###久
+###桀
+####
+###木
+###東
+###林
+##
+###才
+###叒
+###之
+###帀
+###出
+###𣎵
+###生
+###乇
+###𠂹
+###𠌶
+###華
+###𥝌
+###稽
+###巢
+###桼
+###束
+###㯻
+###囗
+喹	khveq
+啉	lj;m
+唑	dzvas
+嗪	dzjin
+咯	koak
+哚	tvaA
+吲	Jjid
+吖	Aaaq
+呋	pvioq
+喃	no,m
+㖕	sjin
+啶	deex
+嘧	mxit
+嘌	phjevq
+呤	leeC
+咪	meiq
+噻	so,jq
+吡	bjit
+##回
+##
+###員
+###貝
+###邑
+###𨛜
+####
+###日
+###旦
+###倝
+###㫃
+###冥
+###晶
+###月
+##
+###有
+###朙明
+###囧
+###夕
+###多
+###毌
+###𢎘
+###𣐺
+###𠧪
+###齊
+###朿
+###片
+###鼎
+###克
+###彔
+###禾
+###秝
+###黍
+###香
+###米
+###毇
+###臼
+###凶
+###朩𣎳
+###𣏟
+###麻
+###尗
+###耑
+###韭
+###瓜
+###瓠
+###宀
+###宮
+###呂
+###穴
+###㝱
+###疒
+###爿
+###冖
+###𠔼
+###冃
+###㒳
+###网
+##罓
+##罒
+###襾
+###巾
+###巿
+###帛
+###白
+###㡀
+###黹
+####
+###人
+##人族
+仫	moos
+傣	to,jA
+傈	ljit
+僳	siok
+佧	khaA
+佤	CfaA
+佤	qvaA
+##人行
+##人爲
+##人格
+##尸𡰣
+##天
+##女
+##匕
+###𠤎
+###匕
+###从
+###并
+###比
+###北
+###丘
+###㐺
+###𡈼
+###重
+###臥
+###身
+###㐆
+###衣
+###裘
+###老
+###毛
+###毳
+###尸
+###尺
+###尾
+###履
+###舟
+###方
+###儿
+###兄
+###兂
+###皃
+###𠑹
+###先
+###禿
+###見
+###覞
+###欠
+###㱃
+###㳄
+###旡
+####
+###頁
+###𦣻
+###面
+###丏
+###首
+###𥄉
+###須
+###彡
+###彣
+###文
+###髟
+###后
+###司
+###卮
+###卩卪
+##令
+###印
+###色
+###𠨍
+###辟
+###勹
+###包
+###茍
+###鬼
+###甶
+###厶
+###嵬
+###山
+###屾
+###屵
+###广
+###厂
+###丸
+###危
+###石
+硼	bo;C		#b boracium
+碳	thoaz		#C 6 carbonium
+矽	zjek
+硅	kveq
+磷	ljin
+硫	ljuvq
+砷	scjin
+砒	pheiq
+硒	so,jq
+砹	Aoar
+鿬	dein		#Ts 117teenResine
+碸	piuC		#sulfone
+磺	EvaC		#sulfo
+##
+###長
+###勿
+###冄
+###而
+###豕
+###㣇
+###彑
+###豚
+###豸
+###𤉡𧰽
+###易
+###象
+####
+###馬
+###𢊁
+###鹿
+###麤
+###㲋
+###兔
+###萈
+###犬
+###㹜
+###鼠
+###能
+###熊
+###火
+烴	thjeC		#CH hydroCajsbon
+烴	theeC
+烷	Evan
+烯	hi;jq
+炔	khyet
+熵	scjaC
+焓	hgo,m
+㶲	Jjox
+###炎
+###囪
+###焱
+###炙
+###赤
+###大
+###亦𡗕
+###夨
+###夭
+###交
+###尣尢
+###壺
+###壹
+###㚔
+###奢
+###亢
+###夲
+###夰
+###亣
+###夫
+###立
+###竝
+###囟
+###思
+###心
+##
+##
+###惢
+####
+###水
+溴	hiuvs
+汞	koug
+汞	hgoug
+澒	hgoug		#汞
+###沝
+###瀕
+###𡿨
+###巜
+###川巛
+##巠
+巰	giuvq
+###泉
+###灥
+###永
+###𠂢
+###谷
+###仌
+###雨
+###雲云
+###魚𤉯
+鮟	Aoan
+鱇	khoaC
+鮟鱇	Aoan khoaC
+###𩺰
+###燕㷼
+###龍
+##
+##
+###飛
+###非
+###卂
+####
+###𠃉乚
+###不
+𱍚	pə toajq
+𱍛	pə hgo,p
+𱍤	pə dcjeA
+𱏤	pə kvaC
+𱰸	pə Au;js
+𱷣	pə lj;p
+𡀆	pə hi;A
+𰴪	pə Cian
+𰑼	pə Aoak
+𰀚	pə tcjex
+𭯒	pə moavq
+𭯈	pə moovA
+𫠫	pə Cuan
+𫠬	pə tRxuC
+𫠲	pə khiok
+𫠻	pə sjiz
+𬦇	pə tsoovA
+𪜄	pə khoajA
+𧗩	pə hgaaC
+𩖲	pə piuC
+𤯚	pə SaeC
+𣈇	pə mxaC
+𡍂	pə dzvujs
+𠁞	pə hgvujs
+𢆓	pə bxeC
+𣨀	pə sjiA
+𡈯	pə qwen
+𠁒	pə tcjin
+𠀱	pə bvioA
+甭	pə Jjox
+䬩	pə zcj;k
+歪	pə tcjex
+奀	pə doar
+###至
+###西㢴
+###鹵
+###鹽
+###戶
+###門
+###耳
+###𦣞
+###手
+###𠦬
+###女
+###毋
+###民
+###丿乀
+###𠂆
+##弋
+甙	do,js		#代𤮼
+###乁
+###氏
+###氐
+###戈
+###戉
+###我
+###亅
+###珡
+###𠃊
+###亡亾
+###匸
+###匚
+###曲
+###甾
+###瓦
+###弓
+###弜
+###弦
+###系
+###糸
+####
+###素𦃃
+###絲
+##緊
+###率
+###虫
+###䖵
+##虫
+###蟲
+###風
+##
+###它
+###龜
+###黽
+###卵
+###二
+###土
+###垚
+###堇
+###里
+###田
+###畕
+###黃
+###男
+##耜耕
+###力
+###劦
+####
+###金
+鋰	lj;A		#li lithium
+鈹	bxajq		#be beryllium
+鈉	no,p
+鎂	mxiA
+鋁	ljoA
+鉀	kaap
+鈣	koar		#Coa calcium 
+鈧	khoax
+鈦	thoar
+鐇	buam
+釩	buam
+鉻	kaak
+錳	maag
+鐵	theik
+鈷	kooA
+鎳	Ceet
+銅	douC
+鋅	sjin
+鎵	kaaq
+鍺	tcjaA
+銣	ncjoq
+鍶	sj;q
+釔	Axit		#Y ytRrium -t
+錷	Axit
+鋯	koavs
+鈮	neiq		#nb niobium
+鉬	miuk
+鍀	to;k
+釕	leevA
+銠	loavA		# rhodium
+鈀	paaA
+銀	Cx;n
+鎘	kaek
+鉲	khoaA
+銦	Ajin
+錫	seek
+銻	theejq
+碲	teejs
+碘	teed
+銫	Sx;k
+鋇	poar
+鑭	loaz		#loa57 lanthanum
+鈰	dcj;A
+鐠	phooA
+釹	nRxoA
+鉕	phvaA
+釤	Saam
+銪	qiuvA
+釓	kaet
+釓	koaq		#乚扎gadolinium
+鋱	tho;k
+鏑	teek
+鈥	hvaA
+錵	hfaq
+鉺	ncj;A
+銩	tiuvq		#tm 69thulium
+鐿	Ai;s
+鑥	looA
+鉿	ko,p
+鉭	thoad
+鎢	Aooq
+錸	lo,jq
+鋨	Coaq
+銥	Ai;jq
+鉑	boak
+黃金	kx;m
+鉈	dcjajq
+鉛	Jyon
+鉍	pxik
+釙	phauk
+鈁	puaC		#Fa 89 francium
+鐳	lvojq		#Ra 88 radium
+錒	Aoaq		#Ac 89 actinium
+釷	thooA		#Th 90 thorium
+鏷	book		#Pa 91 Protactinium
+鈾	Jjuvq		#U 92 uranium
+錼	noar		#Np 93 neptunium
+鎿	noaq
+鈈	pu;s		#Pu 94 plutonium
+鎇	mxiq		#Am 95 americium
+鋦	kiok		#Cm 96 Curium
+錇	bvojq		#Bk 97 berkelium
+鐦	kho,jq		#Cf 98 californium
+鑀	Ao,js		#Es 99einsteinium
+鎄	Ao,jq
+鐨	phu;js		#Fm 100fermium
+鍆	mvon		#Md 101 mendelevqium
+鍩	noak		#No 102 nobelium
+鐒	loavq		#Lr 103 lavArencium 103
+鑪	looq		#Ru 104 rutherfordium
+䤣	looq		#rutherfordium 金虍錿
+𨧀	dooA		#Db 105d dubnium
+𨭎	hi;A		#Sg 106 seaborgium
+𨨏	pvaq		#Bh 107 bohrium
+𨭆	ho;k		#Hs 108 haSium
+䥑	maek		#Mt 109 meitnerium
+鐽	doat		#Ds 110 darmstadtium
+錀	lyun		#Rg 1101 roentgenium
+鎶	koaq		#Cn 112 copernicium
+鉨	neiA		#Nh 113 nihonium 鉩鿭	U+9fed 鈮nb 41niobium
+鉩	neiA
+鈇	pvioq		#Fl 114 Flerovqium
+鏌	moak		#mc 115 moscovqium
+鉝	lj;p		#lv 116 livqermorium
+鎓	AouC		#-onium 後綴 巳弃用
+𨦡	Jjag		#oxonium salts
+𨦡	JjaC
+鏻	ljin		#phosphonium
+鏻	ljid		#
+鉮	scjin		#arsonium
+鉮	scjid		#陽平不用
+銨	Aoan		#ammonium
+銨	Aoad
+鋶	ljuvq		#sulphonium
+鋶	ljuvA
+鋞	khjeC		#hydrogenium
+⿰金西	so,jq
+𲇊	so,jq
+錆	tsheeC
+鉘	pu;t
+# 錄	ljok
+𲇙	hiuvs
+⿰金臭	hiuvs
+錪	teed
+𨫬	koan
+###幵
+###勺
+###几
+###且
+###斤
+###斗
+###矛
+###車
+###𠂤
+###𨸏
+###𨺅
+###厽
+###四亖
+###宁
+###叕
+###亞
+###五
+###六
+###七
+###九
+###禸
+###嘼
+###甲
+###乙
+###丙
+###丁
+###戊
+###己
+###巴
+###庚
+###辛
+###辡
+###壬
+###癸
+###子
+###了
+###孨
+###𠫓
+###丑
+###寅
+###卯戼
+###辰
+###巳
+###午
+###未
+###申
+###酉
+酶	mvojq
+酞	thoar
+酐	koan
+酰	se;n		#acyl
+酮	douC
+酚	phu;n
+醚	meiq
+酯	kcjiA
+酯	kcjiq
+酯	kcjiA
+醛	dzyen
+###酋
+###戌
+###亥
+####
+###由
+###者
+#####
