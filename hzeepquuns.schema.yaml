@@ -294,7 +294,7 @@ speller:
     - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
     - abbrev/([aeiouəʌ;,])j([qAs])$/$1$2/ #jq
-    - derive/(?<!^)q$//
+    # - derive/(?<!^)q$//
 ##可選 介 序
     # - fuzz/(?<!^)x([aeiouəʌ;,])/r$1/ #r=x
     # - fuzz/(?<!^)r([aeiouəʌ;,])/x$1/ #

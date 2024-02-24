@@ -12,6 +12,12 @@ use_preset_vocabulary: true
 import_tables:
   - giz
   - dzjupquns
+  - dzop
+  - tsjak
+  - gvu
+  - txav
+  - quat
+  - tsxax
 ...
 ######
 # 魚	支	侯	之	幽	脂	歌	微	宵	幽	
@@ -716,8 +722,8 @@ import_tables:
 瀉	sjaA
 瀉	sjas
 荼	Lzcjaq
-䔑	zjaq
-斜	zjaq
+䔑	zL-jaq
+斜	zL-jaq		#s-L?
 䔑	JLjaq
 斜	JLjaq
 余	Lc_jaq	2		#zc- J-
@@ -1211,17 +1217,17 @@ import_tables:
 詫	thRaak-s
 侘	thRaak-s
 䖳	dRaak-s
-茶	LRaaq		#L余
-𣘻	LRaaq
-荼	LRaaq
-塗	LRaaq
+茶	LR_aaq		#L余
+𣘻	LR_aaq
+荼	LR_aaq
+塗	LR_aaq
 𤶠	tRaaq
-𡨀	LRaaq
-𡝐	LRaaq
-𤶠	LRaaq
-𦛝	LRaaq
-𥥸	LRaaq
-梌	LRaaq
+𡨀	LR_aaq
+𡝐	LR_aaq
+𤶠	LR_aaq
+𦛝	LR_aaq
+𥥸	LR_aaq
+梌	LR_aaq
 #
 鮓	tssaaA
 厏	tssaaA
@@ -3337,12 +3343,12 @@ import_tables:
 屣	ssxaj_A
 屣	ssxaj_s
 𩌦	ssxaj_s
-池	LRxaj_q		#L
-馳	LRxaj_q
-䪧	LRxaj_q
-䶔	LRxaj_q
-杝	LRxaj_A
-阤	LRxaj_A
+池	LR_xaj_q		#L
+馳	LR_xaj_q
+䪧	LR_xaj_q
+䶔	LR_xaj_q
+杝	LR_xaj_A
+阤	LR_xaj_A
 趍	dRxaj_q
 誃	dRxaj_q
 陊	dRxaj_A
@@ -3792,14 +3798,14 @@ import_tables:
 豸	dRxeA
 廌	dRxeA
 褫	thRxeA
-篪	LRxeq
-䶵	LRxeq
-褫	LRxeq
-傂	LRxeq
-䞾	LRxeq
-褫	LRxeA
-傂	LRxeA
-䚦	LRxeA
+篪	LR_xeq
+䶵	LR_xeq
+褫	LR_xeq
+傂	LR_xeq
+䞾	LR_xeq
+褫	LR_xeA
+傂	LR_xeA
+䚦	LR_xeA
 彲	RshRxeq		#麗#Rs
 釃	ssxeq
 欐	ssxeq
@@ -3876,9 +3882,9 @@ import_tables:
 膇	dRwojs
 槌	dRwojs
 #
-縋	dL-Rwujs		#?u u
-膇	dL-Rwujs
-槌	dL-Rwujs
+縋	gL-Rwujs		#k-L-?
+膇	gL-Rwujs
+槌	gL-Rwujs
 #
 衰	tsshwojq		#?
 ##we
@@ -4545,8 +4551,8 @@ import_tables:
 䣵	nRxis		#?
 誺	RshRxis		#Rs
 𦗕	mxiq		#?
-治	LRxis	1		#L
-菭	LRxiq	1
+治	LR_xis	1		#L
+菭	LR_xiq	1
 𦡸	nRxis
 𨎌	tRxis
 騺	tRxis
@@ -4641,18 +4647,18 @@ import_tables:
 㞛	kxij_A
 訵	LshRxij_q		#四L-i-j
 𣱐	tRxij_s
-稚	LRxij_s		#稺
-遲	LRxij_q
-遟	LRxij_q		#遲
-𨒈	LRxij_q
-墀	LRxij_q
-𡎰	LRxij_q		#𡎰
-謘	LRxij_q
-徲	LRxij_q
-遟	LRxij_s
-稺	LRxij_s		#稚
-𦃘	LRxij_s
-謘	LRxij_s
+稚	LR_xij_s		#稺
+遲	LR_xij_q
+遟	LR_xij_q		#遲
+𨒈	LR_xij_q
+墀	LR_xij_q
+𡎰	LR_xij_q		#𡎰
+謘	LR_xij_q
+徲	LR_xij_q
+遟	LR_xij_s
+稺	LR_xij_s		#稚
+𦃘	LR_xij_s
+謘	LR_xij_s
 莉	RRxij_q		#利R-i
 𢴧	dRxij_s		#貳n-i
 膩	nRxij_s
@@ -4677,8 +4683,8 @@ import_tables:
 蒒	ssxij_q
 篩	ssxij_q
 螄	ssxij_q
-雉	LRxij_A		#矢L-i
-薙	LRxij_A
+雉	LR_xij_A		#矢L-i
+薙	LR_xij_A
 #
 𡳭	thRxij_A
 𡳭	thRxij_s
@@ -4900,7 +4906,7 @@ import_tables:
 懟	dRwup-r
 ##wur wuks wuts wuts
 臾	gwut-r		#ts
-墜	LRwut-r		#L
+墜	LR_wut-r		#L
 帥	sswut-r		#ts
 率	sswut-r		#ts
 喟	khwut-r		#ts嘳
@@ -5175,12 +5181,12 @@ import_tables:
 𦖢	ncj;s
 陾	ncj;q
 #
-齝	LRx;q		#Ls
-笞	LRx;q
-眙	LRx;q
-佁	LRx;q
-治	LRx;q
-治	LRx;s
+齝	LR_x;q		#Ls
+笞	LR_x;q
+眙	LR_x;q
+佁	LR_x;q
+治	LR_x;q
+治	LR_x;s
 𦣝	Jqj;q		#q?L?
 𦣞	Jqj;q
 𩠡	Jqj;q
@@ -5992,7 +5998,7 @@ import_tables:
 鄁	bv;k-s
 偝	bv;k-s
 ##vur vuks vuts
-昢	phvot-r		#ts
+昢	phvot-r		#ts#出 會意
 內	nvop-r		#ps o?u?
 𨑧	nshvop-r	99		#𢓴 ns
 𢓇	nshvop-r	99
@@ -7627,10 +7633,10 @@ import_tables:
 䝻	kioq
 鶋	kioq
 据	kioq
-処	khL-ioA
-處	khL-ioA		#虍k-L-a
-処	khL-ioA
-處	khL-ios
+処	khL-joA
+處	khL-joA		#虍k-L-a
+処	khL-joA
+處	khL-jos
 巨	gioA
 拒	gioA
 苣	gioA
@@ -7799,14 +7805,14 @@ import_tables:
 筡	LshRxoq
 悇	LshRxos
 㾻	LshRxos
-除	LRxoq
-涂	LRxoq
-篨	LRxoq
-蒢	LRxoq
-滁	LRxoq
-㾻	LRxoq
-除	LRxos
-㾻	LRxos
+除	LR_xoq
+涂	LR_xoq
+篨	LR_xoq
+蒢	LR_xoq
+滁	LR_xoq
+㾻	LR_xoq
+除	LR_xos
+㾻	LR_xos
 釃	ssxoq
 𦌿	ssxoq
 𠿝	tsshxoq
@@ -8595,7 +8601,7 @@ import_tables:
 㡏	sL-swoq		#s-L-R
 毹	sL-swoq
 㡏	sL-swos
-牏	LRwos
+牏	LR_wos
 朱	tc_yoq
 侏	tc_yoq
 咮	tc_yoq
@@ -8678,10 +8684,12 @@ import_tables:
 䝒	dzswoA
 𧱛	dzswoA
 #
-樞	khL-c_yoq		#?k-L
+樞	khL-c_yoq		#?區k-L-o
 𩪍	khL-c_yoq
-𤠾	khL-R_woq		#?
+𤠾	khL-R_woq		#?區#𦔬
 貙	khL-R_woq
+𤠾	thRwoq
+貙	thRwoq		#𦔬
 ##Uor Uoks Uots
 仆	pF_huok-s		#ks o
 䟔	pF_huok-s
@@ -9246,8 +9254,8 @@ import_tables:
 蜹	JLyop-r
 ###xer xeks xets Rjer
 ##ər
-𦭮	LRx;t-r		#㐁 L?
-䇧	LRx;t-r
+𦭮	LR_x;t-r		#㐁 L?
+䇧	LR_x;t-r
 ##er
 揥	thRxet-r		#訓硩
 傺	thRxet-r
@@ -9260,9 +9268,9 @@ import_tables:
 𧼪	thRxet-r
 𨂰	thRxet-r
 彑	kxet-r
-彘	LRxet-r		#矢
-璏	LRxet-r
-𩻼	LRxet-r
+彘	LR_xet-r		#矢
+璏	LR_xet-r
+𩻼	LR_xet-r
 跇	LshRxep-r
 䚢	LshRxep-r
 𢘽	LshRxet-r
@@ -9906,7 +9914,7 @@ import_tables:
 教	kq_aavq		#孝𡥈
 教	kq_aavs
 ##Rav?ev?
-䄻	LRaavq		#L
+䄻	LR_aavq		#L
 鳭	tRaavq
 䫸	thRaavq
 灱	thRaavq
@@ -10126,8 +10134,8 @@ import_tables:
 䫉	maevk-s		#貌
 箹	Aaevk-s		#ks
 #
-櫂	LRaevk-s		#ks#L
-濯	LRaevk-s
+櫂	LR_aevk-s		#ks#L
+濯	LR_aevk-s
 ##Ro -aov
 煼	tsshaov_A		#芻ts-o
 𤌉	tsshaov_A
@@ -11168,16 +11176,16 @@ import_tables:
 𢁾	thRxevq
 𠰉	thRxevq
 䫿	thRxevq
-兆	LRxevA		#Ls
+兆	LR_xevA		#Ls
 脁	thRxevs		#肉
-晁	LRxevq
-旐	LRxevA
-狣	LRxevA
-䍮	LRxevA
-鮡	LRxevA
-駣	LRxevA
-垗	LRxevA
-𠧞	LRxevA
+晁	LR_xevq
+旐	LR_xevA
+狣	LR_xevA
+䍮	LR_xevA
+鮡	LR_xevA
+駣	LR_xevA
+垗	LR_xevA
+𠧞	LR_xevA
 ##xev
 䔸	pxevA
 𠬪	bxevA
@@ -12519,7 +12527,7 @@ import_tables:
 瘦	ssxuv_s
 蒐	ssxuv_q		#搜
 盩	tRxuv_q		#?
-盩	LRxuv_q		#?
+盩	LR_xuv_q		#?
 晝	tRxuv_s
 𦘙	tRxuv_A	1
 𣅯	tRxuv_s
@@ -12561,7 +12569,7 @@ import_tables:
 𧌗	tssxov_A
 𩋄	tsshxov_A
 郰	tssxov_q
-鮦	LRxov_A		#同聲
+鮦	LR_xov_A		#同聲
 兪	LshRxov_s	2		#Ls
 俞	LshRxov_s	2
 咮	tRxov_q
@@ -12599,7 +12607,7 @@ import_tables:
 輈	tRxivq
 #
 𥈌	LshRxivq		#Ls#𭣢
-鯈	LRxivq
+鯈	LR_xivq
 ##xəv?
 𨏺	tRx;vq
 侜	tRx;vq
@@ -12610,21 +12618,21 @@ import_tables:
 #
 杽	nshRxuvA		#杻#手
 ##
-䌛	LRxus
-繇	LRxus		#䌛䍃L-u
+䌛	LR_xus
+繇	LR_xus		#䌛䍃L-u
 抽	LshRxuq		#Ls#由L-u
-菗	LRxuq
+菗	LR_xuq
 妯	LshRxuq
-紬	LRxuq
-怞	LRxuq
-鮋	LRxuq
-冑	LRxus
-𩊄	LRxus
-宙	LRxus
-胄	LRxus
-伷	LRxus
-䛆	LRxus
-駎	LRxus
+紬	LR_xuq
+怞	LR_xuq
+鮋	LR_xuq
+冑	LR_xus
+𩊄	LR_xus
+宙	LR_xus
+胄	LR_xus
+伷	LR_xus
+䛆	LR_xus
+駎	LR_xus
 ###iov
 ##əv?
 鬮	kIovq	0
@@ -13005,9 +13013,9 @@ import_tables:
 䫡	khq_aeb
 甉	hgaem
 #
-𠗨	LRaep		#枼-世L-e-p
-喋	LRaep
-𧃹	LRaep
+𠗨	LR_aep		#枼-世L-e-p
+喋	LR_aep
+𧃹	LR_aep
 啑	ssaep		#疌ts-e-m
 𧲌	ssaep
 懺	tsshaef		#韱-㦰ts-e-m
@@ -14209,6 +14217,8 @@ import_tables:
 譣	tshjam
 憸	tshjab
 憸	sjam
+##
+㤿	Aj,m
 ##jom?
 染	ncjob
 𩃵	ncjob
@@ -14226,7 +14236,6 @@ import_tables:
 㿕	JLjom
 䌪	JLjob
 爓	JLjof
-㤿	Ajom
 ###xem?
 𣄉	Axeb		#奄
 𣃰	Axeb		#奄
@@ -14321,17 +14330,17 @@ import_tables:
 讇	LshRxob
 芡	gxob
 ##xəm? e?ə?
-𢁮	gxem		#今k-eo-m
-黔	gxem
-鳹	gxem
-雂	gxem
-鈐	gxem
-𨦄	khxem
-𩒣	khxeb		#𩒣𩖄#𩓒𩒣𩒯
-𩑳	khxeb		#𩑳顩
-𢜩	khxem		#咸k-eo-m
-羬	gxem
-鍼	gxem
+𢁮	gx,m		#今k-,o-m
+黔	gx,m
+鳹	gx,m
+雂	gx,m
+鈐	gx,m
+𨦄	khx,m
+𩒣	khx,b		#𩒣𩖄#𩓒𩒣𩒯
+𩑳	khx,b		#𩑳顩
+𢜩	khx,m		#咸k-,o-m
+羬	gx,m
+鍼	gx,m
 ##xem
 誗	dRxem		#Rs
 籋	nRxep
@@ -14382,8 +14391,8 @@ import_tables:
 鉆	gxem
 煠	LshRxep		#Ls
 䈎	LshRxep
-䐑	LRxep
-殜	LRxep
+䐑	LR_xep
+殜	LR_xep
 ####im 侵
 ###jim
 𩖣	zjim		#姓
@@ -14700,14 +14709,14 @@ import_tables:
 𧡬	LshRxuf
 闖	LshRxuf		#同𧡬?
 ##xəm?
-鰧	LRx;b		#𦩎?
-螣	LRx;b
-𦩎	LRx;b
-𣍹	LRx;b
-𣒁	LRx;b
-朕	LRx;b
-𦨶	LRx;b
-栚	LRx;b
+鰧	LR_x;b		#𦩎?
+螣	LR_x;b
+𦩎	LR_x;b
+𣍹	LR_x;b
+𣒁	LR_x;b
+朕	LR_x;b
+𦨶	LR_x;b
+栚	LR_x;b
 莐	dRx;m		#沈冘
 霃	dRx;m
 沈	dRx;m
@@ -14962,7 +14971,7 @@ import_tables:
 熠	qx;p
 騽	qx;p
 ##xim
-㙷	LRxip		#L?濕
+㙷	LR_xip		#L?濕
 㬤	khxip
 馽	tRxip		#縶
 𡁉	tRxip
@@ -14986,7 +14995,7 @@ import_tables:
 浩	kq_o,p		#?
 𢇞	hgo,b		#?𢇞嘾
 㐁	Lsho,f		#?簟
-𦂀	doop		#?
+𦂀	doop		#?度
 歜	dzo,b	2		#?𣤶譌誤
 厒	khq_o,p
 㶒	tho,f
@@ -14999,7 +15008,7 @@ import_tables:
 僋	tho,f
 僋	lo,f
 ##Oam?
-紺	kq_o,f		#甘
+紺	kq_o,f		#甘k-a-m#甘k-eo-m 岑
 𤯍	khq_o,m
 礏	Cq_o,p
 𣹆	khq_o,p
@@ -15356,7 +15365,7 @@ import_tables:
 㜓	toop
 嗒	toop
 㿯	toop
-荅	toop	999
+荅	toop	999		#合t-u-p
 榙	hgoop
 弇	kq_oom
 𥦍	kq_oom
@@ -15980,23 +15989,23 @@ import_tables:
 䀛	mvat		#u?
 𥄱	phvat		#u?弗
 ##van?vun?
-㒼	mvun
-瞞	mvun
-顢	mvun
-蹣	mvun
-蹣	bvun
-慲	mvun
-樠	mvun
-𤡁	mvun
-鬗	mvun
-𢟮	mvud
-𥲈	mvud
-鏋	mvud
-滿	mvud
-懣	mvud
-悗	mvun		#免
-鞔	mvun
-絻	mvun
+㒼	mvan
+瞞	mvan
+顢	mvan
+蹣	mvan
+蹣	bvan
+慲	mvan
+樠	mvan
+𤡁	mvan
+鬗	mvan
+𢟮	mvad
+𥲈	mvad
+鏋	mvad
+滿	mvad
+懣	mvad
+悗	mvan		#免
+鞔	mvan
+絻	mvan
 ##van?
 盥	kq_vad		#涫?
 盥	kq_vaz
@@ -17026,6 +17035,8 @@ import_tables:
 䞷	gUut
 ##
 韗	hU,z		#?軍
+塤	hqsU,n		#Vs#員V-o-n#員V-v-e-n
+壎	hqsU,n		#塤
 ##Uan
 樠	mF_Uan		#滿㒼m-
 䝡	mF_Uaz
@@ -17322,17 +17333,6 @@ import_tables:
 汳	pF_hUoz
 飯	bF_Uod
 飯	bF_Uoz
-晚	mF_Uod		#免m-o?-R?
-挽	mF_Uod
-輓	mF_Uod
-㝃	mF_Uod
-脕	mF_Uod
-娩	mF_Uod
-輓	mF_Uoz
-𩆊	mF_Uoz		#䨲
-脕	mF_Uoz
-𦂔	mF_Uoz
-娩	mF_Uoz
 袁	qUon		#ɢ V-員〇
 園	qUon
 猿	qUon
@@ -17346,8 +17346,18 @@ import_tables:
 曰	qUot		#曰V-o-t?
 𡩭	qUot
 粵	qUot		#𩁹雩
-塤	hqsUon		#Vs#員V-o-n#員V-v-e-n
-壎	hqsUon		#塤
+#
+晚	mF_Uad		#免m-a?-R?
+挽	mF_Uad
+輓	mF_Uad
+㝃	mF_Uad
+脕	mF_Uad
+娩	mF_Uad
+輓	mF_Uaz
+𩆊	mF_Uaz		#䨲
+脕	mF_Uaz
+𦂔	mF_Uaz
+娩	mF_Uaz
 ##a?o? Ran
 宛	AUan
 鵷	AUan
@@ -18281,8 +18291,8 @@ import_tables:
 㺴	paut
 𥎱	baut
 ##
-𥇅	maud		#免
-睌	maud
+𥇅	maad		#免
+睌	maad
 ##ORin
 # 臤	khq_ain
 # 慳	khq_ain
@@ -18613,9 +18623,9 @@ import_tables:
 𠄔	Efez
 㕕	Efez
 ##vRun
-聉	tRfot
-貀	nRfot
-茁	tssfot
+聉	tRfot		#?出
+貀	nRfot		#?豽
+茁	tssfot		#?
 聉	Cq_fot
 䯇	khq_fot
 嗗	Afot
@@ -19451,15 +19461,15 @@ import_tables:
 抃	bxoz
 汴	bxoz
 忭	bxoz
-##xon?
-免	mxod
-俛	mxod
-鮸	mxod
-㝃	mxod
-冕	mxod
-絻	mxod
-勉	mxod
-娩	mxod
+##xon? a?o?
+免	mxad
+俛	mxad
+鮸	mxad
+㝃	mxad
+冕	mxad
+絻	mxad
+勉	mxad
+娩	mxad
 ##Rjan xan
 榝	ssxat		#殺s-a-t
 𩼼	tRxan
@@ -19652,17 +19662,17 @@ import_tables:
 娎	hxet		#?
 焎	hxet
 𡎻	dzsxen
-䚢	LRxet		#L
+䚢	LR_xet		#L
 徹	LshRxet		#Ls
 𢖉	LshRxet
 撤	LshRxet
 勶	LshRxet
 䒆	LshRxet
-徹	LRxet
-轍	LRxet
-撤	LRxet
-澈	LRxet
-㯙	LRxet
+徹	LR_xet
+轍	LR_xet
+撤	LR_xet
+澈	LR_xet
+㯙	LR_xet
 鏈	RshRxen		#?Rs
 #
 孑	kxet
@@ -19737,7 +19747,7 @@ import_tables:
 𧣸	kwot
 䞵	kwot
 𦋖	kwot
-罬	kwot
+罬	kwot		#叕t-o-t#叕k-o-t
 𠨟	kwod
 卷	kwod
 𩜇	kwod
@@ -19796,11 +19806,11 @@ import_tables:
 剶	LshRwon
 猭	LshRwoz
 鶨	LshRwoz
-椽	LRwon
-篆	LRwod
-瑑	LRwod
-䧘	LRwod
-堟	LRwod
+椽	LR_won
+篆	LR_wod
+瑑	LR_wod
+䧘	LR_wod
+堟	LR_wod
 ##vRjan wan
 蹶	kwat
 湲	qwan
@@ -20784,8 +20794,8 @@ import_tables:
 𪗨	dzsxit
 聉	Cxit		#?
 䍶	dRxin	1		#?䍶䍶
-眹	LRxid
-𥆵	LRxid		#𦩎?
+眹	LR_xid
+𥆵	LR_xid		#𦩎?
 ##xun 幫組
 筆	pxut
 潷	pxut
@@ -20986,20 +20996,20 @@ import_tables:
 㲳	tRxit		#-ŋ-k 失
 抶	LshRxit
 眣	LshRxit
-秩	LRxit
-紩	LRxit
-帙	LRxit
-袠	LRxit
-柣	LRxit
-翐	LRxit
-妷	LRxit
-𣗻	LRxit
-豑	LRxit		#秩
-豒	LRxit
-𧰅	LRxit
-𢧤	LRxit		#秩 𢧤
-𧾞	LRxit
-䟈	LRxit
+秩	LR_xit
+紩	LR_xit
+帙	LR_xit
+袠	LR_xit
+柣	LR_xit
+翐	LR_xit
+妷	LR_xit
+𣗻	LR_xit
+豑	LR_xit		#秩
+豒	LR_xit
+𧰅	LR_xit
+𢧤	LR_xit		#秩 𢧤
+𧾞	LR_xit
+䟈	LR_xit
 𤣆	RshRxin		#Rs
 蟋	ssxit
 # 鉍	pxit		#-k?
@@ -21025,9 +21035,9 @@ import_tables:
 # 籸	ssxin
 # 阠	ssxin
 # 蝨	ssxit
-紖	LRxid		#引L-i
-䏖	LRxid
-䀕	LRxid
+紖	LR_xid		#引L-i
+䏖	LR_xid
+䀕	LR_xid
 # 莘	ssxin		#-ŋ
 # 甡	ssxin		#莘
 # 燊	ssxin
@@ -21073,15 +21083,15 @@ import_tables:
 樼	tssxin
 𨬖	tssxin
 𪘧	tsshxit
-敶	LRxin		#申L-
-陳	LRxin
-𨻰	LRxin
-𨸬	LRxin
-敶	LRxiz
-𨻰	LRxiz
-𨸬	LRxiz
-陳	LRxiz
-陣	LRxiz
+敶	LR_xin		#申L-
+陳	LR_xin
+𨻰	LR_xin
+𨸬	LR_xin
+敶	LR_xiz
+𨻰	LR_xiz
+𨸬	LR_xiz
+陳	LR_xiz
+陣	LR_xiz
 齔	tsshxid		#七ts-i-n#會意?
 齔	tsshxiz
 ##xiR
@@ -21096,14 +21106,14 @@ import_tables:
 贇	Aw;n		#?
 囩	qw;n		#云V-v-eo-n
 ##
-櫄	thRwun		#?杶杻
-縜	qwun		#員V-o-n
-殞	qwud
-溳	qwud
-磒	qwud
-隕	qwud
-霣	qwud
-愪	qwud
+櫄	thRw;n		#?杶杻
+縜	qw;n		#員V-o-n
+殞	qw;d
+溳	qw;d
+磒	qw;d
+隕	qw;d
+霣	qw;d
+愪	qw;d
 ##wun xun
 𦃢	khwud
 茁	tRwut		#出t-ut
@@ -21155,14 +21165,14 @@ import_tables:
 楯	LshRwun		#Ls
 輴	LshRwun
 鶞	LshRwun
-㡒	LRwun
+㡒	LR_wun
 怵	LshRwut		#Ls
 𧺶	LshRwut
 䟣	LshRwut
 𤝞	LshRwut
-朮	LRwut
-𦬸	LRwut
-炢	LRwut
+朮	LR_wut
+𦬸	LR_wut
+炢	LR_wut
 蒁	qwut
 𩖶	hswut		#L?
 𥄵	hswut
@@ -21239,16 +21249,16 @@ import_tables:
 㥆	thvot		#隶L-eo-p
 䠈	thvot
 ##von? a?ə?
-樠	mvon		#滿㒼 ʌ?o?
-璊	mvon
-𣯩	mvon
-䊟	mvon
-懣	mvod
-懣	mvoz
+樠	mv,n		#滿㒼 ʌ?,?
+璊	mv,n
+𣯩	mv,n
+䊟	mv,n
+懣	mv,d
+懣	mv,z
 #
-𪈿	mvon		#o?u?
+𪈿	mv,n		#o?u?
 ##vən
-昢	phv;t
+昢	phv;t		#出 會意
 䪬	phv;t
 哱	phv;t
 㛘	phv;t
@@ -21697,7 +21707,7 @@ import_tables:
 啒	kq_vot
 㽾	Cq_vot
 啒	hvot
-咄	tvot
+咄	tvot		#?出
 柮	tvot
 𩢎	tvot
 𩨳	tvot
@@ -22133,27 +22143,41 @@ import_tables:
 郡	gUuz
 焄	hUun
 ##
-勛	hqsUun
-員	qUun		#ɢ V-
-𦔐	qUun
-鄖	qUun		#䢵
-溳	qUun
-篔	qUun
-愪	qUun
-𪔅	qUun		#圓
-䫟	qUud
-𪏚	qUud
-𤸫	qUud
-韻	qUuz		#?i
-䚋	qUuz
-𤸫	qUuz
-員	qUuz	2
+勛	hqsU;n
+員	qU;n		#ɢ V-
+𦔐	qU;n
+鄖	qU;n		#䢵
+溳	qU;n
+篔	qU;n
+愪	qU;n
+𪔅	qU;n		#圓
+䫟	qU;d
+𪏚	qU;d
+𤸫	qU;d
+韻	qU;z		#?i
+䚋	qU;z
+𤸫	qU;z
+員	qU;z	2
+熏	hqsU;n		#熏V-;-n?V-v-eo-n
+𡽽	hqsU;n
+𡴦	hqsU;n	1
+薰	hqsU;n
+曛	hqsU;n
+燻	hqsU;n
+獯	hqsU;n
+纁	hqsU;n
+醺	hqsU;n
+臐	hqsU;n
+臐	hqsU;z
+薰	hqsU;z
+勳	hqsU;n
+爋	hqsU;z
 ##Uun
 𧱝	kUuz		#叕t-u-t#叕k-u-t
 𧱝	kUut
 𧱝	gUut
 訓	XL-Uuz		#川k-L-u-n
-屈	kUut
+屈	kUut		#出k-L-?
 𦁐	kUut
 鶌	kUut
 趉	kUut
@@ -22182,20 +22206,6 @@ import_tables:
 𧼐	khUud
 𪘩	CUud
 𧼐	CUud
-熏	hqsUun		#熏V-u-n?V-v-eo-n
-𡽽	hqsUun
-𡴦	hqsUun	1
-薰	hqsUun
-曛	hqsUun
-燻	hqsUun
-獯	hqsUun
-纁	hqsUun
-醺	hqsUun
-臐	hqsUun
-臐	hqsUuz
-薰	hqsUuz
-勳	hqsUun
-爋	hqsUuz
 䬑	qUut
 𢯮	qUut
 䁌	qUut
@@ -23218,7 +23228,7 @@ import_tables:
 棖	dRaaC
 掁	dRaaC
 䂻	dRaax
-瑒	LRaag		#L昜
+瑒	LR_aag		#L昜
 ##Rjeŋ #xe→ie庚三→aa
 #
 #
@@ -23230,8 +23240,8 @@ import_tables:
 䟓	thRxeC
 盯	dRxeC
 偵	tRxex
-挰	LRxeC		#𡈼
-鋥	LRxex
+挰	LR_xeC		#𡈼
+鋥	LR_xex
 冷	lxeg		#常用音
 竀	thRxeC
 㲰	nRxeC		#?
@@ -23373,17 +23383,17 @@ import_tables:
 咋	dzsaak
 泎	dzsaak
 岝	dzsaak
-𤀎	LRaak
-檡	LRaak
-鸅	LRaak
-𩁇	LRaak
-𩏪	LRaak
-蠌	LRaak
-襗	LRaak
-擇	LRaak
-澤	LRaak
-𤢟	LRaak		#白澤
-䕪	LRaak
+𤀎	LR_aak
+檡	LR_aak
+鸅	LR_aak
+𩁇	LR_aak
+𩏪	LR_aak
+蠌	LR_aak
+襗	LR_aak
+擇	LR_aak
+澤	LR_aak
+𤢟	LR_aak		#白澤
+䕪	LR_aak
 ##Rjeŋ?
 嘖	tssxek
 𪄱	tRxek
@@ -23412,7 +23422,7 @@ import_tables:
 澄	dRx;C
 㡧	tRx;x
 ###Ravk
-翟	LRaevk		#L#翟
+翟	LR_aevk		#L#翟
 搦	nRaevk		#糑𡎳搦𢾲嫋#弱
 ###vRaŋ vRaŋ
 ##
@@ -24313,8 +24323,8 @@ import_tables:
 𧀄	LshRxax
 畼	LshRxax
 𦳝	LshRxaC
-腸	LRxaC
-場	LRxaC
+腸	LR_xaC
+場	LR_xaC
 ##xak
 著	tRxak
 鐯	tRxak
@@ -25687,9 +25697,9 @@ import_tables:
 摭	tc_jak
 蹠	tc_jak
 䗪	tc_jak
-席	zjak		#石 sd-
-𠩛	zjak
-蓆	zjak
+席	ztjak		#石 sd-?
+𠩛	ztjak
+蓆	ztjak
 炙	tc_jak		#石 庶
 葃	dzjak
 夕	zL-jak		#s-L?
@@ -25959,17 +25969,17 @@ import_tables:
 裎	LshRxeg
 悜	LshRxeg
 睈	LshRxeg
-程	LRxeC
-酲	LRxeC
-珵	LRxeC
-䇸	LRxeC
-裎	LRxeC
-呈	LRxeC
-徎	LRxeg
-呈	LRxex
+程	LR_xeC
+酲	LR_xeC
+珵	LR_xeC
+䇸	LR_xeC
+裎	LR_xeC
+呈	LR_xeC
+徎	LR_xeg
+呈	LR_xex
 檉	LshRxeC
 蟶	LshRxeC
-塣	LRxeg
+塣	LR_xeg
 𩇜	thRxex
 竀	thRxeC
 ###vRek
@@ -28368,7 +28378,7 @@ import_tables:
 𨲳	nRxoC
 𢫨	nRxox
 埫	thRxog
-鮦	LRxog		#
+鮦	LR_xog		#
 湩	tRxox
 堹	tRxox
 諥	tRxox
@@ -28843,9 +28853,9 @@ import_tables:
 #
 眾	tc_juC	1
 眾	tc_jux	999
-蟲	LRxuC
-爞	LRxuC
-蟲	LRxux	3
+蟲	LR_xuC
+爞	LR_xuC
+蟲	LR_xux	3
 浺	thRxuC
 忡	thRxuC
 衷	tRxuC
@@ -29240,19 +29250,19 @@ import_tables:
 𦗂	nRxuk
 ##
 苖	LshRxuk		#由
-軸	LRxuk
-妯	LRxuk
-舳	LRxuk
-柚	LRxuk
+軸	LR_xuk
+妯	LR_xuk
+舳	LR_xuk
+柚	LR_xuk
 ##
 蓫	hsiuk		#L
 蓫	LshRxuk		#Ls
-逐	LRxuk
-鱁	LRxuk
-𧏿	LRxuk
-蓫	LRxuk
-䮱	LRxuk
-篴	LRxuk
+逐	LR_xuk
+鱁	LR_xuk
+𧏿	LR_xuk
+蓫	LR_xuk
+䮱	LR_xuk
+篴	LR_xuk
 ##vk
 ##javk
 蒮	Jqjavk		#隺
@@ -29693,20 +29703,20 @@ import_tables:
 # 㲳	tRxik		#後起 失
 # 抶	LshRxik
 # 眣	LshRxik
-# 秩	LRxik
-# 紩	LRxik
-# 帙	LRxik
-# 袠	LRxik
-# 柣	LRxik
-# 翐	LRxik
-# 妷	LRxik
-# 𣗻	LRxik
-# 豑	LRxik		#秩
-# 豒	LRxik
-# 𧰅	LRxik
-𢧤	LRxik		#秩
-𧽮	LRxik
-䟈	LRxik
+# 秩	LR_xik
+# 紩	LR_xik
+# 帙	LR_xik
+# 袠	LR_xik
+# 柣	LR_xik
+# 翐	LR_xik
+# 妷	LR_xik
+# 𣗻	LR_xik
+# 豑	LR_xik		#秩
+# 豒	LR_xik
+# 𧰅	LR_xik
+𢧤	LR_xik		#秩
+𧽮	LR_xik
+䟈	LR_xik
 鉍	pxik		#?
 柲	pxik
 泌	pxik
