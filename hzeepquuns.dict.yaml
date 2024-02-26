@@ -12,12 +12,8 @@ use_preset_vocabulary: true
 import_tables:
   - giz
   - dzjupquns
-  - dzop
-  - tsjak
-  - gvu
-  - txav
-  - quat
-  - tsxax
+  #- dzop
+ # - tsjak
 ...
 ######
 # 魚	支	侯	之	幽	脂	歌	微	宵	幽	
@@ -15007,7 +15003,7 @@ import_tables:
 嗿	tho,b
 僋	tho,f
 僋	lo,f
-##Oam?
+##Oam? a?ə?
 紺	kq_o,f		#甘k-a-m#甘k-eo-m 岑
 𤯍	khq_o,m
 礏	Cq_o,p
@@ -15033,6 +15029,23 @@ import_tables:
 甔	to,m
 倓	Lo,b
 𤃨	lo,f
+㧁	kq_o,p		#?去k-a-p
+㧁	khq_o,p
+傝	tho,f
+蹹	do,p		#蹋𦐇
+㩉	lo,p
+庵	Ao,m		#奄
+菴	Ao,m
+㞄	Ao,m
+馣	Ao,m
+晻	Ao,b
+唵	Ao,b
+黤	Ao,b
+㞄	Ao,b
+罨	Ao,p
+庵	Aoup
+𨂁	Ao,p
+𩋊	Ao,p
 ##um Oom
 #
 南	noom
@@ -15410,16 +15423,12 @@ import_tables:
 浨	loub
 嵐	loum
 葻	loum
-𧂇	Loum
-蕁	Loum
-襑	Lshoub
-撏	Loum
 #
-㧁	kq_oup		#?
-㧁	khq_oup
-傝	thouf
-蹹	doup		#蹋𦐇
-㩉	loup
+蕁	Loom
+𧀷	Loom
+𧂇	Loom
+襑	Lshoob
+撏	Loom
 雥	dzoop	99
 襍	dzoop	999
 磼	dzoop
@@ -15430,19 +15439,7 @@ import_tables:
 誩	thouf		#Ls?
 譶	doup
 霅	soup
-庵	Aoum
-菴	Aoum
-㞄	Aoum
-馣	Aoum
-晻	Aoub
-唵	Aoub
-黤	Aoub
-㞄	Aoub
-罨	Aoup
-庵	Aoup
-𨂁	Aoup
-𩋊	Aoup
-𣤶	tsoup		#?
+𣤶	tsoup		#?歍𣤶
 嘁	tsoup		#尗㗤#𣤶
 𤬪	khq_oum		#瓦器也 會意?
 𢎘	hgoum
@@ -25697,9 +25694,9 @@ import_tables:
 摭	tc_jak
 蹠	tc_jak
 䗪	tc_jak
-席	ztjak		#石 sd-?
-𠩛	ztjak
-蓆	ztjak
+席	zt-jak		#石 sd-?
+𠩛	zt-jak
+蓆	zt-jak
 炙	tc_jak		#石 庶
 葃	dzjak
 夕	zL-jak		#s-L?
