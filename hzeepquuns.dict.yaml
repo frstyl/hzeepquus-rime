@@ -2577,9 +2577,9 @@ import_tables:
 齋	tssx;jq
 𪗓	tssx;jq
 ##Rər
-崽	ssa;jq		#山思囟
-諰	ssa;jq
-䓳	hga;jq		#
+崽	ssa;q		#山思囟#思
+諰	ssa;q
+䓳	hga;jq		#很
 ##Rər -皆
 䀛	ma;t-r		#ts
 𢟡	ba;k-s
@@ -26598,7 +26598,7 @@ import_tables:
 嵊	Lzcj;x
 剩	Lzcj;x
 乘	Lzcj;x
-垐	dzj;k
+垐	dzj;k		#次ts-i
 # 卽	tsj;k	999		#卩?ik?
 # 即	tsj;k		#皀𢀳卽
 # 蝍	tsj;k
@@ -26765,6 +26765,12 @@ import_tables:
 淩	lj;C
 蔆	lj;C
 𡕮	kI;k
+##
+匿	nRx,k		#若?
+𧈟	nRx,k
+𧏾	nRx,k
+㥾	nRx,k
+𩺱	nRx,k
 ##xəŋ
 磳	dzsx;C
 𣃘	tRx;C		#?
@@ -26786,11 +26792,6 @@ import_tables:
 庱	thRx;C
 睖	thRx;C
 庱	thRx;g
-匿	nRx;k		#若?
-𧈟	nRx;k
-𧏾	nRx;k
-㥾	nRx;k
-𩺱	nRx;k
 色	sC-sx;k		#𢒸𠤕C-eo-k
 𢒸	sC-Sx;k
 𠾂	sR-Sx;k	999		#來聲#來-R-eo-
@@ -29502,6 +29503,7 @@ import_tables:
 䴳	hqzfik		#
 ###jiŋ
 ##
+垐	dzjik		#次ts-i
 卽	tsjik	999		#卩?ik?
 即	tsjik		#皀𢀳卽
 蝍	tsjik
