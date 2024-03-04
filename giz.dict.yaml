@@ -66,6 +66,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+眄靦	
 𪙿𪙯	Coat ncoat
 𣎕𩖿	kfen Auad
 𡈿鄩	tschjim zjim		#㘰
@@ -1550,6 +1551,8 @@ use_preset_vocabulary: true
 𡕢	meeb
 𪱠	piaf
 ⿰訁𡕢	SfaA
+𪱠	puab
+𦟣	puab
 ##
 𠬲	meeb
 𦱏	muaf		#𦲯
@@ -2288,19 +2291,19 @@ use_preset_vocabulary: true
 𨎥	qwer
 䡺	qwer
 #
-𠅤	Evejs
+𠅤	EYejs
 𨎥	zyis
-恵	Evejs		#1		#𤰔叀 惠
-𢞨	Evejs
-𢞯	Evejs
-𢠞	Evejs
-𢡘	Evejs
-𢥁	Evejs
-𦻇	Evejs
-𩇻	Evejs
-ゑ	Evejs
-ヱ	Evejs
-𦣽	Evejs		#惠
+恵	EYejs		#1		#𤰔叀 惠
+𢞨	EYejs
+𢞯	EYejs
+𢠞	EYejs
+𢡘	EYejs
+𢥁	EYejs
+𦻇	EYejs
+𩇻	EYejs
+ゑ	EYejs
+ヱ	EYejs
+𦣽	EYejs		#惠
 ###衞衛
 卫	qwer	0
 讏	qwer
@@ -3114,7 +3117,7 @@ use_preset_vocabulary: true
 ###癸
 𬝢	kyiA
 𬞂	kyiA
-暌	khviq
+暌	khYeq
 𦷡	gyiq
 ##
 𦮙	gyiq
@@ -3241,34 +3244,34 @@ use_preset_vocabulary: true
 𰦔	kyeq
 𰴐	kyeq
 ###巂-雋隽
-𧤢	Eveq
-𧤪	Eveq
-𧥁	Eveq
-𧥅	Eveq
-嶲	Eveq
-𡾧	Eveq
-𪆳	Eveq
-𪈥	Eveq		#2
-𡻎	Eveq
-雟	Eveq
-𮒣	Eveq
-㒞	Eveq
-𡣸	Eveq
-𩟥	Eveq
-𧮄	Eveq
-𢹂	Eveq
-𢤮	Eveq
-𦢥	Eveq
-觽	Eveq
-䥴	Eveq
-𰿅	Eveq
-㼇	Eveq
-㰎	Eveq
-𩍺	Eveq
-𨟎	Eveq
-𩧎	Eveq
-𧲑	Eveq
-𧔍	Eveq
+𧤢	EYeq
+𧤪	EYeq
+𧥁	EYeq
+𧥅	EYeq
+嶲	EYeq
+𡾧	EYeq
+𪆳	EYeq
+𪈥	EYeq		#2
+𡻎	EYeq
+雟	EYeq
+𮒣	EYeq
+㒞	EYeq
+𡣸	EYeq
+𩟥	EYeq
+𧮄	EYeq
+𢹂	EYeq
+𢤮	EYeq
+𦢥	EYeq
+觽	EYeq
+䥴	EYeq
+𰿅	EYeq
+㼇	EYeq
+㰎	EYeq
+𩍺	EYeq
+𨟎	EYeq
+𩧎	EYeq
+𧲑	EYeq
+𧔍	EYeq
 ###我
 峩	Coaq
 䳗	Cqoajq
@@ -5719,12 +5722,12 @@ use_preset_vocabulary: true
 𧍵	Eooq
 ###圭
 𨾗	gwiq		#1		#𨾎
-㚝	khveq		#奎
-𦊱	kveq
-𭁹	kveq
+㚝	khYeq		#奎
+𦊱	kYeq
+𭁹	kYeq
 𦊱	kfes
-𦋅	Eveq
-𡸔	Eveq
+𦋅	EYeq
+𡸔	EYeq
 ##
 # 洼	Afejq
 嚡	Eaeq
@@ -5853,13 +5856,13 @@ use_preset_vocabulary: true
 𩰘	kiuvq
 ###簋
 #
-𫏯	kviuvA
-𣪕	kviuvA
-𣪘	kviuvA
-㲃	kviuvA
-𣪙	kviuvA
-𣌽	kviuvA
-𥱚	kviuvA
+𫏯	kYiuvA
+𣪕	kYiuvA
+𣪘	kYiuvA
+㲃	kYiuvA
+𣪙	kYiuvA
+𣌽	kYiuvA
+𥱚	kYiuvA
 ###喜
 㐂	hi;A		#喜
 囍	hi;A
@@ -7273,6 +7276,24 @@ use_preset_vocabulary: true
 𠬝	nRxed
 𡰫	nRxed
 𥑊	nRxed
+#
+# 㼱	nRxed
+𠤥	nRxed
+𠤦	nRxed
+𠭝	nRxed
+𠭠	nRxed
+𠭼	nRxed
+𡕶	nRxed
+𡰺	nRxed
+𣬋	nRxed
+𣬏	nRxed
+𤕱	nRxed
+𤭀	nRxed
+𥀅	nRxed
+𥦚	nRxed
+𥧐	nRxed
+𥨏	nRxed
+𦶨	nRxed
 ###替
 暜	theejs
 朁	theejs
@@ -7882,9 +7903,9 @@ use_preset_vocabulary: true
 ###戔
 𥂥	dzoan
 𰮦	dzoan
-盏	tSaad	0
-𥁫	tSaad
-戋	dzoan	0
+盏	tSaed
+𥁫	tSaed
+戋	dzoan
 㦮	dzjen
 ###㱚
 𦚛	dzoan
@@ -7938,10 +7959,10 @@ use_preset_vocabulary: true
 𩃘	dvan
 𥮔	dvan
 𦁆	dzcyez		#𢮨
-𦁆	Evejs		#繐
-𬘄	Evejs		#繐
-𦑐	Evejs		#𦒎
-𬹢	Evejs		#蟪
+𦁆	EYejs		#繐
+𬘄	EYejs		#繐
+𦑐	EYejs		#𦒎
+𬹢	EYejs		#蟪
 ##專
 专	tscyen	0
 専	tscyen		#1		#𤰔叀 專
@@ -8537,23 +8558,23 @@ use_preset_vocabulary: true
 𧅇	keed
 𫊱	keed
 ###𬗫縣
-县	Even
-県	Even
-𬗫	Even
-𮚄	Even
-𮚇	Even
-𬗫	Evez
+县	EYen
+県	EYen
+𬗫	EYen
+𮚄	EYen
+𮚇	EYen
+𬗫	EYez
 ###𢎙
 𡰲	Eeen
 𢀵	Eeen
 ###玄
-𢆯	Even	9
-𠵓	Even
-𤇡	Even
-𤣥	Even		#1		#𤣥𠃋
-妶	Even
-妶	Eved
-䲻	Even
+𢆯	EYen	9
+𠵓	EYen
+𤇡	EYen
+𤣥	EYen		#1		#𤣥𠃋
+妶	EYen
+妶	EYed
+䲻	EYen
 ###盥
 #
 泴	kvaz
@@ -8642,8 +8663,8 @@ use_preset_vocabulary: true
 𰕣	gi;jq
 𣄨	gi;jq
 ###虤
-𧹂	Evid
-𧷠	Evid
+𧹂	EYid
+𧷠	EYid
 ###筋
 觔	ki;n		#筋䈥
 ###卷𢍏
@@ -8798,13 +8819,13 @@ use_preset_vocabulary: true
 𡕱	hyex
 ###肙en
 #
-䏍	Avez		#1		#員
-𩢺	hven
-㳙	kven
-䳌	kven
-𦮌	kven
-㻆	Eved
-𨹆	Eved
+䏍	AYez		#1		#員
+𩢺	hYen
+㳙	kYen
+䳌	kYen
+𦮌	kYen
+㻆	EYed
+𨹆	EYed
 𪔅	qwen
 𲎙	qwen
 圎	qwen
@@ -8837,7 +8858,7 @@ use_preset_vocabulary: true
 𨖞	Efan
 𮟃	Efan
 # 閂	Sfan
-𦇏	Eved
+𦇏	EYed
 㝨	Efan		#2
 𡕅	Efan		#2
 𩍡	Efan		#2
@@ -8867,15 +8888,15 @@ use_preset_vocabulary: true
 彐	kxer
 ###夬k-e-t
 袂	Cjet-r
-袂	kvet
+袂	kYet
 袂	ncyer
 # 𦐋	Xswit
 𦐍	Xswit
 # 吷	hwet
-鴃	kvet
+鴃	kYet
 ##
-𤰮	kves
-决	kvet
+𤰮	kYes
+决	kYet
 ###夬-r
 筷	khfer		#快
 ##㓞
@@ -9259,7 +9280,7 @@ use_preset_vocabulary: true
 匀	Jyin		#1		#勻
 𠣌	Jyin
 𠣐	Jyin
-𤜼	dZven
+𤜼	dZYen
 ###
 𠖉	ku;n
 𠣞	ku;n
@@ -9379,29 +9400,29 @@ use_preset_vocabulary: true
 #
 𦞿	Avaz		#腕
 ###𣶒淵
-𣴺	Aven
-渁	Aven
-渆	Aven
-渕	Aven
-㴊	Aven
-㶜	Aven
-㶜	Aven
-𠝃	Aven
-𣴸	Aven
-𣷨	Aven
-𣷬	Aven
-𣽂	Aven
-𣾜	Aven
-𤀵	Aven
-𫞘	Aven
-𰔂	Aven
-𱦤	Aven
-𱦥	Aven
-𱦺	Aven
-𱧗	Aven
-𱩐	Aven
-𱩞	Aven
-𱭘	Aven
+𣴺	AYen
+渁	AYen
+渆	AYen
+渕	AYen
+㴊	AYen
+㶜	AYen
+㶜	AYen
+𠝃	AYen
+𣴸	AYen
+𣷨	AYen
+𣷬	AYen
+𣽂	AYen
+𣾜	AYen
+𤀵	AYen
+𫞘	AYen
+𰔂	AYen
+𱦤	AYen
+𱦥	AYen
+𱦺	AYen
+𱧗	AYen
+𱩐	AYen
+𱩞	AYen
+𱭘	AYen
 ###燕㷼
 㷼	Aeen
 𢇈	Aeen
@@ -10593,7 +10614,7 @@ use_preset_vocabulary: true
 𫞮	teek
 𬐄	teek
 䂆	kheevk
-䂆	hvek
+䂆	hYek
 ###冊册𠕋
 册	tShaek
 # 𠕋	tShaek
@@ -11446,7 +11467,7 @@ use_preset_vocabulary: true
 𰥀	miaC
 𪭓	miaC
 ###囧
-𦀝	khveg
+𦀝	khYeg
 ##
 𦯶	hi;t		#1		#莔
 𦮄	hi;t
@@ -11461,21 +11482,21 @@ use_preset_vocabulary: true
 𪻣	kueg
 𡸀	kueg
 𭖣	kueg
-𢂶	kveC
+𢂶	kYeC
 浻	Aaag		#浻澋
 ###冂冋
-逈	Eveg		#迥
-𰃦	kveC
+逈	EYeg		#迥
+𰃦	kYeC
 ##囧
-䮐	kveC
-𪕥	kveC
-䢛	Eveg
-埛	kveC
-綗	khveg
+䮐	kYeC
+𪕥	kYeC
+䢛	EYeg
+埛	kYeC
+綗	khYeg
 烱	kvag
-㤯	kveC
-𧨝	kveg
-𩛯	kveg		#1		#𩚱
+㤯	kYeC
+𧨝	kYeg
+𩛯	kYeg		#1		#𩚱
 ###玉
 鈺	Ciok
 # 䀌	hi;k
@@ -11588,14 +11609,14 @@ use_preset_vocabulary: true
 擱	koak
 # 㘈	Ci;k
 喲	Aiak
-煛	kveg
+煛	kYeg
 ###狊
-閴	khvek
-𨵢	khvek
-𨶑	khvek
-𨶠	khvek
-𰿸	khvek	0
-𰥍	kvek
+閴	khYek
+𨵢	khYek
+𨶑	khYek
+𨶠	khYek
+𰿸	khYek	0
+𰥍	kYek
 ###巠
 坙	keeC		#1		#工土 巠
 頸	keeC
@@ -11727,7 +11748,7 @@ use_preset_vocabulary: true
 𧦠	Aaek
 ###益
 溢	Ajek
-𧔈	kven
+𧔈	kYen
 #
 㬲	Ajek
 #
@@ -11762,7 +11783,7 @@ use_preset_vocabulary: true
 𭮻	keek
 𭮼	keek
 ###血
-𮕜	hvet
+𮕜	hYet
 𥩹	khyeC		#傾
 ###穴
 # 柼	tRaax
@@ -11813,11 +11834,11 @@ use_preset_vocabulary: true
 𤇾	JyeC		#瑩
 瀠	JyeC
 瀯	JyeC
-瀠	Aveg
-瑩	Avex
-𢣙	Avex
-鎣	Avex
-瀅	Avex
+瀠	AYeg
+瑩	AYex
+𢣙	AYex
+鎣	AYex
+瀅	AYex
 ###邕雍
 𰯩	AioC
 𦡚	AioC
@@ -12528,7 +12549,7 @@ use_preset_vocabulary: true
 𮥼	dzyed
 ###𠨧
 扦	tshjen		#𢳍
-䙲	Even		#1		#䙴
+䙲	EYen		#1		#䙴
 # 僊	sjen
 㒨	sjen
 僲	sjen
@@ -12873,7 +12894,7 @@ use_preset_vocabulary: true
 敮	haat
 軙	dRxin
 㪁	gxim
-㪈	kvejs
+㪈	kYejs
 㪊	gu;n
 㪎	scjeb
 㪓	dRfojq
@@ -12960,7 +12981,7 @@ use_preset_vocabulary: true
 ###肉
 𣍥	kyit		#姓 𦙮
 𦙮	kyit
-𦛇	kvet
+𦛇	kYet
 𦛈	Jjer
 䏲	theejq
 ###筋
@@ -13354,7 +13375,7 @@ use_preset_vocabulary: true
 躾	mxiA
 ###㐆
 ###衣
-禤	hven		#翾
+禤	hYen		#翾
 褂	kfes
 ###裘
 ###老
@@ -13385,7 +13406,7 @@ use_preset_vocabulary: true
 ###旡
 ####
 ###頁
-𩑧	qvioA		#頨
+𩑧	quoA		#頨
 𩓧	Cxeq
 𩓗	khyeA		#頍
 ###𦣻
