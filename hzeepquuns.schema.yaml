@@ -265,23 +265,25 @@ speller:
     # - derive/(?<!^)F/ff/
 
 
-    - fuzz/(?<!^)([jv])['q]$/$1/ #-j-v視爲韻
-    # - fuzz/(?<!^)[j]['q]$/j/
+    - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
+    # - fuzz/(?<!^)[j][q]$/j/
     - fuzz/(?<!^)jA$/l/
     - fuzz/(?<!^)js$/r/
     # - fuzz/(?<!^)vq$/v/
     - fuzz/(?<!^)vA$/w/
     - fuzz/(?<!^)vs$/y/
-    - fuzz/(?<!^)vks$/y/
-    # - fuzz/(?<!^)vs(k)$/y$1/
 
-    # - xform/(vs|[sry])[ptk]$/$1/ # 韻尾-聲調
-    - xform/[ptk]([sr])$/$1/
+    - xform/(?<!^)([ptk])q$/$1/ #入韻
+
+    - xform/(?<!v)ks$/s/ #次入
+    - xform/[pt]s$/r/
+    - xform/(?<!^)vks$/vs/
+    - fuzz/(?<!^)vks$/y/
     - derive/(?<!^)([fvIUjyxwaeiouəʌ;,][aeiouəʌ;,])v(k)$/$1u$2/ #-v-視爲韻
     # - xform/(?<!^)v(k)$/$1/
     - fuzz/(?<!^)v(k)$/$1/
 
-    - xform/(?<!^)([Cmn])q$/$1/
+    - xform/(?<!^)([Cmn])q$/$1/ #陽韻
     - xform/(?<!^)(ng|C|c)A$/g/
     - xform/(?<!^)(ng|C|c)s$/x/
     - xform/(?<!^)mA$/b/
@@ -290,7 +292,7 @@ speller:
     - xform/(?<!^)ns$/z/
 ####
 ##𥳑尾
-    - derive/([aeiouəʌ;,])['q]$/$1/
+    - derive/([aeiouəʌ;,])[q]$/$1/ #无韻尾
     - derive/(?<!^)A$/h/
     - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
@@ -427,6 +429,7 @@ translator:
     - xform/,/ʌ/
     - xform/([IU])/\L$1/
     - xform/([Y])/v/
+    - xform/([mnCptkr])q/$1/
     # - xform/^s[ptkLRnmCq]s?/s/
     # - xform/^z[ptkLRnmCq]s?/z/
     # - xform/^s(ns?|Ls?|Cs?|[ptkbdgnmCq])c/sc/

@@ -62,7 +62,11 @@ speller:
 ###########
     - derive/-//
     - derive/_//
-    - derive/[Fcq]_//
+    - derive/[Fcq]_// #无用
+    - derive/,/ʌ/
+    - derive/;/ə/
+    - derive/ʌ/oe/
+    - derive/ə/eo/
 
     - derive/^(th|t|d|n)[cR]/$1/
     - derive/^(t?)(S|ss)/$1s/ #tsz sz
@@ -133,42 +137,49 @@ speller:
     - derive/(rp|p)$/Up/
     - derive/(rt|t)$/Ut/
     - derive/(sk|k)$/Uk/
-##
-    - derive/(?<!^)g$/CA/
-    - derive/(?<!^)x$/Cs/
-    - derive/(?<!^)b$/mA/
-    - derive/(?<!^)f$/ms/
-    - derive/(?<!^)d$/nA/
-    - derive/(?<!^)z$/ns/
-    - derive/(?<!^)l$/jA/
-    - derive/(?<!^)r$/js/
-    - derive/(?<!^)w$/vA/
-    - derive/(?<!^)y$/vs/
+##韻尾 調
+    # - derive/(?<!^)g$/CA/
+    # - derive/(?<!^)x$/Cs/
+    # - derive/(?<!^)b$/mA/
+    # - derive/(?<!^)f$/ms/
+    # - derive/(?<!^)d$/nA/
+    # - derive/(?<!^)z$/ns/
+    # - derive/(?<!^)l$/jA/
+    # - derive/(?<!^)r$/js/
+    # - derive/(?<!^)w$/vA/
+    # - derive/(?<!^)y$/vs/
 
-    - abbrev/(?<!^)j['q]$/j/
-    - abbrev/(?<!^)jA$/l/
-    - abbrev/(?<!^)js$/r/
-    - derive/(?<!^)vq$/v/
-    - derive/(?<!^)vA$/w/
-    - derive/(?<!^)vs/y/
-    - derive/(?<!^)vsk/y/
-    - derive/(?<!^)vs(k)/y$1/
+    # - abbrev/(?<!^)j['q]$/j/
+    # - abbrev/(?<!^)jA$/l/
+    # - abbrev/(?<!^)js$/r/
+    # - derive/(?<!^)vq$/v/
+    # - derive/(?<!^)vA$/w/
+    # - derive/(?<!^)vs/y/
+    # - derive/(?<!^)vsk/y/
+    # - derive/(?<!^)vs(k)/y$1/
 
     # - derive/([aeiouəʌ;])['q]$/$1/
+
+    - derive/(?<!^)[qAs]$//
+
     - derive/(?<!^)A$/h/
     - derive/(?<!^)C$/c/
     - derive/j['q]$/$1/
-    - derive/(?<!^)q$//
+    # - derive/(?<!^)q$//
 ##轉寫
     - derive/-//
+    - derive/_//
     - derive/^(J)/j/
-    - derive/(A)/hq/
+    - derive/A/hq/
     - derive/E/hz/
     - derive/C/ng/
     - derive/R/rr/
+    - derive/Rs/rs/
     - derive/S/ss/
     - derive/Z/zs/
     - derive/F/fs/
+    - derive/L/ll/
+    - derive/Ls/ls/
     # - derive/(ʌ|ə)/;/ #EOə eo
     - derive/ʌ/oe/
     - derive/ə/eo/
