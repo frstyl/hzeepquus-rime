@@ -62,7 +62,8 @@ speller:
 ###########
     - derive/-//
     - derive/_//
-    - derive/[Fcq]_// #无用
+    - derive/._// #无用
+    # - derive/[Fcq]_// #无用
     - derive/,/ʌ/
     - derive/;/ə/
     - derive/ʌ/oe/

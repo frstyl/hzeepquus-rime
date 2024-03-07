@@ -76,6 +76,9 @@ speller:
 
     - derive/.-// #- - 同旹觸發
     # - derive/._//
+
+    - derive/[pt]s$/r/
+    - derive/ks$/s/
 ####韻
 ##補
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
@@ -210,13 +213,12 @@ speller:
     # - derive/^(s[szc])/sz/
     # - derive/^(z[szc])/zz/
 
-    - fuzz/^z/zz/ #衺
 
     - derive/^(Lc)/j/ #?
     - derive/^(Lr?)([oveYarfrxw][aeiouəʌ;,])/j$2/
-    - derive/^(hqz|hzq?|Xqz?|Xz|qz|hV|Q|V|E)([oveYaf][aeiouəʌ;,])/q$2/ #雲一 hqz E
+    - derive/^(hqz|hzq?|Xqz?|Xz|qz|h[QV]|Q|V|E)([oveYaf][aeiouəʌ;,])/q$2/ #雲一 hqz E
     - derive/^(J[qQV])([jy][aeiouəʌ;,])/q$2/ #雲三A
-##古補
+##古補全
     - derive/^(Rsh[Rc]?)/rs/
     - derive/^(R(?!s)[R]?|l)/rz/
     - derive/^(Lsh[Rc]?|Lsc)/ls/
@@ -224,7 +226,7 @@ speller:
     - derive/^(hms|msF?)/ms/
     - derive/^(hns|ns[Rc]?)/ns/
     - derive/^(h?Cs|Csc)/ngs/
-    - derive/^(h?qs)/qs/
+    - derive/^(h?[qQV]s)/qs/
 
 ##古𧜰
     # - derive/^(s[ptkLRnmCq])s/$1/
@@ -273,15 +275,16 @@ speller:
     - fuzz/(?<!^)vA$/w/
     - fuzz/(?<!^)vs$/y/
 
-    - xform/(?<!^)([ptk])q$/$1/ #入韻
-
-    - xform/(?<!v)ks$/s/ #次入
-    - xform/[pt]s$/r/
     - xform/(?<!^)vks$/vs/
     - fuzz/(?<!^)vks$/y/
     - derive/(?<!^)([fvIUjyxwaeiouəʌ;,][aeiouəʌ;,])v(k)$/$1u$2/ #-v-視爲韻
     # - xform/(?<!^)v(k)$/$1/
     - fuzz/(?<!^)v(k)$/$1/
+
+    - xform/(?<!^)([ptk])q$/$1/ #入韻
+
+    - xform/(?<!v)ks$/s/ #次入
+    - xform/[pt]s$/r/
 
     - xform/(?<!^)([Cmn])q$/$1/ #陽韻
     - xform/(?<!^)(ng|C|c)A$/g/
@@ -313,6 +316,9 @@ speller:
     # - fuzz/(?<!^)(x)([aeiouəʌ;,])([.])/$2r$3/
 
 ##聲𥳑
+    - fuzz/^z/zz/ #衺
+    - fuzz/^h/hs/ #曉
+    - fuzz/^q/qz/ #雲
     - derive/^sc/h/ #船
     - derive/^zc/q/ #書
     - derive/^dz(?!c)/z/
