@@ -275,16 +275,16 @@ speller:
     - fuzz/(?<!^)vA$/w/
     - fuzz/(?<!^)vs$/y/
 
-    - xform/(?<!^)vks$/vs/
-    - fuzz/(?<!^)vks$/y/
+
+    - xform/(?<!^)([ptk])q$/$1/ #入韻
     - derive/(?<!^)([fvIUjyxwaeiouəʌ;,][aeiouəʌ;,])v(k)$/$1u$2/ #-v-視爲韻
     # - xform/(?<!^)v(k)$/$1/
     - fuzz/(?<!^)v(k)$/$1/
 
-    - xform/(?<!^)([ptk])q$/$1/ #入韻
-
     - xform/(?<!v)ks$/s/ #次入
     - xform/[pt]s$/r/
+    - xform/(?<!^)vks$/vs/
+    - fuzz/(?<!^)vks$/y/
 
     - xform/(?<!^)([Cmn])q$/$1/ #陽韻
     - xform/(?<!^)(ng|C|c)A$/g/

@@ -1468,15 +1468,15 @@ import_tables:
 栺	Cq_eij_s
 㚛	hCseij_s		#?
 ##Oij?
-迷	meij_q		#?
-米	meij_A
-蔝	meij_A
-眯	meij_A
-䋛	meij_A
-洣	meij_A
-𡬍	meij_A
-䱊	meij_A
-謎	meij_s
+迷	meejq		#?
+米	meejA
+蔝	meejA
+眯	meejA
+䋛	meejA
+洣	meejA
+𡬍	meejA
+䱊	meejA
+謎	meejs
 ##Oij 脂1 il
 黎	leij_q
 犁	leij_q
@@ -3127,33 +3127,34 @@ import_tables:
 肔	JLjajA
 扡	JLjajA
 貤	JLjajs
-##je? jij?
-庀	pF_hjejA
-疕	pF_hjejA
-𤿎	pF_hjejq
-仳	pF_hjejA
-䚹	pF_hjejA
-吡	pF_hjejA
-𪌈	bjejq
-紕	bjejq
-䍘	mjejq
-𦊮	mjejq
-𥹄	mjejq
-𨤐	mjejq
-冞	mjejq
-麊	mjejq
-敉	mjejA
-侎	mjejA
-##jəj -r
+##jəj -r e?ə?
 𥶾	ljeA
 㸚	ljeA
+##iR? e?i?
+庀	pF_hjeA		#匕p-i-R
+疕	pF_hjeA
+𤿎	pF_hjeq
+仳	pF_hjeA
+䚹	pF_hjeA
+吡	pF_hjeA
+𪌈	bjeq
+紕	bjeq
+#
+䍘	mjeq		#米m-
+𦊮	mjeq
+𥹄	mjeq
+𨤐	mjeq
+冞	mjeq
+麊	mjeq
+敉	mjeA
+侎	mjeA
 ##jeR
 𢏏	mjejq	99
 𡝡	mjejq	99
 镾	mjejq
 𤅤	mjejq		#大水
 彌	mjejq
-獼	mjejq
+獼	mjejq		#彌m-e 爾?
 㜷	mjejq
 䥸	mjejq
 濔	mjejq		#滿
@@ -3734,15 +3735,15 @@ import_tables:
 𩕲	Aiaj_q
 檹	Aiaj_q
 旖	Aiaj_A
-##xi?
-𡬍	mxejA		#米
-㝥	mxejA
-𡪘	mxejA
-##xij
-狔	nRxij_A
-旎	nRxij_A
-柅	nRxij_A
-##
+##e?i?
+𡬍	mxeA		#米m-e
+㝥	mxeA
+𡪘	mxeA
+#
+狔	nRxeA
+旎	nRxeA
+柅	nRxeA
+##e?ə?
 誺	thRxeq		#來L-eo
 誺	LshRx;s		#集韻
 ##xe
@@ -4636,7 +4637,7 @@ import_tables:
 仳	bxij_A
 𢁦	bxij_A
 𢻹	bxij_A
-麋	mxij_q
+麋	mxij_q		#麋m-R-i-#穈-麻-e 麋-米-i
 𤃱	mxij_q
 蘪	mxij_q
 攗	mxij_q
@@ -4670,9 +4671,7 @@ import_tables:
 阺	dRxij_q
 貾	dRxij_q
 泜	dRxij_q
-杘	thRxij_s
-𣐉	thRxij_s		#杘
-㕧	hsxij_s
+㕧	hLsxij_s
 師	ssxij_q		#-J?
 𠦵	ssxij_q
 獅	ssxij_q
@@ -4683,7 +4682,9 @@ import_tables:
 雉	LR_xij_A		#矢L-i
 薙	LR_xij_A
 #
-𡳭	thRxij_A
+杘	nshRxij_s		#𣐉
+𣐉	nshRxij_s		#杘柅尼n-i-j
+𡳭	thRxij_A		#尼𣐉
 𡳭	thRxij_s
 尼	nRxij_q		#?i?ə
 妮	nRxij_q
@@ -18410,7 +18411,7 @@ import_tables:
 砎	kq_aetq
 忦	kq_aetq
 𤷈	nRaetq		#?
-痆	nRaetq
+痆	nRaetq		#尼n-i-j?
 㓞	khq_aetq
 楔	kq_aetq
 𪃈	kq_aetq
