@@ -119,8 +119,6 @@ speller:
     - fuzz/([oveYiujyrxwafIU]i)g/$1d/ #iŋ
     - fuzz/([oveYiujyrxwafIU]i)x/$1z/ #iŋ
 
-    - derive/([ovixw]a)j/$1/ #aj
-    - derive/(i)j/$1/ #ij ei ej
 ##韵介尾
     - derive/v[Ijrxi]ə/u/ #uə
     - derive/[Ijrxi](ə|ʌ)/i/ #i
@@ -160,10 +158,13 @@ speller:
 
     # - xform/([\w])[rx]([aeiouəʌ;,])/$1r$2/
 
-####韻-介尾 (+) 介後
+####韻-介-尾 (+) 介後
 
     - derive/(u)v/$1/ #uv
     - derive/(ao)v/$1/ #ov
+    - derive/([ovixw]a)j/$1/ #aj
+    - derive/(i)j/$1/ #ij ei ej
+    - derive/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)a([aeiou;,])/$1r$2/ #莊R
 
 ####聲
 ##古
@@ -283,6 +284,7 @@ speller:
 
     - xform/(?<!v)ks$/s/ #次入
     - xform/[pt]s$/r/
+    - xform/rq$/r/
     - xform/(?<!^)vks$/vs/
     - fuzz/(?<!^)vks$/y/
 
