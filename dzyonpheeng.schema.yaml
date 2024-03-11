@@ -89,6 +89,8 @@ speller:
     - derive/^(h?Cs)/ngs/
     - derive/^(h?qs)/qs/
 ##
+    - derive/Y/v/
+    - derive/W/w/
     - derive/I(ə|ʌ|a|e|i|o|u|;)/j$1/
     - derive/U(ə|ʌ|a|e|i|o|u|;)/y$1/
     - fuzz/[jrxI](ə|ʌ|a|e|i|o|u|;)/i$1/ #i=jx
@@ -174,13 +176,16 @@ speller:
     - derive/A/hq/
     - derive/E/hz/
     - derive/C/ng/
-    - derive/R/rr/
-    - derive/Rs/rs/
     - derive/S/ss/
     - derive/Z/zs/
     - derive/F/fs/
     - derive/L/ll/
-    - derive/Ls/ls/
+    - derive/R/rr/
+    - derive/R[R]?/rz/
+    - derive/Rsh?[R]?/rs/
+    - derive/L(cR)?/lz/
+    - derive/Ls(h?[cR]?)/ls/
+
     # - derive/(ʌ|ə)/;/ #EOə eo
     - derive/ʌ/oe/
     - derive/ə/eo/
@@ -190,6 +195,8 @@ translator:
   dictionary: hzeepquuns
   spelling_hints: 10
   prism: dzyonpheeng
+  comment_format:
+    - xform/[-_]//
 
 pinyin_lookup:
   dictionary: luna_pinyin

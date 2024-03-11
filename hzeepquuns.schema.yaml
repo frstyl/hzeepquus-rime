@@ -130,6 +130,7 @@ speller:
     - fuzz/(o)(o|u)/$1/ #oo ou oʌ 一等
 ####介
     - derive/Y/v/
+    - derive/W/w/
 ##三等二分
     - derive/vI(ə|ʌ|a|e|i|o|u|;)/U$1/
     - derive/I(ə|ʌ|a|e|i|o|u|;)/j$1/
@@ -164,7 +165,8 @@ speller:
     - derive/(ao)v/$1/ #ov
     - derive/([ovixw]a)j/$1/ #aj
     - derive/(i)j/$1/ #ij ei ej
-    - derive/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)a([aeiou;,])/$1r$2/ #莊R
+    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)a([aeiou;,])/$1r$2/ #莊R
+    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)f([aeiou;,])/$1w$2/ #莊R
 
 ####聲
 ##古
@@ -201,9 +203,9 @@ speller:
     - derive/^(tsch)/th/ #章組不獨立 sc半獨立
     - derive/^(tsc)/t/
     - derive/^(dzc)/d/
-    - derive/^(tshc|tsch)([jy])/kh$2/
-    - derive/^(tsc)([jy])/k$2/
-    - derive/^(dzc)([jy])/g$2/
+    - derive/^(tshc|tsch)(?=[jy])/kh/
+    - derive/^(tsc)(?=[jy])/k/
+    - derive/^(dzc)(?=[jy])/g/
     - derive/^(ts|dz|s|z)R/$1/
     - derive/^(t)s(h)R/$1$2/
     - derive/^(d)zR/$1/
@@ -262,12 +264,6 @@ speller:
     - derive/^(ph|p|b|m)v(i[oə])/$1$2/
 
 ####尾
-    # - derive/(?<!^)A$/hq/ 轉寫
-    # - derive/(?<!^)C([sAq])$/ng$1/
-    - derive/(?<!^)R([sAq])$/rr$1/
-    # - derive/(?<!^)F/ff/
-
-
     - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
     # - fuzz/(?<!^)[j][q]$/j/
     - fuzz/(?<!^)jA$/l/
@@ -295,7 +291,11 @@ speller:
     - xform/(?<!^)ms$/f/
     - xform/(?<!^)nA$/d/
     - xform/(?<!^)ns$/z/
-####
+##
+    # - derive/(?<!^)A$/hq/ 轉寫
+    # - derive/(?<!^)C([sAq])$/ng$1/
+    - derive/(?<!^)R([sAq])$/rr$1/
+    # - derive/(?<!^)F/ff/
 ##𥳑尾
     - derive/([aeiouəʌ;,])[q]$/$1/ #无韻尾
     - derive/(?<!^)A$/h/
@@ -435,7 +435,7 @@ translator:
     - xform/_//
     - xform/;/ə/
     - xform/,/ʌ/
-    - xform/([IU])/\L$1/
+    - xform/([IUW])/\L$1/
     - xform/([Y])/v/
     - xform/([mnCptkr])q/$1/
     # - xform/^s[ptkLRnmCq]s?/s/
