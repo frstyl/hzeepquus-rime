@@ -27639,7 +27639,7 @@ import_tables:
 䚎	thRaoCs
 㦼	st-s_aoCs		#?s-t-
 𥈄	thRaoCs		#𥈩𥊎
-𦗳	nRaoCq
+𦗳	nRaoCq		#o?u?
 𣰊	nRaoCq
 噥	nRaoCq
 𩟊	nRaoCq
@@ -27647,7 +27647,7 @@ import_tables:
 䁸	nRaoCq
 𪆯	nRaoCq
 #?
-胮	phaoCq
+胮	phaoCq		#降夅p-R
 𤵸	phaoCq
 𩐨	phaoCq
 𪔔	phaoCq
@@ -28150,11 +28150,6 @@ import_tables:
 躘	ljoCs
 儱	ljoCs
 㙙	ljoCA
-襛	ncjoCq
-穠	ncjoCq
-𩼅	ncjoCs
-𢫨	ncjoCA
-軵	ncjoCA		#訓𢫨
 䢇	ncjoCA
 𤘺	ncjoCA
 𪕎	ncjoCA
@@ -28287,7 +28282,7 @@ import_tables:
 𧼙	thRxoCA
 寵	RshRxoCA		#Rs
 襱	RR_xoCA	2		#R
-醲	nRxoCq
+醲	nRxoCq		#農n-u?農n-o
 𨑊	nRxoCq
 濃	nRxoCq
 襛	nRxoCq
@@ -28363,6 +28358,12 @@ import_tables:
 𧗴	JLjoCA
 慂	JLjoCA
 用	JLjoCs
+#?
+襛	ncjoCq
+穠	ncjoCq		#農n-u-C?
+𩼅	ncjoCs
+𢫨	ncjoCA		#戎n-u-C
+軵	ncjoCA		#訓𢫨
 ##iok
 俗	zq-jokq
 谷	JQjokq	1
@@ -28507,8 +28508,34 @@ import_tables:
 梀	thRxokq
 𥹵	thRxokq
 ####uŋ 冬中
-雺	mooCs
-慒	dzooCq
+###
+##o?u?
+㼻	dzooCq
+𪁪	mooCA		#武項切 莫湩切
+䏵	mooCA
+㗢	hgooCq		#?重
+㗢	hgooCs
+湩	tooCA
+攻	kq_ooCq		#工k-o-C
+釭	kq_ooCq		#燈 古冬切 古雙切
+䯳	sooCq
+鬆	sooCq
+#
+𩟊	nooCq
+噥	nooCq
+𩅽	nooCq
+憹	nooCq
+㺜	nooCq
+儂	nooCq
+𧗕	nooCq
+膿	nooCq
+農	nooCq		#農n-u
+䢉	nooCq
+辳	nooCq
+𨑋	nooCq
+慒	dzooCq		#曹?o
+##
+雺	mooCs		#矛m-u
 統	thooCs
 𪎽	thooCs
 𢥞	LooCq		#蟲
@@ -28518,14 +28545,6 @@ import_tables:
 䂈	LooCq
 鉵	LooCq
 赨	LooCq
-㼻	dzooCq
-㗢	hgooCq		#?重
-㗢	hgooCs
-湩	tooCA
-攻	kq_ooCq	2		#工k-o-C
-釭	kq_ooCq	2
-䯳	sooCq
-鬆	sooCq
 𢾮	dooCq		#?#宮
 𨜳	dooCq
 𢾮	hooCq		#補正
@@ -28533,25 +28552,11 @@ import_tables:
 䃔	hgooCq
 𩘎	hgooCq
 䃔	hgooCs
-𣫣	looCq
+𣫣	looCq		#鼓聲 䥢𪔢鏧#隆降k-R-u
 洚	hgooCq
 𪔳	dooCq		#隆
 䃧	looCq
 𪔢	looCq
-𪁪	mooCA
-䏵	mooCA
-𩟊	nooCq
-噥	nooCq
-𩅽	nooCq
-憹	nooCq
-㺜	nooCq
-儂	nooCq
-𧗕	nooCq
-膿	nooCq
-農	nooCq
-䢉	nooCq
-辳	nooCq
-𨑋	nooCq
 宋	sooCs
 彤	LooCq		#烿肜
 浵	LooCq
