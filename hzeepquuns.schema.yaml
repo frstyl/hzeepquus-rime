@@ -92,43 +92,44 @@ speller:
     # - derive/([\w])vx([uə])/$1w$2/ #
     # - derive/([\w])v([o])/$1$2/
 ##韻-介尾
-
-    # - derive/v(o[jlrndzt])/$1/ #von voj
-    # - fuzz/(v)ə([jlrndzt][qAs]?)$/$1o$2/ #və vo
-    - fuzz/([a])ə([jlrndzt][qAs]?)$/$1o$2/
-    - fuzz/([vf])ə([Cgxk][qAs]?)$/$1o$2/
-    - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun
-    - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
 ##韻-尾 (-)
-
     # - derive/([oveY]a)j/$1/ #aj vuj  vu va
-    # - derive/([rxw]a)j/$1/ #aj iaj
-    # - derive/([oveYiujyrxwafIU]u)j/$1/
-    # - derive/([oveYiujyrxwafIU]i)j/$1/ #ij
+    # - derive/([rWxw]a)j/$1/ #aj iaj
+    # - derive/([oveYiujyrWxwafIU]u)j/$1/
+    # - derive/([oveYiujyrWxwafIU]i)j/$1/ #ij
 
     - fuzz/([ajx]a)jq/$1/ #aa-j jq
     - fuzz/([af]ə)jq/$1/ #ʌ-j
     - fuzz/([o]ʌ)jq/$1/ #ʌ-j
     - derive/([e]ə)jq/$1/ #ʌ-j
     - fuzz/([ev]e)jq/$1/ #e-j
-    - fuzz/([oveYjyrxwaf]u)jq/$1/ #aa-j jq
+    - fuzz/([oveYjyrWxwaf]u)jq/$1/ #aa-j jq
+
+    - derive/([ovixw]a)j/$1/ #aj
+    - derive/(i)j/$1/ #ij ei ej
 
     - fuzz/([aeiouəʌ;,])jq$/$1/ #jq
 
-    - fuzz/([oveYiujyrxwafIU]i)C/$1n/ #iŋ
-    - fuzz/([oveYiujyrxwafIU]i)g/$1d/ #iŋ
-    - fuzz/([oveYiujyrxwafIU]i)x/$1z/ #iŋ
-
-##韵介尾
-    - derive/v[Ijrxi]ə/u/ #uə
+    - fuzz/([oveYiujyrWxwafIU]i)C/$1n/ #iŋ
+    - fuzz/([oveYiujyrWxwafIU]i)g/$1d/ #iŋ
+    - fuzz/([oveYiujyrWxwafIU]i)x/$1z/ #iŋ
+##元音-尾
+    # - derive/v(o[jlrndzt])/$1/ #von voj
+    # - fuzz/(v)ə([jlrndzt][qAs]?)$/$1o$2/ #və vo
+    - fuzz/([a])ə([jlrndzt][qAs]?)$/$1o$2/
+    - fuzz/([vf])ə([Cgxk][qAs]?)$/$1o$2/
+    - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun
+    - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
+##
     - derive/[Ijrxi](ə|ʌ)/i/ #i
     - derive/[Uywu](ə|ʌ)/u/ #i
     - fuzz/[Ijrxi](i)/i/ #i
     - fuzz/[Uywu](i|u)/u/ #u
 
-    - fuzz/[Ijrxi][uo]/u/ #iu- io-
-    - fuzz/(o)(o|u)/$1/ #oo ou oʌ 一等
+    - fuzz/[IUjyrWxwiu][uo]/u/ #iu- io- uu uo
+
 ####介
+    - derive/v[Ijrxi]ə/u/ #uə
     - derive/Y/v/
     - derive/W/w/
 ##三等二分
@@ -163,15 +164,12 @@ speller:
 
     - derive/(u)v/$1/ #uv
     - derive/(ao)v/$1/ #ov
-    - derive/([ovixw]a)j/$1/ #aj
-    - derive/(i)j/$1/ #ij ei ej
     - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)a([aeiou;,])/$1r$2/ #莊R
     - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)f([aeiou;,])/$1w$2/ #莊R
 
 ####聲
 ##古
-    - derive/^[mnCL]sc/sc/
-    - derive/^[mnCL]zc/zc/
+    - derive/^[mnCLRqQV]([sz][sc])/$1/
 
     - derive/^([LR])(?!zc)/d/
     - derive/^([LRn]sh)/th/
@@ -179,7 +177,6 @@ speller:
 
     - derive/^(h[mnCLRqQV]s|hsq|ngs|[mnCqQV]s|[hX]s|X)/h/
     # - derive/^(hqz|Xqz|Xq|qz|Xz)/q/ #无別
-    - derive/^(hg)/g/
 
 ####聲-介
     - derive/^(tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)i([aeiouəʌ])/$1x$2/
@@ -198,7 +195,7 @@ speller:
 
     - derive/^(t?)(S|ss)/$1s/ #tsz sz
     - derive/^(d?)(Z|zs)/$1z/
-    - derive/^(hz|E)/g/
+    - derive/^(hg|hz|E)/g/
 
     - derive/^(tsch)/th/ #章組不獨立 sc半獨立
     - derive/^(tsc)/t/
@@ -218,7 +215,7 @@ speller:
 
 
     - derive/^(Lc)/j/ #?
-    - derive/^(Lr?)([oveYarfrxw][aeiouəʌ;,])/j$2/
+    - derive/^(Lr?)([oveYarfrWxw][aeiouəʌ;,])/j$2/
     - derive/^(hqz|hzq?|Xqz?|Xz|qz|h[QV]|Q|V|E)([oveYaf][aeiouəʌ;,])/q$2/ #雲一 hqz E
     - derive/^(J[qQV])([jy][aeiouəʌ;,])/q$2/ #雲三A
 ##古補全
@@ -240,7 +237,7 @@ speller:
     - derive/^(.+)L-/$1ll/ ##ll=L(![sz])
     # - derive/^(c[pbm])F/$1/
 
-    - derive/^([sz][ptkmnCLRqQV])[sc]/$1/ #心生書s ss sc
+    - fuzz/^([sz][ptkmnCLRqQV])[sc]/$1/ #心生書s ss sc
 ##聲母轉寫
 
     # - derive/^([pbm])F/$1ff/
@@ -311,7 +308,7 @@ speller:
     - fuzz/(?<!^)([aiu])(ə|ʌ)/$2$1/
     - fuzz/(?<!^)(i)([au])/$2$1/
     - abbrev/(?<!^)([aiu])([aeiou]|ə|ʌ)/$2$1/ #介元序
-    - abbrev/(?<!^)([lfvIUjyrxw])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/
+    - abbrev/(?<!^)([lfvIUjyrWxw])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/
     # - fuzz/(?<!^)(a)([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$1l$2/ #l=x
     # - abbrev/(?<!^)([r])([aeiou]|ə|ʌ)([qAhsjlrvwymbfpndztCcgxk])/$2$1$3/ #l=x
     # - fuzz/(?<!^)(a)([aeiouəʌ;,])/$2l/ #qAhsjlrvwymbfpndztCcgxk
