@@ -1133,40 +1133,6 @@ import_tables:
 杈	tsshaajq
 靫	tsshaajq
 䑡	tsshaajq
-##Rjaj
-沙	ssxajq
-魦	ssxajq		#沙
-砂	ssxajq
-𣲡	ssxajq
-紗	ssxajq
-沙	ssxajs
-鯊	ssxajq
-髿	ssxajq
-𩊮	ssxajq
-硰	ssxajq
-裟	ssxajq
-㲚	ssxajq
-桬	ssxajq
-𤁺	tssxajq
-溠	tssxajq
-𥰭	tssxajA
-𤁺	tssxajs
-溠	tssxajs
-𢀩	tsshxajq		#別
-𦪮	tsshxajq
-差	tsshxajq		#差左𠂇#𠂇ts-a-j
-艖	tsshxajq
-鎈	tsshxajq
-䐤	tsshxajq
-𠞊	tsshxajq
-𣞚	dzsxajq
-槎	dzsxajq
-𣞚	dzsxajA
-槎	dzsxajA
-叉	tsshxajq
-杈	tsshxajq
-靫	tsshxajq
-䑡	tsshxajq
 ##ROaks -aas
 怕	phaaks
 𦫙	baaks
@@ -2197,10 +2163,6 @@ import_tables:
 䥯	baajA
 㔥	baajA
 ##Re -佳
-籭	ssaeq
-躧	ssaeA
-灑	ssaeA
-曬	ssaes
 捭	paeA
 牌	baeq
 䱝	baeq
@@ -2235,12 +2197,7 @@ import_tables:
 㨙	hgaeq
 䙎	hgaeq
 榽	hgaeq
-𩌦	ssaeA
 㰨	haeq
-豸	dRaeA
-𢊁	dRaeA
-廌	dRaeA	1
-𧳋	dRaeA
 猚	Cq_aeq
 䍲	CR_aeq		#ŋ Cc_
 掜	CR_aeq
@@ -2280,6 +2237,11 @@ import_tables:
 邂	hgaes
 解	hgaes
 #
+豸	dRaeA
+𢊁	dRaeA
+廌	dRaeA	1
+𧳋	dRaeA
+#
 㾹	dzsaeq		#-x-?
 柴	dzsaeq
 㾹	dzsaes
@@ -2288,15 +2250,11 @@ import_tables:
 𪗶	dzsaeq
 㧘	dzsaeq
 眦	dzsaes
-##
-㾹	dzsxeq		#-x-?
-柴	dzsxeq
-㾹	dzsxes
-茈	dzsxeq
-祡	dzsxeq
-𪗶	dzsxeq
-㧘	dzsxeq
-眦	dzsxes
+𩌦	ssaeA
+籭	ssaeq		#麗?
+躧	ssaeA
+灑	ssaeA
+曬	ssaes
 ##Rer
 隘	Aaeks
 䅬	Aaeks
@@ -2312,23 +2270,9 @@ import_tables:
 ##vROur
 𨛖	khq_futs		#蒯ts 蒯	khq_fots
 ##xaj? aaj? -佳
-鮺	tssaajA		#𩺃
-𢀩	tsshaajq		#使
-差	tsshaajq		#xe ae aej aa 
-䐤	tsshaajq
-𠞊	tsshaajq
-瘥	tsshaajs
-𢀩	tsshaajs		#異
-𤻸	tsshaajs
-𧭨	tsshaajs
-𧭯	tsshaajs	1
-𧪘	tsshaajs
-差	tsshaajs
-𨌅	dzsaajq
-##Rjaj -佳
 鮺	tssxajA		#𩺃
 𢀩	tsshxajq		#使
-差	tsshxajq
+差	tsshxajq		#Rjaj→re→ae
 䐤	tsshxajq
 𠞊	tsshxajq
 瘥	tsshxajs
@@ -2340,7 +2284,6 @@ import_tables:
 差	tsshxajs
 𨌅	dzsxajq
 叉	tsshxajq
-扠	thRxajq
 釵	tsshxajq
 靫	tsshxajq
 𩑐	tsshxajq
@@ -2349,6 +2292,8 @@ import_tables:
 杈	tsshxajs
 訍	tsshxajs
 㳗	tsshxajs
+#
+扠	thRaeq		#以拳加物或作搋
 ##Rej -佳
 ##Roi
 𦝨	khq_aeA		#𦝨瘦也
@@ -2465,10 +2410,6 @@ import_tables:
 #
 差	tsshxajq		#-x-?
 ##Rar -皆 夬皆溷
-# 殺	ssaets
-# 閷	ssaets
-# 鎩	ssaets
-# 𧜁	ssaets
 #ra→re→ae
 殺	ssxats
 閷	ssxats
@@ -8767,7 +8708,6 @@ import_tables:
 靄	Aoats
 䳚	khq_oats
 𩫀	khq_oats	0		#?䯨譌
-丯	kq_aerq		#ts
 𡕗	hgoaps
 轄	khq_oats
 𥎆	khq_oats
