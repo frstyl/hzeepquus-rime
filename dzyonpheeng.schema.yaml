@@ -181,12 +181,14 @@ speller:
     - derive/F/fs/
     - derive/L/ll/
     - derive/R/rr/
-    - derive/R[R]?/rz/
+    - derive/^(R[R]?|l)/rz/
     - derive/Rsh?[R]?/rs/
     - derive/L(cR)?/lz/
     - derive/Ls(h?[cR]?)/ls/
 
     # - derive/(ʌ|ə)/;/ #EOə eo
+    - derive/oʌ/ʌ/
+    - derive/eə/ə/
     - derive/ʌ/oe/
     - derive/ə/eo/
     - derive/(ʌ|ə)/ea/

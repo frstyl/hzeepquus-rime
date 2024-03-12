@@ -118,8 +118,6 @@ speller:
     # - fuzz/(v)ə([jlrndzt][qAs]?)$/$1o$2/ #və vo
     - fuzz/([a])ə([jlrndzt][qAs]?)$/$1o$2/
     - fuzz/([vf])ə([Cgxk][qAs]?)$/$1o$2/
-    - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun
-    - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
 ##
     - derive/[Ijrxi](ə|ʌ)/i/ #i
     - derive/[Uywu](ə|ʌ)/u/ #i
@@ -127,7 +125,9 @@ speller:
     - fuzz/[Uywu](i|u)/u/ #u
 
     - fuzz/[IUjyrWxwiu][uo]/u/ #iu- io- uu uo
-
+    - fuzz/o(o|u)(?![qAs])/o/ #ou oo -v -m -C
+    - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
+    - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
 ####介
     - derive/v[Ijrxi]ə/u/ #uə
     - derive/Y/v/
