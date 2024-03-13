@@ -18059,18 +18059,18 @@ import_tables:
 贙	EYinA		#虤
 贙	EYins
 𧟨	EYinq		#人名
-訇	EYinq
-盷	EYinq
-䀏	EYinA
-𨊼	EYinA
-𩉥	EYinA
-䀏	EYins
-迿	EYins
-姰	EYins
-眴	EYins
-眴	hYins
-絢	hYins
-㧦	hYins
+# 訇	EYinq		#勻
+# 盷	EYinq
+# 䀏	EYinA
+# 𨊼	EYinA
+# 𩉥	EYinA
+# 䀏	EYins
+# 迿	EYins
+# 姰	EYins
+# 眴	EYins
+# 眴	hYins
+# 絢	hYins
+# 㧦	hYins
 潏	kq_Yitq
 譎	kq_Yitq
 𧤾	kq_Yitq
@@ -20394,50 +20394,50 @@ import_tables:
 𦒔	JQyitq
 𥎐	JQyitq
 遹	JQyitq
-均	kyinq
-鈞	kyinq
-袀	kyinq
-汮	kyinq
-呁	kyins
-𧥺	kyins
-𢗋	gc_yinq		#?
-畇	sq-yinq
-𠣙	zq-yinq
-畇	zq-yinq
-𢓈	zq-yins
-勻	JQyinq		#s-k? ɢ V-#勻V-v-i-n
-匀	JQyinq
-畇	JQyinq
-𦚧	thc_yinA		#?
-# 眴	ncyunq	9		#訓瞤
-# 眴	scyins		#訓瞬
-郇	sq-yinq
-詢	sq-yinq
-眴	sq-yinq
-峋	sq-yinq
-珣	sq-yinq
-洵	sq-yinq
-恂	sq-yinq
-姰	sq-yinq
-㰬	sq-yinq
-荀	sq-yinq
-𠣬	sq-yinq
-槆	sq-yinq
-𣕍	sq-yinA
-筍	sq-yinA
-迿	sq-yins
-𥯗	sq-yinA
-箰	sq-yinA
-𠣬	sq-yinA
-𣖼	sq-yinq
-旬	zq-yinq
-𪀠	zq-yinq
-洵	zq-yinq
-䖲	zq-yinq
-殉	zq-yins
-徇	zq-yins
-侚	zq-yins
-㽦	zq-yinq		#均
+# 均	kyinq
+# 鈞	kyinq
+# 袀	kyinq
+# 汮	kyinq
+# 呁	kyins
+# 𧥺	kyins
+# 𢗋	gc_yinq		#?
+# 畇	sq-yinq
+# 𠣙	zq-yinq
+# 畇	zq-yinq
+# 𢓈	zq-yins
+# 勻	JQyinq		#s-k? ɢ V-#勻V-v-i-n
+# 匀	JQyinq
+# 畇	JQyinq
+# 𦚧	thc_yinA		#?
+# # 眴	ncyunq	9		#訓瞤
+# # 眴	scyins		#訓瞬
+# 郇	sq-yinq
+# 詢	sq-yinq
+# 眴	sq-yinq
+# 峋	sq-yinq
+# 珣	sq-yinq
+# 洵	sq-yinq
+# 恂	sq-yinq
+# 姰	sq-yinq
+# 㰬	sq-yinq
+# 荀	sq-yinq
+# 𠣬	sq-yinq
+# 槆	sq-yinq
+# 𣕍	sq-yinA
+# 筍	sq-yinA
+# 迿	sq-yins
+# 𥯗	sq-yinA
+# 箰	sq-yinA
+# 𠣬	sq-yinA
+# 𣖼	sq-yinq
+# 旬	zq-yinq
+# 𪀠	zq-yinq
+# 洵	zq-yinq
+# 䖲	zq-yinq
+# 殉	zq-yins
+# 徇	zq-yins
+# 侚	zq-yins
+# 㽦	zq-yinq		#均#榮𤇾?
 #i?u?
 䜭	syuns		#睿 u? e?夋?
 𣽊	syuns		#浚
@@ -20815,9 +20815,9 @@ import_tables:
 㔎	Cxitq
 㻞	pxinq		#E
 濜	dzsxinA
-𧥺	qxinq
-礥	qxinq
-㘋	qxinq
+# 𧥺	qxinq		#勻
+# 礥	qxinq
+# 㘋	qxinq
 嚚	Cxinq
 𡅚	Cxinq
 # 昵	nRxitq		#-k
@@ -21055,12 +21055,12 @@ import_tables:
 䎉	hQswitq		#許聿切w?y?#戌ms 非䬂 
 㤜	hQswitq
 䬄	hQswitq
-奫	Awinq
-汮	kwinq
-筠	qwinq
-荺	qwinq
-荺	qwinA
-咰	sswitq
+# 奫	Awinq		#淵A-v-i
+# 汮	kwinq		#勻
+# 筠	qwinq
+# 荺	qwinq
+# 荺	qwinA
+# 咰	sswitq
 囩	qwinq
 逫	tRwitq
 𠮌	tsswitq
@@ -22669,7 +22669,7 @@ import_tables:
 𤃯	hgoakq
 㕡	hoakq		#𣦻谷
 𫫽	hoakq
-壑	hoakq
+壑	hoakq		#㕡k-a-k#㕡V-e-t決
 矐	hoakq
 𨏒	loakq
 諾	noakq
@@ -29347,6 +29347,18 @@ import_tables:
 䆝	hQsYikq
 䒸	hQsYikq
 蠲	kq_YiCq		#-ŋ
+訇	EYiCq		#勻
+盷	EYiCq
+䀏	EYiCA
+𨊼	EYiCA
+𩉥	EYiCA
+䀏	EYiCs
+迿	EYiCs
+姰	EYiCs
+眴	EYiCs
+眴	hYiCs
+絢	hYiCs
+㧦	hYiCs
 淵	AYiCq		#?-ŋ?
 𨓯	AYiCq
 䨊	AYiCq
@@ -29544,9 +29556,58 @@ import_tables:
 恤	sQ-yikq
 賉	sQ-yikq
 欰	sQ-yikq
+#
+均	kyiCq
+鈞	kyiCq
+袀	kyiCq
+汮	kyiCq
+呁	kyiCs
+𧥺	kyiCs
+𢗋	gc_yiCq		#?
+畇	sq-yiCq
+𠣙	zq-yiCq
+畇	zq-yiCq
+𢓈	zq-yiCs
+勻	JQyiCq		#s-k? ɢ V-#勻V-v-i-C
+匀	JQyiCq
+畇	JQyiCq
+𦚧	thc_yiCA		#?
+# 眴	CcyuCq	9		#訓瞤
+# 眴	scyiCs		#訓瞬
+郇	sq-yiCq
+詢	sq-yiCq
+眴	sq-yiCq
+峋	sq-yiCq
+珣	sq-yiCq
+洵	sq-yiCq
+恂	sq-yiCq
+姰	sq-yiCq
+㰬	sq-yiCq
+荀	sq-yiCq
+𠣬	sq-yiCq
+槆	sq-yiCq
+𣕍	sq-yiCA
+筍	sq-yiCA
+迿	sq-yiCs
+𥯗	sq-yiCA
+箰	sq-yiCA
+𠣬	sq-yiCA
+𣖼	sq-yiCq
+旬	zq-yiCq
+𪀠	zq-yiCq
+洵	zq-yiCq
+䖲	zq-yiCq
+殉	zq-yiCs
+徇	zq-yiCs
+侚	zq-yiCs
+㽦	zq-yiCq		#均#榮𤇾?
 ###xiŋ
 命	mxiCs
 魿	gxiCq		#令 又離貞切
+𧥺	qxiCq		#勻
+礥	qxiCq
+㘋	qxiCq
+#
 昵	nRxikq		#
 㓼	tsshxikq		#
 䜉	tsshxikq
@@ -29645,8 +29706,18 @@ import_tables:
 咥	thRxikq
 跮	thRxikq
 姪	dRxikq
-###w
+###wiŋ
+##Rjiŋ
+奫	AwiCq		#淵A-v-i
+汮	kwiCq		#勻
+筠	qwiCq
+荺	qwiCq
+荺	qwiCA
+咰	sswikq
+#
 㧒	qwikq		#穴V-v-i-k?
+###ROiŋ
+郇	hgfiCq		#旬勻V-i-n
 #####-R  e无-j
 ####a
 ##OaR -j
