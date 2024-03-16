@@ -119,13 +119,15 @@ speller:
     - fuzz/([a])ə([jlrndzt][qAs]?)$/$1o$2/
     - fuzz/([vf])ə([Cgxk][qAs]?)$/$1o$2/
 ##
+    - fuzz/vi/u/ #io vio 介
+    - fuzz/vI/U/
     - derive/[Ijrxi](ə|ʌ)/i/ #i
     - derive/[Uywu](ə|ʌ)/u/ #i
     - fuzz/[Ijrxi](i)/i/ #i
     - fuzz/[Uywu](i|u)/u/ #u
 
     - fuzz/[IUjyrWxwiu][uo]/u/ #iu- io- uu uo
-    - fuzz/vio/u/ #io vio
+
     - fuzz/o(o|u)(?![qAs])/o/ #ou oo -v -m -C
     - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
     - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
@@ -134,7 +136,7 @@ speller:
     - derive/Y/v/
     - derive/W/w/
 ##三等二分
-    - derive/vI(ə|ʌ|a|e|i|o|u|;)/U$1/
+    # - derive/vI(ə|ʌ|a|e|i|o|u|;)/U$1/
     - derive/I(ə|ʌ|a|e|i|o|u|;)/j$1/
     - derive/U(ə|ʌ|a|e|i|o|u|;)/y$1/
 
