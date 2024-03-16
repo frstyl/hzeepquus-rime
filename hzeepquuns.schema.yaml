@@ -125,6 +125,7 @@ speller:
     - fuzz/[Uywu](i|u)/u/ #u
 
     - fuzz/[IUjyrWxwiu][uo]/u/ #iu- io- uu uo
+    - fuzz/vio/u/ #io vio
     - fuzz/o(o|u)(?![qAs])/o/ #ou oo -v -m -C
     - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
     - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm

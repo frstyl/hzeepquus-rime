@@ -2433,7 +2433,7 @@ import_tables:
 㞒	haits		#?
 ##Rə
 #
-埋	ma;q
+埋	ma;q		#里R-eo-
 薶	ma;q
 霾	ma;q
 㦟	ma;q
@@ -9104,22 +9104,22 @@ import_tables:
 簭	dc_jats
 澨	dc_jats
 遾	dc_jats
-厲	ljats
-礪	ljats
-勵	ljats
-禲	ljats
-濿	ljats
-蠣	ljats
-櫔	ljats
-𩧃	ljats
-𥣭	ljats
-𧸱	ljats
-糲	ljats
-巁	ljats
-犡	ljats
-𢤆	ljats
-癘	ljats
-蠇	ljats
+厲	m-ljats		#萬
+礪	m-ljats
+勵	m-ljats
+禲	m-ljats
+濿	m-ljats
+蠣	m-ljats
+櫔	m-ljats
+𩧃	m-ljats
+𥣭	m-ljats
+𧸱	m-ljats
+糲	m-ljats
+巁	m-ljats
+犡	m-ljats
+𢤆	m-ljats
+癘	m-ljats
+蠇	m-ljats
 ###yer yeks yets vjer
 ##yar yaks yats
 歲	sQ-yats		#戉
@@ -12670,31 +12670,31 @@ import_tables:
 儑	Cq_o;pq		#傝儑#溼L-eo-p溼C-eo-p
 嬜	ho,mq
 ##om?
-𩵢	houpq		#魶𩵢#欠k-o-m
-䨿	dzoupq
-𢶍	dzoupq
-䪞	dzoupq
-𠎷	soupq
-𠿓	soupq
-𢶍	soupq
-𨆂	soupq
-𩐅	soupq
-紞	toumA
-䒞	toumA
-啗	LoumA		#L
-啗	Loums
-𪉦	kq_oums		#kL
-䐄	hgoums
-𤎡	hgoums
-𢁘	soumq
-魶	noupq
-𩚛	noupq
-媣	kq_oumq
-笝	noupq
-罱	loumA		#南
-黲	tshoumA
-囃	tshoupq
-𥗭	tshoupq
+𩵢	hoopq		#魶𩵢#欠k-o-m
+䨿	dzoopq
+𢶍	dzoopq
+䪞	dzoopq
+𠎷	soopq
+𠿓	soopq
+𢶍	soopq
+𨆂	soopq
+𩐅	soopq
+紞	toomA
+䒞	toomA
+啗	LoomA		#L
+啗	Looms
+𪉦	kq_ooms		#kL
+䐄	hgooms
+𤎡	hgooms
+𢁘	soomq
+魶	noopq
+𩚛	noopq
+媣	kq_oomq
+笝	noopq
+罱	loomA		#南𦊔
+黲	tshoomA
+囃	tshoopq
+𥗭	tshoopq
 ##am
 埯	AoamA		#奄
 䍇	doapq		#?b-L?
@@ -13066,7 +13066,7 @@ import_tables:
 艬	dzsaams
 纔	ssaamq
 ##aʌ -aam a?ə?
-縿	ssa,mq		#參ts-eo-m?
+縿	ssa,mq		#參ts-eo-m? Rjeo?
 穇	ssa,mq
 𩌰	ssa,mq
 㺑	ssa,mA
@@ -13234,7 +13234,7 @@ import_tables:
 泛	pF_hUams
 泛	bF_Uapq
 ##Uom
-氾	pF_hUoms		#𢎘
+氾	pF_hUoms		#𢎘?㔾p-a-m?
 䀀	pF_hUoms
 𦨲	bF_Uomq
 氾	bF_Uomq
@@ -13244,18 +13244,18 @@ import_tables:
 範	bF_UomA
 犯	bF_UomA
 ##Uəm?
-凡	bF_U;mq
-帆	bF_U;mq
-𠆩	bF_U;mq
-釩	bF_U;mA
-軓	bF_U;mA
-梵	bF_U;ms
-帆	bF_U;ms
-𠆩	bF_U;ms
-汎	pF_hU;ms
-颿	bF_U;mq
-颿	bF_U;ms
-𣢲	khU;mq		#丘凡切
+凡	bF_U,mq
+帆	bF_U,mq
+𠆩	bF_U,mq
+釩	bF_U,mA
+軓	bF_U,mA
+梵	bF_U,ms
+帆	bF_U,ms
+𠆩	bF_U,ms
+汎	pF_hU,ms
+颿	bF_U,mq
+颿	bF_U,ms
+𣢲	khU,mq		#丘凡切
 ####em沾鹽咸
 ###em
 ##
@@ -14601,10 +14601,17 @@ import_tables:
 㞏	dRxipq
 𪀐	kxipq
 ##?
-湁	thRxipq		#湁湒
 𦮾	nRxipq		#?
 㾕	ssximA		#?辛
 䯂	dzsxipq		#?驫莘
+#
+霠	Aximq
+𩃬	Aximq
+侌	Aximq	999
+陰	Aximq
+蔭	Axims
+廕	Axims
+𤷜	Axims
 ##xem?
 坫	tRximq		#占
 砧	tRximq
@@ -14639,6 +14646,8 @@ import_tables:
 㼉	dRx;ms
 㽎	hx;mq		#冘t-eo-m
 㱽	gx;mq
+譶	dRx,pq		#譶L-eo-p
+䋻	nRx;mq		#南n-
 ##xum
 椹	tRxumq
 戡	tRxumA
@@ -14648,16 +14657,8 @@ import_tables:
 䫖	thRxumA
 湛	dRxumq
 碪	tRxumq
-譶	dRxupq		#譶L-eo-p
-䋻	nRxumq		#南n-
-霠	Axumq
-𩃬	Axumq
-侌	Axumq	999
-陰	Axumq
-蔭	Axums
-廕	Axums
-𤷜	Axums
 給	kxupq		#合
+湁	thRxupq		#湁湒
 #
 翕	hx;pq		#合k-u-p#翕k-u-p
 噏	hx;pq
@@ -14863,8 +14864,8 @@ import_tables:
 𤧪	LshRx;mq
 琛	LshRx;mq		#Ls
 賝	LshRx;mq
-𥥍	ssx;mq
-穼	ssx;mq
+𥥍	Lssx;mq
+穼	Lssx;mq		#深L
 䐲	dRx;pq
 熠	qx;pq		#習qV-eo-p
 騽	qx;pq
@@ -14895,9 +14896,9 @@ import_tables:
 駸	tsshximq
 ####əm 覃
 ###Oəm
-丼	toumA		#?
-𩾺	toums
-閐	soums		#覆蓋也
+丼	to,mA		#?丹
+𩾺	to,ms
+閐	so,ms		#覆蓋也
 龕	khq_o,mq
 𪚕	khq_o,mq		#龕
 𡪶	ho,mq		#?寢
@@ -14966,16 +14967,6 @@ import_tables:
 𨂁	Ao,pq
 𩋊	Ao,pq
 ##um Oom
-#
-南	noomq
-𡴖	noomq
-𡴟	noomq
-楠	noomq
-腩	noomA
-䈒	noomA
-揇	noomA
-萳	noomA
-湳	noomA
 ##əm
 酖	to;mq		#冘t-eo-m
 䏙	tho;mA
@@ -15247,6 +15238,8 @@ import_tables:
 𣤊	lo;pq
 𤛊	lo;pq
 摺	lo;pq
+嵐	lo;mq		#凡p-eo-m
+葻	lo;mq
 #
 𢎘	hgo;mq
 𢎘	hgo;mA
@@ -15273,85 +15266,96 @@ import_tables:
 𠗴	hgo;mq
 𩔞	hgo;mq
 𧜄	hgo;mA
+##
 #
-㾑	toopq
-𤝰	toopq
-䶀	thoopq
-佮	thoopq
-𪘁	thoopq
-合	kq_oopq		#合k-u-p #荅合k-u-p
-閤	kq_oopq
-鴿	kq_oopq
-敆	kq_oopq
-鉿	kq_oopq
-鮯	kq_oopq
-蛤	kq_oopq
-郃	kq_oopq
-匌	kq_oopq
-頜	kq_oopq
-佮	kq_oopq
-𣭝	kq_oopq
-㭘	kq_oopq
-鞈	kq_oopq
-韐	kq_oopq
-𢂷	kq_oopq
-匌	khq_oopq
-哈	Cq_oopq
-㾑	Cq_oopq
-姶	Aoopq
-佮	Aoopq
-欱	hoopq
-㾑	hoopq
-頜	hgoomA
-合	hgoopq		#集合
-郃	hgoopq
-䢔	hgoopq
-㭘	hgoopq
-詥	hgoopq
-耠	hgoopq
-𡇶	hgoopq
-𪘁	hgoopq
-𦳬	hgoopq
-盒	hgoopq
-䆟	khq_oopq
-畣	toopq
-𨅞	toopq
-撘	toopq
-㯚	toopq
-答	toopq
-褡	toopq
-㜓	toopq
-嗒	toopq
-㿯	toopq
-荅	toopq	999		#合t-u-p
-榙	hgoopq
-弇	kq_oomq
-𥦍	kq_oomq
-𥦦	kq_oomq
-媕	Aoomq
-黭	AoomA
-媕	Aoopq
-鞥	Aoopq
+南	noumq		#o?eo?
+𡴖	noumq
+𡴟	noumq
+楠	noumq
+腩	noumA
+䈒	noumA
+揇	noumA
+萳	noumA
+湳	noumA
+#
+㾑	toupq
+𤝰	toupq
+䶀	thoupq
+佮	thoupq
+𪘁	thoupq
+合	kq_oupq		#合k-u-p #荅合k-u-p
+閤	kq_oupq
+鴿	kq_oupq
+敆	kq_oupq
+鉿	kq_oupq
+鮯	kq_oupq
+蛤	kq_oupq
+郃	kq_oupq
+匌	kq_oupq
+頜	kq_oupq
+佮	kq_oupq
+𣭝	kq_oupq
+㭘	kq_oupq
+鞈	kq_oupq
+韐	kq_oupq
+𢂷	kq_oupq
+匌	khq_oupq
+哈	Cq_oupq
+㾑	Cq_oupq
+姶	Aoupq
+佮	Aoupq
+欱	houpq
+㾑	houpq
+頜	hgoumA
+合	hgoupq		#集合
+郃	hgoupq
+䢔	hgoupq
+㭘	hgoupq
+詥	hgoupq
+耠	hgoupq
+𡇶	hgoupq
+𪘁	hgoupq
+𦳬	hgoupq
+盒	hgoupq
+䆟	khq_oupq
+畣	toupq
+𨅞	toupq
+撘	toupq
+㯚	toupq
+答	toupq
+褡	toupq
+㜓	toupq
+嗒	toupq
+㿯	toupq
+荅	toupq	999		#合t-u-p
+榙	hgoupq
+弇	kq_oumq
+𥦍	kq_oumq
+𥦦	kq_oumq
+媕	Aoumq
+黭	AoumA
+媕	Aoupq
+鞥	Aoupq
 ##om Oum
-堪	khq_oomq		#甚
-戡	khq_oomq		#甚t-u-m?甚k-u-m
-嵁	khq_oomq
-歁	khq_oomA
-𧗀	khq_ooms		#䘓
-𪉯	khq_ooms
-磡	khq_ooms
-勘	khq_ooms
-歁	khq_oopq
-嵁	Cq_oomq
-嵁	Cq_oomA
-媅	toomq
-湛	toomq
-𧡪	toomq
-黮	thoomA
-䨢	doomA
-黮	doomA
-𧡪	doomA
-糂	soomA
+堪	khq_oumq		#甚
+戡	khq_oumq		#甚t-u-m?甚k-u-m
+嵁	khq_oumq
+歁	khq_oumA
+𧗀	khq_oums		#䘓
+𪉯	khq_oums
+磡	khq_oums
+勘	khq_oums
+歁	khq_oupq
+嵁	Cq_oumq
+嵁	Cq_oumA
+媅	toumq
+湛	toumq
+𧡪	toumq
+黮	thoumA
+䨢	doumA
+黮	doumA
+𧡪	doumA
+糂	soumA
 納	noupq
 蒳	noupq
 㨥	noupq
@@ -15366,55 +15370,52 @@ import_tables:
 俕	soums
 䫅	soums
 浨	loumA
-嵐	loumq
-葻	loumq
-#
-蕁	Loomq
-𧀷	Loomq
-𧂇	Loomq
-襑	LshoomA
-撏	Loomq
-雥	dzoopq	99
-襍	dzoopq	999
-磼	dzoopq
-雜	dzoopq	9
-䕹	dzoopq
+蕁	Loumq
+𧀷	Loumq
+𧂇	Loumq
+襑	LshoumA
+撏	Loumq
+雥	dzoupq	99
+襍	dzoupq	999
+磼	dzoupq
+雜	dzoupq	9
+䕹	dzoupq
 ##om
-𣤶	tsoupq		#?歍𣤶
-嘁	tsoupq		#尗㗤#𣤶
-𤬪	khq_oumq		#瓦器也 會意?
-坎	khq_oumA
-欿	Lshoumq		#Ls
-𣛱	LoumA
-窞	LoumA
-萏	LoumA
-𧂄	LoumA
-臽	khq_oumA
-惂	khq_oumA
-輡	khq_oumA
-錎	khq_oumA
-埳	khq_oumA
-䘓	khq_oums		#𧗀𧖾𧗐𧗜
-䀍	khq_oums
-淊	hgoumA
-欿	hgoumA
-蜭	hgoumA
-蜭	hgoums
-䐄	hgoums
-贛	kq_oumA
-贑	kq_oumA
-𥸡	kq_oumA
-䤗	kq_oumA
-㔶	kq_oumA
-𧆐	kq_oumA
-灨	kq_oumA
-贛	kq_oums
-戇	kq_oums
-𧆐	kq_oums
-灨	kq_oums
-竷	khq_oumA
-竷	khq_oums
-𧗜	doums
+𣤶	tsoopq		#?歍𣤶
+嘁	tsoopq		#尗㗤#𣤶
+𤬪	khq_oomq		#瓦器也 會意?
+坎	khq_oomA
+欿	Lshoomq		#Ls
+𣛱	LoomA
+窞	LoomA
+萏	LoomA
+𧂄	LoomA
+臽	khq_oomA
+惂	khq_oomA
+輡	khq_oomA
+錎	khq_oomA
+埳	khq_oomA
+䘓	khq_ooms		#𧗀𧖾𧗐𧗜
+䀍	khq_ooms
+淊	hgoomA
+欿	hgoomA
+蜭	hgoomA
+蜭	hgooms
+䐄	hgooms
+贛	kq_oomA
+贑	kq_oomA
+𥸡	kq_oomA
+䤗	kq_oomA
+㔶	kq_oomA
+𧆐	kq_oomA
+灨	kq_oomA
+贛	kq_ooms
+戇	kq_ooms
+𧆐	kq_ooms
+灨	kq_ooms
+竷	khq_oomA
+竷	khq_ooms
+𧗜	dooms
 #####-n
 ####an 寒　桓　删山 元
 ###an
@@ -16639,10 +16640,10 @@ import_tables:
 獺	thRaatq		#Rs
 㾺	maans		#馬
 㾺	thRaans		#m-
-赧	nRaanA
+赧	nRaanA		#㞋
 𩈶	nRaanA		#䩆𩈶
 㬄	nshR_aans		#ns
-㫱	nRaanA
+㫱	nRaanA		#赧聲
 刹	tsshaatq		#殺
 䓭	tsshaatq
 䩆	tssaanA		#?乍
@@ -19459,6 +19460,7 @@ import_tables:
 鰬	gxanq
 𨜻	gxanq
 榩	gxanq
+紾	tRxenA
 #?
 仚	hxanq		#?
 嘕	hxanq
@@ -19508,11 +19510,10 @@ import_tables:
 𧎰	tRxenA
 𩥇	tRxens
 搌	thRxenA
-輾	nRxens
+輾	nRxens		#𨋚 同形
 碾	nRxens
-㞋	nRxenA
+㞋	nRxenA		#㞋n-a-n?
 𨋚	nRxenA
-紾	tRxenA
 哲	tRxetq
 喆	tRxetq
 𡕇	tRxetq
@@ -20349,7 +20350,7 @@ import_tables:
 ###yin
 䏰	ncyins		#?忍
 𤮪	tsyins
-㼱	tsyins
+㼱	tsyins		#㞋
 ##yun?
 𩀋	ncyonq
 蝡	ncyonA
@@ -21438,7 +21439,8 @@ import_tables:
 訥	nvotq
 肭	nvotq
 𣧍	nvotq
-嫩	nvons
+嫩	nvons		#軟聲 㜛
+㜛	nvons
 媆	nvons
 腝	nvons
 𦃕	hmsvonA		#L
@@ -23274,13 +23276,13 @@ import_tables:
 ##Riŋ?
 𥉸	khq_aiCq
 ##Rəŋ a?ə?
-鄳	ma,Cq
-𥋝	ma,Cq
-𥋝	ma,CA
-鱦	ma,CA
-鄳	ma,CA
-棚	ba,Cq
-輣	ba,Cq
+鄳	ma;Cq
+𥋝	ma;Cq
+𥋝	ma;CA
+鱦	ma;CA
+鄳	ma;CA
+棚	ba;Cq
+輣	ba;Cq
 #
 憕	dRx,Cq
 𩏠	tRx,Cs
@@ -26349,61 +26351,61 @@ import_tables:
 噟	Ai;Cs
 應	Ai;Cs
 ##xəŋ
-硱	khx;Cq	2		#硱碅磳磴#口冰反
-掤	px;Cq
-淜	bx;Cq
-皀	px;kq	1
-䫾	px;kq
-㘠	px;kq
-䁇	mx;kq
-皕	px;kq		#?
-仌	px;Cq	999
-冰	px;Cq
-砯	phx;Cq
-靐	bx;Cs
-馮	bx;Cq
-憑	bx;Cq
-㵗	bx;Cq
-凭	bx;Cq	999
-凭	bx;Cs
-逼	px;kq
-偪	px;kq
-幅	px;kq
-楅	px;kq
-䮠	px;kq
-湢	px;kq
-𤗚	bx;kq
-𤐧	bx;kq
-畐	phx;kq
-𤗚	phx;kq
-稫	phx;kq
-堛	phx;kq
-愊	phx;kq
-踾	phx;kq
-𩜰	phx;kq
-揊	phx;kq
-𢾇	phx;kq
-腷	bx;kq
-𥻅	bx;kq
-踾	bx;kq
-鶝	bx;kq
-副	phx;kq		#析也
-㽬	phx;kq
-疈	phx;kq
-𨺤	phx;kq
-䦼	phx;kq	9		#𨼱訓疈
-愎	bx;kq		#?
-馥	bx;kq
-棘	kx;kq		#?來聲
-襋	kx;kq
-㻷	kx;kq
-蕀	kx;kq
-抑	Ax;kq
-𢑏	Ax;kq	999
-𡊁	Ax;kq
-凝	Cx;Cq
-冰	Cx;Cq
-凝	Cx;Cs
+硱	khr;Cq	2		#硱碅磳磴#口冰反
+掤	pr;Cq
+淜	br;Cq
+皀	pr;kq	1
+䫾	pr;kq
+㘠	pr;kq
+䁇	mr;kq
+皕	pr;kq		#?
+仌	pr;Cq	999
+冰	pr;Cq
+砯	phr;Cq
+靐	br;Cs
+馮	br;Cq
+憑	br;Cq
+㵗	br;Cq
+凭	br;Cq	999
+凭	br;Cs
+逼	pr;kq
+偪	pr;kq
+幅	pr;kq
+楅	pr;kq
+䮠	pr;kq
+湢	pr;kq
+𤗚	br;kq
+𤐧	br;kq
+畐	phr;kq
+𤗚	phr;kq
+稫	phr;kq
+堛	phr;kq
+愊	phr;kq
+踾	phr;kq
+𩜰	phr;kq
+揊	phr;kq
+𢾇	phr;kq
+腷	br;kq
+𥻅	br;kq
+踾	br;kq
+鶝	br;kq
+副	phr;kq		#析也
+㽬	phr;kq
+疈	phr;kq
+𨺤	phr;kq
+䦼	phr;kq	9		#𨼱訓疈
+愎	br;kq		#?
+馥	br;kq
+棘	kr;kq		#?來聲
+襋	kr;kq
+㻷	kr;kq
+蕀	kr;kq
+抑	Ar;kq
+𢑏	Ar;kq	999
+𡊁	Ar;kq
+凝	Cr;Cq
+冰	Cr;Cq
+凝	Cr;Cs
 ##Iəŋ
 悈	kI;kq
 亟	kI;kq
@@ -26758,39 +26760,39 @@ import_tables:
 矜	kxiCq		#令聲
 ###viək uək
 ##wək
-𧹭	hw;kq		#畐聲
-𥄎	hw;kq		#?
-𠷾	hw;kq
-䦗	hQsw;kq
-𨵨	hQsw;kq
-閾	hQsw;kq
-㰲	hQsw;kq		#
-𤷇	hQsw;kq
-𪑝	hQsw;kq
-緎	hQsw;kq
-𦑌	hQsw;kq
-淢	hQsw;kq
-域	qw;kq		#或ɢ V-
-蜮	qw;kq
-䍞	qw;kq
-罭	qw;kq
-棫	qw;kq
-㚜	qw;kq
-𪂉	qw;kq
-𦈸	qw;kq
-琙	qw;kq
-𪑝	qw;kq
-緎	qw;kq
-䮙	qw;kq
-魊	qw;kq
-淢	qw;kq
-𦱂	qw;kq
+𧹭	hW;kq		#畐聲
+𥄎	hW;kq		#?
+𠷾	hW;kq
+䦗	hQsW;kq
+𨵨	hQsW;kq
+閾	hQsW;kq
+㰲	hQsW;kq		#
+𤷇	hQsW;kq
+𪑝	hQsW;kq
+緎	hQsW;kq
+𦑌	hQsW;kq
+淢	hQsW;kq
+域	qW;kq		#或ɢ V-
+蜮	qW;kq
+䍞	qW;kq
+罭	qW;kq
+棫	qW;kq
+㚜	qW;kq
+𪂉	qW;kq
+𦈸	qW;kq
+琙	qW;kq
+𪑝	qW;kq
+緎	qW;kq
+䮙	qW;kq
+魊	qW;kq
+淢	qW;kq
+𦱂	qW;kq
 ##
-洫	hQsw;kq		#血V-v-i-k?
-侐	hQsw;kq
+洫	hQsW;kq		#血V-v-i-k?
+侐	hQsW;kq
 #
-洫	hQswikq		#血V-v-i-k?
-侐	hQswikq
+洫	hQsWikq		#血V-v-i-k?
+侐	hQsWikq
 ####oŋ 東鍾江
 ###oŋ
 㬝	souCq
@@ -27228,10 +27230,10 @@ import_tables:
 罋	AouCs
 ##um
 #
-芃	bo;mq		#凡p-ə-m
+芃	bo;mq		#凡p-eo-m
 𩖛	bo;mq
 #
-芃	bouCq		#凡p-ə-m
+芃	bouCq		#凡p-eo-m
 𩖛	bouCq
 𥫔	kq_ouCs		#m
 𧹉	kq_ouCs
@@ -30188,6 +30190,7 @@ import_tables:
 鰬	gxaRq
 𨜻	gxaRq
 榩	gxaRq
+紾	tRxeRA
 ##vRjaR waR
 𡰝	tRwaRq
 顴	gwaRq
