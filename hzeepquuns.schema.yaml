@@ -254,9 +254,10 @@ speller:
     # - derive/L/ll/ #hgL VL AL?
 
 ####聲-介
-    - derive/^(j)[j]([aeiouəʌ;,])/$1$2/ #㠯母
-    - derive/^(q)u([aeiouəʌ;,])/$1$2/ #雲母
-    # - fuzz/^([sz]c)[j]([aeiouəʌ;,])/$1$2/ #書
+    - derive/^(j)[ij]([aeiouəʌ;,])/$1$2/ #㠯母 三等
+    - derive/^(q)[uy]([aeiouəʌ;,])/$1$2/ #雲母
+    - fuzz/^([sz]c)[ij]([aeiouəʌ;,])/$1$2/ #書船
+    - fuzz/^z[ij]([aeiouəʌ;,])/zz$1/ #邪
 
     - derive/^(hms)v([ʌəo])/$1$2/ #幫組 一三
     - derive/^(hms)v([ʌəo])/h$2/
@@ -321,8 +322,8 @@ speller:
     - fuzz/^z/zz/ #衺
     - fuzz/^h/hs/ #曉
     - fuzz/^q/qz/ #雲
-    - derive/^sc/h/ #船
-    - derive/^zc/q/ #書
+    - fuzz/^sc(?=[jy])/h/ #船
+    - fuzz/^zc(?=[jy])/q/ #書
     - derive/^dz(?!c)/z/
 
     - derive/^ph/f/
@@ -333,7 +334,6 @@ speller:
     - derive/^(hq|A)/w/
     - derive/^(ng|C)/c/
 
-    - fuzz/^([sz]c)[j]([aeiouəʌ;,])/$1$2/ #書
 ##𥳑 首字母
     # - abbrev/^(\w).+$/$1/
     # - abbrev/^(\w[zhcqs]?[lrfvjyxw]).+$/$1/ #介
