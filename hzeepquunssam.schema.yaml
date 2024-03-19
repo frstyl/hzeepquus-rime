@@ -118,6 +118,9 @@ speller:
     # - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
     # - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
 
+    - derive/[Uy]([ou])([jlrndzt][qAs]?)$/$1$2/
+    - derive/(?<![sz]s|rr)u([ou])([jlrndzt][qAs]?)$/$1$2/
+    - derive/(?<![SZR])i([jlrndzt][qAs]?)$/$1$2/
 ####韻-介-尾 (+) 介後
     # - derive/([oir]u)v([qAs])$/$1$2/ #u-v 侯尤幽
     - derive/(u)v/$1/ #uv 侯尤幽
