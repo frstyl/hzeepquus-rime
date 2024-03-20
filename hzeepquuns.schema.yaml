@@ -117,7 +117,7 @@ speller:
     - fuzz/[Ijrxi](i)/i/ #i
     - fuzz/[Uywu](i|u)/u/ #u
 
-    - fuzz/[IUjyrWxwiu][uo]/u/ #iu- io- uu uo
+    - fuzz/(?<!J[QLjyiu])[IUjyrWxwiu][uo]/u/ #iu- io- uu uo 以雲母除外
 
     - fuzz/o(o|u)(?![qAs])/o/ #ou oo -v -m -C
     - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
@@ -140,6 +140,8 @@ speller:
 ####介
     - derive/Y/v/
     - derive/W/w/
+    - derive/vi(ə|ʌ|a|e|i|o|u|;)/u$1/ #io vio 介
+    - derive/vI/U/
 ##三等二分
     # - derive/vI(ə|ʌ|a|e|i|o|u|;)/U$1/
     - derive/I(ə|ʌ|a|e|i|o|u|;)/j$1/

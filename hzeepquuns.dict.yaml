@@ -4887,7 +4887,7 @@ import_tables:
 ####ə 之微咍灰
 ###iə
 鏔	Jj;q		#?
-伱	nRi;A	999		#又集韻 乃倚切
+伱	nRi;A	999		#又集韻 乃倚切#伱尒乃而n-eo 汝n-a
 𣍆	tschj;q	0		#殸?#譌誤
 𣍆	heeCs		#正
 僿	scj;ks		#塞 譌誤?
@@ -10237,7 +10237,45 @@ import_tables:
 𦞵	heevq		#皋k-u
 㚠	heevq		#羙k-a-v
 䫞	heevq
-##eav? 精組无-ev
+##eav? 
+𥨤	leavq
+𨭼	leavq
+𥵐	leavq
+橑	leavq
+𧂏	leavq
+遼	leavq
+膫	leavq		#膋
+飉	leavq
+竂	leavq
+㙩	leavq
+撩	leavq
+僚	leavq
+寮	leavq	2
+鐐	leavq
+簝	leavq
+鷯	leavq
+璙	leavq
+嫽	leavq
+蟟	leavq
+瞭	leavq
+𩯊	leavq
+嶚	leavq
+繚	leavq
+憭	leavq
+獠	leavq
+嘹	leavq
+瞭	leavA
+镽	leavA
+繚	leavA
+憭	leavA
+爒	leavA
+撩	leavA
+𩕐	leavs
+嫽	leavs
+嘹	leavs
+鐐	leavs
+璙	leavs
+𦌒	leavs
 摷	leavq		#訓撩
 𧂈	tseavA
 劋	tseavA
@@ -10346,7 +10384,7 @@ import_tables:
 䆞	AeevA		#㝔窈
 𡧮	AeevA
 㫐	AeevA
-𥃩	AeevA	5		#窅
+𥃩	AeevA	5		#窅闄䁏䁘
 䆞	Aeevs
 杳	AeevA
 窅	AeevA
@@ -10370,45 +10408,7 @@ import_tables:
 料	leevq
 炓	leevs
 料	leevs
-𥨤	leevq
-𨭼	leevq
-𥵐	leevq
-橑	leevq
-𧂏	leevq
-遼	leevq
-膫	leevq		#膋
-飉	leevq
-竂	leevq
-㙩	leevq
-撩	leevq
-僚	leevq
-寮	leevq	2
-鐐	leevq
-簝	leevq
-鷯	leevq
-璙	leevq
-嫽	leevq
-蟟	leevq
-瞭	leevq
-𩯊	leevq
-嶚	leevq
-繚	leevq
-憭	leevq
-獠	leevq
-嘹	leevq
-瞭	leevA
-镽	leevA
-繚	leevA
-憭	leevA
-爒	leevA
-撩	leevA
-𩕐	leevs
-嫽	leevs
-嘹	leevs
-鐐	leevs
-璙	leevs
-𦌒	leevs
-𠧪	Leevq		#?L
+𠧪	Leevq		#?L 𠧪L-e-v 𠧪L-u 繇
 𠨋	Leevq
 ##eevr eevks
 激	kq_eevks		#ks
@@ -10567,24 +10567,24 @@ import_tables:
 鷕	JQjevA	0		#?以水反 譌誤
 鷕	JQjij_A		#正
 #juv?
-𦥝	JLjuv_A
-舀	JLjuv_A
-𦥟	JLjuv_A
-𦥨	JLjuv_A	1
-抭	JLjuv_A		#冗
-𧳨	ncjuv_A
-㹛	ncjuv_q		#夒
-𢹎	ncjuv_A
-擾	ncjuv_A		#擾#夒
-𤛾	ncjuv_A
-𤪎	JLjuv_s		#𣣸
+𦥝	JLjuvA
+舀	JLjuvA
+𦥟	JLjuvA
+𦥨	JLjuvA	1
+抭	JLjuvA		#冗
+𧳨	ncjuvA
+㹛	ncjuvq		#夒
+𢹎	ncjuvA
+擾	ncjuvA		#擾#夒
+𤛾	ncjuvA
+𤪎	JLjuvs		#𣣸
+㿁	JLjuvq		#皋
+陶	JLjuvq		#匋
+楢	tschjuvA
 #o?
-㿁	JLjuv_q		#皋
-陶	JLjuv_q		#匋
-褕	JLjuv_q		#俞
-䏆	dzjuv_q		#曹
-𪍑	tschjuv_A		#?酉k-L-u
-楢	tschjuv_A
+褕	JLjovq		#俞
+䏆	dzjovq		#曹
+𪍑	tschjovA		#?酉k-L-u
 ##jiv?u?
 髟	pjevq		#?#髟p-u
 㯱	bjevq		#缶p-u
@@ -10625,40 +10625,40 @@ import_tables:
 溔	JLjavA
 𩨴	JLjavA		#号k-L-a-v
 ##jev?u?
-䚻	JLjavq	999
-謠	JLjavq
-㑾	JLjavq
-䍃	JLjavq		#肉缶
-搖	JLjavq
-遙	JLjavq
-瑤	JLjavq
-徭	JLjavq
-傜	JLjavq
-鰩	JLjavq
-媱	JLjavq
-颻	JLjavq
-𣣳	JLjavq
-窰	JLjavq		#𥧳
-䔄	JLjavq
-愮	JLjavq
-鷂	JLjavq
-榣	JLjavq
-嗂	JLjavq
-䠛	JLjavq
-猺	JLjavq
-䁘	JLjavA
-搖	JLjavs
-鷂	JLjavs
-鷣	JLjavs	9		#訓鷂
-𧡷	JLjavs
-覞	JLjavs		#𧡷
-䔄	JLjavs
-𤬖	Lscjavq		#Ls#䚻L-e-v
-䌛	JLjavq		#L-
-邎	JLjavq
-蘨	JLjavq
-𤬖	JLjavq
-𢑄	JLjavq
+䚻	JLjevq	999
+謠	JLjevq
+㑾	JLjevq
+䍃	JLjevq		#肉缶
+搖	JLjevq
+遙	JLjevq
+瑤	JLjevq
+徭	JLjevq
+傜	JLjevq
+鰩	JLjevq
+媱	JLjevq
+颻	JLjevq
+𣣳	JLjevq
+窰	JLjevq		#𥧳
+䔄	JLjevq
+愮	JLjevq
+鷂	JLjevq
+榣	JLjevq
+嗂	JLjevq
+䠛	JLjevq
+猺	JLjevq
+䁘	JLjevA
+搖	JLjevs
+鷂	JLjevs
+鷣	JLjevs	9		#訓鷂
+𧡷	JLjevs
+覞	JLjevs		#𧡷
+䔄	JLjevs
+𤬖	Lscjevq		#Ls#䚻L-e-v
+䌛	JLjevq		#L-
+邎	JLjevq
+蘨	JLjevq
+𤬖	JLjevq
+𢑄	JLjevq
 ##jav?ev? a?e?
 皽	tc_jevq	1		#𤿘
 𤿘	tc_evq		#召
@@ -10989,20 +10989,45 @@ import_tables:
 爝	tsjevks
 䂃	tsjevks
 ###xev
+##
 𧇠	Cxevs		#𠿕𧇠
-橇	khxevq		#?
-巐	thRxevA		#超聲意 山高昇會意
+橇	khxevq		#?撬
+巐	thRxevA		#超聲意 山高昇 會意?
 ##xəv?
 𥃧	kxevA
 ##xiv
 孂	kxevA
-##xuv?xev
+##?xev
 殍	bF_xevA		#孚p-u#𠬪p-e-v #𠬪
 莩	bF_xevA
 𣧶	bF_xevA
 𦭼	bF_xevA
 㰶	bxevA		#譌誤
 㹾	bxevA
+##xev
+䔸	pxevA
+𠬪	bxevA
+趙	dRxevA		#?
+趬	khxevs		#kL-
+㚁	khxevs
+##xav?xev? a?e?
+召	dRxevs
+超	thRxevq
+怊	thRxevq
+欩	thRxevq
+𢁾	thRxevq
+𠰉	thRxevq
+䫿	thRxevq
+兆	LR_xevA		#Ls
+脁	thRxevs		#肉
+晁	LR_xevq
+旐	LR_xevA
+狣	LR_xevA
+䍮	LR_xevA
+鮡	LR_xevA
+駣	LR_xevA
+垗	LR_xevA
+𠧞	LR_xevA
 ##xav xa
 苗	mxavq
 描	mxavq
@@ -11107,30 +11132,6 @@ import_tables:
 麃	pF_hxavA
 藨	bxavA
 𦳤	bxavA		#藨
-##xav?xev? a?e?
-召	dRxevs
-超	thRxevq
-怊	thRxevq
-欩	thRxevq
-𢁾	thRxevq
-𠰉	thRxevq
-䫿	thRxevq
-兆	LR_xevA		#Ls
-脁	thRxevs		#肉
-晁	LR_xevq
-旐	LR_xevA
-狣	LR_xevA
-䍮	LR_xevA
-鮡	LR_xevA
-駣	LR_xevA
-垗	LR_xevA
-𠧞	LR_xevA
-##xev
-䔸	pxevA
-𠬪	bxevA
-趙	dRxevA		#?
-趬	khxevs		#kL-
-㚁	khxevs
 ####uv 侯尤幽əu
 ###
 𠙶	AoovA		#山名
@@ -11421,19 +11422,19 @@ import_tables:
 銗	Eoovq
 𧮶	Eoovq
 骺	Eoovq
-后	EoovA
-垕	EoovA
-郈	EoovA
-㖃	EoovA
-后	Eoovs	1
-鮜	Eoovs
-逅	Eoovs
-䞧	Eoovs
+后	hQoovA		#?
+垕	hQoovA
+郈	hQoovA
+㖃	hQoovA
+后	hQoovs	1
+鮜	hQoovs
+逅	hQoovs
+䞧	hQoovs
 厚	EoovA		#q-?
 𠪋	EoovA
 𣆪	EoovA
 厚	Eoovs	1
-後	EoovA
+後	EoovA		#䵈 幽?
 後	Eoovs	1
 𨒥	EoovA
 𠹝	Aoovs		#㭝𣕽𣓕 地名
@@ -12230,7 +12231,7 @@ import_tables:
 油	JLjuv_q
 油	JLjuv_s
 𣔴	JLjuv_q
-䚻	JLjuv_q
+䚻	JLjuv_q		#由䚻䌛L-u
 䌛	JLjuv_q
 邎	JLjuv_q
 𡈸	JLjuv_q		#囮
@@ -19259,7 +19260,7 @@ import_tables:
 孨	tc_yenA
 準	tc_yetq	1		#唯鷕
 #
-𨷱	tc_yenA	00		#譌誤
+𨷱	tscyenA	0		#譌誤
 #?
 旋	zQ-yenq
 璇	zQ-yenq
