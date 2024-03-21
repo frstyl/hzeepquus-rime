@@ -103,9 +103,8 @@ speller:
     - fuzz/([oveYiujyrWxwafIU]i)x/$1z/ #iŋ
 ##元音-尾
     # - derive/v(o[jlrndzt])/$1/ #von voj
-    # - fuzz/(v)ə([jlrndzt][qAs]?)$/$1o$2/ #və vo
-    # - fuzz/([a])ə([jlrndzt][qAs]?)$/$1o$2/
-    # - fuzz/([vf])ə([Cgxk][qAs]?)$/$1o$2/
+    - fuzz/([va])ə([jlrndzt][qAs]?)$/$1o$2/ #və vo
+    - fuzz/([vf])ə([Cgxk][qAs]?)$/$1o$2/
 ##
     # - derive/[Ijrxi](ə|ʌ)/i/ #i
     # - derive/[Uywu](ə|ʌ)/u/ #i
@@ -131,7 +130,7 @@ speller:
     # - derive/([\w]v?)o([qhsA])/$1ia$2/
 
     - fuzz/(a)a([qAs])/$1o$2/ #二等 aa ao
-    - derive/uo([qAs])/iov$1/ #o-v 
+    - derive/u[uo]([qAs])/iov$1/ #o-v 
     - derive/yo([qAs])/jov$1/
     - derive/wo([qAs])/xov$1/
 ####介
@@ -267,6 +266,7 @@ speller:
     - derive/^(ph|p|b|m)[uUy]([aeiouʌə;,])/$1$2/
     - derive/^(ph|p|b|m)vi([aeiouʌə;,])/$1$2/
 
+    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z|th?R|dR|nR)[irx]([aeiou;,])/$1$2/ #-R
 ####尾
     - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
     # - fuzz/(?<!^)[j][q]$/j/

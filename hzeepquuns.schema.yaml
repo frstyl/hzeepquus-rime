@@ -108,16 +108,28 @@ speller:
     # - fuzz/(v)ə([jlrndzt][qAs]?)$/$1o$2/ #və vo
     - fuzz/([a])ə([jlrndzt][qAs]?)$/$1o$2/
     - fuzz/([vf])ə([Cgxk][qAs]?)$/$1o$2/
-##
+##補
+    # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
+    # - derive/([\w]v?)o([qhsA])/$1ia$2/
+
+    - fuzz/(a)a([qAs])/$1o$2/ #二等 aa ao
+    - derive/u[uo]([qAs])/iov$1/ #o-v 
+    - derive/yo([qAs])/jov$1/
+    - derive/wo([qAs])/xov$1/
+##韻介
     - derive/vi/u/ #io vio 介
     - derive/vI/U/
-    - derive/[Ijrxi](ə|ʌ)/i/ #iə
-    - derive/[Uywu](ə|ʌ)/u/ #uə
+
+    - derive/(?<![JQLc])[Ijrxi](ə|ʌ)/i/ #iə 排除-c?
+    - derive/(?<![JQLc])[Uywu](ə|ʌ)/u/ #uə
     - derive/v[Ijrxi](ə|ʌ)/u/ #viə
     - fuzz/[Ijrxi](i)/i/ #i
-    - fuzz/[Uywu](i|u)/u/ #u
-
-    - fuzz/(?<!J[QLjyiu])[IUjyrWxwiu][uo]/u/ #iu- io- uu uo 以雲母除外
+    - fuzz/(?<![JQLcq])[Uywu](i|u)/u/ #u 
+    - fuzz/(?<=[kgtdnCLsz])c[Uywu](i|u)/u/ #u 
+    - fuzz/(?<![tk]h)c[Uywu](i|u)/u/ #u 
+    - fuzz/(?<![JQLcq])[IUjyrWxwiu][uo]/u/ #iu- io- uu uo 以雲神母除外 引擎不支持變長
+    - fuzz/(?<=[kgtdnCLsz])c[IUjyrWxwiu][uo]/u/
+    - fuzz/(?<=[tk]h)c[IUjyrWxwiu][uo]/u/
 
     - fuzz/o(o|u)(?![qAs])/o/ #ou oo -v -m -C
     - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
@@ -127,16 +139,7 @@ speller:
     # - derive/([oir]u)v([qAs])$/$1$2/ #u-v 侯尤幽
     - derive/(u)v/$1/ #uv 侯尤幽
     - derive/(ao)v/$1/ #ao-v
-    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)a([aeiou;,])/$1r$2/ #莊R
-    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)f([aeiou;,])/$1W$2/ #莊R
-##補
-    # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
-    # - derive/([\w]v?)o([qhsA])/$1ia$2/
 
-    - fuzz/(a)a([qAs])/$1o$2/ #二等 aa ao
-    - derive/uo([qAs])/iov$1/ #o-v 
-    - derive/yo([qAs])/jov$1/
-    - derive/wo([qAs])/xov$1/
 ####介
     - derive/Y/v/
     - derive/W/w/
@@ -149,6 +152,12 @@ speller:
 
     - derive/[Ijrx](ə|ʌ|a|e|i|o|u|;)/i$1/ #i=jx
     - derive/[Uyw](ə|ʌ|a|e|i|o|u|;)/u$1/
+    - derive/^(tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)i([aeiouəʌ])/$1x$2/ #聲-介
+    - derive/^(tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)u([aeiouəʌ])/$1w$2/
+    - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
+    - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
+    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)[ijrx]([aeiouəʌ])/$1i$2/ #i=jx 在Jj前
+    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)[uyw]([aeiouəʌ])/$1u$2/
 ##
     # - derive/I/i/
     # - derive/U/u/
@@ -182,13 +191,6 @@ speller:
     - derive/^(h[mnCLRqQV]s|hsq|ngs|[mnCqQV]s|[hX]s|X)/h/
     # - derive/^(hqz|Xqz|Xq|qz|Xz)/q/ #无別
 
-####聲-介
-    - derive/^(tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)i([aeiouəʌ])/$1x$2/
-    - derive/^(tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)u([aeiouəʌ])/$1w$2/
-    - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
-    - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
-    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)[ijrx]([aeiouəʌ])/$1i$2/ #i=jx 在Jj前
-    - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)[uyw]([aeiouəʌ])/$1u$2/
 ##古?
     - derive/^(Jqz?|J[QV]|JL|J)/j/ #l
 ####中
@@ -221,7 +223,7 @@ speller:
     - derive/^(Lc)/j/ #?
     - derive/^(Lr?)([oveYarfrWxw][aeiouəʌ;,])/j$2/
     - derive/^(hqz|hzq?|Xqz?|Xz|qz|h[QV]|Q|V|E)([oveYaf][aeiouəʌ;,])/q$2/ #雲一 hqz E
-    - derive/^(J[qQV])([jy][aeiouəʌ;,])/q$2/ #雲三A
+    - derive/^J[qQV]([jy][aeiouəʌ;,])/q$1/ #雲三A 雲爲BC
 ##古補全
     - derive/^(Rsh[Rc]?)/rs/
     - derive/^(R(?!s)[R]?|l)/rz/
@@ -257,7 +259,7 @@ speller:
 ####聲-介
     - derive/^(j)[ij]([aeiouəʌ;,])/$1$2/ #㠯母 三等
     - derive/^(q)[uUy]([aeiouəʌ;,])/$1$2/ #雲母
-    - fuzz/^([sz]c)[ij]([aeiouəʌ;,])/$1$2/ #書船
+    - fuzz/^(([kgtdnCLsz]|[tk]h)c)[ij]([aeiouəʌ;,])/$1$3/ #書船
     - fuzz/^z[ij]([aeiouəʌ;,])/zz$1/ #邪
 
     - derive/^(hms)v([ʌəo])/$1$2/ #幫組 一三
@@ -265,6 +267,10 @@ speller:
     - derive/^(ph|p|b|m)[vY]([aeəʌ;,])/$1$2/
     - derive/^(ph|p|b|m)v(i[oə])/$1$2/
 
+    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)a([aeiou;,])/$1r$2/ #莊R
+    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)f([aeiou;,])/$1W$2/ #莊R
+
+    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z|th?R|dR|nR)[irx]([aeiou;,])/$1$2/ #-R
 ####尾
     - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
     # - fuzz/(?<!^)[j][q]$/j/
