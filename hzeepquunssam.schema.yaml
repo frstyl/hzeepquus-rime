@@ -548,6 +548,8 @@ lookup:
     - xform/,/ʌ/
 punctuator:
   import_preset: symbols
+menu:
+  page_size:10
 key_binder:
   import_preset: default
   bindings:

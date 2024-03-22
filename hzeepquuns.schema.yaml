@@ -122,17 +122,18 @@ speller:
 
     - derive/(?<![JQLc])[Ijrxi](ə|ʌ)/i/ #iə 排除-c?
     - derive/(?<![JQLc])[Uywu](ə|ʌ)/u/ #uə
+    - derive/(([kgtdnCL]|[tk]h)c)[Ijrxi](ə|ʌ)/$1i/
+    - derive/(([kgtdnCL]|[tk]h)c)[Uywu](ə|ʌ)/u/ #uə
     - derive/v[Ijrxi](ə|ʌ)/u/ #viə
-    - fuzz/[Ijrxi](i)/i/ #i
-    - fuzz/(?<![JQLcq])[Uywu](i|u)/u/ #u 
-    - fuzz/(?<=[kgtdnCLsz])c[Uywu](i|u)/u/ #u 
-    - fuzz/(?<![tk]h)c[Uywu](i|u)/u/ #u 
+    - derive/[Ijrxi](i)/i/ #i
+    - derive/(?<![JQLcq])[Uywu](i|u)/u/ #u 
+    - fuzz/([kgtdnCL][tk]h)c[Uywu](i|u)/$1u/
     - fuzz/(?<![JQLcq])[IUjyrWxwiu][uo]/u/ #iu- io- uu uo 以雲神母除外 引擎不支持變長
-    - fuzz/(?<=[kgtdnCLsz])c[IUjyrWxwiu][uo]/u/
-    - fuzz/(?<=[tk]h)c[IUjyrWxwiu][uo]/u/
+    - fuzz/(([kgtdnCL][tk]h))c[IUjyrWxwiu][uo]/$1u/
 
     - fuzz/o(o|u)(?![qAs])/o/ #ou oo -v -m -C
     - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
+    - derive/(J[QL]?|[sz]c)[uyU]([uo][jlrndzt])/$1$2/ #uun yun
     - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
 
 ####韻-介-尾 (+) 介後
@@ -546,6 +547,8 @@ lookup:
     - xform/,/ʌ/
 punctuator:
   import_preset: symbols
+menu:
+  page_size:10
 key_binder:
   import_preset: default
   bindings:
