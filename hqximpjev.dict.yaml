@@ -45,6 +45,7 @@ import_tables:
 ζ	zeta
 η	eta
 ϝ	digamma
+ϝ	wau
 θ	theta
 ι	iota
 κ	kappa
@@ -69,6 +70,7 @@ import_tables:
 Γ	gamma
 Ε	epsilon
 Ϝ	digamma
+Ϝ	wau
 Ζ	zeta
 Η	eta
 Θ	theta
@@ -298,19 +300,19 @@ t͡ʂ	tsrr
 d͡ʐ	dzrr
 t͡	tc
 d͡	dc
-ɸ	fp
-β	fb
-ɸ	fps
-β	fpz
+ɸ	Fp
+β	Fb
+ɸ	Fps
+β	Fpz
 ɸ	sp
 β	zp
-f	fs
-v	fz
-v	f
-θ	ft
-ð	fd
-θ	fts
-ð	ftz
+F	Fs
+v	Fz
+v	F
+θ	Ft
+ð	Fd
+θ	Fts
+ð	Ftz
 θ	st
 ð	zt
 ð	zd
@@ -329,30 +331,38 @@ v	f
 ʑ	zc
 ç	sc		#當爲无噝
 ʝ	zc
-ç	fc
-ʝ	fc
-ç	fcs
-ʝ	fcz
+ç	Fc
+ʝ	Fc
+ç	Fcs
+ʝ	Fcz
 ç	hcs
 ʝ	hcz
-x	fk
-ɣ	fg
+x	hk
+ɣ	hg
 x	sk
 ɣ	zk
 ɣ	zg
-x	hk
-ɣ	hg
+x	Fk
+ɣ	Fg
+x	Xs
+ɣ	Xz
 χ	sq
 ʁ	zq
 χ	hqs
 ʁ	hqz
-χ	fq
-ʁ	fq
+χ	Xq
+ʁ	Xq
 ʜ	H		#H ʜʢ
 ʢ	O
 ħ	H
 ʕ	O
+ħ	FOs
+ʕ	FOz
+ħ	hOs
+ʕ	hOz
 # h	h
+h	hFs
+ɦ	hFz
 h	hs
 ɦ	hz
 h	E
@@ -378,33 +388,49 @@ h	E
 ʷˤr	f
 ʷˤɾ	f
 ʷɹ	f
-# w	v
-ʷ	v
+# w	V
+ʍ	Vs
+ʷ	V
 ɥ	y
-r	r
-ɾ	r
+###
+r	R
+ɾ	R
 ɹ	r
-ɻ	r
-ɺ	r
-ɽ	r
-ʁ	r
-ɻ	jr
-ɺ	lr
-ʋ	jf
-ɰ	x
+ɽ	RR
+ɻ	rR
+ʀ	Rq
+ʁ	R		#?
+ɺ	R
+ʋ	v
 ⱱ	rf
-ɺ	rl
+ɰ	x
+ɺ	l
 l	l
-ɭ	lR
 ɭ	l
+ɭ	lR
 ʎ	l
 ʎ	lc
 ʟ	l
-ʟ	lk
+ʟ	lg
 ɬ	l
 ɮ	l
 ɬ	sl
 ɮ	zl
+###
+ʘ	b		#Bilabial Clicks
+ǀ	d		#Dental
+ǃ	t		#(Post)alveoalar
+ǂ	c		#Palatoalveolar
+ǁ	t		#Alveolar lateral
+ɓ	b		#Bilabial Voiced implosives
+ɗ	d		#Dental/alveolar
+ʄ	c		#Palatal
+ɠ	g		#Velar
+ʛ	q		#Uvular
+pʼ	p		#Bilabial Ejectives
+tʼ	t		#Dental/alveolar
+kʼ	k		#Velar
+sʼ	s		#Alveolar fricative
 ###
 # # y	y
 # a	ea
