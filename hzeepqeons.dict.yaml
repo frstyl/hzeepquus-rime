@@ -648,9 +648,9 @@ import_tables:
 爹	tRxaq		#?
 貰	zcjas	9		#ps#訓賖
 ##jas jar
-㡯	thc_jaks		#ks
-斥	thc_jaks		#ks
-䞣	thc_jaks
+㡯	thcjaks		#ks
+斥	thcjaks		#ks
+䞣	thcjaks
 䞣	tshjaks
 𠎥	tsjaks
 借	tsjaks		#ks
@@ -658,15 +658,15 @@ import_tables:
 躤	dzjaks
 唶	tsjaks
 䣠	dzjats		#ts
-炙	tc_jaks		#ks
-柘	tc_jaks		#ks
-遮	tc_jaq		#ks
-𠌮	tc_jaq
-樜	tc_jaks
-鷓	tc_jaks
-䗪	tc_jaks
-嗻	tc_jaks
-蔗	tc_jaks
+炙	tcjaks		#ks
+柘	tcjaks		#ks
+遮	tcjaq		#ks
+𠌮	tcjaq
+樜	tcjaks
+鷓	tcjaks
+䗪	tcjaks
+嗻	tcjaks
+蔗	tcjaks
 褯	dzjaks		#ks
 若	ncjaq		#那
 婼	ncjaq
@@ -691,8 +691,8 @@ import_tables:
 ##ja
 𠰒	ncjaA		#喏
 乜	mjaA		#?
-車	khL-c_jaq
-硨	khL-c_jaq
+車	khL-cjaq
+硨	khL-cjaq
 厙	sq-cjas		#車k-L
 謯	tsjaq
 㜘	tsjaq
@@ -709,7 +709,7 @@ import_tables:
 抯	zjaA		#?
 蝑	sjas
 擨	JLjaq
-社	dc_jaA		#?土聲
+社	dcjaA		#?土聲
 𣬕	sjaA
 卸	sC-jas		#s-C?
 䉣	sjas
@@ -722,7 +722,7 @@ import_tables:
 斜	zL-jaq		#s-L?
 䔑	JLjaq
 斜	JLjaq
-余	Lc_jaq	2		#zc- J-
+余	Lcjaq	2		#zc- J-
 余	Lzcjaq
 賖	scjaq
 畬	scjaq
@@ -735,21 +735,21 @@ import_tables:
 舍	Lscjas
 冶	JLjaA		#L
 䵦	zjaA
-𣝒	dc_jaA		#宜𣝒野
-𥁹	dc_jaA		#䀅
-䀅	dc_jaA
+𣝒	dcjaA		#宜𣝒野
+𥁹	dcjaA		#䀅
+䀅	dcjaA
 野	JLjaA
 𡐨	JLjaA
-者	tc_jaA		#古 楮
-赭	tc_jaA
-堵	tc_jaA	1
-㸙	tc_jaq
-諸	tc_jaq	9
-㨋	thc_jaA
-䰩	thc_jaA
-奲	thc_jaA
-撦	thc_jaA		#扯
-闍	dc_jaq
+者	tcjaA		#古 楮
+赭	tcjaA
+堵	tcjaA	1
+㸙	tcjaq
+諸	tcjaq	9
+㨋	thcjaA
+䰩	thcjaA
+奲	thcjaA
+撦	thcjaA		#扯
+闍	dcjaq
 奢	st-cjaq		#s-th
 些	sjaq		#此
 邪	zq-jaq
@@ -777,8 +777,8 @@ import_tables:
 # 椰	Jqjoq
 # 𥯘	Jqjoq
 # 耶	Jqjoq
-# 車	khc_joq
-# 硨	khc_joq
+# 車	khcjoq
+# 硨	khcjoq
 # 厙	scjos
 # 謯	tsjoq
 # 㜘	tsjoq
@@ -794,7 +794,7 @@ import_tables:
 # 抯	zjoA
 # 蝑	sjos
 # 擨	JLjoq
-# 社	dc_joA
+# 社	dcjoA
 # 𣬕	sjoA
 # 卸	sjos
 # 䉣	sjos
@@ -807,31 +807,31 @@ import_tables:
 # 斜	zjoq
 # 䔑	JLjoq
 # 斜	JLjoq
-# 余	Lc_joq
+# 余	Lcjoq
 # 余	zcjoq
 # 賖	scjoq
 # 畬	scjoq
 # 冶	JLjoA
 # 䵦	zjoA
-# 𣝒	dc_jOa		#宜𣝒野
-# 𥁹	dc_joA
+# 𣝒	dcjOa		#宜𣝒野
+# 𥁹	dcjoA
 # 野	JLjoA
 # 𡐨	JLjoA
-# 者	tc_joA
-# 赭	tc_joA
-# 堵	tc_jOa	1
-# 㸙	tc_joq
-# 諸	tc_joq
-# 㨋	thc_jOa		#擊
-# 䰩	thc_joA
-# 奲	thc_joA
-# 撦	thc_jOa		#扯
-# 闍	dc_joq
+# 者	tcjoA
+# 赭	tcjoA
+# 堵	tcjOa	1
+# 㸙	tcjoq
+# 諸	tcjoq
+# 㨋	thcjOa		#擊
+# 䰩	thcjoA
+# 奲	thcjoA
+# 撦	thcjOa		#扯
+# 闍	dcjoq
 # 奢	scjoq
 # 𠰒	ncjoA		#喏
 # 些	sjoq
 ##jaj
-哆	thc_jajA	1
+哆	thcjajA	1
 䬷	st-cjajA
 奓	st-cjajq
 𧭨	tsjajq
@@ -847,9 +847,9 @@ import_tables:
 也	JLjajA
 𠃟	JLjajA
 蛇	Lzcjajq
-鍦	Lc_jajq		#L
-𥍸	Lc_jajq
-鉈	dc_jajq
+鍦	Lcjajq		#L
+𥍸	Lcjajq
+鉈	dcjajq
 虵	Lzcjajq
 灺	zjajA
 虵	JLjajA
@@ -2199,7 +2199,7 @@ import_tables:
 榽	hgaeq
 㰨	haeq
 猚	Cq_aeq
-䍲	CR_aeq		#ŋ Cc_
+䍲	CR_aeq		#ŋ Cc
 掜	CR_aeq
 誽	CR_aeq
 唲	Aaeq
@@ -2676,7 +2676,7 @@ import_tables:
 𣸆	tsjeA
 茈	tsjeA
 茈	dzjeq
-䩃	dc_jes		#䩃𩈭
+䩃	dcjes		#䩃𩈭
 頿	tsjeq
 鴜	tsjeq
 𪕊	tsjeq
@@ -2727,35 +2727,35 @@ import_tables:
 孈	JqjeA		#巂
 翨	st-cjes		#?是聲?
 翨	kjes		#?訓翅
-昰	dc_jeA
-𣆞	dc_jeA
-是	dc_jeA
-禔	tc_jeq
-𦑡	dc_jeq
-㖷	dc_jeq
-匙	dc_jeq
-䈕	dc_jeq
-堤	dc_jeq
-禔	dc_jeq
-𦳚	dc_jeq
-媞	dc_jeA
-諟	dc_jeA
-褆	dc_jeA
-𢐂	dc_jes
-鯷	dc_jes
-䊓	dc_jes
+昰	dcjeA
+𣆞	dcjeA
+是	dcjeA
+禔	tcjeq
+𦑡	dcjeq
+㖷	dcjeq
+匙	dcjeq
+䈕	dcjeq
+堤	dcjeq
+禔	dcjeq
+𦳚	dcjeq
+媞	dcjeA
+諟	dcjeA
+褆	dcjeA
+𢐂	dcjes
+鯷	dcjes
+䊓	dcjes
 翨	sjes
 翨	kjes
-徥	dc_jeA
-提	dc_jeq
-卮	tc_jeq
-𨆋	tc_jeq		#卮
-栀	tc_jeq		#卮
-⿱林卮	tc_jeq
-㯄	tc_jeq
-兒	Cc_jeq		#ŋ
-唲	Cc_jeq
-𠒆	Cc_jeq
+徥	dcjeA
+提	dcjeq
+卮	tcjeq
+𨆋	tcjeq		#卮
+栀	tcjeq		#卮
+⿱林卮	tcjeq
+㯄	tcjeq
+兒	Ccjeq		#ŋ
+唲	Ccjeq
+𠒆	Ccjeq
 虒	sL-jeq		#s-L #嗁
 榹	sL-jeq
 㴲	sL-jeq
@@ -2790,27 +2790,27 @@ import_tables:
 蜤	sjeq
 𩆵	sjeq		#?
 𠩗	JLjeq
-支	kc_jeq
-𠦙	kc_jeq
-枝	kc_jeq
-肢	kc_jeq
-𪂅	kc_jeq
-𧌔	kc_jeq
-𥾣	kc_jeq		#紱譌誤
-汥	kc_jeq
-㲍	kc_jeq
-㽻	kc_jeq
-衼	kc_jeq
-𨈛	kc_jeq
-馶	kc_jeq
-㩼	kc_jeq
-鳷	kc_jeq
-䧴	kc_jeq
-䡋	kc_jeq
-忮	kc_jes
-伎	kc_jes
-䚳	kc_jes
-㩼	kc_jes
+支	kcjeq
+𠦙	kcjeq
+枝	kcjeq
+肢	kcjeq
+𪂅	kcjeq
+𧌔	kcjeq
+𥾣	kcjeq		#紱譌誤
+汥	kcjeq
+㲍	kcjeq
+㽻	kcjeq
+衼	kcjeq
+𨈛	kcjeq
+馶	kcjeq
+㩼	kcjeq
+鳷	kcjeq
+䧴	kcjeq
+䡋	kcjeq
+忮	kcjes
+伎	kcjes
+䚳	kcjes
+㩼	kcjes
 馶	kjes
 跂	khjeA
 𢺵	khjes
@@ -2830,15 +2830,15 @@ import_tables:
 跂	gjeq
 伎	gjeq
 𨱜	gjeq
-𢻃	gc_jes
-豉	gc_jes
+𢻃	gcjes
+豉	gcjes
 𠁭	gjeq		#?
 翅	sk-cjes		#h-
 翄	sk-cjes
 馶	sk-cjes
 䧴	sk-cjes
 焁	hjeq		#吹?吹k-L-o-j
-榰	kc_jeq
+榰	kcjeq
 企	khjeA
 企	khjes
 𦭲	gjeq		#?
@@ -2901,16 +2901,16 @@ import_tables:
 𠈈	sjeA		#佌囟
 𠈈	tshjeA
 ##jij
-寘	tc_jejs
-𡽆	tc_jejs
-坻	tc_jejA
-砥	tc_jejA
+寘	tcjejs
+𡽆	tcjejs
+坻	tcjejA
+砥	tcjejA
 劙	ljejq		#?𠠍剺
 蠡	ljejq
 鵹	ljejq
 ##a-r
-觶	tc_jajq
-觶	tc_jajs
+觶	tcjajq
+觶	tcjajs
 臡	ncjajq
 ##jer jeks jets
 臂	pjeks		#ks
@@ -2945,9 +2945,9 @@ import_tables:
 啻	st-cjeks	999		#ks
 荔	ljeps		#ps
 珕	ljeps
-懘	thc_jaA		#?
+懘	thcjaA		#?
 ##jaj 歌
-𧰲	Lshc_jajA		#Ls?
+𧰲	LshcjajA		#Ls?
 豕	LscjajA		#Ls?
 罹	ljajq
 离	ljajq
@@ -2981,27 +2981,27 @@ import_tables:
 杫	sjajs		#徙省 沙聲
 𧧧	ljajs
 詈	ljajs
-㢋	thc_jajA		#多?
-侈	thc_jajA
-袳	thc_jajA
-袲	thc_jajA
+㢋	thcjajA		#多?
+侈	thcjajA
+袳	thcjajA
+袲	thcjajA
 袲	JLjajq
-眵	tc_jajq
-恀	tc_jajA
-眵	thc_jajq
-姼	thc_jajA
-鉹	thc_jajA
-誃	thc_jajA
-㢁	thc_jajA
-垑	thc_jajA
-㶴	thc_jajA
-恀	thc_jajA
-哆	thc_jajA
-卶	thc_jajA
-姼	dc_jajq
-栘	dc_jajq
-恀	dc_jajA
-姼	dc_jajA
+眵	tcjajq
+恀	tcjajA
+眵	thcjajq
+姼	thcjajA
+鉹	thcjajA
+誃	thcjajA
+㢁	thcjajA
+垑	thcjajA
+㶴	thcjajA
+恀	thcjajA
+哆	thcjajA
+卶	thcjajA
+姼	dcjajq
+栘	dcjajq
+恀	dcjajA
+姼	dcjajA
 卶	st-cjajA
 𤖻	st-cjajA
 迻	JLjajq	999
@@ -3039,7 +3039,7 @@ import_tables:
 詑	JLjajq
 䬁	JLjajq
 蛇	JLjajq	2
-𤜣	Lc_jajA		#L zc-
+𤜣	LcjajA		#L zc-
 弛	LscjajA
 阤	LscjajA
 𦧇	LzcjajA
@@ -3166,13 +3166,13 @@ import_tables:
 ##yəj?
 劑	tsyejq		#?齊ts-i-j #齊ts-e #齊ts-eo-j
 ##vjoR yoR
-𥳙	dc_yojq
-圌	dc_yojq
-𦓝	tc_yojA
-惴	tc_yojs
-𦦇	tc_yojs
-篅	dc_yojq
-瑞	dc_yojs
+𥳙	dcyojq
+圌	dcyojq
+𦓝	tcyojA
+惴	tcyojs
+𦦇	tcyojs
+篅	dcyojq
+瑞	dcyojs
 臇	tsyojq		#雋ts-o-R
 㷷	tsyojq		#臇#巽ts-o-R
 𤎱	tsyojq
@@ -3210,46 +3210,46 @@ import_tables:
 絫	lyojA
 累	lyojA		#絫
 樏	lyojA		#?累
-吹	khL-c_yojq
-炊	khL-c_yojq
-𪛑	khL-c_yojq
-䶴	khL-c_yojq
-吹	khL-c_yojs
-𪛑	khL-c_yojs
-䶴	khL-c_yojs
-𠂹	dc_yojq
-𠣔	dc_yojq
-𡍮	dc_yojq
-𨼦	dc_yojq
-𠍮	dc_yojq
-𩁅	dc_yojq
-𦉈	dc_yojq
-垂	dc_yojq
-陲	dc_yojq
-倕	dc_yojq
-𦈼	dc_yojq
-𨿠	dc_yojq
-䍋	dc_yojq
-𢴹	tc_yojA
-𥴓	tc_yojA
-𩥗	tc_yojA		#𠂹
-捶	tc_yojA
-箠	tc_yojA
-䮔	tc_yojA
-𦥻	tc_yojs
-菙	dc_yojA
-𥉚	dc_yojs
-𥋍	dc_yojs
-𩁅	dc_yojs
-𥢤	dc_yojs
-睡	dc_yojs
-𨿠	dc_yojs
-䅜	dc_yojs
+吹	khL-cyojq
+炊	khL-cyojq
+𪛑	khL-cyojq
+䶴	khL-cyojq
+吹	khL-cyojs
+𪛑	khL-cyojs
+䶴	khL-cyojs
+𠂹	dcyojq
+𠣔	dcyojq
+𡍮	dcyojq
+𨼦	dcyojq
+𠍮	dcyojq
+𩁅	dcyojq
+𦉈	dcyojq
+垂	dcyojq
+陲	dcyojq
+倕	dcyojq
+𦈼	dcyojq
+𨿠	dcyojq
+䍋	dcyojq
+𢴹	tcyojA
+𥴓	tcyojA
+𩥗	tcyojA		#𠂹
+捶	tcyojA
+箠	tcyojA
+䮔	tcyojA
+𦥻	tcyojs
+菙	dcyojA
+𥉚	dcyojs
+𥋍	dcyojs
+𩁅	dcyojs
+𥢤	dcyojs
+睡	dcyojs
+𨿠	dcyojs
+䅜	dcyojs
 𠪪	tsyojq
 厜	tsyojq		#訓嵯?
 䮔	tsyojq	1
-痿	Cc_yojq		#委Cc_? 
-䬐	Cc_yojq
+痿	Ccyojq		#委Cc? 
+䬐	Ccyojq
 䅑	syojs
 䅗	syojs		#䅑
 ##vjəj?
@@ -3817,9 +3817,9 @@ import_tables:
 #
 衰	tsshwojq		#?
 ##we
-䪎	sq-s_weq		#ɢ V-
-䭨	sq-s_weq
-䬽	sswejq		#䭨
+䪎	sq-sweq		#巂䬽
+䭨	sq-sweq
+䬽	sq-swejq		#䭨
 ##wor woks wots
 㨅	nRwops		#ps ?
 ##woj
@@ -3914,35 +3914,35 @@ import_tables:
 鵧	bjiq		#并
 黝	Ajiq		#幺
 㡼	JLjis		#?
-疻	kc_jiq
+疻	kcjiq
 蒫	tsjij_q
 𨌅	tshjij_q
 𨌅	dzjij_q
 #
 蟿	khjis
-𧧰	gc_jiA		#臣
-䛗	gc_jiA		#
+𧧰	gcjiA		#臣
+䛗	gcjiA		#
 ##jir jiks jits
 𩾔	tshjits		#𩾙?
 𩾙	tshjits
-懥	tc_jits
-𪀒	thc_jiq
-胵	thc_jiq
-𨒬	thc_jiq
-礩	tc_jits		#ts
+懥	tcjits
+𪀒	thcjiq
+胵	thcjiq
+𨒬	thcjiq
+礩	tcjits		#ts
 𢄢	tscjirq	0		#ps#埶
-摯	tc_jips
-贄	tc_jips
-鷙	tc_jips
+摯	tcjips
+贄	tcjips
+鷙	tcjips
 䥍	tscjips		#𨫔誤
-䲀	tc_jips
-𡠗	tc_jips
+䲀	tcjips
+𡠗	tcjips
 勩	JLjips		#ps
 諡	Lzcjiks		#ks?溢
 謚	Lzcjiks
-至	tc_jiks		#ks
-𩊞	tc_jiks
-痓	thc_jiks
+至	tcjiks		#ks
+𩊞	tcjiks
+痓	thcjiks
 自	dzjips		#rs p?
 𦣹	dzjips
 𦣼	dzjips
@@ -3978,7 +3978,7 @@ import_tables:
 示	zcjij_s		#s-g?
 𥘅	zcjij_s
 眎	zcjij_s
-祁	kc_jij_A		#示聲
+祁	kcjij_A		#示聲
 視	dzcjij_A		#示聲?
 眎	dzcjij_A
 視	dzcjij_s
@@ -4073,23 +4073,23 @@ import_tables:
 𣦹	sjij_A
 𣦸	sjij_A
 𠒁	sjij_A
-旨	kc_jij_A
-㴯	kc_jij_q
-脂	kc_jij_q
-栺	kc_jij_q
-鴲	kc_jij_q
-指	kc_jij_A
-恉	kc_jij_A
-鴲	kc_jij_s
-𩊝	kc_jij_s
+旨	kcjij_A
+㴯	kcjij_q
+脂	kcjij_q
+栺	kcjij_q
+鴲	kcjij_q
+指	kcjij_A
+恉	kcjij_A
+鴲	kcjij_s
+𩊝	kcjij_s
 㞓	khjij_s
 鮨	gjij_q		#?
 耆	gjij_q		#j?
 𦓀	gjij_q
-𧪡	khc_jij_q
-嗜	gc_jij_s
-𩝙	gc_jij_s
-𨢍	gc_jij_s
+𧪡	khcjij_q
+嗜	gcjij_s
+𩝙	gcjij_s
+𨢍	gcjij_s
 蓍	sk-cjij_q
 鬐	gjij_q
 愭	gjij_q
@@ -4098,19 +4098,19 @@ import_tables:
 䅲	gjij_q
 𨪌	gjij_q
 鰭	gjij_q
-祗	tc_jij_q
-砥	tc_jij_q
-厎	tc_jij_s
-砥	tc_jij_A
-茋	tc_jij_A
-鴟	thc_jij_q
-𨾦	thc_jij_q
-𩶅	thc_jij_q
-眡	dc_jij_s
-眡	dc_jij_A
-泜	tc_jij_q
-䓜	tc_jij_q
-𥁼	tc_jij_q
+祗	tcjij_q
+砥	tcjij_q
+厎	tcjij_s
+砥	tcjij_A
+茋	tcjij_A
+鴟	thcjij_q
+𨾦	thcjij_q
+𩶅	thcjij_q
+眡	dcjij_s
+眡	dcjij_A
+泜	tcjij_q
+䓜	tcjij_q
+𥁼	tcjij_q
 棃	ljij_q
 梨	ljij_q
 蔾	ljij_q
@@ -4191,7 +4191,7 @@ import_tables:
 洟	JLj;jq
 𡱐	JLj;jq
 郪	tshj;jq		#妻
-𧿲	tc_j;jA		#?𧾒𠂔
+𧿲	tcj;jA		#?𧾒𠂔
 姊	tsj;jA
 秭	tsj;jA
 趀	tshj;jq
@@ -4237,8 +4237,8 @@ import_tables:
 茝	tscho,jA	0		#昌紿切
 佁	Jo,jA	0		#夷在切#癡皃
 #正
-㹗	thc_j;q	0		#?壽聲
-㹗	thc_juq		#正
+㹗	thcj;q	0		#?壽聲
+㹗	thcjuq		#正
 疓	no;A		#集韻 曩亥切
 茝	khL-j;A		#𦣞k-L-eo#集韻 醜止切
 佁	Lo;A
@@ -4319,21 +4319,21 @@ import_tables:
 濉	sQ-yij_q
 奞	sQ-yij_q
 #
-誰	dc_yujq		#隹t-u-j
-蓷	thc_yujq
-推	thc_yujq
+誰	dcyujq		#隹t-u-j
+蓷	thcyujq
+推	thcyujq
 嶉	tsyujq
 嶉	tsyujA
-隹	tc_yujq
-錐	tc_yujq
-𪋇	tc_yujq
-騅	tc_yujq
-㮅	tc_yujq
-䶆	tc_yujq
-萑	tc_yujq
-𦻃	tc_yujq
-鵻	tc_yujq
-脽	dc_yujq
+隹	tcyujq
+錐	tcyujq
+𪋇	tcyujq
+騅	tcyujq
+㮅	tcyujq
+䶆	tcyujq
+萑	tcyujq
+𦻃	tcyujq
+鵻	tcyujq
+脽	dcyujq
 趡	tshyujA
 踓	tshyujA
 𨿐	tshyujA
@@ -5065,8 +5065,8 @@ import_tables:
 字	dzj;s
 牸	dzj;s
 茡	dzj;s
-厎	tc_j;A
-哆	thc_j;s
+厎	tcj;A
+哆	thcj;s
 栭	ncj;q
 陑	ncj;q
 髵	ncj;q
@@ -5133,7 +5133,7 @@ import_tables:
 弬	Jqj;q
 㺇	sq-j;q		#𦣞
 洍	zq-j;A		#s-q?#s-k-L?
-茝	kL-c_j;A
+茝	kL-cj;A
 姬	kL-i;q		#𦣞k-L-eo
 䇫	kL-i;q
 𩜮	khL-cj;s		#饎
@@ -5141,44 +5141,44 @@ import_tables:
 熙	XL-i;q
 𤇴	XL-i;q
 媐	XL-i;q
-饎	khL-c_j;s		#喜
-糦	khL-c_j;s
+饎	khL-cj;s		#喜
+糦	khL-cj;s
 𩛛	JLj;q		#異聲
-之	tc_j;q
-臸	tc_j;q	9		#訓㞢
-芝	tc_j;q
-㞢	tc_j;q	999
-𦭩	tc_j;q	99
-𢗍	tc_j;s	999
-妛	thc_j;q
-𦐉	thc_j;q
-𣢑	thc_j;q		#嗤
-蚩	thc_j;q
-嗤	thc_j;q
-媸	thc_j;q
-𥉍	thc_j;q
-旹	dc_j;q	999
+之	tcj;q
+臸	tcj;q	9		#訓㞢
+芝	tcj;q
+㞢	tcj;q	999
+𦭩	tcj;q	99
+𢗍	tcj;s	999
+妛	thcj;q
+𦐉	thcj;q
+𣢑	thcj;q		#嗤
+蚩	thcj;q
+嗤	thcj;q
+媸	thcj;q
+𥉍	thcj;q
+旹	dcj;q	999
 𣢑	hsi;q		#訓㰝
-志	tc_j;s
-誌	tc_j;s
-娡	tc_j;s
-䓌	tc_j;s
-痣	tc_j;s
+志	tcj;s
+誌	tcj;s
+娡	tcj;s
+䓌	tcj;s
+痣	tcj;s
 寺	zj;s		#sd- 㞢
 邿	st-cj;q
-畤	tc_j;A
-洔	tc_j;A
-時	dc_j;q
-塒	dc_j;q
-榯	dc_j;q
-蒔	dc_j;q
-鰣	dc_j;q
-蒔	dc_j;s
-侍	dc_j;s
-鼭	dc_j;q
-恃	dc_j;A
-畤	dc_j;A
-秲	dc_j;s
+畤	tcj;A
+洔	tcj;A
+時	dcj;q
+塒	dcj;q
+榯	dcj;q
+蒔	dcj;q
+鰣	dcj;q
+蒔	dcj;s
+侍	dcj;s
+鼭	dcj;q
+恃	dcj;A
+畤	dcj;A
+秲	dcj;s
 偫	dRx;A
 持	dRx;q
 歭	dRx;A
@@ -5189,18 +5189,18 @@ import_tables:
 畤	dRx;A
 秲	dRx;A
 詩	st-cj;q
-𡴄	dc_j;A
-市	dc_j;A		#㞢
-𥫴	dc_j;A
-止	tc_j;A
-沚	tc_j;A
-趾	tc_j;A
-址	tc_j;A
-阯	tc_j;A
-芷	tc_j;A
-䊼	thc_j;A
-齒	thc_j;A
-𠚒	thc_j;A
+𡴄	dcj;A
+市	dcj;A		#㞢
+𥫴	dcj;A
+止	tcj;A
+沚	tcj;A
+趾	tcj;A
+址	tcj;A
+阯	tcj;A
+芷	tcj;A
+䊼	thcj;A
+齒	thcj;A
+𠚒	thcj;A
 祉	thRx;A
 𧩼	tRx;A
 㨖	tRx;A
@@ -5434,12 +5434,12 @@ import_tables:
 𠍜	dRx;ks
 𦋘	tRx;s
 置	tRx;ks
-埴	thc_j;ks
-識	tc_j;ks		#ks#戠
-織	tc_j;ks
-熾	thc_j;ks
-幟	thc_j;ks
-𡑠	thc_j;ks
+埴	thcj;ks
+識	tcj;ks		#ks#戠
+織	tcj;ks
+熾	thcj;ks
+幟	thcj;ks
+𡑠	thcj;ks
 幟	st-cj;ks
 試	Lscj;ks		#弋s-Ls-? -ks
 弑	Lscj;ks
@@ -7281,8 +7281,8 @@ import_tables:
 ###io
 ##ia ja
 車	kL-ioq
-䰞	tc_joA
-㼋	Cc_joA		#古 Cc_
+䰞	tcjoA
+㼋	CcjoA		#古 Cc
 馭	Cios		#御
 鄦	hmsioA		#m
 𨝬	hmsioA
@@ -7291,7 +7291,7 @@ import_tables:
 鄔	Aios
 飫	Aios		#?
 醧	Aios
-杵	khL-c_joA		#k-L#午本字?
+杵	khL-cjoA		#k-L#午本字?
 許	hCsioA		#ŋ
 予	JLjoq
 予	JLjoA
@@ -7318,8 +7318,8 @@ import_tables:
 𦺗	Lscjoq
 𨛭	Lscjoq
 鵨	Lscjoq
-野	Lc_joA	1
-墅	Lc_joA
+野	LcjoA	1
+墅	LcjoA
 与	JqjoA	999
 𢌱	JqjoA
 與	JqjoA		#與-牙C-L-a
@@ -7385,29 +7385,29 @@ import_tables:
 敘	zL-joA
 漵	zL-joA
 瑹	Lscjoq
-蜍	Lc_joq
-稌	Lc_joq
-諸	tc_joq
-㶆	tc_joq
-櫧	tc_joq
-䃴	tc_joq
-蠩	tc_joq
-藷	tc_joq
-𧄔	tc_joq
-陼	tc_joA
-渚	tc_joA
-煑	tc_joA
-煮	tc_joA
-𩱰	tc_joA
-翥	tc_jos
-䬡	tc_jos
-䘄	tc_jos
-署	dc_jos
-薯	dc_jos
-曙	dc_jos
-糬	dc_jos
-藷	dc_jos
-𧄔	dc_joq
+蜍	Lcjoq
+稌	Lcjoq
+諸	tcjoq
+㶆	tcjoq
+櫧	tcjoq
+䃴	tcjoq
+蠩	tcjoq
+藷	tcjoq
+𧄔	tcjoq
+陼	tcjoA
+渚	tcjoA
+煑	tcjoA
+煮	tcjoA
+𩱰	tcjoA
+翥	tcjos
+䬡	tcjos
+䘄	tcjos
+署	dcjos
+薯	dcjos
+曙	dcjos
+糬	dcjos
+藷	dcjos
+𧄔	dcjoq
 緒	zt-joA		#sd- ?
 書	st-cjoq
 𦘠	st-cjoq	999
@@ -7771,9 +7771,9 @@ import_tables:
 踈	ssxoq
 踈	ssxos
 捒	ssxos
-所	sk-s_xoA		#戶聲
-齭	sk-s_xoA		#齼𪙀
-㫹	sk-s_xos
+所	sk-sxoA		#戶聲
+齭	sk-sxoA		#齼𪙀
+㫹	sk-sxos
 齭	tsshxoA	0		#?
 猪	tRxoq
 䐗	tRxoq
@@ -7833,11 +7833,11 @@ import_tables:
 𢉙	st-cjoks
 㵂	st-cjoks
 樜	st-cjoks
-䭖	tc_joks
-𡻠	tc_joks
-𤳯	tc_joks
-㫂	tc_joks
-𤳐	tc_joks
+䭖	tcjoks
+𡻠	tcjoks
+𤳯	tcjoks
+㫂	tcjoks
+𤳐	tcjoks
 ###Uo
 裯	dRwoq		#周
 𥃔	guoq		#樹種也
@@ -8302,15 +8302,15 @@ import_tables:
 抌	JLyoA
 戍	nscyos		#ns?
 㲓	nscyos
-𦒶	dc_yos		#駐
-𦒸	dc_yos	2
+𦒶	dcyos		#駐
+𦒸	dcyos	2
 尠	syos	2		#尟
 舀	JLyoq
 𦥝	JLyoq
 乳	ncyoA
 籲	JLyos
-枓	tc_yoA
-鑄	tc_yos		#s?ks?
+枓	tcyoA
+鑄	tcyos		#s?ks?
 嗺	tsyoq
 捒	sswos
 橾	sswoq
@@ -8333,15 +8333,15 @@ import_tables:
 䅳	dzswoq
 雛	dzswoq
 鶵	dzswoq
-樹	dc_yoA	20
-裋	dc_yoA
-竪	dc_yoA
-豎	dc_yoA
-澍	tc_yos
-澍	dc_yos
-樹	dc_yos
-𠊪	dc_yos
-尌	dc_yos
+樹	dcyoA	20
+裋	dcyoA
+竪	dcyoA
+豎	dcyoA
+澍	tcyos
+澍	dcyos
+樹	dcyos
+𠊪	dcyos
+尌	dcyos
 壴	tRwos
 𧯛	tRwos
 䜴	tsshwos
@@ -8426,16 +8426,16 @@ import_tables:
 𦅨	syoA
 𦄼	syoA
 鬚	syoq
-𠘧	dc_yoq		#非几
-𢎦	dc_yoq		#𠘧
-殳	dc_yoq
-杸	dc_yoq
-𦤂	dc_yoq
-陎	dc_yoq
-姝	thc_yoq
-殊	dc_yoq
-㼡	dc_yoq
-㸡	dc_yoq
+𠘧	dcyoq		#非几
+𢎦	dcyoq		#𠘧
+殳	dcyoq
+杸	dcyoq
+𦤂	dcyoq
+陎	dcyoq
+姝	thcyoq
+殊	dcyoq
+㼡	dcyoq
+㸡	dcyoq
 裕	JLyos		#谷
 䘱	JLyos		#裕
 螸	JLyoq
@@ -8532,21 +8532,21 @@ import_tables:
 毹	Lsswoq
 㡏	Lsswos
 牏	LR_wos
-朱	tc_yoq
-侏	tc_yoq
-咮	tc_yoq
-𤝹	tc_yoq
-珠	tc_yoq
-硃	tc_yoq
-秼	tc_yoq
-鴸	tc_yoq
-鮢	tc_yoq
-絑	tc_yoq
-袾	thc_yoq
-䇬	thc_yoq
-茱	dc_yoq
-洙	dc_yoq
-銖	dc_yoq
+朱	tcyoq
+侏	tcyoq
+咮	tcyoq
+𤝹	tcyoq
+珠	tcyoq
+硃	tcyoq
+秼	tcyoq
+鴸	tcyoq
+鮢	tcyoq
+絑	tcyoq
+袾	thcyoq
+䇬	thcyoq
+茱	dcyoq
+洙	dcyoq
+銖	dcyoq
 株	tRwoq
 邾	tRwoq
 㦵	tRwoq
@@ -8559,23 +8559,23 @@ import_tables:
 鼄	tRwoq
 咮	tRwos
 趎	dRwoq
-主	tc_yoA
-炷	tc_yoA
-宔	tc_yoA
-砫	tc_yoA
-麈	tc_yoA
-注	tc_yos
-註	tc_yos
-炷	tc_yos
-𠴦	tc_yos
-疰	tc_yos
-祩	tc_yos
-蛀	tc_yos
-䎷	tc_yos
-罜	tc_yos
-㹥	tc_yos
-䪒	tc_yos
-霔	tc_yos
+主	tcyoA
+炷	tcyoA
+宔	tcyoA
+砫	tcyoA
+麈	tcyoA
+注	tcyos
+註	tcyos
+炷	tcyos
+𠴦	tcyos
+疰	tcyos
+祩	tcyos
+蛀	tcyos
+䎷	tcyos
+罜	tcyos
+㹥	tcyos
+䪒	tcyos
+霔	tcyos
 𥦠	JyoA		#窪窊譌誤
 丶	tRwoA
 柱	tRwoA
@@ -8592,8 +8592,8 @@ import_tables:
 跓	dRwoA
 嵀	dRwoA
 住	dRwos	1
-馵	tc_yos
-㺛	tc_yos
+馵	tcyos
+㺛	tcyos
 娶	syoq	1
 諏	tsyoq
 陬	tsyoq
@@ -8614,8 +8614,8 @@ import_tables:
 䝒	dzswoA
 𧱛	dzswoA
 #
-樞	khL-c_yoq		#?區k-L-o
-𩪍	khL-c_yoq
+樞	khL-cyoq		#?區k-L-o
+𩪍	khL-cyoq
 𤠾	khL-R_woq		#?區#𦔬#k-L-R-o
 貙	khL-R_woq
 𤠾	thRwoq
@@ -8993,12 +8993,12 @@ import_tables:
 斃	bjets
 幣	bjets
 丿	JLjets
-踅	tc_jets
-䠠	tc_jets
-𤢻	thc_jets
-懘	thc_jets
-𡠹	tc_jets
-㛳	tc_jets		#?ks𡠹
+踅	tcjets
+䠠	tcjets
+𤢻	thcjets
+懘	thcjets
+𡠹	tcjets
+㛳	tcjets		#?ks𡠹
 㛳	Jjets
 𦒎	JLjets
 祭	tsjets
@@ -9006,7 +9006,7 @@ import_tables:
 穄	tsjets
 鰶	tsjets
 䰏	tsjets
-銐	thc_jets		#Rs
+銐	thcjets		#Rs
 例	ljets
 㾐	ljets
 鮤	ljets
@@ -9016,12 +9016,12 @@ import_tables:
 𢂥	ljets
 洌	ljets
 寱	Cjets
-瘛	khc_jets
-觢	gc_jets
-𦚨	gc_jets
-𤸪	khc_jets
+瘛	khcjets
+觢	gcjets
+𦚨	gcjets
+𤸪	khcjets
 砅	ljets		#會意
-忕	Lc_jets		#ts#L J-𢘽
+忕	Lcjets		#ts#L J-𢘽
 𦥙	JLjets	999
 𠂆	JLjets		#曳
 曳	JLjets
@@ -9059,7 +9059,7 @@ import_tables:
 貰	Lscjeps
 勩	JLjeps
 㵩	JLjeps
-迣	tc_jeps		#迾
+迣	tcjeps		#迾
 勢	Cscjets		#𡎐
 𡎐	Cjets	999
 埶	Cjets
@@ -9068,43 +9068,43 @@ import_tables:
 槸	Cjets
 褹	Cjets
 囈	Cjets
-𡢂	tc_jets
-𡠦	tc_jets
+𡢂	tcjets
+𡠦	tcjets
 裔	JLjets		#㕯
 㵝	JLjets
 䕍	JLjets
-晢	tc_jets
-䇽	tc_jets
-㝂	tc_jets
-䀸	tc_jets
-狾	tc_jets
-𥍭	tc_jets
-䩢	tc_jets
-䭁	tc_jets
-逝	dc_jets
-誓	dc_jets
-𣂯	dc_jets
-銴	dc_jets
-𧻸	dc_jets
+晢	tcjets
+䇽	tcjets
+㝂	tcjets
+䀸	tcjets
+狾	tcjets
+𥍭	tcjets
+䩢	tcjets
+䭁	tcjets
+逝	dcjets
+誓	dcjets
+𣂯	dcjets
+銴	dcjets
+𧻸	dcjets
 㑜	JLjets
 𢂼	JLjets
-制	kc_jets
-製	kc_jets
-𦜗	kc_jets
-淛	kc_jets
-䎺	kc_jets
-䱥	kc_jets
-𠛐	kc_jets		#制
-掣	khc_jets
-痸	khc_jets
+制	kcjets
+製	kcjets
+𦜗	kcjets
+淛	kcjets
+䎺	kcjets
+䱥	kcjets
+𠛐	kcjets		#制
+掣	khcjets
+痸	khcjets
 ##jar jaks jats
 㦣	tsjats
 㦣	Cjats
-筮	dc_jats		#?M 巫
-噬	dc_jats
-簭	dc_jats
-澨	dc_jats
-遾	dc_jats
+筮	dcjats		#?M 巫
+噬	dcjats
+簭	dcjats
+澨	dcjats
+遾	dcjats
 厲	m-ljats		#萬
 礪	m-ljats
 勵	m-ljats
@@ -9147,14 +9147,14 @@ import_tables:
 睿	JQyets
 壡	JQyets
 ##yor yoks yots
-𠭥	tc_yots		#祟
-𢿆	tc_yots		#𠭥
+𠭥	tcyots		#祟
+𢿆	tcyots		#𠭥
 𧑎	tsyots
 𧑎	tshyots
 𤂳	tshyots
 𣃍	tshyots
-啜	dc_yots
-贅	tc_yots
+啜	dcyots
+贅	tcyots
 毳	tshyots
 膬	tshyots
 竁	tshyots
@@ -10557,7 +10557,7 @@ import_tables:
 ###jev
 𤖻	gjevq		#?多
 奞	sjevq	0		#?
-𢃳	dc_jevq	0		#當巴聲
+𢃳	dcjevq	0		#當巴聲
 荍	gjevq
 釗	tscjevq		#䤛
 𪚰	tsjevq		#焦?
@@ -10589,8 +10589,8 @@ import_tables:
 ##jiv?u?
 髟	pjevq		#?#髟p-u
 㯱	bjevq		#缶p-u
-盄	tc_jevq		#弔t-i-v-k
-鵃	tc_jevq		#舟
+盄	tcjevq		#弔t-i-v-k
+鵃	tcjevq		#舟
 ##jiv?
 㫍	JLjevq		#𭣢
 椒	tsjivq		#尗
@@ -10661,47 +10661,47 @@ import_tables:
 𤬖	JLjevq
 𢑄	JLjevq
 ##jav?ev? a?e?
-皽	tc_jevq	1		#𤿘
-𤿘	tc_evq		#召
-釖	tc_jevq
+皽	tcjevq	1		#𤿘
+𤿘	tcevq		#召
+釖	tcjevq
 𩾗	tsjevq
-綤	dc_jevA
-邵	dc_jevs
-𦯐	dc_jevq
-佋	dc_jevq
-佋	dc_jevA
-昭	tc_jevq
-照	tc_jevs
-菬	tc_jevA
-䈃	tc_jevA
-沼	tc_jevA
+綤	dcjevA
+邵	dcjevs
+𦯐	dcjevq
+佋	dcjevq
+佋	dcjevA
+昭	tcjevq
+照	tcjevs
+菬	tcjevA
+䈃	tcjevA
+沼	tcjevA
 菬	dzjevq
-鉊	tc_jevq
-招	tc_jevq
-炤	tc_jevs
-詔	tc_jevs
-𨹸	tc_jevs
-𠧙	tc_jevs
-怊	thc_jevq
-弨	thc_jevq
-弨	thc_jevA
-眧	thc_jevA
-韶	dc_jevq
-㲈	dc_jevq
-𠧙	dc_jevq
-玿	dc_jevq
-軺	dc_jevq
-柖	dc_jevq
-㸛	dc_jevq
-紹	dc_jevA
-袑	dc_jevA
-䙼	dc_jevA
-召	dc_jevs
-劭	dc_jevs
-𠧙	dc_jevs
-𠣫	dc_jevs
-䬰	dc_jevs
-卲	dc_jevs
+鉊	tcjevq
+招	tcjevq
+炤	tcjevs
+詔	tcjevs
+𨹸	tcjevs
+𠧙	tcjevs
+怊	thcjevq
+弨	thcjevq
+弨	thcjevA
+眧	thcjevA
+韶	dcjevq
+㲈	dcjevq
+𠧙	dcjevq
+玿	dcjevq
+軺	dcjevq
+柖	dcjevq
+㸛	dcjevq
+紹	dcjevA
+袑	dcjevA
+䙼	dcjevA
+召	dcjevs
+劭	dcjevs
+𠧙	dcjevs
+𠣫	dcjevs
+䬰	dcjevs
+卲	dcjevs
 軺	JLjevq
 銚	JLjevq
 珧	JLjevq
@@ -10840,7 +10840,7 @@ import_tables:
 妙	mjevs
 玅	mjevs
 𨙹	tsjevA
-麨	thc_jevA		#
+麨	thcjevA		#
 䒚	st-cjevA
 𨙹	st-cjevA
 少	st-cjevA		#st?
@@ -10948,16 +10948,16 @@ import_tables:
 𧄍	gjevq
 翹	gjevq
 翹	gjevs
-饒	Cc_jevq		#ŋc
-橈	Cc_jevq
-襓	Cc_jevq
-蟯	Cc_jevq
-蕘	Cc_jevq
-繞	Cc_jevA
-遶	Cc_jevA
-嬈	Cc_jevA
-饒	Cc_jevs
-繞	Cc_jevs
+饒	Ccjevq		#ŋc
+橈	Ccjevq
+襓	Ccjevq
+蟯	Ccjevq
+蕘	Ccjevq
+繞	CcjevA
+遶	CcjevA
+嬈	CcjevA
+饒	Ccjevs
+繞	Ccjevs
 燒	Cscjevq		#s-C- Cs
 燒	Cscjevs
 趬	khjevq
@@ -11865,8 +11865,8 @@ import_tables:
 肍	gIuv_q
 訄	gIuv_q
 㭝	gIuv_q
-臭	khL-c_juv_s		#臭k-L
-殠	khL-c_juv_s
+臭	khL-cjuv_s		#臭k-L
+殠	khL-cjuv_s
 糗	khL-Iuv_A
 殠	XL-Iuv_A
 齅	XL-Iuv_s
@@ -11942,26 +11942,26 @@ import_tables:
 汓	zL-juv_q
 苬	zL-juv_q
 鮂	zL-juv_q
-醜	Lshc_juv_A		#?酉k-L-u
-𧃝	Lshc_juv_A
-魗	Lshc_juv_q		#醜
-媿	Lshc_juv_A
-𩳜	Lshc_juv_A
-魗	dc_juv_q		#𣀘
-𣀘	dc_juv_q
-𣫐	dc_juv_q
-𣀓	dc_juv_q
-醻	dc_juv_q
-𨞪	dc_juv_q
-壽	dc_juv_A
-𨞪	dc_juv_A
-璹	dc_juv_A
-壽	dc_juv_s
-雔	dc_juv_q
-犨	thc_juv_q
-犫	thc_juv_q
-讎	dc_juv_q
-售	dc_juv_s
+醜	Lshcjuv_A		#?酉k-L-u
+𧃝	Lshcjuv_A
+魗	Lshcjuv_q		#醜
+媿	Lshcjuv_A
+𩳜	Lshcjuv_A
+魗	dcjuv_q		#𣀘
+𣀘	dcjuv_q
+𣫐	dcjuv_q
+𣀓	dcjuv_q
+醻	dcjuv_q
+𨞪	dcjuv_q
+壽	dcjuv_A
+𨞪	dcjuv_A
+璹	dcjuv_A
+壽	dcjuv_s
+雔	dcjuv_q
+犨	thcjuv_q
+犫	thcjuv_q
+讎	dcjuv_q
+售	dcjuv_s
 沑	ncjuv_A
 粈	ncjuv_A
 㝌	JLjuv_A
@@ -12002,22 +12002,22 @@ import_tables:
 牖	JLjuv_A
 揄	JLjuv_q		#?
 𢋅	JLjuv_q
-受	dc_juv_A
-綬	dc_juv_A
-授	dc_juv_s
-㖟	dc_juv_s
-綬	dc_juv_s
+受	dcjuv_A
+綬	dcjuv_A
+授	dcjuv_s
+㖟	dcjuv_s
+綬	dcjuv_s
 𨛶	ncjuv_q
-州	tc_juv_q
-𠃕	tc_juv_q
-洲	tc_juv_q
-喌	tc_juv_q
-酬	dc_juv_q
-詶	dc_juv_q
-詶	dc_juv_s
-帚	tc_juv_A
-箒	tc_juv_A
-鯞	tc_juv_A
+州	tcjuv_q
+𠃕	tcjuv_q
+洲	tcjuv_q
+喌	tcjuv_q
+酬	dcjuv_q
+詶	dcjuv_q
+詶	dcjuv_s
+帚	tcjuv_A
+箒	tcjuv_A
+鯞	tcjuv_A
 柔	ncjuv_q
 鍒	ncjuv_q
 㽥	ncjuv_q
@@ -12220,7 +12220,7 @@ import_tables:
 伏	bU;ks		#ks
 #
 由	JLjuv_q
-鮋	Lc_juv_q	1		#VR J-
+鮋	Lcjuv_q	1		#VR J-
 秞	JLjuv_q
 蚰	JLjuv_q
 鮋	JLjuv_q
@@ -12264,14 +12264,14 @@ import_tables:
 㠇	dzjuks
 㝛	sjuks
 宿	sjuks		#ks 聲宿也
-呪	tc_juks		#ks uks
-祝	tc_juks		#祭也
-詋	tc_juks
-詶	tc_juks
-咒	tc_juks
-𥛽	tc_juks
-䄂	tc_juks
-䛆	tc_juks
+呪	tcjuks		#ks uks
+祝	tcjuks		#祭也
+詋	tcjuks
+詶	tcjuks
+咒	tcjuks
+𥛽	tcjuks
+䄂	tcjuks
+䛆	tcjuks
 ##Iiv?u?
 收	sk-cjivq		#丩k-i-v
 收	sk-cjivs	2
@@ -12307,8 +12307,8 @@ import_tables:
 滫	sL-jivA
 𩛢	sL-jivq
 ##jəv
-舟	tc_j;vq
-𠣘	tc_j;vq
+舟	tcj;vq
+𠣘	tcj;vq
 ##
 手	nscjuvA		#ns- u
 𠂿	nscjuvA
@@ -12334,18 +12334,18 @@ import_tables:
 璆	gIivq
 繡	sjivks		#ks?#肅s-i-v-k
 ##
-𠱬	tc_jivq
-周	tc_jivq
-𠄗	tc_jivq
-𥺝	tc_jivq
-輖	tc_jivq
-賙	tc_jivq
-郮	tc_jivq
-婤	tc_jivq
-晭	tc_jivA
-𧳜	tc_jivA
-䯾	tc_jivs
-椆	tc_jivs
+𠱬	tcjivq
+周	tcjivq
+𠄗	tcjivq
+𥺝	tcjivq
+輖	tcjivq
+賙	tcjivq
+郮	tcjivq
+婤	tcjivq
+晭	tcjivA
+𧳜	tcjivA
+䯾	tcjivs
+椆	tcjivs
 嘼	hIivs
 獸	st-cjivs		#狩守肘
 守	st-cjivA		#肘
@@ -12946,12 +12946,12 @@ import_tables:
 ##a?e?
 壓	Aaepq
 厭	Aaepq
-䬊	sk-s_aepq		#s-k?
-𧻵	sk-s_aepq
+䬊	sk-saepq		#s-k?
+𧻵	sk-saepq
 梜	kq_aepq		#夾k-e-p
 𠩘	kq_aepq
 𠗉	hgaepq
-翜	sk-s_aepq
+翜	sk-saepq
 䫡	khq_aemA
 甉	hgaemq
 #
@@ -13080,7 +13080,7 @@ import_tables:
 ##Iam
 ##?
 譫	tscoapq	0		#?章盍切
-譫	tc_japq		#?
+譫	tcjapq		#?
 殜	JLjepq
 𩐱	JLjepq
 ##
@@ -13778,14 +13778,14 @@ import_tables:
 䣸	ncjemA		#?
 妗	khjemq		#今
 酓	AjemA
-讋	tc_jepq		#龖
-𧮩	tc_jepq
-霅	tc_jepq
-䜆	tc_jepq		#譶
-慴	tc_jepq		#習
+讋	tcjepq		#龖
+𧮩	tcjepq
+霅	tcjepq
+䜆	tcjepq		#譶
+慴	tcjepq		#習
 謵	tschjepq
 䌌	tshjepq
-摺	tc_jepq
+摺	tcjepq
 䅧	Ajemq
 鍼	gjemq		#咸
 歙	sk-cjepq		#翕k-u-p
@@ -13801,7 +13801,7 @@ import_tables:
 潛	dzjems
 鬵	dzjemq
 灊	dzjemq
-棎	dc_jemq		#L?
+棎	dcjemq		#L?
 ##jem
 暹	sjemq		#日光進也#會意
 夵	JjemA		#上大下小#會意
@@ -13846,9 +13846,9 @@ import_tables:
 𣄉	Ajepq		#奄
 㰈	ljemA
 㯬	ljemA
-䤮	dc_jepq
-涉	dc_jepq
-𣻣	dc_jepq
+䤮	dcjepq
+涉	dcjepq
+𣻣	dcjepq
 弽	Lscjepq		#世
 韘	Lscjepq
 葉	Lscjepq
@@ -13862,13 +13862,13 @@ import_tables:
 殜	JLjepq
 葉	JLjepq
 喦	ncjepq		#下連符 多言 讘 非嵒 n
-囁	tc_jepq
-懾	tc_jepq
-𣠞	tc_jepq
-襵	tc_jepq
-䝕	tc_jepq
-𣠞	thc_jepq
-欇	dc_jepq
+囁	tcjepq
+懾	tcjepq
+𣠞	tcjepq
+襵	tcjepq
+䝕	tcjepq
+𣠞	thcjepq
+欇	dcjepq
 讘	ncjepq
 顳	ncjepq
 囁	ncjepq
@@ -13916,27 +13916,27 @@ import_tables:
 踕	dzjepq
 誱	dzjepq
 銛	sL-jemq		#𦧥-p #舌L-e-m
-㤴	thc_jepq
-㳧	thc_jepq
-𦛖	thc_jepq
+㤴	thcjepq
+㳧	thcjepq
+𦛖	thcjepq
 苫	st-cjemq		#占st-
 苫	st-cjems
 煔	st-cjems
 𡝫	st-cjemq
 𥮒	dzjemq
-占	tc_jemq
-颭	tc_jemA
-占	tc_jems
-㚲	thc_jemq
-𢛈	thc_jemq
-㚲	thc_jepq
-詀	thc_jepq
+占	tcjemq
+颭	tcjemA
+占	tcjems
+㚲	thcjemq
+𢛈	thcjemq
+㚲	thcjepq
+詀	thcjepq
 蛅	ncjemq
 痁	st-cjemq
 枮	st-jemq		#?集韻 詩廉切木名
 阽	JLjemq		#?L
-慹	tc_jepq
-謺	tc_jepq
+慹	tcjepq
+謺	tcjepq
 鋟	tsjemq
 綅	sjemq
 𦃌	sjemq
@@ -13992,28 +13992,28 @@ import_tables:
 𤅸	JLjamq
 鹽	JLjams	1
 𤅸	JLjams
-厃	tc_jamq
-詹	tc_jamq
-䦲	thc_jams
+厃	tcjamq
+詹	tcjamq
+䦲	thcjams
 𣡞	JLjamq
 䦲	JLjamq
-瞻	tc_jamq
-蟾	tc_jamq
-噡	tc_jamq
-䪜	thc_jamq
-幨	thc_jamq
-襜	thc_jamq
-䠨	thc_jams
-幨	thc_jams
-襜	thc_jams
-韂	thc_jams
-䪜	thc_jams
-㙴	thc_jams
-蟾	dc_jamq
-贍	dc_jams
+瞻	tcjamq
+蟾	tcjamq
+噡	tcjamq
+䪜	thcjamq
+幨	thcjamq
+襜	thcjamq
+䠨	thcjams
+幨	thcjams
+襜	thcjams
+韂	thcjams
+䪜	thcjams
+㙴	thcjams
+蟾	dcjamq
+贍	dcjams
 檐	JLjamq
 簷	JLjamq
-㾆	thc_jamq
+㾆	thcjamq
 冄	ncjamq
 𩑞	ncjamq
 蚦	ncjamq
@@ -14054,18 +14054,18 @@ import_tables:
 閃	Lscjams
 𤍙	zL-jamq		#燅燖
 覝	ljamq
-剡	Lc_jamA	1		#L J 炎
+剡	LcjamA	1		#L J 炎
 䕭	zL-jamq		#s-L?
 𢸧	zL-jamq
 㰊	zL-jamq
 𢅮	zL-jamq
 燅	zL-jamq
 𤏝	zL-jamq
-裧	Lshc_jamq		#Ls
-𤎥	Lshc_jamq
-緂	Lshc_jamq
-𢃔	Lshc_jamq
-裧	Lshc_jams
+裧	Lshcjamq		#Ls
+𤎥	Lshcjamq
+緂	Lshcjamq
+𢃔	Lshcjamq
+裧	Lshcjams
 睒	LscjamA		#Ls
 覢	LscjamA
 掞	Lscjams
@@ -14115,7 +14115,7 @@ import_tables:
 鯜	tshjapq
 踥	tshjapq
 妾	tshjapq		#?
-喢	thc_japq		#插
+喢	thcjapq		#插
 #
 獫	ljams
 𩅼	tsjamq
@@ -14326,9 +14326,9 @@ import_tables:
 腍	ncjimA
 諗	nscjimA
 淰	nscjimA
-汁	kc_jipq
-十	gc_jipq
-什	gc_jipq
+汁	kcjipq
+十	gcjipq
+什	gcjipq
 卌	sjipq
 𠦌	sjipq
 𠦜	sjipq
@@ -14337,14 +14337,14 @@ import_tables:
 𧿅	sjipq		#?
 𩶇	scjimA		#?
 䀢	scjimA		#?譌誤
-𡙕	tc_jipq
-𡡘	tc_jipq
-𡣼	tc_jipq	1		#?
-執	tc_jipq
-瓡	tc_jipq	1
+𡙕	tcjipq
+𡡘	tcjipq
+𡣼	tcjipq	1		#?
+執	tcjipq
+瓡	tcjipq	1
 䥍	tscjipq		#𨫔誤
-𡠗	tc_jipq
-慹	tc_jipq
+𡠗	tcjipq
+慹	tcjipq
 蓻	tsjipq
 慹	dzjipq
 濅	tshjimq		#?i?ə
@@ -14387,7 +14387,7 @@ import_tables:
 𡎹	dzjimq
 埐	dzjimq
 ##jum
-拾	gc_jupq		#合
+拾	gcjupq		#合
 亼	dzjupq		#口
 𠓛	dzjupq		#合
 集	dzjupq		#集合
@@ -14426,13 +14426,13 @@ import_tables:
 䤁	JLjumq		#?
 㘰	tscjumq		#?斟
 ##jum? #ə?u?
-枕	tc_j;mA
-䪴	tc_j;mA
-枕	tc_j;ms
-訦	dc_j;mq		#L?
-忱	dc_j;mq
-㽸	dc_j;mq
-訦	dc_j;mA
+枕	tcj;mA
+䪴	tcj;mA
+枕	tcj;ms
+訦	dcj;mq		#L?
+忱	dcj;mq
+㽸	dcj;mq
+訦	dcj;mA
 沈	st-cj;mA
 邥	st-cj;mA
 魫	st-cj;mA
@@ -14485,7 +14485,7 @@ import_tables:
 箿	dzj;pq
 檝	dzj;pq
 揖	Aj;pq
-褶	Lc_j;pq
+褶	Lcj;pq
 霫	sj;pq
 㗩	sj;pq
 習	zL-j;pq		#s-L
@@ -14503,21 +14503,21 @@ import_tables:
 熠	JLj;pq		#L
 𧟟	zL-j;pq		#龖
 襲	zL-j;pq
-鍼	kc_j;mq		#咸
-瑊	kc_j;mq
-葴	kc_j;mq
-箴	kc_j;mq
-𪈁	kc_j;mq
-鱵	kc_j;mq
-針	kc_j;mq		#鍼
-針	kc_j;ms	2
+鍼	kcj;mq		#咸
+瑊	kcj;mq
+葴	kcj;mq
+箴	kcj;mq
+𪈁	kcj;mq
+鱵	kcj;mq
+針	kcj;mq		#鍼
+針	kcj;ms	2
 㸒	JLj;mq
 淫	JLj;mq
 𦁍	sj;mq
 婬	JLj;mq
 𥮍	JLj;mq
 霪	JLj;mq
-䫬	tc_j;mA
+䫬	tcj;mA
 兓	tsj;mq
 𩀿	tsj;mq
 𪖼	tsj;mq
@@ -14566,7 +14566,7 @@ import_tables:
 愔	Aj;mq
 韾	Aj;mq
 宷	Lscj;mA	999		#Ls
-瀋	thc_j;mA
+瀋	thcj;mA
 審	Lscj;mA
 㰂	Lscj;mA
 𧀯	Lscj;mA
@@ -14736,8 +14736,8 @@ import_tables:
 皀	kx;pq
 碞	Cx;mq
 黚	gx;mq
-鈒	sq-s_x;pq		#及k-R-eo-p
-雭	sq-s_x;pq
+鈒	sq-sx;pq		#及k-R-eo-p
+雭	sq-sx;pq
 級	kx;pq
 汲	kx;pq
 伋	kx;pq
@@ -18563,36 +18563,36 @@ import_tables:
 䕼	ncjanq
 𤓉	ncjanq		#然
 戁	ncjanA
-旃	tc_janq
-栴	tc_janq
-𩔣	tc_janq
-饘	tc_janq
-旜	tc_janq
-氈	tc_janq
-鸇	tc_janq
-饘	tc_janA
-皽	tc_janA
-䆄	tc_janA
-䡀	tc_janA
-䁴	tc_janA
-㔊	tc_janA
-𨭖	tc_janA
-顫	tc_jans
-𩍕	tc_jatq
-儃	dc_janq
-澶	dc_janq
-蟺	dc_janA
-擅	dc_jans
-䄠	dc_jans
-𤮜	dc_jans
-嬗	dc_jans
+旃	tcjanq
+栴	tcjanq
+𩔣	tcjanq
+饘	tcjanq
+旜	tcjanq
+氈	tcjanq
+鸇	tcjanq
+饘	tcjanA
+皽	tcjanA
+䆄	tcjanA
+䡀	tcjanA
+䁴	tcjanA
+㔊	tcjanA
+𨭖	tcjanA
+顫	tcjans
+𩍕	tcjatq
+儃	dcjanq
+澶	dcjanq
+蟺	dcjanA
+擅	dcjans
+䄠	dcjans
+𤮜	dcjans
+嬗	dcjans
 羶	st-cjanq
 䁴	st-cjanA
-靼	tc_jatq
+靼	tcjatq
 羴	st-cjanq		#羶鮮鱻
 延	JLjans
-硟	Lshc_jans
-鋋	Lc_janq	2		#J
+硟	Lshcjans
+鋋	Lcjanq	2		#J
 埏	Lscjanq		#Ls
 挻	Lscjanq
 鯅	Lscjanq
@@ -18617,13 +18617,13 @@ import_tables:
 涎	JLjans
 衍	JLjanA
 衍	JLjans
-𩜾	tc_janq
+𩜾	tcjanq
 𧍢	JLjanA
 𧊔	JLjanA
 謾	mjanq		#曼m-
 𣡠	mjanq
 㳄	zL-janq		#s-L
-𦆀	Lshc_janA
+𦆀	LshcjanA
 𦆀	zL-janA
 羨	zL-jans
 䢭	zL-jans
@@ -18656,30 +18656,30 @@ import_tables:
 仙	sjanq		#僊
 苮	sjanq
 秈	sjanq
-灛	thc_janA
-闡	thc_janA
-樿	tc_janA
-燀	tc_janA
-燀	thc_janq
-燀	thc_janA
-繟	thc_janA
-䵐	thc_janA
-幝	thc_janA
-𨼒	thc_janA
-嘽	thc_janA
-蟬	dc_janq
-撣	dc_janq
-僤	dc_janq
-禪	dc_janq
-嬋	dc_janq
-單	dc_janq	2
-墠	dc_janA
-鱓	dc_janA
-單	dc_janA	2
-禪	dc_jans
-𦉕	dc_jans
-單	dc_jans	2
-戰	tc_jans
+灛	thcjanA
+闡	thcjanA
+樿	tcjanA
+燀	tcjanA
+燀	thcjanq
+燀	thcjanA
+繟	thcjanA
+䵐	thcjanA
+幝	thcjanA
+𨼒	thcjanA
+嘽	thcjanA
+蟬	dcjanq
+撣	dcjanq
+僤	dcjanq
+禪	dcjanq
+嬋	dcjanq
+單	dcjanq	2
+墠	dcjanA
+鱓	dcjanA
+單	dcjanA	2
+禪	dcjans
+𦉕	dcjans
+單	dcjans	2
+戰	tcjans
 ##?
 扇	Lscjanq		#Ls
 煽	Lscjanq
@@ -18857,23 +18857,23 @@ import_tables:
 𧕾	tsjetq
 䘁	tsjetq
 䰏	tsjetq
-善	dc_jenA
-譱	dc_jenA
-𦗢	tc_jenA
-𩕊	tc_jenA
-𥊳	tc_jenA
-橏	tc_jenA
-嫸	tc_jenA
-僐	dc_jenA
-鄯	dc_jenA
-墡	dc_jenA
-磰	dc_jenA
-𪍶	dc_jenA
-繕	dc_jens
-鄯	dc_jens
-膳	dc_jens
-饍	dc_jens
-僐	dc_jens
+善	dcjenA
+譱	dcjenA
+𦗢	tcjenA
+𩕊	tcjenA
+𥊳	tcjenA
+橏	tcjenA
+嫸	tcjenA
+僐	dcjenA
+鄯	dcjenA
+墡	dcjenA
+磰	dcjenA
+𪍶	dcjenA
+繕	dcjens
+鄯	dcjens
+膳	dcjens
+饍	dcjens
+僐	dcjens
 設	Cscjetq		#L- ŋ
 蔎	Cscjetq
 紲	sjetq	1		#曳-t
@@ -18910,8 +18910,8 @@ import_tables:
 禼	sjetq
 𥝁	sjetq
 㲔	sjenq
-𤎮	Cc_jetq	999		#ŋ?埶
-熱	Cc_jetq
+𤎮	Ccjetq	999		#ŋ?埶
+熱	Ccjetq
 𧜼	sC-jetq
 𨬝	sC-jetq
 𭧳	sC-jetq
@@ -18924,20 +18924,20 @@ import_tables:
 𠻤	JLjenA
 戭	JLjenA
 𠻤	JLjens
-折	tc_jetq
-折	dc_jetq
-㪿	tc_jetq
-歽	tc_jetq
-𣂫	tc_jetq
-晢	tc_jetq
-晣	tc_jetq
-浙	tc_jetq
-䩢	tc_jetq
-䏳	tc_jetq
-䀸	tc_jetq
-掣	khc_jetq
-瘛	khc_jetq
-𠟉	tc_jenA
+折	tcjetq
+折	dcjetq
+㪿	tcjetq
+歽	tcjetq
+𣂫	tcjetq
+晢	tcjetq
+晣	tcjetq
+浙	tcjetq
+䩢	tcjetq
+䏳	tcjetq
+䀸	tcjetq
+掣	khcjetq
+瘛	khcjetq
+𠟉	tcjenA
 ##jeR
 𤌺	tsjenq	999
 𩮣	tsjenq
@@ -19014,7 +19014,7 @@ import_tables:
 灓	lyons
 孌	lyons
 䜌	lyons	2
-梲	tc_yotq
+梲	tcyotq
 說	Lscyotq		#Ls兌
 悅	JLyotq
 說	JLyotq
@@ -19033,8 +19033,8 @@ import_tables:
 焫	ncyotq
 蜹	ncyotq
 撋	ncyonq
-舛	thc_yonA
-荈	thc_yonA
+舛	thcyonA
+荈	thcyonA
 𤂳	syons
 剶	tsyonq		#彖
 緣	JLyonq
@@ -19053,7 +19053,7 @@ import_tables:
 㔯	zL-yonq
 沿	JLyonq
 鉛	JLyonq
-𡇰	tc_yonA
+𡇰	tcyonA
 渷	JLyonA		#沇
 𢯻	JLyonA
 𦳆	JLyonA
@@ -19078,42 +19078,42 @@ import_tables:
 敠	tshyotq
 𠥙	tshyonq
 潫	Ayonq
-𦺲	dc_yonA
+𦺲	dcyonA
 ##
-川	khL-c_yunq		#川k-L-u-n
-巛	khL-c_yunq
-釧	khL-c_yuns
+川	khL-cyunq		#川k-L-u-n
+巛	khL-cyunq
+釧	khL-cyuns
 #
 川	tschyonq		#川k-L-u-n
 巛	tschyonq
 釧	tschyons
-穿	thc_yonq
-穿	thc_yons
-竁	thc_yons		#訓穿
+穿	thcyonq
+穿	thcyons
+竁	thcyons		#訓穿
 膬	tshyotq
 𥕹	tshyotq
-叀	tc_yonq	999
-𡵏	tc_yonq
-𠧢	tc_yonq
-𢮨	tc_yonq
-𰆄	tc_yonq
-專	tc_yonq
-甎	tc_yonq
-篿	tc_yonq
-嫥	tc_yonq
-膞	tc_yonq
-鱄	tc_yonq
-鷒	tc_yonq
-鄟	tc_yonq
-剸	tc_yonA
-𩠹	tc_yonq
-鱄	tc_yonA
-竱	tc_yonA
-膞	tc_yonA
-剸	tc_yons
-膞	dc_yonA
-鄟	dc_yonA
-𡭐	dc_yonA
+叀	tcyonq	999
+𡵏	tcyonq
+𠧢	tcyonq
+𢮨	tcyonq
+𰆄	tcyonq
+專	tcyonq
+甎	tcyonq
+篿	tcyonq
+嫥	tcyonq
+膞	tcyonq
+鱄	tcyonq
+鷒	tcyonq
+鄟	tcyonq
+剸	tcyonA
+𩠹	tcyonq
+鱄	tcyonA
+竱	tcyonA
+膞	tcyonA
+剸	tcyons
+膞	dcyonA
+鄟	dcyonA
+𡭐	dcyonA
 堧	ncyonq
 䙇	ncyonq
 𤲬	ncyonq
@@ -19142,7 +19142,7 @@ import_tables:
 全	dzyonq		#-R? 泉?
 㒰	dzyonq
 𠌆	dzyonq
-輇	dc_yonq
+輇	dcyonq
 詮	tshyonq
 銓	tshyonq
 硂	tshyonq
@@ -19189,24 +19189,24 @@ import_tables:
 隽	dzyonA
 𤺻	dzyonA
 𦼱	dzyonA
-遄	dc_yonq
-圌	dc_yonq
-顓	tc_yonq
-諯	tc_yonq
-湍	tc_yonq
-剬	tc_yonA
-𦓝	tc_yonA
-喘	thc_yonA
-㪜	thc_yonA
-諯	thc_yons
-篅	dc_yonq
-諯	dc_yonq
-輲	dc_yonq
-椯	dc_yonq
-歂	dc_yonq
-腨	dc_yonA
-歂	dc_yonA
-踹	dc_yonA
+遄	dcyonq
+圌	dcyonq
+顓	tcyonq
+諯	tcyonq
+湍	tcyonq
+剬	tcyonA
+𦓝	tcyonA
+喘	thcyonA
+㪜	thcyonA
+諯	thcyons
+篅	dcyonq
+諯	dcyonq
+輲	dcyonq
+椯	dcyonq
+歂	dcyonq
+腨	dcyonA
+歂	dcyonA
+踹	dcyonA
 諯	tshyons
 ##vjan yan k-
 謜	tshyenq		#原泉C-a-n ts-o-n#贊ts-O 專t-o? 
@@ -19258,8 +19258,8 @@ import_tables:
 #
 𨡸	tscyetq		#?醛全 醛集韻 測劣切
 繎	ncyenq		#?肰然
-孨	tc_yenA
-準	tc_yetq	1		#唯鷕
+孨	tcyenA
+準	tcyetq	1		#唯鷕
 #
 𨷱	tscyenA	0		#譌誤
 #?
@@ -19560,8 +19560,8 @@ import_tables:
 㕞	sswotq
 刷	sswotq
 𠴪	sswotq
-孿	sq-s_wons		#䜌p-R-o-n#䜌A-R-o-n
-㝈	sq-s_wons
+孿	sq-swons		#䜌p-R-o-n#䜌A-R-o-n
+㝈	sq-swons
 㔍	tsshwotq
 䵵	tsswotq
 䉵	dzswons
@@ -19748,60 +19748,60 @@ import_tables:
 睧	mj;nq		#昏
 𨌲	mj;nA
 𨏵	mj;nA
-𠘱	kc_j;nA		#𢒀𢒁
-㐱	kc_j;nA
-畛	kc_j;nq
-軫	kc_j;nA
-胗	kc_j;nA
-疹	kc_j;nA
-畛	kc_j;nA
-紾	kc_j;nA
-診	kc_j;nA
-袗	kc_j;nA
-眕	kc_j;nA
-䪾	kc_j;nA
-駗	kc_j;nA
-袗	kc_j;ns
-䪾	kc_j;ns
+𠘱	kcj;nA		#𢒀𢒁
+㐱	kcj;nA
+畛	kcj;nq
+軫	kcj;nA
+胗	kcj;nA
+疹	kcj;nA
+畛	kcj;nA
+紾	kcj;nA
+診	kcj;nA
+袗	kcj;nA
+眕	kcj;nA
+䪾	kcj;nA
+駗	kcj;nA
+袗	kcj;ns
+䪾	kcj;ns
 胗	kj;nA
-𦕑	tc_j;nA		#聄
-侲	tc_j;nq
-桭	tc_j;nq
-帪	tc_j;nq
-㲀	tc_j;nq
-賑	tc_j;nA
-裖	tc_j;nA
-敐	tc_j;nA
-震	tc_j;ns
-賑	tc_j;ns
-娠	tc_j;ns
-侲	tc_j;ns
-䟴	tc_j;ns
-辰	dc_j;nq
-䢅	dc_j;nq
-敐	dc_j;nq
-宸	dc_j;nq
-麎	dc_j;nq
-桭	dc_j;nq
-屒	dc_j;nq
-䣅	dc_j;nq
-蜃	dc_j;nA
-祳	dc_j;nA
-脤	dc_j;nA
-㰮	dc_j;nA
-鋠	dc_j;nA
-蜃	dc_j;ns
+𦕑	tcj;nA		#聄
+侲	tcj;nq
+桭	tcj;nq
+帪	tcj;nq
+㲀	tcj;nq
+賑	tcj;nA
+裖	tcj;nA
+敐	tcj;nA
+震	tcj;ns
+賑	tcj;ns
+娠	tcj;ns
+侲	tcj;ns
+䟴	tcj;ns
+辰	dcj;nq
+䢅	dcj;nq
+敐	dcj;nq
+宸	dcj;nq
+麎	dcj;nq
+桭	dcj;nq
+屒	dcj;nq
+䣅	dcj;nq
+蜃	dcj;nA
+祳	dcj;nA
+脤	dcj;nA
+㰮	dcj;nA
+鋠	dcj;nA
+蜃	dcj;ns
 䀼	ncj;ns
 娠	st-cj;nq
-晨	dc_j;nq
-曟	dc_j;nq
-鷐	dc_j;nq
+晨	dcj;nq
+曟	dcj;nq
+鷐	dcj;nq
 晨	zt-cj;nq
-唇	tc_j;nq
-㖘	tc_j;nq
-振	tc_j;nq
-振	tc_j;ns
-䳲	tc_j;ns
+唇	tcj;nq
+㖘	tcj;nq
+振	tcj;nq
+振	tcj;ns
+䳲	tcj;ns
 刃	ncj;ns
 韌	ncj;ns
 肕	ncj;ns
@@ -20046,7 +20046,7 @@ import_tables:
 # 僶	mjinA
 # 澠	mjinA
 # 緊	kjinA
-# 腎	gc_jinA
+# 腎	gcjinA
 # 𦜌	kjinA
 # 𤷌	kjinA
 # 𧼒	khjinA
@@ -20055,11 +20055,11 @@ import_tables:
 # 菣	khjins
 # 𧼒	khjins
 # 𧼒	gjinq
-# 挋	kc_jins
-# 䢻	kc_jins
-# 臣	gc_jinq		#-ŋ瞋?
-# 茞	gc_jinq
-# 䢻	gc_jinq
+# 挋	kcjins
+# 䢻	kcjins
+# 臣	gcjinq		#-ŋ瞋?
+# 茞	gcjinq
+# 䢻	gcjinq
 # 頣	scjinA
 脗	mjinA
 𡍯	Ajinq	99
@@ -20081,9 +20081,9 @@ import_tables:
 禋	Ajinq
 𥛛	Ajinq
 𣱐	Ajins
-甄	kc_jinq
-籈	kc_jinq
-薽	kc_jinq
+甄	kcjinq
+籈	kcjinq
+薽	kcjinq
 吉	kjitq
 趌	kjitq
 狤	kjitq
@@ -20138,7 +20138,7 @@ import_tables:
 七	tshjitq
 𠀁	tshjitq	99
 柒	tshjitq
-叱	thc_jitq
+叱	thcjitq
 # 桼	tshjitq		#-g
 # 漆	tshjitq
 # 䣛	tshjitq
@@ -20280,47 +20280,47 @@ import_tables:
 婣	Ajinq
 枃	tsjins
 笉	tshjinA
-眞	tc_jinq	999
-𠤛	tc_jinq
-𡙊	tc_jinq
-真	tc_jinq		#十目𠃊
-禛	tc_jinq
-稹	tc_jinq
-磌	tc_jinq
-蒖	tc_jinq
-縝	tc_jinA
-鬒	tc_jinA
-槇	tc_jinA
-黰	tc_jinA
-𣞟	tc_jinA
-稹	tc_jinA
+眞	tcjinq	999
+𠤛	tcjinq
+𡙊	tcjinq
+真	tcjinq		#十目𠃊
+禛	tcjinq
+稹	tcjinq
+磌	tcjinq
+蒖	tcjinq
+縝	tcjinA
+鬒	tcjinA
+槇	tcjinA
+黰	tcjinA
+𣞟	tcjinA
+稹	tcjinA
 瞋	tschjinq		#臣?
-嗔	thc_jinq
-謓	thc_jinq
-䐜	thc_jinq
-𣞟	thc_jinq
-縝	thc_jinq
-愼	dc_jins	999
-昚	dc_jins
+嗔	thcjinq
+謓	thcjinq
+䐜	thcjinq
+𣞟	thcjinq
+縝	thcjinq
+愼	dcjins	999
+昚	dcjins
 𦎷	tsjins		#執?
 # 室	scjitq		#-k
 # 𩋡	scjitq
 # 臸	ncjitq
-# 晊	tc_jitq
-# 郅	tc_jitq
-# 桎	tc_jitq
-# 蛭	tc_jitq
-# 銍	tc_jitq
-# 侄	tc_jitq
-# 騭	tc_jitq		#-k
-質	tc_jitq		#樸也
-櫍	tc_jitq
-劕	tc_jitq
-䑇	tc_jitq
-鑕	tc_jitq
-𡂒	tc_jitq
-懫	tc_jitq
-礩	tc_jitq
+# 晊	tcjitq
+# 郅	tcjitq
+# 桎	tcjitq
+# 蛭	tcjitq
+# 銍	tcjitq
+# 侄	tcjitq
+# 騭	tcjitq		#-k
+質	tcjitq		#樸也
+櫍	tcjitq
+劕	tcjitq
+䑇	tcjitq
+鑕	tcjitq
+𡂒	tcjitq
+懫	tcjitq
+礩	tcjitq
 螼	khjinA
 螼	khjins
 一	Ajitq		#-k
@@ -20403,7 +20403,7 @@ import_tables:
 # 汮	kyinq
 # 呁	kyins
 # 𧥺	kyins
-# 𢗋	gc_yinq		#?
+# 𢗋	gcyinq		#?
 # 畇	sq-yinq
 # 𠣙	zq-yinq
 # 畇	zq-yinq
@@ -20411,7 +20411,7 @@ import_tables:
 # 勻	JQyinq		#s-k? ɢ V-#勻V-v-i-n
 # 匀	JQyinq
 # 畇	JQyinq
-# 𦚧	thc_yinA		#?
+# 𦚧	thcyinA		#?
 # # 眴	ncyunq	9		#訓瞤
 # # 眴	scyins		#訓瞬
 # 郇	sq-yinq
@@ -20454,16 +20454,16 @@ import_tables:
 䪳	JQyunA
 芛	JQyutq
 ##yun jun vjun痕2
-𰜛	tc_yunA
-準	tc_yunA
-准	tc_yunA
+𰜛	tcyunA
+準	tcyunA
+准	tcyunA
 𣯍	ncyunA
 隼	syunA
 鵻	syunA
 奞	syuns	1
 㕯	ncyutq	2
 出	tschyutq
-陙	dc_yunq
+陙	dcyunq
 脣	zt-cyunq		#辰t-eo-n
 漘	zt-cyunq
 䔚	zt-cyunq
@@ -20482,32 +20482,32 @@ import_tables:
 揗	zL-yunq
 䋸	zL-yunq
 楯	zL-yunq
-𧭺	tc_yunq
-𥌲	tc_yunq
-𢤈	tc_yunq
-諄	tc_yunq
-惇	tc_yunq
-𥇜	tc_yunq
-埻	tc_yunA
-𡓑	tc_yunA
-𥤁	tc_yuns
-諄	tc_yuns
-𥇜	tc_yuns
-稕	tc_yuns
-𦽑	tc_yuns
-𦎫	dc_yunq
-𠆆	dc_yunq
-𨣳	dc_yunq
-𦎧	dc_yunq
-𨣶	dc_yunq
-𨯢	dc_yunq
-𤂸	dc_yunq
-𤑴	dc_yunq
-醇	dc_yunq
-鶉	dc_yunq
-錞	dc_yunq
-淳	dc_yunq
-焞	dc_yunq
+𧭺	tcyunq
+𥌲	tcyunq
+𢤈	tcyunq
+諄	tcyunq
+惇	tcyunq
+𥇜	tcyunq
+埻	tcyunA
+𡓑	tcyunA
+𥤁	tcyuns
+諄	tcyuns
+𥇜	tcyuns
+稕	tcyuns
+𦽑	tcyuns
+𦎫	dcyunq
+𠆆	dcyunq
+𨣳	dcyunq
+𦎧	dcyunq
+𨣶	dcyunq
+𨯢	dcyunq
+𤂸	dcyunq
+𤑴	dcyunq
+醇	dcyunq
+鶉	dcyunq
+錞	dcyunq
+淳	dcyunq
+焞	dcyunq
 𤜃	ncyunq
 犉	ncyunq
 侖	lyunq
@@ -20550,36 +20550,36 @@ import_tables:
 蕣	Lscyuns
 瞬	Lscyuns
 眴	scyuns	9		#訓瞬
-僢	thc_yunA		#舛
+僢	thcyunA		#舛
 䀢	scyuns
 瞚	scyuns
 䳳	syutq		#祟uts
 𥚋	syutq
 𨜿	syutq
-𡗥	dc_yunq
-純	tc_yunA	1
-蒓	dc_yunq
-純	dc_yunq
-訰	tc_yunq
-盹	tc_yuns
-訰	tc_yuns
-䣩	dc_yunq
-肫	tc_yunq
-萅	thc_yunq	999
-𧅪	thc_yunA
-𢧸	thc_yunA
-𨅱	thc_yunA
-𢧨	thc_yunA
-𢡳	thc_yunA
-𠎲	thc_yunA
+𡗥	dcyunq
+純	tcyunA	1
+蒓	dcyunq
+純	dcyunq
+訰	tcyunq
+盹	tcyuns
+訰	tcyuns
+䣩	dcyunq
+肫	tcyunq
+萅	thcyunq	999
+𧅪	thcyunA
+𢧸	thcyunA
+𨅱	thcyunA
+𢧨	thcyunA
+𢡳	thcyunA
+𠎲	thcyunA
 𩯐	st-cyuns
-春	thc_yunq
-蠢	thc_yunA		#憃
-䐏	thc_yunA
-踳	thc_yunA
-惷	thc_yunA
-偆	thc_yunA
-𢾎	thc_yunA
+春	thcyunq
+蠢	thcyunA		#憃
+䐏	thcyunA
+踳	thcyunA
+惷	thcyunA
+偆	thcyunA
+𢾎	thcyunA
 賰	st-cyunA
 鬊	st-cyuns
 𧾣	kyutq		#?
@@ -20601,7 +20601,7 @@ import_tables:
 玧	JLyunA
 𡴞	JLyunA
 𧉃	JLyunA
-蓴	dc_yunq
+蓴	dcyunq
 卒	tsyutq
 𣨛	tsyutq
 䱣	tsyutq
@@ -23381,17 +23381,17 @@ import_tables:
 𨶆	tshjaCq
 搶	tshjaCq
 搶	tshjaCA
-昌	thc_jaCq
-裮	thc_jaCq
-倡	thc_jaCq
-猖	thc_jaCq
-閶	thc_jaCq
-琩	thc_jaCq
-鯧	thc_jaCq
-菖	thc_jaCq
-唱	thc_jaCs
-𪛋	thc_jaCs
-倡	thc_jaCs
+昌	thcjaCq
+裮	thcjaCq
+倡	thcjaCq
+猖	thcjaCq
+閶	thcjaCq
+琩	thcjaCq
+鯧	thcjaCq
+菖	thcjaCq
+唱	thcjaCs
+𪛋	thcjaCs
+倡	thcjaCs
 䞪	dzjaCs
 𪀘	dzjaCs
 匠	dzjaCs
@@ -23585,37 +23585,37 @@ import_tables:
 蔏	st-cjaCq
 𪄲	st-cjaCq
 螪	st-cjaCq
-上	dc_jaCA
-丄	dc_jaCA
-𠄞	dc_jaCA
-上	dc_jaCs
-丄	dc_jaCs
-𠄞	dc_jaCs
-䟫	thc_jaCA
-鋿	dc_jaCq
-徜	dc_jaCq
-尙	dc_jaCq
-尙	dc_jaCs	999
-常	dc_jaCq
-裳	dc_jaCq
-𪄹	dc_jaCq
-嘗	dc_jaCq
-鱨	dc_jaCq
-甞	dc_jaCq	1
-𩼝	dc_jaCq	1
-敞	thc_jaCA
-𢠵	thc_jaCA
-氅	thc_jaCA
-𪅶	thc_jaCA
-廠	thc_jaCA
-僘	thc_jaCA
-廠	thc_jaCs
+上	dcjaCA
+丄	dcjaCA
+𠄞	dcjaCA
+上	dcjaCs
+丄	dcjaCs
+𠄞	dcjaCs
+䟫	thcjaCA
+鋿	dcjaCq
+徜	dcjaCq
+尙	dcjaCq
+尙	dcjaCs	999
+常	dcjaCq
+裳	dcjaCq
+𪄹	dcjaCq
+嘗	dcjaCq
+鱨	dcjaCq
+甞	dcjaCq	1
+𩼝	dcjaCq	1
+敞	thcjaCA
+𢠵	thcjaCA
+氅	thcjaCA
+𪅶	thcjaCA
+廠	thcjaCA
+僘	thcjaCA
+廠	thcjaCs
 賞	st-cjaCA
-償	dc_jaCq
-償	dc_jaCs
-掌	tc_jaCA
-𤓯	tc_jaCA		#訓掌音缺
-仉	tc_jaCA
+償	dcjaCq
+償	dcjaCs
+掌	tcjaCA
+𤓯	tcjaCA		#訓掌音缺
+仉	tcjaCA
 廂	sjaCq
 湘	sjaCq
 緗	sjaCq
@@ -23666,26 +23666,26 @@ import_tables:
 珦	hL-IaCs
 嚮	hL-IaCA
 嚮	hL-IaCs
-漳	tc_jaCq
-樟	tc_jaCq
-慞	tc_jaCq
-璋	tc_jaCq
-彰	tc_jaCq
-墇	tc_jaCq
-障	tc_jaCq
-麞	tc_jaCq
-獐	tc_jaCq
-鄣	tc_jaCq
-蔁	tc_jaCq
-𪅂	tc_jaCq
-𩌬	tc_jaCq
-暲	tc_jaCq
-章	tc_jaCq
-障	tc_jaCs
-㢓	tc_jaCs
-墇	tc_jaCs
-嶂	tc_jaCs
-瘴	tc_jaCs
+漳	tcjaCq
+樟	tcjaCq
+慞	tcjaCq
+璋	tcjaCq
+彰	tcjaCq
+墇	tcjaCq
+障	tcjaCq
+麞	tcjaCq
+獐	tcjaCq
+鄣	tcjaCq
+蔁	tcjaCq
+𪅂	tcjaCq
+𩌬	tcjaCq
+暲	tcjaCq
+章	tcjaCq
+障	tcjaCs
+㢓	tcjaCs
+墇	tcjaCs
+嶂	tcjaCs
+瘴	tcjaCs
 摤	tshjaCA
 𩞧	LscjaCA		#L-
 蟓	LscjaCs
@@ -23794,12 +23794,12 @@ import_tables:
 䂮	ljakq		#㗉
 䛚	ljakq
 掠	ljakq		#京k-R-a-C
-磭	thc_jakq	2
+磭	thcjakq	2
 磭	CIakq	2		#?
-謶	tc_jakq
-𧫽	tc_jakq
-斫	tc_jakq
-𥯩	tc_jakq
+謶	tcjakq
+𧫽	tcjakq
+斫	tcjakq
+𥯩	tcjakq
 鵲	tshjakq
 趞	tshjakq
 碏	tshjakq
@@ -23850,15 +23850,15 @@ import_tables:
 𧆱	CIavkq
 瘧	CIavkq
 謔	hCsIavkq		#ŋ̥ Cs
-䅵	kc_javkq		#av?#羔k-a-v-k
-禚	kc_javkq
+䅵	kcjavkq		#av?#羔k-a-v-k
+禚	kcjavkq
 蹻	kIavkq		#ev?#喬k-a-v-k
 屩	kIavkq
 蹻	gIavkq
-焯	tc_javkq		#av#卓t-a-v-k
-綽	thc_javkq
-繛	thc_javkq
-婥	thc_javkq
+焯	tcjavkq		#av#卓t-a-v-k
+綽	thcjavkq
+繛	thcjavkq
+婥	thcjavkq
 ##Ievk
 削	sjevkq		#ev
 雀	tsjevkq		#ev#小ts-e-v
@@ -23881,21 +23881,21 @@ import_tables:
 溺	ncjevkq
 蒻	ncjevkq
 䐞	ncjevkq
-勺	tc_jevkq		#勺t-e-v-k
-彴	tc_jevkq
-㣿	tc_jevkq
-酌	tc_jevkq
-妁	tc_jevkq
-犳	tc_jevkq		#狕誤
-䶂	tc_jevkq
-𧘑	tc_jevkq
-灼	tc_jevkq
-勺	dc_jevkq
-妁	dc_jevkq
-汋	dc_jevkq
-杓	dc_jevkq
-仢	dc_jevkq
-芍	dc_jevkq
+勺	tcjevkq		#勺t-e-v-k
+彴	tcjevkq
+㣿	tcjevkq
+酌	tcjevkq
+妁	tcjevkq
+犳	tcjevkq		#狕誤
+䶂	tcjevkq
+𧘑	tcjevkq
+灼	tcjevkq
+勺	dcjevkq
+妁	dcjevkq
+汋	dcjevkq
+杓	dcjevkq
+仢	dcjevkq
+芍	dcjevkq
 䶂	tsjevkq
 芍	tshjevkq
 礿	Jjevkq		#?
@@ -25215,7 +25215,7 @@ import_tables:
 矠	tsshxakq
 矠	dzsxakq
 㳻	ssxakq
-虩	sk-s_xakq		#𡭴
+虩	sk-sxakq		#𡭴
 䨛	ssxakq		#集韵色窄切
 厇	tRxakq		#?集韵陟格切
 矺	tRxakq
@@ -25385,20 +25385,20 @@ import_tables:
 𨟙	AjeCA
 癭	AjeCA
 𣤵	AjeCA
-成	dc_jeCq
-𢦩	dc_jeCq
-城	dc_jeCq
-𩫨	dc_jeCq
-誠	dc_jeCq
-宬	dc_jeCq
-郕	dc_jeCq
-筬	dc_jeCq
-珹	dc_jeCq
-䫆	dc_jeCq
-晟	dc_jeCs
-盛	dc_jeCq
-盛	dc_jeCs
-墭	dc_jeCs
+成	dcjeCq
+𢦩	dcjeCq
+城	dcjeCq
+𩫨	dcjeCq
+誠	dcjeCq
+宬	dcjeCq
+郕	dcjeCq
+筬	dcjeCq
+珹	dcjeCq
+䫆	dcjeCq
+晟	dcjeCs
+盛	dcjeCq
+盛	dcjeCs
+墭	dcjeCs
 丼	tsjeCA
 井	tsjeCA
 宑	tsjeCA
@@ -25416,7 +25416,7 @@ import_tables:
 㵾	dzjeCs
 靚	dzjeCs
 倩	tshjeCs
-鯖	tc_jeCq
+鯖	tcjeCq
 菁	tsjeCq
 鶄	tsjeCq
 蜻	tsjeCq
@@ -25447,26 +25447,26 @@ import_tables:
 竫	dzjeCA
 淨	dzjeCs
 𩓞	dzjeCs
-正	tc_jeCq
-㱏	tc_jeCq
-征	tc_jeCq
-𨒌	tc_jeCq
-𦙫	tc_jeCq
-𨢹	tc_jeCq		#𦙫𦡅#?
-𨢏	tc_jeCq
-𩜎	tc_jeCq		#𦙫
-鉦	tc_jeCq
-怔	tc_jeCq
-鴊	tc_jeCq
-䋊	tc_jeCq
-眐	tc_jeCq
-𧘿	tc_jeCq
-佂	tc_jeCq
-証	tc_jeCs
-鴊	tc_jeCs
-整	tc_jeCA
-正	tc_jeCs
-政	tc_jeCs
+正	tcjeCq
+㱏	tcjeCq
+征	tcjeCq
+𨒌	tcjeCq
+𦙫	tcjeCq
+𨢹	tcjeCq		#𦙫𦡅#?
+𨢏	tcjeCq
+𩜎	tcjeCq		#𦙫
+鉦	tcjeCq
+怔	tcjeCq
+鴊	tcjeCq
+䋊	tcjeCq
+眐	tcjeCq
+𧘿	tcjeCq
+佂	tcjeCq
+証	tcjeCs
+鴊	tcjeCs
+整	tcjeCA
+正	tcjeCs
+政	tcjeCs
 旌	tsjeCq
 夝	dzjeCq
 性	sjeCs
@@ -25545,31 +25545,31 @@ import_tables:
 磶	sjakq
 𩍆	sjakq
 潟	sjakq
-滷	thc_jakq	9		#?訓斥
-潟	thc_jakq
-尺	thc_jakq		#?斥
-蚇	thc_jakq
-㡿	thc_jakq		#斥㡿㡯-乇t-a-k
-㡯	thc_jakq	999		#斥
-斥	thc_jakq
-拓	tc_jakq
-跖	tc_jakq
-䞠	tc_jakq
-石	dc_jakq
-碩	dc_jakq
-祏	dc_jakq
-鉐	dc_jakq
-䄷	dc_jakq
-鼫	dc_jakq
-䲽	dc_jakq
-墌	tc_jakq
-摭	tc_jakq
-蹠	tc_jakq
-䗪	tc_jakq
+滷	thcjakq	9		#?訓斥
+潟	thcjakq
+尺	thcjakq		#?斥
+蚇	thcjakq
+㡿	thcjakq		#斥㡿㡯-乇t-a-k
+㡯	thcjakq	999		#斥
+斥	thcjakq
+拓	tcjakq
+跖	tcjakq
+䞠	tcjakq
+石	dcjakq
+碩	dcjakq
+祏	dcjakq
+鉐	dcjakq
+䄷	dcjakq
+鼫	dcjakq
+䲽	dcjakq
+墌	tcjakq
+摭	tcjakq
+蹠	tcjakq
+䗪	tcjakq
 席	zt-jakq		#石 sd-?
 𠩛	zt-jakq
 蓆	zt-jakq
-炙	tc_jakq		#石 庶
+炙	tcjakq		#石 庶
 葃	dzjakq
 夕	zL-jakq		#s-L?
 穸	zL-jakq
@@ -25628,15 +25628,15 @@ import_tables:
 麝	Lzcjakq
 射	JLjakq	2
 䠶	JLjakq	2
-𤆍	khL-c_jakq	999		#赤k-L
-赤	khL-c_jakq
-烾	khL-c_jakq
-郝	khL-c_jakq
+𤆍	khL-cjakq	999		#赤k-L
+赤	khL-cjakq
+烾	khL-cjakq
+郝	khL-cjakq
 郝	sq-cjakq
 螫	sq-cjakq
 ##jek
-𠧚	thc_jekq		#?姓
-𠧵	thc_jekq
+𠧚	thcjekq		#?姓
+𠧵	thcjekq
 朿	tshjekq
 刺	tshjekq
 𨒪	tsjekq
@@ -25656,13 +25656,13 @@ import_tables:
 嫧	tshjekq
 𪃹	tsjekq
 鯽	tsjekq	2		#𩺀
-㚖	thc_jekq		#訓斥
+㚖	thcjekq		#訓斥
 䃊	tsjekq
-隻	tc_jekq
-䨥	tc_jekq
-𨗁	tc_jekq		#啻帝t-e
+隻	tcjekq
+䨥	tcjekq
+𨗁	tcjekq		#啻帝t-e
 𨗁	st-cjekq	99
-適	tc_jekq
+適	tcjekq
 適	st-cjekq
 𡣪	st-cjekq
 𦟝	tsjekq	999
@@ -25709,7 +25709,7 @@ import_tables:
 㱸	bjekq
 𩪧	bjekq
 辟	bjekq		#便辟又法也
-𠪮	tc_jekq		#?
+𠪮	tcjekq		#?
 益	Ajekq		#ik? i?
 謚	Ajekq
 嗌	Ajekq
@@ -26455,28 +26455,28 @@ import_tables:
 橧	dzj;Cq
 竲	dzj;Cq
 嶒	dzj;Cq
-稱	thc_j;Cq
-偁	thc_j;Cq
-爯	thc_j;Cq
-稱	thc_j;Cs
-秤	thc_j;Cs
-𦚦	tc_j;Cq
-脀	tc_j;Cq
-拯	tc_j;CA
-𨋬	tc_j;CA
-丞	dc_j;Cq
-㞼	dc_j;Cq
-𨋬	dc_j;Cq
-承	dc_j;Cq
-𢪻	dc_j;Cq
-丞	dc_j;Cs
-䒱	tc_j;Cq
-䕄	tc_j;Cq
-烝	tc_j;Cq
-蒸	tc_j;Cq
-篜	tc_j;Cq
-烝	tc_j;Cs
-氶	tc_j;CA
+稱	thcj;Cq
+偁	thcj;Cq
+爯	thcj;Cq
+稱	thcj;Cs
+秤	thcj;Cs
+𦚦	tcj;Cq
+脀	tcj;Cq
+拯	tcj;CA
+𨋬	tcj;CA
+丞	dcj;Cq
+㞼	dcj;Cq
+𨋬	dcj;Cq
+承	dcj;Cq
+𢪻	dcj;Cq
+丞	dcj;Cs
+䒱	tcj;Cq
+䕄	tcj;Cq
+烝	tcj;Cq
+蒸	tcj;Cq
+篜	tcj;Cq
+烝	tcj;Cs
+氶	tcj;CA
 乘	Lzcj;Cq		#L?m-L
 椉	Lzcj;Cq	999
 溗	Lzcj;Cq
@@ -26502,30 +26502,30 @@ import_tables:
 # 𪃹	tsj;kq
 # 揤	tsj;kq
 # 堲	dzj;kq
-撜	tc_j;CA
-證	tc_j;Cs
+撜	tcj;CA
+證	tcj;Cs
 稷	tsj;kq
 㮨	tsj;kq
 㹄	tsj;kq
 𤠎	tsj;kq
 畟	tsj;kq
 𢯩	dzj;kq
-𡑠	dc_j;kq
+𡑠	dcj;kq
 識	st-cj;kq		#戠t-ə-k-s
 𧄹	st-cj;kq
-職	tc_j;kq
-戠	tc_j;kq
-軄	tc_j;kq
-膱	tc_j;kq
-蟙	tc_j;kq
-樴	tc_j;kq
-織	tc_j;kq
-𧄕	tc_j;kq
-䐈	tc_j;kq
-殖	dc_j;kq
-植	dc_j;kq
-埴	dc_j;kq
-㨁	dc_j;kq
+職	tcj;kq
+戠	tcj;kq
+軄	tcj;kq
+膱	tcj;kq
+蟙	tcj;kq
+樴	tcj;kq
+織	tcj;kq
+𧄕	tcj;kq
+䐈	tcj;kq
+殖	dcj;kq
+植	dcj;kq
+埴	dcj;kq
+㨁	dcj;kq
 艿	ncj;Cq
 䚮	ncj;Cq
 辸	ncj;Cq
@@ -26537,15 +26537,15 @@ import_tables:
 仍	ncj;Cq
 芿	ncj;Cs
 認	ncj;Cs
-抍	tc_j;CA
+抍	tcj;CA
 𦫵	st-cj;Cq		#ST
 升	st-cj;Cq
 昇	st-cj;Cq
 陞	st-cj;Cq
 抍	st-cj;Cq
-寔	dc_j;kq		#是t-eo-k =㞢t-eo
-湜	dc_j;kq
-遈	dc_j;kq
+寔	dcj;kq		#是t-eo-k =㞢t-eo
+湜	dcj;kq
+遈	dcj;kq
 息	sj;kq		#自
 㮩	sj;kq
 鄎	sj;kq
@@ -26595,8 +26595,8 @@ import_tables:
 瀷	JLj;kq
 𠥦	JLj;kq
 𤼌	JLj;kq
-瀷	Lshc_j;kq	2		#Ls
-𦔫	Lshc_j;kq
+瀷	Lshcj;kq	2		#Ls
+𦔫	Lshcj;kq
 勝	Lscj;Cq		#灷L
 蕂	Lscj;Cs
 勝	Lscj;Cs
@@ -27585,7 +27585,7 @@ import_tables:
 䄝	thRaoCq
 𧜧	thRaoCq
 䚎	thRaoCs
-㦼	st-s_aoCs		#?s-t-
+㦼	st-saoCs		#?s-t-
 𥈄	thRaoCs		#𥈩𥊎
 𦗳	nRaoCq		#o?u?
 𣰊	nRaoCq
@@ -27968,7 +27968,7 @@ import_tables:
 奉	bF_ioCA
 唪	bF_ioCA
 俸	bF_ioCs
-𧢸	tc_joCq
+𧢸	tcjoCq
 𢖶	khioCA
 𢖶	khioCs
 𢀜	kioCA
@@ -28000,18 +28000,18 @@ import_tables:
 𥳎	khioCq
 蛩	gioCq
 𥳎	gioCq
-蚣	kL-c_joCq
-忪	kL-c_joCq
-䇗	kL-c_joCq
-彸	kL-c_joCq
-衳	kL-c_joCq
-伀	kL-c_joCq
-妐	kL-c_joCq
-㕬	kL-c_joCq
-炂	kL-c_joCq
-𦬘	kL-c_joCq
-𨳗	kL-c_joCq
-鈆	kL-c_joCq
+蚣	kL-cjoCq
+忪	kL-cjoCq
+䇗	kL-cjoCq
+彸	kL-cjoCq
+衳	kL-cjoCq
+伀	kL-cjoCq
+妐	kL-cjoCq
+㕬	kL-cjoCq
+炂	kL-cjoCq
+𦬘	kL-cjoCq
+𨳗	kL-cjoCq
+鈆	kL-cjoCq
 𨑪	tshjoCq		#?skh
 訟	zq-joCq		#s-g
 頌	zq-joCs
@@ -28049,7 +28049,7 @@ import_tables:
 塎	JqjoCA
 溶	JqjoCA
 傛	JqjoCA
-幒	tc_joCA
+幒	tcjoCA
 廾	kioCq	2
 𠬞	kioCq	2
 龏	kioCs
@@ -28145,39 +28145,39 @@ import_tables:
 聳	sjoCA
 傱	sjoCA
 䙕	sjoCA
-鍾	tc_joCq
-籦	tc_joCq
-㣫	tc_joCA
-𢡹	dc_joCA
-腫	tc_joCA
-種	tc_joCA
-踵	tc_joCA
-歱	tc_joCA
-喠	tc_joCA
-種	tc_joCs
-偅	tc_joCs
-穜	tc_joCA		#種
-穜	tc_joCs
-衝	thc_joCq
-褈	thc_joCq
-𠝤	thc_joCq
-𨿿	thc_joCA
-喠	thc_joCA
-尰	dc_joCA
-鐘	tc_joCq
-銿	tc_joCq
-蹱	tc_joCq
-橦	tc_joCq
-㼿	tc_joCs
-憧	thc_joCq
-𧘂	thc_joCq
-罿	thc_joCq
-䡴	thc_joCq
-艟	thc_joCq
-潼	thc_joCq
-𠟍	thc_joCq
-䂌	thc_joCq
-𤺄	dc_joCA
+鍾	tcjoCq
+籦	tcjoCq
+㣫	tcjoCA
+𢡹	dcjoCA
+腫	tcjoCA
+種	tcjoCA
+踵	tcjoCA
+歱	tcjoCA
+喠	tcjoCA
+種	tcjoCs
+偅	tcjoCs
+穜	tcjoCA		#種
+穜	tcjoCs
+衝	thcjoCq
+褈	thcjoCq
+𠝤	thcjoCq
+𨿿	thcjoCA
+喠	thcjoCA
+尰	dcjoCA
+鐘	tcjoCq
+銿	tcjoCq
+蹱	tcjoCq
+橦	tcjoCq
+㼿	tcjoCs
+憧	thcjoCq
+𧘂	thcjoCq
+罿	thcjoCq
+䡴	thcjoCq
+艟	thcjoCq
+潼	thcjoCq
+𠟍	thcjoCq
+䂌	thcjoCq
+𤺄	dcjoCA
 凶	XioCq
 兇	XioCq
 𣧑	XioCq
@@ -28271,9 +28271,9 @@ import_tables:
 傭	LshRxoCq		#Ls
 𦟛	LshRxoCq
 𪒒	LshRxoCq
-鱅	Lc_joCq	2		#L- J-
-慵	Lc_joCq
-𩌨	Lc_joCq
+鱅	LcjoCq	2		#L- J-
+慵	LcjoCq
+𩌨	LcjoCq
 庸	JLjoCq		#L-
 𦤘	JLjoCq
 滽	JLjoCq
@@ -28324,7 +28324,7 @@ import_tables:
 𤞞	Jqjokq
 欲	Jqjokq		#谷k-L
 慾	Jqjokq
-㰲	tc_jokq	2		#𣤁
+㰲	tcjokq	2		#𣤁
 𦥑	kiokq		#非臼
 𧤑	kiokq
 䱡	khiokq	1		#?
@@ -28361,7 +28361,7 @@ import_tables:
 籙	ljokq
 𩔴	hiokq		#?Rs#鹿
 𩪉	hiokq
-襩	Lc_jokq		#L d
+襩	Lcjokq		#L d
 襩	Lzcjokq	2		#s-L? zc
 贖	Lzcjokq		#s-L? zc
 賣	Lzcjokq
@@ -28385,33 +28385,33 @@ import_tables:
 𪑾	ncjokq
 𩱨	ncjokq
 媷	ncjokq
-觕	thc_jokq		#觸
-属	tc_jokq	1
-属	dc_jokq	1
-燭	tc_jokq
-鸀	tc_jokq
-䟉	tc_jokq
-噣	tc_jokq
-韣	tc_jokq
-蠋	tc_jokq
-觸	thc_jokq
-歜	thc_jokq
-臅	thc_jokq
-蜀	dc_jokq
-韣	dc_jokq
-㯮	dc_jokq
-㒔	dc_jokq
-襡	dc_jokq
-㻿	dc_jokq
-鐲	dc_jokq
-屬	tc_jokq
-矚	tc_jokq
-䌵	tc_jokq
-囑	tc_jokq
-蠾	tc_jokq
-屬	dc_jokq
-蠾	dc_jokq
-䙱	dc_jokq
+觕	thcjokq		#觸
+属	tcjokq	1
+属	dcjokq	1
+燭	tcjokq
+鸀	tcjokq
+䟉	tcjokq
+噣	tcjokq
+韣	tcjokq
+蠋	tcjokq
+觸	thcjokq
+歜	thcjokq
+臅	thcjokq
+蜀	dcjokq
+韣	dcjokq
+㯮	dcjokq
+㒔	dcjokq
+襡	dcjokq
+㻿	dcjokq
+鐲	dcjokq
+屬	tcjokq
+矚	tcjokq
+䌵	tcjokq
+囑	tcjokq
+蠾	tcjokq
+屬	dcjokq
+蠾	dcjokq
+䙱	dcjokq
 束	st-cjokq		#L?st
 㑛	st-cjokq
 誎	tshjokq
@@ -28652,14 +28652,14 @@ import_tables:
 麷	pF_hiuCs
 賵	pF_hiuCs		#冃
 ##
-充	thc_juCq		#?
-珫	thc_juCq
-茺	thc_juCq
-㤝	thc_juCq
-䘪	thc_juCq
-𪎽	thc_juCq
-㳘	thc_juCq
-銃	thc_juCs
+充	thcjuCq		#?
+珫	thcjuCq
+茺	thcjuCq
+㤝	thcjuCq
+䘪	thcjuCq
+𪎽	thcjuCq
+㳘	thcjuCq
+銃	thcjuCs
 𧽒	XL-iuCs		#臭
 䠗	XL-iuCs
 𥳎	khiuCq
@@ -28691,23 +28691,23 @@ import_tables:
 㣝	sn-juCq
 𧊕	sn-juCq
 䯷	sn-juCq
-𠂂	tc_juCq	99
-𣴁	tc_juCq
-汷	tc_juCq
-𣧩	tc_juCq
-螽	tc_juCq
-鼨	tc_juCq
-柊	tc_juCq
-䶱	tc_juCq
-鴤	tc_juCq
-泈	tc_juCq		#𣴁
-終	tc_juCq
-蔠	tc_juCq
-䈺	tc_juCq
-潀	tc_juCq
-𧑄	tc_juCq		#螽
-𩅧	tc_juCq		#𩅉
-䝦	tc_juCq
+𠂂	tcjuCq	99
+𣴁	tcjuCq
+汷	tcjuCq
+𣧩	tcjuCq
+螽	tcjuCq
+鼨	tcjuCq
+柊	tcjuCq
+䶱	tcjuCq
+鴤	tcjuCq
+泈	tcjuCq		#𣴁
+終	tcjuCq
+蔠	tcjuCq
+䈺	tcjuCq
+潀	tcjuCq
+𧑄	tcjuCq		#螽
+𩅧	tcjuCq		#𩅉
+䝦	tcjuCq
 𩌮	Lzcjokq		#𤉐
 𩌮	zL-jokq
 𩎇	zL-jokq
@@ -28724,8 +28724,8 @@ import_tables:
 窿	ljuCq
 霳	ljuCq
 #
-眾	tc_juCq	1
-眾	tc_juCs	999
+眾	tcjuCq	1
+眾	tcjuCs	999
 蟲	LR_xuCq
 爞	LR_xuCq
 蟲	LR_xuCs	3
@@ -28881,22 +28881,22 @@ import_tables:
 閰	kvI;kq		#臼
 𦥑	kvI;kq
 ##uk
-𡔊	dc_jukq		#羞
-𦏧	dc_jukq
-孰	dc_jukq
-熟	dc_jukq
-䃞	dc_jukq
-塾	dc_jukq
-𨷙	dc_jukq
+𡔊	dcjukq		#羞
+𦏧	dcjukq
+孰	dcjukq
+熟	dcjukq
+䃞	dcjukq
+塾	dcjukq
+𨷙	dcjukq
 粥	JLjukq		#?
 𤳕	JLjukq
 鬻	JLjukq
 粥	tscjukq		#?鬻
-喌	tc_jukq		#州
-柷	tc_jukq
-柷	thc_jukq
-呪	tc_jukq
-祝	tc_jukq		#巫也
+喌	tcjukq		#州
+柷	tcjukq
+柷	thcjukq
+呪	tcjukq
+祝	tcjukq		#巫也
 𡖊	sjukq	999
 𠈇	sjukq	99		#㐁
 𠉦	sjukq
@@ -29067,7 +29067,7 @@ import_tables:
 慉	hsiukq
 荲	hsiukq	9		#蓄訓
 𥴁	tRxukq		#荲
-璹	dc_jukq
+璹	dcjukq
 衄	ncjukq
 𨴖	tsshxukq		#閦
 竺	tRxukq
@@ -29156,15 +29156,15 @@ import_tables:
 𦟠	tsjivkq
 顣	tsjivkq
 䙘	tsjivkq
-琡	tc_jivkq
-俶	thc_jivkq
-琡	thc_jivkq
-𣥹	thc_jivkq
-埱	thc_jivkq
-𡜔	dc_jivkq
-𰛧	dc_jivkq
-婌	dc_jivkq
-淑	dc_jivkq
+琡	tcjivkq
+俶	thcjivkq
+琡	thcjivkq
+𣥹	thcjivkq
+埱	thcjivkq
+𡜔	dcjivkq
+𰛧	dcjivkq
+婌	dcjivkq
+淑	dcjivkq
 尗	st-cjivkq		#st秌#尗ts-i-v-k #叔t-u-k
 茮	st-cjivkq
 鮛	st-cjivkq
@@ -29422,14 +29422,14 @@ import_tables:
 黽	mjiCA		#?鄳
 僶	mjiCA
 澠	mjiCA
-挋	kc_jiCs
-䢻	kc_jiCs
-臣	gc_jiCq		#
-茞	gc_jiCq
-䢻	gc_jiCq
+挋	kcjiCs
+䢻	kcjiCs
+臣	gcjiCq		#
+茞	gcjiCq
+䢻	gcjiCq
 頣	sk-cjiCA
 緊	kjiCA
-腎	gc_jiCA
+腎	gcjiCA
 𦜌	kjiCA
 𤷌	kjiCA
 𧼒	khjiCA
@@ -29543,13 +29543,13 @@ import_tables:
 室	st-cjikq		#
 𩋡	st-cjikq
 臸	ncjikq
-晊	tc_jikq
-郅	tc_jikq
-桎	tc_jikq
-蛭	tc_jikq
-銍	tc_jikq
-侄	tc_jikq
-騭	tc_jikq		#
+晊	tcjikq
+郅	tcjikq
+桎	tcjikq
+蛭	tcjikq
+銍	tcjikq
+侄	tcjikq
+騭	tcjikq		#
 日	ncjikq
 𡆠	ncjikq
 馹	ncjikq
@@ -29570,7 +29570,7 @@ import_tables:
 汮	kyiCq
 呁	kyiCs
 𧥺	kyiCs
-𢗋	gc_yiCq		#?
+𢗋	gcyiCq		#?
 畇	sq-yiCq
 𠣙	zq-yiCq
 畇	zq-yiCq
@@ -29578,8 +29578,7 @@ import_tables:
 勻	JQyiCq		#s-k? ɢ V-#勻V-v-i-C
 匀	JQyiCq
 畇	JQyiCq
-𦚧	thc_yiCA		#?
-# 眴	CcyuCq	9		#訓瞤
+𦚧	thcyiCA		#?
 # 眴	scyiCs		#訓瞬
 郇	sq-yiCq
 詢	sq-yiCq
@@ -30136,30 +30135,30 @@ import_tables:
 仙	sjaRq		#僊
 苮	sjaRq
 秈	sjaRq
-灛	thc_jaRA
-闡	thc_jaRA
-樿	tc_jaRA
-燀	tc_jaRA
-燀	thc_jaRq
-燀	thc_jaRA
-繟	thc_jaRA
-䵐	thc_jaRA
-幝	thc_jaRA
-𨼒	thc_jaRA
-嘽	thc_jaRA
-蟬	dc_jaRq
-撣	dc_jaRq
-僤	dc_jaRq
-禪	dc_jaRq
-嬋	dc_jaRq
-單	dc_jaRq	2
-墠	dc_jaRA
-鱓	dc_jaRA
-單	dc_jaRA	2
-禪	dc_jaRs
-𦉕	dc_jaRs
-單	dc_jaRs	2
-戰	tc_jaRs
+灛	thcjaRA
+闡	thcjaRA
+樿	tcjaRA
+燀	tcjaRA
+燀	thcjaRq
+燀	thcjaRA
+繟	thcjaRA
+䵐	thcjaRA
+幝	thcjaRA
+𨼒	thcjaRA
+嘽	thcjaRA
+蟬	dcjaRq
+撣	dcjaRq
+僤	dcjaRq
+禪	dcjaRq
+嬋	dcjaRq
+單	dcjaRq	2
+墠	dcjaRA
+鱓	dcjaRA
+單	dcjaRA	2
+禪	dcjaRs
+𦉕	dcjaRs
+單	dcjaRs	2
+戰	tcjaRs
 扇	LscjaRq		#Ls
 煽	LscjaRq
 煽	LscjaRs
@@ -30796,13 +30795,13 @@ import_tables:
 傻	ssfoA		#夋
 傻	ssfos
 ##yor
-𥳙	dc_yoRq
-圌	dc_yoRq
-𦓝	tc_yoRA
-惴	tc_yoRs
-𦦇	tc_yoRs
-篅	dc_yoRq
-瑞	dc_yoRs
+𥳙	dcyoRq
+圌	dcyoRq
+𦓝	tcyoRA
+惴	tcyoRs
+𦦇	tcyoRs
+篅	dcyoRq
+瑞	dcyoRs
 臇	tsyoRq		#雋ts-o-R
 㷷	tsyoRq		#臇#巽ts-o-R
 𤎱	tsyoRq
@@ -30827,22 +30826,22 @@ import_tables:
 隽	dzyoRA
 𤺻	dzyoRA
 𦼱	dzyoRA
-遄	dc_yoRq
-圌	dc_yoRq
-顓	tc_yoRq
-諯	tc_yoRq
-湍	tc_yoRq
-剬	tc_yoRA
-𦓝	tc_yoRA
-喘	thc_yoRA
-㪜	thc_yoRA
-諯	thc_yoRs
-篅	dc_yoRq
-諯	dc_yoRq
-輲	dc_yoRq
-椯	dc_yoRq
-歂	dc_yoRq
-腨	dc_yoRA
-歂	dc_yoRA
-踹	dc_yoRA
+遄	dcyoRq
+圌	dcyoRq
+顓	tcyoRq
+諯	tcyoRq
+湍	tcyoRq
+剬	tcyoRA
+𦓝	tcyoRA
+喘	thcyoRA
+㪜	thcyoRA
+諯	thcyoRs
+篅	dcyoRq
+諯	dcyoRq
+輲	dcyoRq
+椯	dcyoRq
+歂	dcyoRq
+腨	dcyoRA
+歂	dcyoRA
+踹	dcyoRA
 諯	tshyoRs
