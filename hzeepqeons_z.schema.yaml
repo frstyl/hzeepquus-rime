@@ -63,7 +63,7 @@ speller:
     - derive/-//
     - derive/_//
     - derive/._// #无用
-    # - derive/[Fcq]_// #无用
+    - derive/[Fq]_// #无用
     - derive/,/ʌ/
     - derive/;/ə/
     - derive/ʌ/oe/
@@ -74,11 +74,14 @@ speller:
     - derive/^(d?)(Z|zs)/$1z/
     - derive/^(hz|E)/g/
 
+    - derive/(a)a([qAs])/$1o$2/ #二等 aa ao
+    - derive/u[uo]([qAs])/iov$1/ #o-v 
+    - derive/yo([qAs])/jov$1/
+    - derive/wo([qAs])/xov$1/
     - derive/(u)v/$1/ #uv
-    - derive/(ao)v/$1/ #ov
-    # - derive/[o]ov([qAs])$/əu$1/ #ov 侯
-    # - derive/[jrxi]ov([qAs])$/eu$1/ #ov 幽 eu=eiu
-    # - derive/[jrxi]əv([qAs])$/iu$1/ #ov 尤
+    - derive/([oir]u)v([qAs])$/$1$2/ #u-v 侯尤幽
+    - derive/(u)v/$1/ #uv 侯尤幽
+
 ##
     - derive/^(Lsh[Rc]?|Lsc)/ls/
     - derive/^(L(?!sh)[Rc]?|JL|Lzc)/lz/
