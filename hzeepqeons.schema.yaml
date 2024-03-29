@@ -88,7 +88,7 @@ speller:
     - derive/^(C)(?=[cR])/n/ #古?
 
     - derive/^(h[mnCLRqQV]s|hsq|ngs|[mnCqQV]s|[hX]s|X)/h/
-    # - derive/^(hqz|Xqz|Xq|qz|Xz)/q/ #无別
+    - derive/^(hqz|Xqz|Xq|qz|Xz|Q)/q/
 ##古𧜰
     - derive/^(.+)L-/$1ll/ ##ll=L(![sz])
     - fuzz/^([sz][ptkmnCLRqQV])[sc]/$1/ #心生書s ss sc
@@ -147,7 +147,7 @@ speller:
     - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
     - derive/(J[QLq]?|[tdnLsz]c)[uyU][iu]([jlrndzt])/$1u$2/ #yu yi
     - derive/(J[QLq]?|[tdnLsz]c)[uyU][eo]([jlrndzt])/$1o$2/ #yo ye
-    - derive/(J[QLq]?|[kgtdnCLsz]c)[uyU][uo]([jlrndzt])/$1$2/
+    - derive/(J[QLq]?|[kgtdnCLsz]c)[uyU]([uo][jlrndzt])/$1$2/
     - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
 
 ##韻補
@@ -345,7 +345,7 @@ speller:
     # - erase/^[a-z][zhcgqs].+$/
     # - abbrev/^([a-z])[^szhcgqrl].*$/$1/ #𥳑
 
-    - abbrev/^([a-zA-Z])[aeiouvfIUjyxwə].*$/$1/ #𥳑
+    - abbrev/^([a-zA-Z])[aeiouvfIUjyxwəʌ;,].*$/$1/ #𥳑
 ####轉寫
     - derive/-//
     - derive/_//
@@ -433,6 +433,7 @@ translator:
     - xform/_//
     - xform/;/ə/
     - xform/,/ʌ/
+    - xform/([mnCptkr])q$/$1/
     - xform/([IUW])/\L$1/
     - xform/([Y])/v/
     # - xform/^s[ptkLRmnCq]s?/s/

@@ -63,7 +63,7 @@ speller:
   delimiter: "'"
   algebra:
 ####
-    - derive/[Fq]_//
+    - derive/[FcqR]_//
     - derive/-//
     - derive/_//
 
@@ -178,7 +178,7 @@ speller:
     - derive/^(C)(?=[cR])/n/
 
     - derive/^(h[mnCLRqQV]s|hsq|ngs|[mnCqQV]s|[hX]s|X)/h/
-    # - derive/^(hqz|Xqz|Xq|qz|Xz)/q/ #无別
+    - derive/^(hqz|Xqz|Xq|qz|Xz|Q)/q/
 
 ####聲-介
     - derive/^(tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)i([aeiouəʌ])/$1x$2/
@@ -188,7 +188,7 @@ speller:
     # - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)[ijrx]([aeiouəʌ])/$1i$2/ #i=jx 在Jj前
     # - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)[uyw]([aeiouəʌ])/$1u$2/
 ##古?
-    - derive/^(Jqz?|J[QV]|JL|J)/j/ #l
+    - derive/^(Jqz?|J[qQV]|JL|J)/j/ #l
 ####中
     - derive/^([pbm])F/$1/
 
