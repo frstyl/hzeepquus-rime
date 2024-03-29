@@ -125,26 +125,33 @@ speller:
     - derive/vi/u/ #io vio 介
     - derive/vI/U/
 ##聲介韻
-    - derive/(?<![sz])[ScR][Ijrxi]([iu])[əʌ]/$1/ #
+    - derive/(?<!^[JQLqc])[Ijrxi][əʌ]/i/ #ə
+    - derive/(?<!^[JQLqc])[UyWwu][əʌ]/u/
+    - derive/(?<!^)[SR][Ijrxi]([əʌ])/i/
+    - derive/(?<!^)[SR][UyWwu]([əʌ])/u/
+    - derive/^(th?|d|n|kh?|g|C)c[Ijrxi]([əʌ])/$1i/
+    - derive/^(th?|d|n|kh?|g|C)c[UyWwu]([əʌ])/$1u/ #i
     - derive/v[Ijrxi](ə|ʌ)/u/ #viə
 
-    - derive/(?<![sz])[ScR][Ijrxi](i)/i/ #i
-    - derive/tsc(h)[Uyu](i|u)/th$1u/
-    - derive/dzc[Uyu](i|u)/du/
+    - derive/[Ijrxi](i)/i/ 
+    - derive/^(th?|d|n|kh?|g|C)c[Ijrxi](i)/$1i/  #除以書章
+    - derive/[SR][Ijrxi](i)/i/ #i
+
 
     - derive/(?<![JQLqScR])[IUjyiurWxw][uo]/u/ #iu- io- uu uo 以雲神 知莊除外 引擎不支持變長
     - derive/([kgtdnCL][cR]|[tk]h[cR]|t?sS|d?zS|tsSh)[IUjyiurWxw][uo]/$1u/
-    - derive/dzc[IUjyiu][uo]/du/
-    - derive/tsc(h)[IUjyiu][uo]/th$1u/
 
+
+    - derive/(J[QLq]?|[ScR])[Uyu][iu]([jlrndzt])/$1u$2/ #yu yi
+    - derive/tsc(h)[Uyu](i|u)/th$1u/
+    - derive/dzc[Uyu](i|u)/du/
+    - derive/(J[QLq]?|[ScR])[Uyu][eo]([jlrndzt])/$1o$2/ #yo ye
+    - derive/(J[QLq]?|[ScR])[Uyu]([uo][jlrndzt])/$1$2/ #q有二 
+
+    - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
     - fuzz/o(o|u)(?![qAs])/o/ #ou oo -v -m -C
     - fuzz/v(o|u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
     
-    - derive/(J[QLq]?|[ScR])[Uyu][iu]([jlrndzt])/$1u$2/ #yu yi
-    - derive/(J[QLq]?|[ScR])[Uyu][eo]([jlrndzt])/$1o$2/ #yo ye
-    - derive/(J[QLq]?|[ScR])[Uyu]([uo][jlrndzt])/$1$2/ #q有二 
-    - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
-
 ##韻補
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
     # - derive/([\w]v?)o([qhsA])/$1ia$2/
