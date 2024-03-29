@@ -86,8 +86,7 @@ speller:
     - derive/[pt]s$/r/
     - derive/ks$/s/
 ####聲古
-    - derive/^[mnCLRqQV]([sz][sc])/$1/
-
+    - derive/^[mnCLRqQV]([sz][Sc])/$1/    
     - derive/^([LR])(?!zc)/d/
     - derive/^([LRn]sh)/th/
     - derive/^(C)(?=[cR])/n/
@@ -96,11 +95,11 @@ speller:
     - derive/^(hqz|Xqz|Xq|qz|Xz|Q)/q/
 ##古𧜰
     - derive/^(.+)L-/$1ll/ #?
-    - fuzz/^([sz][ptkmnCLRqQV])[sc]/$1/
+    - fuzz/^([sz][ptkmnCLRqQV])[Sc]/$1/
 ##
     - derive/^(th|t|d|n)[cR]/$1/
-    - derive/^(t?)(S|ss)/$1s/ #tsz sz
-    - derive/^(d?)(Z|zs)/$1z/
+    - derive/^(t?s)S/$1/ #tsz sz
+    - derive/^(d?z)S/$1/
     - derive/^(hz|E)/g/
 
     - derive/^(tsch)/th/
@@ -110,9 +109,7 @@ speller:
     - derive/^(tsc)/k/
     - derive/^(dzc)/g/
 
-    - derive/^(hqz|hzq?|Xqz?|Xz|qz|h[QV]|Q|V|E)/q/ #雲一 hqz E
-    - derive/^J[qQV]/q/ #雲三A 雲爲BC
-    - derive/^(Jqz?|J[qQV]|JL|J)/j/ 
+
 ##
     - derive/^(Lsh[Rc]?|Lsc)/ls/
     - derive/^(L(?!sh)[Rc]?|JL|Lzc)/lz/
@@ -122,6 +119,13 @@ speller:
     - derive/^(hns|ns[Rc]?)/ns/
     - derive/^(h?Cs)/ngs/
     - derive/^(h?qs)/qs/
+##
+    - derive/^(hqz|hzq?|Xqz?|Xz|qz|h[QV]|Q|V|E)/q/ #雲一 hqz E
+    - derive/^J[qQV]/q/ #雲三A 雲爲BC
+    - derive/^(Jqz?|J[qQV]|JL|J)/J/    
+    - derive/^L[Rc]?/J/
+    - derive/^([sz])[ptk]s?/$1c/
+    - derive/^[mnCLRqQV]([sz])[cs]/$1c/
 ##
     - derive/(a)a([qAs])/$1o$2/ #二等 aa ao
     - derive/V([ijx])o([qAs])/$1ov$2/ #o-v - xform
@@ -166,21 +170,16 @@ speller:
 ##尾
     # - derive/(?<!^)[qAs]$//
     - fuzz/jq$/$1/
-
-
-    - derive/vs$/y/
-    - derive/vA$/w/
-    - derive/vk$/f/
-    - derive/R([qAs])$/l$1/  
     - derive/(?<!^)q$//
 ##
-    - abbrev/^(([kghA]|kh?)[VL])[aeiouvfIUjyxwəʌ;,].*$/$1/ #𥳑
+    - abbrev/^(([kghACq]|kh?|qs)[VL])[aeiouvfIUjyxwəʌ;,].*$/$1/ #𥳑
     - abbrev/^([a-zA-Z])[aeiouvfIUjyxwəʌ;,].*$/$1/ #𥳑
 ##轉寫
     - derive/-//
     - derive/_//
-    - derive/^(J)/j/
-    - derive/^q(s)V/v$1/
+    - derive/^J(.*$)/j$1/ #?
+    - derive/^qV/v/
+    - derive/^qsV/y/
     #- derive/A/hq/
     #- derive/E/hz/
     #- derive/C/ng/
@@ -190,13 +189,17 @@ speller:
     - derive/L/ll/
     - derive/R/rr/
     - derive/V/vv/
-    - derive/^(R[R]?|l)/rz/
-    - derive/Rsh?[R]?/rs/
-    - derive/L(cR)?/lz/
-    - derive/Ls(h?[cR]?)/ls/
+    - derive/^sL/sl/
+    - derive/^sR/sr/
+    - derive/^ls/js/
+   # - derive/^ls/ls/
 ##
     - derive/([ptk])s$/$1h/
-
+    - derive/vs$/y/
+    - derive/vA$/w/
+    - derive/vk$/f/
+    - derive/R([qAs])$/l$1/  
+    
     # - derive/(ʌ|ə)/;/ #EOə eo
     - derive/oʌ/ʌ/
     - derive/eə/ə/
@@ -236,8 +239,6 @@ translator:
     # - xform/^[nL]zc/zc/
     - xform/A/ʔ/
     - xform/E/ɦ/
-    - xform/S/ʃ/
-    - xform/Z/ʒ/
     # - xform/sR/ʂ/
     # - xform/zR/ʐ/
     # - xform/tR/ʈ/
@@ -262,6 +263,7 @@ translator:
     - xform/7/zc/
     - xform/8/ts/
     - xform/9/dz/
+    - xform/^y/qs/
 
 pinyin_lookup:
   dictionary: luna_pinyin

@@ -125,8 +125,8 @@ speller:
     # - derive/([oir]u)v([qAs])$/$1$2/ #u-v 侯尤幽
     - derive/(u)v/$1/ #uv 侯尤幽
     - derive/(ao)v/$1/ #ao-v
-    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)a([aeiou;,])/$1r$2/ #莊R
-    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z)f([aeiou;,])/$1W$2/ #莊R
+    - fuzz/(tsSh?|dzS|sS|zS)a([aeiou;,])/$1r$2/ #莊R
+    - fuzz/(tsSh?|dzS|sS|zS)f([aeiou;,])/$1W$2/ #莊R
 ##補
     # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
     # - derive/([\w]v?)o([qhsA])/$1ia$2/
@@ -158,8 +158,8 @@ speller:
     # - derive/(e)(a|e|i|u|ə)/$1/ #e四等 
 
     - derive/[Ij]([aeiouəʌ;,])/$1/ #三 省
-    - derive/(?<![sz]s|rr)i([aeiouəʌ;,])/$1/
-    - derive/(?<![SZR])i([aeiouəʌ;,])/$1/
+    - derive/(?<![SR])i([aeiouəʌ;,])/$1/
+
     # - derive/(?<=[sz]s|rr)[rx]([aeiouəʌ;,])/$1/
     # - derive/(?<=[SZR])[rx]([aeiouəʌ;,])/$1/
 
@@ -171,7 +171,7 @@ speller:
     # - derive/[Uyw](ə|ʌ|a|e|i|o|u|;)/u$1/
 ####聲
 ##古
-    - derive/^[mnCLRqQV]([sz][sc])/$1/
+    - derive/^[mnCLRqQV]([sz][Sc])/$1/
 
     - derive/^([LR])(?!zc)/d/
     - derive/^([LRn]sh)/th/
@@ -181,9 +181,8 @@ speller:
     - derive/^(hqz|Xqz|Xq|qz|Xz|Q)/q/
 
 ####聲-介
-    - derive/^(tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)i([aeiouəʌ])/$1x$2/
-    - derive/^(tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)u([aeiouəʌ])/$1w$2/
-    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
+    - derive/^((tsh|ts?|d?z)S|([tdn]|th)R)i([aeiouəʌ])/$1x$4/
+    - derive/^((tsh|ts?|d?z)S|([tdn]|th)R)u([aeiouəʌ])/$1w$4/    # - derive/^([Jl]|t?sc?h?|d?zc?|nc)i([aeiouəʌ])/$1j$2/
     # - derive/^([Jl]|t?sc?h?|d?zc?|nc)u([aeiouəʌ])/$1y$2/
     # - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)[ijrx]([aeiouəʌ])/$1i$2/ #i=jx 在Jj前
     # - derive/^([Jl]|t?s?c?h?|d?z?c?|nc|tSh?|d?Z|S|tssh?|d?zs|ss|th?R|dR|nR)[uyw]([aeiouəʌ])/$1u$2/
@@ -195,8 +194,7 @@ speller:
     - derive/^(kh|k|g|C)[cq]/$1/
     - derive/^(th|t|d|n)[cR]/$1/
 
-    - derive/^(t?)(S|ss)/$1s/ #tsz sz
-    - derive/^(d?)(Z|zs)/$1z/
+    - derive/^(t?s|d?z)S(h?)/$1$2/ #tsz sz
     - derive/^(hg|hz|E)/g/
 
     - derive/^(tsch)/th/ #章組不獨立 sc半獨立
@@ -239,7 +237,7 @@ speller:
     - derive/^(.+)L-/$1ll/ ##ll=L(![sz])
     # - derive/^(c[pbm])F/$1/
 
-    - fuzz/^([sz][ptkmnCLRqQV])[sc]/$1/ #心生書s ss sc
+    - fuzz/^([sz][ptkmnCLRqQV])[Sc]/$1/ #心生書s ss sc
 ##聲母轉寫
 
     # - derive/^([pbm])F/$1ff/
@@ -456,8 +454,6 @@ translator:
     # - xform/^[nL]zc/zc/
     - xform/A/ʔ/
     - xform/E/ɦ/
-    - xform/S/ʃ/
-    - xform/Z/ʒ/
     # - xform/sR/ʂ/
     # - xform/zR/ʐ/
     # - xform/tR/ʈ/

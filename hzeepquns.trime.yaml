@@ -459,8 +459,9 @@ style:
   text_font: latin.ttf #编码字体
   #text_height: 32 #编码区高度
   text_size: 14 #编码区字号
-  vertical_correction: -5
+  vertical_correction: -10 #触摸位置校正（竖直方向）
   vertical_gap: *sgap #键盘行距
+  keyboard_padding_bottom: 0
   enter_label_mode: 0  #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels:  # 定义Enter键的文本
     go: 前往
@@ -614,9 +615,9 @@ preset_color_schemes:
     candidate_separator_color: 0x8e8e8e
     key_back_color: 0x60DEEDB1
     root_background: 1.jpg
-    text_back_color: 0x60DEEDB1 #悬浮窗背景#编码区背景
+    text_back_color: 0x60DEED10 #悬浮窗背景#编码区背景
     text_color: 0x000000 #编码
-
+    hilited_text_color: 0x10ffa0 #0xa8c450
   miux:
     name: "夢"
     back_color: 0x00000000
@@ -626,8 +627,9 @@ preset_color_schemes:
     candidate_separator_color: 0xccff99
     key_back_color: 0x60DEEDB1
     root_background: 3.jpg
-    text_back_color: 0x8e8e8eb1
+    text_back_color: 0x212721f0
     text_color: 0x000000
+    hilited_text_color: 0xff79bc
     preview_back_color: 0x000000 #按键提示背景
     # preview_text_color: *color6 #按键提示文本
   aqua:
@@ -1385,38 +1387,38 @@ preset_keyboards:
     - {click: 5, long_click: "%", swipe_up: "%"}
     - {click: 6, long_click: "^", swipe_up: "^"}
     - {click: 7, long_click: "&", swipe_up: "&"}
-    - {click: 8, long_click: "*", swipe_up: "&"}
+    - {click: 8, long_click: "*", swipe_up: "*"}
     - {click: 9, long_click: "(", swipe_up: "("}
     - {click: 0, long_click: ")", swipe_up: ")"}
-    - {click: q, long_click: _, swipe_up: "_"}
+    - {click: q, long_click: "_", swipe_up: "_"}
     - {click: w, long_click: "-", swipe_up: "-"}
     - {click: e, long_click: "+", swipe_up: "+"}
     - {click: r, long_click: "=", swipe_up: "=", swipe_down: "≠"}
     - {click: t, long_click: "|", swipe_up: "|"}
     - {click: y, long_click: "\\", swipe_up: "\\"}
-    - {click: u, long_click: "[", swipe_up: "「"}
-    - {click: i, long_click: "]", swipe_up: "」"}
+    - {click: u, long_click: "[", swipe_up: "[", swipe_down: "「"}
+    - {click: i, long_click: "]", swipe_up: "]", swipe_down: "」"}
     - {click: o, long_click: "{", swipe_up: "{"}
     - {click: p, long_click: "}", swipe_up: "}"}
     - {width: 5}
     - {click: a, long_click: Insert, swipe_up: select_all}
-    - {click: s, long_click: Delete}
-    - {click: d, long_click: Up}
-    - {click: f, long_click: "~", swipe_up: "~"}
-    - {click: g, long_click: "`", swipe_up: "`"}
-    - {click: h, long_click: "\"", swipe_up: "\""}
-    - {click: j, long_click: "'", swipe_up: "'" }
+    - {click: s, long_click: Delete, swipe_up: Delete}
+    - {click: d, long_click: "~", swipe_up: "~"}
+    - {click: f,  long_click: "`", swipe_up: "`"}
+    - {click: g, long_click: "\"", swipe_up: "\""}
+    - {click: h, long_click: "'", swipe_up: "'" }
+    - {click: j, long_click: Up, swipe_up: Up}
     - {click: k, long_click: BACK, swipe_up: BACK}
     - {click: l, long_click: Escape, swipe_up: Escape}
     - {width: 5}
     - {click: ";", long_click: ":", swipe_up: "：", width: 15}
-    - {click: z, long_click: Left, swipe_up: undo, swipe_down: redo}
-    - {click: x, long_click: Down, swipe_up: cut}
-    - {click: c, long_click: Right, swipe_up: copy}
-    - {click: v, long_click: Home, swipe_up: paste}
-    - {click: b, long_click: End, swipe_up: End}
-    - {click: n, long_click: Page_Up, swipe_up:,Page_up }
-    - {click: m, long_click: Page_Down, swipe_up: Page_Down}
+    - {click: z, long_click: Home, swipe_up: undo, swipe_down: redo}
+    - {click: x, long_click: End, swipe_up: cut}
+    - {click: c, long_click: Page_Up, swipe_up: copy}
+    - {click: v, long_click: Page_Down, swipe_up: paste}
+    - {click: b, long_click: Left , swipe_up: Left}
+    - {click: n, long_click: Down , swipe_up: Down}
+    - {click: m, long_click: Right , swipe_up: Right}
     - {click: BackSpace, width: 15, swpie_up: Tab }
     - {click: Ctrl_L, long_click: Menu}
     - {click: Alt_L, long_click: Keyboard_qwer36_number}
@@ -1424,7 +1426,7 @@ preset_keyboards:
     - {click: ",", long_click: "<", swipe_up: Theme_settings}
     - {click: space, long_click: '	', swipe_right: "Right", swipe_left: "Left", swipe_up: "Up", swipe_down:  "Down",  width: 25}
     - {click: ., long_click: ">", swipe_up: Color_switch}
-    - {click: "/", long_click: "?", , swipe_up: "!"}
+    - {click: "/", long_click: "?", , swipe_up: "?"}
     - {click: Return, long_click: CommitComment, swipe_up: Keyboard_number, swipe_down: Keyboard_default, width: 15}
   tongwen:
     author: "暖暖"
@@ -1482,25 +1484,25 @@ preset_keyboards:
     width: 10
     height: 44
     keys:
-    - {label: '幫', long_click: '-', click: 'p',swipe_up: '0',swipe_down: 'b', width: 20}
-    - {label: '明', long_click: '+', click: 'm',swipe_up: 'ms',swipe_down: 'm5', width: 20}
-    - {label: 'kL', long_click: '5ll', click: 'kll', ,swipe_up: '2ll', swipe_right: 'gll', swipe_left: 'hll',  width: 20}
+    - {label: '幫', long_click: '-', click: 'p',swipe_up: '0',swipe_down: 'b', swipe_right: "sp", swipe_left: "zp", width: 20}
+    - {label: '明', long_click: '+', click: 'm',swipe_up: 'ms',swipe_down: 'm5',swipe_right: "sm", swipe_left: "zm",  width: 20}
+    - {label: 'kL', long_click: '5ll', click: 'kll', ,swipe_up: '2ll', swipe_down: 'gll', swipe_right: '4ll', swipe_left: 'hll',  width: 20}
     - {label: 'i', long_click: '（）{Left}', click: "ji", swipe_up: "ei", swipe_down: "ri", swipe_right: "ai",swipe_left: "i", width: 20}
     - {label: 'u', long_click: '「」{Left}', click: 'ju', swipe_up: "ou", swipe_down: "ru", swipe_right: "au",swipe_left: "u", width: 20}
 
-    - {label: '端', long_click: '_', click: 't', swipe_up: '1', swipe_down: "d", width: 20}
-    - {label: '泥', long_click: '=', click: 'n', ,swipe_up: "ns",swipe_down: 'n5', width: 20}
-    - {label: '來', long_click: '}', click: "l", swipe_up: "ls", swipe_down: "l5",width: 20}
+    - {label: '端', long_click: '_', click: 't', swipe_up: '1', swipe_down: "d", swipe_right: "st", swipe_left: "zd", width: 20}
+    - {label: '泥', long_click: '=', click: 'n', ,swipe_up: "ns",swipe_down: 'n5', swipe_right: "sn", swipe_left: "zn", width: 20}
+    - {label: '來', long_click: '}', click: "l", swipe_up: "ls", swipe_down: "l5", swipe_right: "sr", swipe_left: "zr", width: 20}
     - {label: 'e', long_click: '[', click: "je", swipe_up: "ee", swipe_down: "re", swipe_right: "ae",swipe_left: "e", width: 20}
     - {label: 'o', long_click: '[', click: "jo", swipe_up: "oo", swipe_down: "ro", swipe_right: "ao",swipe_left: "o", width: 20}
 
     - {label: '精', long_click: 't͡s', click: "8", swipe_up: "3", swipe_down: "9", width: 20}
     - {label: '心', long_click: '!', click: 's', swipe_up: "z", width: 20}
-    - {label: '以', long_click: ')', click: 'j', swipe_up: "js",swipe_down: "j5",swipe_right: "r",swipe_left: "ll", width: 20}
+    - {label: '以', long_click: 'r', click: 'j', swipe_up: "js",swipe_down: "j5",swipe_right: "sl",swipe_left: "zl", width: 20}
     - {label: 'a', long_click: '[', click: "ja", swipe_up: "oa", swipe_down: "ra", swipe_right: "aa",swipe_left: "a", width: 20}
     - {label: 'ə', long_click: '[', click: "j;", swipe_up: "e;", swipe_down: "r;", swipe_right: "a;",swipe_left: ";", width: 20}
 
-    - {label: '見', long_click: '`', click: "k", swipe_up: "2", swipe_down: "g", width: 20}
+    - {label: '見', long_click: '`', click: "k", swipe_up: "2", swipe_down: "g",swipe_right: "sk", swipe_left: "zk",  width: 20}
     - {label: '疑', long_click: 'ŋ', click: "4", ,swipe_up: "4s",swipe_down: '45', width: 20}
     # - {label: 'kV', long_click: ')', click: 'kV', swipe_up: "khV",swipe_left: "gV",swipe_right: "AV",swipe_down: "hV",width: 20}
     - {label: '雲', long_click: '∅', click: 'q', swipe_up: "qs",swipe_left: "qz",width: 20}
