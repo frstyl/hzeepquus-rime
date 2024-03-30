@@ -105,9 +105,6 @@ speller:
     - derive/^(tsch)/th/
     - derive/^(tsc)/t/
     - derive/^(dzc)/d/
-    - derive/^(tshc|tsch)/kh/
-    - derive/^(tsc)/k/
-    - derive/^(dzc)/g/
 
 
 ##
@@ -126,9 +123,10 @@ speller:
     - derive/^L[Rc]?/J/
     - derive/^([sz])[ptk]s?/$1c/
     - derive/^[mnCLRqQV]([sz])[cs]/$1c/
+
 ##
     - derive/(a)a([qAs])/$1o$2/ #二等 aa ao
-    - derive/V([ijx])o([qAs])/$1ov$2/ #o-v - xform
+    - xform/V([ijx])o([qAs])/$1ov$2/ #o-v - xform
     #- derive/yo([qAs])/jov$1/
     #- derive/wo([qAs])/xov$1/
     - derive/(u)v/$1/ #uv
@@ -137,13 +135,15 @@ speller:
     - derive/x(aj)/i$1/
     - derive/([ai])j/$1/ #aa用ao
     # - fuzz/[aeiouəʌ；,]j/$1/ #aa用ao
+
+    - derive/^(kh?|g|C|h|q|A)/K/
+    - derive/([^kgChqA]|[^k]h)V([Ijrxi])[iu]([jlrndzt])/$1$2u$3/ #yu yi k組除外
+    - derive/([^kgChqA]|[^k]h)V([Ijrxi])[eo]([jlrndzt])/$1$2o$3/ #yo ye
 ##配合鍵盤
     - derive/ea/ee/
 
-##
-
+##介
     - derive/(?<!v)V([oaxrji][uo])/$1/ # u o
-
 
     - derive/(ph?|b|m)v/$1/
     #- derive/(ph?|b|m)U/$1I/
@@ -172,7 +172,7 @@ speller:
     - fuzz/jq$/$1/
     - derive/(?<!^)q$//
 ##
-    - abbrev/^(([kghACq]|kh?|qs)[VL])[aeiouvfIUjyxwəʌ;,].*$/$1/ #𥳑
+    - abbrev/^(([kgCAhq]|kh)[VL])[aeiouvfIUjyxwəʌ;,].*$/$1/ #𥳑
     - abbrev/^([a-zA-Z])[aeiouvfIUjyxwəʌ;,].*$/$1/ #𥳑
 ##轉寫
     - derive/-//
@@ -199,13 +199,6 @@ speller:
     - derive/vA$/w/
     - derive/vk$/f/
     - derive/R([qAs])$/l$1/  
-    
-    # - derive/(ʌ|ə)/;/ #EOə eo
-    - derive/oʌ/ʌ/
-    - derive/eə/ə/
-    - derive/ʌ/oe/
-    - derive/ə/eo/
-    - derive/(ʌ|ə)/ea/
 ##
     - derive/[;,]/;/
     - derive/ph/0/
@@ -239,6 +232,10 @@ translator:
     # - xform/^[nL]zc/zc/
     - xform/A/ʔ/
     - xform/E/ɦ/
+    - xform/^(t?)sc/$1ɕ/
+    - xform/^(d?)zc/$1ʑ/
+    - xform/^(t?)sS/$1ʃ/
+    - xform/^(d?)zS/$1ʒ/
     # - xform/sR/ʂ/
     # - xform/zR/ʐ/
     # - xform/tR/ʈ/
@@ -264,6 +261,8 @@ translator:
     - xform/8/ts/
     - xform/9/dz/
     - xform/^y/qs/
+    - xform/^v/Q/ 
+    - xform/vv/V/ 
 
 pinyin_lookup:
   dictionary: luna_pinyin

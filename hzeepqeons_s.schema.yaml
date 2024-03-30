@@ -118,8 +118,7 @@ speller:
     # - fuzz/o(ə|ʌ)([mbfpvwy])/o$2/ #əm
 
     - derive/[Uyu]([ou])([jlrndzt][qAs]?)$/$1$2/
-    - derive/[Uyu]i([jlrndzt][qAs]?)$/$1u$2/ #yu yi
-    - derive/[Uyu]e([jlrndzt][qAs]?)$/$1o$2/
+
 
 ####韻-介-尾 (+) 介後
     # - derive/([oir]u)v([qAs])$/$1$2/ #u-v 侯尤幽
@@ -266,7 +265,11 @@ speller:
     - derive/^(ph|p|b|m)[uUy]([aeiouʌə;,])/$1$2/
     - derive/^(ph|p|b|m)vi([aeiouʌə;,])/$1$2/
 
-    - fuzz/(tssh?|dzs|ss|zs|tSh?|dZ|S|Z|th?R|dR|nR)[irx]([aeiou;,])/$1$2/ #-R
+    - fuzz/(t?sS|d?zS|tsSh|th?R|dR|nR)[irx]([aeiou;,])/$1$2/ #-R
+##聲介韻
+    - derive/^(kh?|g|C|h|q|A)/K/    
+    - derive/([^kgChqA]|[^k]h)([UywWu])[iu]([jlrndzt])/$1$2u$3/ #yu yi k組除外
+    - derive/([^kgChqA]|[^k]h)([UywWu])[eo]([jlrndzt])/$1$2o$3/ #yo ye
 ####尾
     - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
     # - fuzz/(?<!^)[j][q]$/j/
@@ -454,6 +457,10 @@ translator:
     # - xform/^[nL]zc/zc/
     - xform/A/ʔ/
     - xform/E/ɦ/
+    - xform/^(t?)sc/$1ɕ/
+    - xform/^(d?)zc/$1ʑ/
+    - xform/^(t?)sS/$1ʃ/
+    - xform/^(d?)zS/$1ʒ/
     # - xform/sR/ʂ/
     # - xform/zR/ʐ/
     # - xform/tR/ʈ/
