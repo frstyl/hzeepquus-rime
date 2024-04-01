@@ -69,16 +69,16 @@ speller:
     - derive/ʌ/oe/
     - derive/ə/eo/
 
-    - derive/^(th|t|d|n)[cR]/$1/
+    - derive/^(th|t|d|n)[JR]/$1/
     - derive/^(t?s)S/$1/ #tsz sz
     - derive/^(d?z)S/$1/
     - derive/^(E|hz)/g/
     - derive/^(E|hz|hg|hQ)/E/
 
-    - derive/^(Lsh[Rc]?|Lsc)/ls/
-    - derive/^(L(?!sh)[Rc]?|JL|Lzc)/lz/
-    - derive/^(Rsh[Rc]?)/rs/
-    - derive/^(R(?!sh)[Rc]?|l)/rz/
+    - derive/^(Lsh[RJ]?|LsJ)/ls/
+    - derive/^(L(?!sh)[RJ]?|JL|LzJ)/lz/
+    - derive/^(Rsh[RJ]?)/rs/
+    - derive/^(R(?!sh)[RJ]?|l)/rz/
     - derive/^(hms|msF?)/ms/
     - derive/^(hns|ns[Rc]?)/ns/
     - derive/^(h?Cs)/ngs/
@@ -109,21 +109,21 @@ speller:
     - derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/I/ #聲
     - derive/^(pFh|pF|bF|mF)(?!$)/IF/
     - derive/^(pFh|pF|bF|mF|ph|p|b|m)(?!$)/Ip/
-    - derive/^((th|t|d|n)[Rc]?|[sz]t-[sc]?)(?!$)/It/
-    - derive/^(tss?h?|dzs?|(tSh?|dZ))(?!$)/Its/
-    - derive/^([sz][sz]?)(?!$)/Is/
+    - derive/^((th|t|d|n)[RJ]?|[sz]t[SJ]?)(?!$)/It/
+    - derive/^(tsS?h|d?zS?|t?sS?)(?!$)/Its/
+    - derive/^([sz][S]?)(?!$)/Is/
   
     - derive/^(ng[qc]?|C[qc]?|kh?[qc]?|gc?|hg|[sz][kCq][sc]?|X)(?!L)/Ik/
-    - derive/^(ng|C|kh?|g|hg|sq|X|h)L[qc]?(?!$)/IkL/
+    - derive/^(ng|C|kh?|g|hg|sq|X|h)L[qJ]?(?!$)/IkL/
     - derive/^(x[sz]|hz|xq|hq|h|E|A)(?!$)/Ih/
 
 #
-    - derive/^([sz][kqC][sc]?|h[Cq]s|ng[qcs]?|C[qcs]?|kh?[cq]?|gc?|hz|hg|E|hqz|Xqz|Xq|Xz|qs|Jq|q|hq|A|h|X)(?!$)/IK/
-    - derive/^((L(sh)?[rc]?)|(L[sz]c)|[sz]Ls?|JL?)(?!$)/IL/
-    - derive/^((R(z?|sh))|[sz]R[scz]?|c?l)(?!$)/IR/
-    - derive/^(h?ms|[sz]m[sc]?|mF?)(?!$)/IM/
-    - derive/^(hns|ns[Rc]?|[sz]n[scz]?|n[Rc]?)(?!$)/IN/
-    - derive/^(hCs|[sz]C[sc]?|ng[qcs]?|C[qcs]?)(?!$)/IC/
+    - derive/^([sz][kqC][SJ]?|h[Cq]s|ng[qSJ]?|C[qSJ]?|kh?[Jq]?|gJ?|hz|hg|E|hqz|Xqz|Xq|Xz|qs|Jq|q|hq|A|h|X)(?!$)/IK/
+    - derive/^((L(sh)?[RJ]?)|(L[sz]J)|[sz]Ls?|JL?)(?!$)/IL/
+    - derive/^((R(z?|sh))|[sz]R[SJ]?|.l)(?!$)/IR/
+    - derive/^(h?ms|[sz]m[SJ]?|mF?)(?!$)/IM/
+    - derive/^(hns|ns[RJ]?|[sz]n[SJ]?|n[RJ]?)(?!$)/IN/
+    - derive/^(hCs|[sz]C[SJ]?|ng[qSJ]?|C[qSJ]?)(?!$)/IC/
 # #
     - derive/(v?[oeviujyxwaf]?)([aeiou]|ə|ʌ)([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/U/
     - derive/(v?[oeviujyxwaf]?)([aeiou]|ə|ʌ)([qAsjlrvwyCgxkmbfpndzt]([ptk]|sk)?)$/$1U/

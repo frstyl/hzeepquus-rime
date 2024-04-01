@@ -1506,7 +1506,7 @@ preset_keyboards:
     - {label: '疑', long_click: 'ŋ', click: "4", ,swipe_up: "4s",swipe_down: '45', width: 20}
     # - {label: 'kV', long_click: ')', click: 'kV', swipe_up: "khV",swipe_left: "gV",swipe_right: "AV",swipe_down: "hV",width: 20}
     - {label: '雲', long_click: '∅', click: 'q', swipe_up: "qs",swipe_left: "qz",width: 20}
-    - {label: '書', long_click: 'ɕ', click: '6', swipe_up: "7",width: 20} #Lsc s[ptk]
+    - {label: '書', long_click: 'ɕ', click: '6', swipe_up: "hs", swipe_down: "7", width: 20} #Lsc s[ptk]
     - {click: BackSpace, swipe_up: "，", swipe_down: "。", width: 20}
 
     - {label: '影', long_click: 'ʔ', click: "5", swipe_up: "h", swipe_down: "hz",  width: 20}
