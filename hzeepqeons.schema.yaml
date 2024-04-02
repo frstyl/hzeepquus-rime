@@ -134,6 +134,18 @@ speller:
     - fuzz/([oveYiujyrWxwafIU]i)C/$1n/ #iŋ in ij it eŋ eq ek
     - fuzz/([oveYiujyrWxwafIU]i)g/$1d/ #iŋ
     - fuzz/([oveYiujyrWxwafIU]i)x/$1z/ #iŋ
+
+##韻補
+    # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
+    # - derive/([\w]v?)o([qhsA])/$1ia$2/
+
+    - derive/(a)a([qAs])/$1o$2/ #二等 aa ao
+    - derive/u[uo]([qAs])/iov$1/ #o-v 
+    - derive/yo([qAs])/jov$1/
+    - derive/wo([qAs])/xov$1/
+    # - derive/([oir]u)v([qAs])$/$1$2/ #u-v 侯尤幽
+    - derive/(u)v/$1/ #uv 侯尤幽
+    - fuzz/(ao)v/$1/ #ao-v
 ##元音-尾
     - derive/v(o[jlrndzt])/$1/ #von voj
     # - fuzz/(v)ə([jlrndzt][qAs]?)$/$1o$2/ #və vo
@@ -201,17 +213,6 @@ speller:
     - derive/^(J|l|t?s[Sc]|d?z[Sc]|ts[Sc]h|th?R|dR|n[Rc])[jrxi]([aeiouəʌ])/$1i$2/ #i=jx 在Jj前
     - derive/^(J|l|t?s[Sc]|d?z[Sc]|ts[Sc]h|th?R|dR|n[Rc])[yWwu]([aeiouəʌ])/$1u$2/
 
-##韻補
-    # - derive/([\w])vio([qhsA])/$1ua$2/ #ua uo魚
-    # - derive/([\w]v?)o([qhsA])/$1ia$2/
-
-    - derive/(a)a([qAs])/$1o$2/ #二等 aa ao
-    - derive/u[uo]([qAs])/iov$1/ #o-v 
-    - derive/yo([qAs])/jov$1/
-    - derive/wo([qAs])/xov$1/
-    # - derive/([oir]u)v([qAs])$/$1$2/ #u-v 侯尤幽
-    - derive/(u)v/$1/ #uv 侯尤幽
-    - derive/(ao)v/$1/ #ao-v
 ####介
     - derive/Y/v/
     - derive/W/w/
