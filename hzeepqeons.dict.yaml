@@ -3808,8 +3808,9 @@ import_tables:
 ##wuj
 #u?o?
 縋	dRwojs		#?o o#纗䋘
-膇	dRwojs
-槌	dRwojs
+膇	dRwojs		#重膇病或作㾽
+㾽	dRwojs
+槌	dRwojs		#蠶槌 㭙棏
 #
 縋	gL-Rwujs		#k-L-?
 膇	gL-Rwujs
@@ -4894,7 +4895,7 @@ import_tables:
 僿	sj;ks
 䀢	scj;q		#矢?
 沶	JLj;q		#示?
-𥾩	Zx;A		#䋀
+𥾩	zSx;A		#䋀
 筣	lj;q		#利R-i
 ##
 欼	tsShx;A		#𠭋-巳#譌誤
@@ -5275,12 +5276,12 @@ import_tables:
 𠂔	tsSx;A	2		#i
 笫	tsSx;A	2
 胏	tsSx;A	2
-柹	DZZx;A	2		#枾𣐈柿
+柹	dzSx;A	2		#枾𣐈柿
 #?
 𠂔	tsSxij_A
 笫	tsSxij_A
 胏	tsSxij_A
-柹	DZZxij_A
+柹	dzSxij_A
 #
 僖	XL-i;q
 歖	XL-i;q
@@ -20282,8 +20283,8 @@ import_tables:
 鈏	JLjins
 引	JLjins	1
 廴	JLjinA
-# 印	AJIZ		#-ŋ
-# 鮣	AJIZ
+# 印	Ajiz		#-ŋ
+# 鮣	Ajiz
 欥	JLjitq		#L 曰
 婣	Ajinq
 枃	tsjins

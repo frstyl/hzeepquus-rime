@@ -162,12 +162,12 @@ speller:
    # - derive/^(tsch?|d?zc|sc|J[LQq]?)/D/
   #  - derive/^(tsh?|t?s|d?z)/Z/ #
    # - derive/^(kh?|g|C)/K/
-    
+    - derive/^z/Z/
     #- derive/[Ijrxi][;,]/i/
     #- xform/(tsch?|d?zc|sc|J[LQq]?)([Ijrxi][;,])/N/
     #- erase/(tsch?|d?zc|sc|J[LQq]?)([Ijrxi][;,]/
-    - derive/(?<![JQLqcSR])[Ijrxi](ə|ʌ|;|,)/i/ #ə ;?
-    - derive/(?<![JQLqcSR])[UyWwu](ə|ʌ|;|,)/u/
+    - derive/(?<![JQLqcSRZ])[Ijrxi](ə|ʌ|;|,)/i/ #ə ;?
+    - derive/(?<![JQLqcSRZ])[UyWwu](ə|ʌ|;|,)/u/
     - derive/[SR][Ijrxi](ə|ʌ|;|,)/i/
     - derive/[SR][UyWwu](ə|ʌ|;|,)/u/
     - derive/^(th?|d|n|kh?|g|C)J[Ijrxi](ə|ʌ|;|,)/$1i/
@@ -179,23 +179,23 @@ speller:
     - derive/[SR][Ijrxi]([iu])/$1/ #i
 
 
-    - derive/(?<![JQLqScR])[IUjyiurWxw][uo]/u/ #iu- io- uu uo 以雲神 知莊除外 引擎不支持變長
+    - derive/(?<![JQLqScRZ])[IUjyiurWxw][uo]/u/ #iu- io- uu uo 以雲神 知莊除外 引擎不支持變長
     - derive/^(th?|d|n|kh?|g|C)J[IUjyiurWxw]([uo])/$1u/ 
     - derive/[SR][IUjyiurWxw]([uo])/u/
 
 
-    - derive/(J[QLq]?|[SR])[UyWwu][iu]([jlrndzt])/$1u$2/ #yu yi
-    - derive/([dn]J|th?J|[szn]c|tsch)[UyWwu][iu]([jlrndzt])/$1u$2/  #不含k
-    - derive/(J[QLq]?|[SR])[UyWwu][eo]([jlrndzt])/$1o$2/ #yo ye
-    - derive/([dn]J|th?J|[szn]c|tsch)[UyWwu][eo]([jlrndzt])/$1o$2/  
-    - derive/(J[QLq]?|[SR])[UyWwu]([uo][jlrndzt])/$1$2/ #q有二  雲在它處 k?
+    - derive/(^J[QLq]?|[SR]|^Z|[dn]J|th?J|[szn]c|tsch)[UyWwu][iu]([jlrndzt])/$1u$2/ #yu yi
+    #- derive/([)[UyWwu][iu]([jlrndzt])/$1u$2/  #不含k
+    - derive/(^J[QLq]?|[SR]|^Z|[dn]J|th?J|[szn]c|tsch)[UyWwu][eo]([jlrndzt])/$1o$2/ #yo ye
+    #- derive/([dn]J|th?J|[szn]c|tsch)[UyWwu][eo]([jlrndzt])/$1o$2/  
+    - derive/(J[QLq]?|[SR]|^Z)[UyWwu]([uo][jlrndzt])/$1$2/ #q有二  雲在它處 k?
 
 ####聲-介
     - derive/^(J[qQVL]?)[iIj]([aeiouəʌ;,])/$1$2/ #㠯母 三等
     - derive/^(q|Q)[uUy]([aeiouəʌ;,])/$1$2/ #雲母
     - derive/(J|ch?)[iIj]([aeiouəʌ;,])/$1$2/ #書船
     - derive/((ts?|d?z)St|tsSh|([tdn]|th)R)[irx]([aeiou;,])/$1$4/ #-R
-    - derive/^z[iIj]([aeiouəʌ;,])/zz$1/ #邪
+    - derive/^(Z)[iIj]([aeiouəʌ;,])/$1$2/ #邪
 
     - derive/^(hms)v([ʌəo;,])/$1$2/ #幫組 一三
     - derive/^(hms)v([ʌəo;,])/h$2/
@@ -286,7 +286,7 @@ speller:
     - derive/^(th?)R/$1z/ #知
     - derive/^(d)R/$1s/
     - derive/^J/j/
- 
+    - derive/^Z/zz/
 ####尾
     - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
     # - fuzz/(?<!^)[j][q]$/j/
