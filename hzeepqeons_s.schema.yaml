@@ -172,8 +172,7 @@ speller:
 
     - derive/^(hms)[uUy]([aeiouʌə;,])/$1$2/ #幫組 一三
     - derive/^(hms)[uUy]([aeiouʌə;,])/h$2/
-    - derive/^(ph|p|b|m)[uUy]([aeiouʌə;,])/$1$2/
-    - derive/^(ph|p|b|m)vi([aeiouʌə;,])/$1$2/
+    - derive/^(ph|p|b|m)V([Ijrxioa][aeiouʌə;,])/$1$2/
     - derive/(hms|ph|p|b|m)v[ʌə;;,]/$1ea/	#特加
 ##聲介韻
     #- derive/^(kh?|g|C|h|q|A)/K/    
@@ -185,6 +184,7 @@ speller:
     - derive/[Uy]([uo][ndzt])/$1/		#iov uo
     #- derive/([SR]|Sh)[Ww]([uo][ndzt])/$1$2/
     - derive/([SRJ]|Sh)[u]([uo][ndzt])/$1$2/
+    - derive/V([Ijrxioa])([uo][jlrndzt])/$1$2/    #合口元音
 ####介
     - derive/Y/v/
     - derive/W/w/

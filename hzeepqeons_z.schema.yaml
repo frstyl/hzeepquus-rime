@@ -69,6 +69,14 @@ speller:
     - derive/ʌ/oe/
     - derive/ə/eo/
 
+    - derive/u/Vi/ # u o
+    - derive/y/Vj/ #
+    - derive/U/VI/ # u o
+    - derive/f/Va/
+    - derive/w/Vx/
+    - derive/W/Vr/
+    - derive/v/Vo/
+
     - derive/^(th|t|d|n)[JR]/$1/
     - derive/^(t?s)S/$1/ #tsz sz
     - derive/^(d?z)S/$1/
@@ -177,7 +185,7 @@ speller:
 
     - derive/(?<!^)A$/h/
     - derive/(?<!^)C$/c/
-    - derive/j['q]$/$1/
+    - derive/j[q]$/$1/
     # - derive/(?<!^)q$//
 ##轉寫
     - derive/-//
@@ -189,7 +197,8 @@ speller:
     - derive/S/ss/
     - derive/Z/zs/
     - derive/F/fs/
-    - derive/L/ll/
+    - derive/L(?![sz]/ll/
+    - derive/V/vv/
     - derive/R/rr/
     - derive/^(R[R]?|l)/rz/
     - derive/Rsh?[R]?/rs/

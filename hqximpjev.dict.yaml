@@ -5,7 +5,278 @@ use_preset_vocabulary: true
 import_tables:
   - emoji
 ...
-𐤀	alf
+####音幖
+# p p		#一位一符本不分清濁送气
+# pʰ	ph
+# b b
+# fʰ	Fh
+# v Fz
+# t t
+# d d
+ʈ	tR
+ɖ	dR
+ʈ	trr
+ɖ	drr
+ȶ	tc		#非音幖
+# ȶʰ	tch
+ȡ	dc
+ȶ	kc		#非音幖
+# ȶʰ	kch
+ȡ	gc
+c	kJ		#c爲sc J爲硬齶
+ɟ	gJ
+# k k
+# kʰ	kh
+g	g
+ɡ	g
+q	kq
+# qʰ	kqh
+ɢ	gq
+ʡ	Hq
+ʔ	hq
+ʔ	A
+p͡ɸ	pF
+p͡ɸʰ	phF
+b͡β	bF
+ʦ	ts
+ʣ	dz
+ʧ	tsS
+ʤ	dzS
+ʨ	tsc
+ʥ	dzc
+t͡s	ts
+d͡z	dz
+t͡ʃ	tsS
+d͡ʒ	dzS
+t͡ɕ	tsc
+d͡ʑ	dzc
+t͡ʂ	tsR
+d͡ʐ	dzR
+t͡	ts
+d͡	dz
+ɸ	Fp
+β	Fb
+ɸ	Fps
+β	Fpz
+ɸ	sp
+β	zp
+F	Fs
+v	Fz
+v	F
+θ	Ft
+ð	Fd
+θ	Fts
+ð	Ftz
+θ	st
+ð	zt
+ð	zd
+# s	s
+# z	z
+ʃ	sS
+ʒ	zS
+ʂ	sR
+ʐ	zR
+ɕ	sc
+ʑ	zc
+ç	sJ		#當爲无噝
+ʝ	zJ
+ç	FJ
+ʝ	FJ
+x	hk
+ɣ	hg
+x	Fk
+ɣ	Fg
+x	Xs
+ɣ	Xz
+χ	hqs
+ʁ	hqz
+χ	Xqs
+ʁ	Xqz
+ʜ	H		#H ʜʢ
+ʢ	O
+ħ	H
+ʕ	O
+ħ	FOs
+ʕ	FOz
+ħ	hOs
+ʕ	hOz
+# h	h
+h	hFs
+ɦ	hFz
+h	hs
+ɦ	hz
+h	E
+ɦ	E
+# m	m
+ɱ	mf
+# n	n
+ɳ	nrr
+ɳ	nR
+ɲ	nJ
+ȵ	nc		#非音幖
+ȵ	ngc
+ŋ	ng
+Ŋ	ng		#非音幖
+ɴ	nq
+###
+ʷr	w
+ʷɾ	w
+ʷɹj	w
+ʷɻj	w
+ɰ	x
+ʷɰ	w
+ʷˤr	f
+ʷˤɾ	f
+ʷɹ	f
+# w	V
+ʍ	Vs
+ʷ	V
+ɥ	y
+###
+r	R
+ɾ	R
+ɹ	r
+ɽ	RR
+ɻ	rR
+ʀ	Rq
+ʁ	R		#?
+ɺ	R
+ʋ	v
+ⱱ	rf
+ɰ	x
+ɺ	l
+l	l
+ɭ	l
+ɭ	lR
+ʎ	l
+ʎ	lJ
+ʟ	l
+ʟ	lg
+ɬ	l
+ɮ	l
+ɬ	sl
+ɮ	zl
+###
+ʘ	b		#Bilabial Clicks
+ǀ	d		#Dental
+ǃ	t		#(Post)alveoalar
+ǂ	c		#Palatoalveolar
+ǁ	t		#Alveolar lateral
+ɓ	b		#Bilabial Voiced implosives
+ɗ	d		#Dental/alveolar
+ʄ	c		#Palatal
+ɠ	g		#Velar
+ʛ	q		#Uvular
+pʼ	p		#Bilabial Ejectives
+tʼ	t		#Dental/alveolar
+kʼ	k		#Velar
+sʼ	s		#Alveolar fricative
+###
+# # y	y
+# a	ea
+a	a
+ɶ	a
+ᴀ	a
+ɑ	a
+ɒ	a
+æ	a
+ɐ	a
+ɛ	e
+œ	e
+ɜ	e
+ɞ	o
+ʌ	o
+ʌ	ea
+ʌ	oe
+ɔ	o
+ᴇ	e
+ə	eo
+Ə	eo		#非音幖
+e	e
+ø	e
+ɘ	e
+ɵ	o
+ɤ	o
+o	o
+ɪ	i
+ʏ	u
+ᵻ	i
+ᵿ	u
+ω	u
+ʊ	u
+i	i
+y	i
+ɨ	i
+ʉ	u
+ɯ	u
+u	u
+ɨɐ	ia
+ʉɐ	ua
+ɨɛ	ie
+ʉɛ	ue
+ɨæ	ie
+ʉæ	ue
+###
+ʷ	v
+ʲ	c
+ʲ	j
+ᶣ	y
+̴	k		#偄腭化
+̃	m		#鼻化
+˞	r
+ˠ	x
+ˤ	O
+ʰ	h
+ˡ	l
+ⁿ	n
+ˢ	s
+ʱ	x
+ᵊ	eo
+ᶷ	u
+̚	A
+̥	s
+̬	z
+̩	i
+̯	j
+◌	o
+̪	t
+̼	t
+̺	t
+̻	t
+̟	e
+̠	o
+̈	eo
+̽	eo
+̝	i
+˔	i
+̞	a
+˕	a
+̘	e
+̙	o
+̹	o
+̜	a
+ː	a
+˥	5
+˦	4
+˧	3
+˨	2
+˩	1
+|	deew
+‖	deew
+↗	deew
+↘	deew
+ꜛ	deew
+ꜜ	deew
+ː	scjec
+ˑ	scjec
+̆	scjec
+ˈ	scjec
+ˌ	scjec
+.	scjec
+‿	scjec
+###字母
+##
+𐤀	alep
 𐤁	bet
 𐤂	gaml
 𐤃	delt
@@ -33,10 +304,46 @@ import_tables:
 𐤙	paak
 𐤚	njir
 𐤛	sam
+##
 ℵ	aleph
 ℶ	beth
 ℷ	gimel
 ℸ	dalet
+#
+א	aleph
+ב	beth
+ג	gimel
+ד	dalet
+##
+ا	A
+ب	b
+ج	g
+د	d
+ﺫ‎	Fd
+ﻩ‎	E
+ﻭ‎	v
+ﺯ‎	z
+ﺡ‎	H
+ﺥ‎	Xs
+ﻁ‎	tO
+ﻅ‎	zO
+ﻱ‎	j
+ﻙ‎	k
+ﻝ‎	l
+ﻡ‎	m
+ن‎	n
+ﺱ‎	s
+ﻉ‎	O
+ﻍ‎	Xz
+ف‎	F
+ﺹ‎	sO
+ﺽ‎	dO
+ﻕ‎	q
+ﺭ‎	R
+ﺵ	sS
+ﺕ‎	t
+ﺙ‎	Ft
+##
 α	alpha
 β	beta
 γ	gamma
@@ -91,6 +398,7 @@ import_tables:
 Χ	chi
 Ψ	psi
 Ω	omega
+##
 А	a
 Б	be
 В	ve
@@ -217,7 +525,7 @@ import_tables:
 э	e
 ю	yu
 я	ya
-ӏ	
+ӏ	i
 ә	schwa
 ғ	ayn
 ҙ	dhe
@@ -245,281 +553,3 @@ import_tables:
 ѡ	omega
 ѿ	ot
 ѣ	yat
-####音幖
-# p p		#一位一符本不分清濁送气
-# pʰ	ph
-# b b
-# fʰ	Fh
-# v Fz
-# t t
-# d d
-ʈ	tR
-ɖ	dR
-ʈ	trr
-ɖ	drr
-ȶ	tc		#非音幖
-# ȶʰ	tch
-ȡ	dc
-ȶ	kc		#非音幖
-# ȶʰ	kch
-ȡ	gc
-c	kc
-ɟ	gc
-# k k
-# kʰ	kh
-g	g
-ɡ	g
-q	kq
-# qʰ	kqh
-ɢ	gq
-ʡ	Hq
-ʔ	hq
-ʔ	A
-p͡ɸ	pF
-p͡ɸʰ	phF
-b͡β	bF
-ʦ	ts
-ʣ	dz
-ʧ	tsS
-ʤ	dzS
-ʨ	tsc
-ʥ	dzc
-t͡s	ts
-d͡z	dz
-t͡ʃ	tsS
-d͡ʒ	dzS
-t͡ɕ	tsc
-d͡ʑ	dzc
-t͡ʂ	tsR
-d͡ʐ	dzR
-t͡	tc
-d͡	dc
-ɸ	Fp
-β	Fb
-ɸ	Fps
-β	Fpz
-ɸ	sp
-β	zp
-F	Fs
-v	Fz
-v	F
-θ	Ft
-ð	Fd
-θ	Fts
-ð	Ftz
-θ	st
-ð	zt
-ð	zd
-# s	s
-# z	z
-ʃ	sS
-ʒ	zS
-ʂ	sR
-ʐ	zR
-ɕ	sc
-ʑ	zc
-ç	sc		#當爲无噝
-ʝ	zc
-ç	Fc
-ʝ	Fc
-ç	Fcs
-ʝ	Fcz
-ç	hcs
-ʝ	hcz
-x	hk
-ɣ	hg
-x	sk
-ɣ	zk
-ɣ	zg
-x	Fk
-ɣ	Fg
-x	Xs
-ɣ	Xz
-χ	sq
-ʁ	zq
-χ	hqs
-ʁ	hqz
-χ	Xq
-ʁ	Xq
-ʜ	H		#H ʜʢ
-ʢ	O
-ħ	H
-ʕ	O
-ħ	FOs
-ʕ	FOz
-ħ	hOs
-ʕ	hOz
-# h	h
-h	hFs
-ɦ	hFz
-h	hs
-ɦ	hz
-h	E
-ɦ	E
-# m	m
-ɱ	mf
-# n	n
-ɳ	nrr
-ɳ	nR
-ɲ	nc
-ȵ	nc		#非音幖
-ȵ	ngc
-ŋ	ng
-Ŋ	ng		#非音幖
-ɴ	nq
-###
-ʷr	w
-ʷɾ	w
-ʷɹj	w
-ʷɻj	w
-ɰ	x
-ʷɰ	w
-ʷˤr	f
-ʷˤɾ	f
-ʷɹ	f
-# w	V
-ʍ	Vs
-ʷ	V
-ɥ	y
-###
-r	R
-ɾ	R
-ɹ	r
-ɽ	RR
-ɻ	rR
-ʀ	Rq
-ʁ	R		#?
-ɺ	R
-ʋ	v
-ⱱ	rf
-ɰ	x
-ɺ	l
-l	l
-ɭ	l
-ɭ	lR
-ʎ	l
-ʎ	lc
-ʟ	l
-ʟ	lg
-ɬ	l
-ɮ	l
-ɬ	sl
-ɮ	zl
-###
-ʘ	b		#Bilabial Clicks
-ǀ	d		#Dental
-ǃ	t		#(Post)alveoalar
-ǂ	c		#Palatoalveolar
-ǁ	t		#Alveolar lateral
-ɓ	b		#Bilabial Voiced implosives
-ɗ	d		#Dental/alveolar
-ʄ	c		#Palatal
-ɠ	g		#Velar
-ʛ	q		#Uvular
-pʼ	p		#Bilabial Ejectives
-tʼ	t		#Dental/alveolar
-kʼ	k		#Velar
-sʼ	s		#Alveolar fricative
-###
-# # y	y
-# a	ea
-a	a
-ɶ	a
-ᴀ	a
-ɑ	a
-ɒ	a
-æ	a
-ɐ	a
-ɛ	e
-œ	e
-ɜ	e
-ɞ	o
-ʌ	o
-ʌ	ea
-ʌ	oe
-ɔ	o
-ᴇ	e
-ə	eo
-Ə	eo		#非音幖
-e	e
-ø	e
-ɘ	e
-ɵ	o
-ɤ	o
-o	o
-ɪ	i
-ʏ	u
-ᵻ	i
-ᵿ	u
-ω	u
-ʊ	u
-i	i
-y	i
-ɨ	i
-ʉ	u
-ɯ	u
-u	u
-ɨɐ	ia
-ʉɐ	ua
-ɨɛ	ie
-ʉɛ	ue
-ɨæ	ie
-ʉæ	ue
-###
-ʷ	v
-ʲ	c
-ʲ	j
-ᶣ	y
-̴	k		#偄腭化
-̃	m		#鼻化
-˞	r
-ˠ	x
-ˤ	O
-ʰ	h
-ˡ	l
-ⁿ	n
-ˢ	s
-ʱ	x
-ᵊ	eo
-ᶷ	u
-̚	A
-̥	s
-̬	z
-̩	i
-̯	j
-◌	o
-̪	t
-̼	t
-̺	t
-̻	t
-̟	e
-̠	o
-̈	eo
-̽	eo
-̝	i
-˔	i
-̞	a
-˕	a
-̘	e
-̙	o
-̹	o
-̜	a
-ː	a
-˥	5
-˦	4
-˧	3
-˨	2
-˩	1
-|	deew
-‖	deew
-↗	deew
-↘	deew
-ꜛ	deew
-ꜜ	deew
-ː	scjec
-ˑ	scjec
-̆	scjec
-ˈ	scjec
-ˌ	scjec
-.	scjec
-‿	scjec
