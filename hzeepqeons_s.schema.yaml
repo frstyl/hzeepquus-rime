@@ -124,9 +124,9 @@ speller:
 ####聲
 ##古
     - derive/^([sz])[ptkmnCLRqQV]J/$1c/ #
-    - derive/^([sz])[ptkmnCLRqQV]S/$1s/
+    - derive/^([sz])[ptkmnCLRqQV]S/$1S/
     - derive/^[mnCLRqQV]([sz])J/$1c/
-    - derive/^[mnCLRqQV]([sz])S/$1s/
+    - derive/^[mnCLRqQV]([sz])S/$1S/
     - derive/^(h[mnCLRqQV]s|hsq|ngs|[mnCqQV]s|[hX]s|X)/h/
     
     - derive/^([LR])(?!zJ)/d/
@@ -176,10 +176,10 @@ speller:
     - derive/(hms|ph|p|b|m)v[ʌə;;,]/$1ea/	#特加
 ##聲介韻
     #- derive/^(kh?|g|C|h|q|A)/K/    
-    - derive/([^kgChqQA]|[^k]h)([UywWu])i([ndzt])/$1$2u$3/ #yu yi k組除外
-    - derive/(^[^kghCAQq].*)([UyWwu])i([qAs])/$1$2uj$3/
-    - derive/([^kgChqQA]|[^k]h)([UywWu])e([ndzt])/$1$2o$3/ #yo ye
-    - derive/(^[^kghCAQq].*)([UyWwu])e([qAs])/$1$2oj$3/
+    - derive/([UywWu])i([ndzt])/$1u$2/ #yu yi k組除外
+    - derive/([UyWwu])i([qAs])/$1uj$2/
+    - derive/(?<=[UyWwu])e(?=[ndzt])/o/
+    - derive/([UyWwu])e([qAs])/$1oj$2/
 ##元音
     - derive/[Uy]([uo][ndzt])/$1/		#iov uo
     #- derive/([SR]|Sh)[Ww]([uo][ndzt])/$1$2/
