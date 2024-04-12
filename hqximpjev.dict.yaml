@@ -1,12 +1,12 @@
 name: hqximpjev
 version: "2022.2.7"
-sort: by_weight
+sort: original
 use_preset_vocabulary: true
 import_tables:
   - emoji
 ...
 ####音幖
-# p p		#一位一符本不分清濁送气
+# p p
 # pʰ	ph
 # b b
 # fʰ	Fh
@@ -128,7 +128,7 @@ h	E
 ʷˤr	f
 ʷˤɾ	f
 ʷɹ	f
-# w	V
+w	V
 ʍ	Vs
 ʷ	V
 ɥ	y
@@ -189,7 +189,7 @@ a	a
 ʌ	ea
 ʌ	oe
 ɔ	o
-ᴇ	e
+ᴇ	e		#非
 ə	eo
 Ə	eo		#非音幖
 e	e
@@ -200,9 +200,9 @@ e	e
 o	o
 ɪ	i
 ʏ	u
-ᵻ	i
-ᵿ	u
-ω	u
+ᵻ	i		#非
+ᵿ	u		#非
+ω	u		#非
 ʊ	u
 i	i
 y	i
@@ -244,18 +244,27 @@ u	u
 ̺	t
 ̻	t
 ̟	e
+̟	dzen
 ̠	o
+̠	goow
 ̈	eo
+̈	AiaC
 ̽	eo
+̽	truC
 ̝	i
+̝	koav
 ˔	i
 ̞	a
+̞	tei
 ˕	a
 ̘	e
+̘	dzen
 ̙	o
+̙	goow
 ̹	o
 ̜	a
-ː	a
+ː	aa
+ː	draC
 ˥	5
 ˦	4
 ˧	3
@@ -335,7 +344,7 @@ u	u
 ﺱ‎	s
 ﻉ‎	O
 ﻍ‎	Xz
-ف‎	F
+ف‎	p
 ﺹ‎	sO
 ﺽ‎	dO
 ﻕ‎	q

@@ -4,11 +4,11 @@
 schema:
   schema_id: hqximpjev
   name: 音幖
-  version: "0.24"
+  version: "0.99"
   author:
 
   description: |
-    全hqximpjev码元
+    通用轉寫
 
   dependencies:
 
@@ -49,21 +49,14 @@ speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA123456789'
   delimiter: "'"
   algebra:
-    - derive/([A-Z])/\L$1/
+    - abbrev/([A-Z])/\L$1/
 
 
 
 translator:
   dictionary: hqximpjev
-  prism: hqximpjev
-  # spelling_hints: 10
-  enable_charset_filter: false
-  enable_sentence: false
-  enable_encoder: false
-  encode_commit_history: false
-  enable_completion: true
-  enable_user_dict: false
-  # preedit_format:
+  spelling_hints: 10
+  preedit_format:
 
 
 
