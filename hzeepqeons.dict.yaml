@@ -1986,22 +1986,22 @@ import_tables:
 䪢	tse;jq		#齏
 䪡	tse;jq
 ##OəR?eR
-𥙄	neejA
-㚷	neejA
-𩰐	neejA
-𩬯	neejA
-𣐐	neejA
-鉩	neejA
-𡝡	meejq		#n?m?
-禰	neejA		#-R?
-嬭	neejA
-𩰞	neejA
-𩯨	neejA
-檷	neejA		#爾
-𩍦	neejA
-薾	neejA
-鑈	neejA
-瀰	neejA
+𥙄	ne;jA
+㚷	ne;jA
+𩰐	ne;jA
+𩬯	ne;jA
+𣐐	ne;jA
+鉩	ne;jA
+𡝡	me;jq		#n?m?
+禰	ne;jA		#-R?
+嬭	ne;jA
+𩰞	ne;jA
+𩯨	ne;jA
+檷	ne;jA		#爾
+𩍦	ne;jA
+薾	ne;jA
+鑈	ne;jA
+瀰	ne;jA
 洗	se;jA
 㢴	se;jq	999		#囟
 卤	se;jq
@@ -2905,8 +2905,6 @@ import_tables:
 𡽆	tJjejs
 坻	tJjejA
 砥	tJjejA
-劙	ljejq		#?𠠍剺
-蠡	ljejq
 鵹	ljejq
 ##a-r
 觶	tJjajq
@@ -2947,6 +2945,8 @@ import_tables:
 珕	ljeps
 懘	thJjaA		#?
 ##jaj 歌
+劙	ljajq		#?𠠍剺
+蠡	ljajq
 𧰲	LshJjajA		#Ls?
 豕	LsJjajA		#Ls?
 罹	ljajq
@@ -3080,36 +3080,36 @@ import_tables:
 敉	mjeA
 侎	mjeA
 ##jeR
-𢏏	mjejq	99
-𡝡	mjejq	99
-镾	mjejq
-𤅤	mjejq		#大水
-彌	mjejq
-獼	mjejq		#彌m-e 爾?
-㜷	mjejq
-䥸	mjejq
-濔	mjejq		#滿
-瀰	mjejq		#渺
-瓕	mjejq
-𥸀	mjejq
-鸍	mjejq
-檷	mjejq
-𥎖	mjejq
-瀰	mjejA
-𩰞	mjejA
-𩍲	tscjejq		#爾?𩍦
-尒	nJjejA	999
-𨒛	nJjejA	99
-爾	nJjejA
-邇	nJjejA
-鸍	nsJjejq
-𪓿	nsJjejq
-䌳	nsJjejq
-䌳	sn-jejq
-壐	sn-jejA
-璽	sn-jejA		#s-n-?
-璽	sn-jejs
-䌳	nshcjejq
+𢏏	mj,jq	99
+𡝡	mj,jq	99
+镾	mj,jq
+𤅤	mj,jq		#大水
+彌	mj,jq
+獼	mj,jq		#彌m-e 爾?
+㜷	mj,jq
+䥸	mj,jq
+濔	mj,jq		#滿
+瀰	mj,jq		#渺
+瓕	mj,jq
+𥸀	mj,jq
+鸍	mj,jq
+檷	mj,jq
+𥎖	mj,jq
+瀰	mj,jA
+𩰞	mj,jA
+𩍲	tscj,jq		#爾?𩍦
+尒	nJj,jA	999
+𨒛	nJj,jA	99
+爾	nJj,jA
+邇	nJj,jA
+鸍	nsJj,jq
+𪓿	nsJj,jq
+䌳	nsJj,jq
+䌳	sn-j,jq
+壐	sn-j,jA
+璽	sn-j,jA		#s-n-?
+璽	sn-j,js
+䌳	nshcj,jq
 ###ye vje
 ##?
 䓈	JQyeA		#?
@@ -9337,6 +9337,10 @@ import_tables:
 葆	pouv_A
 宲	pouv_A
 賲	pouv_A
+珤	pouv_A
+寶	pouv_A		#𡧖
+𡧖	pouv_A
+㯱	phouv_q		#缶
 襃	pouv_q
 㮘	mouv_q
 堥	mouv_q
@@ -9492,9 +9496,6 @@ import_tables:
 䌦	douv_s		#?
 𧛔	touv_k-s		#ks
 纛	douv_k-s		#翿翢𢃶𣫟𦇨𦑢𦒫𦐩𦒇𦒛𦒞𦒯
-珤	pouv_A
-寶	pouv_A
-㯱	phouv_q		#缶
 𩔇	louvA		#𩕍
 𩕍	louvA
 㟸	kq_ouv_q
@@ -12702,19 +12703,19 @@ import_tables:
 澹	doams
 譫	doapq
 黵	toamA
-槧	dzoamA
-𩈻	tsoamq
 䭕	tsoamA
+𩈻	dzoamq
 慙	dzoamq
 慚	dzoamq
 鏨	dzoamq
 䳻	dzoamq
 㨻	dzoamq
 鏨	dzoamA
+槧	dzoamA
 暫	dzoams
 蹔	dzoams
 鏨	dzoams
-煔	Eoamq
+煔	Eoamq		#占
 炶	Eoamq
 頕	toamq
 鰈	Lshoapq		#世#Ls
@@ -13417,10 +13418,13 @@ import_tables:
 𪉜	tRaems
 站	tRaems
 詀	dRaems
+##
+杉	sSaemq		#彡s-u-m?#檆
+𩁺	sSaemq		#𩆷𩃔#集韻 所感切
+䀐	sSaemq
+檆	sSaemq		#杉
+𨼮	dzSaems		#詹?
 ##ROum
-杉	sSaumq		#彡s-u-m
-𩁺	sSaumq
-䀐	sSaumq
 諵	nRaumq		#U?O?
 喃	nRaumq
 諵	nRaums
@@ -13543,8 +13547,6 @@ import_tables:
 獑	dzSramq
 鏨	dzSramq
 嶃	dzSramA
-檆	sSramq
-𨼮	dzSrams
 㞚	tsSrapq
 偛	tsSrapq
 䙄	tsSrapq
@@ -13739,7 +13741,7 @@ import_tables:
 𦛖	thJjepq
 苫	st-Jjemq		#占st-
 苫	st-Jjems
-煔	st-Jjems
+煔	st-Jjems		#說文於湯中爚肉或作𤏝𤍙爓𦢨燖燂煔#
 𡝫	st-Jjemq
 𥮒	dzjemq
 占	tJjemq
@@ -13870,7 +13872,7 @@ import_tables:
 閃	LsJjamA		#Ls?
 㴸	LsJjamA
 閃	LsJjams
-𤍙	zL-jamq		#燅燖
+𤍙	zL-jamq		#燅𤏝燖
 覝	ljamq
 剡	LJjamA	1		#L J 炎
 䕭	zL-jamq		#s-L?
@@ -13980,8 +13982,9 @@ import_tables:
 𥯥	thRxapq
 歃	sSxapq		#?臿
 喢	sSxapq
-㶣	dRxamq		#?kL-
-𪏂	dRxamq
+㶣	LRxamq		#?kL-#烎 𢆉南
+𤇇	LRxamq
+𪏂	LRxamq
 #
 裛	Axapq
 广	CxamA
@@ -14785,6 +14788,9 @@ import_tables:
 𨂁	Ao,pq
 𩋊	Ao,pq
 ##um Oom
+男	no;mq		#任
+𢕬	so;pq
+龖	Lo;pq
 ##əm
 酖	to;mq		#冘t-eo-m
 䏙	tho;mA
@@ -14805,9 +14811,6 @@ import_tables:
 眈	do;mq
 㽎	do;mq
 髧	do;mA
-男	no;mq
-𢕬	so;pq
-龖	Lo;pq
 參	tsho;mq
 驂	tsho;mq
 䟃	tsho;mq
@@ -15086,7 +15089,7 @@ import_tables:
 𧜄	hgo;mA
 ##
 #
-南	noumq		#o?eo?
+南	noumq		#o?eo?#𢆉
 𡴖	noumq
 𡴟	noumq
 楠	noumq
@@ -18791,13 +18794,13 @@ import_tables:
 榗	tsjens
 𥳟	tsjenA
 ##jəR?
-燹	sm-j;nA		#燹s-m
-𥙮	sm-j;nA		#𤣗爾
-𤐨	sj;nA		#燹
-𤣗	sj;nA
-獮	sj;nA
-𤣝	sj;nA	2
-苶	nJj;tq	1
+燹	sm-j,nA		#燹s-m
+𥙮	sm-j,nA		#𤣗爾
+𤐨	sj,nA		#燹
+𤣗	sj,nA
+獮	sj,nA
+𤣝	sj,nA	2
+苶	nJj,tq	1
 ###vjen yen
 鄄	kyens		#
 䚈	kyens
@@ -19792,7 +19795,7 @@ import_tables:
 # 䤉	mjitq
 # 榓	mjitq
 # 蜜	mjitq
-𠦒	pjitq
+??	pjitq
 畢	pjitq
 篳	pjitq
 蓽	pjitq
@@ -25627,7 +25630,7 @@ import_tables:
 垶	sQ-yiCq
 觪	sQ-yiCq
 ##vjek
-𦳮	tscyekq		#?𦳮卷 𥄕?
+𦳮	tscyekq		#?𦳮卷 𥄕?狊
 𥄎	tshyekq	1		#?役
 瞁	hyekq		#𰥦𥆛
 𢔠	tshyekq		#𥄎狊役?
@@ -27255,7 +27258,7 @@ import_tables:
 樕	soukq
 嗽	soukq
 速	soukq
-𧐒	soukq
+??	soukq
 𪋝	soukq
 遬	soukq
 藗	soukq
@@ -28856,7 +28859,7 @@ import_tables:
 鼀	tshjukq
 𡍬	miukq		#睦
 𧸇	JLjukq		#𡍬鬻 L?
-𧶠	JLjukq		#鬻𧸇 衒
+𧶠	JLjukq		#鬻?? 衒
 𧷗	JLjukq	9
 儥	JLjukq
 睦	miukq
@@ -30165,52 +30168,53 @@ import_tables:
 洒	se;RA
 栖	se;Rs
 ##eR?
-𥙄	neeRA
-㚷	neeRA
-𩰐	neeRA
-𩬯	neeRA
-𣐐	neeRA
-鉩	neeRA
-𡝡	meeRq		#n?m?
-禰	neeRA		#-R?
-嬭	neeRA
-𩰞	neeRA
-𩯨	neeRA
-檷	neeRA		#爾
-𩍦	neeRA
-薾	neeRA
-鑈	neeRA
-瀰	neeRA
-𢏏	mjeRq	99
-𡝡	mjeRq	99
-镾	mjeRq
-𤅤	mjeRq		#大水
-彌	mjeRq
-獼	mjeRq
-㜷	mjeRq
-䥸	mjeRq
-濔	mjeRq		#滿
-瀰	mjeRq		#渺
-瓕	mjeRq
-𥸀	mjeRq
-鸍	mjeRq
-檷	mjeRq
-𥎖	mjeRq
-瀰	mjeRA
-𩰞	mjeRA
-𩍲	tscjeRq		#爾?𩍦
-尒	nJjeRA	999
-𨒛	nJjeRA	99
-爾	nJjeRA
-邇	nJjeRA
-鸍	nsJjeRq
-𪓿	nsJjeRq
-䌳	nsJjeRq
-䌳	sn-jeRq
-壐	sn-jeRA
-璽	sn-jeRA		#s-n-?
-璽	sn-jeRs
-䌳	nshcjeRq
+𥙄	ne;RA
+㚷	ne;RA
+𩰐	ne;RA
+𩬯	ne;RA
+𣐐	ne;RA
+鉩	ne;RA
+𡝡	me;Rq		#n?m?
+禰	ne;RA		#-R?
+嬭	ne;RA
+𩰞	ne;RA
+𩯨	ne;RA
+檷	ne;RA		#爾
+𩍦	ne;RA
+薾	ne;RA
+鑈	ne;RA
+瀰	ne;RA
+###
+𢏏	mj,Rq	99
+𡝡	mj,Rq	99
+镾	mj,Rq
+𤅤	mj,Rq		#大水
+彌	mj,Rq
+獼	mj,Rq
+㜷	mj,Rq
+䥸	mj,Rq
+濔	mj,Rq		#滿
+瀰	mj,Rq		#渺
+瓕	mj,Rq
+𥸀	mj,Rq
+鸍	mj,Rq
+檷	mj,Rq
+𥎖	mj,Rq
+瀰	mj,RA
+𩰞	mj,RA
+𩍲	tscj,Rq		#爾?𩍦
+尒	nJj,RA	999
+𨒛	nJj,RA	99
+爾	nJj,RA
+邇	nJj,RA
+鸍	nsJj,Rq
+𪓿	nsJj,Rq
+䌳	nsJj,Rq
+䌳	sn-j,Rq
+壐	sn-j,RA
+璽	sn-j,RA		#s-n-?
+璽	sn-j,Rs
+䌳	nshcj,Rq
 ##vəR
 㡓	kq_v;Rq
 褌	kq_v;Rq
@@ -30284,13 +30288,13 @@ import_tables:
 瀳	dze;Rs
 𨷳	dze;Rs
 ##jəR 
-燹	sm-j;RA
-𥙮	sm-j;RA		#𤣗
-𤐨	sj;RA		#燹
-𤣗	sj;RA
-獮	sj;RA
-𤣝	sj;RA	2
-苶	nJj;tq	1
+燹	sm-j,RA
+𥙮	sm-j,RA		#𤣗
+𤐨	sj,RA		#燹
+𤣗	sj,RA
+獮	sj,RA
+𤣝	sj,RA	2
+苶	nJj,tq	1
 ##RjəR
 疢	thRx;Rs		#𤵜疹
 珍	tRx;Rq
