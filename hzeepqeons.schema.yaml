@@ -165,7 +165,7 @@ speller:
     - derive/([ovixw]a)j/$1/ #aj
     - derive/(i)j/$1/ #ij ei ej
 
-    - fuzz/([aeiu]|[^vo]o|[afov][əʌ;,])jq$/$1/ #jq
+    - fuzz/([aeiu]|[^o]o|[afxwrWov][əʌ;,])jq$/$1/ #jq
 
     - fuzz/([oveYiujyrWxwafIU]i)C/$1n/ #iŋ in ij it eŋ eq ek
 #    - fuzz/([oveYiujyrWxwafIU]i)g/$1d/ #iŋ
@@ -174,7 +174,7 @@ speller:
 ##介元
     - derive/e(ə)/$1/ #e四等 ea
     - derive/(e)(a|e|i|u|ə)/$1/ #e四等 
-
+    #- derive/(o)(o|u)/$1/ #一等
     - derive/[Iji](i)/i/ #i    三等元音
     - derive/[IjiUyu](u)/u/ #u
 ##介元尾
@@ -182,8 +182,8 @@ speller:
     # - fuzz/(v)ə([jlrndzt][qAs]?)$/$1o$2/ #və vo
     - fuzz/([a])ə([jlrndzt][qAs]?)$/$1o$2/
     - fuzz/([vf])ə([Cgxk][qAs]?)$/$1o$2/
-    - fuzz/o(u|ə|ʌ)([mbfpvwy])/o$2/ #əm
     - fuzz/o(u)([Cgxk])/o$2/ #ou oo -v -m -C
+    - fuzz/o(u|ə|ʌ)([mbfpvwy])/o$2/ #əm
     - fuzz/v(u|ə|ʌ)([jlrndzt])/o$2/ #vun -n -j
 #聲介元 尾
     - fuzz/([^JQLqcSRZ]h?)[IUjyiurWxw][uo]/$1u/ #iu- io- uu uo 以雲神 知莊除外 引擎不支持變長
@@ -225,6 +225,7 @@ speller:
 
     #- derive/^(ph|p|b|m)[Vv]([Ijrxioa][aeiouəʌ;,])/$1$2/    ##幫組  合口韻 分AB
     - derive/^(ph|p|b|m)v(i[oəʌ;,])/$1$2/
+    - derive/^(ph|p|b|m)v([aeiouəʌ;,])/$1o$2/
     - derive/^(ph|p|b|m)v([aeəʌ;,])/$1$2/
     
     - fuzz/(?<=S)(h?)a([aeiou;,])/$1r$2/ #莊R

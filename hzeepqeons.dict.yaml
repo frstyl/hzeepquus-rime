@@ -4285,7 +4285,6 @@ import_tables:
 㰻	AxiA		#?
 䨳	hxij_s		#?
 #xi
-圮	bxiA
 跽	gxiA
 殍	bxiA
 𢾫	tRxiA
@@ -4448,6 +4447,7 @@ import_tables:
 ##xiR
 欭	Axij_s		#因A-i-n#因A-i-R
 ##Rjə xə
+圮	bx;jA		#配妃p-eo-j
 啚	px;A
 鄙	px;A
 娝	px;A
@@ -4585,7 +4585,7 @@ import_tables:
 𠊾	gwij_q
 𨾎	gwij_q		#𠊾
 ##wu
-宄	kwuA
+宄	kwuA		#九
 𠬚	kwuA
 𡧫	kwuA
 軌	kwuA
@@ -4601,7 +4601,7 @@ import_tables:
 艽	gwuq
 頄	gwuq
 逵	gwuq
-厬	kwuA
+厬	kwuA		#咎#Ru→wu, ju→iu
 晷	kwuA
 ##wuj vRjuj
 桘	dRwujq		#ojq
@@ -11417,49 +11417,48 @@ import_tables:
 #
 䜅	tshoovq	0		#譌誤
 䜅	tshyujq		#正
-##Ouks
-雺	mouv_k-s		#ks#矛m-u
-袤	mouv_k-s
-楙	mouv_k-s
-懋	mouv_k-s
-𦼪	mouv_k-s
-瞀	mouv_k-s
-愗	mouv_k-s
-䓮	mouv_k-s
-㝅	nouv_A		#訓
-𣫌	nouv_k-s		#ks
-彀	kq_ouv_k-s	999		#㱿够
-𤚼	kq_ouv_k-s
-㝅	kq_ouv_k-s
-鷇	khq_ouv_k-s
-㜌	khq_ouv_k-s
-䍍	khq_ouv_k-s
-瞉	khq_ouv_k-s
-鱟	hgouv_k-s		#ks
-噣	touv_k-s		#ks
-斣	touv_k-s
-襡	touv_k-s
-襡	douv_A
-蔟	tshouv_k-s		#ks
-嗾	tshouv_k-s
-嗾	souv_A
-嗾	souv_s
-欶	souv_k-s		#ks
-涑	souv_q
-駷	souv_A
-鏉	souv_q
-𩌱	souv_q
-𩮶	souv_q
-摗	souv_q
-𠘂	souv_q
-𡠼	souv_q
-瘶	souv_k-s
-嗽	souv_k-s
-漱	souv_k-s
-鏉	souv_k-s
-耨	nouv_k-s		#ks
-槈	nouv_k-s
-鎒	nouv_k-s
+雺	moov_k-s		#ks#矛m-u#敄m-o
+袤	moov_k-s
+楙	moov_k-s
+懋	moov_k-s
+𦼪	moov_k-s
+瞀	moov_k-s
+愗	moov_k-s
+䓮	moov_k-s
+㝅	noov_A		#訓
+𣫌	noov_k-s		#ks
+彀	kq_oov_k-s	999		#㱿够
+𤚼	kq_oov_k-s
+㝅	kq_oov_k-s
+鷇	khq_oov_k-s
+㜌	khq_oov_k-s
+䍍	khq_oov_k-s
+瞉	khq_oov_k-s
+鱟	hgoov_k-s		#ks
+噣	toov_k-s		#ks
+斣	toov_k-s
+襡	toov_k-s
+襡	doov_A
+蔟	tshoov_k-s		#ks
+嗾	tshoov_k-s
+嗾	soov_A
+嗾	soov_s
+欶	soov_k-s		#ks
+涑	soov_q
+駷	soov_A
+鏉	soov_q
+𩌱	soov_q
+𩮶	soov_q
+摗	soov_q
+𠘂	soov_q
+𡠼	soov_q
+瘶	soov_k-s
+嗽	soov_k-s
+漱	soov_k-s
+鏉	soov_k-s
+耨	noov_k-s		#ks
+槈	noov_k-s
+鎒	noov_k-s
 ###iu 尤 j
 𦅨	sjuv_A	1		#?須
 𦄼	sjuv_q	1		#?
@@ -14305,8 +14304,8 @@ import_tables:
 檝	dzj;pq
 揖	Aj;pq		#?
 褶	LJj;pq
-霫	sj;pq
-㗩	sj;pq
+霫	sL-j;pq
+㗩	sL-j;pq
 習	zL-j;pq		#s-L
 鰼	zL-j;pq
 騽	zL-j;pq
