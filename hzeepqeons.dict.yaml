@@ -5051,7 +5051,7 @@ import_tables:
 颸	tsShx;q
 褫	thRx;A
 徵	tRx;A
-漦	RzSx;q		#𠩺 sR?#R-?#ts-?
+漦	RzRx;q		#𠩺 sR?#R-?#ts-?
 甾	tsSx;q
 𠙹	tsSx;q
 𠙾	tsSx;q
@@ -5076,12 +5076,12 @@ import_tables:
 廁	tsShx;s
 庤	dRx;A
 𦥊	thRx;s
-俟	LzSx;A		#大也#訓竢#䇃  #𠤕矣s-ɢ V-?#矣 㠯已巳 矣L-eo
-竢	LzSx;A		#𥏳𢓪#䇃
-𥏳	LzSx;A
-𢓪	LzSx;A
-涘	LzSx;A		#汜
-騃	LzSx;A
+俟	LzRx;A		#大也#訓竢#䇃  #𠤕矣s-ɢ V-?#矣 㠯已巳 矣L-eo
+竢	LzRx;A		#𥏳𢓪#䇃
+𥏳	LzRx;A
+𢓪	LzRx;A
+涘	LzRx;A		#汜
+騃	LzRx;A
 #?
 𠂔	tsSx;A	2		#i
 笫	tsSx;A	2
@@ -7589,9 +7589,9 @@ import_tables:
 踈	sSxoq
 踈	sSxos
 捒	sSxos
-所	sk-SxoA		#戶聲
-齭	sk-SxoA		#齼𪙀
-㫹	sk-Sxos
+所	sk-RxoA		#戶聲
+齭	sk-RxoA		#齼𪙀
+㫹	sk-Rxos
 齭	tsShxoA	0		#?
 猪	tRxoq
 䐗	tRxoq
@@ -7805,7 +7805,7 @@ import_tables:
 㩤	pF_hvioq
 𧀮	pF_hvioq
 𣞒	pF_hvioq
-陚	pF_vios
+陚	pF_vios		#武pm?
 賦	pF_vios
 雨	c-qvios		#雨羽相異
 雨	c-qvioA
@@ -8202,11 +8202,11 @@ import_tables:
 屢	lyos
 𡀿	lyos
 𦳭	lyoA		#蔞
-𢿘	RsSwos	999
-數	RsSwos		#婁
-𢿘	RsSwoA	999
-數	RsSwoA
-籔	RsSwoA
+𢿘	RsRwos	999
+數	RsRwos		#婁# s-R?sR?捒sR
+𢿘	RsRwoA	999
+數	RsRwoA
+籔	RsRwoA
 儒	nJyoq
 薷	nJyoq
 嚅	nJyoq
@@ -8346,9 +8346,9 @@ import_tables:
 隃	LsJyos
 䠼	LsJyos
 䩱	LsJyos
-㡏	LsSwoq		#s-L-R
-毹	LsSwoq
-㡏	LsSwos
+㡏	LsRwoq		#s-L-R
+毹	LsRwoq
+㡏	LsRwos
 牏	LR_wos
 朱	tJyoq
 侏	tJyoq
@@ -12641,7 +12641,7 @@ import_tables:
 𤸱	Aoapq
 𣣥	hoapq	99
 𣣹	hoapq
-靸	soapq		#?
+靸	sq-oapq		#?
 㽺	hoapq
 笚	toapq		#?
 鉀	kq_oapq
@@ -12768,12 +12768,12 @@ import_tables:
 ##a?e?
 壓	Aaepq
 厭	Aaepq
-䬊	sk-Saepq		#s-k?
-𧻵	sk-Saepq
+䬊	sk-Raepq		#s-k?
+𧻵	sk-Raepq
 梜	kq_aepq		#夾k-e-p
 𠩘	kq_aepq
 𠗉	hgaepq
-翜	sk-Saepq
+翜	sk-Raepq
 䫡	khq_aemA
 甉	hgaemq
 #
@@ -13243,7 +13243,7 @@ import_tables:
 𤙒	Eeepq
 𢂐	Eeepq
 㼲	leepq		#?
-𡂩	leepq
+??	leepq
 𦖩	leepq
 攝	neepq
 𤗈	seepq
@@ -13357,8 +13357,8 @@ import_tables:
 #
 煠	dzSaepq		#枼-世L-e-p? z-L
 渫	dzSaepq
-煠	zSaepq
-渫	zSaepq
+煠	LzRaepq
+渫	LzRaepq
 ##ROem
 敮	haepq		#⿰匧攴#匧k-e-p
 夾	kq_aepq
@@ -14265,7 +14265,7 @@ import_tables:
 冘	JLj;mq		#類炎#淫淫 冘冘
 䒞	JLj;mq		#㶣
 𢓕	JLj;mq		#同冘
-𩎕	sj;pq
+𩎕	sq-j;pq		#及
 壬	nJj;mq
 紝	nJj;mq
 飪	nJj;mA
@@ -14515,7 +14515,7 @@ import_tables:
 ##xəm
 綝	RshRx;mq		#Rs
 郴	RshRx;mq
-罧	RsSx;ms		#林R-eo-m
+罧	RsRx;ms		#林R-eo-m
 森	sSx;mq
 𢕬	tsShx;pq
 歰	sSx;pq
@@ -14690,8 +14690,8 @@ import_tables:
 𤧪	LshRx;mq
 琛	LshRx;mq		#Ls
 賝	LshRx;mq
-𥥍	LsSx;mq
-穼	LsSx;mq		#深L
+𥥍	LsRx;mq
+穼	LsRx;mq		#深L
 䐲	dRx;pq
 熠	qx;pq		#習qV-eo-p
 騽	qx;pq
@@ -18231,18 +18231,18 @@ import_tables:
 𤣆	RR_ranq		#R#聮R-a-n
 #
 丳	tsShranA		#?串穿貫
-產	CsSranA		#彥C-a-n#Cs?
+產	CsRranA		#彥C-a-n#Cs?
 鏟	tsShranA		#剗#後起
 㦃	tsShranA
 䐮	tsShranA
-簅	CsSranA
-摌	CsSranA
-㹌	CsSranA
-嵼	CsSranA
-滻	CsSranA
-㦃	CsSranA
-䊲	CsSranA
-𩥮	CsSranA
+簅	CsRranA
+摌	CsRranA
+㹌	CsRranA
+嵼	CsRranA
+滻	CsRranA
+㦃	CsRranA
+䊲	CsRranA
+𩥮	CsRranA
 嘫	nRranq
 殺	sSratq
 煞	sSratq		#殺
@@ -22940,39 +22940,38 @@ import_tables:
 瑒	LR_aaCA		#L昜
 ##Rjeŋ #re→ra庚三→aa
 #
+䛭	hreCs		#𠂷
+瀴	AreCs
 #
-䛭	hxeCs		#𠂷
-瀴	AxeCs
+盯	tRreCA
+打	tRreCA
+䟓	thRreCq
+盯	dRreCq
+偵	tRreCs
+挰	LR_reCq		#𡈼
+鋥	LR_reCs
+冷	lreCA		#常用音
+竀	thRreCq
+㲰	nRreCq		#?
+獰	nRreCq
+𥣗	nRreCq
+檸	nRreCA
 #
-盯	tRxeCA
-打	tRxeCA
-䟓	thRxeCq
-盯	dRxeCq
-偵	tRxeCs
-挰	LR_xeCq		#𡈼
-鋥	LR_xeCs
-冷	lxeCA		#常用音
-竀	thRxeCq
-㲰	nRxeCq		#?
-獰	nRxeCq
-𥣗	nRxeCq
-檸	nRxeCA
-#
-琤	tsShxeCq		#爭ts-e-C
-𩫿	dzSxeCq		#鬇𩬒
-鬇	dzSxeCq
-崢	dzSxeCq
-生	sSxeCq		#靑星生ts-e-C
-𤯓	sSxeCq
-笙	sSxeCq
-牲	sSxeCq
-狌	sSxeCq
-鉎	sSxeCq
-甥	sSxeCq
-䴤	sSxeCq
-鼪	sSxeCq
-珄	sSxeCq
-猩	sSxeCq
+琤	tsShreCq		#爭ts-e-C
+𩫿	dzSreCq		#鬇𩬒
+鬇	dzSreCq
+崢	dzSreCq
+生	sSreCq		#靑星生ts-e-C
+𤯓	sSreCq
+笙	sSreCq
+牲	sSreCq
+狌	sSreCq
+鉎	sSreCq
+甥	sSreCq
+䴤	sSreCq
+鼪	sSreCq
+珄	sSreCq
+猩	sSreCq
 ##ROak
 迫	paakq
 敀	paakq
@@ -25055,7 +25054,7 @@ import_tables:
 矠	tsShxakq
 矠	dzSxakq
 㳻	sSxakq
-虩	sk-Sxakq		#𡭴
+虩	sk-Rxakq		#𡭴
 䨛	sSxakq		#集韵色窄切
 厇	tRxakq		#?集韵陟格切
 矺	tRxakq
@@ -26523,24 +26522,24 @@ import_tables:
 庱	thRx;Cq
 睖	thRx;Cq
 庱	thRx;CA
-色	CsSx;kq		#𢒸𠤕C-eo-k
-𢒸	CsSx;kq
-𠾂	RsSx;kq	999		#來聲#來-R-eo-
-𤲷	RsSx;kq
-嗇	RsSx;kq
-嬙	RsSx;kq
-㱇	RsSx;kq
-𩍙	RsSx;kq
-穡	RsSx;kq
-薔	RsSx;kq
-轖	RsSx;kq
-繬	RsSx;kq
-濇	RsSx;kq		#不滑也
-䉢	RsSx;kq
-𧒗	RsSx;kq
-懎	RsSx;kq
-𩕡	RsSx;kq
-𠢳	RsSx;kq
+色	CsRx;kq		#𢒸𠤕C-eo-k
+𢒸	CsRx;kq
+𠾂	RsRx;kq	999		#來聲#來-R-eo-
+𤲷	RsRx;kq
+嗇	RsRx;kq
+嬙	RsRx;kq
+㱇	RsRx;kq
+𩍙	RsRx;kq
+穡	RsRx;kq
+薔	RsRx;kq
+轖	RsRx;kq
+繬	RsRx;kq
+濇	RsRx;kq		#不滑也
+䉢	RsRx;kq
+𧒗	RsRx;kq
+懎	RsRx;kq
+𩕡	RsRx;kq
+𠢳	RsRx;kq
 䔴	tsShx;kq
 澂	dRx;Cq
 徵	tRx;Cq
@@ -27425,7 +27424,7 @@ import_tables:
 䄝	thRaoCq
 𧜧	thRaoCq
 䚎	thRaoCs
-㦼	st-SaoCs		#?s-t-
+㦼	st-RaoCs		#?s-t-
 𥈄	thRaoCs		#𥈩𥊎
 𦗳	nRaoCq		#o?u?
 𣰊	nRaoCq
@@ -27502,19 +27501,19 @@ import_tables:
 𣃀	tsSaokq
 簎	dzSaokq		#昔-ak?
 斮	tsSaokq
-朔	CsSaokq		#朔屰C-a-k
-槊	CsSaokq
-蒴	CsSaokq
-㮶	CsSaokq
+朔	CsRaokq		#朔屰C-a-k
+槊	CsRaokq
+蒴	CsRaokq
+㮶	CsRaokq
 #
 𥶪	dzSa,kq		#昔
 𣃀	tsSa,kq
 簎	dzSa,kq		#昔-ak?
 斮	tsSa,kq
-朔	CsSa,kq		#朔屰C-a-k
-槊	CsSa,kq
-蒴	CsSa,kq
-㮶	CsSa,kq
+朔	CsRa,kq		#朔屰C-a-k
+槊	CsRa,kq
+蒴	CsRa,kq
+㮶	CsRa,kq
 ##Ruk -aavk
 髉	paavkq
 篧	tsSaavkq		#籗籱籗
@@ -27695,8 +27694,8 @@ import_tables:
 #
 䃗	tsShaokq
 斲	tRaokq		#𠁁t-o-k
-𢿘	RsSaokq
-數	RsSaokq
+𢿘	RsRaokq
+數	RsRaokq
 娕	tsShaokq
 欶	sSaokq
 嗽	sSaokq
@@ -29940,18 +29939,18 @@ import_tables:
 汕	sSraRA
 㺗	tschraRq	1		#誤
 䡲	dzSraRq
-產	CsSraRA		#彥C-a-n#Cs?
+產	CsRraRA		#彥C-a-n#Cs?
 鏟	tsShraRA		#剗
 㦃	tsShraRA
 䐮	tsShraRA
-簅	CsSraRA
-摌	CsSraRA
-㹌	CsSraRA
-嵼	CsSraRA
-滻	CsSraRA
-㦃	CsSraRA
-䊲	CsSraRA
-𩥮	CsSxaRA
+簅	CsRraRA
+摌	CsRraRA
+㹌	CsRraRA
+嵼	CsRraRA
+滻	CsRraRA
+㦃	CsRraRA
+䊲	CsRraRA
+𩥮	CsRxaRA
 ##vROaR -fen
 𡰝	EfaRq
 㦃	tsShfaRA
