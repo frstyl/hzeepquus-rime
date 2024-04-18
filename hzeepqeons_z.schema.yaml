@@ -77,24 +77,25 @@ speller:
     - derive/W/Vr/
     - derive/v/Vo/
 
+    - derive/(?<!^)[JRS]//
     - derive/^(J[QVLq])/J/
-    - derive/^(th|t|d|n)[JR]/$1/
-    - derive/^(t?s|d?z)S/$1/ #tsz sz
-    - derive/^(kh|k|g|C)[Jq]/$1/
+    #- derive/^(th|t|d|n)[JR]/$1/
+    #- derive/^(t?s|d?z)S/$1/ #tsz sz
+    - derive/^(kh|k|g|C)q/$1/
     - derive/^(E|hz)/g/
     - derive/^([hJ]?[QV]|q)/Q/    #Jq
     - derive/^(E|hz|hg|hQ)/E/
     - derive/^(h[mnCLRqQV]s|hsq|ngs|[mnCqQV]s)/hs/
     - derive/^(Xs?|hs)/h/
 
+    - derive/^(Rsh[RJ]?|RsR)/rs/    #RsS?
+    - derive/^(R(?!s|RzR)[R]?|l)/rz/
     - derive/^(Lsh[RJ]?|LsJ|hLs)/ls/
-    - derive/^(L(?!sh)[RJ]?|JL|LzJ)/lz/
-    - derive/^(Rsh[RJ]?)/rs/
-    - derive/^(R(?!sh)[RJ]?|l)/rz/
+    - derive/^(L(?!s)[RJ]?|LzJ|JL)/lz/ #Lzc? Lc?
     - derive/^(hms|msF?)/ms/
-    - derive/^(hns|ns[Rc]?)/ns/
-    - derive/^(h?Cs)/ngs/
-    - derive/^(h?qs)/qs/
+    - derive/^(hns|ns[RJ]?|hns)/ns/
+    - derive/^(hCs|CsJ)/ngs/
+    - derive/^(hQs)/qs/
     
     - derive/^(ph?|b|ms?)/P/
     - derive/^(th?|d|ns?)/T/
