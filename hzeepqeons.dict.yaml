@@ -1287,7 +1287,7 @@ import_tables:
 𦫳	kq_faA
 𠁥	kq_faA
 㭉	hQfaq		#鏵鋘 #⿱𦫳木
-#vRe
+##vRe?
 觟	EfaA
 黊	EfaA
 蘳	EfaA
@@ -1295,6 +1295,7 @@ import_tables:
 哇	Afaq
 洼	Afaq
 窪	Afaq
+#
 觟	EfeA
 黊	EfeA
 蘳	EfeA
@@ -1303,9 +1304,6 @@ import_tables:
 洼	Afeq
 窪	Afeq
 ##vROaj -faj
-髽	tsSfajq
-𡎬	tsSfajA
-䂳	tsShfajA
 瓦	Cq_fajA
 邷	Cq_fajA
 瓦	Cq_fajs
@@ -1345,7 +1343,11 @@ import_tables:
 稞	hgfojA
 划	hgfojq
 𢦚	hgfojA
-𥬲	tRfojq
+#
+𥬲	tRfojq		#𥬸檛簻
+髽	tsSfojq
+𡎬	tsSfojA		#𡎬好皃
+䂳	tsShfojA		#雌黃
 ##vROoR
 葰	sSfojA
 誜	sSfojs
@@ -1358,6 +1360,8 @@ import_tables:
 ###e-
 ##
 #
+𣤖	theejs		#軗?𣤢?
+𣤢	theejs		#小笑皃#毄聲 毄k-e-k
 𠨍	tseejA
 夘	tseejA		#𠨍
 郋	Eeij_q		#自
@@ -1366,7 +1370,7 @@ import_tables:
 䤍	meeq
 𪓬	meeq		#兒
 啑	tees	1		#?
-#a?
+#a? ə ʌ
 臡	neaj_q
 折	deaj_q
 磾	teaj_q
@@ -2614,7 +2618,7 @@ import_tables:
 𡎯	Efujs		#壞
 𣀤	Efujs
 蘾	Efujs
-尵	dRfujq		#隤
+尵	LRfujq		#隤遺L-u-j
 崴	Afujq		#威
 ###je
 ##?
@@ -4169,8 +4173,8 @@ import_tables:
 𧔥	JLyujs
 綏	nJyujq
 挼	nJyujq
-緌	nJyujq	1		#綏
-捼	nJyujq	1
+緌	nJyujq		#綏
+捼	nJyujq
 瓃	lyujq
 鸓	lyujq
 轠	lyujA
@@ -4179,7 +4183,7 @@ import_tables:
 讄	lyujA
 𤢹	lyujA
 瓃	lyujs
-# 垒	lyujs	1
+# 垒	lyujs
 㠥	lyujq
 壘	lyujA
 櫐	lyujA
@@ -5886,12 +5890,12 @@ import_tables:
 脮	nvojA
 㼏	nvojA
 挼	sn-vojq		#s-n
-㞜	thvojq		#𡲾
-𡯵	thvojs
-捼	nvojq	1		#挼
+㞜	nshvojq		#𡲾
+𡯵	nshvojs		#㞂
+捼	nvojq		#挼
 𨡌	nvojq
-餧	nvojA	1		#餒
-䬐	Avojq
+餧	nvojA		#餒
+䬐	Avojq		#委A-v-o-j
 𥓔	AvojA
 㪟	tvojq
 敦	tvojq
@@ -6017,16 +6021,16 @@ import_tables:
 倄	EvojA		#?
 顡	Cq_vojA		#?
 聉	thvojA		#出?
-藬	Rshvojq		#Rs?
-𤼊	Rvojq
-𨇚	Rvojq
-𨽠	Rvojq
-𥤒	Rvojq
-㿉	Rvojq
-尵	Rvojq
-蹪	Rvojq
-𤗴	Rvojq
-隤	Rvojq
+藬	Lshvojq		#Rs?遺L-u-j
+𤼊	Lvojq
+𨇚	Lvojq
+𨽠	Lvojq
+𥤒	Lvojq
+㿉	Lvojq
+尵	Lvojq
+蹪	Lvojq
+𤗴	Lvojq
+隤	Lvojq
 ##vuR
 脧	tsvojq
 䘒	tsvojq
@@ -13430,7 +13434,7 @@ import_tables:
 檆	sSaemq		#杉
 𨼮	dzSaems		#詹?
 ##ROum
-諵	nRaumq		#U?O?
+諵	nRaumq		#南U?O?
 喃	nRaumq
 諵	nRaums
 劄	tRaupq		#?
@@ -14138,7 +14142,7 @@ import_tables:
 濕	scj;pq
 䏉	scj;pq
 隰	zj;pq		#sL-? s-C
-侺	dzcj;ms		#?今?岑sg? dz#岑k-L-? z-k?
+侺	dzcj;ms		#?今?岑sg? dz#岑k-L-? z-k? zc→dzc
 𩷒	dzj;mq
 梣	dzj;mq
 䰼	dzj;mq		#s-g
@@ -14580,19 +14584,20 @@ import_tables:
 # 乛	gx;pq
 岌	Cx;pq
 吸	hx;pq
-㞥	dzSx;mq		#?岑
+㞥	dzSx;mq		#?岑今?z-k
 岑	dzSx;mq		#今亼
 涔	dzSx;mq
 梣	dzSx;mq
-棽	thRx;mq
 笒	dzSx;mq
 𩒣	dzSx;mA
+棽	thRx;mq		#貪?
 棽	sSx;mq
 𦨽	gx;ms
 今	kx;mq
 黅	kx;mq
 衿	kx;mq
 衾	khx;mq
+𧘭	khx;mq
 坅	khx;mA
 黔	gx;mq
 芩	gx;mq
@@ -23852,7 +23857,7 @@ import_tables:
 𦖉	mF_UaCA
 魍	mF_UaCA
 望	mF_UaCq
-𧫢	mF_UaCs
+??	mF_UaCs
 望	mF_UaCs
 朢	mF_UaCq
 朢	mF_UaCs
@@ -24649,10 +24654,12 @@ import_tables:
 墼	kq_eekq
 轚	kq_eekq
 𦼷	kq_eekq
+毄	khq_eekq		#勤苦用力曰毄
 𠿊	khq_eekq
 𣪠	khq_eekq
-𤩚	leekq
-𧊸	seekq
+𣤢	heekq		#說文 許壁切 且唾
+𤪢	leekq
+𧊸	seekq		#𧊸𧐎 𧌐𧐎
 績	tseekq
 勣	tseekq
 樍	tseekq

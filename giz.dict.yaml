@@ -3200,11 +3200,12 @@ use_preset_vocabulary: true
 擂	lvojs
 ###朵
 躲	tvajA
-杂	tvajA
+#
+杂	tvajA	0
 𣎾	tvajA
 𣎿	tvajA
 𣏻	tvajA
-# 朶	tvajA
+朶	tvajA
 躱	tvajs
 㛆	tvajs
 刴	tvajs
@@ -4171,7 +4172,7 @@ use_preset_vocabulary: true
 𮕤	leejA
 𰳰	leejA
 ###离
-𨾫	ljeq		#離
+??	ljeq		#離
 𩀌	ljeq
 ###黎
 犂	leejq		#𤛿
@@ -5671,7 +5672,13 @@ use_preset_vocabulary: true
 蔸	toovq
 兠	toovq
 ###殳
+𢎦	dzcuoq
 𣤖	theejs
+𮝗	theejs
+𰹚	theejs
+###投
+𢫹	doovq
+𭠘	doovq
 ###卮
 #
 𠨗	tscjeq
@@ -8790,7 +8797,7 @@ use_preset_vocabulary: true
 𠇇	tscyenq
 ##
 𠝅	dvanq		#1		#剸
-𣂢	dvanq
+??	dvanq
 ##
 糰	dvanq		#團
 ###叕
@@ -11529,7 +11536,7 @@ use_preset_vocabulary: true
 𤖧	dziaCq
 𤛷	dziaCq
 𱭔	dziaCq
-𱭕	dziaCq
+??	dziaCq
 𱱙	dziaCq
 𣚛	dziaCq		#?𧇽
 ###爿
@@ -12584,6 +12591,7 @@ use_preset_vocabulary: true
 # 𬆦	keekq
 𭮻	keekq
 𭮼	keekq
+𤩚	leekq
 ###血
 𮕜	hYetq
 𥩹	khyeCq		#傾
