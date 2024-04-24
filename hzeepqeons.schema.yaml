@@ -185,7 +185,7 @@ speller:
     - derive/[IjiUyu](u)/u/ #u
 ##介元尾
 #
-    - fuzz/([Ijrxioa])(;|,)([jlrndzt])/$1o$3/ #və vo
+    - fuzz/([Ijrxia])(;|,)([jlrndzt])/$1o$3/ #və vo
     - fuzz/(e)(;|,)([jlrndzt][qAs]?)$/oo$3/
     - fuzz/([vY])(;|,)([jlrndzt][qAs]?)$/ou$3/
     - fuzz/(f)(;|,)([jlrndzt][qAs]?)$/au$3/

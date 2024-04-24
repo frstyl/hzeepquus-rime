@@ -122,7 +122,7 @@ speller:
 
 ##元音-尾 韻核
 
-    - fuzz/([Ijrxioa])(;|,)([jlrndzt][qAs]?)$/$1o$3/ #və vo 除三等
+    - fuzz/([rxoa])(;|,)([jlrndzt][qAs]?)$/$1o$3/ #və vo 除三等
     - fuzz/(e)(;|,)([jlrndzt][qAs]?)$/oo$3/
     - fuzz/([vY])(;|,)([jlrndzt][qAs]?)$/ou$3/
     - fuzz/(f)(;|,)([jlrndzt][qAs]?)$/au$3/
