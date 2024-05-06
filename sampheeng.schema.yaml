@@ -149,7 +149,7 @@ speller:
     - derive/([^kgChqA]|[^k]h)V([Ijrxi])[eo]([jlrndzt])/$1$2o$3/ #yo ye
 ##配合鍵盤
     - derive/ea/ee/
-
+    - derive/e[;,]/o;/
 ##介
     - derive/(?<!v)V([oaxrjIi][uo])/$1/ # u o 合口元音
 

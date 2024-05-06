@@ -1487,20 +1487,20 @@ preset_keyboards:
     - {label: '幫', long_click: '-', click: 'p',swipe_up: '0',swipe_down: 'b', swipe_right: "sp", swipe_left: "zp", width: 20}
     - {label: '明', long_click: '+', click: 'm',swipe_up: 'ms',swipe_down: 'm5',swipe_right: "sm", swipe_left: "zm",  width: 20}
     - {label: 'kL', long_click: '5ll', click: 'kll', ,swipe_up: '2ll', swipe_down: 'gll', swipe_right: '4ll', swipe_left: 'hll',  width: 20}
-    - {label: 'i', long_click: '（）{Left}', click: "ji", swipe_up: "ei", swipe_down: "ri", swipe_right: "ai",swipe_left: "i", width: 20}
-    - {label: 'u', long_click: '「」{Left}', click: 'ju', swipe_up: "ou", swipe_down: "ru", swipe_right: "au",swipe_left: "u", width: 20}
+    - {label: 'i', long_click: '（）{Left}', click: "ji", swipe_up: "ei", swipe_down: "ri", swipe_right: "ai",swipe_left: "ai", width: 20}
+    - {label: 'u', long_click: '「」{Left}', click: 'ju', swipe_up: "ou", swipe_down: "ru", swipe_right: "au",swipe_left: "au", width: 20}
 
     - {label: '端', long_click: '_', click: 't', swipe_up: '1', swipe_down: "d", swipe_right: "st", swipe_left: "zd", width: 20}
     - {label: '泥', long_click: '=', click: 'n', ,swipe_up: "ns",swipe_down: 'n5', swipe_right: "sn", swipe_left: "zn", width: 20}
-    - {label: '來', long_click: '}', click: "l", swipe_up: "ls", swipe_down: "l5", swipe_right: "sr", swipe_left: "zr", width: 20}
-    - {label: 'e', long_click: '[', click: "je", swipe_up: "ee", swipe_down: "re", swipe_right: "ae",swipe_left: "e", width: 20}
-    - {label: 'o', long_click: '[', click: "jo", swipe_up: "oo", swipe_down: "ro", swipe_right: "ao",swipe_left: "o", width: 20}
+    - {label: '來', long_click: 'R', click: "l", swipe_up: "ls", swipe_down: "l5", swipe_right: "sr", swipe_left: "zr", width: 20}
+    - {label: 'e', long_click: '{}{Left}', click: "je", swipe_up: "ee", swipe_down: "re", swipe_right: "ae",swipe_left: "ae", width: 20}
+    - {label: 'o', long_click: '[]{Left}', click: "jo", swipe_up: "oo", swipe_down: "ro", swipe_right: "ao",swipe_left: "ao", width: 20}
 
     - {label: '精', long_click: 't͡s', click: "8", swipe_up: "3", swipe_down: "9", width: 20}
     - {label: '心', long_click: '!', click: 's', swipe_up: "z", width: 20}
     - {label: '以', long_click: 'r', click: 'j', swipe_up: "js",swipe_down: "j5",swipe_right: "sl",swipe_left: "zl", width: 20}
-    - {label: 'a', long_click: '[', click: "ja", swipe_up: "oa", swipe_down: "ra", swipe_right: "aa",swipe_left: "a", width: 20}
-    - {label: 'ə', long_click: '[', click: "j;", swipe_up: "e;", swipe_down: "r;", swipe_right: "a;",swipe_left: ";", width: 20}
+    - {label: 'a', long_click: '，', click: "ja", swipe_up: "oa", swipe_down: "ra", swipe_right: "aa",swipe_left: "aa", width: 20}
+    - {label: 'ə', long_click: '。', click: "j;", swipe_up: "o;", swipe_down: "r;", swipe_right: "a;",swipe_left: "a;", width: 20}
 
     - {label: '見', long_click: '`', click: "k", swipe_up: "2", swipe_down: "g",swipe_right: "sk", swipe_left: "zk",  width: 20}
     - {label: '疑', long_click: 'ŋ', click: "4", ,swipe_up: "4s",swipe_down: '45', width: 20}
@@ -2769,7 +2769,7 @@ preset_keyboards:
     - {click: '🇬🇺'}
     - {click: '🇬🇼'}
     - {click: '🇬🇾'}
-    - {click: '🇭🇰'}
+    - {click: '??🇰'}
     - {click: '🇭🇳'}
     - {click: '🇭🇷'}
     - {click: '🇭🇹'}
@@ -4806,7 +4806,7 @@ preset_keys:
   Keyboard_bqqt3: {label: 其它1, functional: false, send: Eisu_toggle, select: bqqt3}
   Keyboard_bqqt4: {label: 其它1, functional: false, send: Eisu_toggle, select: bqqt4}
 
-  Keyboard_bqqz1: {label: '🇨🇳', functional: false, send: Eisu_toggle, select: bqqz1}
+  Keyboard_bqqz1: {label: '??🇳', functional: false, send: Eisu_toggle, select: bqqz1}
   Keyboard_bqqz2: {label: 旗帜1, functional: false, send: Eisu_toggle, select: bqqz2}
   Keyboard_bqqz3: {label: 旗帜1, functional: false, send: Eisu_toggle, select: bqqz3}
   Keyboard_bqqz4: {label: 旗帜1, functional: false, send: Eisu_toggle, select: bqqz4}

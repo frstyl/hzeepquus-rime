@@ -66,6 +66,10 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+䟒趢
+趢趗
+趢趚
+趢𧼙
 𩈵𩈻	
 栲栳	
 考老	
@@ -2518,7 +2522,8 @@ use_preset_vocabulary: true
 畊	beeCq
 𡘋	beeCA
 𭀤	beeCA
-並	beeCA
+##
+並	beeCA		#訓
 ##
 傡	baeCs
 傡	baeCA
@@ -2536,8 +2541,12 @@ use_preset_vocabulary: true
 ##普-並竝
 氆	poaCA
 ##普
+𧫭	pooA
+#
+𣯽	phooA
 氆	phooA
-潽	phooq
+潽	phooA
+鐠	phooA
 ###
 𢯌	paekq		#㧳
 掰	paekq
@@ -4280,6 +4289,8 @@ use_preset_vocabulary: true
 𠦎	thoavq
 ###刀
 #刁
+刂	toavq
+𠚣	toavq		#勿
 叼	teevq
 䒒	teevq
 ##召
@@ -6371,37 +6382,34 @@ use_preset_vocabulary: true
 𠄟	EaaA
 𬽥	kaaA
 𫰈	EaaA
-𬻊	EaaA
-𬻊	theenq EaaA
-𧺒	EaaA
-𮧉	EaaA
-𰥌	haatq
+#𧺒	EaaA		#捽
+#𮧉	EaaA
+𰥌	haatq		#瞎
 吓	EaaA
-𭆼	EaaA
-𱃣	EaaA
-𢩹	EaaA
-𭠏	EaaA
-𮛃	EaaA
-𱼂	EaaA
-𬀧	EaaA
-雫	EaaA
+#𭆼	EaaA
+#𱃣	EaaA
+𢩹	EaaA		#字彙補 音下
+#𭠏	EaaA
+#𮛃	EaaA
+#𱼂	EaaA		#𱼂欸
+#𬀧	EaaA
+#雫	EaaA
 雫	nfaA		#奴寡切
-𪵩	EaaA
-𱪥	EaaA
-𰋒	EaaA
-𰰼	EaaA
-𭩙	EaaA
-𬻩	EaaA
-𬻩	ko,nq
+#𪵩	EaaA
+#𱪥	EaaA
+#𰋒	EaaA
+#𰰼	EaaA
+#𭩙	EaaA
+#𬻩	EaaA
 疜	Eaas
-𥫫	EaaA
-𮥌	EaaA
-𨑜	EaaA
+#𥫫	EaaA
+#𮥌	EaaA
+𨑜	phjitq		#餘文 音匹
 𱚃	kaaq
-𱚃	EaaA
+𱚃	kaaq
 虾	EaaA
 虾	Eaaq
-𢗄	EaaA
+𢗄	EaaA		#搜眞玉鏡 音下
 ###夏
 厦	EaaA
 𡖃	EaaA
@@ -11249,6 +11257,9 @@ use_preset_vocabulary: true
 𠢧	sci;Cs
 𧜜	sci;Cs
 ##滕𣎌
+𩧔	do;Cq
+𩧖	do;Cq
+駦	do;Cq
 籐	do;Cq
 ###𤮪
 𧝻	ncioCA
@@ -11524,7 +11535,7 @@ use_preset_vocabulary: true
 牎	tsShaoCq
 𥍷	tsShaoCq
 ###雙
-𩀝	sSaoCq		#雙
+??	sSaoCq		#雙
 ###薔嗇𥢺
 𣝿	dziaCq
 𣞋	dziaCq
@@ -11902,12 +11913,14 @@ use_preset_vocabulary: true
 强	giaCq		#1		#彊強
 繦	kiaCA
 ###𧮫
-𠈻	giakq
-郄	khiakq
+𨚫	khiakq		#郤?
+𲆕	khiakq		#郤?
+㕁	khiakq
+𠈻	giakq		#𠊬
 𤭏	giakq
-郄	khiakq
-𨜪	khiakq
-𨚥	khiakq
+郄	khrakq
+𨜪	khrakq
+𨚥	khrakq		#郤
 𢔱	giakq
 𠫲	kiakq
 𠫷	kiakq
@@ -13378,7 +13391,7 @@ use_preset_vocabulary: true
 𧟤	tshjenq
 𧟥	tshjenq
 𧟦	tshjenq
-𧟨	tshjenq
+??	tshjenq
 𮗃	tshjenq
 𢳍	tshjenq
 𢸯	tshjenq
@@ -13387,7 +13400,7 @@ use_preset_vocabulary: true
 𨔰	tshjenq
 𨕞	tshjenq
 𨗆	tshjenq
-𨗇	tshjenq
+??	tshjenq
 𨗢	tshjenq
 𨗺	tshjenq
 𨙘	tshjenq
@@ -13541,6 +13554,7 @@ use_preset_vocabulary: true
 ###犛
 ###吿-告
 ###口
+𠿆	maeA		#五音篇海
 𠹑	Ceevs
 𠵭	Axetq
 嗺	tsuoA

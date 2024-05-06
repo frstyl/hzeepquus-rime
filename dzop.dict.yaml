@@ -6,26 +6,26 @@ sor: by_weight
 use_preset_vocabulary: true
 ...
 ####
-≠	pəq toəCA
-↑	dcjaCA	999
+≠	pvi;q to;CA
+↑	dciaCA	999
 ↓	hgaaA	999
 ←	tsoajA	999
-→	qu;s	999
-↔	tsoajA qu;s
-↕	dcjaCA hgaaA
+→	Qvi;s	999
+↔	tsoajA Qvi;s
+↕	dciaCA hgaaA
 ↖	tsoajA dcjaCA
-↗	qu;s dcjaCA
-↘	qu;s hgaaA
+↗	Qvi;s dcjaCA
+↘	Qvi;s hgaaA
 ↙	tsoajA hgaaA
 ∩	kaevq	999
 ∪	pjeCs	999
-∈	tcjokq qvioq
-∉	pə tcjok qvioq
-⊆	hgo,mq qvioq
-⊊	hgo,mq qvioq
-⊈	pə hgo,m qvioq
+∈	tJjokq Qvioq
+∉	pvi;q tjiok Qvioq
+⊆	hgo,mq Qvioq
+⊊	hgo,mq Qvioq
+⊈	pvi;q hgo,m Qvioq
 ∀	dzyonq	999
-∃	qu;A	999
+∃	Qvi;A	999
 ∄	mvioq	999
 ∅	khouCq	999
 　	khouCq	999
@@ -51,16 +51,16 @@ use_preset_vocabulary: true
 丶	teemA	99
 丷	paetq	99
 亠	doovq	99
-亠	ncjupq	99
+亠	ncjinq	99		#儿人
 刂	toavq	99
-忄	sj;mq	99
-㣺	sj;mq	99
-扌	scjuvA	99
-龵	scjuvA	99
-龰	tcj;A	99
-歹	Cqoatq	99
-氵	scyujA	99
-氺	scyujA	99
+忄	sjimq	99
+㣺	sjimq	99
+扌	sciuvA	99
+龵	sciuvA	99
+龰	tsci;A	99
+歹	Coatq	99
+氵	scyiA	99
+氺	scyiA	99
 灬	hvaA	99
 冫	pi;Cq	99
 亻	ncjinq	99
@@ -68,13 +68,13 @@ use_preset_vocabulary: true
 钅	kximq	0
 阝	biuvA	99
 阝	Ax;pq	99
-飠	zcj;kq	99
-饣	zcj;kq	0
+飠	zci;kq	99
+饣	zci;kq	0
 衤	Ai;jq	99		#
-𥫗	tRxukq	99
-糹	sj;q	99
+𥫗	tRiukq	99
+糹	si;q	99
 糹	meekq	99
-纟	sj;q	0
+纟	si;q	0
 纟	meekq	0
 艹	tshouvA	99
 耂	louvA	99
@@ -83,8 +83,8 @@ use_preset_vocabulary: true
 讠	Cianq	0
 𤣩	Ciokq	99
 # 爿	dzjaCq	99
-丬	dzjaCq	0
-牜	Cqiuvq	99
+丬	dziaCq	0
+牜	Ciuvq	99
 犭	khvenA	99
 罓	muaCA	99
 罒	muaCA	99
@@ -94,36 +94,36 @@ use_preset_vocabulary: true
 𦉪	muaCA	99
 辶	thRxakq	99
 爫	tsSauvA	99
-𱼀	ncjukq	99
+𱼀	nciukq	99
 罒	miukq	99
 𧾷	tsjokq	99
 ##
-乛	tjetq	99
-𠃍	tjetq	99
-𠃌	tjetq	99
-乙	tjetq	99
-𠄎	tjetq	99
-亅	tjetq	99
-乚	tjetq	99
-𠃊	tjetq	99
-𠄌	tjetq	99
-𠃑	tjetq	99
-㇉	tjetq	99
-𠃋	tjetq	99
-𡿨	tjetq	99
-[㇇]	tjetq	99
-[㇈]	tjetq	99
-[㇁]	tjetq	99
-[㇄]	tjetq	99
-[㇂]	tjetq	99
+乛	tscjetq	99
+𠃍	tscjetq	99
+𠃌	tscjetq	99
+乙	tscjetq	99
+𠄎	tscjetq	99
+亅	tscjetq	99
+乚	tscjetq	99
+𠃊	tscjetq	99
+𠄌	tscjetq	99
+𠃑	tscjetq	99
+㇉	tscjetq	99
+𠃋	tscjetq	99
+𡿨	tscjetq	99
+[㇇]	tscjetq	99
+[㇈]	tscjetq	99
+[㇁]	tscjetq	99
+[㇄]	tscjetq	99
+[㇂]	tscjetq	99
 [⺕]	qu;s	99
 𤇾	JyeCq	99
-# ⺼	ncjukq
+# ⺼	nciukq
 龴	JjoCA	99
 龴	JjoA	99	#予
 龶	sSxeCq	99
-龸	dcjaCs	99
-龹	kwons	99
-龺	tRaavkq	99		#卓
+龸	dzciaCs	99
+龹	kwens	99
+龺	tRaakq	99		#卓
 龻	lyonq	99
-𠂒	Cqu;q	99
+𠂒	Cu;q	99

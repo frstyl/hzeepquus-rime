@@ -101,9 +101,9 @@ speller:
     - derive/(u)v/$1/ #uv 侯尤幽
     - fuzz/(ao)v/$1/ #ao-v
 
-    - fuzz/(i)C/$1n/ #iŋ in ij it eŋ eq ek#oveYiujyrWxwafIU
-    - fuzz/(i)g/$1d/ #iŋ
-    - fuzz/(i)x/$1z/ #iŋ
+    - fuzz/([^eY]i)C/$1n/ #iŋ in ij it eŋ eq ek#oveYiujyrWxwafIU
+    #- fuzz/(i)g/$1d/ #iŋ
+    #- fuzz/(i)x/$1z/ #iŋ
 
     - xform/vi(?=(a|e|i|o|u|;|,))/u/ #io vio 介
     - xform/vI/U/
@@ -156,7 +156,7 @@ speller:
 ##古?
     - derive/^(Q|q)/q/
     - derive/^(JQ)/q/
-    - derive/^(JL|J)/j/ #以
+    - derive/^(JL|J)/J/ #以
 ##古複
     - abbrev/^(([kgCAhqQ]|kh)[VL])[aeiouvfIUjyxw;,].*$/$1/ #𥳑
     - derive/^(.*L)[JR]?/$1/ ##ll=L(![sz])
@@ -174,7 +174,7 @@ speller:
     - derive/^(hQs)/qs/
 
     - derive/L(?![sz])/ll/ #
-    - derive/V(?=[Ijxrioa][aeiou;,])/vv/ 
+    #- derive/V(?=[Ijxrioa][aeiou;,])/vv/ 
 ####聲-介
     - derive/^(tsSh(|t?s|d?z)S|([tdn]|th)R)i([aeiou;,])/$1x$4/
     - derive/^(tsSh(|t?s|d?z)S|([tdn]|th)R)u([aeiou;,])/$1w$4/
@@ -226,11 +226,8 @@ speller:
     # - derive/e(;)/$1/ #e四等 ea
     # - derive/(e)(a|e|i|u|;)/$1/ #e四等 
 
-    - derive/[Ij]([aeiou;,])/$1/ #三 省
+    - derive/(?<!^)[Ij]([aeiou;,])/$1/ #三 省
     - derive/([^RS]|[^S]h)i([aeiou;,])/$1$2/
-
-
-
 
 ##?
     - derive/[Ijrx](a|e|i|o|u|;|,)/i$1/ #i=jx
@@ -244,11 +241,11 @@ speller:
     # - derive/^([dg]c|dR|dz[szc])/ds/
     # - derive/^(s[szc])/sz/
     # - derive/^(z[szc])/zz/
-    - derive/^(LJ)/j/ #?
-    - derive/^(Lr?)/j/
+    - derive/^(LJ)/J/ #?
+    - derive/^(L(?!s)R?)/J/
     - derive/^(hqz|hzq?|qz|hQz?|E)/q/ #雲一 hqz E
-    - derive/^(J[qQ])/j/ #?喻
-    - derive/^(Jq)/q/ #雲三A
+    - derive/^(J[qQ])/J/ #以?喻
+    - derive/^(Jq)/q/ #雲三A jy必要?
 ##
     - derive/^([pbm])F/$1/
 
@@ -280,7 +277,7 @@ speller:
     - derive/^(ts)S(h)/$1$2s/ #初
     - derive/^(th?)R/$1z/ #知
     - derive/^(d)R/$1s/
-    #- derive/^J/j/
+    - derive/^J/j/ #以
     #- derive/^Q/q/
     - derive/^Z/zz/
 
