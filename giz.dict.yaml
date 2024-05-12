@@ -53,7 +53,7 @@ use_preset_vocabulary: true
 竵	Afujq		#崴歪
 敺	AoovA		#毆
 混	kvonA		#滾
-聃	toumq		#耽
+聃	to,mq		#耽
 率	lyutq		#律
 # 暖	nvanA		#煗㬉
 # 煖	nvanA		#煗㬉
@@ -1053,8 +1053,8 @@ use_preset_vocabulary: true
 㱎干	kvonq koanq
 #㑻傄	maitq hfitq
 #佔侸	teemq toovq
-擸㩑	loapq soupq
-擸𢶍	loapq soupq
+擸㩑	loapq so,pq
+擸𢶍	loapq so,pq
 拉颯	
 拉撒	
 拉𢴻	
@@ -1696,7 +1696,7 @@ use_preset_vocabulary: true
 毪	miuvq
 哞	miuvq
 ###𢎘㔾犯
-㔾	Eoumq		#p-k?
+㔾	Eo,mq		#p-k?
 㔾	phuoms
 𢎘	phuoms
 𤜛	buomq
@@ -5214,7 +5214,7 @@ use_preset_vocabulary: true
 #
 𨲂	neevA		#䦊
 𠋰	tsheekq		#戚
-𠻏	tsoupq		#嘁
+𠻏	tso,pq		#嘁
 𠎰	tsheekq
 𢦫	tsheekq
 𢧯	tsheekq
@@ -5425,7 +5425,7 @@ use_preset_vocabulary: true
 𰨬	doavA
 稲	doavA
 𨂻	doavs
-𫺼	khoumA		#1		#臽
+𫺼	kho,mA		#1		#臽
 ###䚻䍃
 ##-ev
 𨘔	Jjevq
@@ -5578,7 +5578,8 @@ use_preset_vocabulary: true
 𣂑	toovA
 𤣫	toovA
 ###鬥
-###豆
+###豆壴
+权	dzcuos		#尌
 㤱	doovs
 # 㤱	phiuvA
 痘	doovs
@@ -5588,6 +5589,7 @@ use_preset_vocabulary: true
 櫥	dRioq
 闘	toovs
 # 櫥	dRuoq
+###鼓
 ###胥
 聓	seejs
 聟	seejs
@@ -7105,20 +7107,20 @@ use_preset_vocabulary: true
 𥩠	tRaems
 ##贛𥫔竷
 䀍	do,ms		#2		#?
-𧗛	khoums		#1		#䀍䘓
-𧖾	khoums
-𧗐	khoums
+𧗛	kho,ms		#1		#䀍䘓
+𧖾	kho,ms
+𧗐	kho,ms
 #
-𬔧	koumA
-贑	koumA
-𧹄	koumA
-𧹉	koumA
+𬔧	ko,mA
+贑	ko,mA
+𧹄	ko,mA
+𧹉	ko,mA
 𧹉	kouCs
-𩐬	koumA
-𩑅	koumA
-𫎬	koumA
-𰷝	koumA
-𢥨	koums		#1		#
+𩐬	ko,mA
+𩑅	ko,mA
+𫎬	ko,mA
+𰷝	ko,mA
+𢥨	ko,ms		#1		#
 ##點
 㸃	teemA
 ##站
@@ -7415,14 +7417,14 @@ use_preset_vocabulary: true
 掭	theems
 ###冘 -m -v
 沉	dRximq
-𧖶	thoumA
-𥁭	thoumA
-𨡍	thoumA
-醓	thoumA
-𨣕	thoumA
-𧖺	thoumA
-𥁺	thoumA
-躭	toumq		#耽
+𧖶	tho,mA
+𥁭	tho,mA
+𨡍	tho,mA
+醓	tho,mA
+𨣕	tho,mA
+𧖺	tho,mA
+𥁺	tho,mA
+躭	to,mq		#耽
 ###䑣
 𥉨	thRximq		#1		#𧡬
 ###心
@@ -7431,12 +7433,12 @@ use_preset_vocabulary: true
 # 㵅	tho,mq
 # 僋	tho,mq
 ###䪞䨿
-𩇺	dzoupq
-𩐄	dzoupq
-䨿	dzoupq
-㩑	dzoupq
-㩑	soupq
-㪪	soupq
+𩇺	dzo,pq
+𩐄	dzo,pq
+䨿	dzo,pq
+㩑	dzo,pq
+㩑	so,pq
+㪪	so,pq
 ###集亼
 雑	dzo,pq
 雦	dzi;pq
@@ -7645,17 +7647,17 @@ use_preset_vocabulary: true
 𡡽	Eo,mA
 𡣤	Eo,mA
 𡣊	Eo,mA
-凾	Eoumq
-# 圅	Eoumq
-𠚗	Eoumq
-𡇜	Eoumq
-𦥖	Eoumq
-𪢪	Eoumq
-𭁦	Eoumq
-𮙚	Eoumq
+凾	Eo,mq
+# 圅	Eo,mq
+𠚗	Eo,mq
+𡇜	Eo,mq
+𦥖	Eo,mq
+𪢪	Eo,mq
+𭁦	Eo,mq
+𮙚	Eo,mq
 ###咸
 # 堿	kaemA		#音咸𥀹
-堿	khoumA		#坎
+堿	kho,mA		#坎
 ##
 𣤭	kheemq
 ###敢
@@ -7899,7 +7901,7 @@ use_preset_vocabulary: true
 尷	kaemq
 𡯽	kaemq
 𠔥	keemq
-𬻵	keemq
+??	keemq
 𭁐	keemq
 𭆢	keemq
 𭵄	keemq
@@ -7957,11 +7959,11 @@ use_preset_vocabulary: true
 餡	EaemA
 焔	Jjems
 #
-??	khoumA
-𮍥	khoumA
+??	kho,mA
+𮍥	kho,mA
 #
-𣢌	thoumq		#2
-𣤉	thoumq		#2
+𣢌	tho,mq		#2
+𣤉	tho,mq		#2
 ###㐭廩
 燷	lo,mq
 檁	ljimA
@@ -9474,9 +9476,9 @@ use_preset_vocabulary: true
 ###
 𰕣	gi;jq
 𣄨	gi;jq
-###虤
-𧹂	EYinA
-𧷠	EYinA
+###虤贙
+𧹂	EYenA
+𧷠	EYenA
 ###筋
 觔	ki;nq		#筋䈥
 ###卷𢍏
@@ -12205,7 +12207,7 @@ use_preset_vocabulary: true
 𨼇	liuCq
 𨼇	liuCq
 ###竷
-𫁯	khoumA
+𫁯	kho,mA
 𦦍	kouCs
 ###疑
 # 嶷	Ci;kq
@@ -12449,7 +12451,7 @@ use_preset_vocabulary: true
 坕	keeCq
 坙	keeCq
 𡉤	keeCq
-𡿱	keeCq
+??	keeCq
 𢀖	keeCq
 𤔊	keeCq
 𭗻	keeCq
@@ -12568,9 +12570,10 @@ use_preset_vocabulary: true
 𥑽	Aaekq
 𥑣	Aaekq
 𧦠	Aaekq
-###益
-溢	Ajekq
+###蠲
 𧔈	kYenq
+###溢
+###益
 #
 㬲	Ajekq
 #

@@ -106,7 +106,8 @@ speller:
     #- fuzz/(i)x/$1z/ #iŋ
 
     - xform/vi(?=(a|e|i|o|u|;|,))/u/ #io vio 介
-    - xform/vI/U/
+    - xform/vI/U/ #夢
+    - xform/vx/w/ #風
 ##韻-介尾
 ##韻-尾 (-)
     # - derive/([oveY]a)j/$1/ #aj vuj  vu va
@@ -197,6 +198,7 @@ speller:
     - derive/^(ph|p|b|m)[Y]([ei;,])/$1e$2/
     #- derive/^(ph|p|b|m)V([Ijrxioa][aeiou;,])/$1$2/
     - derive/(hms|ph|p|b|m)v[;,]/$1ea/    #特加
+
 ##聲介韻
     #- derive/^(kh?|g|C|h|q|A)/K/    
     - derive/([UywWu])i([ndzt])/$1u$2/ #yu yi k組除外?

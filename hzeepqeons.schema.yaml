@@ -107,6 +107,7 @@ speller:
 
     - derive/(vI)/U/ #uə
     - derive/(vi)(?=(a|e|i|o|u|;|,))/u/ #uə
+    - derive/vx/w/
 ####尾古
     - derive/[pt]s$/r/
     - derive/ks$/s/

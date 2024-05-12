@@ -329,7 +329,7 @@ import_tables:
 𢱡	svujA
 䐝	svujs
 挼	nvujq
-捼	nvujq		#?妥?委?
+捼	nvujq		#?妥?委?妥委譌
 妥	thvujA		#ns?妥?委?
 䛢	thvujq
 㟎	thvujA
@@ -3636,9 +3636,9 @@ import_tables:
 #
 衰	tsShwojq		#?
 ##we
-䪎	sq-sweq		#巂䬽
-䭨	sq-sweq
-䬽	sq-swejq		#䭨
+䪎	sq-Sweq		#巂䬽
+䭨	sq-Sweq
+䬽	sq-Swejq		#䭨
 ##wor woks wots
 㨅	nRwops		#ps ?
 ##woj
@@ -4713,6 +4713,8 @@ import_tables:
 沶	JLj;q		#示?
 𥾩	zSx;A		#䋀
 筣	lj;q		#利R-i
+抾	khi;q		#?去#去其切 丘之切 去劫
+抾	khi;q
 ##
 欼	tsShx;A		#𠭋-巳#譌誤
 㱀	tsShx;A		#欼
@@ -5202,8 +5204,6 @@ import_tables:
 誋	gi;s
 梞	gi;s
 𥭜	gi;s
-抾	khi;q
-抾	khi;q
 癡	thRx;q		#ŋ̥ Cs#訓騃佁
 嶷	Ci;q
 觺	Ci;q
@@ -6722,15 +6722,44 @@ import_tables:
 㾰	hgooq
 箶	hgooq
 𧛞	hgooq
-虍	hooq
-雐	hooq
-虎	hooA
-䰧	hooq
-琥	hooA
-𨛵	hooA
-萀	hooA
-䗂	hooA
-𨛸	hgooA
+𠑹	kq_ooA		#瞽?
+鼓	kq_ooA
+𡔷	kq_ooA
+𪔐	kq_ooA
+瞽	kq_ooA
+鼔	kq_ooA
+虍	XL-ooq		#k-L? 乎虖𧆪 虍聲
+雐	XL-ooq
+虎	XL-ooA
+䰧	XL-ooq
+琥	XL-ooA
+𨛵	XL-ooA
+萀	XL-ooA
+䗂	XL-ooA
+𨛸	hgL-ooA
+乎	hgL-ooq		#ɢ V-?虖 零聲母?
+𠀒	hgL-ooq
+呼	XL-ooq
+𧦝	XL-ooq
+軤	XL-ooq
+苸	XL-ooq
+烀	XL-ooq
+㭔	looq		#乎虖虍k-R-a
+㭔	looA
+㻯	Rshooq		#㻬
+𡻻	Rshooq
+嶀	Rshooq		#虖雩譌
+㻬	Rshooq		#𡻻
+𧆪	XL-ooq	99	#虍虖
+虖	XL-ooq	99
+嘑	XL-ooq
+歑	XL-ooq
+謼	XL-ooq
+滹	XL-ooq
+謼	XL-oos
+虖	hgL-ooq
+嫭	hgL-oos
+戲	XL-ooq	2
 魱	hgL-ooq
 互	hgL-oos		#牙k-L-a
 䇘	hgL-oos
@@ -6810,25 +6839,6 @@ import_tables:
 祖	tsooA
 䔃	tsooA
 組	tsooA
-乎	hQvoq		#ɢ V-?虖
-𠀒	hQvoq
-呼	hooq
-𧦝	hooq
-軤	hooq
-苸	hooq
-烀	hooq
-㭔	looq		#乎虖虍k-R-a
-㭔	looA
-㻯	thooq
-虖	hooq
-嘑	hooq
-歑	hooq
-謼	hooq
-滹	hooq
-謼	hoos
-虖	hgooq
-嫭	hgoos
-戲	hooq	2
 芐	hgooA
 酥	sC-ooq
 穌	sC-ooq
@@ -7006,12 +7016,6 @@ import_tables:
 㓃	tooks
 秺	tooks
 ##
-𠑹	kq_voA		#瞽?
-鼓	kq_voA
-𡔷	kq_voA
-𪔐	kq_voA
-瞽	kq_voA
-鼔	kq_voA
 壺	hgvoq
 㯛	hgvoq
 ##va
@@ -7054,8 +7058,6 @@ import_tables:
 鮬	bvos		#?
 𩣔	bvos
 𩢕	bvos		#𩣔
-嶀	thvoq		#
-㻬	thvoq
 扝	khq_voq
 㢪	khq_voq
 刳	khq_voq
@@ -7529,10 +7531,11 @@ import_tables:
 糈	sSxoA
 初	tsShxoq
 䙘	tsShxoA	0		#誤
-樗	RshRxoq		#㯉㭔#譌
-摴	RshRxoq		#樗㯉
-㯉	RshRxoq
-摢	RshRxoq
+樗	RshRxoq		#㯉㭔 虍聲 虍k-L#虖雩譌
+摴	RshRxoq		#樗㯉? 摢攄
+㯉	RshRxoq		#櫖
+摢	RshRxoq		#攄
+攄	RshRxoq		#虎虍 摴
 菹	tsSxoq
 沮	tsSxoq
 䶥	tsSxoq
@@ -7639,7 +7642,6 @@ import_tables:
 茅	dRxoA	0		#苧芧?
 櫥	dRxoq
 絮	nshRxos		#ns
-攄	RshRxoq		#虎虍
 女	nRxoA
 籹	nRxoA
 釹	nRxoA
@@ -8168,7 +8170,8 @@ import_tables:
 尌	dJyos
 壴	tRwos
 𧯛	tRwos
-䜴	tsShwos
+#䜴	tsShwos		#昌母
+䜴	thJwos
 厨	dRwoq
 廚	dRwoq
 蹰	dRwoq
@@ -9240,7 +9243,7 @@ import_tables:
 橑	loavA
 潦	loavA
 潦	loavs
-𧰉	loavq
+??	loavq
 簝	loavq
 䝤	loavA
 獠	loavA
@@ -10829,7 +10832,7 @@ import_tables:
 ##xiv
 孂	kxevA
 ##?xev
-殍	bF_xevA		#孚p-u#𠬪p-e-v #𠬪
+殍	bF_xevA		#孚p-u#??p-e-v #𠬪
 莩	bF_xevA
 𣧶	bF_xevA
 𦭼	bF_xevA
@@ -11650,7 +11653,7 @@ import_tables:
 眸	mF_Iuv_q
 侔	mF_Iuv_q
 麰	mF_Iuv_q
-𦭷	mF_Iuv_q
+??	mF_Iuv_q
 劺	mF_Iuv_q
 恈	mF_Iuv_q
 鴾	mF_Iuv_q
@@ -14566,8 +14569,8 @@ import_tables:
 皀	kx;pq
 碞	Cx;mq
 黚	gx;mq
-鈒	sq-sx;pq		#及k-R-eo-p
-雭	sq-sx;pq
+鈒	sq-Sx;pq		#及k-R-eo-p
+雭	sq-Sx;pq
 級	kx;pq
 汲	kx;pq
 伋	kx;pq
@@ -14810,7 +14813,7 @@ import_tables:
 耽	to;mq
 眈	to;mq
 妉	to;mq
-𡖓	to;mq
+??	to;mq
 黕	to;mA
 耽	to;mA
 𡖓	to;mA
@@ -17875,7 +17878,10 @@ import_tables:
 𥮒	dzeenq	2		#-m?
 睼	theens		#是t-e-n?
 ###ven
-蠲	kq_Yenq		#-ŋ益血? 溢
+蠲	kq_Yenq		#-ŋ益血? 溢#⿱蜀皿 
+贙	EYenA		#虤
+贙	EYens
+𧟨	EYenq		#人名
 ##vin
 騤	kq_Yitq		#癸k-v-i
 湀	khq_Yitq
@@ -17891,9 +17897,6 @@ import_tables:
 # 𥅧	hQsYitq
 # 䆝	hQsYitq
 # 䒸	hQsYitq
-贙	EYinA		#虤
-贙	EYins
-𧟨	EYinq		#人名
 # 訇	EYinq		#勻
 # 盷	EYinq
 # 䀏	EYinA
@@ -19408,8 +19411,8 @@ import_tables:
 㕞	sSwotq
 刷	sSwotq
 𠴪	sSwotq
-孿	sq-swons		#䜌p-R-o-n#䜌A-R-o-n
-㝈	sq-swons
+孿	sq-Swons		#䜌p-R-o-n#䜌A-R-o-n
+㝈	sq-Swons
 㔍	tsShwotq
 䵵	tsSwotq
 䉵	dzSwons
@@ -23832,7 +23835,7 @@ import_tables:
 芒	mF_UaCq
 鋩	mF_UaCq
 硭	mF_UaCq
-𨛌	mF_UaCq
+??	mF_UaCq
 杗	mF_UaCq
 朚	mF_UaCq
 邙	mF_UaCq
@@ -26731,8 +26734,10 @@ import_tables:
 䩸	nJjoCs
 髶	nJjoCq
 𩉪	nJjoCs		#䩸
-氄	nJjoCA		#矞
+氄	nJjoCA		#矞𣭲 𧝻
 𤮪	nJjoCA		#𤮪灷
+𧝻	nJjoCA
+𧜈	nJjoCA
 豵	tsouCq
 䗥	tsouCq
 嵸	tsouCq
@@ -27436,7 +27441,7 @@ import_tables:
 䚎	thRaoCs
 㦼	st-RaoCs		#?s-t-
 𥈄	thRaoCs		#𥈩𥊎
-𦗳	nRaoCq		#o?u?
+𦗳	nRaoCq		#儂o?u?
 𣰊	nRaoCq
 噥	nRaoCq
 𩟊	nRaoCq
@@ -28163,7 +28168,7 @@ import_tables:
 穠	nJjoCq		#農n-u-C?
 𩼅	nJjoCs
 𢫨	nJjoCA		#戎n-u-C
-軵	nJjoCA		#訓𢫨
+軵	nJjoCA		#訓𢫨搑
 ##iok
 俗	zq-jokq
 谷	Jqjokq	1
