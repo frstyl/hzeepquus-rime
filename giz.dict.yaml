@@ -8529,10 +8529,10 @@ use_preset_vocabulary: true
 𠟠	tsjenA
 𥮙	tsjens
 𥰸	tsjens
-###寸
+###寸-尊
 吋	tshvons
 ##村
-###尊
+###尊-寸
 ###疒
 # 𤕬	dzjitq
 疔	nRa;kq
@@ -9803,13 +9803,13 @@ use_preset_vocabulary: true
 # 䅥	kxetq
 # 揭	kxetq
 噶	koatq	0
-###舛
-###桀
+###桀-匃
 杰	gxetq
 𣎶	gxetq
 𤇍	gxetq
 𬿼	gxetq
 𭪪	gxetq
+###舛
 ###吳
 蜈	keetq
 ##
@@ -11642,7 +11642,10 @@ use_preset_vocabulary: true
 謒	tshiaCq
 篬	tshiaCq
 𠏧	tsShxeCq
-###靑-井?-生?
+###丼
+𠁲	tsjeCA
+𨸥	tsjeCA
+###靑-井丼?-生?
 靗	thRxeCs
 錆	tshiaCq
 #
@@ -12456,11 +12459,23 @@ use_preset_vocabulary: true
 坕	keeCq
 坙	keeCq
 𡉤	keeCq
-??	keeCq
+𡿱	keeCq
 𢀖	keeCq
 𤔊	keeCq
 𭗻	keeCq
 𰡮	keeCq
+###形型刑
+##丼
+𠛜	hgeeCq		#丼ts-e-C
+㣋	hgeeCq
+𡌁	hgeeCq
+𦓮	kq_aeCq
+
+##幵
+銒	hgeeCq
+𠛬	hgeeCq
+郉	hgeeCq
+
 ###畫畵
 𤰱	Efekq
 𡇍	Efekq
