@@ -460,7 +460,7 @@ translator:
     - xform/_//
     - xform/;/ə/
     - xform/,/ʌ/
-    - xform/([mnCptkr])q($|')/$1/
+    - xform/([mnCptkr])q($|')/$1$2/
     - xform/([IUW])/\L$1/
     - xform/([Y])/v/
     # - xform/^s[ptkLRnmCq]s?/s/
