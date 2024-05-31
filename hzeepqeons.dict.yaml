@@ -14844,7 +14844,7 @@ import_tables:
 苙	gx;pq
 𦶍	gx;pq
 泣	khx;pq		#立k-R-eo-p
-煜	qx;pq
+煜	qx;pq		#謬誤 余六切
 襟	kx;mq		#禁林k-R-eo-m
 㦗	kx;mq
 禁	kx;mq
@@ -26787,15 +26787,15 @@ import_tables:
 恜	LshRx;kq
 趩	LshRx;kq		#異聲
 ##
-##-p
+##-p?
 翊	Jj;kq		#立R-eo-p#翊L-eo-k?#昱L-u-k?
 𥡪	Jj;kq
-翌	Jj;kq
+翌	Jj;kq		#又 集韻 余六切
 #
-喅	Jqj;pq
-翊	Jqj;pq		#立 -p
-𥡪	Jqj;pq
-翌	Jqj;pq		#q-?
+喅	qx;pq
+翊	qx;pq		#立 -p
+𥡪	qx;pq
+翌	qx;pq		#q-?
 ##
 矜	ki;Cq
 矜	kxiCq		#令聲
@@ -28792,26 +28792,26 @@ import_tables:
 崈	dzSxuCq
 㓽	dzSxuCs
 ##
-𧆉	pF_vx;mq
-芃	bF_vx;mq
-梵	bF_vx;mq
-汎	bF_vx;mq
-風	pF_vx;mq
-𠙊	pF_vx;mq
-飌	pF_vx;mq
-楓	pF_vx;mq
-猦	pF_vx;mq
-偑	pF_vx;mq
-檒	pF_vx;mq
-風	pF_vx;ms
-諷	pF_vx;ms
-堸	bF_vx;mq
-渢	bF_vx;mq
-鳳	bF_vx;ms
-𠤈	bF_vx;ms
-𪆍	bF_vx;ms
-熊	Qvx;mq		#
-熋	Qvx;mq
+𧆉	pF_vI;mq
+芃	bF_vI;mq
+梵	bF_vI;mq
+汎	bF_vI;mq
+風	pF_vI;mq
+𠙊	pF_vI;mq
+飌	pF_vI;mq
+楓	pF_vI;mq
+猦	pF_vI;mq
+偑	pF_vI;mq
+檒	pF_vI;mq
+風	pF_vI;ms
+諷	pF_vI;ms
+堸	bF_vI;mq
+渢	bF_vI;mq
+鳳	bF_vI;ms
+𠤈	bF_vI;ms
+𪆍	bF_vI;ms
+熊	QvI;mq		#
+熋	QvI;mq
 #iom
 𧆉	pF_iuCq
 芃	bF_iuCq
@@ -28836,9 +28836,9 @@ import_tables:
 煜	Jjukq
 喅	Jjukq
 #
-昱	Jqj;pq		#L-?q-?
-煜	Jqj;pq
-喅	Jqj;pq
+昱	qj;pq		#L-?q-?
+煜	qj;pq
+喅	qj;pq
 ##Iəŋ vIəŋ
 瞢	mF_vI;Cq
 夢	mF_vI;Cq	2
