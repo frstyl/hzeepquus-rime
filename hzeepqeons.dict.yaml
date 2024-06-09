@@ -2632,6 +2632,7 @@ import_tables:
 㡹	tshjes
 婼	nJjaq
 ##je
+𤰞	pjeq		#𠂇甲
 卑	pjeq
 鵯	pjeq
 椑	pjeq
@@ -4550,12 +4551,12 @@ import_tables:
 𠊷	dRxiks
 𩋩	dRxiks
 𦥐	dRxiks
-懿	Axits		#ts
+懿	Axits		#ts㱅懿噎 吉
 饐	Axits
 㙪	Axits
 鷧	Axits
 撎	Axits
-亄	Axits
+亄	Axits		#?
 𤡬	hxiks
 ##xij Rjij
 訵	LshRxij_s
@@ -5418,7 +5419,7 @@ import_tables:
 𧱏	CI;ts
 ##Iər jər
 亟	khI;ks		#ks
-䀈	khI;ts		#ts
+䀈	khI;ts	99		#ts器
 鱀	gI;ts
 食	JLj;ks	9		#ks
 亄	AI;ts		#ts?
@@ -20840,15 +20841,15 @@ import_tables:
 䘌	nRx;kq
 㥾	nRx;kq
 #
-乙	Ax;tq		#-k 一
-亄	Ax;tq		#?
-𦨇	Cx;tq
 乚	Ax;tq		#乙
 𠃉	Ax;tq
+乙	Ax;tq		#-k 一
+亄	Ax;tq		#?
 𩾐	Ax;tq
 鳦	Ax;tq		#𠃉
 耴	Cx;tq
 䎲	Cx;tq
+𦨇	Cx;tq
 ##xin
 # 魿	gxinq		#-ŋ
 㔎	Cxitq
@@ -23141,9 +23142,12 @@ import_tables:
 䂻	dRaaCs
 瑒	LR_aaCA		#L昜
 ##Rjeŋ #re→ra庚三→aa
+冷	laaCA
 #
 䛭	hreCs		#𠂷
 瀴	AreCs
+#
+冷	ljiCA		#常用音 㓑
 #
 盯	tRreCA
 打	tRreCA
@@ -23152,7 +23156,6 @@ import_tables:
 偵	tRreCs
 挰	LR_reCq		#𡈼
 鋥	LR_reCs
-冷	lreCA		#常用音
 竀	thRreCq
 㲰	nRreCq		#?
 獰	nRreCq
@@ -24309,13 +24312,13 @@ import_tables:
 溟	meeCA
 䒌	meeCs
 暝	meeCs
-𤣘	leeCq
-俜	pheeCq
+𤣘	leeCq		#?冥
+俜	pheeCq		#甹p-e-C
 甹	pheeCq
-𠷓	heeCq		#?
 𢖊	pheeCq
 䶄	beeCq
 萍	beeCq
+𠷓	hLseeCq		#?甹L-e-C
 𪊑	khq_eeCs
 巠	kq_eeCq
 經	kq_eeCq
@@ -24601,7 +24604,7 @@ import_tables:
 呤	leiCq
 跉	leiCq
 狑	leiCq
-冷	leiCq	1
+冷	leiCq
 怜	leiCq
 秢	leiCq
 岭	leiCq
@@ -25394,7 +25397,7 @@ import_tables:
 聘	phjeCs
 娉	phjeCs
 俜	phjeCs
-梬	JLjeCA		#THRxeg #PR?		#
+梬	JLjeCA		#甹L-e-C
 勁	kjeCs
 葝	gjeCq
 頸	kjeCA
@@ -25872,7 +25875,7 @@ import_tables:
 𧹙	thRxeCq
 浾	thRxeCq	9		#赤水#訓泟
 泟	thRxeCq
-騁	thRxeCA
+騁	LsRxeCA		#甹L-e-C
 㵾	tsShxeCs
 眚	sSxeCA
 鼪	sSxeCs

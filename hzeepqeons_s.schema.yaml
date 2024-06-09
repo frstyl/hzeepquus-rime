@@ -284,14 +284,19 @@ speller:
     - derive/^Z/zz/
 
 ####尾
-    - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
-    # - fuzz/(?<!^)[j][q]$/j/
+    # - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
+    - fuzz/(?<!^)jq$/j/
     - fuzz/(?<!^)jA$/l/
     - fuzz/(?<!^)js$/r/
-    # - fuzz/(?<!^)vq$/v/
+    - fuzz/(?<!^)vq$/v/
     - fuzz/(?<!^)vA$/w/
     - fuzz/(?<!^)vs$/y/
-
+    # - xform/(?<!^)jq$/j/
+    # - xform/(?<!^)jA$/l/
+    # - xform/(?<!^)js$/r/
+    # - xform/(?<!^)vq$/v/
+    # - xform/(?<!^)vA$/w/
+    # - xform/(?<!^)vs$/y/
 
     - xform/(?<!^)([ptk])q$/$1/ #入韻
     - derive/(?<!^)([fvIUjyxwaeiou;,][aeiou;,])v(k)$/$1u$2/ #-v-視爲韻
