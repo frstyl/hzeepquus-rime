@@ -223,11 +223,11 @@ speller:
     - fuzz/(?<!^)([RJS])(h?)[IUjyiurWxw][uo]/$2u/
     
     #- derive/(^J[QLq]?|[SR]|^Z|[dn]J|th?J|[szn]c|tsch)[UyWwu][i]([jlrndzt])/$1u$2/ #yu yi
-    - derive/([UyWwu])i([ndzt])/$1u$2/ #yu
+    - derive/([UyWwu])i([ndztr])/$1u$2/ #yu
     - derive/([UyWwu])i([qAs])/$1uj$2/
 
     #- derive/(^J|^q|[SRc]h?|^Z|J)[UyWwu][e]([ndzt])/$1o$2/ #yo ye
-    - derive/(?<=[UyWwu])e(?=[ndzt])/o/
+    - derive/(?<=[UyWwu])e(?=[ndztr])/o/  #合口韻
     - derive/([UyWwu])e([qAs])/$1oj$2/
     #- derive/([dn]J|th?J|[szn]c|tsch)[UyWwu][eo]([jlrndzt])/$1o$2/
 

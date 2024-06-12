@@ -201,12 +201,12 @@ speller:
 
 ##聲介韻
     #- derive/^(kh?|g|C|h|q|A)/K/    
-    - derive/([UywWu])i([ndzt])/$1u$2/ #yu yi k組除外?
+    - derive/([UywWu])i([ndztr])/$1u$2/ #yu yi k組除外?
     - derive/([UyWwu])i([qAs])/$1uj$2/
-    - derive/(?<=[UyWwu])e(?=[ndzt])/o/
+    - derive/([UyWwu])e(?=[ndztr])/o/
     - derive/([UyWwu])e([qAs])/$1oj$2/
 ##元音
-    - derive/[Uy]([uo][jlrndzt])/$1/		#iov uo
+    - derive/[Uy]([uo][jlrndzt])/$1/  #iov uo
     #- derive/([SR]|Sh)[Ww]([uo][ndzt])/$1$2/
     - derive/([SRJ]|Sh)[u]([uo][jlrndzt])/$1$2/
     #- derive/V([Ijrxioa])([uo][jlrndzt])/$1$2/    #合口元音 .uj .uv
