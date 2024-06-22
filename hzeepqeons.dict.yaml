@@ -657,7 +657,7 @@ import_tables:
 藉	dzjaks
 躤	dzjaks
 唶	tsjaks
-䣠	dzjats		#ts
+䣠	dzjats		#譌誤 䣟 慈夜(舍<含>)切
 炙	tJjaks		#ks
 柘	tJjaks		#ks
 遮	tJjaq		#ks
@@ -7542,6 +7542,8 @@ import_tables:
 䕡	ljoq
 𤁵	ljoq
 𢣻	ljoq
+莒	kioA		#呂k-R-a
+筥	kioA
 莒	kxoA		#呂k-R-a
 筥	kxoA
 䮉	ljoq
@@ -13339,7 +13341,7 @@ import_tables:
 妗	he;mq
 欦	he;mq
 酓	Ae;ms
-僭	tse;ms
+僭	tse;ms		#朁
 憯	tshe;mA
 䁮	dze;ms
 䌠	khq_e;mq		#咸k-eo-m
@@ -13791,36 +13793,36 @@ import_tables:
 穕	tshjepq
 䌖	dzjepq
 㼲	ljepq		#?
-##?jəm
-檝	tsjepq
-楫	tsjepq
-䣸	nJjemA		#?
-妗	khjemq		#今
-酓	AjemA
-讋	tJjepq		#龖
-𧮩	tJjepq
-霅	tJjepq
-䜆	tJjepq		#譶
-慴	tJjepq		#習
-謵	tschjepq
-䌌	tshjepq
-摺	tscjepq
-䅧	Ajemq
-鍼	gjemq		#咸
-歙	sk-Jjepq		#翕k-u-p
-嚵	dzjemA
-𤓠	zL-jemq		#燅 s-L
-燂	zL-jemq
-撏	zL-jemq		#𢸧
-燖	zL-jemq		#燅燂
-熸	tsjemq		#?
-朁	dzjemq
-潛	dzjemq
-䁮	dzjemq
-潛	dzjems
-鬵	dzjemq
-灊	dzjemq
-棎	dJjemq		#L?
+##?jəm a?
+檝	tsj,pq
+楫	tsj,pq
+䣸	nJj,mA		#?
+妗	khj,mq		#今
+酓	Aj,mA
+讋	tJj,pq		#龖
+𧮩	tJj,pq
+霅	tJj,pq
+䜆	tJj,pq		#譶
+慴	tJj,pq		#習
+謵	tschj,pq
+䌌	tshj,pq
+摺	tscj,pq
+䅧	Aj,mq
+鍼	gj,mq		#咸
+歙	sk-Jj,pq		#翕k-u-p
+嚵	dzj,mA
+𤓠	zL-j,mq		#燅 s-L
+燂	zL-j,mq
+撏	zL-j,mq		#𢸧
+燖	zL-j,mq		#燅燂
+熸	tsj,mq		#?
+朁	dzj,mq
+潛	dzj,mq
+䁮	dzj,mq
+潛	dzj,ms
+鬵	dzj,mq
+灊	dzj,mq
+棎	dJj,mq		#L?
 ##jem
 暹	sjemq		#日光進也#會意
 夵	JjemA		#上大下小#會意
@@ -28526,6 +28528,21 @@ import_tables:
 辳	nooCq
 𨑋	nooCq
 慒	dzooCq		#曹?o
+##
+#
+𩟊	nouCq
+噥	nouCq
+𩅽	nouCq
+憹	nouCq
+㺜	nouCq
+儂	nouCq
+𧗕	nouCq
+膿	nouCq
+農	nouCq		#農n-u
+䢉	nouCq
+辳	nouCq
+𨑋	nouCq
+慒	dzouCq		#曹?o
 ##
 雺	mooCs		#矛m-u
 統	thooCs
