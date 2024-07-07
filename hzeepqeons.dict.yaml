@@ -1369,8 +1369,8 @@ import_tables:
 䎮	theeks
 㩢	meets		#蔑
 䤍	meeq
-𪓬	meeq		#兒
-啑	tees	1		#?
+𪓬	meeq		#兒聲?
+啑	tees	0		#?
 #a? ə ʌ
 臡	neaj_q
 折	deaj_q
@@ -2206,10 +2206,10 @@ import_tables:
 榽	hgaeq
 㰨	haeq
 猚	Cq_aeq
-䍲	CR_aeq		#ŋ Cc
+䍲	CR_aeq		#ŋ Cc#兒聲
 掜	CR_aeq
 誽	CR_aeq
-唲	Aaeq
+唲	Aaeq		#𠴺
 街	kq_aeq
 㾏	kq_aes
 哇	Aaeq
@@ -6605,7 +6605,7 @@ import_tables:
 𩹂	QUuts
 緭	QUuts
 𦳢	QUuts
-䬑	QUuts
+䬑	QUuts		#大風
 𢍚	QUuts		#𡔱𢍖𣓑𤱿#「𦳢」胃
 ####o 模魚虞
 ###o
@@ -8173,7 +8173,6 @@ import_tables:
 倶	kuoq
 埧	guos
 犋	guos
-颶	guos
 䞤	pF_huoA
 岣	kuoq
 拘	kuoq
@@ -10821,7 +10820,7 @@ import_tables:
 慓	phjevs
 剽	phjevs
 𩙞	bjevq
-飄	bjevq
+飄	bjevq		#飄風 回風也
 螵	bjevq
 𤬡	bjevq
 剽	bjevq
@@ -12984,9 +12983,9 @@ import_tables:
 𩅼	tsSaams
 醶	tsShaamA		#僉ts-e-m#僉k-r-a-m
 ##ROam
-擖	dRaapq		#?kLR
-嵌	khq_aamq		#歁
-㺖	tsShaams		#? s-k?
+擖	dRaapq		#揲
+嵌	khq_aamq		#歁聲
+㺖	tsShaams		#?敢 s-k?
 𪒠	AaamA
 𪒠	Aaams
 㺖	haamA
@@ -16346,7 +16345,7 @@ import_tables:
 伴	bvanA
 拌	bvanA
 畔	bvans
-伴	bvans
+伴	bvans		#伴奂 炍煥 判渙
 㚘	bvanA
 叛	bvans
 𡞟	bvans
@@ -16439,6 +16438,7 @@ import_tables:
 䈠	hQvanA
 斡	Avatq		#a
 澣	EvanA
+𤃬	EvanA		#𧹳
 豁	Xvatq		#害憲
 𧯆	Xvatq
 瓛	hQvanq		#ŋ?
@@ -17449,7 +17449,6 @@ import_tables:
 # 𦛠	neitq
 # 涅	neitq
 # 篞	neitq
-隉	Cq_eitq
 電	Leins		#申L-
 𨌈	Leinq		#身L-
 銕	Lsheitq		#Ls鐵#夷L-i-#夷L-eo-j
@@ -18010,6 +18009,9 @@ import_tables:
 霓	Cq_eetq
 蜺	Cq_eetq
 䘽	Cq_eetq
+陧	Cq_eetq
+隉	Cq_eetq		#兒聲?𨺙#𨻄?
+𨺙	Cq_eetq
 駢	beenq		#?
 骿	beenq
 軿	beenq
@@ -19499,11 +19501,11 @@ import_tables:
 糱	Cxatq
 蠥	Cxatq
 櫱	Cxatq
-㜸	Cxatq	1
-孽	Cxatq	1
-糵	Cxatq	1
-蘖	Cxatq	1
-𧕏	Cxatq	1
+㜸	Cxatq
+孽	Cxatq
+糵	Cxatq
+蘖	Cxatq
+𧕏	Cxatq
 孱	dzSxanq
 潺	dzSxanq
 𨬖	dzSxanq
@@ -22594,14 +22596,15 @@ import_tables:
 潒	LoaCA	999		#L象 盪
 𢠽	LoaCA	999
 ##Oak
-䨰	phoakq
+䨰	phoakq		#濼 㴖
 𩔈	phoakq
 粕	phoakq
 胉	phoakq
-魄	thoakq		#訓託
 泊	boakq
 箔	boakq
-踄	boakq
+洦	boakq
+魄	thoakq		#訓託
+踄	boakq		#步聲
 𧊜	Cq_oakq		#屰
 𩒕	Cq_oakq
 𪀝	Cq_oakq
@@ -24770,10 +24773,10 @@ import_tables:
 惁	seekq
 㱤	seekq
 析	seekq
-鬩	hCseekq		#兒#ŋ̥ Cs
+鬩	hCseekq		#兒聲#ŋ̥ Cs
 𤄎	hCseekq
 㦦	hCseekq
-𣣉	hCseekq
+𣣉	hCseekq	
 𠩫	Cq_eekq
 繴	peekq
 壁	peekq
@@ -27879,6 +27882,7 @@ import_tables:
 捳	Cq_aokq
 𧢲	kq_aokq	9
 角	kq_aokq
+𬺠	kq_aokq	99
 龣	kq_aokq	9		#角 樂器
 桷	kq_aokq
 捔	kq_aokq

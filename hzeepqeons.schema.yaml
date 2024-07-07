@@ -264,8 +264,8 @@ speller:
     - fuzz/(?<=S)(h?)f([aeiou;,])/$1W$2/ #莊R
 
 
-    - derive/([SR]h?)i([aeiou;,])/$1x$2/
-    - derive/^(tsSh|(t?s|d?z)S|([tdn]|th)R)u([aeiou;,])/$1w$4/
+    - derive/([SR]h?)i([aeiou;,])/$1x$2/ #知莊R-
+    - derive/([SR]h?)u([aeiou;,])/$1w$2/
     - derive/(^J|^l|ch?)i([aeiou;,])/$1j$2/
     - derive/^(J|l|t?sc?h?|d?zc?|nc)u([aeiou;,])/$1y$2/
     - derive/(J|^l||[RSc]h?)[jrxi]([aeiou;,])/$1i$2/ #i=jx 在Jj前

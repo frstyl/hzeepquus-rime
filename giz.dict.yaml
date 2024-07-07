@@ -992,11 +992,11 @@ use_preset_vocabulary: true
 婆娑	boajq soajq
 戚施	tsheekq scjajq
 侏儒	
-扶搖	bjevq
+扶搖	bjevq		#飄
 骷髏	kvotq
 髑髏	kvotq
-窟窿	khouCA
-轂轆	lyunq
+窟窿	khouCA		#孔
+轂轆	lyunq		#輪
 軱轆	lyunq
 軲轆	lyunq
 崑崙	kfenq
@@ -1734,7 +1734,6 @@ use_preset_vocabulary: true
 穒	biuCs
 鳯	biuCs
 ###風
-𲋄	piuCq
 瘋	piuCq
 凨	piuCq
 凬	piuCq
@@ -1744,9 +1743,15 @@ use_preset_vocabulary: true
 𠘴	piuCq
 𠙄	piuCq
 𠙈	piuCq
-# 𠙊
+# 𠙊	piuCq
 𠙗	piuCq
 𨒷	piuCq
+𭂱	piuCq
+𲋄	piuCq
+檒	piuCq
+##
+𩙣	piuCq
+飌	piuCq
 ###布
 鿻	poos
 鈽	pooq
@@ -1892,7 +1897,10 @@ use_preset_vocabulary: true
 𠇑	bvioA
 ##甫-k
 ##尃
-𦼭	biakq
+𭱺	boakq
+𭳚	boakq
+𮆱	boakq
+𦼭	buakq
 愽	poakq
 礡	boakq
 ##甫
@@ -3699,14 +3707,14 @@ use_preset_vocabulary: true
 𨫻	dweq
 #
 𪾶	dzcyeq
-埀	tscyeq
-𡋢	tscyeq
-# 𡍮	tscyeq
-𡷩	tscyeq
-𡸁	tscyeq
-𡹁	tscyeq
-𬽍	tscyeq
-𮉰	tscyeq
+埀	dzcyeq
+𡋢	dzcyeq
+# 𡍮	dzcyeq
+𡷩	dzcyeq
+𡸁	dzcyeq
+𡹁	dzcyeq
+𬽍	dzcyeq
+𮉰	dzcyeq
 𠃀	dzcyeq
 𠄒	dzcyeq
 # 𠣔	dzcyeq
@@ -4837,7 +4845,6 @@ use_preset_vocabulary: true
 𪛁	tshiuvq
 𧇸	tshiuvq
 㾭	tsSaavs
-瞅	tsShiuvA
 鍬	tshjevq
 鬏	tsiuvq		#𩭓
 揪	tsiuvq		#揫
@@ -6101,7 +6108,6 @@ use_preset_vocabulary: true
 抬	thRi;q
 𠄩	Ji;q
 ###台-j
-颱	do,jq
 #
 乨	sci;A
 兘	sci;A
@@ -7602,6 +7608,8 @@ use_preset_vocabulary: true
 # 焚	bu;mq		#林-m?
 ##森
 ###甘
+嶔	khaamq
+嵌	khaamq		#歁省聲
 𨚠	Eoamq
 咁	koamq
 疳	koamq
@@ -11097,12 +11105,12 @@ use_preset_vocabulary: true
 𧜑	thRxeA
 𫀖	thRxeA
 ###圼
-𱼭	neekq
-揑	neekq
-湼	neekq
-𦵐	neekq
-𡍤	neekq
-陧	Cqeekq
+𱼭	neetq
+揑	neetq
+湼	neetq
+𦵐	neetq
+𡍤	neetq
+陧	Ceetq
 ###失
 鉄	Lsheetq
 ###至
@@ -12457,6 +12465,8 @@ use_preset_vocabulary: true
 咯	loakq	9
 蕗	loos
 𡅅	Ao;q
+###郭𩫏
+霩 khvakq
 ###各
 㪾	kaakq
 詻	liakq
@@ -14602,7 +14612,6 @@ use_preset_vocabulary: true
 ###氏
 ###氐
 ###戈
-戥	to;CA
 ###戉
 ###我
 𡦛	dzciukq		#1		#不詳
@@ -14643,13 +14652,21 @@ use_preset_vocabulary: true
 𧉛	teejs		#螮
 ###蟲
 ###風
+飃	bjevq
+䬏	piuvA		#玉篇裴負切
+䬓	Ao,ms		#正字通烏幹切 音暗
+䬔	Jyoq		#䬓䬔
+䬖	EfaCq		#䬝
+䬗	JjaCq		#篇海類編同颺
+䬜	thRreq		#字彙抽知切 同魑
+䬙	Jjevq		#海篇金鏡  颻
+𩗈	pjevq		#字彙布遙切飇
+𩗍	leevq
+𩘞	bjevq		#字彙撫招切 飄
 䬕	hruvq
 䬕	khaoCA
 𩙡	pruvq		#字彙補匹幽切
 ##
-凪	tsci;A
-凧	tsSaeCq		#風箏
-凩	moukq
 ###它
 ###龜
 𪚯	tshiukq		#鼀
