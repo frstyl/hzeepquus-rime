@@ -20,11 +20,11 @@ use_preset_vocabulary: true
 # 盻	pha;ns		#1		#盼
 # 巵	tscjeq		#卮 
 # 梔	tscjeq
-# 㛂	CqvaA		#1		#㛂?
+# 㛂	CvaA		#1		#㛂?
 # 㛂	nvaA
-# 𢬯	CqvaA		#1		#厄
-# 𡜮	CqvaA
-# 𠂬	CqvajA
+# 𢬯	CvaA		#1		#厄
+# 𡜮	CvaA
+# 𠂬	CvajA
 # 厄	Aaekq		#2		#戹
 # 扼	Aaekq
 # 軛	Aaekq
@@ -130,6 +130,7 @@ use_preset_vocabulary: true
 大汗	doarq Eoans
 可汗	khah Eoanq
 ##連綿?
+𪇹䳴	
 湁潗	
 懵𢤦	
 覭髳	
@@ -2857,14 +2858,14 @@ use_preset_vocabulary: true
 𠚀	khvojs
 ###㕟
 𥲖	khvojq		#1		#䈛㕟
-𰆉	Cqferq		#2		#𦖥
+𰆉	Cferq		#2		#𦖥
 𠜐	khferq
 欳	khferq		#喟
 𢼾	khferq
 𢽋	khferq
 ##
-𩕕	Cqferq
-𦗿	Cqferq		#2
+𩕕	Cferq
+𦗿	Cferq		#2
 #
 𠣲	khferq		#𦳋蒯
 䓒	khferq
@@ -3060,14 +3061,14 @@ use_preset_vocabulary: true
 𱨁	Efejq
 ###豈
 # 呆	Co,jq
-𣪱	Cqo,jq
+𣪱	Co,jq
 溰	Ci;jq
 榿	khxeq
 榿	ki;jq
 ###臬
 䆿	Cjerq
 ###兀
-阢	Cvojq
+阢	Cvotq
 𡵉	Cvotq
 𧈭	Cvotq
 #
@@ -3087,9 +3088,9 @@ use_preset_vocabulary: true
 ###化
 吪	hfas
 𠯒	hfas
-𠮟	Cqvajq
-𫜸	Cqvajq
-䚰	Cqvajq
+𠮟	Cvajq
+𫜸	Cvajq
+䚰	Cvajq
 㐶	hfas
 𠆧	hfas
 ##花
@@ -4122,19 +4123,19 @@ use_preset_vocabulary: true
 𧔍	EYeq
 ###我
 峩	Coaq
-䳗	Cqoajq
-䳘	Cqoajq
-鵞	Cqoajq
-𨿍	Cqoajq
+䳗	Coajq
+䳘	Coajq
+鵞	Coajq
+𨿍	Coajq
 #
-㦱	CqoajA
-𢦐	CqoajA
-𢦓	CqoajA
-𢦖	CqoajA
-𢦠	CqoajA
-𢦥	CqoajA
-𢦴	CqoajA
-𨈟	CqoajA
+㦱	CoajA
+𢦐	CoajA
+𢦓	CoajA
+𢦖	CoajA
+𢦠	CoajA
+𢦥	CoajA
+𢦴	CoajA
+𨈟	CoajA
 ##義
 羛	Cxeq
 𠌾	Cxeq
@@ -4151,30 +4152,29 @@ use_preset_vocabulary: true
 𱠟	phu;tq
 𱠟	CvaA
 𭜒	CvaA
-頋	CqvaA
-𡛖	CqvaA
+頋	CvaA
+𡛖	CvaA
 𡛖	nvaA
-枙	CqvajA		#2
-𣐃	CqvajA		#2
-#巴
+枙	Cvaq		#枙c
+𣐃	Cvaq
 𦛐	nvaA		#篇海類編
 𦙜	nvaA
 𢫷	nvaA
+𢫷	CvaA
 𢪦	nvaA
-𢬯	nvaA
+𢬯	nvaA		#𢫷字之譌
+𢬯	CvaA
 𭡔	nvaA
 𡛣	nvaA
 㛂	nvaA
-𢫷	CvaA
-㛂	CvaA		#1		#㛂?
-𠂬	CvaA
-#
-𠂘	CqvajA
-𢀴	CqvajA
-𢨩	CqvajA
-𢨩	CqvajA
-𢪦	CqvajA
-𠨳	CqvajA
+㛂	CvaA		#㛂?
+# 𠂬	Cvaq		#巵?
+𠂘	Cvaq
+𢀴	Cvaq
+𢨩	Cvaq
+𢨩	Cvaq
+𢪦	Cvaq
+𠨳	Cvaq
 ###火
 伙	hvajA
 #
@@ -5056,7 +5056,7 @@ use_preset_vocabulary: true
 ###梟
 𡠿	neevA		#1		#褭
 𥉼	keevq
-𡂢	Cqeevs
+𡂢	Ceevs
 𣻏	keevq
 𢳚	kianq
 𣘖	kianq
@@ -5097,7 +5097,7 @@ use_preset_vocabulary: true
 𭽗	koavq
 # 睪	koavq
 皐	koavq		#1		#皋
-翶	Cqoovq
+翶	Coovq
 槹	koavq
 噑	Eoavq
 獔	Eoavq
@@ -5192,9 +5192,9 @@ use_preset_vocabulary: true
 𤉥	kruvq
 𤓱	kruvq
 𫃚	kruvq
-𪖐	Cqeevs
-𪖑	Cqeevs
-𪖘	Cqeevs
+𪖐	Ceevs
+𪖑	Ceevs
+𪖘	Ceevs
 芁	kiuvq
 収	sciuvq
 𠬧	sciuvq
@@ -5724,7 +5724,7 @@ use_preset_vocabulary: true
 𠨗	tscjeq
 𠂘	tscjeq
 𠨬	tscjeq
-巵	tscjeq
+# 巵	tscjeq
 𠂬	tscjeq
 梔	tscjeq
 ###禸
@@ -6136,7 +6136,7 @@ use_preset_vocabulary: true
 𩠛	Ji;q
 ###午
 𲆨	hoaCA
-𰅭	CqooA		#午
+𰅭	CooA		#午
 ###馭
 𩤳	Cios
 𩣓	Cios
@@ -6156,10 +6156,10 @@ use_preset_vocabulary: true
 𰉓	CiohA
 ###五
 ##
-乂	CqooA
-𠄡	CqooA
-𫝀	CqooA
-𣅎	CqooA
+乂	CooA
+𠄡	CooA
+𫝀	CooA
+𣅎	CooA
 ##吾
 𠵥	Coos
 㕶	Cvoq
@@ -6172,11 +6172,11 @@ use_preset_vocabulary: true
 牾	Coos
 痦	Coos
 𦥉	CioA		#2
-𤕻	Cqooq
+𤕻	Cooq
 ##
-𥧝	Cqoos
-𥧸	Cqoos
-𩄭	Cqoos
+𥧝	Coos
+𥧸	Coos
+𩄭	Coos
 ###牙
 庌	Caaq		#2
 蚜	Caaq
@@ -6608,11 +6608,11 @@ use_preset_vocabulary: true
 𧫗	tsShaas
 ###
 ###吳
-㕦	Cqvoq
-吴	Cqvoq		#1		#吳
-呉	Cqvoq
-悮	Cqvos
-𦨳	Cqvoq
+㕦	Cvoq
+吴	Cvoq		#1		#吳
+呉	Cvoq
+悮	Cvos
+𦨳	Cvoq
 娯	Cvioq
 娱	Cvioq
 𦨳	Cooq
@@ -7730,9 +7730,9 @@ use_preset_vocabulary: true
 合	Eo,pq
 哈	tho,pq	9		#嗒哈然似喪
 箚	tRaepq
-𦊪	Cqo,pq
-𦊴	Cqo,pq
-𦊭	Cqo,pq
+𦊪	Co,pq
+𦊴	Co,pq
+𦊭	Co,pq
 峇	kho,pq		#峇
 峆	Eo,pq
 ##荅
@@ -8888,7 +8888,7 @@ use_preset_vocabulary: true
 䃠	syens
 𩘒	tsyenq
 𡺟	dzyenq
-𠝳	Cqvanq		#刓
+𠝳	Cvanq		#刓
 # 縇	syenq
 # 𤸧
 䙋	syenq
@@ -9278,11 +9278,11 @@ use_preset_vocabulary: true
 𡁒	kheekq
 𨋻	kheekq
 ###甗
-𫠡	Cqoatq
+𫠡	Coatq
 ###外
-𡖄	Cqvarq
-夘	Cqvarq
-𱘦	Cqvarq
+𡖄	Cvarq
+夘	Cvarq
+𱘦	Cvarq
 ###孒
 𠀔	ku;tq
 ###亅𠄌
@@ -9467,7 +9467,7 @@ use_preset_vocabulary: true
 𩒢	teenA		#𩒝
 悢	Eo,nA
 #
-𥃿	Cqa;nA
+𥃿	Ca;nA
 㫔	ko,ns
 #
 𨹎	Eo,nA
@@ -9856,12 +9856,12 @@ use_preset_vocabulary: true
 𣍧	pho,jA		#朏
 ###𡎐
 ##
-𢴸	Cqeetq
+𢴸	Ceetq
 ##
 𬂤	Cjerq
 ##埶
-摰	Cqeetq
-𢳊	Cqeetq
+摰	Ceetq
+𢳊	Ceetq
 𧃳	sjetq
 秇	Cjerq
 萟	Cjerq
@@ -9938,12 +9938,12 @@ use_preset_vocabulary: true
 #
 豜	keenq
 𧲨	keenq
-妍	Cqeenq
-豜	Cqeens
+妍	Ceenq
+豜	Ceens
 訮	heenq		#?
 訮	theenq
-研	Cqeenq
-研	Cqeens
+研	Ceenq
+研	Ceens
 ###聯
 𢇂	kfanq
 𢇇	kfanq
@@ -10006,11 +10006,11 @@ use_preset_vocabulary: true
 ##𢽟
 憗	Cxins		#憖
 ###彥
-顔	Cqaanq
-𦫞	Cqaanq
-𦫨	Cqaanq
-𩓲	Cqaanq
-𩕝	Cqaanq
+顔	Caanq
+𦫞	Caanq
+𦫨	Caanq
+𩓲	Caanq
+𩕝	Caanq
 彦	Cians		#1		#彥
 𢒊	Cians
 𫝸	Cians
@@ -10473,21 +10473,21 @@ use_preset_vocabulary: true
 𧡽	loarq
 瀬	loarq		#1		#賴
 ###𠲗
-𠱫	Cqoatq
-𠱪	Cqoatq
-𠲩	Cqoatq
-𥩮	Cqoatq
-# 𠲗	Cqoatq
-𥥖	Cqoatq
-㖕	Cqoatq
+𠱫	Coatq
+𠱪	Coatq
+𠲩	Coatq
+𥩮	Coatq
+# 𠲗	Coatq
+𥥖	Coatq
+㖕	Coatq
 ###歺
-# 歹	Cqoatq
-𠔅	Cqoatq
-𠔆	Cqoatq
-𠧔	Cqoatq
-𡰮	Cqoatq
-# 𣦵	Cqoatq
-𣦶	Cqoatq
+# 歹	Coatq
+𠔅	Coatq
+𠔆	Coatq
+𠧔	Coatq
+𡰮	Coatq
+# 𣦵	Coatq
+𣦶	Coatq
 ##列
 䮋	ljerq
 咧	ljetq
@@ -11617,7 +11617,8 @@ use_preset_vocabulary: true
 𤕶	tsSiaCq
 䊋	tsSiaCs
 粧	tsSiaCq
-###將醬𨟻
+###將醬𨟻𢌳
+𢌳	tsjaCq
 ##
 奬	tsiaCA
 奨	tsiaCA	0
@@ -11808,13 +11809,13 @@ use_preset_vocabulary: true
 鶲	AouCq
 鎓	AouCq
 ###卬
-卭	CqoaCq
-𠨐	CqoaCq
-𨙪	CqoaCq
-昻	CqoaCq
-𣇅	CqoaCq
-𭥦	CqoaCq
-𰖄	CqoaCq
+卭	CoaCq
+𠨐	CoaCq
+𨙪	CoaCq
+昻	CoaCq
+𣇅	CoaCq
+𭥦	CoaCq
+𰖄	CoaCq
 ###亢
 𭂯	khoaCs
 𠕵	khoaCs
@@ -11854,8 +11855,8 @@ use_preset_vocabulary: true
 𢞢	khiaCs
 𢝑	khiaCs
 ##更㪅
-𩋸	CqaaCs
-𩋹	CqaeCs
+𩋸	CaaCs
+𩋹	CaeCs
 𦛟	kaaCA		#2
 ###工
 槓	kaoCs
@@ -12098,8 +12099,8 @@ use_preset_vocabulary: true
 #开
 笄	keejq
 #
-𢏖	Cqeejs
-𢏘	Cqeejs
+𢏖	Ceejs
+𢏘	Ceejs
 #
 ###井
 # 荆	kiaCq
@@ -12433,17 +12434,19 @@ use_preset_vocabulary: true
 𠘒	Eoakq
 ###隺
 㱋	khaavkq		#塙
-寉	Eoavkq
+寉	Eookq
+𣙜	kaokq
+㩁	kaokq
 ###咢
-腭	Cqoakq		#齶
-卾	Cqoakq
-㗁	Cqoakq
-𦠍	Cqoakq
-𪘰	Cqoakq
-𪘽	Cqoakq
+腭	Coakq		#齶
+卾	Coakq
+㗁	Coakq
+𦠍	Coakq
+𪘰	Coakq
+𪘽	Coakq
 ###噩
-𣤲	Cqoakq		#2		#諤
-𪡅	Cqoakq
+𣤲	Coakq		#2		#諤
+𪡅	Coakq
 ###㕡
 𧮸	hoakq
 𣤄	hoakq
@@ -12510,7 +12513,7 @@ use_preset_vocabulary: true
 𠛜	hgeeCq		#丼ts-e-C
 㣋	hgeeCq
 𡌁	hgeeCq
-𦓮	kq_aeCq
+𦓮	kaeCq
 
 ##幵
 銒	hgeeCq
@@ -12576,13 +12579,13 @@ use_preset_vocabulary: true
 𡘈	khoukq
 𡘜	khoukq
 ###獄
-𡽺	Cqaokq		#嶽
-𡴳	Cqaokq		#1		#𡶓
-𡵽	Cqaokq
-𡵹	Cqaokq
-𡶳	Cqaokq
-𡷒	Cqaokq
-# 𠚁	Cqaokq
+𡽺	Caokq		#嶽
+𡴳	Caokq		#1		#𡶓
+𡵽	Caokq
+𡵹	Caokq
+𡶳	Caokq
+𡷒	Caokq
+# 𠚁	Caokq
 ###應𨿳
 䧹	Ai;Cq
 𡄖	Ai;Cs
@@ -12617,10 +12620,10 @@ use_preset_vocabulary: true
 𠂬	Aaekq
 𠨗	Aaekq
 𢨩	Aaekq
-厄	Aaekq	5
-扼	Aaekq	5
-軛	Aaekq	5
-阨	Aaekq	5
+厄	Aaekq
+扼	Aaekq
+軛	Aaekq
+阨	Aaekq
 𤜸	Aaekq
 𧱒	Aaekq
 呃	Aaekq
@@ -13763,7 +13766,7 @@ use_preset_vocabulary: true
 敿	kxevA
 𣀈	tRaokq
 斆	Eaovs
-𫒋	gi;ms
+𫒋	gxims
 𢼔	hoajA
 𢾤	tRximq
 𢿴	hxipq
@@ -14190,7 +14193,7 @@ use_preset_vocabulary: true
 # ⿱网矛
 䋞	muaCA
 蛧	muaCA
-𦊪	Cqo,pq
+𦊪	Co,pq
 𦊮	mjejq
 𦊶	kvoq
 # ⿱网圭
@@ -14337,7 +14340,7 @@ use_preset_vocabulary: true
 ###山
 㠌	kheejqj
 㠌	kheejqj
-嵓	Cqa;mq
+嵓	Ca;mq
 㞲	CiuCs
 𡵖	Ao,nA
 峎	Co,nA
@@ -14496,13 +14499,13 @@ use_preset_vocabulary: true
 𪚥	tscjepq		#讋
 龘	do,pq		#龖
 𪚢	maoCA
-龑	Cqaamq		#巖
-𪚔	Cqaamq
+龑	Caamq		#巖
+𪚔	Caamq
 ##
-𪥛	Cqaamq
+𪥛	Caamq
 ##
-𬺛	Cqaamq
-䶮	Cqaamq
+𬺛	Caamq
+䶮	Caamq
 ###飛
 ###非
 ###卂
@@ -14627,7 +14630,7 @@ use_preset_vocabulary: true
 ###曲
 ###甾
 ###瓦
-𤭉	khq_oaCq
+𤭉	khoaCq
 ###弓
 弫	tjinA
 彁	giaCq		#彊

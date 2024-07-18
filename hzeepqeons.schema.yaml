@@ -147,8 +147,8 @@ speller:
     - derive/^(hCs|CsJ)/ngs/
     - derive/^(hQs)/qs/
 
-    - derive/L(?![sz])/ll/ #k-L
-    - derive/V/vv/ 
+    - derive/(.)L(?![sz])/$1ll/ #
+    # - derive/V/vv/ 
 ##
     - derive/^(hms)v([;,o;,])/$1$2/
     - derive/^(hms)v([;,o;,])/h$2/
@@ -226,7 +226,7 @@ speller:
     - derive/([UyWwu])i([ndztr])/$1u$2/ #yu
     - derive/([UyWwu])i([qAs])/$1uj$2/
 
-    #- derive/(^J|^q|[SRc]h?|^Z|J)[UyWwu][e]([ndzt])/$1o$2/ #yo ye
+    #- derive/(^J|^q|[SRc]h?|^Z|J)[UyWwu][e]([ndztr])/$1o$2/ #yo ye
     - derive/(?<=[UyWwu])e(?=[ndztr])/o/  #合口韻
     - derive/([UyWwu])e([qAs])/$1oj$2/
     #- derive/([dn]J|th?J|[szn]c|tsch)[UyWwu][eo]([jlrndzt])/$1o$2/
@@ -451,8 +451,8 @@ speller:
     # - derive/S/ss/
   
     # - derive/F/ff/ #pF
-    - derive/L(?![sz])/ll/ #k-L
-    - derive/V/vv/
+    # - derive/L(?![sz])/ll/ #k-L
+    # - derive/V/vv/
 translator:
   dictionary: hzeepqeons
   prism: hzeepqeons

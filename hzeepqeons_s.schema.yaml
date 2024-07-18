@@ -174,7 +174,7 @@ speller:
     - derive/^(hCs|CsJ)/ngs/
     - derive/^(hQs)/qs/
 
-    - derive/L(?![sz])/ll/ #
+    - derive/(.)L(?![sz])/$1ll/ #
     #- derive/V(?=[Ijxrioa][aeiou;,])/vv/ 
 ####聲-介
     # - derive/^(tsSh(|t?s|d?z)S|([tdn]|th)R)i([aeiou;,])/$1x$4/
@@ -205,7 +205,7 @@ speller:
     #- derive/^(kh?|g|C|h|q|A)/K/    
     - derive/([UywWu])i([ndztr])/$1u$2/ #yu yi k組除外?
     - derive/([UyWwu])i([qAs])/$1uj$2/
-    - derive/([UyWwu])e(?=[ndztr])/o/
+    - derive/([UyWwu])e(?=[ndztr])/$1o$2/
     - derive/([UyWwu])e([qAs])/$1oj$2/
 ##元音
     - derive/[Uy]([uo][jlrndzt])/$1/  #iov uo
@@ -397,8 +397,8 @@ speller:
     # - derive/S/ss/
     # - derive/Z/zz/
     # - derive/F/ff/ #pF
-    - derive/L/ll/ #k-L
-    - derive/V/vv/
+    # - derive/L/ll/ #k-L
+    # - derive/V/vv/
 translator:
   dictionary: hzeepqeons
   prism: hzeepqeons_s
