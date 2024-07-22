@@ -9305,6 +9305,8 @@ use_preset_vocabulary: true
 # 昏	kuatq
 𣅞	kuatq
 𬇌	kuatq
+𨈐	kuatq
+𨈑	kuatq
 ##厥
 𤺤	guatq
 橛	kuatq
@@ -9374,8 +9376,6 @@ use_preset_vocabulary: true
 𭮣	Eaenq
 𰴦	Euakq
 𣊺	kaenq
-鐧	kaens
-澗	kaens
 橺	EaenA
 𦅘	kaens
 𥼴	Eaenq
@@ -9383,10 +9383,11 @@ use_preset_vocabulary: true
 磵	kaens
 𧯑	kaens
 𩻾	kaens
-𨅍	thRuams
-𨅍	thoapq		#躢
 𧬘	loanq
 𤏐	loans
+#
+鐧	kaans
+澗	kaans
 #
 簡	kaenA
 㶕	kaens
@@ -13602,6 +13603,7 @@ use_preset_vocabulary: true
 丨	guatq
 ###屮
 ###艸
+萠	mo;Cq
 𦹗	bjinq		#36e57蘋
 𦶁	bu;nq
 芉	koanq
@@ -13677,6 +13679,7 @@ use_preset_vocabulary: true
 齣	tschyitq
 ###牙
 ###足
+𨅍	thRuams		#字彙 丑犯切 蹋踏躢 譌
 ###疋
 ###品
 ###龠

@@ -3687,7 +3687,7 @@ use_preset_vocabulary: true
 #㟅	EaoCq
 #虹	EaoCq
 #瀧	laoCq
-䮾	laoCq		#書爲⿰黑龍
+⿰黑龍	laoCq		#書爲䮾
 䋽	paoCA
 𥀂	paoCA
 𩑚	paoCA
@@ -7328,7 +7328,7 @@ use_preset_vocabulary: true
 #沝	tscyiA
 𡯒	ncyiA
 #癸	kyiA
-{⿻屮屮屮屮}	kyiA
+{⿻屮屮屮屮}	kyiA		#癸隸定
 #湀	kyiA
 #巋	khyiA
 #蘬	khyiA
@@ -16683,7 +16683,7 @@ use_preset_vocabulary: true
 #价	kaejs
 㑘	kaejs
 #㝏	kaejs
-#𢗊	kaejs		#書爲⿰尒心
+⿰尒心	kaejs		#𢗊
 畍	kaejs		#界
 堺	kaejs
 𨺬	kaejs
@@ -26468,37 +26468,13 @@ use_preset_vocabulary: true
 #𪗙	CaanA
 #𪗛	CaanA
 #嵃	CaanA
-#綰	AaanA
-#捾	AaanA
-#𩈬	AaanA
-#悺	AaanA
-䀑	AaanA
 #僩	EaanA
 #憪	EaanA
 撊	EaanA
 #橌	EaanA
 #捍	EaanA
 #𤡥	EaanA
-蒂	EaanA
-#睅	EaanA
-#睆	EaanA
-#鯇	EaanA
-#皖	EaanA
-#晥	EaanA
-鋎	EaanA
-#萈	EaanA
-#莞	EaanA
-唍	EaanA
-𧚁	EaanA
-#𪍺	EaanA
-#䴷	EaanA
-𡷗	EaanA
-#悍	EaanA
-攌	EaanA
-晘	EaanA
-#脘	EaanA
-#捍	EaanA
-#浣	EaanA
+⿳㐀䒑巿	EaanA		#業
 #襻	phaans
 䙪	phaans
 𧘒	phaans
@@ -26669,7 +26645,7 @@ use_preset_vocabulary: true
 #𩮂	haatq
 #傄	haatq
 #㔠	haatq
-𤛉	Eaatq
+𤛉	Eaatq		#舝
 #𢮟	Eaatq
 #轄	Eaatq
 #鎋	Eaatq
@@ -26763,6 +26739,30 @@ use_preset_vocabulary: true
 #饌	dzSfanA
 #䉵	dzSfanA
 #簨	dzSfanA
+#綰	AfanA
+#捾	AfanA
+#𩈬	AfanA
+#悺	AfanA
+䀑	AfanA
+#睅	EfanA
+#睆	EfanA
+#鯇	EfanA
+#皖	EfanA
+#晥	EfanA
+鋎	EfanA
+#萈	EfanA
+#莞	EfanA
+唍	EfanA
+𧚁	EfanA
+#𪍺	EfanA
+#䴷	EfanA
+𡷗	EfanA
+#悍	EfanA
+攌	EfanA
+晘	EfanA
+#脘	EfanA
+#捍	EfanA
+#浣	EfanA
 #奻	nRfans
 #篡	tsShfans
 𢸥	tsShfans

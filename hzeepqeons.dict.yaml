@@ -15958,7 +15958,7 @@ import_tables:
 瞞	mvanq
 顢	mvanq
 蹣	mvanq
-蹣	bvanq
+蹣	bvanq		#蹣跚
 慲	mvanq
 樠	mvanq
 𤡁	mvanq
@@ -16630,8 +16630,10 @@ import_tables:
 捌	paetq
 㭭	paetq
 砎	hgaetq		#?
-##ROeR
-㵎	kQ_aans
+##ROeR?
+㵎	kQ_aans		#礀𡼥
+礀	kQ_aans
+𡼥	kQ_aans
 鐗	kQ_aans
 䔵	kQ_aanq
 鬜	khQ_aanq
@@ -18411,7 +18413,7 @@ import_tables:
 閑	hgaenq		#閑k-R-e-n #閒k-R-e-n#閒k-R-a-n? #閒k-R-e-R?
 鷴	hgaenq
 𨳢	kQ_aenq
-䉍	kQ_aens
+䉍	kQ_aens		#補正 蕄 #簡在帝心 䉍 在也
 ##a?e?
 斕	laenq		#闌 斒斕
 柬	kQ_aenA		#柬k-R-e-n#柬k-R-a-n
@@ -19774,7 +19776,7 @@ import_tables:
 烕	hmswetq		#m 滅
 𦐋	hwetq
 吷	hwetq
-𥄎	hwetq		#?𭆲
+𥄎	hwetq		#?𭆲#𥄕?
 ####in 真諄 臻
 ###jin
 奞	sjins		#?
@@ -21189,7 +21191,7 @@ import_tables:
 袞	kL-q_vunA		#?㕣
 蔉	kL-q_vunA
 ##von? a?ə?
-樠	mv,nq		#滿㒼 ʌ?,?
+樠	mv,nq		#滿㒼 ʌ?a?
 璊	mv,nq
 𣯩	mv,nq
 䊟	mv,nq
@@ -21234,7 +21236,7 @@ import_tables:
 翉	phv;nA
 笨	bv;nA
 体	bv;nA
-畚	pv;nA
+畚	pv;nA		#弁聲
 𤲙	pv;nA
 㮥	bv;nA
 𣴞	bv;ns
@@ -21248,11 +21250,11 @@ import_tables:
 艴	bv;tq
 䟂	mv;nq
 怋	mv;nq
+歾	mv;tq		#殁
 𠬛	mv;tq
 𠬸	mv;tq
 𣴬	mv;tq
 𣨏	mv;tq
-歾	mv;tq
 𤥜	mv;tq
 沒	mv;tq
 歿	mv;tq
@@ -25012,6 +25014,22 @@ import_tables:
 𥆛	hQsYekq		#
 ###ROeŋ
 𡇠	tRaekq		#?硬皃
+##Raŋ? a?e?ə?
+啞	Aa,kq
+鞕	CQ_a,Cs		#
+硬	CQ_a,Cs
+浜	pa,Cq
+㙃	pa,Cq
+𩶁	ba,CA
+甿	ma,Cq		#亡m-a-C
+氓	ma,Cq
+䁅	ma,CA
+萌	ma,Cq		#䉍蕄𢡗萌
+𦹩	ma,Cq
+蕄	ma,Cq		#蕄䉍之譌 𢡗者蕄之譌
+#
+鞕	CQ_aaCs		#
+硬	CQ_aaCs
 ##
 蠯	baeCA		#卑
 螷	baeCA
@@ -25113,21 +25131,6 @@ import_tables:
 𦱊	dzSaeCq
 鬇	dzSaeCq
 埩	dzSaeCq
-##Raŋ? a?e?ə?
-啞	Aa,kq
-鞕	CQ_a,Cs		#
-硬	CQ_a,Cs
-浜	pa,Cq
-㙃	pa,Cq
-𩶁	ba,CA
-甿	ma,Cq		#亡m-a-C
-氓	ma,Cq
-䁅	ma,CA
-萌	ma,Cq
-蕄	ma,Cq	1		#蕄䉍之譌 𢡗者蕄之譌
-#
-鞕	CQ_aaCs		#
-硬	CQ_aaCs
 ##Rəŋ
 繃	pa;Cq
 綳	pa;Cq
@@ -25873,7 +25876,7 @@ import_tables:
 觪	sQ-yiCq
 ##vjek
 𦳮	tscyekq		#?𦳮卷 𥄕?狊
-𥄎	tshyekq	1		#?役
+𥄎	tshyekq		#?役
 瞁	hyekq		#𰥦𥆛
 𢔠	tshyekq		#𥄎狊役?
 𥆛	hQsyekq
@@ -26147,6 +26150,9 @@ import_tables:
 㠛	AWakq
 彠	AWakq
 ####əŋ eoŋ 登蒸
+###əŋ
+蕄	mo;Cq		#萠←萌←𢡗←蕄←䉍
+##
 北	po;kq
 𧉥	po;kq
 䁇	mo;kq
@@ -26314,7 +26320,6 @@ import_tables:
 祾	lo;Cq
 踜	lo;Cs
 㱥	lo;Cs
-蕄	mo;Cq	0
 能	no;Cq
 能	no;CA
 䘅	no;kq
@@ -30412,42 +30417,42 @@ import_tables:
 箭	tsjeRs
 鬋	tsjeRs
 葥	tsjeRs
-##ROeR? -aen
-蕑	kQ_aeRq	99
-覵	kQ_aeRq	99
-襉	kQ_aeRs	99
-覵	kQ_aeRs	99
-㵎	kQ_aeRs	99
-𥳑	kQ_aeRA	99
-𤄒	kQ_aeRA	99
-閒	kQ_aeRq
-𧟉	kQ_aeRA	99
-僩	kQ_aeRA	99
-閒	kQ_aeRs
-鬜	khQ_aeRq
-鬜	khQ_aetq
-𤡥	CQ_aeRq
-㗴	CQ_aeRq
-閒	hgaeRq
-嫺	hgaeRq
-癇	hgaeRq
-𩦂	hgaeRq
-瞯	hgaeRq
-憪	hgaeRq		#閒k-R-e-R#閒k-R-a-R
-閑	hgaeRq		#閑k-R-e-R
-鷴	hgaeRq
-𨳢	kQ_aeRq
-䉍	kQ_aeRs
-## -aan
-㵎	kQ_aeRs
-鐗	kQ_aeRs
-䔵	kQ_aeRq
-鬜	khQ_aeRq
-僩	hgaeRA
-憪	hgaeRA
-𤡥	hgaeRA
-撊	hgaeRA
-橌	hgaeRA
+# ##ROeR? -aen
+# 蕑	kQ_aeRq	99
+# 覵	kQ_aeRq	99
+# 襉	kQ_aeRs	99
+# 覵	kQ_aeRs	99
+# 㵎	kQ_aeRs	99
+# 𥳑	kQ_aeRA	99
+# 𤄒	kQ_aeRA	99
+# 閒	kQ_aeRq
+# 𧟉	kQ_aeRA	99
+# 僩	kQ_aeRA	99
+# 閒	kQ_aeRs
+# 鬜	khQ_aeRq
+# 鬜	khQ_aetq
+# 𤡥	CQ_aeRq
+# 㗴	CQ_aeRq
+# 閒	hgaeRq
+# 嫺	hgaeRq
+# 癇	hgaeRq
+# 𩦂	hgaeRq
+# 瞯	hgaeRq
+# 憪	hgaeRq		#閒k-R-e-R#閒k-R-a-R
+# 閑	hgaeRq		#閑k-R-e-R
+# 鷴	hgaeRq
+# 𨳢	kQ_aeRq
+# 䉍	kQ_aeRs
+# ## -aan
+# 㵎	kQ_aeRs
+# 鐗	kQ_aeRs
+# 䔵	kQ_aeRq
+# 鬜	khQ_aeRq
+# 僩	hgaeRA
+# 憪	hgaeRA
+# 𤡥	hgaeRA
+# 撊	hgaeRA
+# 橌	hgaeRA
 ####i
 ##jiR -jij
 牝	bjiRA		#-R
