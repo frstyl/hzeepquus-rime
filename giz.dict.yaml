@@ -6195,7 +6195,7 @@ use_preset_vocabulary: true
 # 䑂	Jo,jq
 𥷞	Jiukq
 𭁇	JioA
-與	JioA
+# 與	JioA
 𠔔	JioA
 𠔜	JioA
 𦥸	JioA
@@ -6741,7 +6741,11 @@ use_preset_vocabulary: true
 ###裘
 𣰐	giuvq
 ###囚
-𡆢	ziuvq		#1		#211a2囚
+𡆢	ziuvq		#211a2囚
+###汓
+𨒰	Jiuvq
+𨓎	Jiuvq
+䢊	Jiuvq
 ###㲃
 𣪘	kiiuvs		#1		#㲃𠧢皀
 廏	kiuvs
@@ -7127,7 +7131,7 @@ use_preset_vocabulary: true
 𩾳	gxepq
 ###斬
 # 斬	tsSaams
-嶄	dzSaemA
+嶄	dzSaamq		#嶃
 ###占
 黏	nRiams
 ##店
@@ -11477,6 +11481,7 @@ use_preset_vocabulary: true
 䂆	kheevkq
 䂆	hYekq
 ###冊册𠕋
+栅	tsShaekq
 册	tsShaekq
 # 𠕋	tsShaekq
 # 𣆩	tsShaekq

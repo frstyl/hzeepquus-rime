@@ -8387,7 +8387,7 @@ use_preset_vocabulary: true
 #䈚	dRi;q
 #菭	dRi;q
 #荎	dRi;q
-#茲	tsi;q
+#茲	tsi;q		#兹
 #𢆶	tsi;q
 #𪑿	tsi;q
 #孜	tsi;q
@@ -8399,9 +8399,9 @@ use_preset_vocabulary: true
 #仔	tsi;q
 #滋	tsi;q
 𣳯	tsi;q
-{⿶凵玆}	tsi;Cs		#
+{⿶凵玆}	tsi;q		#𦱳 滋
 #稵	tsi;q
-#茲	tsi;q
+#兹	tsi;q
 #嵫	tsi;q
 #鼒	tsi;q
 #鎡	tsi;q
@@ -27625,12 +27625,12 @@ use_preset_vocabulary: true
 #幵	kheenq
 #縴	kheenq
 #掔	kheenq
-{⿰山幵}	kheenq
-{⿵門幵}	kheenq
-{⿰氵幵}	kheenq
+#岍	kheenq		#{⿰山幵}	kheenq
+開	kheenq		#{⿵門幵}	kheenq
+#汧	kheenq		#{⿰氵幵}	kheenq
 #郉	kheenq
-{⿰干䧲}	kheenq
-{⿰干鳥	kheenq
+#雃	kheenq		#{⿰幵隹}	kheenq
+#鳽	kheenq		{⿰幵鳥}	kheenq
 #𪊑	kheenq
 #蚈	kheenq
 #枅	kheenq
