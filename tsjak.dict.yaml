@@ -25,9 +25,9 @@ use_preset_vocabulary: true
 # 酮	douCq
 酚	phu;nq
 醚	meiq
-# 酯	kcjiA
-酯	kcjiq
-酯	kcjiA
+# 酯	tscjiA
+酯	tscjiq
+酯	tscjiA
 醛	dzyenq
 ⌬	beenq
 苯	beenq		#benzene
@@ -115,14 +115,14 @@ use_preset_vocabulary: true
 # 喃	no,mq
 㖕	sjinq
 ###
-輕鋰鈉鉀銣銫鈁	tcyoA dzouk
-鈹鎂鈣鍶鋇镭	tcyoA dzouk
-硼鋁鎵銦鉈鉨	tcyoA dzouk
-碳硅鍺錫鉛鈇	tcyoA dzouk
-氮磷砷銻鉍鏌	tcyoA dzouk
-氧硫硒碲釙鉝	tcyoA dzouk
-氟氯溴碘砹鿬	tcyoA dzouk
-氦氖氬氪氙氡鿫	tcyoA dzouk
+輕鋰鈉鉀銣銫鈁	tscyoA dzouk
+鈹鎂鈣鍶鋇镭	tscyoA dzouk
+硼鋁鎵銦鉈鉨	tscyoA dzouk
+碳硅鍺錫鉛鈇	tscyoA dzouk
+氮磷砷銻鉍鏌	tscyoA dzouk
+氧硫硒碲釙鉝	tscyoA dzouk
+氟氯溴碘砹鿬	tscyoA dzouk
+氦氖氬氪氙氡鿫	tscyoA dzouk
 鑭鈰鐠釹鉕釤銪釓鋱鏑鈥鉺銩鐿鑥	loanq hgees
 錒釷鏷鈾錼鈈鎇鋦錇鐦鎄鐨鍆鍩鐒	Aoa hgees
 ##
@@ -168,7 +168,7 @@ use_preset_vocabulary: true
 # 銅	douCq
 鋅	sjinq
 鎵	kaaq
-鍺	tcjaA
+鍺	tscjaA
 砷	scjinq
 砒	pheiq
 硒	so,jq
@@ -200,7 +200,7 @@ use_preset_vocabulary: true
 銫	sSx;kq
 # 鋇	poarq
 # 鑭	loans		#loa57 lanthanum
-鈰	dcj;A
+鈰	dzcj;A
 鐠	phooA
 釹	nRxoA
 鉕	phvaA
@@ -227,7 +227,7 @@ use_preset_vocabulary: true
 汞	kouCA
 汞	hgouCA
 澒	hgouCA		#汞
-# 鉈	dcjajq
+# 鉈	dzcjajq
 # 鉛	Jyonq
 # 鉍	pxikq
 釙	phaukq
@@ -277,14 +277,14 @@ use_preset_vocabulary: true
 𪻕	kooA
 鿱𪻕	
 旮旯	kaokq
-𠁣𠃛	mv;nq
+𠁣𠃛	mvonq
 坷垃	khaq lo,pq
 坷垃	kh;q lo,pq
 坷垃	khferq		#凷
 垃圾	loopq so;pq
 瘩	to,pq		#㾑疸
-# 疙瘩	ko;q taq
-# 疙瘩	ko;tq tapq
+# 疙瘩	ko;q toaq
+# 疙瘩	ko;tq toapq
 疙禿	
 疙瘩	keitq
 処	kta
@@ -302,7 +302,7 @@ use_preset_vocabulary: true
 乒乓	pheCq phaCq
 乒乓	pxaCq
 𰍧𰍨	pheCq phaCq
-打	taA
+打	toaA		#?taag
 閪	heejq
 氹	doamA
 凼	doamA
@@ -330,13 +330,13 @@ use_preset_vocabulary: true
 傈僳	ljitq sjokq
 傈僳	liis sous
 鿼鿻	kaaq poos
-㞎	paA
-乸	naA
-屙	Aaq
+㞎	poaA
+乸	noaA
+屙	Aoaq
 #######借䛐
 𬻀	booq soat		#菩薩
 𬻀	bonAhisatqtva
-𢌽	neitq bvan
+𢌽	neetq bvan
 𢌽	nirvanqa
 鿖	christ
 鿖	khrirq
@@ -344,14 +344,14 @@ use_preset_vocabulary: true
 #####
 𱍚	pə toajq
 𱍛	pə hgo,pq
-𱍤	pə dcjeA
+𱍤	pə dzcjeA
 𱏤	pə kvaCq
 𱰸	pə Au;js
 𱷣	pə lj;pq
 𡀆	pə hi;A
 𰴪	pə Cianq
 𰑼	pə Aoakq
-𰀚	pə tcjeCs
+𰀚	pə tscjeCs
 𭯒	pə moavq
 𭯈	pə moovA
 𫠫	pə Cuanq
@@ -369,34 +369,34 @@ use_preset_vocabulary: true
 𢆓	pə bxeCq
 𣨀	pə sjiA
 𡈯	pə qwenq
-𠁒	pə tcjinq
+𠁒	pə tscjinq
 𠀱	pə bvioA
 甭	pə JjoCs
 䬩	pə zcj;kq
-歪	pə tcjeCs
+歪	pə tscjeCs
 奀	pə doarq
 𪱱	moukq hgaaA
 𮗙	keens ku;jA
 𭂴	piuCq ljoA
 颪	EaaA piuCq
 𭂳	EaaA piuCq
-凪	piuCq tcj;A
+凪	piuCq tscj;A
 凩	piuCq moukq
 凧	piuCq tsSaeCq		#風箏
 𪞵	piuCq moukq
 ####合字
 鿿	puoA mvojq
-𡗀	toaq tcjaA		#四庫人名用字咸平六年李繼遷寇洪德砦蕃官癿𡗀慶擊走之
+𡗀	toaq tscjaA		#四庫人名用字咸平六年李繼遷寇洪德砦蕃官癿𡗀慶擊走之
 𱁬	dvojA do;pq
 𣍲	CqooA Cuat nRxoA
 𠧗	dzciaCA EaaA
 𪸃	tshjeCq khi;js
-𬒭	dcjanq Sxiq
-⿱二𠄟	dcjaCA EaaA
+𬒭	dzcjanq Sxiq
+⿱二𠄟	dzcjaCA EaaA
 𫤜	hioCq deejs
 𫡡	gxavq Jjos
-𫣵	tcjinq zj;A
-𭻺	tcjinq toaCq
+𫣵	tscjinq zj;A
+𭻺	tscjinq toaCq
 覅	mjevs
 朆	mo;Cq
 覅	mjevs
@@ -474,7 +474,7 @@ use_preset_vocabulary: true
 嘿	heejq
 哼	ho;Cq
 啥	scjaq	5
-啥	dcjeA hgoat
+啥	dzcjeA hgoat
 ###古
 母	maA
 父	paA
@@ -491,7 +491,7 @@ use_preset_vocabulary: true
 # 麼	mvaq
 嘛	maaq	5
 # 麼	məq
-什麼	dcjeA hgoat mu;t
+什麼	dzcjeA hgoat mu;t
 什麼	hgoatq
 輩	mvən
 瞞	mv;nq
@@ -667,7 +667,7 @@ use_preset_vocabulary: true
 ###臣
 ###殳
 ###殺
-###𠘧dcyuq殳	几
+###𠘧dzcyuq殳	几
 ###寸
 ###皮
 ###㼱
@@ -961,6 +961,7 @@ use_preset_vocabulary: true
 ###重
 ###臥
 ###身
+𨉚	Aiamq
 ###㐆
 ###衣
 ###裘
@@ -1136,14 +1137,14 @@ use_preset_vocabulary: true
 ###不
 𱍚	pə toajq
 𱍛	pə hgo,p
-𱍤	pə dcjeA
+𱍤	pə dzcjeA
 𱏤	pə kvaC
 𱰸	pə Au;js
 𱷣	pə lj;p
 𡀆	pə hi;A
 𰴪	pə Cian
 𰑼	pə Aoak
-𰀚	pə tcjex
+𰀚	pə tscjex
 𭯒	pə moavq
 𭯈	pə moovA
 𫠫	pə Cuan
@@ -1161,11 +1162,11 @@ use_preset_vocabulary: true
 𢆓	pə bxeC
 𣨀	pə sjiA
 𡈯	pə qwen
-𠁒	pə tcjin
+𠁒	pə tscjin
 𠀱	pə bvioA
 甭	pə Jjox
 䬩	pə zcj;k
-歪	pə tcjex
+歪	pə tscjex
 奀	pə doar
 ###至
 ###西㢴
@@ -1226,6 +1227,7 @@ use_preset_vocabulary: true
 ###卵
 ###二
 ###土
+垵	Ao,mA		#埯
 ###垚
 ###堇
 ###里
@@ -1257,7 +1259,7 @@ use_preset_vocabulary: true
 銅	douCq
 鋅	sjinq
 鎵	kaaq
-鍺	tcjaA
+鍺	tscjaA
 銣	ncjoq
 鍶	sj;q
 釔	Axitq		#Y ytRrium -t
@@ -1280,7 +1282,7 @@ use_preset_vocabulary: true
 銫	sSx;kq
 鋇	poarq
 鑭	loans		#loa57 lanthanum
-鈰	dcj;A
+鈰	dzcj;A
 鐠	phooA
 釹	nRxoA
 鉕	phvaA
@@ -1304,7 +1306,8 @@ use_preset_vocabulary: true
 銥	Ai;jq
 鉑	boakq
 # 黃金	kximq	9
-鉈	dcjajq
+#鉈	dzcjajq
+鉈	thvaq
 鉛	Jyonq
 鉍	pxikq
 釙	phaukq
@@ -1417,9 +1420,9 @@ use_preset_vocabulary: true
 酮	douCq
 酚	phu;nq
 醚	meiq
-酯	kcjiA
-酯	kcjiq
-酯	kcjiA
+酯	tscjiA
+酯	tscjiq
+酯	tscjiA
 醛	dzyenq
 ###酋
 ###戌

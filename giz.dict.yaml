@@ -66,6 +66,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+𪑚𪒴	
 𩂢雨	Cximq quoA
 䟒趢
 趢趗
@@ -131,7 +132,6 @@ use_preset_vocabulary: true
 可汗	khah Eoanq
 ##連綿?
 𪇹䳴	
-湁潗	
 懵𢤦	
 覭髳	
 町畽	
@@ -939,6 +939,7 @@ use_preset_vocabulary: true
 㱾㱼	
 㱾𨸜	
 湁湒	
+湁潗	
 謉諢	
 偛㑳	
 殑㱡	
@@ -1700,16 +1701,15 @@ use_preset_vocabulary: true
 毪	miuvq
 哞	miuvq
 ###𢎘㔾犯
-㔾	Eo,mq		#p-k?
-㔾	phuoms
-𢎘	phuoms
-𤜛	buomq
-𣲆	phuoms
-𣔶	buomq		#𦨲
-𦴮	buomA
-𫈣	buomA
-𢒿	buomA
-𮅯	buomA
+㔾	phuams
+𢎘	phuams
+𤜛	buamq
+𣲆	phuams
+𣔶	buamq		#𦨲
+𦴮	buamA
+𫈣	buamA
+𢒿	buamA
+𮅯	buamA
 ###𦥘
 𡬯	pxemA
 𡬸	pxemA
@@ -2089,6 +2089,9 @@ use_preset_vocabulary: true
 𫎇	mouCq
 𮐃	mouCq
 𰰡	mouCq		#1		#迷惑
+###
+𥠇	miukq
+𤽖	miukq
 ###目
 𥆤	miukq
 𡆲	miukq
@@ -2362,7 +2365,7 @@ use_preset_vocabulary: true
 裦	poovq
 襃	poovq
 𧚱	poovq
-# 𧛙	poovq	5
+𧛙	poovq
 𧜪	poovq
 𧜯	poovq
 𧝾	poovq
@@ -5016,6 +5019,8 @@ use_preset_vocabulary: true
 # 𩫚	Eoavq
 𩫞	Eoavq
 ###好-丑
+𤫧	hoavA		#搜眞玉鏡
+𩐔	hoavA		#字彙補
 𡥃	hoavA
 𰠗	hoavA
 𡥆	hoavA
@@ -6105,6 +6110,7 @@ use_preset_vocabulary: true
 𬋹	zi;q
 𰺬	zi;q
 ###台
+㣍	tho;jq
 抬	thRi;q
 𠄩	Ji;q
 ###台-j
@@ -6585,6 +6591,7 @@ use_preset_vocabulary: true
 ##胡
 𧍵	Eooq
 ###圭
+𧠹	kyeq
 𨾗	gwiq		#1		#𨾎
 㚝	khYeq		#奎
 𦊱	kYeq
@@ -7414,7 +7421,7 @@ use_preset_vocabulary: true
 芯	sjimq
 吢	tshjims
 ###臿
-𨇝	thRxemA
+𨇝	thRUams
 挿	tsShaepq		#1		#臿
 揷	tsShaepq
 𠚏	tsShaepq
@@ -7690,6 +7697,7 @@ use_preset_vocabulary: true
 𪢪	Eo,mq
 𭁦	Eo,mq
 𮙚	Eo,mq
+㔾	Eo,mq		#p-k?
 ###咸
 # 堿	kaemA		#音咸𥀹
 堿	kho,mA		#坎
@@ -7961,13 +7969,10 @@ use_preset_vocabulary: true
 𱱨	Ajems
 懨	Ajemq
 ###奄o ə
-腌	Ae,mq
-𨉚	Ae,mq
 𦊸	Aiapq
 𦌌	Aiapq
 𢽱	Aiapq
 𢽱	Axepq
-俺	Ae,mA
 𡘤	AxemA
 𡘹	AxemA
 𪥍	AxemA
@@ -9033,6 +9038,7 @@ use_preset_vocabulary: true
 𢁉	svons
 𢌴	svons
 ###散𢽳𢿨
+𣪚	soans
 𢴻	soatq
 𢲳	soatq
 𪮫	soatq
@@ -9898,6 +9904,7 @@ use_preset_vocabulary: true
 𱫡	ncjetq
 熱	ncjetq		#a?
 ###辥薛
+𦵮	sjatq
 𡶫	Cxetq
 蘖	Coatq
 㮆	Coatq
@@ -10208,8 +10215,6 @@ use_preset_vocabulary: true
 𡩷	Aoans
 ###妟
 𣅓	Aoans
-###安-m
-垵	Ao,mA		#埯
 ###㫃
 𭤨	AianA
 ###晏
@@ -11301,7 +11306,14 @@ use_preset_vocabulary: true
 ###灷𦩎
 𠈪	Ji;Cs
 𠈖	Ji;Cs
-𢀹	dRi;mA
+朕	dRximA
+𣍹	dRximA
+𦨶	dRximA
+𦩎	dRximA
+𦩗	dRximA
+𰮤	dRximA
+𰰍	dRximA
+𢀹	dRximA
 𠢧	sci;Cs
 𧜜	sci;Cs
 ##滕𣎌
@@ -13658,7 +13670,7 @@ use_preset_vocabulary: true
 ###正
 ###是
 ###辵
-𨕽	giapq
+𨕽	giapq		#巨業切 躓 跲
 𨓰	dzjepq
 𮞳	dzjepq
 𨖷	dzSaepq
@@ -13680,6 +13692,7 @@ use_preset_vocabulary: true
 ###牙
 ###足
 𨅍	thRuams		#字彙 丑犯切 蹋踏躢 譌
+𨇲	thRUams
 ###疋
 ###品
 ###龠
@@ -13752,7 +13765,7 @@ use_preset_vocabulary: true
 ###殳
 𣪉	gxipq
 ###殺
-###𠘧dcyuq殳	几
+###𠘧dzcyuq殳	几
 ###寸
 ###皮
 ###㼱
@@ -13917,7 +13930,7 @@ use_preset_vocabulary: true
 ###巫
 ###甘
 ###曰
-甴	dzSaapq	#篇海類編士甲切
+甴	dzSaapq		#篇海類編士甲切
 曱	Aiakq		#字彙補烏謔切
 ###乃
 ###丂
