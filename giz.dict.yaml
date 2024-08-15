@@ -1051,8 +1051,8 @@ use_preset_vocabulary: true
 俳佪	
 町疃	
 侘傺	
-越嶲	quatq syojA
-𪓬𪓹	meejq maajq
+越嶲	quatq syeA
+𪓬𪓹	meejq maaq
 醭䤍	phoukq meejq
 㱎干	kvonq koanq
 #㑻傄	maitq hfitq
@@ -4096,34 +4096,34 @@ use_preset_vocabulary: true
 𰦔	kyeq
 𰴐	kyeq
 ###巂-雋隽
-𧤢	EYeq
-𧤪	EYeq
-𧥁	EYeq
-𧥅	EYeq
-嶲	EYeq
-𡾧	EYeq
-𪆳	EYeq
-𪈥	EYeq		#2
-𡻎	EYeq
-雟	EYeq
-𮒣	EYeq
-㒞	EYeq
-𡣸	EYeq
-𩟥	EYeq
-𧮄	EYeq
-𢹂	EYeq
-𢤮	EYeq
-𦢥	EYeq
-觽	EYeq
-䥴	EYeq
-𰿅	EYeq
-㼇	EYeq
-㰎	EYeq
-𩍺	EYeq
-𨟎	EYeq
-𩧎	EYeq
-𧲑	EYeq
-𧔍	EYeq
+𧤢	EYejq
+𧤪	EYejq
+𧥁	EYejq
+𧥅	EYejq
+# 嶲	EYejq
+𡾧	EYejq
+𪆳	EYejq
+# 𪈥	EYejq
+𡻎	EYejq
+雟	EYejq
+𮒣	EYejq
+㒞	EYejq
+𡣸	EYejq
+𩟥	EYejq
+𧮄	EYejq
+𢹂	EYejq
+𢤮	EYejq
+𦢥	EYejq
+觽	EYejq
+䥴	EYejq
+𰿅	EYejq
+㼇	EYejq
+㰎	EYejq
+𩍺	EYejq
+𨟎	EYejq
+𩧎	EYejq
+𧲑	EYejq
+𧔍	EYejq
 ###我
 峩	Coaq
 䳗	Coajq
@@ -5339,8 +5339,6 @@ use_preset_vocabulary: true
 𣬃	loavq
 𣬇	loavq
 ###老
-佬	loavA		#䝤
-姥	loavA
 荖	loavA
 荖	boovq
 𠄰	loavA
@@ -6340,22 +6338,16 @@ use_preset_vocabulary: true
 ###羽
 𦏲	qvioA
 ###亏于
-⿱宀亏	qvioA
-𡧈	qvioA
-𡧃	qvioA
-汙	Avoq		#1		#亏于亐
-汚	Avoq
-㢪	Aooq
-㢪	khooq
-圩	khvioq
+𡧃	quoA
+圩	khooq		#刊謬補缺切韻 苦胡切 施娯反
 # 污	Aooq
 #
 # 𠀒	Eooq
-圩	qvioq		#与圬別
+圩	quoq		#与圬別
 ##
-𬐟	qvioq
-𠳲	Xsvioq		#1		#冃
-𠳲	XsvioA
+𬐟	quoq
+𠳲	huoq		#冃
+𠳲	huoA
 ###夸
 𧥢	khfaq		#誇
 𧩊	khfaq
@@ -6727,13 +6719,13 @@ use_preset_vocabulary: true
 𩰘	kiuvq
 ###簋
 #
-𫏯	kYiuvA
-𣪕	kYiuvA
-𣪘	kYiuvA
-㲃	kYiuvA
-𣪙	kYiuvA
-𣌽	kYiuvA
-𥱚	kYiuvA
+𫏯	kwiA
+𣪕	kwiA
+𣪘	kwiA
+㲃	kwiA
+𣪙	kwiA
+𣌽	kwiA
+𥱚	kwiA
 ###喜
 㐂	hi;A		#喜
 囍	hi;A
@@ -8704,7 +8696,6 @@ use_preset_vocabulary: true
 𰳪	sSwitq
 𲀞	sSwitq
 摔	sSwitq
-甩	sSwitq
 ###進
 ###晉
 晋	tsjins
