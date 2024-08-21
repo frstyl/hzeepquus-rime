@@ -1,5 +1,5 @@
 #---
-#借䛐
+#借䛐 o/o/ u/y,ʉ/ i/ɨ/ ei/i/
 name: tsjak
 version: "2022.1.15"
 sor: by_weight
@@ -302,37 +302,34 @@ use_preset_vocabulary: true
 乒乓	pheCq phaCq
 乒乓	pxaCq
 𰍧𰍨	pheCq phaCq
-打	toaA		#?taag
+打	taA		#?taag
 閪	heejq
-氹	doamA
-凼	doamA
+氹	damA
+凼	damA
 𰛄𰛅	scyiA
 ⿰氵𦊴	nRxepq		#𣹵⿰氵𦊴
 𰛄	phaes		#派?
 𰛅	lo,js		#瀨?
 炸	tsRaas		#灹+煠
-齉	noaCs
-玍	koaA
-𫜶	toanq
-𣖍	Afejq
-𣛓	AaeA
-𣖍𣛓	Afejq AaeA
+齉	naCs
+玍	kaA
+𫜶	tanq
+# 𣖍	tsvotq		#稡䄶
+# 𣛓	bvotq		#䄶
+𣖍𣛓	tsvotq bvotq
 𤠫𤢂	ljitq siokq
 猓玀	kvaA lvaA
 狇	mous
 𤝂	mous
-
-
-彁	koaq		#无意義
-
+彁	kaq		#无意義
 錿	hooA
 𣬠𣬶	keejq paaq
 傈僳	ljitq sjokq
-傈僳	liis sous
+傈僳	leis sous
 鿼鿻	kaaq poos
-㞎	poaA
-乸	noaA
-屙	Aoaq
+㞎	paA
+乸	naA
+屙	Aaq
 #######借䛐
 𬻀	booq soat		#菩薩
 𬻀	bonAhisatqtva
@@ -519,7 +516,7 @@ use_preset_vocabulary: true
 ####1
 ###一
 ###丄
-卡	khaaA
+卡	khaaA		#䶗?
 ###示
 ##𥘅
 ###三
@@ -581,6 +578,7 @@ use_preset_vocabulary: true
 ###犛
 ###吿-告
 ###口
+嚷	nciaCA		#讓
 啦	loa
 哈	hoa
 吖	Aia
@@ -943,6 +941,7 @@ use_preset_vocabulary: true
 佤	CfaA
 佤	qvaA
 ##人行
+仮	kaaA
 ##人爲
 ##人格
 佬	loavA		#䝤
@@ -1178,6 +1177,7 @@ use_preset_vocabulary: true
 ###耳
 ###𦣞
 ###手
+扯	tschjaA		#撦
 ###𠦬
 ###女
 姥	loavA		#嫽

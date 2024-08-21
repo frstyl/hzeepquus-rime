@@ -997,7 +997,7 @@ use_preset_vocabulary: true
 扶搖	bjevq		#飄
 骷髏	kvotq
 髑髏	kvotq
-窟窿	khouCA		#孔
+窟窿	khL-ouCA		#孔
 轂轆	lyunq		#輪
 軱轆	lyunq
 軲轆	lyunq
@@ -1042,6 +1042,7 @@ use_preset_vocabulary: true
 躊躇	
 淜滂	
 ##?
+稡䄶	
 玻璃	
 玻瓈	
 彷徨	
@@ -1666,12 +1667,23 @@ use_preset_vocabulary: true
 ###閉
 𨳰	peejs
 𨳯	peejs
+###𠦒
+𠦆	pvanq
+𰅱	pvanq
+𰅲	pvanq
 ###畢
 嗶	pjitq
+# 畢	pjitq
 𤲃	pjitq
-𦌂	pjitq
-𦌎	pjitq
 𤲜	pjitq
+𪰞	pjitq
+𭺾	pjitq
+𱰰	pjitq
+# 罼	pjitq
+𡁘	pjitq
+𦌂	pjitq
+𭂂	pjitq
+𦌎	pjitq
 ###筆
 #
 笔	piutq
@@ -2516,8 +2528,6 @@ use_preset_vocabulary: true
 𢆙	pjeCq
 幷	pjeCq
 幷	pjeCs
-倂	beeCA
-倂	pjeCA		#1		#𠊧
 倂	pjeCs
 餠	pjeCA
 帲	pjeCA
@@ -2552,11 +2562,10 @@ use_preset_vocabulary: true
 𡘋	beeCA
 𭀤	beeCA
 ##
-並	beeCA		#訓
+# 並	beeCA		#訓
 ##
 傡	baeCs
 傡	baeCA
-併	baeCA
 ###竝𠀤 aC
 掽	baaCs		#搕掽 蒲孟切
 掽	baaCq		#借詞
@@ -2566,7 +2575,12 @@ use_preset_vocabulary: true
 䰃	baaCq
 䰃	poaCA
 並	boaCA
-竝	boaCA		#aC 與併異
+竝	boaCA		#aC 與并異
+並	boaCA
+𠀤	boaCA
+𭀤	boaCA
+𱽛	boaCA
+𱽛	boaCA
 ##普-並竝
 氆	poaCA
 ##普
@@ -3298,8 +3312,6 @@ use_preset_vocabulary: true
 鴕	doaq
 坨	doaq
 ###也?它
-𫴞	neeCs
-𫴞	thaq
 𨒶	Jjeq		#迤
 𣙛	Jjeq
 𨽋	Jjeq
@@ -6441,6 +6453,7 @@ use_preset_vocabulary: true
 虾	Eaaq
 𢗄	EaaA		#搜眞玉鏡 音下
 ###夏
+𣋗	EaaA
 厦	EaaA
 𡖃	EaaA
 𠌘	EaaA
@@ -6478,6 +6491,8 @@ use_preset_vocabulary: true
 ##賈
 価	kaas		#價
 ###叚
+𪝒	kaaA
+𬿬	kaaA
 䝅	kaaq		#貑
 𡄟	hoaq
 𢱈	kaas
@@ -6645,6 +6660,7 @@ use_preset_vocabulary: true
 𫈐	Efaq
 𬜻	Efaq
 𬝨	Efaq
+荂	Efaq
 ###乙-𠃉
 #
 䎲	Cxitq
@@ -8584,9 +8600,9 @@ use_preset_vocabulary: true
 𢴭	Auatq
 撧	dzyetq
 絶	dzyetq
-###毳
+###毳k-
 撬	kheevs
-#
+###毳ts-
 𨊉	tshyerq
 脃	tshyerq
 𣈐	tshyerq
@@ -13661,6 +13677,7 @@ use_preset_vocabulary: true
 ###正
 ###是
 ###辵
+䢪	khxevq	#俗橇字#鞽
 𨕽	giapq		#巨業切 躓 跲
 𨓰	dzjepq
 𮞳	dzjepq
@@ -14589,7 +14606,6 @@ use_preset_vocabulary: true
 𢸦	JyiA
 㨊	JyeA
 撱	JyeA
-扯	tschjaA		#撦
 拿	nRaaq
 搿	Eo,pq
 𢰋	dvanq		#1		#㨡

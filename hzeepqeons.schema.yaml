@@ -123,6 +123,10 @@ speller:
     - derive/^.(l)/$1/
     - derive/^(.+)L/$1/  #k-L
 ##
+    - derive/^k(h?)L/t$1/ #kL t #kL tsc#CL缺#合甚叕出 穿川舛車樞杵處楢醜臭饎出赤
+    - derive/^gL/d/
+    - derive/^([sz])q/$1/ #缺
+
     - derive/^([sz])[ptkmnCLRqQ]/$1/ #s z sc sS
     - derive/^([sz])[ptkmnCLRqQ]J/$1c/ #
     - derive/^([sz])[ptkmnCLRqQ]R/$1S/
@@ -143,18 +147,6 @@ speller:
     - derive/^(J[LQq])/J/ #以
     # - derive/^z/Z/    #輔
 
-#
-    - derive/^k(h?)LJ/tsc$1/ #kL tsc#CL缺#合甚叕出
-    - derive/^gLJ/dzc/
-    - derive/^([sz])kLJ/$1c/
-
-    - derive/^k(h?)LR/t$1R/ #kL tR
-    - derive/^gLR/dR/
-    - derive/^([sz])kLR/$1S/
-
-    - derive/^k(h?)L/t$1/ #kL t
-    - derive/^gL/d/
-    - derive/^([sz])kL/$1/ #缺
 
 ##聲-介
     - derive/^(j)[iIj](?=[aeiou;,])/$1/ #以母爲三等
@@ -363,6 +355,24 @@ speller:
     - derive/^([RLQ]s)/\L$1/ #R L Q雲
     - derive/^([RLQ])(?!s)/\L$1z/
 ####尾
+    - xform/(?<!^)([ptk])q$/$1/ #入韻
+    - derive/(?<!^)([fvIUjyxwaeiou;,][aeiou;,])v(k)$/$1u$2/ #-v-視爲韻
+    # - xform/(?<!^)v(k)$/$1/
+    - fuzz/(?<!^)v(k)$/$1/
+
+    - xform/(?<!^)rq$/r/ #次入
+    - xform/(?<!^)[pt]s$/r/
+    - xform/(?<!^)ks$/s/
+    - xform/(?<!^)vks$/vs/
+
+    - xform/(?<!^)([mnC])q$/$1/ #陽韻
+    - xform/(?<!^)(ng|C|c)A$/g/
+    - xform/(?<!^)(ng|C|c)s$/x/
+    - xform/(?<!^)mA$/b/
+    - xform/(?<!^)ms$/f/
+    - xform/(?<!^)nA$/d/
+    - xform/(?<!^)ns$/z/
+
     # - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
     - fuzz/(?<!^)jq$/j/
     - fuzz/(?<!^)jA$/l/
@@ -377,26 +387,6 @@ speller:
     # - xform/(?<!^)vA$/w/
     # - xform/(?<!^)vs$/y/
 
-
-
-    - xform/(?<!^)([ptk])q$/$1/ #入韻
-    - derive/(?<!^)([fvIUjyxwaeiou;,][aeiou;,])v(k)$/$1u$2/ #-v-視爲韻
-    # - xform/(?<!^)v(k)$/$1/
-    - fuzz/(?<!^)v(k)$/$1/
-
-    - xform/(?<!v)ks$/s/ #次入
-    - xform/(?<!v)[pt]s$/r/
-    - xform/(?<!v)rq$/r/
-    - xform/(?<!^)vks$/vs/
-    - fuzz/(?<!^)vks$/y/
-
-    - xform/(?<!^)([mnC])q$/$1/ #陽韻
-    - xform/(?<!^)(ng|C|c)A$/g/
-    - xform/(?<!^)(ng|C|c)s$/x/
-    - xform/(?<!^)mA$/b/
-    - xform/(?<!^)ms$/f/
-    - xform/(?<!^)nA$/d/
-    - xform/(?<!^)ns$/z/
 ##
     # - derive/(?<!^)A$/hq/ 轉寫
     # - derive/(?<!^)C([sAq])$/ng$1/
@@ -409,6 +399,8 @@ speller:
     - derive/(?<!^)F$/f/
     - abbrev/([aeiou;,])j([qAs])$/$1$2/ #jq
     - abbrev/([aeiou;,])j?q$/$1/
+    - abbrev/([aeiou;,])A$/$1l/
+    - abbrev/([aeiou;,])s$/$1r/
 
 ##可選 介元序
     # - fuzz/(?<!^)x([aeiou;,])/r$1/ #r=x
