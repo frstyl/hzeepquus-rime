@@ -127,18 +127,21 @@ speller:
 
     - derive/^k(h?)L/t$1/ #kL t #kL tsc#CL缺#合甚叕出 穿川舛車樞杵處楢醜臭饎出赤
     - derive/^gL/d/
-    - derive/^([sz])q/$1/ #缺 Ls?skL?
+    - derive/^([sz])KL/$1/ #缺 Ls?skL?
 
     - derive/^([sz])[ptkmnCLRqQ]J/$1c/ #s-[] sc
     - derive/^([sz])[ptkmnCLRqQ]R/$1S/ #sR
-    - derive/^[mnCLRqQ]([sz])J/$1c/ #[]s
-    - derive/^[mnCLRqQ]([sz])R/$1S/
+
+    - derive/^([sz])[ptkmnCLRqQ]/$1/ #s-[] 
+    - derive/^([sz])[ptkmnCLRqQ]/$1/
 
     - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]s|[hX]s|X)/h/ #清
      
     - derive/^([LR])(?![sz])/d/ #d[RJ]
     - derive/^([LRn]sh)/th/
     - derive/^(C)(?=[JR])/n/
+    - derive/^[mnCLRqQ]([sz])J/$1c/ #[]s
+    - derive/^[mnCLRqQ]([sz])R/$1S/
 
 ##上?
     - derive/^(Q|q)/q/ #雲
@@ -183,8 +186,8 @@ speller:
     # - derive/([rWxw]a)j/$1/ #aj iaj
 
 
-    - derive/([ovixw]a)j/$1/ #aj
-    - derive/(i)j/$1/ #ij ei ej
+    - derive/([ovixwrWiu]a)j/$1/ #aj
+    - derive/(i)j/$1/ #ij ei ej#e=ej i=ij
 
     - fuzz/([af][aeiou;,])jq$/$1/
 
@@ -215,11 +218,11 @@ speller:
 ##聲-介韻
     #- derive/^(kh?|g|C|h|q|A)/K/    
     - fuzz/([UywWu])i([ndztRr])/$1u$2/ #yu yi k組除外?
-    - fuzz/([UyWwu])i([qAs])/$1uj$2/
+    - fuzz/([UyWwu])i([qAs])/$1uj$2/ #e=ej i=ij
     - fuzz/([UyWwu])e(?=[ndztRr])/$1o$2/
-    - fuzz/([UyWwu])e([qAs])/$1oj$2/
+    - fuzz/([UyWwu])e([qAs])/$1oj$2/ #e=ej i=ij
 ##元音
-    - derive/[Uy]([uo][jlrndztR])/$1/  #iov uo
+    - derive/[Uyu]([uo][jlrndztR])/$1/  #iov uo 配合j省
     #- derive/([SR]|Sh)[Ww]([uo][ndztR])/$1$2/
     # - derive/([SRJ]|Sh)[u]([uo][jlrndztR])/$1$2/  #无用
 
@@ -351,14 +354,15 @@ speller:
     - derive/(?<!^)R([sAq])$/rr$1/
     # - derive/(?<!^)F/ff/
 ##𥳑尾
-    - derive/([aeiou;,])[q]$/$1/ #无韻尾
-    - derive/(?<!^)A$/h/
-    - derive/(?<!^)Cq?$/c/
-    - derive/(?<!^)F$/f/
     - abbrev/([aeiou;,])j([qAs])$/$1$2/ #jq
     - abbrev/([aeiou;,])j?q$/$1/
     - abbrev/([aeiou;,])A$/$1l/
     - abbrev/([aeiou;,])s$/$1r/
+
+    - derive/([aeiou;,])[q]$/$1/ #无韻尾
+    - derive/(?<!^)A$/h/
+    - derive/(?<!^)Cq?$/c/
+    - derive/(?<!^)F$/f/
 
 ##可選 介元序 尾後
     # - fuzz/(?<!^)x([aeiou;,])/r$1/ #r=x

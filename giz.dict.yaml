@@ -66,6 +66,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+𤲭𣕎	
 𪑚𪒴	
 𩂢雨	Cximq quoA
 䟒趢
@@ -3795,13 +3796,13 @@ use_preset_vocabulary: true
 𢑞	deejs
 𧱈	deejs
 #
-𥏚	Jiis
-𦘗	Jiis
-𨽹	Jiis
-𢄥	Jiis
-𦘞	Jiis
-𨽽	Jiis
-𧲁	Jiis
+𥏚	Jjis
+𦘗	Jjis
+𨽹	Jjis
+𢄥	Jjis
+𦘞	Jjis
+𨽽	Jjis
+𧲁	Jjis
 ###隶
 逯	do,js
 𨓞	do,js
@@ -6762,7 +6763,7 @@ use_preset_vocabulary: true
 𨓎	Jiuvq
 䢊	Jiuvq
 ###㲃
-𣪘	kiiuvs		#1		#㲃𠧢皀
+𣪘	kiuvs		#㲃𠧢皀
 廏	kiuvs
 廄	kiuvs
 廐	kiuvs
@@ -6855,6 +6856,11 @@ use_preset_vocabulary: true
 #
 𭑑	Eeejq
 𬏏	kheejq
+##
+𨿸	keejq
+鳮	keejq
+鶏	keejq
+䳶	keejq
 ###具
 俱	kuoq
 𥟭	kuoq
@@ -7463,6 +7469,7 @@ use_preset_vocabulary: true
 餂	theemA
 餂	theems
 ###忝
+𭕇	theemA
 舔	theemA
 掭	theems
 ###冘 -m -v
@@ -7949,7 +7956,7 @@ use_preset_vocabulary: true
 𡰛	kaemq
 尶	kaemq
 𡰉	kaemq
-尷	kaemq
+尷	kaemq		#字書无
 𡯽	kaemq
 𠔥	keemq
 𬻵	keemq
@@ -8722,9 +8729,8 @@ use_preset_vocabulary: true
 𣌇	tsjins
 𫞄	tsjins
 𭦙	tsjins
-晉	tsjens
 𢦞	tsjenA
-戬	tsjenA		#1		#臸亚晉 戩
+戬	tsjenA		#臸亚晉 戩
 ###㶳䀆-聿
 𢣺	zjins
 𤈠	zjins
@@ -9894,7 +9900,8 @@ use_preset_vocabulary: true
 𢳊	Ceetq
 𣊓	sjetq		#1		#暬
 𣊮	sjetq
-###熱-埶
+###熱-埶 𡉣
+𡉣	ncjetq
 𤑔	ncyetq
 热	ncjetq
 𤉟	ncjetq
@@ -10353,7 +10360,7 @@ use_preset_vocabulary: true
 㖶	Aeenq		#咽
 㷑	Aeenq
 焑	Aeenq
-烟	Aeenq
+# 烟	Aeenq
 𠖣	Aeenq
 𡇽	Aeenq
 𡨾	Aeenq
@@ -13548,6 +13555,9 @@ use_preset_vocabulary: true
 脪	hjinA
 ###
 𪖪	hxeA
+###
+苶	neepq		#薾
+𦮕	neepq
 ###爾尒
 ##
 𧉰	dzeetq
@@ -13560,7 +13570,6 @@ use_preset_vocabulary: true
 䦵	neejA
 ##
 鉩	sjeA		#壐
-苶	neejA		#薾
 𤝝	mjeq
 #
 𤦀	mjeq
@@ -13794,7 +13803,7 @@ use_preset_vocabulary: true
 𢾞	mxinA
 敿	kxevA
 𣀈	tRaokq
-斆	Eaovs
+斆	Eaavs
 𫒋	gxims
 𢼔	hoajA
 𢾤	tRximq
@@ -14367,6 +14376,7 @@ use_preset_vocabulary: true
 𠫜	teejs		#帝?
 ###嵬
 ###山
+𡿙	keejq
 㠌	kheejqj
 㠌	kheejqj
 嵓	Ca;mq
