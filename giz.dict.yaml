@@ -922,7 +922,7 @@ use_preset_vocabulary: true
 讋咮	
 𠲷吺	
 皺𥀈	
-䜞䛽	dzeejs tsShaap
+䜞䛽	dzeejs tsShaep
 窊圔	
 翈翭	
 𠘥凝	
@@ -2691,13 +2691,12 @@ use_preset_vocabulary: true
 𠂠	baens
 𤓳	baens
 ###免
-免	muanA
-晩	muanA
-凂	mv;jA
+晩	muanA		#晚
+凂	mv;jA		#浼
 娩	phuans
 䨲	muans
 嬔	phuans
-# 兑
+# 兑	mxenA
 𭀠	mxenA
 ##敝-t
 鱉	pjetq
@@ -7504,6 +7503,7 @@ use_preset_vocabulary: true
 𠓛	dzjipq		#?
 𠍱	dzjipq
 ###咠戢
+𱙝	seejs
 𢧠	tsSxipq
 𢨐	tsSxipq
 𭟶	tsSxipq
@@ -9019,8 +9019,8 @@ use_preset_vocabulary: true
 ###鱻
 䲆	sjenq
 ###切
-𪥂	tsheejs
-𭃄	tsheejs		#古七
+𪥂	tsheetq
+𭃄	tsheetq		#古七
 ###屑㞕䏌
 𪙇	tsheetq
 ###先
@@ -12502,7 +12502,7 @@ use_preset_vocabulary: true
 蕗	loos
 𡅅	Ao;q
 ###郭𩫏
-霩 khvakq
+# 霩	khvakq
 ###各
 㪾	kaakq
 詻	liakq
@@ -13445,6 +13445,7 @@ use_preset_vocabulary: true
 ####
 ####-R -j -n
 ###西
+𣶓	seejA
 閪	heejq
 𣳳	so,jA
 舾	seejq
@@ -13730,6 +13731,7 @@ use_preset_vocabulary: true
 ###十
 ###卅𠦄
 ###言
+䜞	dzeejs
 䛋	Efas		#𧧐
 𧧐	syitq		#訹
 䛜	sjins		#訊
