@@ -66,6 +66,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+𣪌子	doovq tsi;A
 𤲭𣕎	
 𪑚𪒴	
 𩂢雨	Cximq quoA
@@ -2320,18 +2321,18 @@ use_preset_vocabulary: true
 韍	bxis
 袚	puarq
 ###拜
-𭡍	paujs
-拝	paujs
-𡴬	paujs
-𢫶	paujs
-𢮠	paujs
-𢰛	paujs
-𣬓	paujs
-𭠠	paujs
-𱠹	paujs
-𱶟	paujs
-𢱭	paujs
-𱠹	paujs
+𭡍	paejs
+拝	paejs
+𡴬	paejs
+𢫶	paejs
+𢮠	paejs
+𢰛	paejs
+𣬓	paejs
+𭠠	paejs
+𱠹	paejs
+𱶟	paejs
+𢱭	paejs
+𱠹	paejs
 ###𥄕
 苜	mvatq
 ###冒
@@ -2341,16 +2342,16 @@ use_preset_vocabulary: true
 ###堥
 楙	moavq
 ###包勹
-𣴊	phauvq
-𱧖	phauvq
-𱧷	phauvq
-𨀓	bauvq
-𩛞	pauvA		#飽
+𣴊	phaavq
+𱧖	phaavq
+𱧷	phaavq
+𨀓	baavq
+𩛞	paavA		#飽
 𦊳	biuvq
 𦊦	biuvq
-𠣒	pauvq
-𭁳	pauvq
-𮎛	pauvq
+𠣒	paavq
+𭁳	paavq
+𮎛	paavq
 䛌	boavq		#bd
 袌	boavs
 疱	phaavs
@@ -3691,7 +3692,6 @@ use_preset_vocabulary: true
 𥘓	tsShaas
 䟕	tsShaas
 汊	tsShaas
-岔	tsShaas
 ###惢
 惢	tsjeq
 ###
@@ -4600,8 +4600,8 @@ use_preset_vocabulary: true
 𩹩	naavs
 ###𡿺囟𦥓
 瑙	noavA
-𣳦	nRauvq
-硇	nRauvq
+𣳦	nRaavq
+硇	nRaavq
 𭗾	noavA
 𭗼	noavA
 㑎	noavA
@@ -4622,8 +4622,8 @@ use_preset_vocabulary: true
 𤝾	noavA		#1		#㺁
 𧳀	noavA
 ###農
-𥗰	nRauvq		#硇
-𥗸	nRauvq
+𥗰	nRaavq		#硇
+𥗸	nRaavq
 農	noavq
 憹	noavq
 ##辳
@@ -4632,8 +4632,8 @@ use_preset_vocabulary: true
 ###柔
 𢜸	noavq
 ###夒
-𠑍	nRauvA		#獿
-𠑛	nRauvA
+𠑍	nRaavA		#獿
+𠑛	nRaavA
 𢺕	ncjevA
 𱠖	ncjevA
 ##-j
@@ -4712,8 +4712,8 @@ use_preset_vocabulary: true
 皂	dzoavA
 梍	dzoavA
 ###爪㕚
-𤓰	tsSauvA
-𱬴	tsSauvA
+𤓰	tsSaavA
+𱬴	tsSaavA
 找	tsSaavA		#爪抓
 ###巢
 缫	soavq
@@ -4763,26 +4763,26 @@ use_preset_vocabulary: true
 簘	seevq
 𬕝	seevq
 ###卯戼
-𤕰	mauvA
-𦕔	mauvA
-卬	mauvA
-# 夘	mauvA
-# 戼	mauvA
-𠨍	mauvA
-𢨯	mauvA
-𢨳	mauvA
-𤕰	mauvA
-𦕔	mauvA
-𩇦	mauvA
-𩇧	mauvA
-𩇨	mauvA
-𫝁	mauvA
-𬻇	mauvA
-𭅵	mauvA
-𭭽	mauvA
-𭮁	mauvA
-𱻸	mauvA
-𱻺	mauvA
+𤕰	maavA
+𦕔	maavA
+卬	maavA
+# 夘	maavA
+# 戼	maavA
+𠨍	maavA
+𢨯	maavA
+𢨳	maavA
+𤕰	maavA
+𦕔	maavA
+𩇦	maavA
+𩇧	maavA
+𩇨	maavA
+𫝁	maavA
+𬻇	maavA
+𭅵	maavA
+𭭽	maavA
+𭮁	maavA
+𱻸	maavA
+𱻺	maavA
 ##
 𦖂	leevq
 𦕵	leevq		#𦕼
@@ -6258,6 +6258,8 @@ use_preset_vocabulary: true
 𡗳	Eeejq
 𬺸	Eeejq
 𬺺	Eeejq
+###醯
+䤈	heejq
 ###処
 𠢅	gxenq
 䖏	khios
@@ -13862,8 +13864,8 @@ use_preset_vocabulary: true
 ###四
 ###鼻
 ###白百
-癿	kjaq		#字彙補 具遮切
-𤼾	kjaq
+癿	gjaq		#字彙補 具遮切
+𤼾	gjaq
 ###皕
 ###習
 ###羽
@@ -14378,6 +14380,7 @@ use_preset_vocabulary: true
 𠫜	teejs		#帝?
 ###嵬
 ###山
+岔	tsRhaas		#字彙補丑亞切
 𡿙	keejq
 㠌	kheejqj
 㠌	kheejqj
@@ -14562,7 +14565,7 @@ use_preset_vocabulary: true
 孬	nRavq
 孬	hferq		#呼怪切
 𨱥	piuq dRiaC
-𨱥	AaujA		#矮
+𨱥	AaajA		#矮
 𧗩	piuq EaaC
 𧗩	loapq		#音臘
 # 歪	hfajq		#竵
@@ -14577,7 +14580,7 @@ use_preset_vocabulary: true
 𣈇	Ao,ms
 𧗩	loapq
 𩖲	neepq		#𩐭
-𩫇	AaujA
+𩫇	AaajA
 𪜄	phvajA		#叵
 𬦇	tRuos
 𭯈	kvoq
