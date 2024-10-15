@@ -422,6 +422,7 @@ style:
     line_spacing_multiplier: 1.2 #候选词的行间距(倍数)
     real_margin: 3 #屏幕左右边缘和悬浮窗之间的距离 TODO: 在 4.0 时给 real_margin 与 spacing 换一个更适合的名字
     spacing: 1 #屏幕上下边缘或预编辑上下边缘和悬浮窗之间的距离
+    spacing_land: 1 
     round_corner: *round2 #候选窗口圆角
     alpha: 0xff #透明度(0-255)
     elevation: 0 #阴影(>=Android5.0)
@@ -461,7 +462,10 @@ style:
   text_size: 14 #编码区字号
   vertical_correction: -10 #触摸位置校正（竖直方向）
   vertical_gap: *sgap #键盘行距
-  keyboard_padding_bottom: 0
+  keyboard_padding_bottom: 0 #下距
+  keyboard_padding_land: 80 #land橫距
+  #keyboard_padding_land_bottom: 0
+  keyboard_padding_land_left: -50 #下距
   enter_label_mode: 0  #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels:  # 定义Enter键的文本
     go: 前往
@@ -1374,7 +1378,6 @@ liquid_keyboard:
 preset_keyboards:
   default:
     name: 叶韻
-    author: "gfojsyan"
     ascii_mode: 1
     width: 10
     height: 44
@@ -1388,8 +1391,8 @@ preset_keyboards:
     - {click: 6, long_click: "^", swipe_up: "^"}
     - {click: 7, long_click: "&", swipe_up: "&"}
     - {click: 8, long_click: "*", swipe_up: "*"}
-    - {click: 9, long_click: "(", swipe_up: "("}
-    - {click: 0, long_click: ")", swipe_up: ")"}
+    - {click: 9, long_click: "(", swipe_up: "(", swipe_down: "（"}
+    - {click: 0, long_click: ")", swipe_up: ")", swipe_down: "）"}
     - {click: q, long_click: "_", swipe_up: "_"}
     - {click: w, long_click: "-", swipe_up: "-"}
     - {click: e, long_click: "+", swipe_up: "+"}
@@ -3632,7 +3635,7 @@ preset_keyboards:
     - {click: '🚁'}
     - {click: '🚟'}
     - {click: '🚠'}
-    - {click: '🚡'}
+    - {click: '??'}
     - {click: '🚀'}
     - {click: '🛰'}
     - {click: Keyboard_default, width: 17, key_text_size: "14", key_back_color: benter, key_text_color: tenter}

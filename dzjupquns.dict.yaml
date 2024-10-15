@@ -1468,13 +1468,14 @@ use_preset_vocabulary: true
 𥑿	AiuCq
 #𢞏	AiuCq
 #𣪯	hiuCq
-#雄	qiuCq
-𩿅	qiuCq
-𤠗	qiuCq
-#能	qiuCq
-𧰯	qiuCq
-𪏛	qiuCq
-#赨	qiuCq
+#雄	EiuCq		#胡弓切 雲母
+𩿅	EiuCq
+#熊	EiuCq
+𤠗	EiuCq
+#能	EiuCq
+𧰯	EiuCq
+𪏛	EiuCq
+#赨	EiuCq
 #融	JiuCq
 #𧖓	JiuCq
 #烿	JiuCq
@@ -16200,6 +16201,10 @@ use_preset_vocabulary: true
 #㵋	maeA
 #鷶	maeA
 𩀺	maeA
+𤢒	taeA		#都買切
+𠏰	taeA
+#箉	daeA
+#杖	daeA
 #廌	dRaeA
 𧣾	dRaeA
 𧣭	dRaeA
@@ -16372,12 +16377,8 @@ use_preset_vocabulary: true
 #𩝨	hfeq
 #𦶎	hfeq
 #哇	Efeq
-𤢒	tfeA
-𠏰	tfeA
-#箉	dfeA
-#杖	dfeA
-#㧳	dRfeA
-#撮	tsShfeA
+#㧳	dRfeA		#柱買切 讀與箉近# 廌開口
+#撮	tsShfeA		#初買切
 #𦫳	kfeA
 𣐷	kfeA
 柺	kfeA
@@ -20282,22 +20283,6 @@ use_preset_vocabulary: true
 #𧾣	gyitq
 #趉	gyitq
 #矞	gyitq
-#矞	hyitq		#休必切
-#獝	hyitq
-𥎕	hyitq
-#䎉	hyitq
-𥄴	hyitq
-𣆒	hyitq
-㳚	hyitq
-䢕	hyitq
-𤇳	hyitq
-#瞲	hyitq
-𥅛	hyitq
-#𥄵	hyitq
-#怵	hyitq
-#㤜	hyitq
-#㾁	hyitq
-#䬄	hyitq
 #聿	Jyitq
 #遹	Jyitq
 #𧽻	Jyitq
@@ -21158,6 +21143,22 @@ use_preset_vocabulary: true
 #𧼐	gwitq
 #䤎	gwitq
 𪊀	gwitq
+#矞	hwitq		#休必切 AB溷
+#獝	hwitq
+𥎕	hwitq
+#䎉	hwitq
+𥄴	hwitq
+𣆒	hwitq
+㳚	hwitq
+䢕	hwitq
+𤇳	hwitq
+#瞲	hwitq
+𥅛	hwitq
+#𥄵	hwitq
+#怵	hwitq
+#㤜	hwitq
+#㾁	hwitq
+#䬄	hwitq
 #䫻	qwitq
 #䬑	qwitq
 #位	qwitq
@@ -22408,7 +22409,7 @@ use_preset_vocabulary: true
 #𤢔	hiatq
 #熂	hiatq
 滊	hiatq
-#紇	Eiatq		#恨竭切
+#紇	Eiatq		#恨竭切 羣母
 𪗟	Eiatq
 #籺	Eiatq
 #麧	Eiatq
@@ -30404,18 +30405,6 @@ use_preset_vocabulary: true
 #炔	Ayetq
 𥆸	Ayetq
 #𠱝	Ayetq
-#𥄎	hyetq		#翾劣切 A?B? 韻圖四等
-#烕	hyetq
-𣧵	hyetq
-𩖱	hyetq
-䫼	hyetq
-#𦐋	hyetq
-#決	hyetq
-#炔	hyetq
-#㤜	hyetq
-#𥅜	hyetq
-#吷	hyetq
-㔃	hyetq
 #悅	Jyetq
 #說	Jyetq
 兊	Jyetq
@@ -31266,6 +31255,18 @@ use_preset_vocabulary: true
 #𠄌	kwetq
 #𠜾	kwetq
 #𧱝	gwetq		#巨劣切
+#𥄎	hwetq		#翾劣切 A?B? 韻圖四等
+#烕	hwetq
+𣧵	hwetq
+𩖱	hwetq
+䫼	hwetq
+#𦐋	hwetq
+#決	hwetq
+#炔	hwetq
+#㤜	hwetq
+#𥅜	hwetq
+#吷	hwetq
+㔃	hwetq
 #噦	Awetq		#乙劣切
 #衛	Awetq
 #㦣	Awetq
@@ -32614,11 +32615,11 @@ use_preset_vocabulary: true
 #燒	scjevs
 #邩	scjevs
 #魦	scjevs
-#翹	gjevs
-#𧇠	Cjevs
+#翹	gjevs		#祁要切
+#𧇠	Cjevs		#牛召切
 #驁	Cjevs
 #鏊	Cjevs
-#要	Ajevs
+#要	Ajevs		#一笑切
 #𡢗	Ajevs
 𦥼	Ajevs
 #葽	Ajevs
@@ -44911,7 +44912,7 @@ use_preset_vocabulary: true
 #𢂑	sci;kq
 #𥿮	sci;kq
 #鉽	sci;kq
-#翜	sci;kq
+𡙩	sci;kq
 #𧄹	sci;kq
 𧊖	sci;kq
 #烒	sci;kq
@@ -51313,7 +51314,7 @@ use_preset_vocabulary: true
 #枮	scjemq
 #𡝫	scjemq
 𦺭	scjemq
-#鍼	gjemq		#巨鹽切
+#鍼	gjemq		#巨鹽切 A?B?
 #懕	Ajemq		#於鹽切
 㦔	Ajemq
 #厭	Ajemq
@@ -51485,7 +51486,7 @@ use_preset_vocabulary: true
 #淰	scjemA
 𣻧	scjemA
 #𧴭	scjemA
-#脥	khjemA		#謙琰切
+#脥	khjemA		#謙琰切 A?B?
 #惔	khjemA
 #唊	khjemA
 #黶	AjemA		#於琰切
@@ -52698,8 +52699,8 @@ use_preset_vocabulary: true
 𥷨	leepq
 𦾳	leepq
 #氾	biamq		#𣲆#扶嚴切
-#誗	dRiamq		#直嚴切
-#厃	tsciamq		#之嚴切
+#誗	dRiamq		#直嚴切 鹽韻
+#厃	tsciamq		#之嚴切 鹽韻
 #黔	kiamq
 #欦	khiamq
 #𨦄	khiamq
@@ -52744,7 +52745,7 @@ use_preset_vocabulary: true
 #𦥘	piamA
 疺	piamA
 #窆	piamA
-#拈	tsciamA		#章貶切
+#拈	tsciamA		#章貶切 鹽韻
 #欦	khiamA
 #𩒣	khiamA
 #儼	CiamA
@@ -52775,8 +52776,8 @@ use_preset_vocabulary: true
 #封	piams
 #砭	piams
 #𥐗	piams
-#黏	nRiams		#女驗切
-#僉	tshiams		#七劍切
+#黏	nRiams		#女驗切 鹽韻
+#僉	tshiams		#七劍切 鹽韻
 #𤴿	sciams		#式劍切
 #閃	sciams
 #劒	kiams
@@ -52808,7 +52809,7 @@ use_preset_vocabulary: true
 #熁	hiams
 𧻒	hiams
 #𩏩	hiams
-#斂	liams		#力驗切
+#斂	liams		#力驗切 鹽韻
 #殮	liams
 #瀲	liams
 #𩅼	liams
@@ -52822,7 +52823,7 @@ use_preset_vocabulary: true
 #羷	liams
 #獫	liams		#力劍切
 #㙷	dRiapq		#直業切
-#磼	dzSiapq		#士劫切
+#磼	dzSiapq		#士劫切 鹽葉韻dzSxep
 #劫	kiapq
 刦	kiapq
 #抾	kiapq

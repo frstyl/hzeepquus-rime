@@ -66,6 +66,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+𦑘𦒧	Eaemq hfak
 𣪌子	doovq tsi;A
 𤲭𣕎	
 𪑚𪒴	
@@ -1560,6 +1561,7 @@ use_preset_vocabulary: true
 𠩠	hxis
 𦤋	hxis
 ###必
+𡊭	mxit
 虑	piukq
 秘	pxis
 邲	pxis
@@ -2727,7 +2729,7 @@ use_preset_vocabulary: true
 𦸑	meetq
 𦹋	meetq
 𭾬	meetq
-###烕
+###烕-戌
 烕	mjetq		#𤇳
 𤇳	mjetq		#2
 㓕	mjetq		#1		#滅
@@ -2739,6 +2741,7 @@ use_preset_vocabulary: true
 𰟠	mjetq
 𱨍	mjetq
 𢷄	mjetq		#1		#搣
+𢬮	mjetq		#烕
 ###八
 䰾	paaq
 𱆦	paaq
@@ -3750,7 +3753,6 @@ use_preset_vocabulary: true
 ##𢀩差
 嵳	dzoaq
 𪙉	tsShxeq
-磋	tshvas
 𨲻	tsoajq		#嗟
 # 𨲻	tsjaq		#嗟
 𧪰	tsjaq
@@ -3815,6 +3817,7 @@ use_preset_vocabulary: true
 𦘨	sjis
 𢑨	sjis
 ###冎
+叧	kfaA
 𠙼	kfaA
 窩	Avaq
 萵	Avaq
@@ -5185,17 +5188,17 @@ use_preset_vocabulary: true
 𤴥	kruvq
 𤴪	kruvq
 𤴮	kruvq
-臫	kxevA		#1		#𥃧
+臫	kxevA		#𥃧
 𥃤	kxevA
-𦬥	kiuvq		#1		#𦫶
+𦬥	kiuvq		#𦫶
 𦭋	kiuvq
 𦭺	kiuvq
 𦫷	kiuvq
-𦮁	kruvq		#1		#𦱠
+𦮁	kruvq		#𦱠
 𦱲	kruvq
 𦽬	kruvq
-𣎹	kiuvq		#1		#朻
-𠂈	kiuvq		#1		#丩
+𣎹	kiuvq		#朻
+𠂈	kiuvq		#丩
 𠃖	kiuvq
 # 𠃚	kiuvq
 𠖬	kiuvq
@@ -5906,7 +5909,6 @@ use_preset_vocabulary: true
 # 查	tsSaaq
 揸	nRaaq
 揸	tsSaaq		#抯
-猹	dzRaaq
 齄	tsSaaq
 喳	tsSaaq
 ##
@@ -6111,7 +6113,7 @@ use_preset_vocabulary: true
 ##
 # 佁	Jo,jq
 ##
-誒	Ao,q
+# 誒	Ao,jq
 ###辭
 辞	zi;q
 𤔧	zi;q
@@ -6244,7 +6246,7 @@ use_preset_vocabulary: true
 𰥱	Eoovs
 𠋫	Eoovs
 𠉀	Eoovs
-𣣠	Eoovs
+𣣠	Eoovs		#𥀄譌
 ###系
 𡱏	EfaA
 ###𠀀
@@ -6338,17 +6340,20 @@ use_preset_vocabulary: true
 𢚬	kfejs
 𪫦	kfejs
 𭜏	kfejs
+###禹
+𰁻	quoA
+𢁰	quoA
 ###雨
-# 兩	qvioA
-𠕒	qvioA
-𠕘	qvioA
-𠕲	qvioA
-𮦄	qvioA
-𮦆	qvioA
-𩁼	qvioA
-𩗿	qvioA
-㲾	qvioA
-𨜄	EvoA
+# 兩	quoA
+𠕒	quoA
+𠕘	quoA
+𠕲	quoA
+𮦄	quoA
+𮦆	quoA
+𩁼	quoA
+𩗿	quoA
+㲾	quoA
+𨜄	EooA
 ###羽
 𦏲	qvioA
 ###亏于
@@ -6584,6 +6589,8 @@ use_preset_vocabulary: true
 𮮦	kooA
 𰚃	kooA
 ###古
+㞐	kioq
+𢨶	kioq
 骷	khooq
 咕	kooq
 𥙯	EvajA		#𥚁
@@ -6870,6 +6877,11 @@ use_preset_vocabulary: true
 𰋙	guos
 𰥍	guos
 ###區
+#嘔	AoovA
+𠴰	AoovA
+#㰶	AoovA
+𧖼	AoovA
+𣢨	AoovA
 瞘	khoovq
 慪	Aoovs
 慪	AoovA
@@ -7283,15 +7295,15 @@ use_preset_vocabulary: true
 𣥩	dzcjepq
 𣶵	dzcjepq
 𰛌	dzcjepq
+###聶
 ###耴
 𦔮	tRxepq
-䎲	tRxepq
+䎲	tRxepq	0		#牛乙切
 ###染
 𡜉	ncjemA
 ###入
 ###廿
 卄	ncjipq
-###聶
 ###
 𩢏	tRxipq		#縶
 馽	tRxipq		#縶
@@ -9769,8 +9781,6 @@ use_preset_vocabulary: true
 袂	Cjetq-r
 袂	kYetq
 袂	ncyerq
-# 𦐋	Xswitq
-𦐍	Xswitq
 # 吷	hwetq
 鴃	kYetq
 ##
@@ -10079,21 +10089,21 @@ use_preset_vocabulary: true
 圞	lvanq
 𤼣	lyenq
 ###戌
-𤇳	hwitq
-㤜	hwitq
-䬄	hwitq
-𦐴	hsqwitq		#2
-𣧵	hsqwetq
-㤜	hsqwetq
-𣧵	syitq
+# 𤇳	hwitq
+# 㤜	hwitq
+# 䬄	hwitq
+# 𦐴	hsqwitq		#2
+# 𣧵	hsqwetq
+# 㤜	hsqwetq
+# 𣧵	syitq
 # 䎉	Xswitq
 # 㤜	Xswitq		#㾁
 # 䬄	Xswitq		#𩖶
 #戉
 𤇦	hyitq		#1		#𤇳
-# 䎀	Xswitq
-# 怴	Xswitq
-# 䬂	Xswitq
+# 䎀	hwitq
+# 怴	hwitq
+# 䬂	hwitq
 ###矞
 𭫜	kyitq
 𭿷	Jyitq
@@ -10115,8 +10125,8 @@ use_preset_vocabulary: true
 ###戉
 𫑛	quatq
 𧻂	quatq
-怴	Xsuatq
-𣧡	Xsuatq
+怴	huatq		#許月切
+𣧡	huatq		#許月切
 #
 䞲	quatq
 𢦰	quatq
@@ -10758,6 +10768,14 @@ use_preset_vocabulary: true
 𥥔	doaCs
 𡇵	doaCs
 炻	dzcjekq
+蠧	toos
+𡕎	toos
+𥑟	toos
+𥗤	toos
+𧋌	toos
+𧖌	toos
+#𬒣	toos
+#𮕛	toos
 ##
 䂖	dzcjekq
 𥐖	dzcjekq
@@ -11782,7 +11800,6 @@ use_preset_vocabulary: true
 𤉱	tshiakq
 𭴷	tshiakq
 ###昔𦠡
-諎	tshvas
 𥕉	tshoakq		#2
 𢧉	tsSaavkq
 𢨈	tsSaavkq
@@ -11876,13 +11893,21 @@ use_preset_vocabulary: true
 堽	koaCq
 𢱫	koaCq		#2
 𢰌	koaCq
-###卿𠨍
-𠨞	khiaCq
-𡖖	khiaCq
-𡖥	khiaCq
-𨜊	khiaCq
-𨜮	khiaCq
+###卿𠨍鄉
+𠨞	khraCq
+𡖖	khraCq
+𡖥	khraCq
+𨜊	khraCq
+𨜮	khraCq
+乡	hiaCq
 郷	hiaCq
+鄊	hiaCq
+鄕	hiaCq
+𨝅	hiaCq
+𨞰	hiaCq
+𨞸	hiaCq
+𭅼	hiaCq
+𭅽	hiaCq
 ###慶
 庆	khiaCs
 𢙎	khiaCs
@@ -12455,7 +12480,6 @@ use_preset_vocabulary: true
 𮎜	sSi;kq
 ###𠾂
 ###霍靃
-𦑘𦒧	Eaemq hfak
 𦑱	hfakq		#1		#𦒧
 㺢	hvakq
 𤣅	khaokq
@@ -13660,6 +13684,7 @@ use_preset_vocabulary: true
 ###犛
 ###吿-告
 ###口
+𠮠	paeA
 𠿆	maeA		#五音篇海
 𠹑	Ceevs
 𠵭	Axetq
@@ -13671,7 +13696,7 @@ use_preset_vocabulary: true
 𡁫	tsyeA
 𫬉	khferq
 叹	qiuvs		#又
-另	leeCs
+另	leeCs		#五音集韻 郞定切 叧之分
 㘞	Evas
 ###凵
 𠙶	AoovA
@@ -14078,9 +14103,10 @@ use_preset_vocabulary: true
 ###𨛜
 ####
 ###日
+𣅻	kYeCA
 𪰣	Jiukq		#昱
 𪰣	Ji;kq		#翌
-暊	bvioA
+暊	buoA
 𣅄	nciuvs
 𣅃	boavs
 𣅁	boavs
@@ -14236,7 +14262,6 @@ use_preset_vocabulary: true
 䋞	muaCA
 蛧	muaCA
 𦊪	Co,pq
-𦊮	mjejq
 𦊶	kvoq
 # ⿱网圭
 # ⿱网肉
@@ -14333,6 +14358,7 @@ use_preset_vocabulary: true
 𧠐	Aiams
 ###覞
 ###欠
+𣣑	sj;A		#心子切
 ###㱃
 ###㳄
 ###旡
@@ -14486,6 +14512,7 @@ use_preset_vocabulary: true
 ###囟
 ###思
 ###心
+惧	guos		#懼
 𢖩	teemq
 ##
 恓	tsheejq

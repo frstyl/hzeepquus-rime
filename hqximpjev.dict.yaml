@@ -5,7 +5,7 @@ use_preset_vocabulary: true
 import_tables:
   - emoji
 ...
-####音幖
+####音幖 濁書于末發于首
 # p p
 # pʰ	ph
 # b b
@@ -28,15 +28,15 @@ c	kJ		#c爲sc J爲硬齶
 # k k
 # kʰ	kh
 g	g
-ɡ	g		#手寫體
-q	kQ
+ɡ	g
+q	kq
 # qʰ	kqh
-ɢ	gQ
+ɢ	gq
 ʡ	Hq
 ʔ	hq
 ʔ	A
 p͡ɸ	pF
-p͡ɸʰ	pFh
+p͡ɸʰ	phF
 b͡β	bF
 ʦ	ts
 ʣ	dz
@@ -60,8 +60,9 @@ d͡	dz
 β	Fpz
 ɸ	sp
 β	zp
-F	Fs
+f	Fs
 v	Fz
+f	F
 v	F
 θ	Ft
 ð	Fd
@@ -72,8 +73,11 @@ v	F
 ð	zd
 # s	s
 # z	z
+ʃ	S
+ʒ	S
 ʃ	sS
 ʒ	zS
+ɧ	sSX
 ʂ	sR
 ʐ	zR
 ɕ	sc
@@ -115,9 +119,12 @@ h	E
 ɲ	nJ
 ȵ	nc		#非音幖
 ȵ	ngc
+ȵ	Cc
 ŋ	ng
-Ŋ	ng		#非音幖 大寫
-ɴ	nQ
+ŋ	C
+Ŋ	ng		#非音幖
+Ŋ	C
+ɴ	nq
 ###
 ʷr	w
 ʷɾ	w
@@ -128,34 +135,40 @@ h	E
 ʷˤr	f
 ʷˤɾ	f
 ʷɹ	f
-w	V
-ʍ	Vs
-ʷ	V
+w	v
+ʍ	vs
+ʷ	v
 ɥ	y
 ###
+ʙ	Rp
+ⱱ	RF		#闪音
 r	R
 ɾ	R
-ɹ	r
 ɽ	RR
-ɻ	rR
-ʀ	RQ
+ʀ	Rq
 ʁ	R		#?
 ɺ	R
-ʋ	v
-ⱱ	rf
+ʋ	f		#近音
+ʋ	rF
+ɹ	r
+ɻ	rR
+j	j
 ɰ	x
-ɺ	l
-l	l
+l	l		#L
 ɭ	l
 ɭ	lR
 ʎ	l
 ʎ	lJ
 ʟ	l
-ʟ	lg
-ɬ	l
+ʟ	lX
+ɬ	l		#邊擦 Lateral Fricative
 ɮ	l
-ɬ	sl
-ɮ	zl
+ɬ	Sls
+ɮ	Slz
+ɬ	LSs
+ɮ	LSz
+ɺ	Rl		#邊閃  lateral flap
+ɺ	LR
 ###
 ʘ	b		#Bilabial Clicks
 ǀ	d		#Dental
@@ -166,7 +179,7 @@ l	l
 ɗ	d		#Dental/alveolar
 ʄ	c		#Palatal
 ɠ	g		#Velar
-ʛ	Q		#Uvular
+ʛ	q		#Uvular
 pʼ	p		#Bilabial Ejectives
 tʼ	t		#Dental/alveolar
 kʼ	k		#Velar
@@ -217,20 +230,21 @@ u	u
 ɨæ	ie
 ʉæ	ue
 ###
-ʷ	v
+ʷ	V
 ʲ	c
-ʲ	j
+ʲ	J
 ᶣ	y
-̴	k		#偄腭化
-̃	m		#鼻化
+̴	k		#偄腭化咽化
+̃	N		#鼻化
+̃	nn
 ˞	r
-ˠ	x
+ˠ	X
 ˤ	O
 ʰ	h
 ˡ	l
 ⁿ	n
 ˢ	s
-ʱ	x
+ʱ	E
 ᵊ	eo
 ᶷ	u
 ̚	A
@@ -261,6 +275,7 @@ u	u
 ̘	dzen
 ̙	o
 ̙	goow
+##
 ̹	o
 ̜	a
 ː	aa
@@ -284,6 +299,48 @@ u	u
 .	scjec
 ‿	scjec
 ###字母
+##注音
+ㄅ	p
+ㄆ	ph
+ㄇ	m
+ㄈ	F
+ㄉ	t
+ㄊ	th
+ㄋ	n
+ㄌ	l
+ㄎ	k
+ㄎ	kh
+ㄏ	h
+ㄐ	tsc
+ㄑ	tsch
+ㄒ	sc
+ㄓ	tsR
+ㄕ	tsRh
+ㄕ	sR
+ㄖ	rR
+ㄗ	ts
+ㄘ	tsh
+ㄙ	s
+ㄧ	j
+ㄨ	v
+ㄩ	y
+ㄚ	a
+ㄛ	o
+ㄜ	eo
+ㄝ	e
+ㄞ	aj
+ㄟ	ej
+ㄠ	av
+ㄡ	ov
+ㄢ	an
+ㄣ	eon
+ㄤ	aC
+ㄥ	eoC
+ㄦ	r
+ㄪ	f
+ㄫ	C
+ㄫ	ng
+ㄬ	nc
 ##
 𐤀	alep
 𐤁	bet
@@ -307,12 +364,12 @@ u	u
 𐤓	rosh
 𐤔	shin
 𐤕	tau
-𐤖	Ajit
+𐤖	hqjit
 𐤗	gjip
 𐤘	njip
 𐤙	paak
 𐤚	njir
-𐤛	soam
+𐤛	sam
 ##
 ℵ	aleph
 ℶ	beth
@@ -347,7 +404,7 @@ u	u
 ف‎	p
 ﺹ‎	sO
 ﺽ‎	dO
-ﻕ‎	Q
+ﻕ‎	q
 ﺭ‎	R
 ﺵ	sS
 ﺕ‎	t
@@ -540,7 +597,7 @@ u	u
 ҙ	dhe
 ҫ	the
 ҡ	qa
-қ	ka
+қ	的ka
 ҝ	dya
 ҟ	qa
 ң	eng
