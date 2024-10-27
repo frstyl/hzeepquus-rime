@@ -135,6 +135,7 @@ use_preset_vocabulary: true
 氘	toavq		#刀刂
 氚	tschyonq		#川
 氦	hgo,jA		#he helium 
+氜	ncjitq		#日 helium
 鋰	lj;A		#li lithium
 鈹	bxeq		#be beryllium
 硼	bo;Cq		#b boracium
@@ -301,17 +302,13 @@ use_preset_vocabulary: true
 乒乓	pheCq phaCq
 乒乓	pxaCq
 𰍧𰍨	pheCq phaCq
-打	taA		#?taag
-閪	heejq
-氹	damA
-凼	damA
 𰛄𰛅	scyiA
 ⿰氵𦊴	nRxepq		#𣹵⿰氵𦊴
 𰛄	phaes		#派?
 𰛅	lo,js		#瀨?
 炸	tsRaas		#灹+煠
 齉	naCs
-玍	kaA
+玍	koaA
 𫜶	tanq
 # 𣖍	tsvotq		#稡䄶
 # 𣛓	bvotq		#䄶
@@ -326,9 +323,6 @@ use_preset_vocabulary: true
 傈僳	ljitq sjokq
 傈僳	leis sous		#lisu
 鿼鿻	kaaq pos
-㞎	paA
-乸	naA
-屙	Aaq
 #######借䛐
 𬻀	booq soat		#菩薩
 𬻀	bonAhisatqtva
@@ -519,6 +513,7 @@ use_preset_vocabulary: true
 ###示
 ##𥘅
 ###三
+𠀧	paaq
 ###王
 ###玉
 鿱	paaq
@@ -577,6 +572,7 @@ use_preset_vocabulary: true
 ###犛
 ###吿-告
 ###口
+呎	tschjekq
 嚷	nciaCA		#讓
 啦	loa
 哈	hoa
@@ -648,6 +644,7 @@ use_preset_vocabulary: true
 ###革
 ###鬲
 ###䰜
+𱆐	Jiukq		#?
 ###爪
 ###丮
 ###鬥
@@ -794,6 +791,8 @@ use_preset_vocabulary: true
 ###皀
 ###鬯
 ###食
+饃	mooq
+𩟠	mooq
 ###亼-口
 𠼞	Aoakq		#ammonia
 ###𠓛-入一
@@ -858,7 +857,7 @@ use_preset_vocabulary: true
 啶	deeCs
 嘧	mxitq
 嘌	phjevq
-呤	leeCq
+# 呤	leeCq
 咪	meiq
 噻	so,jq
 吡	bjitq
@@ -966,8 +965,12 @@ use_preset_vocabulary: true
 ###裘
 ###老
 ###毛
+𣬶	paaq
+𣬷	paaq
 ###毳
 ###尸
+㞎	paaA
+屙	Aoaq		#涹
 ###尺
 ###尾
 ###履
@@ -1100,6 +1103,8 @@ use_preset_vocabulary: true
 ###惢
 ####
 ###水
+氹	doaCA		#䑗?
+凼	doaCA
 溴	hiuvs
 汞	kouCA
 汞	hgouCA
@@ -1173,13 +1178,18 @@ use_preset_vocabulary: true
 ###鹽
 ###戶
 ###門
+閪	heejq
 ###耳
 ###𦣞
 ###手
+打	toaA		#?taag 都瓦切
 扯	tschjaA		#撦
 ###𠦬
 ###女
 姥	loavA		#嫽
+##母
+乸	naA		#毑
+𱥜	naA
 ###毋
 ###民
 ###丿乀
@@ -1227,6 +1237,7 @@ use_preset_vocabulary: true
 ###黽
 ###卵
 ###二
+𠄧	paaq
 ###土
 垵	Ao,mA		#埯
 ###垚

@@ -2548,8 +2548,8 @@ use_preset_vocabulary: true
 #漨	bioCq
 浲	bioCq
 #蓬	bioCq
-𢿂	mioCq
-𣯷	mioCq
+氂	mioCq
+犛	mioCq
 #蹱	thRioCq
 #傭	thRioCq
 #𦟛	thRioCq
@@ -4657,7 +4657,7 @@ use_preset_vocabulary: true
 訑	scjeq
 𡟕	scjeq
 𠷇	scjeq
-𧰬	scjeq
+#𧰲	scjeq		#𧰬
 #疻	scjeq
 #翅	scjeq
 #祇	gjeq		#翹移切
@@ -5013,7 +5013,7 @@ use_preset_vocabulary: true
 #袳	tschjeA
 #移	tschjeA
 𧛧	tschjeA
-#彖	tschjeA
+#𧰲	tschjeA		#彖
 #茈	tschjeA
 #疻	tschjeA
 #是	dzcjeA
@@ -5059,7 +5059,7 @@ use_preset_vocabulary: true
 㞔	scjeA
 #㢁	scjeA
 #痑	scjeA
-#彖	scjeA
+#𧰲	scjeA		#彖
 #㥴	scjeA
 #舓	zcjeA
 #𦧇	zcjeA
@@ -6770,6 +6770,17 @@ use_preset_vocabulary: true
 #䪳	Ajiq
 #嫛	Ajiq
 𡜬	Ajiq
+#咦	hjiq		#馨夷切
+#咥	hjiq
+#忔	hjiq
+#䐅	hjiq
+#㕧	hjiq
+𣢁	hjiq
+𧥤	hjiq
+䐖	hjiq
+#屎	hjiq		#𣢂
+𣢍	hjiq
+𣢎	hjiq
 #夷	Jjiq
 #𡰥	Jjiq
 #尼	Jjiq
@@ -7801,17 +7812,6 @@ use_preset_vocabulary: true
 #虮	kxiq
 #狋	Cxiq		#牛肌切
 䇵	Cxiq
-#咦	hxiq		#馨夷切
-#咥	hxiq
-#忔	hxiq
-#䐅	hxiq
-#㕧	hxiq
-𣢁	hxiq
-𧥤	hxiq
-䐖	hxiq
-#屎	hxiq		#𣢂
-𣢍	hxiq
-𣢎	hxiq
 #鄙	pxiA		#補美切
 #啚	pxiA
 𠴿	pxiA
@@ -9107,7 +9107,7 @@ use_preset_vocabulary: true
 #𪖥	hi;A
 暿	hi;A
 #嬉	hi;A
-#矣	qi;A		#于紀切
+#矣	qi;A		#羽巳切#于紀切
 #唉	qi;A
 #𦮸	qi;A
 #俟	qi;A
@@ -13173,7 +13173,7 @@ use_preset_vocabulary: true
 #努	nooA
 #孥	nooA
 #𧉭	nooA
-#祖	tsooA
+#祖	tsooA		#總古切
 𥘲	tsooA
 #珇	tsooA
 #靻	tsooA
@@ -13192,12 +13192,12 @@ use_preset_vocabulary: true
 #觕	dzooA
 𤖛	dzooA
 #䁮	dzooA
-#蔖	tscooA
-#皻	tscooA
-#𤿚	tscooA
-#𧆓	tscooA
-#䥘	tscooA
-#縒	tscooA
+#蔖	tshooA		#忖五切 州五切
+#皻	tshooA
+#𤿚	tshooA
+#𧆓	tshooA
+#䥘	tshooA
+#縒	tshooA
 #古	kooA
 𠖠	kooA
 #詁	kooA
@@ -18087,9 +18087,9 @@ use_preset_vocabulary: true
 #揌	so,jq
 #粞	so,jq
 𥻏	so,jq
-#㹗	tscho,jq
-#栘	dzco,jq
-荋	nco,jq
+#㹗	tscho,jq		#昌來切
+#栘	dzco,jq		#逝來切
+荋	nco,jq		#人之切
 #腝	nco,jq
 𩱄	nco,jq
 #臡	nco,jq
@@ -18326,8 +18326,8 @@ use_preset_vocabulary: true
 #諰	so,jA
 䈢	so,jA
 #葸	so,jA
-#茝	tscho,jA
-#疓	nco,jA
+#茝	tscho,jA		#昌亥切
+#疓	nco,jA		#汝亥切
 #改	ko,jA
 㱼	ko,jA
 忋	ko,jA
@@ -20283,6 +20283,22 @@ use_preset_vocabulary: true
 #𧾣	gyitq
 #趉	gyitq
 #矞	gyitq
+#矞	hyitq		#休必切 AB溷
+#獝	hyitq
+𥎕	hyitq
+#䎉	hyitq
+𥄴	hyitq
+𣆒	hyitq
+㳚	hyitq
+䢕	hyitq
+𤇳	hyitq
+#瞲	hyitq
+𥅛	hyitq
+#𥄵	hyitq
+#怵	hyitq
+#㤜	hyitq
+#㾁	hyitq
+#䬄	hyitq
 #聿	Jyitq
 #遹	Jyitq
 #𧽻	Jyitq
@@ -21143,22 +21159,6 @@ use_preset_vocabulary: true
 #𧼐	gwitq
 #䤎	gwitq
 𪊀	gwitq
-#矞	hwitq		#休必切 AB溷
-#獝	hwitq
-𥎕	hwitq
-#䎉	hwitq
-𥄴	hwitq
-𣆒	hwitq
-㳚	hwitq
-䢕	hwitq
-𤇳	hwitq
-#瞲	hwitq
-𥅛	hwitq
-#𥄵	hwitq
-#怵	hwitq
-#㤜	hwitq
-#㾁	hwitq
-#䬄	hwitq
 #䫻	qwitq
 #䬑	qwitq
 #位	qwitq
@@ -26590,7 +26590,7 @@ use_preset_vocabulary: true
 䥷	dzSaatq
 #耫	dzSaatq
 #㳐	dzSaatq
-#𩭿	ncaatq
+#𩭿	ncaatq		#而轄切 ncjet?
 𪈙	kaatq
 #擖	kaatq
 轕	kaatq
@@ -26886,18 +26886,18 @@ use_preset_vocabulary: true
 #㣶	tRaenq
 #譠	tRaenq
 㺦	dRaenq
-虦	dzaenq
+虦	dzaenq		#昨閑切
 #孱	dzaenq
 #𡎻	dzaenq
-#潺	dzSaenq
+#潺	dzSaenq		#鉏山切
 虦	dzSaenq
 #孱	dzSaenq
 #𨬖	dzSaenq
 鬝	dzSaenq
 #䡲	dzSaenq
 #𡎻	dzSaenq
-#㺗	tschaenq
-#漦	dzcaenq
+#漦	dzSaenq		#棧山切
+#㺗	tschaenq		#充山切
 #山	sSaenq
 #疝	sSaenq
 #邖	sSaenq
@@ -29154,7 +29154,7 @@ use_preset_vocabulary: true
 #㢾	tscjenq
 #甄	tscjenq
 #燀	tschjenq
-#㺗	tschjenq
+#㺗	tschjenq		#稱延切
 #僤	tschjenq
 #嘽	tschjenq
 #幝	tschjenq
@@ -30280,7 +30280,7 @@ use_preset_vocabulary: true
 #缺	khyens		#窺絹切
 #頍	khyens
 縳	Cyens		#外絹切
-#衍	Jyens
+#衍	Jyens		#延面切
 #延	Jyens
 #莚	Jyens
 葕	Jyens
@@ -30300,7 +30300,7 @@ use_preset_vocabulary: true
 #演	Jyens
 #縯	Jyens
 𩃀	Jyens
-#掾	Jyens
+#掾	Jyens		#俞絹切
 #緣	Jyens
 #𢐄	Jyens
 䬇	Jyens
@@ -49650,7 +49650,7 @@ use_preset_vocabulary: true
 暔	no,mq
 莮	no,mq
 #弇	no,mq
-#沈	dRo,mq
+#沈	dRo,mq		#長含切
 #簪	tso,mq
 #𥸢	tso,mq
 #篸	tso,mq
@@ -49690,8 +49690,8 @@ use_preset_vocabulary: true
 𣀫	so,mq
 䵇	so,mq
 #謲	so,mq
-#緂	tscho,mq
-䫮	dzco,mq
+#緂	tscho,mq		#充含切
+䫮	dzco,mq		#常含切 𩔵䫮俯首皃
 #弇	ko,mq
 𥦍	ko,mq
 #䌠	ko,mq
@@ -49934,7 +49934,7 @@ use_preset_vocabulary: true
 𨡯	no,mA
 𦝧	no,mA
 #揇	no,mA
-𦐃	no,mA
+𦐃	no,mA		#乃感切
 䊖	no,mA
 #萳	no,mA
 #䈒	no,mA
@@ -49995,7 +49995,7 @@ use_preset_vocabulary: true
 幓	sSo,mA
 #㶒	sSo,mA
 #𩁺	sSo,mA
-𦐃	nco,mA
+𦐃	nco,mA		#如坎切 乃感切
 #感	ko,mA
 #㔶	ko,mA
 #篢	ko,mA
@@ -50198,7 +50198,7 @@ use_preset_vocabulary: true
 #俕	so,ms
 #䫅	so,ms
 𢚗	so,ms
-𡜉	nco,ms
+𡜉	nco,ms		#辱紺切
 #紺	ko,ms
 #灨	ko,ms
 #𧆐	ko,ms
@@ -51285,9 +51285,9 @@ use_preset_vocabulary: true
 橬	dzcjemq
 𧨾	dzcjemq
 #讇	dzcjemq
-䫇	ncjemq
+䫇	ncjemq		#如占切
 髥	ncjemq
-𩑺	ncjemq
+𩑞	ncjemq		#𩑺
 𣬭	ncjemq
 𣱄	ncjemq
 #冄	ncjemq
@@ -53474,7 +53474,7 @@ use_preset_vocabulary: true
 𦳫	sSaamq
 #槮	sSaamq
 #㺑	sSaamq
-#𩑞	ncaamq
+#𩑞	ncaamq		#而銜切
 #冄	ncaamq
 {⿱一⿰⿱人个⿱人个}	ncaamq
 #監	kaamq

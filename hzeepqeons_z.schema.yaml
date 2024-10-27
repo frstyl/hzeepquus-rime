@@ -77,11 +77,11 @@ speller:
     #- derive/W/Vr/
     #- derive/v/Vo/
 
-    - derive/^k(h?)L(?!-)/t$1/ #kL t #kL tsc#CL缺#合甚叕出 穿川舛車樞杵處楢醜臭饎出赤
+    - derive/^kL(h?)(?!-)/t$1/ #kL t #kL tsc#CL缺#合甚叕出 穿川舛車樞杵處楢醜臭饎出赤
     - derive/^gL(?!-)/d/
     - derive/^([sz])KL(?!-)/$1/ #缺 Ls?skL?
 
-    - derive/^(.+)-J[Jq]?/$1L/
+    - derive/^(.+)-J[Lq]/$1L/
 
 
     
@@ -90,7 +90,20 @@ speller:
     - derive/^(kh|[kgCAXh])L/$1/  #k-L
     
 
+    - derive/^([sz])[ptkmnCLRQq]J/$1c/ #s-[] sc
+    - derive/^([sz])[ptkmnCLRQq]R/$1S/ #sR
 
+    - derive/^([sz])[ptkmnCLRQq](?![JR])/$1/ #s-[] 
+
+    - derive/^(h[mnCLRqQV]sJ?|hsq|ngs|[mnCqQV]s)/hs/
+    - derive/^(Xs?|hs)/h/
+
+    - derive/^h[mnCLRqQ](s)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
+    - derive/^m[mnCLRqQ](z)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
+    - derive/^[mnCLRqQ]([sz])R/$1S/ #Lsc LsS #不存在
+
+
+##
     #- derive/^(th|t|d|n)[JR]/$1/
     #- derive/^(t?s|d?z)S/$1/ #tsz sz
     - derive/^(J[LQq])/J/ #Jq
@@ -100,18 +113,18 @@ speller:
     - derive/^(J[QVLq])/q/    #Jq
     - derive/^(E|hz|hg|hQ(?!s))/E/
 
-    - derive/^(h[mnCLRqQV]s|hsq|ngs|[mnCqQV]s)/hs/
-    - derive/^(Xs?|hs)/h/
+    - derive/^(.*L)[JR]/$1/ ##ll=L(![sz]) #包括L-
+    - derive/^([sz][ptkmnCLRQq])[JR]/$1/ #心生書s ss
 
     - derive/^(Rsh[RJ]?|RsR)/Rs/    #RsS?
     - derive/^(R(?!s|RzR)[R]?|l)/R/
-    - derive/^(Lsh[RJ]?|LsJ|hLs)/Ls/
-    - derive/^(L(?!s)[RJ]?|LzJ|JL)/Lz/ #Lzc? Lc?
+    - derive/^(hLsJ|Lsh[RJ]?|LsJ|hLs)/Ls/
+    - derive/^(L(?!s)[RJ]?|JL)/Lz/ #Lzc? Lc?
     - derive/^(hms|msF?)/ms/
-    - derive/^(hns|ns[RJ]?|hns)/ns/
-    - derive/^(hCs|CsJ)/Cs/
+    - derive/^(hns[RJ]|hns|hns)/ns/
+    - derive/^(hCs[RJ]|hCs)/Cs/
     - derive/^(hQs)/Qs/
-    - derive/^(E|hz)/Q/ #Q
+    - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
     
     #- derive/^(ph?|b|ms?)/P/
     #- derive/^(th?|d|ns?)/T/
@@ -144,8 +157,8 @@ speller:
     - derive/W/w/
     - derive/I/j/
     - derive/U/y/
-    - fuzz/[jrxI](ə|ʌ|a|e|i|o|u|;)/i$1/ #i=jx
-    - fuzz/[ywU](ə|ʌ|a|e|i|o|u|;)/u$1/
+    # - fuzz/[jrxI](ə|ʌ|a|e|i|o|u|;)/i$1/ #i=jx
+    # - fuzz/[ywU](ə|ʌ|a|e|i|o|u|;)/u$1/
 
 ##    
     - fuzz/(tsSh?|dzS|sS|zS)a([aeiou;,])/$1r$2/ #莊R 聲前介後
@@ -247,6 +260,7 @@ speller:
     - fuzz/^(ng|C)/c/
 translator:
   dictionary: hzeepqeons
+  prism: hzeepqeons_z
   spelling_hints: 10
   prism: hzeepqeons_z
   comment_format:
