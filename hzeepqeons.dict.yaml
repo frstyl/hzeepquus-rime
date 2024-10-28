@@ -641,7 +641,7 @@ import_tables:
 𩨭	khuaq
 𩨷	khuaq
 ##uo vio
-𦣛	luoq		#縷𩨷切
+𦣛	luoq		#縷𩨷切 #集韻 俱願切 孚萬切 方願切
 侳	tsuoq	0		#子𩨷切 譌誤#一等
 𩛠	tsuoq	0
 脞	tshuoq	0		#醋伽切
@@ -3638,9 +3638,9 @@ import_tables:
 䃽	kweA
 攱	kweA
 攱	kwes
-䪎	sq-Sweq		#巂䬽
-䭨	sq-Sweq
-䬽	sq-Sweq		#䭨
+䪎	sq-Rweq		#巂䬽
+䭨	sq-Rweq
+䬽	sq-Rweq		#䭨
 ##wuj o?u?
 縋	dRwes		#?o o#纗䋘
 膇	dRwes		#重膇病或作㾽
@@ -4464,8 +4464,8 @@ import_tables:
 稺	LRxis		#稚
 𦃘	LRxis
 謘	LRxis
-莉	RRxiq		#利R-i
-𢴧	dRxis		#貳n-i
+莉	dRxiq		#姓也出淮南#利R-i
+𢴧	dRxis		#當#貳n-i#集韻 而至切
 膩	nRxis
 氐	tRxiq
 胝	tRxiq
@@ -4899,7 +4899,7 @@ import_tables:
 思	si;s	5
 蕬	si;q
 絲	si;q
-𠩺	hsi;q		#R?m-R
+𠩺	hsi;q		#R?m-R#颯 漦
 釐	li;q
 斄	li;q
 氂	li;q
@@ -5091,7 +5091,7 @@ import_tables:
 茬	dzSi;q
 恥	nshRi;A		#ns 耳
 聻	nRi;A
-莉	dRi;q
+莉	dRi;q		#姓也
 㕜	sSi;A	999
 𠉕	sSi;A	999
 𠉕	sSi;s
@@ -5122,7 +5122,7 @@ import_tables:
 颸	tsShi;q
 褫	thRi;A
 徵	tRi;A
-漦	RzRi;q		#𠩺 s-R?Rz-?#ts-?#集韻 超之切
+漦	RzRi;q		#𠩺 s-R?Rz-? m-R#ts-?#集韻 超之切
 甾	tsSi;q
 𠙹	tsSi;q
 𠙾	tsSi;q
@@ -9760,7 +9760,7 @@ import_tables:
 #
 麃	baavq
 𲎋	baavq
-犛	maavq
+犛	maavq		#氂
 聱	CQ_aavq
 謷	CQ_aavq
 磝	CQ_aavq
@@ -12866,9 +12866,9 @@ import_tables:
 ##a?e?
 壓	Aaepq		#烏甲切 押?#集韻 託協切 諾叶切
 厭	Aaepq
-翜	sq-Saepq		#所甲切 色立切
-䬊	sq-Saepq		#s-k?
-𧻵	sq-Saepq
+翜	sq-Raepq		#所甲切 色立切
+䬊	sq-Raepq		#s-k?
+𧻵	sq-Raepq
 梜	kQ_aepq		#夾k-e-p
 𠩘	kQ_aepq
 𠗉	hgaepq		#𠗉𠗨#胡甲切#集韻 訖洽切 轄夾切
@@ -13508,14 +13508,14 @@ import_tables:
 萐	sSaepq
 箑	sSaepq		#山洽切 山輒切#疌ts-a-p?
 #
-𧸖	RRaems		#賺 兼 R? tk?
-譧	RRaems		#詀
-㘝	nRaepq		#
+𧸖	RRaems		#賺 兼 R? tk?k-R #集韻 離鹽切
+譧	RRaems		#俗詀 #集韻 離鹽切
+㘝	nRaepq		#?
 𥃐	nshRaepq		#ns
 𧉫	tRaepq
 𦊔	nRaemA
 𡤙	nRaepq
-𣳤	tRaems		#?
+𣳤	tRaems		#?地名
 詀	tRaemq
 䩇	tRaemq
 𪉜	tRaemq
@@ -14671,8 +14671,8 @@ import_tables:
 皀	kx;pq
 碞	Cx;mq
 黚	gx;mq
-鈒	sq-Sx;pq		#及k-R-eo-p
-雭	sq-Sx;pq
+鈒	sq-Rx;pq		#及k-R-eo-p
+雭	sq-Rx;pq
 級	kx;pq
 汲	kx;pq
 伋	kx;pq
@@ -14788,7 +14788,7 @@ import_tables:
 苙	gx;pq
 𦶍	gx;pq
 泣	khx;pq		#立k-R-eo-p
-煜	qx;pq		#謬誤 余六切
+煜	qx;pq		#爲立切 余六切
 襟	kx;mq		#禁林k-R-eo-m
 㦗	kx;mq
 禁	kx;mq
@@ -14885,8 +14885,8 @@ import_tables:
 皀	ki;pq
 碞	Ci;mq
 黚	gi;mq
-鈒	sq-Si;pq		#及k-R-eo-p
-雭	sq-Si;pq
+鈒	sq-Ri;pq		#及k-R-eo-p
+雭	sq-Ri;pq
 級	ki;pq
 汲	ki;pq
 伋	ki;pq
@@ -15368,7 +15368,7 @@ import_tables:
 暗	Ao;ms
 罯	Ao;pq
 唈	Ao;pq
-颯	sR-o;pq		#立聲 s-R?#𢕬#集韻 落合切 力入切
+颯	sq-o;pq		#立聲 s-R?#𢕬#集韻 落合切 力入切
 拉	lo;pq		#摺 折也敗也摧也
 菈	lo;pq
 㕇	lo;pq
@@ -16938,7 +16938,7 @@ import_tables:
 奻	nRfonq
 𡠛	nRfonq		#奻
 #RjO→wo→fo
-㝈	sSfons		#所眷切 生患切
+㝈	sp-Rfons		#所眷切 生患切
 刷	sSfotq		#數刮切 所劣切
 涮	sSfons
 㔍	tsShfotq
@@ -18542,7 +18542,7 @@ import_tables:
 㣶	tRaenq
 袒	dRaens
 䋎	dRaens
-𤣆	RRaenq		#R#聮R-a-n
+𤣆	RRaenq		#R#聮R-a-n k-R?
 ##Rjan
 #ROaR?RjaR
 䡲	dzSranq
@@ -19739,8 +19739,8 @@ import_tables:
 㕞	sSwotq
 刷	sSwotq
 𠴪	sSwotq
-孿	sq-Swons		#䜌p-R-o-n#䜌A-R-o-n
-㝈	sq-Swons
+孿	sp-Rwons
+㝈	sp-Rwons		#生患切 所眷切 #䜌p-R-o-n#䜌A-R-o-n
 㔍	tsShwotq
 䵵	tsSwotq
 䉵	dzSwons
@@ -20525,9 +20525,11 @@ import_tables:
 㧢	Ajinq
 𩂥	Ajins
 ###yin
-䏰	nJyins		#?忍
-𤮪	tsyins		#灷聲
-㼱	tsyins		#㞋
+䏰	nJyins		#𦚧䏰 縣名 #集韻 爾軫切
+𤮪	tsyins		#?o
+㼱	tsyins		#㞋 #𡕶
+𣞲	syinq		#寰
+檈	syinq
 ##yun?
 𩀋	nJyinq	0		#耎?
 蝡	nJyinA	0		#而允切 誤 當而兖切
@@ -20760,15 +20762,13 @@ import_tables:
 𧾣	kyutq		#?
 僎	tsyunq
 簨	syunA
-聿	JLyutq
+聿	JLyutq		#聿L-u-t 聿R-u-t 聿筆p-R-u-t
 律	lyutq
 葎	lyutq
 𠷈	lyutq
 䢖	JLyutq
 䋖	JLyutq
 銉	JLyutq
-𣞲	syunq
-檈	syunq
 吮	m-LzJyunA		#L?
 允	JLyunA		#集韻 阭俞罪切
 狁	JLyunA
@@ -27795,7 +27795,7 @@ import_tables:
 胮	phaoCq		#降夅p-R
 𤵸	phaoCq
 𩐨	phaoCq
-𪔔	phaoCq
+𪔔	phaoCq		#𪔳韸
 𪐿	phaoCq
 逄	baoCq		#夆=夅
 胮	baoCq
@@ -27804,7 +27804,7 @@ import_tables:
 #Ro ro→ao?
 瀧	laoCq
 䮾	laoCq
-瀧	sSaoCq		#龍?
+瀧	sp-RaoCq		#龍?
 #
 艭	sSaoCq
 䉶	sSaoCq
@@ -28438,7 +28438,7 @@ import_tables:
 𨙔	thRioCq
 𧼙	thRioCA
 寵	RshRioCA		#Rs
-襱	RRioCA		#R?#龍
+襱	RRioCA		#龍#𧙥#R? L-R?
 𧟒	nRioCq
 𤅁	nRioCq
 醲	nRioCq		#農n-u?農n-o
@@ -28741,7 +28741,7 @@ import_tables:
 䃔	hgooCs
 𣫣	looCq		#鼓聲 䥢𪔢鏧#隆降k-R-u
 洚	hgooCq
-𪔳	dooCq		#隆
+𪔳	LooCq		#隆
 䃧	looCq
 𪔢	looCq
 宋	sooCs
