@@ -147,8 +147,8 @@ speller:
     - derive/^([LR])(?![sz])/d/ #dR
     - derive/^([LRn]sh)/th/
     - derive/^(C)(?=[JR])/n/ #C
-    - derive/^h[mnCLRqQ](s)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
-    - derive/^m[mnCLRqQ](z)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
+    - derive/^h?[mnCLRqQ](s)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
+    - derive/^[mnCLRqQ](z)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
     - derive/^[mnCLRqQ]([sz])R/$1S/ #Lsc LsS #不存在
 ##
     - abbrev/^(([kgCAhqQ]|kh)[L])[aeiouvfIUjyxw;,].*$/$1/ #
@@ -188,7 +188,7 @@ speller:
     #- fuzz/([ev]e)jq/$1/ #e-j
     #- fuzz/([oveYjyrWxwaf]u)jq/$1/ #aa-j jq
 
-    - derive/([oveYjyrWxwaf]u)j([qAs])/$1$2/ 
+    # - derive/([oveYjyrWxwaf]u)j([qAs])/$1$2/ 
     - derive/([ovixwrWiu]a)j/$1/ #aj
     - derive/(i)j/$1/ #ij ei ej
 
@@ -199,8 +199,8 @@ speller:
     - derive/(e)(e|i)/$1/ #e四等 
     #- derive/(o)(o|u)(?![qAs])/$1/ #一等  oo模
     - fuzz/[eo](;|,)/ea/ #ea 特
-    - derive/[Iji](i)/i/ #i    三等元音
-    - derive/[IjiUyu](u)/u/ #u
+    - fuzz/[Iji](i)/i/ #i    三等元音
+    - fuzz/[IjiUyu](u)/u/ #u
 
     - fuzz/([afrWxwjy])[ʌ,]/$1a/ #ʌ ə a
 ##介元尾
@@ -262,10 +262,10 @@ speller:
     - fuzz/(?<!^)([RJS])?(h?)[IjrxiUyWwu](u)/$2$3/ #u
     
    #- erase/(tsch?|d?zc|sc|J[LQq]?)([Ijrxi][;,]/
-    - derive/(?<![JQLqcSRZ])(h?)[Ijrxi](;|,)/$1i/ #ə ;? ɨ ɪ
+    - derive/(?<![JQLqcSRZ])(h?)[Ijrxi](;|,)/$1i/ #ə ;? ɨ ɪ 之
     - derive/(?<![JQLqcSRZ])(h?)[UyWwu](;|,)/$1u/
-    - derive/(?<!^)([RJS])(h?)[Ijrxi](;|,)/$2i/
-    - derive/(?<!^)([RJS])(h?)[UyWwu](;|,)/$2u/
+    - derive/(?<!^)([RJS]h?)[Ijrxi](;|,)/$1i/
+    - derive/(?<!^)([RJS]h?)[UyWwu](;|,)/$1u/
     #- derive/^(th?|d|n|kh?|g|C)J[Ijrxi](;|,)/$1i/
     #- derive/^(th?|d|n|kh?|g|C)J[UyWwu](;|,)/$1u/
 
@@ -346,16 +346,16 @@ speller:
 
 ##聲上補全
     - derive/^(Rsh[RJ]?|RsR)/Rs/    #RsS? hR與X-R悖
-    - derive/^(RzR|R(?![sz])[R]?|l)/Rz/ #R-无J, 无s-R類
-    - derive/^(hLsJ|Lsh[RJ]?|LsJ|hLs)/Ls/
-    - derive/^(L[RJ]|JL|L(?![szRJ]))/Lz/ #Lzc? Lc?
+    - derive/^(RzR|R(?![s])[R]?|l)/Rz/ #R-无J, 无s-R類
+    - derive/^(hLsJ|Lsh[RJ]?|Ls[RJ]?|hLs)/Ls/
+    - derive/^(Lz[JR]|L[RJ]|JL|L(?![s]))/Lz/ #Lzc? Lc?
     - derive/^(hms|msF?)/ms/
-    - derive/^(hns[RJ]|hns|hns)/ns/
+    - derive/^(hns[RJ]|hns|nsh)/ns/
     - derive/^(hCs[RJ]|hCs)/Cs/
     - derive/^(hQs)/Qs/
     - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
 
-    - derive/^(mLzJ)/mL/
+    # - derive/^(mLzJ)/mL/
 
 ##聲母轉寫
     # - derive/^([pbm])F/$1ff/

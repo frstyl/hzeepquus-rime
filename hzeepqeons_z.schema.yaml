@@ -98,8 +98,8 @@ speller:
     - derive/^(h[mnCLRqQV]sJ?|hsq|ngs|[mnCqQV]s)/hs/
     - derive/^(Xs?|hs)/h/
 
-    - derive/^h[mnCLRqQ](s)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
-    - derive/^m[mnCLRqQ](z)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
+    - derive/^h?[mnCLRqQ](s)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
+    - derive/^[mnCLRqQ](z)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
     - derive/^[mnCLRqQ]([sz])R/$1S/ #Lsc LsS #不存在
 
 
@@ -116,16 +116,16 @@ speller:
     - derive/^(.*L)[JR]/$1/ ##ll=L(![sz]) #包括L-
     - derive/^([sz][ptkmnCLRQq])[JR]/$1/ #心生書s ss
 
-    - derive/^(Rsh[RJ]?|RsR)/Rs/    #RsS?
-    - derive/^(R(?!s|RzR)[R]?|l)/R/
-    - derive/^(hLsJ|Lsh[RJ]?|LsJ|hLs)/Ls/
-    - derive/^(L(?!s)[RJ]?|JL)/Lz/ #Lzc? Lc?
+    - derive/^(Rsh[RJ]?|RsR)/Rs/    #RsS? hR與X-R悖
+    - derive/^(RzR|R(?![s])[R]?|l)/Rz/ #R-无J, 无s-R類
+    - derive/^(hLsJ|Lsh[RJ]?|Ls[RJ]?|hLs)/Ls/
+    - derive/^(Lz[JR]|L[RJ]|JL|L(?![s]))/Lz/ #Lzc? Lc?
     - derive/^(hms|msF?)/ms/
-    - derive/^(hns[RJ]|hns|hns)/ns/
+    - derive/^(hns[RJ]|hns|nsh)/ns/
     - derive/^(hCs[RJ]|hCs)/Cs/
     - derive/^(hQs)/Qs/
     - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
-    
+
     #- derive/^(ph?|b|ms?)/P/
     #- derive/^(th?|d|ns?)/T/
     #- derive/^(tsh?|t?s|d?z)/Z/ #

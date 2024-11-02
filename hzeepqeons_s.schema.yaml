@@ -147,8 +147,8 @@ speller:
     - derive/^([LR])(?![sz])/d/ #d[RJ]
     - derive/^([LRn]sh)/th/
     - derive/^(C)(?=[JR])/n/
-    - derive/^h[mnCLRqQ](s)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
-    - derive/^m[mnCLRqQ](z)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
+    - derive/^h?[mnCLRqQ](s)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
+    - derive/^[mnCLRqQ](z)J/$1c/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
     - derive/^[mnCLRqQ]([sz])R/$1S/ #Lsc LsS #不存在?不可分s-C Cs
 ##
     - abbrev/^((kh|[kgCAhqQ])[L])[aeiouvfIUjyxw;,].*$/$1/ #V刪  轉寫前
@@ -303,16 +303,16 @@ speller:
 
 ##上補全 R類後? Rz防R被葢
     - derive/^(Rsh[RJ]?|RsR)/Rs/    #RsS? hR與X-R悖
-    - derive/^(RzR|R(?![sz])[R]?|l)/Rz/ #R-无J, 无s-R類
-    - derive/^(hLsJ|Lsh[RJ]?|LsJ|hLs)/Ls/
-    - derive/^(L[RJ]|JL|L(?![szRJ]))/Lz/ #Lzc? Lc?
+    - derive/^(RzR|R(?![s])[R]?|l)/Rz/ #R-无J, 无s-R類
+    - derive/^(hLsJ|Lsh[RJ]?|Ls[RJ]?|hLs)/Ls/
+    - derive/^(Lz[JR]|L[RJ]|JL|L(?![s]))/Lz/ #Lzc? Lc?
     - derive/^(hms|msF?)/ms/
-    - derive/^(hns[RJ]|hns|hns)/ns/
+    - derive/^(hns[RJ]|hns|nsh)/ns/
     - derive/^(hCs[RJ]|hCs)/Cs/
     - derive/^(hQs)/Qs/
     - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
 
-    - derive/^(mLzJ)/mL/
+    # - derive/^(mLzJ)/mL/
 
 ##聲母轉寫
     # - derive/^([pbm])F/$1ff/

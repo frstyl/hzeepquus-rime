@@ -6,107 +6,128 @@ import_tables:
   - emoji
 ...
 ####音幖 濁書于末發于首
-# p p
-# pʰ	ph
-# b b
-# fʰ	Fh
-# v Fz
-# t t
-# d d
+p	p
+pʰ	p
+b	p
+t	t
+tʰ	t
+d	t
 ʈ	tR
-ɖ	dR
+ʈʰ	tR
+ɖ	tR
 ʈ	trr
 ɖ	drr
 ȶ	tc		#非音幖
-# ȶʰ	tch
+ȶʰ	tc
+ȡ	tc
 ȡ	dc
-ȶ	kc		#非音幖
-# ȶʰ	kch
-ȡ	gc
 c	kJ		#c爲sc J爲硬齶
+cʰ	gJ
 ɟ	gJ
-# k k
-# kʰ	kh
+ɟ	gJ
+k	k
+kʰ	k
+g	k
 g	g
 ɡ	g
-q	kq
-# qʰ	kqh
-ɢ	gq
-ʡ	Hq
-ʔ	hq
+q	Q
+qʰ	Q
+ɢ	Q
+# ɢ	gQ
+ʡ	Hq		#會厭塞
+ʡ̘	Oq
+ʔ	hq		#㗋塞
 ʔ	A
-p͡ɸ	pF
-p͡ɸʰ	phF
-b͡β	bF
+p͡ɸ	pf
+p͡ɸʰ	pf
+b͡β	pf
+b͡β	bf
 ʦ	ts
+ʦʰ	ts
+ʣ	ts
 ʣ	dz
 ʧ	tsS
+ʧʰ	tsS
+ʤ	tsS
 ʤ	dzS
 ʨ	tsc
+ʨʰ	tsc
+ʥ	tsc
 ʥ	dzc
 t͡s	ts
+t͡sʰ	ts
+d͡z	ts
 d͡z	dz
 t͡ʃ	tsS
+t͡ʃʰ	tsS
+d͡ʒ	tsS
 d͡ʒ	dzS
 t͡ɕ	tsc
+t͡ɕʰ	tsc
+d͡ʑ	tsc
 d͡ʑ	dzc
 t͡ʂ	tsR
+t͡ʂʰ	tsR
+d͡ʐ	tsR
 d͡ʐ	dzR
 t͡	ts
+d͡	ts
 d͡	dz
-ɸ	Fp
-β	Fb
-ɸ	Fps
-β	Fpz
-ɸ	sp
-β	zp
-f	Fs
-v	Fz
-f	F
-v	F
-θ	Ft
-ð	Fd
-θ	Fts
-ð	Ftz
-θ	st
-ð	zt
-ð	zd
-# s	s
+ɸ	fp
+β	fp
+β	fb
+# ɸ	fps
+# β	fpz
+# ɸ	sp
+# β	zp
+f	f		#F f分?
+v	f
+θ	ft
+ð	ft
+ð	fd
+# θ	fts
+# ð	ftz
+# θ	st
+# ð	zt
+# ð	zd
+s	s
+z	s
 # z	z
 ʃ	S
 ʒ	S
-ʃ	sS
-ʒ	zS
+# ʃ	sS
+# ʒ	zS
 ɧ	sSX
 ʂ	sR
+ʐ	sR
 ʐ	zR
 ɕ	sc
+ʑ	sc
 ʑ	zc
 ç	sJ		#當爲无噝
+ʝ	sJ
 ʝ	zJ
-ç	FJ
-ʝ	FJ
-x	hk
-ɣ	hg
-x	Fk
-ɣ	Fg
-x	Xs
-ɣ	Xz
-χ	hqs
-ʁ	hqz
-χ	Xqs
-ʁ	Xqz
+# x	hk
+# ɣ	hg
+x	fk
+ɣ	fg
+ɣ	fg
+x	X
+ɣ	X
+# ɣ	Xz
+# χ	hQ
+# ʁ	hQ
+χ	XQ
+ʁ	XQ
+# ʁ	XQz
 ʜ	H		#H ʜʢ
-ʢ	O
-ħ	H
+ʢ	H		#會厭擦
+ʢ	Oq
+ħ	O
 ʕ	O
-ħ	FOs
-ʕ	FOz
-ħ	hOs
-ʕ	hOz
 # h	h
-h	hFs
-ɦ	hFz
+h	hf
+ɦ	hf
 h	hs
 ɦ	hz
 h	E
@@ -132,24 +153,24 @@ h	E
 ʷɻj	w
 ɰ	x
 ʷɰ	w
-ʷˤr	f
+ʷˤr	f		#vf省
 ʷˤɾ	f
 ʷɹ	f
 w	v
+ʍ	v
 ʍ	vs
 ʷ	v
 ɥ	y
 ###
 ʙ	Rp
-ⱱ	RF		#闪音
+ⱱ	Rf		#闪音
 r	R
 ɾ	R
 ɽ	RR
 ʀ	Rq
 ʁ	R		#?
 ɺ	R
-ʋ	f		#近音
-ʋ	rF
+ʋ	vf		#近音
 ɹ	r
 ɻ	rR
 ɻ	jr
@@ -234,9 +255,10 @@ u	u
 ʷ	v
 ʲ	j
 ᶣ	y
-̴	k		#偄腭化咽化
+̴	x		#偄腭化咽化
 ̃	N		#鼻化
 ̃	nn
+̃	n
 ˞	r
 ˠ	x
 ˤ	O
@@ -248,9 +270,11 @@ u	u
 ᵊ	eo
 ᶷ	u
 ̚	A
-̥	s
+̥	s		#清
 ̬	z
-̩	i
+̰	E		#漏气
+̤	E		#
+̩	i		#成音節
 ̯	j
 ◌	o
 ̪	t
@@ -303,7 +327,7 @@ u	u
 ㄅ	p
 ㄆ	ph
 ㄇ	m
-ㄈ	F
+ㄈ	f		#F
 ㄉ	t
 ㄊ	th
 ㄋ	n
@@ -337,8 +361,9 @@ u	u
 ㄣ	eon
 ㄤ	aC
 ㄥ	eoC
-ㄦ	r		#ə˞,˞ 
+ㄦ	eor		#ə˞,˞ 
 ㄪ	f
+ㄪ	vf
 ㄫ	C
 ㄫ	ng
 ㄬ	nc
@@ -386,7 +411,7 @@ u	u
 ب	b
 ج	g
 د	d
-ﺫ‎	Fd
+ﺫ‎	fd
 ﻩ‎	E
 ﻭ‎	v
 ﺯ‎	z
@@ -409,7 +434,7 @@ u	u
 ﺭ‎	R
 ﺵ	sS
 ﺕ‎	t
-ﺙ‎	Ft
+ﺙ‎	ft
 ##
 α	alpha
 β	beta
