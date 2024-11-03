@@ -12,36 +12,34 @@ b	p
 t	t
 tʰ	t
 d	t
-ʈ	tR
-ʈʰ	tR
-ɖ	tR
-ʈ	trr
-ɖ	drr
-ȶ	tJ		#非音幖
-ȶʰ	tJ
-ȡ	tJ
-ȡ	dJ
-c	kJ		#J爲硬齶
-cʰ	gJ
-ɟ	gJ
-ɟ	gJ
+ʈ	tr
+ʈʰ	tr
+ɖ	tr
+ȶ	tj		#非音幖
+ȶʰ	tj
+ȡ	tj
+ȡ	dj
+c	kj		#J爲硬齶
+cʰ	gj
+ɟ	gj
+ɟ	gj
 k	k
 kʰ	k
 g	k
 g	g
 ɡ	g
-q	Q
-qʰ	Q
-ɢ	Q
-# ɢ	gQ
+q	q
+qʰ	q
+ɢ	q
+# ɢ	gq
 ʡ	Hq		#會厭塞
 ʡ̘	Oq
 ʔ	hq		#㗋塞
 ʔ	A
-p͡ɸ	pf
-p͡ɸʰ	pf
-b͡β	pf
-b͡β	bf
+p͡ɸ	pF
+p͡ɸʰ	pF
+b͡β	pF
+b͡β	bF
 ʦ	ts
 ʦʰ	ts
 ʣ	ts
@@ -50,10 +48,11 @@ b͡β	bf
 ʧʰ	tsS
 ʤ	tsS
 ʤ	dzS
-ʨ	tsJ
-ʨʰ	tsJ
-ʥ	tsJ
-ʥ	dzJ
+ʨ	tsj
+ʨʰ	tsj
+ʥ	tsj
+ʥ	dzj
+ɧ	SX		#ʃx
 t͡s	ts
 t͡sʰ	ts
 d͡z	ts
@@ -62,31 +61,34 @@ t͡ʃ	tsS
 t͡ʃʰ	tsS
 d͡ʒ	tsS
 d͡ʒ	dzS
-t͡ɕ	tsJ
-t͡ɕʰ	tsJ
-d͡ʑ	tsJ
-d͡ʑ	dzJ
-t͡ʂ	tsR
-t͡ʂʰ	tsR
-d͡ʐ	tsR
-d͡ʐ	dzR
+t͡ɕ	tsj
+t͡ɕʰ	tsj
+d͡ʑ	tsj
+d͡ʑ	dzj
+t͡ʂ	tsr
+t͡ʂʰ	tsr
+d͡ʐ	tsr
+d͡ʐ	dzr
 t͡	ts
 d͡	ts
 d͡	dz
+ɸ	F
+β	F
 ɸ	fp
 β	fp
 β	fb
-# ɸ	fps
-# β	fpz
+# ɸ	fsp
+# β	fzp
 # ɸ	sp
 # β	zp
+ʍ	fv
 f	f		#F f分?
 v	f
 θ	ft
 ð	ft
 ð	fd
-# θ	fts
-# ð	ftz
+# θ	ft
+# ð	fzt
 # θ	st
 # ð	zt
 # ð	zd
@@ -97,52 +99,50 @@ z	s
 ʒ	S
 # ʃ	sS
 # ʒ	zS
-ɧ	sSX
-ʂ	sR
-ʐ	sR
-ʐ	zR
-ɕ	sJ
-ʑ	sJ
-ʑ	zJ
-ç	sJ		#當爲无噝
-ʝ	sJ
-ʝ	zJ
+ʂ	sr
+ʐ	sr
+ʐ	zr
+ɕ	sj
+ʑ	sj
+ʑ	zj
+ç	sj		#當爲无噝
+ʝ	sj
+ʝ	zj
 # x	hk
 # ɣ	hg
-x	fk
-ɣ	fg
+# x	fk
+# ɣ	fg
 ɣ	fg
 x	X
 ɣ	X
-# ɣ	Xz
-# χ	hQ
-# ʁ	hQ
-χ	XQ
-ʁ	XQ
-# ʁ	XQz
+ɣ	Xz
+# χ	hq
+# ʁ	hq
+χ	Xq
+ʁ	Xq
+ʁ	Xzq
 ʜ	H		#H ʜʢ
-ʢ	H		#會厭擦
-ʢ	Oq
+ʢ	H		#會厭擦 部位方式
+# ʢ	Hz
 ħ	O
 ʕ	O
-# h	h
-h	hf
-ɦ	hf
-h	hs
-ɦ	hz
+# ħ	Os
+# h	hf
+# ɦ	hf
+h	h
+ɦ	h
 h	E
 ɦ	E
-# m	m
+m	m
 ɱ	mf
-# n	n
-ɳ	nrr
-ɳ	nR
-ȵ	nJ		#非音幖
-ɲ	CJ
+n	n
+ɳ	nr
+ȵ	nj		#非音幖
+ɲ	cj
 ŋ	ng
-ŋ	C
-Ŋ	ng		#非音幖
-Ŋ	C
+ŋ	c
+Ŋ	ng
+Ŋ	c		#非音幖
 ɴ	nq
 ###
 ʷr	w
@@ -156,7 +156,7 @@ h	E
 ʷɹ	f
 w	v
 ʍ	v
-ʍ	vs
+ʍ	vs		#擦
 ʷ	v
 ɥ	y
 ###
@@ -164,31 +164,31 @@ w	v
 ⱱ	Rf		#闪音
 r	R
 ɾ	R
-ɽ	RR
+ɽ	Rr
 ʀ	Rq
 ʁ	R		#?
 ɺ	R
 ʋ	vf		#近音
 ɹ	r
-ɻ	rR
+ɻ	rr
 ɻ	jr
 j	j
 ɰ	x
 l	l		#L
 ɭ	l
-ɭ	lR
+ɭ	lr
 ʎ	l
-ʎ	lJ
+ʎ	lj
 ʟ	l
-ʟ	lX
+ʟ	lx
 ɬ	l		#邊擦 Lateral Fricative
 ɮ	l
-ɬ	Sls
-ɮ	Slz
-ɬ	LSs
-ɮ	LSz
+ɬ	Sl
+ɮ	Sl
+ɬ	LS
+ɮ	LS
 ɺ	Rl		#邊閃  lateral flap
-ɺ	LR
+ɺ	Lr
 ###
 ʘ	b		#Bilabial Clicks
 ǀ	d		#Dental
@@ -205,7 +205,7 @@ tʼ	t		#Dental/alveolar
 kʼ	k		#Velar
 sʼ	s		#Alveolar fricative
 ###
-# # y	y
+# y	y
 # a	ea
 a	a
 ɶ	a
@@ -285,9 +285,9 @@ u	u
 ̠	o
 ̠	goow
 ̈	eo
-̈	AiaC
+̈	Aiac
 ̽	eo
-̽	truC
+̽	truc
 ̝	i
 ̝	koav
 ˔	i
@@ -302,7 +302,7 @@ u	u
 ̹	o
 ̜	a
 ː	aa
-ː	draC
+ː	drac
 ˥	5
 ˦	4
 ˧	3
@@ -358,12 +358,12 @@ u	u
 ㄡ	eov
 ㄢ	an
 ㄣ	eon
-ㄤ	aC
-ㄥ	eoC
+ㄤ	ac
+ㄥ	eoc
 ㄦ	eor		#ə˞,˞ 
 ㄪ	f
 ㄪ	vf
-ㄫ	C
+ㄫ	c
 ㄫ	ng
 ㄬ	nc
 ##
