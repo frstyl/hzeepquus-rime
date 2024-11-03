@@ -8,7 +8,7 @@ use_preset_vocabulary: true
 ####今
 ###
 ###物化
-熵	scjaCq
+熵	sJjaCq
 焓	hgo,mq
 㶲	JjoCs
 ###
@@ -25,9 +25,9 @@ use_preset_vocabulary: true
 # 酮	douCq
 酚	phu;nq
 醚	meiq
-# 酯	tscjiA
-酯	tscjiq
-酯	tscjiA
+# 酯	tsJjiA
+酯	tsJjiq
+酯	tsJjiA
 醛	dzyenq
 ⌬	beenq
 苯	beenq		#benzene
@@ -60,8 +60,8 @@ use_preset_vocabulary: true
 胺	Aoans
 膦	ljinq		#phosphine
 膦	ljins
-胂	scjinq		#arsine
-胂	scjins
+胂	sJjinq		#arsine
+胂	sJjins
 䏲	theiq
 氰	tsheeCq		#cyanogen 靑气
 氨	Aoanq		#ammonia
@@ -73,8 +73,8 @@ use_preset_vocabulary: true
 𨦡	JjaCq
 鏻	ljinq		#phosphonium
 鏻	ljinA		#
-鉮	scjinq		#arsonium
-鉮	scjinA		#陽平不用
+鉮	sJjinq		#arsonium
+鉮	sJjinA		#陽平不用
 銨	Aoanq		#ammonium
 銨	AoanA
 鋶	ljuvq		#sulphonium
@@ -115,27 +115,27 @@ use_preset_vocabulary: true
 # 喃	no,mq
 㖕	sjinq
 ###
-輕鋰鈉鉀銣銫鈁	tscyoA dzouk
-鈹鎂鈣鍶鋇镭	tscyoA dzouk
-硼鋁鎵銦鉈鉨	tscyoA dzouk
-碳硅鍺錫鉛鈇	tscyoA dzouk
-氮磷砷銻鉍鏌	tscyoA dzouk
-氧硫硒碲釙鉝	tscyoA dzouk
-氟氯溴碘砹鿬	tscyoA dzouk
-氦氖氬氪氙氡鿫	tscyoA dzouk
+輕鋰鈉鉀銣銫鈁	tsJyoA dzouk
+鈹鎂鈣鍶鋇镭	tsJyoA dzouk
+硼鋁鎵銦鉈鉨	tsJyoA dzouk
+碳硅鍺錫鉛鈇	tsJyoA dzouk
+氮磷砷銻鉍鏌	tsJyoA dzouk
+氧硫硒碲釙鉝	tsJyoA dzouk
+氟氯溴碘砹鿬	tsJyoA dzouk
+氦氖氬氪氙氡鿫	tsJyoA dzouk
 鑭鈰鐠釹鉕釤銪釓鋱鏑鈥鉺銩鐿鑥	loanq hgees
 錒釷鏷鈾錼鈈鎇鋦錇鐦鎄鐨鍆鍩鐒	Aoa hgees
 ##
 氫	khjeCq		#H 1 hydrogen
 ⿹气水	khjeCq
 氕	Ajitq		#H1 protium
-氘	ncjis		#H2 deutejsium
+氘	nJjis		#H2 deutejsium
 氚	soamq		#H3 tritium
 氕	pheetq		#丿
 氘	toavq		#刀刂
-氚	tschyonq		#川
+氚	tsJhyonq		#川
 氦	hgo,jA		#he helium 
-氜	ncjitq		#日 helium
+氜	nJjitq		#日 helium
 鋰	lj;A		#li lithium
 鈹	bxeq		#be beryllium
 硼	bo;Cq		#b boracium
@@ -169,13 +169,13 @@ use_preset_vocabulary: true
 # 銅	douCq
 鋅	sjinq
 鎵	kaaq
-鍺	tscjaA
-砷	scjinq
+鍺	tsJjaA
+砷	sJjinq
 砒	pheiq
 硒	so,jq
 溴	hiuvs
 氪	kho;kq
-銣	ncjoq
+銣	nJjoq
 鍶	sj;q
 釔	Axitq		#Y ytRrium -t
 錷	Axitq
@@ -196,12 +196,12 @@ use_preset_vocabulary: true
 碘	teenA
 氙	sjenq
 氥	sjenq
-氠	scjinq
+氠	sJjinq
 𣱧	dRxoCs
 銫	sSx;kq
 # 鋇	poarq
 # 鑭	loans		#loa57 lanthanum
-鈰	dzcj;A
+鈰	dzJj;A
 鐠	phooA
 釹	nRxoA
 鉕	phvaA
@@ -213,7 +213,7 @@ use_preset_vocabulary: true
 # 鏑	teekq
 鈥	hvaA
 錵	hfaq
-鉺	ncj;A
+鉺	nJj;A
 銩	tiuvq		#tm 69thulium
 鐿	Ai;s
 鑥	looA
@@ -228,13 +228,13 @@ use_preset_vocabulary: true
 汞	kouCA
 汞	hgouCA
 澒	hgouCA		#汞
-# 鉈	dzcjajq
+# 鉈	dzJjajq
 # 鉛	Jyonq
 # 鉍	pxikq
 釙	phaukq
 砹	Aoarq
 氡	tooCq		#radon
-# 鈁	puaCq		#Fa 89 francium
+# 鈁	puaCq		#Fa 89 franJium
 鐳	lvojq		#Ra 88 radium
 錒	Aoaq		#Ac 89 actinium
 釷	thooA		#Th 90 thorium
@@ -252,7 +252,7 @@ use_preset_vocabulary: true
 鐨	phu;js		#Fm 100fermium
 鍆	mvonq		#Md 101 mendelevqium
 鍩	noakq		#No 102 nobelium
-鐒	loavq		#Lr 103 lavArencium 103
+鐒	loavq		#Lr 103 lavArenJium 103
 # 鑪	looq		#Ru 104 rutherfordium
 䤣	looq		#rutherfordium 金虍錿
 𨧀	dooA		#Db 105d dubnium
@@ -266,7 +266,7 @@ use_preset_vocabulary: true
 鉨	neiA		#Nh 113 nihonium 鉩鿭	U+9fed 鈮nb 41niobium
 鉩	neiA
 鈇	pvioq		#Fl 114 Flerovqium
-# 鏌	moakq		#mc 115 moscovqium
+# 鏌	moakq		#mc 115 mosJovqium
 鉝	lj;pq		#lv 116 livqermorium
 鿬	deinq		#Ts 117teenResine
 鿫	Aoovs		#Og118 oganeSon
@@ -302,7 +302,7 @@ use_preset_vocabulary: true
 乒乓	pheCq phaCq
 乒乓	pxaCq
 𰍧𰍨	pheCq phaCq
-𰛄𰛅	scyiA
+𰛄𰛅	sJyiA
 ⿰氵𦊴	nRxepq		#𣹵⿰氵𦊴
 𰛄	phaes		#派?
 𰛅	lo,js		#瀨?
@@ -334,14 +334,14 @@ use_preset_vocabulary: true
 #####
 𱍚	pə toajq
 𱍛	pə hgo,pq
-𱍤	pə dzcjeA
+𱍤	pə dzJjeA
 𱏤	pə kvaCq
 𱰸	pə Au;js
 𱷣	pə lj;pq
 𡀆	pə hi;A
 𰴪	pə Cianq
 𰑼	pə Aoakq
-𰀚	pə tscjeCs
+𰀚	pə tsJjeCs
 𭯒	pə moavq
 𭯈	pə moovA
 𫠫	pə Cuanq
@@ -359,34 +359,34 @@ use_preset_vocabulary: true
 𢆓	pə bxeCq
 𣨀	pə sjiA
 𡈯	pə qwenq
-𠁒	pə tscjinq
+𠁒	pə tsJjinq
 𠀱	pə bvioA
 甭	pə JjoCs
-䬩	pə zcj;kq
-歪	pə tscjeCs
+䬩	pə zJj;kq
+歪	pə tsJjeCs
 奀	pə doarq
 𪱱	moukq hgaaA
 𮗙	keens ku;jA
 𭂴	piuCq ljoA
 颪	EaaA piuCq
 𭂳	EaaA piuCq
-凪	piuCq tscj;A
+凪	piuCq tsJj;A
 凩	piuCq moukq
 凧	piuCq tsSaeCq		#風箏
 𪞵	piuCq moukq
 ####合字
 鿿	puoA mvojq
-𡗀	toaq tscjaA		#四庫人名用字咸平六年李繼遷寇洪德砦蕃官癿𡗀慶擊走之
+𡗀	toaq tsJjaA		#四庫人名用字咸平六年李繼遷寇洪德砦蕃官癿𡗀慶擊走之
 𱁬	dvojA do;pq
 𣍲	CqooA Cuat nRxoA
-𠧗	dzciaCA EaaA
+𠧗	dzJiaCA EaaA
 𪸃	tshjeCq khi;js
-𬒭	dzcjanq Sxiq
-⿱二𠄟	dzcjaCA EaaA
+𬒭	dzJjanq Sxiq
+⿱二𠄟	dzJjaCA EaaA
 𫤜	hioCq deejs
 𫡡	gxavq Jjos
-𫣵	tscjinq zj;A
-𭻺	tscjinq toaCq
+𫣵	tsJjinq zj;A
+𭻺	tsJjinq toaCq
 覅	mjevs
 朆	mo;Cq
 覅	mjevs
@@ -395,21 +395,21 @@ use_preset_vocabulary: true
 鿘	hgo,pq Ajiq
 鿙	kho;kq Ajiq
 鿚	kaakq Ajiq
-鿛	lj;Cq ncj;jA
-鿜	lo,pq ncj;jA
-鿝	lo;Cq ncj;jA
-鿞	ljetq ncj;jA
-鿟	ljis ncj;jA
-鿠	ljis ncj;jA
-鿡	loaq ncj;jA
+鿛	lj;Cq nJj;jA
+鿜	lo,pq nJj;jA
+鿝	lo;Cq nJj;jA
+鿞	ljetq nJj;jA
+鿟	ljis nJj;jA
+鿠	ljis nJj;jA
+鿡	loaq nJj;jA
 鿢	Jjaq hgo,pq
 鿣	Jjaq kho;kq
 鿤	Jjaq kaakq
-鿥	loaCq ncj;jA
+鿥	loaCq nJj;jA
 鿦	AxaCq mu;jq
-鿧	ljuCq ncj;jA
-鿨	lvojq ncj;jA
-鿩	looA ncj;jA
+鿧	ljuCq nJj;jA
+鿨	lvojq nJj;jA
+鿩	looA nJj;jA
 瓩	tshenq CqfaA
 兛	tshenq kho;kq
 粁	tshenq meiA
@@ -422,7 +422,7 @@ use_preset_vocabulary: true
 瓸	paakq CqfaA
 兡	paakq kho;kq
 𭨗	kxaCA dooq		#景圖
-𬀧	ncjitq EaaA
+𬀧	nJjitq EaaA
 𮥌	Aoaq EaaA
 #######叚借
 #####
@@ -463,8 +463,8 @@ use_preset_vocabulary: true
 啊	Aoaq
 嘿	heejq
 哼	ho;Cq
-啥	scjaq	5
-啥	dzcjeA hgoat
+啥	sJjaq	5
+啥	dzJjeA hgoat
 ###古
 母	maA
 父	paA
@@ -481,25 +481,25 @@ use_preset_vocabulary: true
 # 麼	mvaq
 嘛	maaq	5
 # 麼	məq
-什麼	dzcjeA hgoat mu;t
+什麼	dzJjeA hgoat mu;t
 什麼	hgoatq
 輩	mvən
 瞞	mv;nq
 ###
-啦	loa
-哈	hoa
-吖	Aia
-哦	qoo
-噢	qoo
-噗	phou
-哧	tschj;		#嗤𣢑
-嗯	Co,nq
+# 啦	loa
+# 哈	hoa
+# 吖	Aia
+# 哦	qoo
+# 噢	qoo
+# 噗	phou
+# 哧	tsJhj;		#嗤𣢑
+# 嗯	Co,nq
 咱	tsoatq
 咱	tsa		#兹沙切 中州音韻
 哎	Coarq
 嗨	ho,jq
 咍	ho,jq
-喏	ncjaA		#𠰒
+喏	nJjaA		#𠰒
 呔	to,jq
 了	lo;
 # 媽	moa
@@ -523,11 +523,11 @@ use_preset_vocabulary: true
 氫	khjeCq		#H 1 hydrogen
 ⿹气水	khjeCq
 氕	Ajitq		#H1 protium
-氘	ncjis		#H2 deutejsium
+氘	nJjis		#H2 deutejsium
 氚	soamq		#H3 tritium
 氕	pheetq		#丿
 氘	toavq		#刀刂
-氚	tschyenq		#川
+氚	tsJhyenq		#川
 氦	hgo,jA		#he helium 
 氦	ho,js		#He helium
 氮	doams		#n 7 nitrogenium azote 
@@ -541,7 +541,7 @@ use_preset_vocabulary: true
 氪	kho;kq
 氙	sjenq
 氥	sjenq
-氠	scjinq
+氠	sJjinq
 𣱧	dRxoCs
 氡	tooCq		#radon
 鿫	Aoovs		#Og118 oganeSon
@@ -572,22 +572,22 @@ use_preset_vocabulary: true
 ###犛
 ###吿-告
 ###口
-呎	tschjekq
-嚷	nciaCA		#讓
+呎	tsJhjekq
+嚷	nJiaCA		#讓
 啦	loa
 哈	hoa
 吖	Aia
 哦	qoo
 噢	qoo
 噗	phou
-哧	tschj;		#嗤𣢑
+哧	tsJhj;		#嗤𣢑
 嗯	Co,nq
 咱	tsoatq
 咱	tsa		#兹沙切 中州音韻
 哎	Coarq
 嗨	ho,jq
 咍	ho,jq
-喏	ncjaA		#𠰒
+喏	nJjaA		#𠰒
 呔	to,jq
 ###凵
 ###吅
@@ -661,7 +661,7 @@ use_preset_vocabulary: true
 ###臣
 ###殳
 ###殺
-###𠘧dzcyuq殳	几
+###𠘧dzJyuq殳	几
 ###寸
 ###皮
 ###㼱
@@ -742,8 +742,8 @@ use_preset_vocabulary: true
 胺	Aoans
 膦	ljinq		#phosphine
 膦	ljins
-胂	scjinq		#arsine
-胂	scjins
+胂	sJjinq		#arsine
+胂	sJjins
 䏲	theiq
 ###筋
 ###刀
@@ -1031,7 +1031,7 @@ use_preset_vocabulary: true
 硅	kveq
 磷	ljinq
 硫	ljuvq
-砷	scjinq
+砷	sJjinq
 砒	pheiq
 硒	so,jq
 砹	Aoarq
@@ -1070,7 +1070,7 @@ use_preset_vocabulary: true
 烷	Evanq
 烯	hi;jq
 炔	khyetq
-熵	scjaCq
+熵	sJjaCq
 焓	hgo,mq
 㶲	JjoCs
 ###炎
@@ -1141,14 +1141,14 @@ use_preset_vocabulary: true
 ###不
 𱍚	pə toajq
 𱍛	pə hgo,p
-𱍤	pə dzcjeA
+𱍤	pə dzJjeA
 𱏤	pə kvaC
 𱰸	pə Au;js
 𱷣	pə lj;p
 𡀆	pə hi;A
 𰴪	pə Cian
 𰑼	pə Aoak
-𰀚	pə tscjex
+𰀚	pə tsJjex
 𭯒	pə moavq
 𭯈	pə moovA
 𫠫	pə Cuan
@@ -1166,11 +1166,11 @@ use_preset_vocabulary: true
 𢆓	pə bxeC
 𣨀	pə sjiA
 𡈯	pə qwen
-𠁒	pə tscjin
+𠁒	pə tsJjin
 𠀱	pə bvioA
 甭	pə Jjox
-䬩	pə zcj;k
-歪	pə tscjex
+䬩	pə zJj;k
+歪	pə tsJjex
 奀	pə doar
 ###至
 ###西㢴
@@ -1183,7 +1183,7 @@ use_preset_vocabulary: true
 ###𦣞
 ###手
 打	toaA		#?taag 都瓦切
-扯	tschjaA		#撦
+扯	tsJhjaA		#撦
 ###𠦬
 ###女
 姥	loavA		#嫽
@@ -1271,8 +1271,8 @@ use_preset_vocabulary: true
 銅	douCq
 鋅	sjinq
 鎵	kaaq
-鍺	tscjaA
-銣	ncjoq
+鍺	tsJjaA
+銣	nJjoq
 鍶	sj;q
 釔	Axitq		#Y ytRrium -t
 錷	Axitq
@@ -1294,7 +1294,7 @@ use_preset_vocabulary: true
 銫	sSx;kq
 鋇	poarq
 鑭	loans		#loa57 lanthanum
-鈰	dzcj;A
+鈰	dzJj;A
 鐠	phooA
 釹	nRxoA
 鉕	phvaA
@@ -1306,7 +1306,7 @@ use_preset_vocabulary: true
 鏑	teekq
 鈥	hvaA
 錵	hfaq
-鉺	ncj;A
+鉺	nJj;A
 銩	tiuvq		#tm 69thulium
 鐿	Ai;s
 鑥	looA
@@ -1318,12 +1318,12 @@ use_preset_vocabulary: true
 銥	Ai;jq
 鉑	boakq
 # 黃金	kximq	9
-#鉈	dzcjajq
+#鉈	dzJjajq
 鉈	thvaq
 鉛	Jyonq
 鉍	pxikq
 釙	phaukq
-鈁	puaCq		#Fa 89 francium
+鈁	puaCq		#Fa 89 franJium
 鐳	lvojq		#Ra 88 radium
 錒	Aoaq		#Ac 89 actinium
 釷	thooA		#Th 90 thorium
@@ -1341,7 +1341,7 @@ use_preset_vocabulary: true
 鐨	phu;js		#Fm 100fermium
 鍆	mvonq		#Md 101 mendelevqium
 鍩	noakq		#No 102 nobelium
-鐒	loavq		#Lr 103 lavArencium 103
+鐒	loavq		#Lr 103 lavArenJium 103
 鑪	looq		#Ru 104 rutherfordium
 䤣	looq		#rutherfordium 金虍錿
 𨧀	dooA		#Db 105d dubnium
@@ -1355,15 +1355,15 @@ use_preset_vocabulary: true
 鉨	neiA		#Nh 113 nihonium 鉩鿭	U+9fed 鈮nb 41niobium
 鉩	neiA
 鈇	pvioq		#Fl 114 Flerovqium
-鏌	moakq		#mc 115 moscovqium
+鏌	moakq		#mc 115 mosJovqium
 鉝	lj;pq		#lv 116 livqermorium
 鎓	AouCq		#-onium 後綴 巳弃用
 𨦡	JjaCA		#oxonium salts
 𨦡	JjaCq
 鏻	ljinq		#phosphonium
 鏻	ljinA		#
-鉮	scjinq		#arsonium
-鉮	scjinA		#陽平不用
+鉮	sJjinq		#arsonium
+鉮	sJjinA		#陽平不用
 銨	Aoanq		#ammonium
 銨	AoanA
 鋶	ljuvq		#sulphonium
@@ -1432,9 +1432,9 @@ use_preset_vocabulary: true
 酮	douCq
 酚	phu;nq
 醚	meiq
-酯	tscjiA
-酯	tscjiq
-酯	tscjiA
+酯	tsJjiA
+酯	tsJjiq
+酯	tsJjiA
 醛	dzyenq
 ###酋
 ###戌

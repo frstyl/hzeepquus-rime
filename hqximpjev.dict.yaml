@@ -17,11 +17,11 @@ d	t
 ɖ	tR
 ʈ	trr
 ɖ	drr
-ȶ	tc		#非音幖
-ȶʰ	tc
-ȡ	tc
-ȡ	dc
-c	kJ		#c爲sc J爲硬齶
+ȶ	tJ		#非音幖
+ȶʰ	tJ
+ȡ	tJ
+ȡ	dJ
+c	kJ		#J爲硬齶
 cʰ	gJ
 ɟ	gJ
 ɟ	gJ
@@ -50,10 +50,10 @@ b͡β	bf
 ʧʰ	tsS
 ʤ	tsS
 ʤ	dzS
-ʨ	tsc
-ʨʰ	tsc
-ʥ	tsc
-ʥ	dzc
+ʨ	tsJ
+ʨʰ	tsJ
+ʥ	tsJ
+ʥ	dzJ
 t͡s	ts
 t͡sʰ	ts
 d͡z	ts
@@ -62,10 +62,10 @@ t͡ʃ	tsS
 t͡ʃʰ	tsS
 d͡ʒ	tsS
 d͡ʒ	dzS
-t͡ɕ	tsc
-t͡ɕʰ	tsc
-d͡ʑ	tsc
-d͡ʑ	dzc
+t͡ɕ	tsJ
+t͡ɕʰ	tsJ
+d͡ʑ	tsJ
+d͡ʑ	dzJ
 t͡ʂ	tsR
 t͡ʂʰ	tsR
 d͡ʐ	tsR
@@ -101,9 +101,9 @@ z	s
 ʂ	sR
 ʐ	sR
 ʐ	zR
-ɕ	sc
-ʑ	sc
-ʑ	zc
+ɕ	sJ
+ʑ	sJ
+ʑ	zJ
 ç	sJ		#當爲无噝
 ʝ	sJ
 ʝ	zJ
@@ -137,10 +137,8 @@ h	E
 # n	n
 ɳ	nrr
 ɳ	nR
-ɲ	nJ
-ȵ	nc		#非音幖
-ȵ	ngc
-ȵ	Cc
+ȵ	nJ		#非音幖
+ɲ	CJ
 ŋ	ng
 ŋ	C
 Ŋ	ng		#非音幖
@@ -263,6 +261,7 @@ u	u
 ˠ	x
 ˤ	O
 ʰ	h
+˭	h
 ˡ	l
 ⁿ	n
 ˢ	s
