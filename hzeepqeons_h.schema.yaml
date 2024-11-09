@@ -451,7 +451,7 @@ speller:
     - fuzz/^q/qz/ #雲
 
     - fuzz/^z/Z/ #衺 #
-    - derive/^dz(?!c)/z/
+    - derive/^dz/z/
 
     - derive/^ph/f/
     - derive/^th/r/
