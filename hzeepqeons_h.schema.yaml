@@ -118,7 +118,7 @@ speller:
 
 
 
-    - derive/^kL(h?)(?!-)/t$1/ #kL t #kL tsc#CL缺#合甚叕出 穿川舛車樞杵處楢醜臭饎出赤
+    - derive/^k(h?)L(?!-)/t$1/ #kL t #kL tsc#CL缺#合甚叕出 穿川舛車樞杵處楢醜臭饎出赤
     - derive/^gL(?!-)/d/
     - derive/^([sz])KL(?!-)/$1/ #缺 Ls?skL?
 
@@ -358,8 +358,8 @@ speller:
     - derive/^(E)/hz/ #匣母
     - derive/^(C)/ng/ #疑母
     - derive/^(th?|d|n)R/$1rr/ #知
-    - derive/^(t|d|n|s|z)J/$1jj/ #章
-    - derive/^(t)J(h)/$1jj$2/ #常
+    - derive/^(ts|dz|n|s|z)J/$1z/ #章
+    - derive/^(ts)J(h)/$1$2z/ #常
     - derive/^(t?s|d?z)S/$1s/ #生母
     - derive/^(ts)S(h)/$1$2s/ #初
 
@@ -450,7 +450,7 @@ speller:
     - fuzz/^h/hs/ #曉
     - fuzz/^q/qz/ #雲
 
-    - fuzz/^z/zz/ #衺
+    - fuzz/^z/Z/ #衺 #
     - derive/^dz(?!c)/z/
 
     - derive/^ph/f/
