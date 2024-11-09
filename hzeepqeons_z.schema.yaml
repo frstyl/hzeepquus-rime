@@ -77,7 +77,7 @@ speller:
     #- derive/W/Vr/
     #- derive/v/Vo/
 
-    - derive/^kL(h?)(?!-)/t$1/ #kL t #kL tsc#CL缺#合甚叕出 穿川舛車樞杵處楢醜臭饎出赤
+    - derive/^k(h?)L(?!-)/t$1/ #kL t #kL tsc#CL缺#合甚叕出 穿川舛車樞杵處楢醜臭饎出赤
     - derive/^gL(?!-)/d/
     - derive/^([sz])KL(?!-)/$1/ #缺 Ls?skL?
 
