@@ -160,10 +160,10 @@ speller:
 
 
 ##聲-介
-    - derive/^(j)[iIj](?=[aeiou;,])/$1/ #以母爲三等
+    - fuzz/^(j)[iIj](?=[aeiou;,])/$1/ #以母爲三等
     - fuzz/^(q)[uUy](?=[aeiou;,])/$1/ #雲母
-    - derive/(ch?)[iIj](?=[aeiou;,])/$1/ #書船
-    - derive/^(zz)[ij](?=[aeiou;,])/$1/ #邪
+    - fuzz/(Jh?)[iIj](?=[aeiou;,])/$1/ #書船
+    - fuzz/^(z)[ij](?=[aeiou;,])/Z/ #邪
 
     - derive/([SR]h?)i([aeiou;,])/$1x$2/ #知莊R-
     - derive/([SR]h?)u([aeiou;,])/$1w$2/
@@ -194,12 +194,22 @@ speller:
     - derive/(e)(e|i)/$1/ #e四等 
     #- derive/(o)(o|u)(?![qAs])/$1/ #一等  oo模
     - fuzz/[eo](;|,)/ea/ #ea 特
-    - fuzz/[Iji](i)/i/ #i    三等元音
-    - fuzz/[IjiUyu](u)/u/ #u
+    
+    #- fuzz/[Iji](i)/i/ #i    三等元音#刪 配半元作元
+    #- fuzz/[IjiUyu](u)/u/ #u
 
-    - fuzz/([afrWxwjy])[ʌ,]/$1a/ #ʌ ə a
+    #- fuzz/o(u)([Cgxk])/o$2/ #ou oo -v -m -C#刪
+    #- fuzz/o(u)([mbfpvwy])/o$2/ #əm
+    #- fuzz/v(u)([jlrndztR])/o$2/ #vun -n -j
+    
+    - derive/([jIi])([ʌə;,])/i/ 
+    - derive/([yUu]|v[jIi])([ʌə;,])/u/ 
+    - abbrev/([j])i/$1/ #半元作元 配下u o
+    - abbrev/([y])i/$1/ #ju vi溷
+    - abbrev/([jyiuIU])u/y/ 
+    - abbrev/([vo])u/v/ #v=vu
 ##介元尾
-#聲介元 尾
+#聲介元 尾-n
 
 
     #- derive/(^J[QLq]?|[SR]|^Z|[dn]J|th?J|[szn]c|tsch)[UyWwu][i]([jlrndztR])/$1u$2/ #yu yi
@@ -214,14 +224,15 @@ speller:
     # - fuzz/([^JQLqcSRZ]h?)[IUjyiurWxw][uo]/$1u/ #iu- io- uu uo 以雲神 知莊除外 引擎不支持變長
     #- fuzz/^(th?|d|n|kh?|g|C)J[IUjyiurWxw]([uo])/$1u/ 
     # - fuzz/(?<!^)([RJS])(h?)[IUjyiurWxw][uo]/$2u/
-    - fuzz/([ptk]h|[bdgnmC]|tsh?|dz|[slAh])[IUjyiurWxw][uo]/$1u/ #iu- io- uu uo 以雲神 知莊除外 引擎不支持變長
+    #- fuzz/([ptk]h|[bdgnmC]|tsh?|dz|[slAh])[IUjyiurWxw][uo]/$1u/ #iu- io- uu uo 以雲神 知莊除外 引擎不支持變長 #刪
 ##元音
     - derive/([SRJc]h?|^[jqz]|^J[QLq]|^Q)[IjrxiUyWwu]([uo][jlrndztR])/$1$2/ #三等聲母
 
     - derive/v(o[jlrndztR])/$1/ #von voj 配合o省
     #- derive/V([Ijrxioa])([uo][jlrndztR])/$1$2/    #uo合口元音 kVo?ko? .uj .uv
 
-##襍
+##襍 ə
+    - fuzz/([afrWxwjy])[ʌ,]/$1a/ #ʌ ə a
 #
     - fuzz/([Ijrxia])(;|,)([jlrndztR])/$1o$3/ #və vo
     - fuzz/(e)(;|,)([jlrndztR][qAs]?)$/oo$3/
@@ -248,21 +259,18 @@ speller:
     - fuzz/o(;|,)([mbfpvwy])/o$2/
     - fuzz/v(;|,)([jlrndztR])/o$2/
 
-    - fuzz/o(u)([Cgxk])/o$2/ #ou oo -v -m -C
-    - fuzz/o(u)([mbfpvwy])/o$2/ #əm
-    - fuzz/v(u)([jlrndztR])/o$2/ #vun -n -j
     
-## -i- -u-
-    - fuzz/(?<!^)([RJSc])?(h?)[Ijrxi](i)/$2i/ #i    不分AB
-    - fuzz/(?<!^)([RJSc])?(h?)[IjrxiUyWwu](u)/$2$3/ #u
+## -i- -u- 刪
+    #- fuzz/(?<!^)([RJSc])?(h?)[Ijrxi](i)/$2i/ #i    不分AB
+    #- fuzz/(?<!^)([RJSc])?(h?)[IjrxiUyWwu](u)/$2$3/ #u
     
-   #- erase/(tsJh?|d?zc|sJ|J[LQq]?)([Ijrxi][;,]/
-    - derive/(?<![JQLqcSRZ])(h?)[Ijrxi](;|,)/$1i/ #ə ;? ɨ ɪ 之 #已改
-    - derive/(?<![JQLqcSRZ])(h?)[UyWwu](;|,)/$1u/
-    - derive/(?<!^)([RJSc]h?)[Ijrxi](;|,)/$1i/
-    - derive/(?<!^)([RJSc]h?)[UyWwu](;|,)/$1u/
-    #- derive/^(th?|d|n|kh?|g|C)J[Ijrxi](;|,)/$1i/
-    #- derive/^(th?|d|n|kh?|g|C)J[UyWwu](;|,)/$1u/
+   ##- erase/(tsJh?|d?zc|sJ|J[LQq]?)([Ijrxi][;,]/
+    #- derive/(?<![JQLqcSRZ])(h?)[Ijrxi](;|,)/$1i/ #ə ;? ɨ ɪ 之 #已改
+    #- derive/(?<![JQLqcSRZ])(h?)[UyWwu](;|,)/$1u/
+    #- derive/(?<!^)([RJSc]h?)[Ijrxi](;|,)/$1i/
+    #- derive/(?<!^)([RJSc]h?)[UyWwu](;|,)/$1u/
+    ##- derive/^(th?|d|n|kh?|g|C)J[Ijrxi](;|,)/$1i/
+    ##- derive/^(th?|d|n|kh?|g|C)J[UyWwu](;|,)/$1u/
 
 
 ####介 聲歬
@@ -391,13 +399,13 @@ speller:
     - xform/(?<!^)nA$/d/
     - xform/(?<!^)ns$/z/
 
-    # - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
+    # - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻尾?
     - fuzz/(?<!^)jq$/j/
     - fuzz/(?<!^)jA$/l/
     - fuzz/(?<!^)js$/r/
     - fuzz/(?<!^)vq$/v/
     - fuzz/(?<!^)vA$/w/
-    - fuzz/(?<!^)vs$/y/
+    - fuzz/(?<=[aeiou;,])vs$/y/
     # - xform/(?<!^)jq$/j/
     # - xform/(?<!^)jA$/l/
     # - xform/(?<!^)js$/r/
@@ -451,15 +459,15 @@ speller:
     - fuzz/^q/qz/ #雲
 
     - fuzz/^z/Z/ #衺 #
-    - derive/^dz/z/
+    - fuzz/^dz/z/
 
-    - derive/^ph/f/
-    - derive/^th/r/
-    - derive/^kh/y/
-    - derive/^ts(s?)h/v$1/
-    - derive/^ts(?!c)/x/
-    - derive/^(hq|A)/w/
-    - derive/^(ng|C)/c/
+    - abbrev/^ph/f/
+    - abbrev/^th/r/
+    - abbrev/^kh/y/
+    - abbrev/^tsh/v/
+    - abbrev/^ts/x/
+    - abbrev/^(hq|A)/w/
+    - abbrev/^(ng|C)/c/
 
 ##𥳑 首字母
     # - abbrev/^(\w).+$/$1/

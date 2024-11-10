@@ -185,8 +185,9 @@ speller:
     - fuzz/([af][aeiou;,])jq$/$1/
 
 
-##元音-尾 韻核 襍
-
+##元音-尾 韻核 襍ə
+    - fuzz/([afrWxwjy])[ʌ,]/$1a/ #ʌ ə a
+    
     - fuzz/([rxoa])(;|,)([jlrndztR][qAs]?)$/$1o$3/ #və vo 除三等
     - fuzz/(e)(;|,)([jlrndztR][qAs]?)$/oo$3/
     - fuzz/([vY])(;|,)([jlrndztR][qAs]?)$/ou$3/
@@ -207,8 +208,11 @@ speller:
 ##介元
     - fuzz/(?<!^)(ea)/ee/ 
     - fuzz/(?<!^)([eo])([;,])/ea/ #eeo ooe
-    - fuzz/([afrWxwjy])[ʌ,]/$1a/ #ʌ ə a
-##聲-介韻
+
+
+    - abbrev/([vo])u/v/ #v=vu
+
+##聲-介韻 -n
     #- derive/^(kh?|g|C|h|q|A)/K/    
     - fuzz/([UywWu])i([ndztRr])/$1u$2/ #yu yi k組除外?
     - fuzz/([UyWwu])i([qAs])/$1uj$2/ #e=ej i=ij
@@ -420,15 +424,15 @@ speller:
     - fuzz/^q/qz/ #雲
 
     - fuzz/^z/Z/ #衺
-    - derive/^dz/z/
+    - fuzz/^dz/z/
 
-    - derive/^ph/f/
-    - derive/^th/r/
-    - derive/^kh/y/
-    - derive/^ts(s?)h/v$1/
-    - derive/^ts(?!c)/x/
-    - derive/^(hq|A)/w/
-    - derive/^(ng|C)/c/
+    - abbrev/^ph/f/
+    - abbrev/^th/r/
+    - abbrev/^kh/y/
+    - abbrev/^tsh/v/
+    - abbrev/^ts/x/
+    - abbrev/^(hq|A)/w/
+    - abbrev/^(ng|C)/c/
 
 ##𥳑 首字母
     # - abbrev/^(\w).+$/$1/
