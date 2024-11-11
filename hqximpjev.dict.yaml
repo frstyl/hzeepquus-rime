@@ -111,12 +111,14 @@ z	s
 ç	sj		#當爲无噝
 ʝ	sj
 ʝ	zj
+ç	xj		#x
+ʝ	xj
 # x	hk
 # ɣ	hg
 # x	fk
 # ɣ	fg
-ɣ	fg
-x	X
+#ɣ	fg
+x	X		#兼
 ɣ	X
 ɣ	Xz
 x	x
@@ -159,25 +161,38 @@ n	n
 ʷɾ	w
 ʷɹj	w
 ʷɻj	w
-ɰ	x
+ɰ	x		#兼
+ɰ	w
 ʷɰ	w
 ʷˤr	f		#vf省
 ʷˤɾ	f
 ʷɹ	f
+ʋ	f
+ʋ	w
 w	v
 ʍ	v
 ʍ	vs		#擦
 ʷ	v
 ɥ	y
 ###
-ʙ	Rp
-ⱱ	Rf		#闪音
+ʙ	Rp		#R
 r	R
+ʀ	Rq
+ⱱ	Rf		#闪音
 ɾ	R
 ɽ	Rr
-ʀ	Rq
-ʁ	R		#?
-ɺ	R
+ɽ	R
+ʀ	R
+ʁ	R		#?擦音
+ɺ	R		#邊閃
+r	r
+ɾ	r
+ɹ	r
+ɽ	r
+ɻ	r
+ʀ	r
+ʁ	r
+ɺ	r
 ʋ	vf		#近音
 ʋ	w
 w	v
@@ -185,12 +200,12 @@ u	v
 ɥ	y
 y	y
 ɹ	r
-ɻ	rr
+ɹ̩	r
 ɻ	jr
 j	j
+i	j
 ɰ	x
 ɰ	w
-ɯ	x
 ɯ	w
 l	l		#L
 ɭ	l
