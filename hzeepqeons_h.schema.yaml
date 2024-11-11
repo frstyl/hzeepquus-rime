@@ -461,13 +461,13 @@ speller:
     - fuzz/^z/Z/ #衺 #
     - fuzz/^dz/z/
 
-    - abbrev/^ph/f/
-    - abbrev/^th/r/
-    - abbrev/^kh/y/
-    - abbrev/^tsh/v/
-    - abbrev/^ts/x/
-    - abbrev/^(hq|A)/w/
-    - abbrev/^(ng|C)/c/
+    - fuzz/^ph/f/
+    - fuzz/^th/r/
+    - fuzz/^kh/y/
+    - fuzz/^tsh/v/
+    - fuzz/^ts/x/
+    - fuzz/^(hq|A)/w/
+    - fuzz/^(ng|C)/c/
 
 ##𥳑 首字母
     # - abbrev/^(\w).+$/$1/
