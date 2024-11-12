@@ -384,7 +384,7 @@ speller:
     - xform/(?<!^)([ptk])q$/$1/ #入韻
     - derive/(?<!^)([fvIUjyxwaeiou;,][aeiou;,])v(k)$/$1u$2/ #-v-視爲韻
     # - xform/(?<!^)v(k)$/$1/
-    - fuzz/(?<!^)v(k)$/$1/
+    - fuzz/([aeiou;,])v(k)$/$1$2/
 
     - xform/(?<!^)rq$/r/ #次入
     - xform/(?<!^)[pt]s$/r/
@@ -458,16 +458,16 @@ speller:
     - fuzz/^h/hs/ #曉
     - fuzz/^q/qz/ #雲
 
-    - fuzz/^z/Z/ #衺 #
-    - fuzz/^dz/z/
+    - derive/^z/Z/ #衺 #
+    - derive/^dz/z/
 
-    - fuzz/^ph/f/
-    - fuzz/^th/r/
-    - fuzz/^kh/y/
-    - fuzz/^tsh/v/
-    - fuzz/^ts/x/
-    - fuzz/^(hq|A)/w/
-    - fuzz/^(ng|C)/c/
+    - derive/^ph/f/
+    - derive/^th/r/
+    - derive/^kh/y/
+    - derive/^tsh/v/
+    - derive/^ts/x/
+    - derive/^(hq|A)/w/
+    - derive/^(ng|C)/c/
 
 ##𥳑 首字母
     # - abbrev/^(\w).+$/$1/
