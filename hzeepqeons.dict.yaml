@@ -16932,7 +16932,7 @@ import_tables:
 䴷	EfonA
 皖	EfonA		#莞爾
 莞	EfonA		#皖
-頑	CQ_fonq
+頑	CQ_fonq	 #五還切 集韻 五鰥切 切韻 吴鱞切
 慣	kQ_fons		#串
 摜	kQ_fons
 奻	nRfons
@@ -18695,16 +18695,15 @@ import_tables:
 劀	kQ_fitq
 䴳	hQfitq		#穴V-v-i-k?#穴V-v-i-t
 𦘍	CQ_fitq
-##vRan
-𣁳	Afatq
-䀨	hfatq
+##vROaR
+𣁳	Afatq		#烏八切 #-頑切
+䀨	hfatq 	#呼八切
 𥆠	hfatq
 𠟽	kQ_fatq		#劀刮
-湲	hQfanq		#?
 婠	Afatq
-##vROaR
-𡰝	gfanq		#跪頑切 譌誤
-𡰝	gwanq
+𡰝	gfenq	0		#跪頑切 丁全切 譌誤?
+𡰝	gfan		#正
+湲	hQfanq		#?獲頑切
 㦃	tsShfanA		#?產
 䊲	tsShfanA
 ##vRen
@@ -18714,7 +18713,8 @@ import_tables:
 𠄔	Efens		#集韻 胡困切
 㕕	Efens
 ##vRun
-聉	CQ_futq
+聉	tRfutq		#?出 丁滑切 魚乙切#出k-L-R
+聉	CQ_futq		#五滑切 切韻轄
 䯇	khQ_futq
 嗗	Afutq
 滑	Efutq
@@ -18737,12 +18737,11 @@ import_tables:
 肭	nRfutq
 窀	dfenq		#反常
 窀	dRfunq		#正
-聉	tRfutq		#?出 丁滑切 魚乙切#出k-L-R
 貀	nRfutq		#?豽 C? n?
 #
 茁	tsSfutq		#?出#tR tsS
 ##vRon ?
-𡰠	lfonq	0		#力頑切 誤
+𡰠	lfenq	0		#力頑切 誤
 𡰠	lyonq		#正
 娺	kLRfotq		#叕
 鵽	kLRfotq
@@ -19752,7 +19751,9 @@ import_tables:
 𡐤	khxetq
 𢵈	kxenA		#善聲? 展
 覵	pxenA		#?䁵辡辯
-䁵	pxenA		#? 袁睘
+䁵	pxenA		#? 袁睘#方免切 集韵 馨兖切
+覵	kJyenA
+䁵	kJyenA		#正
 焆	Axetq		#
 𠱝	Axetq		#肙k-v-e-n
 㠭	tRxenA
@@ -19844,6 +19845,7 @@ import_tables:
 𦁆	dRwons
 傳	tRwons
 傳	dRwonq
+縳	dRwonA		#說文 白鮮支
 摶	dRwonA
 傳	dRwons
 轉	tRwonA
@@ -19943,7 +19945,8 @@ import_tables:
 孨	tsSwans
 僝	dzSwans
 ##vRjaR waR
-𡰝	tRwanq		#丁全切 譌誤
+𡰝	tRwenq	0		#丁全切 譌誤
+𡰝	gwanq		#丅全切?
 顴	gwanq
 孉	gwanq
 䠰	gwanq
