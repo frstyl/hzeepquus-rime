@@ -357,12 +357,12 @@ speller:
     - xform/(?<!^)ns$/z/
 
     # - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
-    - fuzz/(?<!^)jq$/j/
-    - fuzz/(?<!^)jA$/l/
-    - fuzz/(?<!^)js$/r/
-    - fuzz/(?<!^)vq$/v/
-    - fuzz/(?<!^)vA$/w/
-    - fuzz/(?<!^)vs$/y/
+    - fuzz/([aeiou;,])jq$/$1j/
+    - fuzz/([aeiou;,])jA$/$1l/
+    - fuzz/([aeiou;,])js$/$1r/
+    - fuzz/([aeiou;,])vq$/$1v/
+    - fuzz/([aeiou;,])vA$/$1w/
+    - fuzz/([aeiou;,])vs$/$1y/
     # - xform/(?<!^)jq$/j/
     # - xform/(?<!^)jA$/l/
     # - xform/(?<!^)js$/r/
