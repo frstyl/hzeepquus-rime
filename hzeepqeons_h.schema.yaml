@@ -204,10 +204,7 @@ speller:
     
     - derive/([jIi])([ʌə;,])/i/ 
     - derive/([yUu]|v[jIi])([ʌə;,])/u/ 
-    - abbrev/([j])i/$1/ #半元作元 配下u o
-    - abbrev/([y])i/$1/ #ju vi溷
-    - abbrev/([jyiuIU])u/y/ 
-    - abbrev/([vo])u/v/ #v=vu
+
 ##介元尾
 #聲介元 尾-n
 
@@ -428,7 +425,7 @@ speller:
     - derive/(?<!^)A$/h/
     - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
-
+####𥳑
 ##可選 介元序
     # - fuzz/(?<!^)x([aeiou;,])/r$1/ #r=x
     # - fuzz/(?<!^)r([aeiou;,])/x$1/ #
@@ -443,7 +440,11 @@ speller:
     # - fuzz/(?<!^)(a)([aeiou;,])/$2l/ #qAhsjlrvwymbfpndztRCcgxk
     # - fuzz/(?<!^)(x)([aeiou;,])([.])/$2r$3/
 
-
+##介元
+    - abbrev/([j])i/$1/ #半元作元 配下u o
+    - abbrev/([y])i/$1/ #ju vi溷
+    - abbrev/([jyiuIU])u/y/ 
+    - abbrev/([vo])u/v/ #v=vu
 ##聲𥳑
     - derive/^J/j/
     # - derive/qz/q/

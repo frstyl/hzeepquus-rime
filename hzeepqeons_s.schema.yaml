@@ -209,9 +209,6 @@ speller:
     - fuzz/(?<!^)(ea)/ee/ 
     - fuzz/(?<!^)([eo])([;,])/ea/ #eeo ooe
 
-
-    - abbrev/([vo])u/v/ #v=vu #與首字母同級
-
 ##聲-介韻 -n
     #- derive/^(kh?|g|C|h|q|A)/K/    
     - fuzz/([UywWu])i([ndztRr])/$1u$2/ #yu yi k組除外?
@@ -384,7 +381,7 @@ speller:
     - derive/(?<!^)A$/h/
     - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
-
+####𥳑
 ##可選 介元序 尾後
     # - fuzz/(?<!^)x([aeiou;,])/r$1/ #r=x
     # - fuzz/(?<!^)r([aeiou;,])/x$1/ #
@@ -408,6 +405,8 @@ speller:
     - fuzz/(?<!^)(e)(i)/$2$1/ # ei ee不需
     - abbrev/(?<!^)([oveYlafUuyrWxw])([aeiou;,])([qAhsjlrvwymbfpndztRCcgxk])/$2$1$3/
 
+##界元
+    - abbrev/([vo])u/v/ #v=vu #與首字母同級
 ##聲𥳑
     - derive/^J/j/
     # - derive/Q/q/
