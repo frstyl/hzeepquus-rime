@@ -4910,6 +4910,18 @@ use_preset_vocabulary: true
 #檷	mjeA
 瞇	mjeA
 𡓭	mjeA
+#柅	njeA		#乃倚切
+伲	njeA
+儞	njeA
+你	njeA		#人尓#伱
+#檷	njeA
+#鑈	njeA
+䘦	njeA
+#旎	njeA
+#狔	njeA
+馜	njeA
+#呢	njeA
+抳	njeA
 #紫	tsjeA
 #茈	tsjeA
 #訾	tsjeA
@@ -6044,18 +6056,6 @@ use_preset_vocabulary: true
 #蚔	dRxeA
 #坁	dRxeA
 𥍪	dRxeA
-#柅	nRxeA
-伲	nRxeA
-儞	nRxeA
-你	nRxeA		#人尓
-#檷	nRxeA
-#鑈	nRxeA
-䘦	nRxeA
-#旎	nRxeA
-#狔	nRxeA
-馜	nRxeA
-#呢	nRxeA
-抳	nRxeA
 #㧗	tsSxeA
 #跐	tsSxeA
 䘣	tsSxeA
@@ -8899,7 +8899,7 @@ use_preset_vocabulary: true
 #騃	dRi;A
 #畤	dRi;A
 崻	dRi;A
-你	nRi;A		#伱
+你	ni;A		#伱#乃里切
 #子	tsi;A
 #㜽	tsi;A
 𢀈	tsi;A
@@ -26420,9 +26420,6 @@ use_preset_vocabulary: true
 #豻	khaanq
 𩭠	khaanq
 㨜	khaanq
-#䟒	gaanq
-𤜍	gaanq
-#𢑆	gaanq
 #顏	Caanq
 #𩠪	Caanq
 𦫨	Caanq
@@ -26601,15 +26598,6 @@ use_preset_vocabulary: true
 𦎱	kaatq
 #磍	kaatq
 #猰	kaatq
-#刮	kaatq
-#捖	kaatq
-#䄆	kaatq
-#鴰	kaatq
-#睆	kaatq
-#𦧠	kaatq
-#銽	kaatq
-#銛	kaatq
-#趏	kaatq
 #𥴭	khaatq
 #䈓	khaatq
 #㮫	khaatq
@@ -26690,6 +26678,9 @@ use_preset_vocabulary: true
 #莞	kfanq
 #𦺊	kfanq
 𡠒	kfanq
+#䟒	gfanq		#巨班切
+𤜍	gfanq
+#𢑆	gfanq
 #𤸷	Cfanq
 㿏	Cfanq
 狠	Cfanq
@@ -26749,7 +26740,7 @@ use_preset_vocabulary: true
 #𩈬	AfanA
 #悺	AfanA
 䀑	AfanA
-#睅	EfanA
+#睅	EfanA		#戶版切
 #睆	EfanA
 #鯇	EfanA
 #皖	EfanA
@@ -26789,7 +26780,7 @@ use_preset_vocabulary: true
 #矔	kfans
 #琯	kfans
 #棺	kfans
-#䟒	gfans
+#䟒	gfans		#求患切
 #𢑆	gfans
 𤜍	gfans
 #權	gfans
@@ -26847,6 +26838,15 @@ use_preset_vocabulary: true
 #㔍	tsShfatq
 䈟	tsShfatq
 #刷	sSfatq
+#刮kfatq		#古剎切
+#捖	kfatq
+#䄆	kfatq
+#鴰	kfatq
+#睆	kfatq
+#𦧠	kfatq
+#銽	kfatq
+#銛	kfatq
+#趏	kfatq
 #刖	Cfatq
 #跀	Cfatq
 #䎳	Cfatq
@@ -27153,7 +27153,7 @@ use_preset_vocabulary: true
 #𤷈	nRaetq
 #褹	nRaetq
 #𧞍	nRaetq
-#札	tsSaetq		#八
+#札	tsSaetq		#側八切
 #紮	tsSaetq
 #𣧖	tsSaetq
 #𣦷	tsSaetq
@@ -27266,30 +27266,30 @@ use_preset_vocabulary: true
 𥐕	Aaetq
 𪖐	Aaetq
 #䰲	Aaetq
-#黠	Eaetq		#戶八
+#黠	Eaetq		#戶八切
 #䶤	Eaetq
 #䕸	Eaetq
 #䦖	Eaetq
 #礣	Eaetq
 #𪗾	Eaetq
-#窀	dRfenq
-#嘫	nRfenq
+#窀	dRfenq		#除鰥切
+#嘫	nRfenq		#尼鰥切
 #㬮	nRfenq
-#鰥	kfenq
+#鰥	kfenq		#姑頑切
 #𩶊	kfenq
 #䤽	kfenq
 #綸	kfenq
 #淪	kfenq
 瘝	kfenq
 #矜	kfenq
-#𡰝	gfenq
-#頑	Cfenq
+#𡰝	gfenq		#渠鰥切
+#頑	Cfenq		#五鰥切
 𤻆	Cfenq
-#嬽	Afenq
-#湲	Efenq
+#嬽	Afenq		#逶鰥切
+#湲	Efenq		#胡鰥切
 #睆	Efenq
-#𡰟	lfenq
-#㦃	tsShfenA
+#𡰟	lfenq		#盧鰥切
+#㦃	tsShfenA		#揣綰切
 𥽽	tsShfenA
 #鰥	kfens
 𥉀	kfens
@@ -27331,11 +27331,11 @@ use_preset_vocabulary: true
 #搰	khfetq
 䦚	khfetq
 #闊	khfetq
-#𦤙	Cfetq
+#𦤙	Cfetq		#五滑切
 #聐	Cfetq
 #聉	Cfetq
 #𦘍	Cfetq
-#婠	Afetq		#八
+#婠	Afetq		#烏八切
 #䯉	Afetq
 #𠿒	Afetq
 #𣁳	Afetq
@@ -27345,7 +27345,7 @@ use_preset_vocabulary: true
 #捾	Afetq
 #穵	Afetq
 𥤺	Afetq
-#傄	hfetq		#呼八
+#傄	hfetq		#呼八切
 #䴳	hfetq
 #䀨	hfetq
 #𥆠	hfetq
@@ -27354,7 +27354,7 @@ use_preset_vocabulary: true
 #毳	hfetq
 #欪	hfetq
 #齂	hfetq
-#滑	Efetq
+#滑	Efetq		#戶八切
 𡰊	Efetq
 𡯠	Efetq
 #磆	Efetq

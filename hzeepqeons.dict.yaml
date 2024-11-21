@@ -4771,7 +4771,8 @@ import_tables:
 ####ə 之微咍灰
 ###iə
 鏔	Ji;q		#?
-伱	nRi;A		#又集韻 乃倚切 伲 n-?#伱尒乃而n-eo 汝n-a
+伱	ni;A		#乃里切 又集韻 乃倚切 伲 n-?#伱尒乃而n-eo 汝n-a
+伱	ni,jA		#n无ieoj
 𣍆	tsJhi;q	0		#殸? #赤之切 譌誤
 𣍆	heeCs		#正
 僿	sJi;ks		#塞 譌誤?
@@ -12159,33 +12160,33 @@ import_tables:
 油	JLiuv_s
 𣔴	JLiuv_q
 ##iur iuks iuts
-𮙧	JLiuks		#宂
-貁	JLiuks		#ks
-蜼	JLiuks	9		#訓貁
-猚	JLiuks	9
-𤢹	JLiuks
-𪕏	JLiuks
-狖	JLiuks
-㹨	JLiuks		#?𮙧
-㺠	JLiuks
-𤝨	JLiuks
-𤟊	JLiuks
-僦	tsiuks
-就	dziuks		#ks
-𪆩	dziuks
-鷲	dziuks
-殧	dziuks
-㠇	dziuks
-㝛	siuks
-宿	siuks		#ks 聲宿也
-呪	tJiuks		#ks uks
-祝	tJiuks		#祭也
-詋	tJiuks
-詶	tJiuks
-咒	tJiuks
-𥛽	tJiuks
-䄂	tJiuks		#由L-u
-䛆	tJiuks
+𮙧	JLiuvks		#宂
+貁	JLiuvks		#vks
+蜼	JLiuvks	9		#訓貁
+猚	JLiuvks	9
+𤢹	JLiuvks
+𪕏	JLiuvks
+狖	JLiuvks
+㹨	JLiuvks		#?𮙧
+㺠	JLiuvks
+𤝨	JLiuvks
+𤟊	JLiuvks
+僦	tsiuvks
+就	dziuvks		#vks
+𪆩	dziuvks
+鷲	dziuvks
+殧	dziuvks
+㠇	dziuvks
+㝛	siuvks
+宿	siuvks		#vks 聲宿也
+呪	tJiuvks		#ks uks
+祝	tJiuvks		#祭也
+詋	tJiuvks
+詶	tJiuvks
+咒	tJiuvks
+𥛽	tJiuvks
+䄂	tJiuvks		#由L-u
+䛆	tJiuvks
 ##Iiv?u?
 䚻	JLjiv_q		#由䚻䌛L-u#䚻䌛L-i-v䚻䌛L-e-v
 䌛	JLjiv_q
@@ -16962,35 +16963,35 @@ import_tables:
 窡	tRfotq
 𡪚	tRfotq		#補 說文
 䆯	tRfotq
-##vRen?
-𢸃	kQ_fenq
-癏	kQ_fenq
-擐	kQ_fenq
-𨘣	hQfenq
-還	hQfenq		#ɢ V-#睘k-v-e-n
-𦇏	hQfenq
-𤪹	hQfenq
-𨷤	hQfenq
-圜	hQfenq		#圓?
-環	hQfenq		#鬈
-𠟼	hQfenq		#㯷𠟼
-鬟	hQfenq
-寰	hQfenq
-闤	hQfenq
-糫	hQfenq
-鐶	hQfenq
-轘	hQfenq
-𦏖	hQfenq		#䍺
-澴	hQfenq
-𩙽	hQfenq
-𦣴	hQfenq
-𪍺	hQfenA
-𢸃	hQfens
-𨏙	hQfens
-擐	hQfens
-轘	hQfens
-繯	hQfens
-𣟴	sSfenq		#s-V-?
+##vRen?fon
+𢸃	kQ_fonq
+癏	kQ_fonq
+擐	kQ_fonq
+𨘣	hQfonq
+還	hQfonq		#ɢ V-#睘k-v-e-n#袁v-o-n
+𦇏	hQfonq
+𤪹	hQfonq
+𨷤	hQfonq
+圜	hQfonq		#圓?
+環	hQfonq		#鬈
+𠟼	hQfonq		#㯷𠟼
+鬟	hQfonq
+寰	hQfonq
+闤	hQfonq
+糫	hQfonq
+鐶	hQfonq		#𨫑
+轘	hQfonq
+𦏖	hQfonq		#䍺
+澴	hQfonq
+𩙽	hQfonq
+𦣴	hQfonq
+𪍺	hQfonA
+𢸃	hQfons
+𨏙	hQfons
+擐	hQfons
+轘	hQfons
+繯	hQfons
+𣟴	sSfonq		#s-V-?
 ##vRun
 𤬷	nRfutq
 袦	nRfutq		#出n-u-t#訥詘
@@ -18321,7 +18322,7 @@ import_tables:
 𦌾	kQ_Yens
 懁	kQ_Yens
 獧	kQ_Yens
-繯	EYenA		#ɢ V-?睘k-v-e-n
+繯	EYenA		#ɢ V-?睘k-v-e-n 圓#袁o-n
 寰	EYens
 噮	AYens
 肙	AYens
@@ -18741,7 +18742,7 @@ import_tables:
 #
 茁	tsSfutq		#?出#tR tsS
 ##vRon ?
-𡰠	lfenq	0		#力頑切 誤
+𡰠	lfenq	0		#力頑切 誤#𡰠𡰝
 𡰠	lyonq		#正
 娺	kLRfotq		#叕
 鵽	kLRfotq
@@ -19532,7 +19533,7 @@ import_tables:
 𩕖	sQ-yenq
 嬽	Ayenq		#娟嬛
 #
-𣟳	zq-yenq		#瞏睘k-v-e-n?#瞏睘qV-v-o-n 睘k-v-e-C
+𣟳	zq-yenq		#瞏睘k-v-e-n?#瞏睘qV-v-o-n 睘k-v-e-C	#袁v-o-n
 還	zq-yenq	1
 𡣱	Ayenq
 嬛	Ayenq
@@ -19924,7 +19925,7 @@ import_tables:
 齤	gwonq
 𥁠	gwonq
 韏	gwons
-圜	Qwenq		#睘
+圜	Qwonq		#睘
 猭	LshRwonq		#Ls
 剶	LshRwonq
 猭	LshRwons
@@ -24303,6 +24304,8 @@ import_tables:
 𣢫	AUaCA
 軖	gUaCq
 㞷	gUaCq
+匩	gUaCq
+𥮟	khUaCq
 匡	khUaCq
 邼	khUaCq
 筐	khUaCq
@@ -28221,6 +28224,8 @@ import_tables:
 𡴀	phF_ioCq
 妦	phF_ioCq
 仹	phF_ioCq
+㞷	pF_ioCq
+𡉘	pF_ioCq
 封	pF_ioCq
 犎	pF_ioCq
 葑	pF_ioCq
