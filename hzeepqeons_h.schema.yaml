@@ -362,7 +362,9 @@ speller:
     - derive/^(A)/hq/ #影母
     - derive/^(E)/hz/ #匣母
     - derive/^(C)/ng/ #疑母
-    - derive/^(th?|d|n)R/$1rr/ #知
+    #- derive/^(th?|d|n)R/$1rr/ #知
+    - derive/^(th?|n)R/$1z/ #知
+    - derive/^(d)R/$1s/ #澄
     - derive/^(ts|dz|n|s|z)J/$1z/ #章
     - derive/^(ts)J(h)/$1$2z/ #常
     - derive/^(t?s|d?z)S/$1s/ #生母
@@ -426,6 +428,11 @@ speller:
     - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
 ####𥳑
+##介元
+    - abbrev/([j])i/$1/ #半元作元 配下u o
+    - abbrev/([y])i/$1/ #ju vi溷
+    - abbrev/([jyiuIU])u/y/ 
+    - abbrev/([vo])u/v/ #v=vu
 ##可選 介元序
     # - fuzz/(?<!^)x([aeiou;,])/r$1/ #r=x
     # - fuzz/(?<!^)r([aeiou;,])/x$1/ #
@@ -440,11 +447,7 @@ speller:
     # - fuzz/(?<!^)(a)([aeiou;,])/$2l/ #qAhsjlrvwymbfpndztRCcgxk
     # - fuzz/(?<!^)(x)([aeiou;,])([.])/$2r$3/
 
-##介元
-    - abbrev/([j])i/$1/ #半元作元 配下u o
-    - abbrev/([y])i/$1/ #ju vi溷
-    - abbrev/([jyiuIU])u/y/ 
-    - abbrev/([vo])u/v/ #v=vu
+
 ##聲𥳑
     - derive/^J/j/
     # - derive/qz/q/

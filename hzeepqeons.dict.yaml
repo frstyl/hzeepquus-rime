@@ -7467,10 +7467,10 @@ import_tables:
 䝻	kioq
 鶋	kioq
 据	kioq
-処	khLioA		#居也
-處	khLioA		#虍k-L-a
-処	khLios		#所也
-處	khLios
+処	khLJioA		#居也
+處	khLJioA		#虍k-L-a
+処	khLJios		#所也
+處	khLJios
 巨	gioA
 拒	gioA
 苣	gioA
@@ -25489,7 +25489,7 @@ import_tables:
 ##Rjak? Rjaŋ ra→re→ae
 咋	tsSraAk
 葃	dzSrakq
-愬	sSrakq
+愬	sSrakq		#山責切
 索	sSrakq
 𡩡	sSrakq
 溹	sSrakq
@@ -25561,7 +25561,6 @@ import_tables:
 #
 𥕗	hmsf;Cq		#m
 #vRak
-䞰	dzSfakq		#?
 捇	XL-fakq		#赤k-a-k
 焃	XL-fakq
 䬉	XL-fakq
@@ -25574,7 +25573,8 @@ import_tables:
 彠	hQfakq
 #vRek
 䟄	dzSfekq
-讗	kQ_fekq
+䞰	dzSfekq		#?䟄
+讗	kQ_fekq		#儶
 剨	hfekq
 湱	hfekq
 畵	hQfekq
@@ -26119,19 +26119,6 @@ import_tables:
 浾	thRxeCq	9		#赤水#訓泟
 泟	thRxeCq
 騁	LshRxeCA		#甹L-e-C
-㵾	tsShxeCs
-眚	sSxeCA
-鼪	sSxeCs
-貹	sSxeCs
-生	sSxeCs
-㾪	sSxeCA
-𡞞	sSxeCA
-䚇	sSxeCA
-𨵥	sSxeCA
-㼳	sSxeCA
-渻	sSxeCA
-𨜜	sSxeCA
-省	sSxeCA
 逞	LshRxeCA
 裎	LshRxeCA
 悜	LshRxeCA
@@ -26150,27 +26137,28 @@ import_tables:
 𩇜	thRxeCs
 竀	thRxeCq
 ###xek
-##a
-簎	tsShxakq
-䜺	tsShxakq
-索	sSxakq
-𡩡	sSxakq
-䞽	sSxakq
-溹	sSxakq
-𥻨	sSxakq
-䂹	sSxakq		#䂹炙t?
 ##Rjek
 柵	tsShxekq
 彳	thRxekq
 𨅙	dRxekq
 𪐏	tRxekq
-䵂	dRxekq
+䵂	dRxekq		#直炙切
 蹢	dRxekq
 擿	dRxekq
 𤭏	thRxekq
 潪	dRxekq
 ####Iaaŋ ieŋ 京(庚三)
 ##xaŋ
+#
+簎	tsShrakq
+䜺	tsShrakq
+索	sSrakq		#山戟切
+𡩡	sSrakq
+䞽	sSrakq
+溹	sSrakq
+𥻨	sSrakq
+䂹	sSrakq		#䂹炙t?
+#
 京	kraCq
 鶁	kraCq
 麖	kraCq
@@ -26280,6 +26268,21 @@ import_tables:
 𥁰	mraCq
 𥁰	mraCA
 ##xeŋ
+#
+㵾	tsShreCs
+眚	sSreCA		#所景切
+鼪	sSreCs
+貹	sSreCs
+生	sSreCs
+㾪	sSreCA
+𡞞	sSreCA
+䚇	sSreCA
+𨵥	sSreCA
+㼳	sSreCA
+渻	sSreCA
+𨜜	sSreCA
+省	sSreCA
+#
 碧	prekq		#?
 平	breCq
 𠀒	breCq

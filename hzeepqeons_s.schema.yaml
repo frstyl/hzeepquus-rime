@@ -320,7 +320,9 @@ speller:
     - derive/^(A)/hq/ #影母
     - derive/^(E)/hz/ #匣母
     - derive/^(C)/ng/ #疑母
-    - derive/^(th?|d|n)R/$1rr/ #知
+    #- derive/^(th?|d|n)R/$1rr/ #知
+    - derive/^(th?|n)R/$1z/ #知
+    - derive/^(d)R/$1s/ #澄
     - derive/^(ts|dz|n|s|z)J/$1z/ #章
     - derive/^(ts)J(h)/$1$2z/ #常
     - derive/^(t?s|d?z)S/$1s/ #生母
@@ -382,6 +384,8 @@ speller:
     - derive/(?<!^)Cq?$/c/
     - derive/(?<!^)F$/f/
 ####𥳑
+##介元
+    - abbrev/([vo])u/v/ #v=vu #與首字母同級
 ##可選 介元序 尾後
     # - fuzz/(?<!^)x([aeiou;,])/r$1/ #r=x
     # - fuzz/(?<!^)r([aeiou;,])/x$1/ #
@@ -405,8 +409,7 @@ speller:
     - fuzz/(?<!^)(e)(i)/$2$1/ # ei ee不需
     - abbrev/(?<!^)([oveYlafUuyrWxw])([aeiou;,])([qAhsjlrvwymbfpndztRCcgxk])/$2$1$3/
 
-##界元
-    - abbrev/([vo])u/v/ #v=vu #與首字母同級
+
 ##聲𥳑
     - derive/^J/j/
     # - derive/Q/q/
