@@ -111,6 +111,8 @@ z	s
 ç	sj		#當爲无噝
 ʝ	sj
 ʝ	zj
+ç	fj
+ʝ	fj
 ç	xj		#x
 ʝ	xj
 # x	hk
@@ -157,23 +159,24 @@ n	n
 Ŋ	c		#非音幖
 ɴ	nq
 ###
-ʷr	w
-ʷɾ	w
-ʷɹj	w
-ʷɻj	w
-ɰ	x		#兼
-ɰ	w
-ʷɰ	w
-ʷˤr	f		#vf省
-ʷˤɾ	f
-ʷɹ	f
-ʋ	f
-ʋ	w
-w	v
-ʍ	v
-ʍ	vs		#擦
-ʷ	v
-ɥ	y
+#ʷr	w
+#ʷɾ	w
+#ʷɹj	w
+#ʷɻj	w
+#ʷɰ	w
+#ʷˤr	f		#vf省
+#ʷˤɾ	f
+#ʷɹ	f
+##
+#ɰ	x		#兼
+#ɰ	w
+#ʋ	f
+#ʋ	w
+#w	v
+#ʍ	v
+#ʍ	vs		#擦
+#ʷ	v
+#ɥ	y
 ###
 ʙ	Rp		#R
 r	R
@@ -196,17 +199,18 @@ r	r
 ʋ	vf		#近音
 ʋ	w
 w	v
-u	v
+#u	v
 ɥ	y
-y	y
+#y	y
 ɹ	r
 ɹ̩	r
 ɻ	jr
 j	j
-i	j
-ɰ	x
+#i	j
+ɰ	jx
+#ɰ	x
 ɰ	w
-ɯ	w
+ɯ	w		#兼
 l	l		#L
 ɭ	l
 ɭ	lr
@@ -478,6 +482,10 @@ u	u
 ﺕ‎	t
 ﺙ‎	ft
 ##
+̄	aa
+ʽ	h
+ʽ	heta
+ʼ	h
 α	alpha
 β	beta
 γ	gamma
@@ -485,22 +493,22 @@ u	u
 ε	epsilon
 ζ	zeta
 η	eta
-ϝ	digamma
-ϝ	wau
+#ϝ	digamma
+ϝ	vau
 θ	theta
 ι	iota
-κ	kappa
+κ	cappa
 λ	lamda
 μ	mu
 ν	nu
 ξ	xi
 ο	omicro
 π	pi
-ϙ	koppa
+ϙ	qoppa
 ρ	rho
 σ	sigma
 τ	tau
-υ	upsilon
+υ	ypsilon
 φ	phi
 χ	chi
 ψ	psi
