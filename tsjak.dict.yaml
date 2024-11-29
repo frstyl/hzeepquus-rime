@@ -12,57 +12,59 @@ use_preset_vocabulary: true
 焓	hgo,mq
 㶲	JjoCs
 ###
-烴	thjeCq		#CH hydroCajsbon
-烴	theeCq
-羥	khiaCA		#OH hydroqyl
+烴	thjeCq		#CH hydrocarbon 碳氫
+羥	khiaCA		#OH hydroxyl 氫氧
+羰	thiaCA		#carbonyl 碳氧
 羰	thoaCq
+巰	khiuvq		#mercapto 氫硫
 巰	giuvq
-烷	Evanq
-烯	hi;jq
-炔	khyetq
+烷	Evanq		#alkane 完
+烯	hi;jq		#alkene olefins 稀
+炔	khyetq		#alkyne 缺
+羧	sjaCA		#carboxyl 酸氧
 羧	svaq
-羧	sjaCA		#cajsboqyl
-# 酮	douCq
-酚	phu;nq
-醚	meiq
-# 酯	tsJjiA
-酯	tsJjiq
-酯	tsJjiA
-醛	dzyenq
+酮	douCq
+酚	phu;nq		#phenol
+醚	meejq		#迷
+酯	tsJjiA		#借詞
+酯	tsJjiq		#脂
+醛	dzyenq		#全
+⌬	pvonA
+苯	pvonA		
 ⌬	beenq
 苯	beenq		#benzene
-# 蒽	Ao,nq
-萘	noarq
-# 薁	Aiukq
-萜	theepq
-# 茚	Ajins
-酞	thoarq
-酐	koanq
-# 𨫬	koanq
+蒽	Ao,nq		#anthracene
+萘	noarq		#naphthalene
+薁	Aoavs		#Azulene
+萜	theepq		#terpene
+茚	Ajins		#indene
+酞	thoarq		#phthalein
+酐	koanq		#anhydride 乾
 酰	se;nq		#acyl
-# 磺	hgvaCq		#sujAphujs
-苄	bxens
-莰	kho,mA
-蒈	khaeq
-䏟	beitq
-脒	meejA
-# 肟	Avos
-肼	tsjeCA
-腈	tsjeCq
+磺	EvaCq		#sulfo
+苄	bxens		#benzyl
+莰	ko,mA		#camphor camphane
+蒈	kaejq		#carene
+脒	meejA		#amidine
+肟	Aoos		#oxime
+䏏	Aoos
+肼	tsjeCA			 #hydrazine hydrazinium
+腈	tsjeCq		#nitrile
 䶽	tsouCq		#肼酮
-腙	tsouCq
+腙	tsouCq		#hydrazone
 脎	sSaetq
-脎	soas
-脲	neevsk
-胍	kfaq
-胍	kaaq
+脎	soas		#osazone
+脲	neevs			#urea carbamide 尿
+胍	kfaq		#guanidine
+胍	gvoq
 胺	Aoanq		#amine 同氨 不異讀
 胺	Aoans
 膦	ljinq		#phosphine
 膦	ljins
 胂	sJjinq		#arsine
 胂	sJjins
-䏲	theiq
+䏲	theejq		#Sb stibium
+胩	khaaA		#isocyanide异氰 carbylamine
 氰	tsheeCq		#cyanogen 靑气
 氨	Aoanq		#ammonia
 𠼞	Aoakq		#ammonia
@@ -71,7 +73,7 @@ use_preset_vocabulary: true
 鎓	AouCq		#-onium 後綴 巳弃用
 𨦡	JjaCA		#oxonium salts
 𨦡	JjaCq
-鏻	ljinq		#phosphonium
+鏻	ljinq		#phosphonium 
 鏻	ljinA		#
 鉮	sJjinq		#arsonium
 鉮	sJjinA		#陽平不用
@@ -89,30 +91,29 @@ use_preset_vocabulary: true
 ⿰金臭	hiuvs
 錪	teenA
 ###
-腺	sjens
-肽	thoarq
+酶	mvojq		#enzyme
+腺	sjens		#gland
+肽	thoarq		#peptide
 䏓	Cuanq		#肉元 proton
-# 苷	koamq
+苷	koamq		#glycoside
 甙	do,js		#代𤮼
-# 嘌	phjevq
-# 呤	leeCq
+嘌	phjevq
+呤	leeCq
 咪	meiq
 噻	so,jq
-# 吡	bjitq
+吡	bjitq
 啶	deeCs
 嘧	mxitq
-酶	mvojq
-胩	khaaA
-喹	khveq
-啉	lj;mq
+喹	khYeq
+啉	ljimq
 唑	dzvas
 嗪	dzjinq
 咯	koakq
 哚	tvaA
 吲	JjinA
-# 吖	Aaaq
-# 呋	pvioq
-# 喃	no,mq
+吖	Aaaq
+呋	puoq
+喃	no,mq
 㖕	sjinq
 ###
 輕鋰鈉鉀銣銫鈁	tsJyoA dzouk
@@ -133,40 +134,40 @@ use_preset_vocabulary: true
 氚	soamq		#H3 tritium
 氕	pheetq		#丿
 氘	toavq		#刀刂
-氚	tsJhyonq		#川
-氦	hgo,jA		#he helium 
+氚	tsJhyenq		#川
+氦	hgo,jA		#He helium 
 氜	nJjitq		#日 helium
-鋰	lj;A		#li lithium
-鈹	bxeq		#be beryllium
-硼	bo;Cq		#b boracium
+鋰	lj;A		#Li lithium
+鈹	bxeq		#Be beryllium
+硼	bo;Cq		#B boracium
 碳	thoans		#C 6 carbonium
-氮	doams		#n 7 nitrogenium azote 
-氧	JjaCA		#O xygen
+氮	doams		#N 7 nitrogenium azote 
+氧	JjaCA		#O oxygen
 氱	JjaCA
 氟	pu;tq		#F fluorine
-氖	no,jA		#ne neon
+氖	no,jA		#Ne neon
 氝	nvojs
 鈉	no,pq
 鎂	mxiA
-鋁	ljoA
+鋁	lioA
 矽	zjekq
-硅	kveq
+硅	kYejq
 磷	ljinq
-# 硫	ljuvq
-氯	ljokq
+硫	liuvq
+氯	liokq
 氬	Aaas
 鉀	kaapq
-鈣	koarq		#Coa calcium 
-鈧	khoaCs
-鈦	thoarq
-# 鐇	buamq
-釩	buamq
-# 鉻	kaakq
-# 錳	maaCA
-# 鐵	theikq
+鈣	koarq		#Ca calcium 
+鈧	khoaCs		#scandium
+鈦	thoarq		#titanium
+鐇	buanq
+釩	buamq		#vanadium
+鉻	kaakq
+錳	maaCA
+鐵	theetq
 鈷	kooA
 鎳	Ceetq
-# 銅	douCq
+銅	douCq
 鋅	sjinq
 鎵	kaaq
 鍺	tsJjaA
@@ -176,32 +177,32 @@ use_preset_vocabulary: true
 溴	hiuvs
 氪	kho;kq
 銣	nJjoq
-鍶	sj;q
-釔	Axitq		#Y ytRrium -t
+鍶	si;q
+釔	Axitq		#Y yttrium -t
 錷	Axitq
 鋯	koavs
-鈮	neiq		#nb niobium
+鈮	neejq		#Nb niobium
 鉬	miukq
 鍀	to;kq
 釕	leevA
 銠	loavA		# rhodium
 鈀	paaA
-# 銀	Cx;nq
+銀	Cxinq
 鎘	kaekq
 鉲	khoaA
 銦	Ajinq
-# 錫	seekq
+錫	seekq
 銻	theejq
 碲	teejs
 碘	teenA
 氙	sjenq
 氥	sjenq
 氠	sJjinq
-𣱧	dRxoCs
-銫	sSx;kq
-# 鋇	poarq
-# 鑭	loans		#loa57 lanthanum
-鈰	dzJj;A
+𣱧	dRioCs
+銫	sSi;kq
+鋇	poarq
+鑭	loanq		#La57 lanthanum
+鈰	dzJi;A
 鐠	phooA
 釹	nRxoA
 鉕	phvaA
@@ -210,41 +211,41 @@ use_preset_vocabulary: true
 釓	kaetq
 釓	koaq		#乚扎gadolinium
 鋱	tho;kq
-# 鏑	teekq
+鏑	teekq
 鈥	hvaA
 錵	hfaq
 鉺	nJj;A
-銩	tiuvq		#tm 69thulium
+銩	tiuvq		#Tm 69thulium
 鐿	Ai;s
 鑥	looA
-# 鉿	ko,pq
+鉿	ko,pq
 鉭	thoanA
-# 鎢	Aooq
+鎢	Aooq
 錸	lo,jq
 鋨	Coaq
 銥	Ai;jq
 鉑	boakq
-# 黃金	kx;mq
+# 黃金	kximq
 汞	kouCA
-汞	hgouCA
-澒	hgouCA		#汞
-# 鉈	dzJjajq
-# 鉛	Jyonq
-# 鉍	pxikq
-釙	phaukq
+#汞	EouCA
+#澒	EouCA		#汞
+鉈	dvaq
+鉛	Jyonq
+鉍	pxitq
+釙	phaokq
 砹	Aoarq
 氡	tooCq		#radon
-# 鈁	puaCq		#Fa 89 franJium
+鈁	puaCq		#Fa 89 franJium
 鐳	lvojq		#Ra 88 radium
 錒	Aoaq		#Ac 89 actinium
 釷	thooA		#Th 90 thorium
-# 鏷	bookq		#Pa 91 Protactinium
+鏷	bookq		#Pa 91 Protactinium
 鈾	Jjuvq		#U 92 uranium
 錼	noarq		#Np 93 neptunium
 鎿	noaq
-鈈	pu;s		#Pu 94 plutonium
+鈈	piuvs		#Pu 94 plutonium
 鎇	mxiq		#Am 95 americium
-# 鋦	kiokq		#Cm 96 Curium
+鋦	kiokq		#Cm 96 Curium
 錇	bvojq		#Bk 97 berkelium
 鐦	kho,jq		#Cf 98 californium
 鑀	Ao,js		#Es 99einsteinium
@@ -253,7 +254,7 @@ use_preset_vocabulary: true
 鍆	mvonq		#Md 101 mendelevqium
 鍩	noakq		#No 102 nobelium
 鐒	loavq		#Lr 103 lavArenJium 103
-# 鑪	looq		#Ru 104 rutherfordium
+鑪	looq		#Ru 104 rutherfordium
 䤣	looq		#rutherfordium 金虍錿
 𨧀	dooA		#Db 105d dubnium
 𨭎	hi;A		#Sg 106 seaborgium
@@ -261,15 +262,15 @@ use_preset_vocabulary: true
 𨭆	ho;kq		#Hs 108 haSium
 䥑	maekq		#Mt 109 meitnerium
 鐽	doatq		#Ds 110 darmstadtium
-錀	lyunq		#Rg 1101 roentgenium
+錀	lyinq		#Rg 1101 roentgenium
 鎶	koaq		#Cn 112 copernicium
-鉨	neiA		#Nh 113 nihonium 鉩鿭	U+9fed 鈮nb 41niobium
-鉩	neiA
-鈇	pvioq		#Fl 114 Flerovqium
-# 鏌	moakq		#mc 115 mosJovqium
-鉝	lj;pq		#lv 116 livqermorium
-鿬	deinq		#Ts 117teenResine
-鿫	Aoovs		#Og118 oganeSon
+鉨	njeA		#Nh 113 nihonium 鉩鿭	U+9fed 鈮nb 41niobium
+鉩	njeA
+鈇	puoq		#Fl 114 Flerovqium
+鏌	moakq		#mc 115 mosJovqium
+鉝	ljipq		#lv 116 livqermorium
+鿬	deenq		#Ts 117teenResine
+鿫	Aoavs		#Og118 oganeSon
 ##
 氦	ho,js		#He helium
 #########
