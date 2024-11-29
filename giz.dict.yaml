@@ -66,6 +66,7 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+𤀰𤃵	
 𡰠𡰝
 𦑘𦒧	Eaemq hfak
 𣪌子	doovq tsi;A
@@ -2459,29 +2460,32 @@ use_preset_vocabulary: true
 姂	khuapq
 𥑁	pxemq		#砭
 ###凡
-###暴㬥
-𣞺	phaakq		#1		#㩧
-##
-鸔	pookq
-𪇰	pookq
-𤓊	paavs
-𤃵	baokq
-𡄗	phaokq
-𤜈	baokq
-𢥑	baokq
+###虣
+𫻺	boavs
+𧇑	boavs
+𧇒	boavs
+𧇭	boavs
+𭭮	boavs
+###暴㬥𮲡
+𣞺	phaoq		#㩧#促韻 匹角切
+𱉆	boukq
+鸔	boukq
+𪇰	boukq		#蒲木切
+#𤓊	paokq		#北角切 爆
+𤃵	baokq		#𤀰𤃵
+𤜈	baokq		#切韻 蒲角切 犦
 ##
 #
-𱉆	boavs
-㫧	boavs		#蒲木切
-㬧	boavs
-𣉱	boavs		#1		#曓
+𮲡	boukq#暴曝
+𱹖	boukq
+㫧	boukq		#蒲木切?
+𣉱	boavs		#曓
 𣊴	boavs
 𣊻	boavs
 𣋦	boavs
 𭧂	boavs
 𭻥	boavs
 𰣎	boavs
-𱹖	boavs
 ###冒?
 ##勖
 勗	hiokq		#1		#
@@ -13215,9 +13219,9 @@ use_preset_vocabulary: true
 晌	sJiaCA
 ###異
 𰭝	Ji;kq		#翼
-丠	ki;s
-䔬	ki;s
-兾	ki;s
+丠	kxis
+䔬	kxis
+兾	kxis
 ###孕
 𡥗	Ji;Cs		#2
 𰅮	Ji;Cs
@@ -13321,7 +13325,7 @@ use_preset_vocabulary: true
 𢦾	deetq
 𢧌	deetq
 𢧜	dRxitq
-鋨	theetq
+鋨	theetq	0		#譌
 鐡	theetq
 鐡	theetq
 𨭓	theetq

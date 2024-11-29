@@ -9703,12 +9703,11 @@ import_tables:
 ##avr
 𧇒	boavks
 虣	boavks		#ks
-㬥	boavks
-𣋴	boavks
-曓	boavks
+𣉱	boavks
+曓	boavks		#-ks#夲
 𤄗	boavks
-暴	boavks
-曝	boavks		#ks曓
+暴	boavks		#日共𮲡#
+曝	boavks		#非
 瀑	boavks
 𪇰	boavks
 ##Ouks
@@ -23062,6 +23061,8 @@ import_tables:
 𤻲	loavkq
 𪇱	loavkq
 濼	loavkq
+𦃙	poavkq		#說文
+㬧	poavkq
 𤒺	poavkq
 爆	poavkq
 襮	poavkq
@@ -26273,7 +26274,7 @@ import_tables:
 眚	sSreCA		#所景切
 鼪	sSreCs
 貹	sSreCs
-生	sSreCs
+生	sSreCs		#所敬切 又所京切
 㾪	sSreCA
 𡞞	sSreCA
 䚇	sSreCA
@@ -27537,7 +27538,7 @@ import_tables:
 ##ok
 鎐	tsoukq		#姓也出彭城#銼?禾韻
 #
-㾄	doukq		#讟
+㾄	Loukq		#讟
 碡	doukq
 𧞐	toukq		#𠁁t-o-k
 𤡴	doukq
@@ -27549,7 +27550,7 @@ import_tables:
 扑	phoukq
 𪐙	phoukq
 𡰿	boukq
-䧤	poukq
+䧤	poukq		#菐
 轐	poukq
 𡡐	poukq
 樸	poukq
@@ -27747,7 +27748,8 @@ import_tables:
 𪈫	poavkq
 鸔	poavkq
 𪇰	poavkq		#暴
-暴	boavkq
+𮲡	boavkq
+暴	boavkq		#蒲木切#切韻 匹角切
 㬥	boavkq
 𣋴	boavkq
 曝	boavkq
@@ -27975,7 +27977,6 @@ import_tables:
 㿥	hgaavkq
 𪈚	paavkq
 𦣃	paavkq
-𡅜	paavkq
 𦢊	paavkq
 嚗	paavkq
 爆	paavkq
@@ -27987,10 +27988,10 @@ import_tables:
 謈	phaavkq
 𤜌	baavkq
 𢥟	baavkq
-謈	baavkq
-犦	baavkq
+謈	baavkq		#切韻 蒲角切
+犦	baavkq		#𤜈
 𦢊	baavkq
-懪	baavkq
+懪	baavkq		#𢥑
 㩧	baavkq
 丵	dzSaavkq
 ##Ravk?
@@ -28517,7 +28518,7 @@ import_tables:
 壅	AioCs
 𦄼	sioCA
 顒	CioCq
-𩤛	CioCq
+??	CioCq
 鰅	CioCq
 喁	CioCq
 #
@@ -28869,12 +28870,31 @@ import_tables:
 誴	dzooCq
 𢃏	dzooCq
 ###uk
-僕	bookq
+錊	tsookq		#卒?姓也
+##
+褥	nookq		#辱n-o-k
+傉	nookq
+耨	nookq		#切韻 如豆切#類儂o u
+搙	nookq
+𡰪	tookq		#丁木切 䐁 冬毒切#凥?#?冢豖t-o-k#剢𢽚
+僕	bookq		#菐p-o-k#切韻 蒲沃切
 䑑	bookq
 鏷	bookq
 䗱	bookq
 轐	bookq
 䴆	bookq
+#正
+褥	noukq
+傉	noukq
+耨	noukq
+搙	noukq
+僕	boukq
+䑑	boukq
+鏷	boukq
+䗱	boukq
+轐	boukq
+䴆	boukq
+##
 毒	dookq
 𡹆	dookq
 𧛔	tookq
@@ -28884,12 +28904,7 @@ import_tables:
 𢃶	dookq
 碡	dookq
 𦺇	dookq
-錊	tsookq
 洬	sookq
-褥	nookq		#辱n-o-k
-傉	nookq
-耨	nookq
-搙	nookq
 嚳	khQ_ookq
 鱟	Aookq
 䑁	Aookq
@@ -28898,10 +28913,8 @@ import_tables:
 䮸	Aookq
 礐	hgookq
 𧞶	tookq
-篤	tookq
+篤	tookq		#竹t-u-k
 竺	tookq
-𡰪	tookq		#?
-𧰵	tookq
 ##
 吿	kQ_ookq
 告	kQ_ookq
