@@ -202,7 +202,7 @@ speller:
     #- fuzz/o(u)([mbfpvwy])/o$2/ #əm
     #- fuzz/v(u)([jlrndztR])/o$2/ #vun -n -j
     
-    - derive/([jIi])([ʌə;,])/i/ 
+    - derive/([jIi])([ʌə;,])/i/ #之
     - derive/([yUu]|v[jIi])([ʌə;,])/u/ 
 
 ##介元尾
@@ -429,9 +429,9 @@ speller:
     - derive/(?<!^)F$/f/
 ####𥳑
 ##介元
-    - abbrev/([j])i/$1/ #半元作元 配下u o
-    - abbrev/([y])i/$1/ #ju vi溷
-    - abbrev/([jyiuIU])u/y/ 
+    - abbrev/([jx])i/$1/ #半元作元 配下u o
+    - abbrev/([yw])[iu]/$1/ #ju vi溷
+    - abbrev/([iuIU])u/y/ 
     - abbrev/([vo])u/v/ #v=vu
 ##可選 介元序
     # - fuzz/(?<!^)x([aeiou;,])/r$1/ #r=x

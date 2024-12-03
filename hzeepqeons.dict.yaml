@@ -11798,7 +11798,7 @@ import_tables:
 臭	khLJiuv_s		#臭k-L
 殠	khLJiuv_s
 糗	khLIuv_A
-殠	XL-Iuv_A
+殠	XL-Iuv_A		#朽
 齅	XL-Iuv_s
 朽	XL-Iuv_A		#丂k-L#丂k-R攷老
 㱙	XL-Iuv_A
@@ -18566,7 +18566,7 @@ import_tables:
 汕	sSranA
 #
 #
-㺗	tsJhaenq	0		#充山切 誤 集韻 稱延切
+㺗	tsJhaenq	0		#充山切 誤 集韻 稱延切#切韻(𭀚山切)
 䡲	dzSaenq		#?士山切 士連切 #集韻 時連切
 㺗	thJjenqc		#正
 䡲	dJjenq		#正
@@ -18685,6 +18685,7 @@ import_tables:
 棧	dzSaenA
 嶘	dzSaenA
 ###fen fen
+鱞	kfen		#切韻古頑切 #鰥
 𤜼	dzSfenq	0		#?犳 崇玄切
 𤜼	Efenq		#集韻 胡㳙切
 傄	hfetq		#?䙽眘
@@ -18726,7 +18727,7 @@ import_tables:
 鶻	Efutq
 䯉	Afutq
 𩶊	kQ_funq
-鰥	kQ_funq
+鰥	kQ_funq		#鱞#褱
 䤽	kQ_funq
 鰥	kQ_funs		#鱤
 綸	kQ_funq
@@ -22299,7 +22300,8 @@ import_tables:
 䫟	QU;nA
 𪏚	QU;nA
 𤸫	QU;nA
-韻	QU;ns		#?i
+韻	QU;ns	0		#?i#王問切 #永燼反 為捃反 集韻 筠呁切
+韻	Qw;ns		#正
 䚋	QU;ns
 𤸫	QU;ns
 員	QU;ns	2
