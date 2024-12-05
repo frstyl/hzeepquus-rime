@@ -1,5 +1,5 @@
 
-# hzeepquns
+# hzeepqwiz
 基亏廣韻旳 rime 拼音方案。叶韻音系:上古中古溷合，
 拼音説明 https://zhuanlan.zhihu.com/p/388867479
 輸入法說明：
@@ -10,10 +10,9 @@
     [從崇邪俟]z [精莊]x [疑]c [淸初]v [並奉]b [泥孃日]n [明微]m
 
     [精莊]ts [淸初]tsh [從崇]dz [邪俟]sz
-    [書]sc [船]zc
-    [影]hq,A [疑]ng,C
+    [書]sJ [船]zJ
+    [影]hq,A [疑]C
     [滂敷]ph [透徹昌]th [谿]kh  
-    [聲]I [韻]U
     [唐]lz [湯]ls
     [來]rz [寵]rs
     [翅]sk [暑]st
@@ -22,18 +21,16 @@
 	非 pF	敷 pFh	奉 bF	微 mF	F	
 	端 t	透 th	定 d	泥 n		來 l
 	精 ts	淸 tsh	從dz		心 s	邪 z
-	知 trr	徹 trrh	澄dr	孃 nrr		
-	莊 tss	初 tssh	崇 dzz		生 ss	俟 z
-	章 tsc	昌 tsch	常 dzc	日 nc	書 sc	船 zc
-	照 tsrr	穿 tsrrh	牀 dsrr		宷 srr	禪 zrr
-	章(見)kc
-	章(端)tc	昌(谿) khc
-	昌(透) thc	常(羣) gc
-	常(定) dc	日 (疑) ngc
-	日 (泥) nc		㠯 j,
+	知 tR	徹 thR	澄dR	孃 nR		
+	莊 tss	初 tssh	崇 dzs		生 ss	俟 z
+	章 tsJ	昌 tshJ	常 dzJ	日 nJ	書 sJ	船 zJ
+	照 tsR	穿 tshR	牀 dzR		宷 sR	禪 zR
+	章(見)kJ 昌(谿)khJ 常(羣)gJ
+	章(端)tJ	昌(透) thJ常(定)dJ 日(疑)CJ
+	日 (泥) nJ		㠯 j,
 	㠯(同) L
-	見(三等) k	谿 kh	羣 g	疑 ng,C		云 q
-	見(非三等) kq	谿 kqh	匣(羣) hg	疑 ngq		匣(云)hqz
+	見(三等) k谿 kh	羣 g	疑 ng,C		云 q
+	見(非kq	谿 kqh	匣(羣) hg	疑 ngq		匣(云)hqz
 	O /ʕ/
 	影 hq, A				曉 h	匣 hz,E,
 
