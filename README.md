@@ -25,12 +25,12 @@
 	莊 tss	初 tssh	崇 dzs		生 ss	俟 z
 	章 tsJ	昌 tshJ	常 dzJ	日 nJ	書 sJ	船 zJ
 	照 tsR	穿 tshR	牀 dzR		宷 sR	禪 zR
-	章(見)kJ 昌(谿)khJ 常(羣)gJ
-	章(端)tJ	昌(透) thJ常(定)dJ 日(疑)CJ
-	日 (泥) nJ		㠯 j,
+	章(見)kJ	昌(谿)khJ	常(羣)gJ
+	章(端)tJ	昌(透) thJ	常(定)dJ	日(疑)CJ
+	日 (泥) nJ		㠯 J
 	㠯(同) L
-	見(三等) k谿 kh	羣 g	疑 ng,C		云 q
-	見(非kq	谿 kqh	匣(羣) hg	疑 ngq		匣(云)hqz
+	見(三等) k	谿 kh	羣 g	疑 ng,C		云 q
+	見(非三) kQ	谿 khQ	匣(羣) hg	疑 CQ		匣(云)hqz
 	O /ʕ/
 	影 hq, A				曉 h	匣 hz,E,
 
