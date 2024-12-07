@@ -105,6 +105,23 @@ speller:
     - fuzz/(i)C/$1n/ #iŋ in ij it eŋ eq ek
 #    - fuzz/(i)g/$1d/ #iŋ
 #    - fuzz/(i)x/$1z/ #iŋ
+##韻-尾 (-)
+    # - derive/([oveY]a)j/$1/ #aj vuj  vu va
+    # - derive/([rWxw]a)j/$1/ #aj iaj
+
+    #- fuzz/([ajx]a)jq/$1/ #aa-j jq
+    #- fuzz/([af][;,])jq/$1/ #ʌ-j
+    #- fuzz/([o][,])jq/$1/ #ʌ-j
+    #- derive/([e];)jq/$1/ #eəʌ-j
+    #- fuzz/([ev]e)jq/$1/ #e-j
+    #- fuzz/([oveYjyrWxwaf]u)jq/$1/ #aa-j jq
+
+    # - derive/([oveYjyrWxwaf]u)j([qAs])/$1$2/ 
+    - derive/([oviuxw]a)jq$/$1/ #aj
+    #- derive/(a)jq$/$1/
+    - derive/(i)j/$1/ #ij ei ej
+
+    - fuzz/([af][aeiou;,])jq$/$1/
 ##介韻
 
     - derive/(VI)/U/ #uə
@@ -172,22 +189,7 @@ speller:
 
 ####韻-中 需在聲-中 前
 ##介元尾
-##韻-尾 (-)
-    # - derive/([oveY]a)j/$1/ #aj vuj  vu va
-    # - derive/([rWxw]a)j/$1/ #aj iaj
 
-    #- fuzz/([ajx]a)jq/$1/ #aa-j jq
-    #- fuzz/([af][;,])jq/$1/ #ʌ-j
-    #- fuzz/([o][,])jq/$1/ #ʌ-j
-    #- derive/([e];)jq/$1/ #eəʌ-j
-    #- fuzz/([ev]e)jq/$1/ #e-j
-    #- fuzz/([oveYjyrWxwaf]u)jq/$1/ #aa-j jq
-
-    # - derive/([oveYjyrWxwaf]u)j([qAs])/$1$2/ 
-    - derive/([ovixwrWiu]a)j/$1/ #aj
-    - derive/(i)j/$1/ #ij ei ej
-
-    - fuzz/([af][aeiou;,])jq$/$1/
 ##介元
     - fuzz/ea/ee/ 
     - derive/(e)(a)/$1/ #
@@ -395,24 +397,27 @@ speller:
     - xform/(?<!^)nA$/d/
     - xform/(?<!^)ns$/z/
 
-    # - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻尾?
-    - fuzz/([aeiou;,])jq$/$1j/
-    - fuzz/([aeiou;,])jA$/$1l/
-    - fuzz/([aeiou;,])js$/$1r/
-    - fuzz/([aeiou;,])vq$/$1v/
-    - fuzz/([aeiou;,])vA$/$1w/
-    - fuzz/([aeiou;,])vs$/$1y/
-    # - xform/(?<!^)jq$/j/
-    # - xform/(?<!^)jA$/l/
-    # - xform/(?<!^)js$/r/
-    # - xform/(?<!^)vq$/v/
-    # - xform/(?<!^)vA$/w/
-    # - xform/(?<!^)vs$/y/
+    # - fuzz/(?<!^)([jv])[q]$/$1/ 
+    # - derive/([aeiou;,])j([qAs])$/$1i$2/ #侌韻 #-j-v視爲韻?  vkuk
+    # - derive/([aeiou;,])v([qAs])$/$1u$2/ 
+    
+    #- fuzz/([aeiou;,])jq$/$1j/
+    #- fuzz/([aeiou;,])jA$/$1l/
+    #- fuzz/([aeiou;,])js$/$1r/
+    #- fuzz/([aeiou;,])vq$/$1v/
+    #- fuzz/([aeiou;,])vA$/$1w/
+    #- fuzz/([aeiou;,])vs$/$1y/
+    - xform/([aeiou;,])jq$/$1j/
+    - xform/([aeiou;,])jA$/$1l/
+    - xform/([aeiou;,])js$/$1r/
+    - xform/([aeiou;,])vq$/$1v/
+    - xform/([aeiou;,])vA$/$1w/
+    - xform/([aeiou;,])vs$/$1y/
 
 ##
     # - derive/(?<!^)A$/hq/ 轉寫
     # - derive/(?<!^)C([sAq])$/ng$1/
-    - derive/(?<!^)R([sAq])$/rr$1/
+    #- derive/(?<!^)R([sAq])$/rr$1/
     # - derive/(?<!^)F/ff/
 ##𥳑尾
     - abbrev/([aeiou;,])j([qAs])$/$1$2/ #jq

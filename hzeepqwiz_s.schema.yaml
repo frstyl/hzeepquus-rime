@@ -107,6 +107,16 @@ speller:
     #- fuzz/(i)g/$1d/ #iŋ
     #- fuzz/(i)x/$1z/ #iŋ
 
+##韻-尾 (-)
+    # - derive/([oveY]a)j/$1/ #aj vuj  vu va
+    # - derive/([rWxw]a)j/$1/ #aj iaj
+
+
+    - derive/([oviuxw]a)jq$/$1/ #aj
+    #- derive/(a)jq$/$1/ #aaj aa
+    - derive/(i)j/$1/ #ij ei ej#e=ej i=ij
+    - fuzz/([af][aeiou;,])jq$/$1/
+
     - xform/Vi(?=(a|e|i|o|u|;|,))/u/ #io vio 介
     - xform/VI/U/ #夢 已无用
     - xform/Vx/w/ #風
@@ -174,15 +184,7 @@ speller:
 
 
 ####韻-介尾
-##韻-尾 (-)
-    # - derive/([oveY]a)j/$1/ #aj vuj  vu va
-    # - derive/([rWxw]a)j/$1/ #aj iaj
 
-
-    - derive/([ovixwrWiu]a)j/$1/ #aj
-    - derive/(i)j/$1/ #ij ei ej#e=ej i=ij
-
-    - fuzz/([af][aeiou;,])jq$/$1/
 
 
 ##元音-尾 韻核 襍ə
@@ -272,7 +274,7 @@ speller:
     - derive/^(th|t|d|n)[JR]/$1/
 
     - derive/^(t?s|d?z)S/$1/ #tsz sz
-    - derive/^(tshS|tsSh)/$1/
+    - derive/^(tshS|tsSh)/tsh/
     - derive/^(hg|hz|E)/g/
 
     - derive/^(tsJh|tshJ)/th/ #章組不獨立?sc--Ls zc--Lz--J
@@ -356,23 +358,26 @@ speller:
     - xform/(?<!^)nA$/d/
     - xform/(?<!^)ns$/z/
 
-    # - fuzz/(?<!^)([jv])[q]$/$1/ #侌韻 #-j-v視爲韻
-    - fuzz/([aeiou;,])jq$/$1j/
-    - fuzz/([aeiou;,])jA$/$1l/
-    - fuzz/([aeiou;,])js$/$1r/
-    - fuzz/([aeiou;,])vq$/$1v/
-    - fuzz/([aeiou;,])vA$/$1w/
-    - fuzz/([aeiou;,])vs$/$1y/
-    # - xform/(?<!^)jq$/j/
-    # - xform/(?<!^)jA$/l/
-    # - xform/(?<!^)js$/r/
-    # - xform/(?<!^)vq$/v/
-    # - xform/(?<!^)vA$/w/
-    # - xform/(?<!^)vs$/y/
+    # - fuzz/(?<!^)([jv])[q]$/$1/ 
+    # - derive/([aeiou;,])j([qAs])$/$1i$2/ #侌韻 #-j-v視爲韻?  vkuk
+    # - derive/([aeiou;,])v([qAs])$/$1u$2/ 
+    
+    #- fuzz/([aeiou;,])jq$/$1j/
+    #- fuzz/([aeiou;,])jA$/$1l/
+    #- fuzz/([aeiou;,])js$/$1r/
+    #- fuzz/([aeiou;,])vq$/$1v/
+    #- fuzz/([aeiou;,])vA$/$1w/
+    #- fuzz/([aeiou;,])vs$/$1y/
+    - xform/([aeiou;,])jq$/$1j/
+    - xform/([aeiou;,])jA$/$1l/
+    - xform/([aeiou;,])js$/$1r/
+    - xform/([aeiou;,])vq$/$1v/
+    - xform/([aeiou;,])vA$/$1w/
+    - xform/([aeiou;,])vs$/$1y/
 ##
     # - derive/(?<!^)A$/hq/ 轉寫
     # - derive/(?<!^)C([sAq])$/ng$1/
-    - derive/(?<!^)R([sAq])$/rr$1/
+    #- derive/(?<!^)R([sAq])$/rr$1/
     # - derive/(?<!^)F/ff/
 ##𥳑尾
     - abbrev/([aeiou;,])j([qAs])$/$1$2/ #jq
