@@ -1836,7 +1836,7 @@ import_tables:
 締	deeq
 䱱	deeq
 崹	deeq
-鶙	deeq		#鶗
+鶙	deeq		#鶗 鶙鵳
 締	deeks
 禘	deeks
 系	hgeeks		#ks
@@ -1899,7 +1899,7 @@ import_tables:
 荑	Leijq
 䨑	Leijq
 銕	Leijq
-鴺	Leijq
+鴺	Leijq		#鵜鶘 
 鮧	Leijq
 ##ə?i?
 薙	Lshe;js		#剃#雉矢L-i
@@ -8811,6 +8811,7 @@ import_tables:
 ###fer
 夬	kQ_fets
 叏	kQ_fets
+𢘦	khQ_fets
 駃	khQ_fets
 快	khQ_fets
 ##ROur
@@ -10379,7 +10380,7 @@ import_tables:
 蔦	teivs
 ##Oiv?Oəv? eiv
 #尗𭣢
-䦊	neivA		#𨱧䦊#尗ts-i-v-k #jev-jiv ek-eivk  叔t-u-k 
+䦊	neevA		#?𨲂#𨱧䦊#尗ts-i-v-k #jev-jiv ek-eivk  叔t-u-k 
 蓧	Lsheivq		#Ls#𭣢jev ek
 窱	LsheivA
 窱	Lsheivs
@@ -13223,6 +13224,7 @@ import_tables:
 𩐭	neipq
 捻	neipq
 錜	neipq
+𫾿	neipq
 敜	neipq
 惗	neipq
 𩋏	neipq
@@ -18272,7 +18274,14 @@ import_tables:
 䝮	EYins
 𩑹	EYins
 ##ven
-䡓	kQ_Yens
+䡓	kQ_Yens		#?
+𤤏	kQ_Yetq
+𧦾	kQ_Yetq		#夬
+𨥻	kQ_Yetq
+𨀆	kQ_Yetq
+𦚀	kQ_Yetq
+𱟰	kQ_Yetq
+𣲺	kQ_Yetq
 玦	kQ_Yetq
 䀗	kQ_Yetq
 訣	kQ_Yetq
@@ -18293,6 +18302,7 @@ import_tables:
 𦯊	kQ_Yetq
 𨼱	kQ_Yetq
 䦼	kQ_Yetq		#𨼱
+𦈫	khQ_Yetq
 缺	khQ_Yetq
 抉	AYetq
 䆢	AYetq
@@ -25009,7 +25019,7 @@ import_tables:
 癖	pheekq		#痃癖病
 僻	pheekq		#邪僻
 甓	beekq
-𪇊	beekq		#𪇊鷈
+𪇊	beekq		#𪇊鷈#說文 集韻
 鷿	beekq
 㱸	beekq
 幦	meekq
@@ -28968,9 +28978,9 @@ import_tables:
 錖	toukq
 𤬂	toukq
 𥓍	toukq
-裻	toukq
+裻	toukq 	#冬毒切 背縫
 𧝴	toukq
-裻	soukq
+裻	soukq 	#先篤切 新衣
 ###ioŋ 鍾
 ##
 嵩	siuCq		#崇
@@ -29514,7 +29524,7 @@ import_tables:
 𣢰	tsiivkq
 𨀚	tsiivkq
 𠱙	tsiivkq
-踧	tsiivkq		#菽叔尗ts-i-v-k
+踧	tsiivkq		#菽叔尗ts-i-v-k#⿰足尗𨀚
 𠴫	tsiivkq
 縬	tsSiivkq
 摵	sSiivkq		#𢷾

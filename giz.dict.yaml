@@ -110,8 +110,10 @@ use_preset_vocabulary: true
 # 什邡	
 婩斫	
 偙儶	
-𪇊鷉	
-# 鸊鷉	
+鶙鵳
+鴺鶘
+𪇊鷈
+鸊鷉	
 烏鰂	
 糉子	
 摴蒲	
@@ -1709,7 +1711,7 @@ use_preset_vocabulary: true
 𣎼	poavA		#呆𡥀
 ⿰亻𡥀	poavA
 𤓽	phiuvq		#孚
-抙	boavq		#捊
+抙	boovq		#捊
 ###矛
 𢦵	miuvq
 茅	dRioA
@@ -2172,8 +2174,8 @@ use_preset_vocabulary: true
 沬	moarq
 昧	moarq
 ###貝
-𣀕	baajs
-𰶹	baajs
+𣀕	baarq
+𰶹	baarq
 唄	poarq	99
 ###𣎳𣏟葩
 𣏕	phaes		#𣎳
@@ -2184,15 +2186,15 @@ use_preset_vocabulary: true
 芾	pu;js	9		#芾
 ##
 𣎵	phvatq
-㳈	phoujs		#沛
+㳈	phoarq		#沛
 𣎵	phvatq		#𣎵芾
 𢪹	phvatq
-𩶚	poujs
-𢘨	phoujs
+𩶚	poarq
+𢘨	phoarq
 ##
 𨠓	phvatq
 𦍜	phvatq
-牬	poujs
+牬	poarq
 ##巿
 𢂤	poarq
 𠀽	poarq
@@ -2203,7 +2205,7 @@ use_preset_vocabulary: true
 𢻵	lootq
 # 㤄	poarq
 ##
-𤙍	poujs		#㸬
+𤙍	poarq		#㸬
 ##般班
 𣪂	paanq
 𤦦	paanq
@@ -2850,9 +2852,9 @@ use_preset_vocabulary: true
 懟	doojs
 ###𠂤
 𫡆	toojq
-縋	dRwujs
-膇	dRwujs
-槌	dRwujs
+#縋	dRwujs
+#膇	dRwujs
+#槌	dRwujs
 ###頹
 頽	doojq
 頺	doojq
@@ -2914,20 +2916,20 @@ use_preset_vocabulary: true
 𦰵	khferq
 𦹣	khferq
 ###會
-燴	Evajs
-檜	Evajs
+燴	Evarq
+檜	Evarq
 𥵊	khfas
-𠃐	Evajs
-巜	kvajs		#澮
+𠃐	Evarq
+巜	kvarq		#澮
 #
-会	Evajs	0
-屷	Evajs
-㑹	Evajs
-㞧	Evajs
-𠍗	Evajs
-𡥋	Evajs
-𣌭	Evajs
-𣥈	Evajs
+会	Evarq	0
+屷	Evarq
+㑹	Evarq
+㞧	Evarq
+𠍗	Evarq
+𡥋	Evarq
+𣌭	Evarq
+𣥈	Evarq
 ###毀
 䛼	hweA
 毁	hweA		#1	#毀𬛸圼
@@ -3273,34 +3275,34 @@ use_preset_vocabulary: true
 擂	loojq
 擂	loojs
 ###朵
-躲	tvajA
+躲	tvaA
 #
-杂	tvajA	0
-𣎾	tvajA
-𣎿	tvajA
-𣏻	tvajA
-朶	tvajA
-躱	tvajs
-㛆	tvajs
-刴	tvajs
-桗	tvajs
-桗	tvajs
-挅	tvajA
-𥿰	tvajA
-𥿱	tvajA
-𨹃	tvajq
-𨦃	tvajAs
-挅	tvajs
-𨹃	tvajA
+杂	tvaA	0
+𣎾	tvaA
+𣎿	tvaA
+𣏻	tvaA
+朶	tvaA
+躱	tvas
+㛆	tvas
+刴	tvas
+桗	tvas
+桗	tvas
+挅	tvaA
+𥿰	tvaA
+𥿱	tvaA
+𨹃	tvaq
+𨦃	tvaA
+挅	tvas
+𨹃	tvaA
 𥬸	tRfaq
-𥬸	dvajA
-垜	dvajA
-𤬾	dvajA
+𥬸	dvaA
+垜	dvaA
+𤬾	dvaA
 ##
-䒳	tvajA
-𩒜	tvajA
-趓	tvajA
-𩎫	tvajA
+䒳	tvaA
+𩒜	tvaA
+趓	tvaA
+𩎫	tvaA
 跺	tvas
 ###低
 眂	dzJjis
@@ -3345,7 +3347,7 @@ use_preset_vocabulary: true
 𡍑	djis
 𤅴	djis
 𪒉	djis
-地	Leajs	9		#集韻 四等 也
+地	deejs	9		#集韻 四等 也
 𭍽	djis
 𮋭	djis
 牠	thoaq
@@ -3505,10 +3507,10 @@ use_preset_vocabulary: true
 𮊛	kxerq
 𮊝	kxerq
 ###兌
-𱛯	dvajs
-𡷋	dvajs
+𱛯	dvarq
+𡷋	dvarq
 𩒬	thRfatq		#䫄
-兑	dvajs
+兑	dvarq
 敚	dvutq
 棁	thvutq
 棁	thootq
@@ -3526,7 +3528,7 @@ use_preset_vocabulary: true
 𣮆	thvus		#毤
 毻	thvaq
 #
-兊	dvajs		#兌
+兊	dvarq		#兌
 哾	sJyerq
 ###𨼰
 媠	thvaA
@@ -4971,7 +4973,7 @@ use_preset_vocabulary: true
 嗖	sSiukq
 𧼭	sSiukq
 ###隹
-𦑏	thRaajs
+𦑏	thRaarq		# 篇海 音蠆
 趡	tsjevs
 𨾮	syiq		#1		#奞
 ###崔
@@ -5843,9 +5845,9 @@ use_preset_vocabulary: true
 𡫼	so;kq
 𡺶	so;kq
 𥤧	so;kq
-𡍥	dzSaajs
-𥓽	dzSaajs
-𡎵	dzSaajs
+𡍥	dzSaes
+𥓽	dzSaes
+𡎵	dzSaes
 ###此
 呲	tsjeq
 呲	dzjeq
@@ -9216,9 +9218,9 @@ use_preset_vocabulary: true
 𥚢	syis
 𥘐	syis
 𥘈	syis
-𥩂	tshvajs
-𥧞	tshvajs
-𥨺	tshvajs
+𥩂	tshvar
+𥧞	tshvar
+𥨺	tshvar
 ###𠭥-出
 #欵
 𩺶	khvanA
@@ -9560,7 +9562,6 @@ use_preset_vocabulary: true
 𥃩	ko,ns
 ###旣旡-t
 #
-𭡰	ko,js
 㒫	kxis
 𠑶	kxis
 𠑸	kxis
@@ -9568,12 +9569,11 @@ use_preset_vocabulary: true
 既	kxis		#1		#旣
 溉	kxis
 暨	kxis
-概	ko,js
+#概	kvarq
 塈	hxis
 𣪘	khiuvq
 ##愛-r
-嬡	Ao,js
-噯	Ao,js
+
 ###斦質
 𧸲	tsJjitq
 儨	tsJjitq
@@ -11163,6 +11163,7 @@ use_preset_vocabulary: true
 ##𥏼
 𤁰	dRaakq
 ###寍
+𬐘	neeCq
 寗	neeCs
 # 甯	neeCs
 𡨪	neeCs
@@ -14345,7 +14346,6 @@ use_preset_vocabulary: true
 𦋄	phvioq
 𦋑	biuvq
 𧧜	muaCA
-𧧧	ljajs
 𧵽	maeA
 # ⿰木𡶬
 # ⿰牛𡶬
@@ -14718,7 +14718,6 @@ use_preset_vocabulary: true
 掱	baaq
 抭	qu;tq
 擤	sjeCA
-𥩝	tshaq
 抙	boavq		#捊
 𢯾	moavs
 㩉	hxipq

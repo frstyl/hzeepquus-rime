@@ -118,10 +118,11 @@ speller:
 
     # - derive/([oveYjyrWxwaf]u)j([qAs])/$1$2/ 
     - derive/([oviuxw]a)jq$/$1/ #aj
-    #- derive/(a)jq$/$1/
+    - derive/([ov][au])j/$1/ 
     - derive/(i)j/$1/ #ij ei ej
 
     - fuzz/([af][aeiou;,])jq$/$1/
+    - fuzz/([ov][;,])jq$/$1/
 ##介韻
 
     - derive/(VI)/U/ #uə
@@ -420,7 +421,9 @@ speller:
     #- derive/(?<!^)R([sAq])$/rr$1/
     # - derive/(?<!^)F/ff/
 ##𥳑尾
-    - abbrev/([aeiou;,])j([qAs])$/$1$2/ #jq
+    - abbrev/([aeiou;,])j/$1/ #jq ~乘承前
+    - abbrev/([aeiou;,])l/$1A/ 
+    - abbrev/([aeiou;,])r/$1/ 
     - abbrev/([aeiou;,])j?q$/$1/
     - abbrev/([aeiou;,])A$/$1l/
     - abbrev/([aeiou;,])s$/$1r/
