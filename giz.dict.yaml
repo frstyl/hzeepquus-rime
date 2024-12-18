@@ -66,6 +66,11 @@ use_preset_vocabulary: true
 #####韻書 
 ####今
 ###䛐
+蛜蝛
+𧑓蝜			#蟠 鼠負 鼠婦 蛜蝛
+蝜𧉩	
+蝜蝂			#柳宗元 蝜蝂傳
+螶𧎾	
 𤀰𤃵	
 𡰠𡰝
 𦑘𦒧	Eaemq hfak
@@ -123,20 +128,21 @@ use_preset_vocabulary: true
 ##多音
 万俟	mo;kq gi;q
 狋氏	gwenq tsjeCq
-龜兹	ku;q tsi;q
-咎䌛	kouvq dRruvs		#皋陶
+龜兹	kiuq tsi;q
+咎䌛	kouvq dRiuvs		#皋陶
 月氏	Cuatq tsJjeq
 閼氏	Aeenq tsJjeq
-單于	dzJjanq qvioq
+#單于	dJjanq QVioq
+單于	dzJjenq quoq
 憋怤	pjetq phuoq
 嚜杘	miukq thRxis
 嘿𣐉	miukq thRxis
 蠦蜰	looq bu;jq
-純束	doonq sJjokq
+純束	doonq sJiokq
 校尉	Eaevs Au;js
 大汗	doarq Eoanq
 大汗	doarq Eoans
-可汗	khah Eoanq
+可汗	khaak Eoanq		#字彙補
 ##連綿?
 郺𨑊	
 𪇹䳴	
@@ -5563,7 +5569,6 @@ use_preset_vocabulary: true
 啋	tsho,jA
 跴	tsho,jq
 踩	tsho,jA
-踩	lyetq
 𰗕	tsho,jA
 ###𠪋厚
 𠩞	EoovA
@@ -7207,9 +7212,7 @@ use_preset_vocabulary: true
 ###占
 黏	nRiams
 ##店
-掂	teemq
-惦	teems
-踮	teemA
+掂	teemq		#敁
 站	tRaemq
 𥩠	tRaems
 ##贛𥫔竷
@@ -10734,6 +10737,7 @@ use_preset_vocabulary: true
 漩	zyenq
 𣎓	zyenq
 𦛔	zyenq
+𩘶	zyenq
 ###𪋻塵
 𡔘	dxinqq
 𦧄	dxinqq
@@ -11645,7 +11649,7 @@ use_preset_vocabulary: true
 徔	dzioCq
 苁	dzioCq
 苁	tsouCA
-###囪匆悤
+###囪匆悤囪
 #
 匆	tshaoCq		#囪
 㘟	tshaoCq
@@ -11655,8 +11659,23 @@ use_preset_vocabulary: true
 𡆧	tshaoCq
 𡆪	tshaoCq
 𡆪	tshaoCq		#1		#囪
+𤊘	tshouCq
 ##
+#忩	tshouCq
+䓗	tshouCq
+棇	tshouCq
+総	tshouCq	0
+聡	tshouCq
+焧	tshouCq
+㥖	tshouCq
+䶼	tshouCq
+総	tsouCA
+捴	tsouCA
+倊	tsouCs
+𣚜	souCq
+䙂	tsJioCq
 # 窓	tshSaoCq
+䙂	
 𢃧	tsJioCA
 𢃪	tsJioCA
 䘴	tsJioCA
@@ -11920,6 +11939,8 @@ use_preset_vocabulary: true
 # 㮤	zioCq
 淞	zioCq
 忪	souCq
+䘴	tsJioCq
+𢃪	tsJioCq
 ##翁
 嗡	AouCq
 嗡	AouCA
@@ -13623,9 +13644,10 @@ use_preset_vocabulary: true
 𮚶	thRxins
 趂	thRxins
 𭹀	tRxinq
-𧦜	dRxins
-𧦽	dRxins
-𧧂	dRxins
+𧭉	tRxinA		#診
+𧦜	tRxinA
+𧦽	tRxinA
+𧧂	tRxinA
 ###㐆
 㐆	Ai;jq
 𠂣	Ai;jq
@@ -13646,8 +13668,7 @@ use_preset_vocabulary: true
 𫯜	hi;jq
 𭤔	hi;jq
 ###希-n
-㾙	hjinA
-脪	hjinA
+
 ###
 𪖪	hxeA
 ###

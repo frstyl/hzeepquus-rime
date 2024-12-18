@@ -4508,7 +4508,7 @@ import_tables:
 絺	thRxiq		#?RL#希 集韻 展几切#希t-i
 郗	thRxiq		#hIijq
 𥭘	thRxiq
-脪	thRxiq
+脪	thRxiq 	#𦚈脪牛馬子腸
 瓻	thRxiq
 ##xiR
 欭	Axis		#因A-i-n#因A-i-R
@@ -6146,7 +6146,20 @@ import_tables:
 螘	CI;jA
 俟	gI;jq	1
 郼	AI;jq
-希	XI;jq		#集韻 展几切#Ls?#希h-eo-j
+偯	AI;jA
+衣	AI;jq
+㛄	AI;jq
+䧇	AI;jq
+依	AI;jq
+㐆	AI;jq		#依
+𠂣	AI;jq
+㥋	AI;jq
+㥋	AI;jA
+扆	AI;jA
+㕈	AI;jA
+衣	AI;js
+##IəR
+希	XI;jq		#集韻 展几切#Ls?#希h-eo-j -R?
 𢁫	XI;jq
 晞	XI;jq		#L?
 莃	XI;jq
@@ -6166,19 +6179,6 @@ import_tables:
 欷	XI;js
 唏	XI;js
 䮎	XI;js
-偯	AI;jA
-衣	AI;jq
-㛄	AI;jq
-䧇	AI;jq
-依	AI;jq
-㐆	AI;jq		#依
-𠂣	AI;jq
-㥋	AI;jq
-㥋	AI;jA
-扆	AI;jA
-㕈	AI;jA
-衣	AI;js
-##IəR
 祈	gI;jq		#斤k-eo-R
 頎	gI;jq
 旂	gI;jq
@@ -7485,7 +7485,7 @@ import_tables:
 鉅	gioA
 駏	gioA
 䶙	gioA
-螶	gioq
+螶	gioq		#螶𧎾
 䢹	kioA
 𧺹	kioA
 柜	kioA
@@ -11620,7 +11620,7 @@ import_tables:
 𦡘	QVI;q
 𨞄	QVI;q
 腄	QVI;q
-郵	QVI;q
+郵	QVI;q		#?華?會意
 尤	QVI;q
 𣏞	QVI;q
 疣	QVI;q
@@ -20020,7 +20020,7 @@ import_tables:
 疹	tJj;nA
 畛	tJj;nA
 紾	tJj;nA
-診	tJj;nA
+診	tJj;nA		#𧭉
 袗	tJj;nA
 眕	tJj;nA
 䪾	tJj;nA
@@ -20994,19 +20994,10 @@ import_tables:
 墐	gx;ns
 𠞱	gx;ns
 歏	gx;ns		#歎?
-肸	hx;tq
-脪	hx;nA
-㾙	hx;nA
+肸	hx;tq 	#羲乙切
 衅	hmsx;ns		#ms?
 舋	hmsx;ns
 釁	hmsx;ns		#分?
-𪛊	Cx;nq
-釿	Cx;nA
-齗	Cx;nA
-听	Cx;nA
-垽	Cx;ns
-㹞	Cx;nq
-䓄	Cx;nq
 曁	kx;tq
 𡉛	Cx;tq		#气
 圪	Cx;tq
@@ -21034,6 +21025,15 @@ import_tables:
 ##RjəR
 𨳌	RRx;ns		#門?
 #
+脪	hx;nA		#興腎切#希-R
+㾙	hx;nA
+𪛊	Cx;nq
+釿	Cx;nA
+齗	Cx;nA
+听	Cx;nA
+垽	Cx;ns
+㹞	Cx;nq
+䓄	Cx;nq
 疢	thRx;ns		#𤵜疹
 珍	tRx;nq
 趁	thRx;ns
@@ -21976,10 +21976,7 @@ import_tables:
 䒗	hI;tq
 肸	hI;tq
 䏌	hI;tq
-契	khI;tq
-㾙	hI;ns
-脪	hI;ns
-䛥	hI;tq
+契	khI;tq		#契?
 䴦	CI;nq
 狺	CI;nq
 慇	AI;nq
@@ -22005,7 +22002,10 @@ import_tables:
 㶏	AI;nA
 隱	AI;ns
 㶏	AI;ns
-##
+##-R
+㾙	hI;ns		#希-R
+脪	hI;ns
+䛥	hI;tq
 釿	kI;nq
 斤	kI;nq
 𪏴	kI;nA
@@ -27093,7 +27093,8 @@ import_tables:
 侐	hQsWikq
 ####oŋ 東鍾江
 ###oŋ
-㬝	souCq
+㬝	souCq	 #出聲譜 𤾥
+##
 㟅	CQ_ouCq
 㟅	louCq
 㚇	tsouCq
@@ -27474,7 +27475,7 @@ import_tables:
 龓	louCA
 礱	louCs
 㰍	louCq
-罞	mouCq
+罞	mouCq		#矛-務敄m-o
 髳	mouCq
 雺	mouCq
 霿	mouCq
@@ -27523,7 +27524,7 @@ import_tables:
 㢅	louCs
 㳥	louCs
 弄	louCs
-郺	AouCA
+郺	AouCA		#雍邕
 𪖵	AouCs
 甕	AouCs
 𦉥	AouCs
@@ -28327,7 +28328,8 @@ import_tables:
 頌	JqioCq		#頌
 𩔜	JqioCq
 䡆	JqioCq
-𢃓	tsJioCA		#幒
+𢃓	tsJioCA		#職勇切#幒 當平聲
+幒	tsJioCA		#?䘴
 鬆	tshioCq		#?
 蜙	sq-ioCq
 淞	sq-ioCq
@@ -28356,7 +28358,6 @@ import_tables:
 塎	JqioCA
 溶	JqioCA
 傛	JqioCA
-幒	tJioCA
 廾	kioCq	2
 𠬞	kioCq	2
 龏	kioCs
@@ -30906,6 +30907,15 @@ import_tables:
 𤣝	sj,RA	2
 苶	nJj,tq	1
 ##RjəR
+脪	hx;RA
+㾙	hx;RA
+𪛊	Cx;Rq
+釿	Cx;RA
+齗	Cx;RA
+听	Cx;RA
+垽	Cx;Rs
+㹞	Cx;Rq
+䓄	Cx;Rq
 疢	thRx;Rs		#𤵜疹
 珍	tRx;Rq
 趁	thRx;Rs
@@ -30943,7 +30953,10 @@ import_tables:
 獖	bv;RA
 ##IaR a?ə?
 䘆	XI,RA		#憲
-##
+##-n
+㾙	hI;Rs		#希-R
+脪	hI;Rs
+䛥	hI;tq
 釿	kI;Rq
 斤	kI;Rq
 𪏴	kI;RA
@@ -30977,6 +30990,26 @@ import_tables:
 䓄	CI;Rq
 㹜	CI;Rq		#斦?
 ##IəR
+希	XI;Rq		#集韻 展几切#Ls?#希h-eo-j -R?
+𢁫	XI;Rq
+晞	XI;Rq		#L?
+莃	XI;Rq
+鵗	XI;Rq
+睎	XI;Rq
+稀	XI;Rq
+豨	XI;Rq
+𧻶	XI;Rq
+桸	XI;Rq
+悕	XI;Rq
+俙	XI;Rq
+欷	XI;Rq
+豨	XI;RA
+俙	XI;RA
+𪖥	XI;RA
+唏	XI;RA
+欷	XI;Rs
+唏	XI;Rs
+䮎	XI;Rs
 祈	gI;Rq		#斤k-eo-R
 頎	gI;Rq
 旂	gI;Rq
