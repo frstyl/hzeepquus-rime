@@ -126,6 +126,7 @@ speller:
     - derive/^(hQs)/Qs/
     - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
 
+    - derive/([SRJ](?![qAs ]))/\L$1/
     #- derive/^(ph?|b|ms?)/P/
     #- derive/^(th?|d|ns?)/T/
     #- derive/^(tsh?|t?s|d?z)/Z/ #

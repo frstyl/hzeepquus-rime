@@ -426,14 +426,14 @@ speller:
     #- derive/^Z/zz/
     
 
-    - xform/^h([Ij])/hi/
-    - xform/^h([Uy])/hu/
-    - xform/^q([Ij])/qi/
-    - xform/^h([Uy])/qu/
+    #- xform/^h([Ij])/hi/
+    #- xform/^h([Uy])/hu/
+    #- xform/^q([Ij])/qi/
+    #- xform/^h([Uy])/qu/
     - fuzz/^sJ(?=[jy])/h/ #船
     - fuzz/^zJ(?=[jy])/q/ #書
-    - fuzz/^h/hs/ #曉
-    - fuzz/^q/qz/ #雲
+    - fuzz/^[LCQ]sJ?/hs/ #曉
+    #- fuzz/^q/qz/ #雲
 
     - derive/^z/Z/ #衺
     - derive/^dz/z/

@@ -7,27 +7,27 @@ use_preset_vocabulary: true
 ...
 ####
 # =	to;CA
-≠	pvi;q to;CA
+≠	pVi;q to;CA
 ↑	dzJiaCA	999
 ↓	hgaaA	999
 ←	tsoajA	999
-→	Qvi;s	999
-↔	tsoajA Qvi;s
+→	QVi;s	999
+↔	tsoajA QVi;s
 ↕	dzJiaCA hgaaA
 ↖	tsoajA dzJjaCA
-↗	Qvi;s dzJjaCA
-↘	Qvi;s hgaaA
+↗	QVi;s dzJjaCA
+↘	QVi;s hgaaA
 ↙	tsoajA hgaaA
 ∩	kaevq	999
 ∪	pjeCs	999
-∈	tJjokq Qvioq
-∉	pvi;q tjiok Qvioq
-⊆	hgo,mq Qvioq
-⊊	hgo,mq Qvioq
-⊈	pvi;q hgo,m Qvioq
+∈	tJjokq QVioq
+∉	pVi;q tjiok QVioq
+⊆	hgo,mq QVioq
+⊊	hgo,mq QVioq
+⊈	pVi;q hgo,m QVioq
 ∀	dzyonq	999
-∃	Qvi;A	999
-∄	mvioq	999
+∃	QVi;A	999
+∄	mVioq	999
 ∅	khouCq	999
 　	khouCq	999
 ∂	mu;jq pu;nq
@@ -48,7 +48,7 @@ use_preset_vocabulary: true
 √	kho,jq puaC
 ×	zJi;Cq	999
 ¿	mu;ns	999
-∞	muoq giuC
+∞	mVioq giuC
 々	dRioCq
 ######
 #####字書
@@ -71,9 +71,11 @@ use_preset_vocabulary: true
 冫	pi;Cq	99
 亻	nJjinq	99
 釒	kximq	99
-钅	kximq	0
+釒	ki;mq	99
+钅	ki;mq	0
 阝	biuvA	99
-阝	Ax;pq	99
+阝	Axipq	99
+阝	Ai;pq	99
 飠	zJi;kq	99
 饣	zJi;kq	0
 衤	Ai;jq	99		#
@@ -83,12 +85,13 @@ use_preset_vocabulary: true
 纟	si;q	0
 纟	meekq	0
 艹	tshouvA	99
+耂	loavA	99
 耂	louvA	99
 礻	zJjis	99
 訁	Cianq	99
 讠	Cianq	0
 𤣩	Ciokq	99
-# 爿	dzjaCq	99
+# 爿	dziaCq	99
 丬	dziaCq	0
 牜	Ciuvq	99
 犭	khvenA	99
@@ -98,11 +101,12 @@ use_preset_vocabulary: true
 𦉫	muaCA	99
 𦉰	muaCA	99
 𦉪	muaCA	99
-辶	thRxakq	99
+辶	thRiakq	99
+爫	tsSaavA	99
 爫	tsSauvA	99
 𱼀	nJiukq	99
 罒	miukq	99
-𧾷	tsjokq	99
+𧾷	tsiokq	99
 ##
 乛	tsJjetq	99
 𠃍	tsJjetq	99
