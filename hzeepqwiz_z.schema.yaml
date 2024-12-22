@@ -119,10 +119,10 @@ speller:
     - derive/^(Rsh[RJ]?|RsR)/Rs/    #RsS? hR與X-R悖
     - derive/^(RzR|R(?![s])[R]?|l)/Rz/ #R-无J, 无s-R類
     - derive/^(hLsJ|Lsh[RJ]?|Ls[RJ]?|hLs)/Ls/
-    - derive/^(Lz[JR]|L[RJ]|JL|L(?![s]))/Lz/ #Lzc? Lc?
+    - derive/^(Lz[RJ]|L[RJ]|JL|L(?![s]))/Lz/ #Lzc? Lc?
     - derive/^(hms|msF?)/ms/
-    - derive/^(hns[RJ]|hns|nsh)/ns/
-    - derive/^(hCs[RJ]|hCs)/Cs/
+    - derive/^(hns[RJ]|hns|nsh|ns[RJ])/ns/
+    - derive/^(hCs[RJ]|hCs|Cs[RJ])/Cs/
     - derive/^(hQs)/Qs/
     - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
 
@@ -245,6 +245,11 @@ speller:
     - derive/ʌ/oe/
     - derive/ə/eo/
     - derive/(ʌ|ə)/ea/
+##
+    - abbrev/([jx])i/$1/ #半元作元 配下u o
+    - abbrev/([yw])[iu]/$1/ #ju vi溷
+    - abbrev/([iuIU])u/y/ 
+    - abbrev/([vo])u/v/ #v=vu
 ##
     - fuzz/^J/j/
     - derive/Q/q/

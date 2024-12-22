@@ -309,10 +309,10 @@ speller:
     - derive/^(Rsh[RJ]?|RsR)/Rs/    #RsS? hR與X-R悖
     - derive/^(RzR|R(?![s])[R]?|l)/Rz/ #R-无J, 无s-R類
     - derive/^(hLsJ|Lsh[RJ]?|Ls[RJ]?|hLs)/Ls/
-    - derive/^(Lz[JR]|L[RJ]|JL|L(?![s]))/Lz/ #Lzc? Lc?
+    - derive/^(Lz[RJ]|L[RJ]|JL|L(?![s]))/Lz/ #Lzc? Lc?
     - derive/^(hms|msF?)/ms/
-    - derive/^(hns[RJ]|hns|nsh)/ns/
-    - derive/^(hCs[RJ]|hCs)/Cs/
+    - derive/^(hns[RJ]|hns|nsh|ns[RJ])/ns/
+    - derive/^(hCs[RJ]|hCs|Cs[RJ])/Cs/
     - derive/^(hQs)/Qs/
     - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
 
@@ -560,9 +560,11 @@ translator:
     - xform/A/ʔ/
     - xform/E/ɦ/
     - xform/^(t?)sJ/$1ɕ/
+    - xform/^tshJ/tɕh/
     - xform/^(d?)zJ/$1ʑ/
-    - xform/^(t?)sJ/$1ʃ/
-    - xform/^(d?)zJ/$1ʒ/
+    - xform/^(t?)sS/$1ʃ/
+    - xform/^tshS/tʃh/
+    - xform/^(d?)zS/$1ʒ/
     # - xform/sR/ʂ/
     # - xform/zR/ʐ/
     # - xform/tR/ʈ/
