@@ -42275,10 +42275,8 @@ use_preset_vocabulary: true
 #整	tsJjeCA
 #頸	kjeCA
 #烴	kjeCA
-#頸	kjeCA
-#痙	gjeCA
+#痙	gjeCA		#巨井切
 #𠗊	gjeCA
-#䫴	gjeCA
 #廮	AjeCA
 #𨟙	AjeCA
 #巊	AjeCA
@@ -42388,7 +42386,7 @@ use_preset_vocabulary: true
 #令	ljeCs
 #詅	ljeCs
 #伶	ljeCs
-#辟	pjekq
+#辟	pjekq		#必益切
 𨐝	pjekq
 𠊕	pjekq
 #𨐨	pjekq
@@ -42406,7 +42404,7 @@ use_preset_vocabulary: true
 𤢣	pjekq
 #䌟	pjekq
 #碧	pjekq
-#僻	phjekq
+#僻	phjekq		#匹辟切
 #辟	phjekq
 #薜	phjekq
 𠊕	phjekq
@@ -42416,8 +42414,7 @@ use_preset_vocabulary: true
 #𠪮	phjekq
 #霹	phjekq
 #澼	phjekq
-#䍇	phjekq
-#擗	bjekq
+#擗	bjekq 	#毗亦切
 #㱸	bjekq
 #𣮐	bjekq
 #辟	bjekq
@@ -42435,11 +42432,9 @@ use_preset_vocabulary: true
 #椑	bjekq
 #𢃍	bjekq
 #𣝍	bjekq
-#欂	bjekq
-#䪙	bjekq
-#剔	thjekq
+#剔	thjekq		#土益切
 騞	thjekq
-#悌	djekq
+#悌	djekq		#待亦切
 #弟	djekq
 #積	tsjekq
 #襀	tsjekq
@@ -42661,11 +42656,9 @@ use_preset_vocabulary: true
 #射	zJjekq
 #麝	zJjekq
 𣽜	zJjekq
-#䩤	kjekq
-#䩐	kjekq
-#𢢞	khjekq
+#𢢞	khjekq		#苦席切
 𨒅	khjekq
-#益	Ajekq
+#益	Ajekq		#伊昔切
 #謚	Ajekq
 #嗌	Ajekq
 #𠍳	Ajekq
@@ -42675,7 +42668,6 @@ use_preset_vocabulary: true
 #𦶩	Ajekq
 #齸	Ajekq
 㜋	Ajekq
-#虩	hjekq		#火彳切
 #睪	Jjekq
 𦎝	Jjekq
 #繹	Jjekq
@@ -42833,15 +42825,14 @@ use_preset_vocabulary: true
 #詗	hyeCs
 #醟	hyeCs
 𥃴	hyeCs
-#𥄎	tshyekq
+#𥄎	tshyekq		#七役切
 #𢔠	tshyekq
-#鶪	kyekq
+#鶪	kyekq		#工役切
 #攫	kyekq
 #玃	kyekq
 #貜	kyekq
-#䠐	khyekq
-#躩	khyekq
-#瞁	hyekq
+#䠐	khyekq		#棄役切
+#瞁	hyekq		#呼役切
 #規	hyekq
 #𥆛	hyekq
 #狊	hyekq
@@ -42936,6 +42927,8 @@ use_preset_vocabulary: true
 #浧	dRxeCA
 #裎	dRxeCA
 𣶖	dRxeCA
+#頸	kjeCA		#九領切
+#䫴	gjeCA		#渠領切
 #竀	thRxeCs
 靗	thRxeCs
 𧶸	thRxeCs
@@ -42948,6 +42941,9 @@ use_preset_vocabulary: true
 #㽀	dRxeCs
 䄇	dRxeCs
 #𧕝	nRxeCs
+#䍇	phxekq 	#鋪彳切
+#欂	bxekq 	#平碧切
+#䪙	bxekq
 #𪐏	tRxekq
 #𤂥	tRxekq
 #潪	tRxekq
@@ -42973,6 +42969,10 @@ use_preset_vocabulary: true
 𧀿	dRxekq
 #樀	dRxekq
 #鑈	nRxekq
+#䩤	kxekq		#紀彳切
+#䩐	kxekq
+#虩	hxekq		#火彳切
+#躩	khwekq		#虧碧切
 #竮	beeCq
 #甹	beeCq
 #荓	beeCq
@@ -45729,7 +45729,7 @@ use_preset_vocabulary: true
 #諏	biuvq
 #捊	biuvq
 #抱	biuvq
-𡯧	miuvq
+𡯧	miuvq 	#㞁 彌攸切
 #輈	tRiuvq
 #𨏺	tRiuvq
 #𧻖	tRiuvq
@@ -46891,7 +46891,7 @@ use_preset_vocabulary: true
 #𨺅	biuvs
 #𨹺	biuvs
 #附	biuvs
-#謬	miuvs
+#謬	miuvs		#眉救切
 #嘐	miuvs
 #繆	miuvs
 #𦘙	tRiuvs
@@ -47234,7 +47234,7 @@ use_preset_vocabulary: true
 #襃	boovq
 #臼	boovq
 錇	boovq
-#謀	moovq
+#謀	moovq		#迷浮切 當iu尤韵
 𢜯	moovq
 㖼	moovq
 𢘓	moovq
@@ -47898,7 +47898,7 @@ use_preset_vocabulary: true
 #䗱	boovs
 #𦭼	boovs
 𣧶	boovs
-#戊	moovs
+#戊	moovs 	#莫候切
 #茂	moovs
 #𦼪	moovs
 𦺒	moovs
@@ -48229,30 +48229,30 @@ use_preset_vocabulary: true
 #𣤋	loovs
 #驫	pruvq
 𤆀	pruvq
-#髟	pruvq
+#髟	pruvq		#必幽切
 #彪	pruvq
 #飍	pruvq
-#彪	pruvq
+#彪	pruvq		#悲幽切
 #髟	pruvq
 #驫	pruvq
 #䱐	pruvq
-#飍	bruvq
-#瀌	bruvq
+#飍	bruvq		#步幽切
+#瀌	bruvq		#平幽切
 #滮	bruvq
 #烰	bruvq
-#淲	bruvq
+#淲	bruvq		#皮虬切
 #滮	bruvq
 #𩖛	bruvq
 #瀌	bruvq
-#繆	mruvq
+#繆	mruvq		#亡幽切
 #㣎	mruvq		#𤽖
 #䋷	mruvq
 #鷚	mruvq
 #樛	mruvq
-#稵	tsruvq
+#稵	tsruvq 	#子幽切
 𥠃	tsruvq
 #䨂	tsruvq
-#犙	sSruvq
+#犙	sSruvq		#山幽切
 #樛	kruvq
 #朻	kruvq
 #摎	kruvq
@@ -48313,13 +48313,13 @@ use_preset_vocabulary: true
 #黝	Aruvq
 𩘈	Aruvq
 㴗	Aruvq
-#飍	hruvq
+#飍	hruvq 	#香幽切
 #膮	hruvq
 #休	hruvq
 #驫	hruvq
 #烋	hruvq
 #貅	hruvq
-#鏐	lruvq
+#鏐	lruvq		#力幽切
 #蟉	lruvq
 #糾	kruvA
 糺	kruvA
@@ -48349,9 +48349,9 @@ use_preset_vocabulary: true
 #拗	AruvA
 𤱎	AruvA
 #蟉	AruvA
-#䡂	kruvs
+#䡂	kruvs 	#己幼切
 #椆	kruvs
-#赳	kruvs
+#赳	kruvs		#古幼切
 #僇	kruvs
 #鼼	kruvs
 #叫	kruvs

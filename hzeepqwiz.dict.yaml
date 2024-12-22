@@ -2,6 +2,9 @@
 #
 #---
 #叶韻hzeepqwins 字書基于廣韻
+#poem 广韵字音表https://zhuanlan.zhihu.com/p/20430939?utm_psn=1853205244852457472
+#布知道 广韵形声考 http://www.kaom.net/sgy_bzd.php
+#中古漢語拼音 https://github.com/rime/rime-middle-chinese
 #
 name: hzeepqwiz
 version: "2022.2.7"
@@ -8543,7 +8546,7 @@ import_tables:
 霧	mF_uoks
 ##Uu- 軌wu
 噢	AuuA		#奧
-孚	phF_uuq
+孚	phF_uuq		#孚p-eo?p-a?
 𤔍	phF_uuq
 殍	phF_uuq		#草木枯落# 非𣧶
 𦋄	phF_uuq
@@ -8559,24 +8562,24 @@ import_tables:
 䱐	phF_uuq
 䞯	phF_uus
 𠓗	phF_uus	9		#訓䞯
-玸	bF_uuq
+玸	bF_uuq		#包p-u
 枹	bF_uuq
 ##Uə
-侮	mF_u;A
-䍙	mF_u;A
-㑄	mF_u;A
-䳇	mF_u;A
-𢜮	mF_u;q
-𢜮	mF_u;A
-剖	phF_u;A		#咅
-䋨	phF_u;A
-䯽	phF_u;A
-殕	phF_u;A
-𠟌	phF_u;A
-䞳	phF_u;s
-瓿	bF_u;q
-䓏	phF_u;q		#?
-䎷	phF_u;s	1		#?
+侮	mF_VioA
+䍙	mF_VioA
+㑄	mF_VioA
+䳇	mF_VioA
+𢜮	mF_Vioq
+𢜮	mF_VioA
+剖	phF_VioA		#咅
+䋨	phF_VioA
+䯽	phF_VioA
+殕	phF_VioA
+𠟌	phF_VioA
+䞳	phF_Vios
+瓿	bF_Vioq
+䓏	phF_Vioq		#?
+䎷	phF_Vios	1		#?
 #####-r 次入 ar er -ks -ps
 ####ar 泰廢泰
 ###ar
@@ -9410,7 +9413,7 @@ import_tables:
 袍	bouv_s
 菢	bouv_s
 袍	bouv_q
-袌	bouv_q
+袌	bouv_q		#捊
 軳	bouv_q
 抱	bouv_A
 𨚔	pouv_q
@@ -9436,7 +9439,9 @@ import_tables:
 寶	pouv_A		#𡧖
 𡧖	pouv_A
 㯱	phouv_q		#缶
-襃	pouv_q
+襃	pouv_q		#褒
+𧛙	pouv_q
+褒	pouv_q
 㮘	mouv_q
 堥	mouv_q
 䓮	mouv_A
@@ -9589,8 +9594,8 @@ import_tables:
 腦	nouv_s
 峱	nouv_q
 䌦	douv_s		#?
-𧛔	touv_ks		#ks
-纛	douv_ks		#翿翢𢃶𣫟𦇨𦑢𦒫𦐩𦒇𦒛𦒞𦒯
+𧛔	touvks		#ks
+纛	douvks		#翿翢𢃶𣫟𦇨𦑢𦒫𦐩𦒇𦒛𦒞𦒯
 𩔇	louvA		#𩕍
 𩕍	louvA
 㟸	kQ_ouv_q
@@ -9713,39 +9718,39 @@ import_tables:
 懊	Aouv_A
 䐿	Aouv_A
 燠	Aouv_A
-奧	Aouv_ks		#ks
-𢍢	Aouv_ks
-𡪃	Aouv_ks
-懊	Aouv_ks
-䐿	Aouv_ks
-𩟇	Aouv_ks
-隩	Aouv_ks
-燠	Aouv_ks
-䜒	Aouv_ks
-墺	Aouv_ks
-𩼈	Aouv_ks
-澳	Aouv_ks
-冃	mouv_ks	999		#ks#冃m-ou-k-s
+奧	Aouvks		#ks
+𢍢	Aouvks
+𡪃	Aouvks
+懊	Aouvks
+䐿	Aouvks
+𩟇	Aouvks
+隩	Aouvks
+燠	Aouvks
+䜒	Aouvks
+墺	Aouvks
+𩼈	Aouvks
+澳	Aouvks
+冃	mouvks	999		#ks#冃m-ou-k-s
 𠔼	mouv_A
-𤣽	mouv_ks
+𤣽	mouvks
 媢	mouv_A
-冒	mouv_ks
-帽	mouv_ks
-瑁	mouv_ks
-𥈆	mouv_ks
-媢	mouv_ks
-𢯾	mouv_ks
-𣔺	mouv_ks
+冒	mouvks
+帽	mouvks
+瑁	mouvks
+𥈆	mouvks
+媢	mouvks
+𢯾	mouvks
+𣔺	mouvks
 ##əvk?
-報	pouv_ks		#ks
-𡙈	pouv_ks
-𫁘	tsouv_ks
-竈	tsouv_ks		#ks窖
-吿	kQ_ouv_ks	999		#ks
-告	kQ_ouv_ks
-誥	kQ_ouv_ks
-郜	kQ_ouv_ks
-靠	khQ_ouv_ks
+報	pouvks		#ks
+𡙈	pouvks
+𫁘	tsouvks
+竈	tsouvks		#ks窖
+吿	kQ_ouvks	999		#ks
+告	kQ_ouvks
+誥	kQ_ouvks
+郜	kQ_ouvks
+靠	khQ_ouvks
 祰	khQ_ouv_A
 晧	hgouv_A
 浩	hgouv_A
@@ -9989,12 +9994,12 @@ import_tables:
 ##Ro -aov
 煼	tshSaov_A		#芻ts-o#r-?
 𤌉	tshSaov_A
-謅	tshSaov_A
+謅	tshSao7v_A
 𩱈	tshSaov_A
 𩱦	tshSaov_A		#炒
 縐	tshSaov_s
 ##Ruv?
-掊	bauv_q
+掊	baav_q 	#咅#刨
 #
 獿	nRauv_A
 䃩	nRauv_q		#農?
@@ -10089,11 +10094,11 @@ import_tables:
 抓	tsSauv_s
 笊	tsSauv_s
 ##Ruvr
-覺	kQ_auv_ks		#ks
+覺	kQ_auvks		#ks
 攪	kQ_auv_A
 澩	hgauv_A
-𣱓	hgauv_ks
-斅	hgauv_ks
+𣱓	hgauvks
+斅	hgauvks
 ##Rəv?
 鵃	tRaavq		#舟
 ##Riv?
@@ -11050,13 +11055,10 @@ import_tables:
 𦳤	bxavA		#藨
 ####uv 侯尤幽əu
 ###oov 侯韵失R
+𠙶	AoovA		#山名
+##Oo?
 㹾	AoovA		#切韻 烏口切
 㰶	AoovA		#訓嘔歐?
-𠙶	AoovA		#山名
-##Oa?
-𩌏	boovs
-豧	phoovs		#甫
-##Oo?
 𩚭	boovq		#付
 戊	moovs
 茂	moovs
@@ -11065,72 +11067,75 @@ import_tables:
 鄮	moovs
 㨐	poovA		#保
 捊	boovq		#抱
-裒	boovq		#襃裦𧛙 捊
-𧛙	boovq	9
+裒	boovq		#非襃#捊
 #
+㹾	AruvA		#切韻 烏口切
+㰶	AruvA		#訓嘔歐?
+𩚭	bruvq		#付
 戊	mrus		#子之茂兮，遭我乎峱之道兮。竝驅從兩牡兮，揖我謂我好兮。
 茂	mrus
 牡	mruA
 貿	mrus		#卯m-r-u
 鄮	mrus
 㨐	pruA		#保
-捊	bruq		#抱
-裒	bruq		#襃裦𧛙 捊
-𧛙	bruq	9
-##Oʌ?Oo?Ou?- və→əv
-某	moovA		#詔前人之言也
-某	mo,vA
-呣	mo,vq
-娒	mo,vA
-母	mo,vA		#姆姥媽 母m-a#母每m-eo ##母
-拇	mo,vA
-胟	mo,vA
-𤝕	mo,vA
-𤵝	mo,vA
-𧿹	mo,vA
-䳇	mo,vA
-姆	mo,vs
-苺	mo,vs
-畮	mo,vA
-踇	mo,vA
-畞	mo,vA		#畮
-畝	mo,vA	1
-##Oə
-抔	bo,vq		#掊?#咅p-eo#咅p-o?#p-R-eo
-咅	tho,vs		#㰯
-㕻	tho,vs
-𠝒	pho,vA
-𩭸	bo,vq
-𡌮	bo,vA
-𦜟	bo,vA
-掊	po,vA
-剖	pho,vA
-婄	pho,vA
-䳝	pho,vA
-䯽	pho,vA
-蔀	pho,vA
-㕻	pho,vs
-㰴	pho,vs		#㰯
-踣	pho,vs
-仆	pho,vs	1		#踣
-䞳	pho,vs
-掊	bo,vq
-䯽	bo,vq
-䍌	bo,vq
-箁	bo,vq
-䏽	bo,vq
-部	bo,vA		#天水狄部 地名
-郶	bo,vA
-培	bo,vA
-瓿	bo,vA
-䍌	bo,vA
-䴺	bo,vA
-婄	bo,vA
-篰	bo,vA
-蔀	bo,vA
-䏽	bo,vA
-犃	bo,vA
-䏽	bo,vs
+捊	bruq		#抱#iuv-iov ouv-oov
+裒	bruq	
+##Oa?
+𩌏	boovs		#尃#集韻 扶富切
+豧	phoovs		#甫
+##Oʌ?Oo?Ou?Oa?- və→əv
+某	moovA		#莫厚切#詔前人之言也#謅aav搊iuv搊iov
+呣	moovq		#亡侯切 謀
+娒	moovA 	#莫厚切
+母	moovA		#姆姥媽 母m-a#母每m-eo ##母#iu→iəv→oəv #a>jo>yo>oov
+拇	moovA
+胟	moovA
+𤝕	moovA
+𤵝	moovA
+𧿹	moovA
+䳇	moovA
+姆	moovs		#莫候切
+苺	moovs
+畮	moovA
+踇	moovA
+畞	moovA		#畮
+畝	moovA	1
+##Oə?Oa?
+抔	boovq		#掊?#咅p-eo#咅p-o?#p-R-eo
+咅	thoovs		#㰯#集韻 普后切
+㕻	thoovs
+𠝒	phoovA
+𩭸	boovq
+𡌮	boovA
+𦜟	boovA
+掊	poovA 	#擊
+剖	phoovA
+婄	phoovA
+䳝	phoovA
+䯽	phoovA
+蔀	phoovA
+㕻	phoovs
+㰴	phoovs		#㰯
+踣	phoovs
+仆	phoovs	1		#踣
+䞳	phoovs
+掊	boovq
+䯽	boovq
+䍌	boovq
+箁	boovq
+䏽	boovq
+部	boovA		#天水狄部 地名
+郶	boovA
+培	boovA
+瓿	boovA
+䍌	boovA
+䴺	boovA
+婄	boovA
+篰	boovA
+蔀	boovA
+䏽	boovA
+犃	boovA
+䏽	boovs
 ##Oo Ro?
 兜	toovq
 篼	toovq
@@ -11524,48 +11529,48 @@ import_tables:
 #
 䜅	tshoovq	0		#千侯切 誤
 䜅	tshyujq		#正
-雺	moov_ks		#ks#矛m-u#敄m-o
-袤	moov_ks
-楙	moov_ks
-懋	moov_ks
-𦼪	moov_ks
-瞀	moov_ks
-愗	moov_ks
-䓮	moov_ks
-㝅	noov_A		#訓
-𣫌	noov_ks		#ks
-彀	kQ_oov_ks	999		#㱿够
-𤚼	kQ_oov_ks
-㝅	kQ_oov_ks
-鷇	khQ_oov_ks
-㜌	khQ_oov_ks
-䍍	khQ_oov_ks
-瞉	khQ_oov_ks
-鱟	hgoov_ks		#ks
-噣	toov_ks		#ks
-斣	toov_ks
-襡	toov_ks
-襡	doov_A
-蔟	tshoov_ks		#ks
-嗾	tshoov_ks
-嗾	soov_A
-嗾	soov_s
-欶	soov_ks		#ks
-涑	soov_q
-駷	soov_A
-鏉	soov_q
-𩌱	soov_q
-𩮶	soov_q
-摗	soov_q
-𠘂	soov_q
-𡠼	soov_q
-瘶	soov_ks
-嗽	soov_ks
-漱	soov_ks
-鏉	soov_ks
-耨	noov_ks		#ks
-槈	noov_ks
-鎒	noov_ks
+雺	moovks		#ks#矛m-u#敄m-o
+袤	moovks
+楙	moovks
+懋	moovks
+𦼪	moovks
+瞀	moovks
+愗	moovks
+䓮	moovks
+㝅	noovA		#訓
+𣫌	noovks		#ks
+彀	kQ_oovks	999		#㱿够
+𤚼	kQ_oovks
+㝅	kQ_oovks
+鷇	khQ_oovks
+㜌	khQ_oovks
+䍍	khQ_oovks
+瞉	khQ_oovks
+鱟	hgoovks		#ks
+噣	toovks		#ks
+斣	toovks
+襡	toovks
+襡	doovA
+蔟	tshoovks		#ks
+嗾	tshoovks
+嗾	soovA
+嗾	soovs
+欶	soovks		#ks
+涑	soovq
+駷	soovA
+鏉	soovq
+𩌱	soovq
+𩮶	soovq
+摗	soovq
+𠘂	soovq
+𡠼	soovq
+瘶	soovks
+嗽	soovks
+漱	soovks
+鏉	soovks
+耨	noovks		#ks
+槈	noovks
+鎒	noovks
 ###iu 尤 j
 𠁫	khIuv_q
 恘	khIuv_q		#𰀧𠁫#去秋切 幽
@@ -11612,11 +11617,11 @@ import_tables:
 䍌	bF_VI;q
 菩	bF_VI;A
 𧌈	bF_VI;A
-謀	mVI;q
-𠰔	mVI;q
-𧦥	mVI;q
-䱕	mVI;q
-莓	mVI;s
+謀	mF_VI;q		#莫浮切 #侯韵止呣亡侯切
+𠰔	mF_VI;q
+𧦥	mF_VI;q
+䱕	mF_VI;q
+莓	mF_VI;s 	#亡救切 切韵 集韻无此
 𦡘	QVI;q
 𨞄	QVI;q
 腄	QVI;q
@@ -12295,12 +12300,12 @@ import_tables:
 蟗	tshiivq
 蠤	tshiivq
 ##iəv?
-舟	tJiuvq
-𠣘	tJiuvq
+舟	tJiuv_q
+𠣘	tJiuv_q
 ##
-手	nsJiuvA		#ns- u
-𠂿	nsJiuvA
-𡴤	nsJiuvA
+手	nsJiuv_A		#ns- u
+𠂿	nsJiuv_A
+𡴤	nsJiuv_A
 ##
 袖	zL-iuks		#ks#由L-u
 褎	JLiuks
@@ -12310,17 +12315,17 @@ import_tables:
 䅢	tsiuks
 ###iuv
 ##iur iuks iuts
-嘼	thRiuv_ks		#畜
-畜	thRiuv_ks		#ks?
-噣	tRiuv_ks		#ks o?
-漱	sSiuv_ks		#ks
-鏉	sSiuv_ks
-簉	tshSiuv_ks		#ks
-䔏	tshSiuv_ks
+嘼	thRiuvks		#畜
+畜	thRiuvks		#ks?
+噣	tRiuvks		#ks o?
+漱	sSiuvks		#ks
+鏉	sSiuvks
+簉	tshSiuvks		#ks
+䔏	tshSiuvks
 㩅	thRiuv_q		#抽𢭆#Rs?
 㨨	thRiuv_q		#ks#Rs
-籒	dRiuv_ks
-籀	dRiuv_ks
+籒	dRiuvks
+籀	dRiuvks
 𢭆	LshRiuv_q		#秀L-u
 ##u uv?
 犙	sSiuv_q	0		#山幽切 誤
@@ -12482,28 +12487,28 @@ import_tables:
 𥎻	tRi;vq
 矪	tRi;vq
 #
-杽	nshRiuvA		#杻#手
+杽	nshRiuv_A		#杻#手
 ##
-䌛	LRiuvs
-繇	LRiuvs		#䌛䍃L-u
-抽	LshRiuvq		#Ls#由L-u
-菗	LRiuvq
-妯	LshRiuvq
-紬	LRiuvq
-怞	LRiuvq
-鮋	LRiuvq
-冑	LRiuvs
-𩊄	LRiuvs
-宙	LRiuvs
-胄	LRiuvs
-伷	LRiuvs
-䛆	LRiuvs
-駎	LRiuvs
+䌛	LRiuv_s
+繇	LRiuv_s		#䌛䍃L-u
+抽	LshRiuv_q		#Ls#由L-u
+菗	LRiuv_q
+妯	LshRiuv_q
+紬	LRiuv_q
+怞	LRiuv_q
+鮋	LRiuv_q
+冑	LRiuv_s
+𩊄	LRiuv_s
+宙	LRiuv_s
+胄	LRiuv_s
+伷	LRiuv_s
+䛆	LRiuv_s
+駎	LRiuv_s
 ###rov
 ##əv?
 鬮	krovq	0
 稵	tsrovq	0		#子幽切#茲? 𥠃#誤
-犙	Srovq		0
+犙	sSrovq		0
 ##
 驫	provq		#猋p-e-v
 飍	hmsrovq		#香幽反又風幽反 猋驫
@@ -12518,9 +12523,9 @@ import_tables:
 𤙠	gruv_q
 烋	hruv_q		#休h-u
 䠗	khruv_s
-彪	pruvq		#瀌?
-滮	bruvq
-淲	bruvq
+彪	pruv_q		#瀌?
+滮	bruv_q
+淲	bruv_q
 ##riv uv? rəv?
 蟉	lrivq		#翏R-i-v
 鏐	lrivq

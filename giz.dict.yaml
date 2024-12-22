@@ -1103,13 +1103,13 @@ use_preset_vocabulary: true
 𠥀	poojq
 𠤯	poojq
 #
-# 㐬	pFu;q
-𠀚	pFu;q
-𠙐	pFu;q
-𫠭	pFu;q
-不	pFu;q		#
-不	pFius		#方副切弗也
-不	pFuoq		#風無切艸木房為柎
+# 㐬	piuq
+𠀚	piuq
+𠙐	piuq
+𫠭	piuq
+#不	piuq		#
+#不	pFius		#方副切弗也
+#不	pFuoq		#風無切艸木房爲 #柎
 ###否
 ###丕
 胚	phoojq
@@ -1122,6 +1122,7 @@ use_preset_vocabulary: true
 㶨	phxiq
 𠦓	phxiq
 ###咅㕻-j -t
+郶	boovA
 賠	boojq		#僃
 焙	boojs
 碚	bo,jq
@@ -1164,10 +1165,10 @@ use_preset_vocabulary: true
 𢯈	mo,jq
 𧰷	moovA
 #
-𠆸	miuvA		#侮
+𠆸	muoA		#侮
 姆	moovA
 ##每
-霉	mxiq
+霉	mxiq		#正字通 莫裴切 梅雨 黴
 𡴋	moojA
 毎	moojA
 𡴕	moojA
@@ -1725,8 +1726,6 @@ use_preset_vocabulary: true
 𭿶	miuvq
 ###敄≠矛
 ###牟
-毪	miuvq
-哞	miuvq
 ###𢎘㔾犯
 㔾	phuams
 𢎘	phuams
@@ -2384,9 +2383,9 @@ use_preset_vocabulary: true
 𩝰	paavA
 𩞛	paavA
 𩜿	paavA
-###裒
+###襃 抱
 裦	poovq
-襃	poovq
+#襃	poovq
 𧚱	poovq
 𧛙	poovq
 𧜪	poovq
@@ -9176,6 +9175,7 @@ use_preset_vocabulary: true
 #
 # 隸	deejs
 # 隷	deejs
+歀	leejs
 𣜩	leejs
 𥛬	leejs
 𥻳	leojs
@@ -9183,6 +9183,16 @@ use_preset_vocabulary: true
 𨽻	leejs
 # 𨾀	leejs
 𨾁	leejs
+𫆕	leejs
+𭐘	leejs
+𭭧	leejs
+𮂄	leejs
+𮇬	leejs
+𮥵	leejs
+𱑅	leejs
+𱧲	leejs
+𱵜	leejs
+𱵰	leejs
 ###𡴅
 𡴅	tRwitq
 ⿱山巾	tRwitq
