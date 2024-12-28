@@ -1107,7 +1107,8 @@ import_tables:
 䋾	tRaajA
 奓	tRaajs
 䐒	tRaajs
-藞	laajA
+藞	laaA		#藞槎 泥不熟皃 盧下切
+藞	loajA		#正
 #
 沙	sSaajq
 魦	sSaajq		#沙
@@ -2611,7 +2612,8 @@ import_tables:
 𦘋	CQ_furq
 聵	CQ_furq		#𦖥𦘄
 ##vRuj vRuj
-䐯	lfujq
+䐯	lfejq 	#䐯膗 力懷切
+䐯	lvujq		#正
 𢶀	dzSfujq
 虺	hCsfujq		#ŋ̥ Cs
 膗	dzSfujq
@@ -5266,6 +5268,7 @@ import_tables:
 玘	khi;A
 芑	khi;A
 起	khi;A
+𨑓	khi;A
 邔	gi;s
 忌	gi;s
 䋟	gi;s
@@ -9999,6 +10002,7 @@ import_tables:
 𩱦	tshSaov_A		#炒
 縐	tshSaov_s
 ##Ruv?
+奅	laavq		#深空之皃 力嘲切
 掊	baav_q 	#咅#刨
 #
 獿	nRauv_A
@@ -10119,9 +10123,9 @@ import_tables:
 㺒	hgaivA
 䀊	hgaivA
 嘐	haivq		#翏k-R-i-v
-𠐋	laivq
-顟	laivq
-賿	laivq
+𠐋	laivq		#盛也
+顟	laivq		#顤顟 胡人面狀 力嘲切
+賿	laivq		#謎語云錢 又 力絞切
 㺒	nRaivA
 ##Rəv? Riv
 𦫶	phaivq		#丩
@@ -12527,8 +12531,10 @@ import_tables:
 滮	bruv_q
 淲	bruv_q
 ##riv uv? rəv?
-蟉	lrivq		#翏R-i-v
-鏐	lrivq
+蟉	lruvq		#力幽切 𧍘蟉#切韻 力求切#翏R-i-v
+鏐	lruvq		#力幽切 力求切 紫磨金
+蟉	ljivq		#正
+鏐	ljivq
 繆	mrivq		#翏 m-r?
 鷚	mrivq
 謬	mrivs
@@ -13441,10 +13447,10 @@ import_tables:
 䬯	neemq
 ###aem
 ##
-臉	laemA		#臉䑎羮屬 #力減切 集韻 居奄切
-醶	laemA
-#
-臉	lo,mA		#?
+臉	laemA		#臉䑎 羮屬 #力減切 集韻 居奄切
+醶	laemA		#醶䤘
+臉	lo,mA		#正
+醶	lo,mA		#正
 #
 淰	nRaemA		#念
 凹	Aaepq		#?厭 #㝓
@@ -18440,7 +18446,7 @@ import_tables:
 黠	hgaitq
 䕸	hgaitq
 𣁣	lainq
-潾	lainq
+潾	laenq		#?水皃 又力人切
 ##ORən
 稭	kQ_a;tq		#皆
 鞂	kQ_a;tq		#稭
@@ -18548,7 +18554,8 @@ import_tables:
 𨳢	kQ_aenq
 䉍	kQ_aens		#補正 蕄 #簡在帝心 䉍 在也
 ##a?e?
-斕	laenq		#闌 斒斕
+斕	laenq		#?闌 斒斕 力閑切 斒斕
+斕	loanq		#正
 柬	kQ_aenA		#柬k-R-e-n#柬k-R-a-n
 揀	kQ_aenA
 暕	kQ_aenA
@@ -23397,23 +23404,25 @@ import_tables:
 䂻	dRaaCs
 瑒	LRaaCA		#L昜
 ##Rjeŋ #re→ra庚三→aa
-冷	laaCA		#?力鼎切 魯打切
+冷	laaCA		#?力鼎切 魯頂切 魯打切#魯打反 又魯㝎反 ee→ie→re→ra
+冷	leiCA		#正
+打	taaCA		#德冷切 都挺切
+打	teeCA		#正
 #
-䛭	hreCs		#𠂷
-瀴	AreCs
+䛭	hreCs		#𠂷#許更切
+瀴	AreCs 	#於孟切
 #
-盯	tRreCA
-打	tRreCA
-䟓	thRreCq
-盯	dRreCq
-偵	tRreCs
-挰	LRreCq		#𡈼
+盯	tRreCA 	#張梗切
+䟓	thRreCq 	#丑庚切 丑貞切 中莖切
+盯	dRreCq		#直庚切
+偵	tRreCs 	#猪孟切 丑鄭切
+挰	LRreCq		#𡈼#直庚切
 鋥	LRreCs
 竀	thRreCq
-㲰	nRreCq		#?
+㲰	nRreCq		#?乃庚切
 獰	nRreCq
 𥣗	nRreCq
-檸	nRreCA
+檸	nRreCA		#拏梗切
 #
 琤	tshSreCq		#爭ts-e-C
 𩫿	dzSreCq		#鬇𩬒
@@ -23430,6 +23439,19 @@ import_tables:
 鼪	sSreCq
 珄	sSreCq
 猩	sSreCq
+##Rjeŋ?
+嘖	tsSrekq
+𪄱	tRrekq		#正
+𪐏	tRrekq
+嫡	tRrekq
+𥧮	tRrekq
+#
+𤂥	dRaakq		#𥏼#場伯切
+嘖	tsSaakq
+𪄱	tRaakq		#陟切
+𪐏	tRaakq
+嫡	tRaakq
+𥧮	tRaakq
 ##ROak
 迫	paakq
 敀	paakq
@@ -23531,7 +23553,6 @@ import_tables:
 𡧪	dRaakq
 𪀥	dRaakq
 磔	tRaakq
-𤂥	dRaakq		#𥏼
 蹃	nRaakq
 𧬢	tsSaakq
 㳻	tsSaakq
@@ -23560,18 +23581,6 @@ import_tables:
 澤	LRaakq
 𤢟	LRaakq		#白澤
 䕪	LRaakq
-##Rjeŋ?
-嘖	tsSxekq
-𪄱	tRxekq
-𪐏	tRxekq
-嫡	tRxekq
-𥧮	tRxekq
-#
-嘖	tsSaakq
-𪄱	tRaakq
-𪐏	tRaakq
-嫡	tRaakq
-𥧮	tRaakq
 ##Riŋ?
 𥉸	khQ_aiCq
 ##Rəŋ a?ə?
@@ -23583,7 +23592,7 @@ import_tables:
 棚	ba;Cq
 輣	ba;Cq
 #
-憕	dRx,Cq
+憕	dRx,Cq		#直庚切 宅耕切 憕𢘌失志
 𩏠	tRx,Cs
 澄	dRx,Cq
 㡧	tRx,Cs
@@ -24861,7 +24870,7 @@ import_tables:
 呤	leiCq		#啨呤
 跉	leiCq
 狑	leiCq
-冷	leiCq
+冷	leiCq		#魯頂切
 怜	leiCq
 秢	leiCq
 岭	leiCq
@@ -25382,6 +25391,9 @@ import_tables:
 銵	khQ_aiCq		#?身聲
 㧶	khQ_aiCq
 ##Rek
+礐	laekq		#力摘切 礐硞水石聲也 䃕礭
+𥖪	laekq		#蒦Q-R-a-k#𥖪礋 打草田器 出字林
+##
 𠕋	tshSaekq
 𥬰	tshSaekq
 𣆩	tshSaekq
@@ -25500,7 +25512,6 @@ import_tables:
 ##a?e?
 䨣	kQ_aekq		#非革聲
 㮝	hgaekq
-𥖪	laekq		#蒦Q-R-a-k
 #
 㮝	grakq		#集韵竭戟切
 ##Rjak? Rjaŋ ra→re→ae
@@ -26364,7 +26375,7 @@ import_tables:
 詠	QWaCs
 泳	QWaCs
 兄	hWaCq		#Vs?
-𦬺	hWaCA
+𦬺	hWaCA		#許永切
 ####əŋ eoŋ 登蒸
 ###əŋ
 蕄	mo;Cq		#萠←萌←𢡗←蕄←䉍
@@ -26974,13 +26985,13 @@ import_tables:
 瞪	dRi;Cs
 𪒘	dRi;Cs
 𪑬	dRi;Cs
-恧	nRi;kq
+恧	nRi;kq		#而
 畟	tshSi;kq
 𦔎	tshSi;kq
 溭	dzSi;kq
-庱	thRi;Cq
-睖	thRi;Cq
-庱	thRi;CA
+庱	RshRi;Cq		#夌
+睖	RshRi;Cq
+庱	RshRi;CA
 色	CsRi;kq		#𢒸𠤕C-eo-k
 𢒸	CsRi;kq
 𠾂	RsRi;kq	999		#來聲#來-R-eo-
@@ -27906,8 +27917,8 @@ import_tables:
 𩐨	baoCq
 舽	baoCq
 #Ro ro→ao?
-瀧	laoCq
-䮾	laoCq
+瀧	laoCq #南人名湍 亦州 在嶺南 呂江切
+䮾	laoCq		#充塞之皃
 瀧	sp-RaoCq		#龍?
 #
 艭	sSaoCq
@@ -28012,11 +28023,11 @@ import_tables:
 㩧	baavkq
 丵	dzSaavkq
 ##Ravk?
-䃕	laokq		#?勞
-犖	laokq
-𡁆	laokq
-䃕	loavkq
-犖	loavkq
+䃕	laokq		#?勞#䃕確
+犖	laokq		#駁犖 卓犖
+𡁆	laokq		#啅𡁆 有才辯 俗
+䃕	loavkq 	#正
+犖	loavkq		#正
 𡁆	loavkq
 ##Ravk -aavk
 眊	maavkq
@@ -28212,7 +28223,7 @@ import_tables:
 梏	kQ_aukq
 𤿩	khQ_aukq
 硞	khQ_aukq
-澩	dzSaukq
+澩	dzSaukq		#?s-g?
 壆	kQ_aukq
 覺	kQ_aukq
 䮸	kQ_aukq
@@ -29246,7 +29257,7 @@ import_tables:
 粥	k-JLiukq		#?k-L-u
 𤳕	k-JLiukq
 鬻	k-JLiukq
-粥	kLiukq		#?鬻
+粥	kLJiukq		#?鬻
 喌	tJiukq		#州
 柷	tJiukq
 柷	thJiukq
