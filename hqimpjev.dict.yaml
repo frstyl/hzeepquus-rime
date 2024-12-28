@@ -95,6 +95,8 @@ d͡	dz
 ʍ	fv
 f	f		#F f分?
 v	f
+þ	xt		#非 對齊
+þ	ft
 θ	ft
 ð	ft
 ð	fd
@@ -167,7 +169,9 @@ h	h
 h	E
 ɦ	E
 m	m
+m	np		#latin
 ɱ	mf
+ɱ	nf		#latin
 n	n
 ɳ	nr
 ȵ	nj		#非音幖
@@ -352,8 +356,8 @@ u	u
 ̬	z
 ̰	E		#漏气
 ̤	E		#
-̩	i		#成音節
-̯	j
+̩	w		#成音節
+̯	w
 ◌	o
 ̪	t
 ̼	t
@@ -378,10 +382,10 @@ u	u
 ̙	o
 ̙	goow
 ##
-̹	o
-̜	a
+̹	u
+̜	i
 ː	aa
-ː	drac
+ː	driac
 ¹	1
 ²	2
 ³	3
@@ -397,19 +401,45 @@ u	u
 ˧	3
 ˨	2
 ˩	1
-|	deew
+|	deiy
 ‖	deiy
 ↗	deiy
 ↘	deiy
 ꜛ	deiy
 ꜜ	deiy
-ː	ssec
-ˑ	ssec
-̆	ssec
-ˈ	ssec
-ˌ	ssec
-.	ssec
-‿	ssec
+̋	deiy
+́	deiy
+̄	deiy
+̀	deiy
+̏	deiy
+̌	deiy
+̂	deiy
+᷄	deiy
+᷅	deiy
+᷇	deiy
+᷆	deiy
+᷉	deiy
+᷈	deiy
+̋	5
+́	4
+̄	3
+̀	2
+̏	1
+̌	15
+̂	51
+᷄	35
+᷅	13
+᷇	53
+᷆	31
+᷉	313
+᷈	353
+ː	sjjec
+ˑ	sjjec
+̆	sjjec
+ˈ	sjjec
+ˌ	sjjec
+.	sjjec
+‿	sjjec
 ###字母
 ##注音
 ㄅ	p
@@ -457,26 +487,26 @@ u	u
 ##
 𐤀	alep
 𐤁	bet
-𐤂	gaml
-𐤃	delt
+𐤂	giml
+𐤃	dalet
 𐤄	he
-𐤅	wau
-𐤆	zai
+𐤅waw
+𐤆	zajin
 𐤇	het
 𐤈	tet
 𐤉	jod
-𐤊	kaf
-𐤋	lamd
+𐤊	kap
+𐤋	lamed
 𐤌	mem
 𐤍	nun
-𐤎	semk
-𐤏	ain
+𐤎	samak
+𐤏	ajin
 𐤐	pe
 𐤑	sade
 𐤒	qof
-𐤓	rosh
-𐤔	shin
-𐤕	tau
+𐤓	res
+𐤔	sin
+𐤕	taw
 𐤖	hqjit
 𐤗	gjip
 𐤘	njip

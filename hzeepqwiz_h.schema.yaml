@@ -143,24 +143,24 @@ speller:
     - derive/^(.+)-J[Lq]/$1L/
     #- derive/^(kh|[kgCAXh])L/$1/  #k-L
 
-    - derive/-//
-    - derive/.-//
 ##聲-介-上
     #- derive/^(ph|p|b|m)[Vv]([Ijrxioa][aeiou;,])/$1$2/    ##幫組  合口韻 分AB
     - derive/^(ph|p|b|m)v(io|I[;,])/$1$2/    #韻
     - fuzz/^(ph|p|b|m)v([aou;,])/$1o$2/
     - fuzz/^(ph|p|b|m)Y([ae;,])/$1e$2/    #无
     - derive/^(hms)v([o;,])/$1$2/
-    - derive/^(Q)[uUy](?=[aeiou;,])/$1/ #雲母
-
+    #- derive/^(Q)[uUy](?=[aeiou;,])/$1/ #雲母 #改爲一等1218
+    - derive/^(hQ)[vY](?=[aeiou;,])/$1/
 ##聲
-    - derive/^([sz])[ptkmnCLRQq]J/$1J/ #
-    - derive/^([sz])[ptkmnCLRQq]R/$1S/
+    - derive/^([sz])[ptkmnCLRQq]-J/$1J/ #
+    - derive/^([sz])[ptkmnCLRQq]-R/$1S/
 
-    - derive/^([sz])[ptkmnCLRQq](?![JR])/$1/ #s-[] 
+    - derive/^([sz])[ptkmnCLRQq]-(?![JR])/$1/ #s-[] 
+    - derive/-//
+    - derive/.-// #(.+)
 
     - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]s|[hX]s|X)/h/
-    # - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]s)/hs/
+
 
     - derive/^([LR])(?![sz])/d/ #dR
     - derive/^([LRn]sh)/th/
@@ -178,15 +178,15 @@ speller:
 
 
 ##聲-介
-    - fuzz/^(j)[iIj](?=[aeiou;,])/$1/ #以母爲三等
-    - fuzz/^(q)[uUy](?=[aeiou;,])/$1/ #雲母
-    - fuzz/(Jh?)[iIj](?=[aeiou;,])/$1/ #書船
-    - fuzz/^(z)[ij](?=[aeiou;,])/Z/ #邪
+   # - fuzz/^(j)[iIj](?=[aeiou;,])/$1/ #以母爲三等#不省1218
+  #  - fuzz/^(q)[uUy](?=[aeiou;,])/$1/ #雲母
+   # - fuzz/(Jh?)[iIj](?=[aeiou;,])/$1/ #書船
+    #- fuzz/^(z)[ij](?=[aeiou;,])/Z/ #邪
 
     - derive/([SR]h?)i([aeiou;,])/$1x$2/ #知莊R-
     - derive/([SR]h?)u([aeiou;,])/$1w$2/
-    - derive/(Jh?|^J|^l)i([aeiou;,])/$1j$2/
-    - derive/(Jh?|^J|^l)u([aeiou;,])/$1y$2/
+    - derive/(Jh?|[sz]|sh|^J|^l)i([aeiou;,])/$1j$2/
+    - derive/(Jh?|[sz]|sh|^J|^l)u([aeiou;,])/$1y$2/
 
 ####韻-中 需在聲-中 前
 ##介元尾
@@ -226,9 +226,9 @@ speller:
     # - fuzz/(?<!^)([RJS])(h?)[IUjyiurWxw][uo]/$2u/
     #- fuzz/([ptk]h|[bdgnmC]|tsh?|dz|[slAh])[IUjyiurWxw][uo]/$1u/ #iu- io- uu uo 以雲神 知莊除外 引擎不支持變長 #刪
 ##元音
-    - derive/([SRJc]h?|^[jqz]|^J[QLq]|^Q)[IjrxiUyWwu]([uo][jlrndztR])/$1$2/ #三等聲母
+    #- derive/([SRJc]h?|^[jqz]|^J[QLq]|^Q)[IjrxiUyWwu]([uo][jlrndztR])/$1$2/ #三等聲母#1218
 
-    - derive/v(o[jlrndztR])/$1/ #von voj 配合o省
+    #- derive/v(o[jlrndztR])/$1/ #von voj 配合o省 已改
     #- derive/V([Ijrxioa])([uo][jlrndztR])/$1$2/    #uo合口元音 kVo?ko? .uj .uv
 
 ##襍 ə
@@ -297,7 +297,7 @@ speller:
 
     - derive/o(a|o|;|,)/$1/ #一等无介音 省o
 ##聲-介
-    - fuzz/^(l)a([aeiou;,])/$1i$2/ #來
+    #- fuzz/^(l)a([aeiou;,])/$1o$2/ #來
     - fuzz/(?<=S)(h?)a([aeiou;,])/$1r$2/ #莊R 聲前介後
     - fuzz/(?<=S)(h?)f([aeiou;,])/$1W$2/ #莊R
 ####聲
@@ -338,16 +338,16 @@ speller:
     # - derive/^(s[szc])/sz/
     # - derive/^(z[szc])/zz/
     # - derive/^LzJ/j/ #船
-    - derive/^(L[RJ]|L(?![szRJ]))([jyoveYarfrWxw][aeiou;,])/j$2/ #以 L LJ 常中L 
-    - derive/^(hqz|hzq?|qz|hQ|E)([oveYaf][aeiou;,])/q$2/ #雲一 hqz E
+    - derive/^(L[RJ]|L(?![szRJ]))/j/ #以 L LJ 常中L  #1228
+    - derive/^(hqz|hzq?|qz|hQ|E)/q/ #雲一 hqz E
 
 ##上複聲?
 
     - derive/^(.*L)[JR]/$1/ ##ll=L(![sz])
     - derive/^([sz][ptkmnCLRQq])[JR]/$1/ #心生書s ss sc
 ##聲-介
-    - derive/([SR]h?)[rx]([aeiou;,])/$1$2/  # R 聲後
-    - derive/^(.+)-l[Iji]/$1r/ #聲介 來
+    #- derive/([SR]h?)[rx]([aeiou;,])/$1$2/  # R 聲後
+    #- derive/^(.+)-l[Iji]/$1r/ #聲介 來
     # - derive/^(l)a/$1/ #來
 
 ##聲上補全
@@ -362,12 +362,12 @@ speller:
     - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
 
     # - derive/^(mLzJ)/mL/
-
+    - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]sJ?)/hs/
 ##聲母轉寫
     # - derive/^([pbm])F/$1ff/
     - derive/^(A)/hq/ #影母
     - derive/^(E)/hz/ #匣母
-    - derive/^(C)/ng/ #疑母
+    #- derive/^(C)/ng/ #疑母
 
 
     - derive/^([sz])J/$1z/ #書船
@@ -375,7 +375,7 @@ speller:
     #- derive/V(?=[Ijxrioa][aeiou;,])/vv/ 
 
     
-    - derive/^([RLQ][sz])/\L$1/ #R L Q雲
+    - derive/^([RLQ][s])/\L$1/ #R L Q雲
     #- derive/^([RLQ])(?![sz])/$1$1/
 
 
@@ -436,8 +436,9 @@ speller:
 ##介元
     - abbrev/([jx])i/$1/ #半元作元 配下u o
     - abbrev/([yw])[iu]/$1/ #ju vi溷
-    - abbrev/([iuIU])u/y/ 
+    - abbrev/([IU])u/y/ #I不用
     - abbrev/([vo])u/v/ #v=vu
+    - abbrev/([iu])u/u/ 
 ##可選 介元序
     # - fuzz/(?<!^)x([aeiou;,])/r$1/ #r=x
     # - fuzz/(?<!^)r([aeiou;,])/x$1/ #
