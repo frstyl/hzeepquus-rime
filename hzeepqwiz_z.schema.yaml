@@ -188,7 +188,8 @@ speller:
     - fuzz/(Sh?)a([aeiou;,])/$1r$2/ #莊R 聲前介後
     - fuzz/(Sh?)f([aeiou;,])/$1W$2/ #莊
 
-    - derive/([iu])[əʌ;,]/$1/ #i u əʌ 元音半元音
+    - derive/([jIi])([ʌə;,])/i/ #之 介元
+    - derive/([yUu]|V[jIi])([ʌə;,])/u/  #i u əʌ 元音半元音
     - derive/[oe][əʌ;,]/ea/ 
 # # # # # # # 
     #- derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/B/ #聲
@@ -277,10 +278,10 @@ speller:
     - derive/(ʌ|ə)/ea/
 ##
     - abbrev/([jx])i/$1/ #半元作元 配下u o
-    - abbrev/([yw])[iu]/$1/ #ju vi溷
-    - abbrev/([IU])u/y/ 
+    - abbrev/([yw])i/$1/ #ju vi溷
+    - abbrev/([Uyw])u/y/ 
     - abbrev/([vo])u/v/ #v=vu
-    - abbrev/([iu])u/u/ 
+    - abbrev/([iuIU])u/u/ 
 ##
     - fuzz/^J/j/
     - derive/Q/q/

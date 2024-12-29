@@ -135,7 +135,19 @@ speller:
 
 
 
+
+
+##上到中
+
+    - derive/^([sz])[ptkmnCLRQq]-J/$1J/ #s-[] sc#
+    - derive/^([sz])[ptkmnCLRQq]-R/$1S/ #sR
+
+    - derive/^([sz])[ptkmnCLRQq]-(?![JR])/$1/ #s-[] #z實不同?
+    - derive/-//
+    - derive/.-// #(.+) #註
+
 ##聲-介-上
+    #- derive/^(hms|ph|p|b|m|Q)[V]/$1/ #V
     - derive/^(Q)[Uyu]([aeiou;,])/$1$2/ #雲母 Q q
     - derive/^(hms)[uUy]([aeiou;,])/$1$2/ #幫組 一三
     - derive/^(hms)[uUy]([aeiou;,])/h$2/
@@ -145,14 +157,6 @@ speller:
     #- derive/^(ph|p|b|m)V([Ijrxioa][aeiou;,])/$1$2/
     # - derive/(hms|ph|p|b|m)v[;,]/$1ea/    #特加
 
-##上到中
-
-    - derive/^([sz])[ptkmnCLRQq]-J/$1J/ #s-[] sc#
-    - derive/^([sz])[ptkmnCLRQq]-R/$1S/ #sR
-
-    - derive/^([sz])[ptkmnCLRQq]-(?![JR])/$1/ #s-[] #z實不同?
-    - derive/-//
-    - derive/.-// #(.+)
     - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]s|[hX]s|X)/h/ #清
 
     - derive/^([LR])(?![sz])/d/ #d[RJ]

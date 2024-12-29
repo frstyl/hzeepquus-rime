@@ -175,12 +175,14 @@ m	np		#latin
 n	n
 ɳ	nr
 ȵ	nj		#非音幖
+ɲ	nj
 ɲ	cj
 ŋ	ng
 ŋ	c
 ŋ	C
 Ŋ	ng
 Ŋ	c		#非音幖
+ɴ	nQ
 ɴ	nq
 ###
 #ʷr	w
@@ -483,7 +485,7 @@ u	u
 ㄪ	vf
 ㄫ	c
 ㄫ	ng
-ㄬ	nc
+ㄬ	nj
 ##
 𐤀	alep
 𐤁	bet
@@ -633,54 +635,54 @@ u	u
 Д	de
 Ђ	Dje
 Ѓ	Gje
-Е	ye
-Ё	yo
-Є	yest
-Ж	zhe
-З	ze
+Е	ye		#je
+Ё	yo		#jɔ
+Є	yest		#
+Ж	zhe		#ʒ
+З	ze		#z
 З́	zje
-Ѕ	Dze
-И	i
+Ѕ	dze
+И	i		#i
 І	i
 Ї	yi
-Й	ye
+Й	ye		#j
 Ј	je
 К	ka
-Л	ei
+Л	eil		#l
 Љ	lje
 М	em
 Н	en
 Њ	nje
 О	o
-П	pe
-Р	er
-С	es
+П	pe		#p
+Р	er		#r
+С	es		#s
 С́	eshy
 Т	te
 Ћ	tshe
 Ќ	kje
-У	u
+У	u		#u
 Ў	we
-Ф	ef
-Х	kha
-Ц	ce
-Ч	che
+Ф	ef		#f ph
+Х	kha		#x
+Ц	ce		#ts
+Ч	che		#ʨ
 Џ	dzhe
-Ш	sha
-Щ	shcha
+Ш	sha		#ʃ
+Щ	shcha		#ɕ
 Ъ	yer
-Ы	yery
-Ь	yeri
-Э	e
-Ю	yu
-Я	ya
+Ы	yery		#ɨ
+Ь	yeri		#j
+Э	e		#e i
+Ю	yu		#ju
+Я	ya		#ja
 Ӏ	i
 Ә	schwa
 Ғ	ayn
 Ҙ	dhe
 Ҫ	the
 Ҡ	qa
-Қ	的ka
+Қ	ka
 Ҝ	dya
 Ҟ	qa
 Ң	eng
@@ -689,19 +691,20 @@ u	u
 Ԛ	qa
 Ԝ	we
 Ꙗ	ia
-Ѥ	ie
-Ѧ	yus
-Ѫ	yus
-Ѩ	ius
-Ѭ	ius
+Ѥ	ie		#je
+Ѧ	yus		#ja
+Ѫ	yus		#ju
+Ѩ	ius		#ja
+Ѭ	ius		#ju
 Ѯ	xi
 Ѱ	psi
-Ѳ	fita
-Ѵ	izhitsa
+Ѳ	fita		#f
+Ѵ	izhitsa		#i ʲi
 Ѹ	uk
-Ѡ	omega
+Ѡ	omega		#o
 Ѿ	ot
-Ѣ	Yat
+Ѣ	Yat		#zʲ
+#
 а	a
 б	be
 в	ve
