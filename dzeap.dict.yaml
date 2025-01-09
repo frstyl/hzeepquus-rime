@@ -6,50 +6,90 @@ sor: by_weight
 use_preset_vocabulary: true
 ...
 ####
-# =	to;CA
-≠	pVi;q to;CA
 ↑	dzJiaCA	999
 ↓	hgaaA	999
 ←	tsoajA	999
-→	QVi;s	999
-↔	tsoajA QVi;s
+→	qius	999
+↔	tsoajA qu;s
 ↕	dzJiaCA hgaaA
-↖	tsoajA dzJjaCA
-↗	QVi;s dzJjaCA
-↘	QVi;s hgaaA
+↖	tsoajA dzJiaCA
+↗	qius dzJiaCA
+↘	qius hgaaA
 ↙	tsoajA hgaaA
-∩	kaevq	999
-∪	pjeCs	999
+
+¬	pu;jq
+×	zJi;Cq	999
+÷	dRioq
+∈	tsJjokq quoq
+∉	p; tjiokq quoq
+⊆	hgo,mq quoq
+⊊	hgo,mq quoq
+⊈	p; hgo,m quoq
+∀	dzyenq	999
 ∁	pooA	99
-∈	tJjokq QVioq
-∉	pVi;q tjiok QVioq
-⊆	hgo,mq QVioq
-⊊	hgo,mq QVioq
-⊈	pVi;q hgo,m QVioq
-∀	dzyonq	999
-∃	QVi;A	999
-∄	mVioq	999
+∂	mu;jq pu;nq
+∃	qiuA	999
+∄	muoq	999
 ∅	khouCq	999
 　	khouCq	999
-∂	mu;jq pu;nq
+∆	tso;Cq
+∇	pheekq
+∎	pjitq
+∏	tsjekq
+∐	Jioq tsjekq
+∑	go;pq
+−	ka;mA
+∓	bu;A tsJjeCs
+∔	tsJjeCs bu;A
+∕	dRioq
+∖	tshSaajq
+∗	zJi;Cq
+∘	zJi;Cq
+∙	zJi;Cq
+√	ko;nq
+∛	soamq tshjis ko;nq
+∜	sjis tshjis ko;nq
+∝	pjiA
+∞	muoq giuCq
+∠	kaokq
+∧	tshjaA
+∨	Ai;kq
+∩	kaevq	999
+∪	pjeCs	999
 ∫	tsjekq
 ∫	tsjekq pu;nq
-∧	JjoA
-∨	Ev;kq
-¬	pu;jq
-√	ko;nq
+# =	to;CA
+≠	p; to;CA
+⊦	tVuns
+⊦	tsJi;Cs
+⊧	mooq
+⊨	tsJjinq
+⊩	giaCq
+⊩	paakq
+⊬	p; tsJi;Cs
+⊭	p; tsJjinq
+⊮	p; giaCq
+⊮	p; paakq
+⊲	tsJjeCs tsi;A
+⊶	Cuonq
+⊷	ziaCA
+⊼	tshjaA pu;jq
+⊽	Ai;kq pu;jq
+⋀	tshjaA
+⋁	Ai;kq
+⋂	kaevq
+⋃	pjeCs
+
 °	doos	999
 ✓	koovq	999
 ✔	koovq	999
-✕	tsShaajq	999
-✖	tsShaajq	999
-✗	tshSaajq	999
-✘	tsShaajq	999
-# ❌	tsShaajq	999
+✕	tsShaaq	999
+✖	tsShaaq	999
+✗	tshSaaq	999
+✘	tsShaaq	999
+# ❌	tsShaaq	999
 √	kho,jq puaC
-×	zJi;Cq	999
 ¿	mu;ns	999
-∞	mVioq giuC
 々	dRioCq	999
 ######
 #####字書
@@ -68,7 +108,7 @@ use_preset_vocabulary: true
 歹	Coatq	99
 氵	sJyiA	99
 氺	sJyiA	99
-灬	hvaA	99
+灬	hVaA	99
 冫	pi;Cq	99
 亻	nJjinq	99
 釒	kximq	99
@@ -95,7 +135,7 @@ use_preset_vocabulary: true
 # 爿	dziaCq	99
 丬	dziaCq	0
 牜	Ciuvq	99
-犭	khvenA	99
+犭	khYenA	99
 罓	muaCA	99
 罒	muaCA	99
 冈	muaCA	99
@@ -127,7 +167,7 @@ use_preset_vocabulary: true
 [㇁]	tsJjetq	99
 [㇄]	tsJjetq	99
 [㇂]	tsJjetq	99
-[⺕]	qu;s	99
+[⺕]	qius	99
 𤇾	JyeCq	99
 # ⺼	nJiukq
 龴	JioCA	99
@@ -136,5 +176,5 @@ use_preset_vocabulary: true
 龸	dzJiaCs	99
 龹	kwens	99
 龺	tRaakq	99		#卓
-龻	lyonq	99
-𠂒	Cu;q	99
+龻	lyenq	99
+𠂒	Ciuvq	99
