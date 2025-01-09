@@ -170,13 +170,14 @@ speller:
     - derive/(u)v/$1/ #uv 侯尤幽
 
     - derive/(i)j/$1/
-    - derive/([ov][au])j/$1/
+    - derive/([oVv][au])j/$1/
 ##
     - derive/([SR]h?)i([aeiou;,])/$1x$2/ #知莊R- 介前
     - derive/([SR]h?)u([aeiou;,])/$1w$2/
     - derive/(^[Jl]|[cJ]h?)i([aeiou;,])/$1j$2/
     - derive/(^[Jl]|[cJ]h?)u([aeiou;,])/$1y$2/
 ##
+    - derive/V/v/
     - derive/Y/v/
     - derive/W/w/
     - derive/I/j/
@@ -189,7 +190,7 @@ speller:
     - fuzz/(Sh?)f([aeiou;,])/$1W$2/ #莊
 
     - derive/([jIi])([ʌə;,])/i/ #之 介元
-    - derive/([yUu]|V[jIi])([ʌə;,])/u/  #i u əʌ 元音半元音
+    - derive/([yUu]|v[jIi])([ʌə;,])/u/  #i u əʌ 元音半元音
     - derive/[oe][əʌ;,]/ea/ 
 # # # # # # # 
     #- derive/^([A-Zbcdghklmnpqrstz]+)(?!$)/B/ #聲

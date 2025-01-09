@@ -117,17 +117,17 @@ speller:
     #- fuzz/([oveYjyrWxwaf]u)jq/$1/ #aa-j jq
 
     # - derive/([oveYjyrWxwaf]u)j([qAs])/$1$2/ 
-    - derive/([oviuxw]a)jq$/$1/ #aj
-    - derive/([ov][au])j/$1/ 
+    - derive/([oVviuxw]a)jq$/$1/ #aj
+    - derive/([oVv][au])j/$1/ 
     - derive/(i)j/$1/ #ij ei ej
 
     - fuzz/([af][aeiou;,])jq$/$1/
-    - fuzz/([ov][;,])jq$/$1/
+    - fuzz/([oVv][;,])jq$/$1/
 ##介韻
 
-    - derive/(VI)/U/ #uə
-    - derive/(Vi)(?=(a|e|i|o|u|;|,))/u/ #uə
-    - derive/Vx/w/
+    - derive/(vI)/U/ #uə
+    - derive/(vi)(?=(a|e|i|o|u|;|,))/u/ #uə
+    - derive/vx/w/
 
 ####尾上
     - derive/[pt]s$/r/
@@ -153,13 +153,13 @@ speller:
     - derive/.-// #(.+) #註
 ##
 ##聲-介-上
-    #- derive/^(ph|p|b|m)[Vv]([Ijrxioa][aeiou;,])/$1$2/    ##幫組  合口韻 分AB
-    - derive/^(ph|p|b|m)v(io|I[;,])/$1$2/    #韻
-    - fuzz/^(ph|p|b|m)v([aou;,])/$1o$2/
-    - fuzz/^(ph|p|b|m)Y([ae;,])/$1e$2/    #无
-    - derive/^(hms)v([o;,])/$1$2/
+    #- derive/^(ph|p|b|m)v([Ijrxioa][aeiou;,])/$1$2/    ##幫組  合口韻 分AB
+    - derive/^(ph|p|b|m)[Vv](io|I[;,])/$1$2/    #韻
+    - fuzz/^(ph|p|b|m)[Vv]([aou;,])/$1o$2/
+    - fuzz/^(ph|p|b|m)[Yv]([ae;,])/$1e$2/    #无
+    - derive/^(hms)[Vv]([o;,])/$1$2/
     #- derive/^(Q)[uUy](?=[aeiou;,])/$1/ #雲母 #改爲一等1218
-    - derive/^(hQ)[vY](?=[aeiou;,])/$1/
+    - derive/^(hQ)[Yv](?=[aeiou;,])/$1/
 #
     - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]s|[hX]s|X)/h/
 
@@ -208,7 +208,7 @@ speller:
     #- fuzz/v(u)([jlrndztR])/o$2/ #vun -n -j
     
     - derive/([jIi])([ʌə;,])/i/ #之
-    - derive/([yUu]|V[jIi])([ʌə;,])/u/ 
+    - derive/([yUu]|v[jIi])([ʌə;,])/u/ 
 
 ##介元尾
 #聲介元 尾-n
@@ -245,12 +245,12 @@ speller:
 #    - fuzz/(U)(;|,)([jlrndztR])/Iu$3/ 
 #    - fuzz/(y)(;|,)([jlrndztR])/ju$3/ 
 #    #- fuzz/(u)(;|,)([jlrndztR][qAs]?)$/iu$3/
-#    - fuzz/([eo])([;,])([mbfpvwy])/vo$3/
+#    - fuzz/([eo])([;,])([mbfpvwy])/Vo$3/
 #    - fuzz/(a)([;,])([mbfpvwy])/fo$3/
 #    - fuzz/(x)([;,])([mbfpvwy])/wo$3/
 #    - fuzz/(j)([;,])([mbfpvwy])/yo$3/
 #    #- fuzz/(u)([;,])([mbfpvwy])/io$3/
-#    - fuzz/([UywWuvf])([;,])([Cgxk])/$1o$3/
+#    - fuzz/([UywWuVvf])([;,])([Cgxk])/$1o$3/
 #    - fuzz/(o)([;,])([Cgxk])/$1vu$3/
 #    - fuzz/(a)([;,])([Cgxk])/fu$3/
 #    - fuzz/(x)([;,])([Cgxk])/wu$3/
@@ -258,7 +258,7 @@ speller:
 #    - fuzz/(I)([;,])([Cgxk])/Uu$3/
   #  #- fuzz/(i)([;,])([Cgxk])/uu$3/
  
-    - fuzz/v[;,]([^qAs])/vo$1/
+    - fuzz/V[;,]([^qAs])/Vo$1/
     - fuzz/f[;,]([^qAs])/fo$1/
     - fuzz/o(;|,)([mbfpvwy])/o$2/
     - fuzz/o(;|,)([jlrndztR])/o$2/ #已改
@@ -278,6 +278,7 @@ speller:
 
 
 ####介 聲歬
+    - derive/V/v/
     - derive/Y/v/
     - derive/W/w/
 
@@ -439,7 +440,7 @@ speller:
     - abbrev/([jx])i/$1/ #半元作元 配下u o
     - abbrev/([yw])i/$1/ #ju vi溷
     - abbrev/([Uyw])u/y/ #I不用
-    - abbrev/([vo])u/v/ #v=vu
+    - abbrev/([Vvo])u/v/ #v=vu
     - abbrev/([iuIU])u/u/ 
 ##可選 介元序
     # - fuzz/(?<!^)x([aeiou;,])/r$1/ #r=x
@@ -449,7 +450,7 @@ speller:
     - fuzz/(?<!^)([aiu])(;|,)/$2$1/
     - fuzz/(?<!^)(i)([au])/$2$1/
     - abbrev/(?<!^)([aiu])([aeiou;,])/$2$1/ #介元序
-    - abbrev/(?<!^)([lafvIUjyrWxw])([aeiou;,])([qAhsjlrvwymbfpndztRCcgxk])/$2$1$3/
+    - abbrev/(?<!^)([lafVeYvIUjyrWxw])([aeiou;,])([qAhsjlrvwymbfpndztRCcgxk])/$2$1$3/
     # - fuzz/(?<!^)(a)([aeiou;,])([qAhsjlrvwymbfpndztRCcgxk])/$1l$2/ #l=x
     # - abbrev/(?<!^)([r])([aeiou;,])([qAhsjlrvwymbfpndztRCcgxk])/$2$1$3/ #l=x
     # - fuzz/(?<!^)(a)([aeiou;,])/$2l/ #qAhsjlrvwymbfpndztRCcgxk
@@ -495,7 +496,7 @@ speller:
     # - abbrev/^([a-z])[^szhcgqrl].*$/$1/ #𥳑
 
 
-    - abbrev/^([a-zA-Z])[aeiouvfIUjyxw;,].*$/$1/ #𥳑
+    - abbrev/^([a-zA-Z])[aeiouVYvfIUjyxw;,].*$/$1/ #𥳑
 ####轉寫
     - derive/-//
     - derive/_//
