@@ -1057,6 +1057,7 @@ use_preset_vocabulary: true
 委蛇	
 首鼠	
 首施	
+嫡孎	tRxek tRiok
 蹢躅	
 躑躅	
 踟躕	
@@ -3697,7 +3698,7 @@ use_preset_vocabulary: true
 𣄭	tshjis
 𱤺	tshjis
 ###𧰽
-咒	zjiA	0
+咒	zjiA	0		#切韻
 𠒃	zjiA
 𠒊	zjiA
 𠙃	zjiA
@@ -4581,8 +4582,8 @@ use_preset_vocabulary: true
 𫌵	dzJiuvq
 ###帚
 𭘒	tsJiuvA
-###州# 咒	tsJiuvs		#詶
-㖄	tsJiuvq
+###州		#詶
+𭇫	tsJiuvq		#喌
 #
 刕	tsJiuvq
 𠃔	tsJiuvq
@@ -6289,7 +6290,7 @@ use_preset_vocabulary: true
 𠉀	Eoovs
 𣣠	Eoovs		#𥀄譌
 ###系
-𡱏	EfaA
+繫	kheejq		#集韻 牽兮切 釋文口兮反 繫𦃇
 ###𠀀
 ###兮
 䂆	kheekq
@@ -6854,6 +6855,7 @@ use_preset_vocabulary: true
 ###
 # 𥈸	hVioq
 ###戶
+𡱏	EfaA		#䋀
 鳸	EVoA
 𠧕	Eoaq		##?
 #
@@ -13163,12 +13165,7 @@ use_preset_vocabulary: true
 𠡭	li;Cq
 # 𩜁	hi;Cs
 倰	lo;Cs
-###
-𬙙	lo;Cq
-楞	lo;Cq
-⿰木⿱四方	lo;Cq		#1		#棱
-塄	lo;Cq
-愣	lo;Cs
+###楞
 ###昜陽
 𣓾	JiaCq		#誤
 阦	JiaCq
@@ -13439,6 +13436,8 @@ use_preset_vocabulary: true
 𬑂	tsJiukq		#2
 𥼫	tsJiukq		#2
 𢐮	Jiukq
+###祝
+咒	tsJiukq
 ###六
 ###𧸇𡍬圥
 讀	doovs

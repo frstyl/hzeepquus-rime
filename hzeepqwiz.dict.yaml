@@ -12189,10 +12189,9 @@ import_tables:
 㝛	siuvks
 宿	siuvks		#vks 聲宿也
 呪	tJiuvks		#ks uks
-祝	tJiuvks		#祭也
+祝	tJiuvks		#祭主
 詋	tJiuvks
 詶	tJiuvks
-咒	tJiuvks
 𥛽	tJiuvks
 䄂	tJiuvks		#由L-u
 䛆	tJiuvks
@@ -23411,12 +23410,14 @@ import_tables:
 打	taaCA		#德冷切 都挺切
 打	teeCA		#正
 #
-䛭	hreCs		#𠂷#許更切
-瀴	AreCs 	#於孟切
+䛭	haaCs		#𠂷#許更切
+瀴	AaaCs 	#於孟切
+䛭	hreCs		#?正
+瀴	AreCs		#
 #
 盯	tRreCA 	#張梗切
 䟓	thRreCq 	#丑庚切 丑貞切 中莖切
-盯	dRreCq		#直庚切
+盯	dRreCq		#直庚切 #𥋝盯 䁎瞠瞪
 偵	tRreCs 	#猪孟切 丑鄭切
 挰	LRreCq		#𡈼#直庚切
 鋥	LRreCs
@@ -23454,6 +23455,21 @@ import_tables:
 𪐏	tRaakq
 嫡	tRaakq
 𥧮	tRaakq
+##Riŋ?
+𥉸	khQ_aiCq
+##Rəŋ a?ə?
+鄳	ma,Cq
+𥋝	ma,Cq
+𥋝	ma,CA
+鱦	ma,CA
+鄳	ma,CA
+棚	ba,Cq
+輣	ba,Cq
+#
+憕	dRa,Cq		#直庚切 宅耕切 憕𢘌失志
+𩏠	tRa,Cs
+澄	dRa,Cq
+㡧	tRa,Cs		#幀
 ##ROak
 迫	paakq
 敀	paakq
@@ -23583,21 +23599,6 @@ import_tables:
 澤	LRaakq
 𤢟	LRaakq		#白澤
 䕪	LRaakq
-##Riŋ?
-𥉸	khQ_aiCq
-##Rəŋ a?ə?
-鄳	ma;Cq
-𥋝	ma;Cq
-𥋝	ma;CA
-鱦	ma;CA
-鄳	ma;CA
-棚	ba;Cq
-輣	ba;Cq
-#
-憕	dRx,Cq		#直庚切 宅耕切 憕𢘌失志
-𩏠	tRx,Cs
-澄	dRx,Cq
-㡧	tRx,Cs
 ##Ravk
 翟	LRaevkq		#L#翟
 搦	nRaevkq		#糑𡎳搦𢾲嫋#弱
@@ -29264,7 +29265,7 @@ import_tables:
 柷	tJiukq
 柷	thJiukq
 呪	tJiukq
-祝	tJiukq		#巫也
+祝	tJiukq		#巫祝也#咒呪
 𡖊	siukq	999
 𠈇	siukq	99		#㐁
 𠉦	siukq
