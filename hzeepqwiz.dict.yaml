@@ -2316,9 +2316,9 @@ import_tables:
 𦝨	khQ_aeA		#𦝨瘦也
 ###fe -佳
 ##
-扮	hfeA		#亂也#拐賣? #?同形 非分聲 扴?
-㧳	dRfeA		#丈夥切 𩈻集韻 柱買切#?扮#攙物也
+扮	hfeA		#花夥切#亂也#拐賣? #?同形 非分聲 扴?
 㧳	hfeA		#正 火夥切#扮
+㧳	dRfeA		#丈夥切 𩈻出聲譜#集韻 柱買切#?扮#攙物也#拽?
 ##
 𡐠	kQ_feA
 挂	kQ_fes
@@ -18454,14 +18454,19 @@ import_tables:
 蔄	ma;ns
 扮	pa;ns
 盼	pha;ns
+𪘟	khQ_a;nA
 齦	khQ_a;nA
+𥆢	CQ_a;nA
 眼	CQ_a;nA
 蛝	hga;nq
+𨹨	hga;nA
+𥓀	hga;nA
 限	hga;nA
 硍	hga;nA
 䦘	hga;nA
-𦫒	kQ_a;nq	99
-𪤱	kQ_a;nq	99
+𥌵	kQ_a;nq
+𦫒	kQ_a;nq
+𪤱	kQ_a;nq
 艱	kQ_a;nq
 囏	kQ_a;nq		#壴#難
 殷	Aa;nq
@@ -21017,6 +21022,9 @@ import_tables:
 猌	Cx;ns
 𪙤	Cx;nA
 憖	Cx;ns
+𤥛	Cx;nq
+𡋳	Cx;nq
+𨧏	Cx;nq
 珢	Cx;nq
 垠	Cx;nq
 泿	Cx;nq
@@ -21356,30 +21364,45 @@ import_tables:
 ####ən 痕䰟
 ###ən
 ##ən ʌn
+𨁞	kQ_o;nq
+𣒨	kQ_o;nq
+𤥛	kQ_o;nq
 根	kQ_o;nq
 跟	kQ_o;nq
 𣥦	kQ_o;nq
 珢	kQ_o;nq
+𩓓	kQ_o;nA
+𧨛	kQ_o;nA
 䫀	kQ_o;nA
-𩒝	kQ_o;nA
+𩒝	kQ_o;nA		#譌
 詪	kQ_o;nA
-艮	kQ_o;ns		#-R
 𥃩	kQ_o;ns
+𤥛	kQ_o;ns
+𧨛	kQ_o;ns
+艮	kQ_o;ns		#-R
 茛	kQ_o;ns
 珢	kQ_o;ns
 詪	kQ_o;ns
+𪘟	khQ_o;nA
+𧱗	khQ_o;nA
 齦	khQ_o;nA
 豤	khQ_o;nA
+𡋳	CQ_o;nq
 垠	CQ_o;nq
 泿	CQ_o;nq
+𤶨	Eo;nq
+𩊷	Eo;nq
 痕	hgo;nq
 鞎	hgo;nq
 拫	hgo;nq
-恨	hgo;ns
+𢓼	hgo;nA
 很	hgo;nA
 䓳	hgo;nA
+𢚉	hgo;ns
+恨	hgo;ns
 墾	khQ_o;nA
 懇	khQ_o;nA
+𡋳	CQ_o;nq
 圻	CQ_o;nq
 麧	hgo;tq
 𥝖	hgo;tq
@@ -21930,7 +21953,9 @@ import_tables:
 㴫	kQ_oons
 ###Iən
 巹	kI;nA
-𧯷	kI;nA
+𧯷	kI;nA		#卺
+𡋳	CI;nq
+𪘟	CI;nq
 垠	CI;nq
 齦	CI;nq
 曁	kI;tq
@@ -24782,7 +24807,8 @@ import_tables:
 𢣙	AeeCs
 瀅	AeeCs
 瑩	AeeCs
-覮	pheeCq		#𤇾?
+覮	pheeCq	0		#𤇾?#集韻 維傾切
+覮	JyeCq		#正
 鎣	AeeCs
 𤬐	hgeeCq
 䋼	LseeCq		#盈 L

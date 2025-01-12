@@ -2235,6 +2235,7 @@ use_preset_vocabulary: true
 𤃳	phuanq
 䪤	buanq
 ###半
+𦚓	phVans
 眫	phVans
 ###反
 舨	paanA
@@ -2543,7 +2544,6 @@ use_preset_vocabulary: true
 痺	pjeq
 渒	pheejs
 𣝁	phaes
-啤	bjeq
 錍	pxeq
 䴽	pxeq
 焷	pxeq
@@ -2567,6 +2567,7 @@ use_preset_vocabulary: true
 𦥤	pheeCq
 𰀊	pheeCq
 ###并 eC
+拼	phaeCq		#集韻 披耕切#姘?
 #
 𢆙	pjeCq
 幷	pjeCq
@@ -2634,9 +2635,9 @@ use_preset_vocabulary: true
 潽	phooA
 鐠	phooA
 ###
-𢯌	paekq		#㧳
-掰	paekq
-掰	paejq
+𢯌	dRfeA		#㧳柱買切
+掰	dRfeA
+掰	paekq		#擘
 ###冥
 窅	meeCq
 窴	meeCq
@@ -8799,7 +8800,6 @@ use_preset_vocabulary: true
 𢕅	sSwitq
 𰳪	sSwitq
 𲀞	sSwitq
-摔	sSwitq
 ###進
 ###晉
 晋	tsjins
@@ -9561,31 +9561,50 @@ use_preset_vocabulary: true
 𱲛	kVans
 𰤷	kVans
 ###圣㕢
-柽	guatq
+柽	guatq		#字彙補 其月切
 𡑧	Eaatq
 𡑧	khootq
 𡑚	khootq
 𡑧	khootq
 𥈷	khootq
 ###艮
+𥃩	ko;ns
+𨁞	ko;nq
+𣒨	ko;nq
+𩒝	ko;nA
+𪘟	kho;nA
+𧱗	kho;nA
+𤶨	Eo;nq
+𩊷	Eo;nq
+𢓼	Eo;nA
+𧨛	Eo;nA
+𢙃	Eo;ns
+𤥛	Cxinq
+𡋳	Cxinq
+𥌵	kaenq
+𨹨	EaenA
+𥆢	Caenq
+#
 艰	ka;nq	0
 𦫒	ka;nq
 𪤱	ka;nq
 𱽇	ko,ns
 䫀	teenA		#1		#?𩒝
 䫀	ko,nA
-𩓓	ko,nA
+𩓓	ko,nA		#𩒝
 𩓓	ko,nA
 裉	kho,ns
-哏	Eo,nq
 狠	Eo,nA
 佷	Eo,nA
 𢩆	Eo,nA
+𢢽	kho;nA
+𪘄	kho;nA
 #
 𩒢	teenA		#𩒝
-悢	Eo,nA
+#悢	Eo,nA
 #
-𥃿	Ca;nA
+𥃿	CaenA
+𥅗	CaenA
 㫔	ko,ns
 #
 𨹎	Eo,nA
@@ -12723,7 +12742,7 @@ use_preset_vocabulary: true
 揈	kiukq
 𨙦	thRioCq
 ###肯肎
-啃	kho,nA
+
 ###𢛢亙
 𣍭	ko;Cqq
 𦚸	ko;Cqq
@@ -13802,6 +13821,7 @@ use_preset_vocabulary: true
 ###犛
 ###吿-告
 ###口
+啃	sSxipq		#玉篇 所戢切
 𠮠	paeA
 𠿆	maeA		#五音篇海
 𠹑	Ceevs
@@ -13838,7 +13858,6 @@ use_preset_vocabulary: true
 𮞳	dzjepq
 𨖷	dzSaepq
 䢮	deekq
-𰻞	piaCs
 迗	CVaq
 逇	doonA		#遁
 𨑜	phjitq		#餘文 音匹
@@ -14776,7 +14795,6 @@ use_preset_vocabulary: true
 拿	nRaaq
 搿	Eo,pq
 𢰋	dVanq		#1		#㨡
-拼	pheeCq
 𢪝	tsjeCA
 ###𠦬
 ###女
