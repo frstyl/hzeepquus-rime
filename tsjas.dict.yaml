@@ -24,7 +24,7 @@ use_preset_vocabulary: true
 羧	siaCA		#carboxyl 酸氧
 羧	sVaq
 酮	douCq
-酚	phu;nq		#phenol
+酚	phU;nq		#phenol
 醚	meejq		#迷
 酯	tsJjiA		#借詞
 酯	tsJjiq		#脂
@@ -55,7 +55,7 @@ use_preset_vocabulary: true
 脎	sSaetq
 脎	soas		#osazone
 脲	neevs			#urea carbamide 尿
-胍	kfaq		#guanidine
+胍	kfaq		#gUanidine
 胍	gVoq
 胺	Aoanq		#amine 同氨 不異讀
 胺	Aoans
@@ -94,7 +94,7 @@ use_preset_vocabulary: true
 酶	moojq		#enzyme
 腺	sjens		#gland
 肽	thoarq		#peptide
-䏓	Cuanq		#肉元 proton
+䏓	CUanq		#肉元 proton
 苷	koamq		#glycoside
 甙	do,js		#代𤮼
 嘌	phjevq
@@ -160,7 +160,7 @@ use_preset_vocabulary: true
 鈣	koarq		#Ca calcium 
 鈧	khoaCs		#scandium
 鈦	thoarq		#titanium
-鐇	buanq
+鐇	bUanq
 釩	buamq		#Vanadium
 鉻	kaakq
 錳	maaCA
@@ -341,12 +341,12 @@ use_preset_vocabulary: true
 𱰸	p; Au;js
 𱷣	p; ljipq
 𡀆	p; hi;A
-𰴪	p; Cianq
+𰴪	p; CIanq
 𰑼	p; Aoakq
 𰀚	p; tsJjeCs
 𭯒	p; moavq
 𭯈	p; moovA
-𫠫	p; Cuanq
+𫠫	p; CUanq
 𫠬	p; tRiuCq
 𫠲	p; khiokq
 𫠻	p; sjins
@@ -735,7 +735,7 @@ use_preset_vocabulary: true
 腺	sjens
 胩	khaaA
 肽	thoarq
-䏓	Cuanq		#肉元 proton
+䏓	CUanq		#肉元 proton
 䏟	beitq
 脒	meejA
 肟	AVos
@@ -974,6 +974,7 @@ use_preset_vocabulary: true
 ###裘
 ###老
 ###毛
+毽	kIans		#字彙補 經電切 
 毪	miuvq
 𣬶	paaq
 𣬷	paaq
@@ -1158,12 +1159,12 @@ use_preset_vocabulary: true
 𱰸	piuq Au;js
 𱷣	piuq ljip
 𡀆	piuq hi;A
-𰴪	piuq Cian
+𰴪	piuq CIan
 𰑼	piuq Aoak
 𰀚	piuq tsJjeCs
 𭯒	piuq moavq
 𭯈	piuq moovA
-𫠫	piuq Cuan
+𫠫	piuq CUan
 𫠬	piuq tRiuC
 𫠲	piuq khiok
 𫠻	piuq sjins
@@ -1447,7 +1448,7 @@ use_preset_vocabulary: true
 酐	koanq
 酰	se;nq		#acyl
 酮	douCq
-酚	phu;nq
+酚	phU;nq
 醚	meiq
 酯	tsJjiA
 酯	tsJjiq

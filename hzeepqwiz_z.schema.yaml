@@ -76,14 +76,17 @@ speller:
     #- derive/w/Vx/
     #- derive/W/Vr/
     #- derive/v/Vo/
-
+####尾上
+    - derive/[pt]s$/r/
+    - derive/ks$/s/
+####
     - derive/^k(h?)L(?!-)/t$1/ #kL t #kL tsc#CL缺#合甚叕出 穿川舛車樞杵處楢醜臭饎出赤
     - derive/^gL(?!-)/d/
     - derive/^([sz])KL(?!-)/$1/ #缺 Ls?skL?
 
     - derive/^(.+)-J[Lq]/$1L/
 
-    - derive/^(kh|[kgCAXh])L/$1/  #k-L
+    #- derive/^(kh|[kgCAXh])L/$1/  #k-L
     
 
     - derive/^([sz])[ptkmnCLRQq]-J/$1J/ #s-[] sc
@@ -112,9 +115,8 @@ speller:
     - derive/^(J[LQq])/J/ #Jq
 
     - derive/^(kh|k|g|C)Q/$1/
-    - derive/^(E|hz)/g/
-    - derive/^(J[QVLq])/q/    #Jq
-    - derive/^(E|hz|hg|hQ(?!s))/E/
+
+
 
     #- derive/^(.*L)[JR]/$1/ ##ll=L(![sz]) #包括L- #作jr1228
     #- derive/^([sz][ptkmnCLRQq])[JR]/$1/ #心生書s ss
@@ -133,7 +135,14 @@ speller:
     
     - derive/^(h[mnCLRqQV]s|hsq|ngs|[mnCqQV]s|hs)/hs/ #1228
 
-    - derive/^(JL|Lz?)/j/ #以L
+    - derive/^(hg)/g/
+    - derive/^(JL|L)/j/ #以L 不含Lz
+    - derive/^(J[QVq])/q/    #Jq
+    - derive/^(hQ)/q/ #云
+    - derive/^(E|hz)/q/ #
+    - derive/^(E|hz)/g/ #
+    - derive/^(E|hz|hg|hQ(?!s))/E/
+    
     - derive/^(hLs|Lsh|Ls)/ls/ 
     - derive/^(hLs|Rsh|Rs)/rs/ 
     - derive/^(hQs)/qs/
@@ -182,8 +191,8 @@ speller:
     - derive/W/w/
     - derive/I/j/
     - derive/U/y/
-    # - fuzz/[jrxI](ə|ʌ|a|e|i|o|u|;)/i$1/ #i=jx
-    # - fuzz/[ywU](ə|ʌ|a|e|i|o|u|;)/u$1/
+    - fuzz/[jrxI](ə|ʌ|a|e|i|o|u|;)/i$1/ #i=jx
+    - fuzz/[ywU](ə|ʌ|a|e|i|o|u|;)/u$1/
 
 ##    
     - fuzz/(Sh?)a([aeiou;,])/$1r$2/ #莊R 聲前介後
@@ -281,8 +290,11 @@ speller:
     - abbrev/([jx])i/$1/ #半元作元 配下u o
     - abbrev/([yw])i/$1/ #ju vi溷
     - abbrev/([Uyw])u/y/ 
-    - abbrev/([vo])u/v/ #v=vu
-    - abbrev/([iuIU])u/u/ 
+    - abbrev/([Vvo])u/v/ #v=vu
+    - abbrev/([iuIU])u/u/
+    - abbrev/([eo])([əʌ;,])/$1/
+    - abbrev/([Vvo])([əʌ;,])/vo/
+    - abbrev/([af])([əʌ;,])/$1/ #?之
 ##
     - fuzz/^J/j/
     - derive/Q/q/
@@ -297,6 +309,9 @@ speller:
     - fuzz/^ts(?!c)/x/
     - fuzz/^(hq|A)/w/
     - fuzz/^(ng|C)/c/
+    
+####首字母
+    - abbrev/^([a-zA-Z])[aeiouVYvfIUjyxw;,].*$/$1/ #𥳑
 translator:
   dictionary: hzeepqwiz
   prism: hzeepqwiz_z
