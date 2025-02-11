@@ -3840,6 +3840,7 @@ use_preset_vocabulary: true
 𦉭	sjis
 𠃢	sjis
 ###㣇
+𠮇	sjis
 𢑞	deejs
 𧱈	deejs
 #
@@ -3850,19 +3851,59 @@ use_preset_vocabulary: true
 𦘞	Jjis
 𨽽	Jjis
 𧲁	Jjis
+###聿帇 肆𢑩-㣇
+𨽸	sjis
+𩭞	sjis
+𦘨	sjis
+𢑨	sjis
 ###隶
 逯	do,js
 𨓞	do,js
 𨓻	do,js
 𡍖	do,js
 𪰷	do,js
-𠮇	sjis
-###肆-㣇
-𨽸	sjis
-𩭞	sjis
-𦘨	sjis
-𢑨	sjis
-###冎
+
+###
+# 𨽼	sjis
+#
+# 隸	deejs
+# 隷	deejs
+###隸-柰
+𥌤	leejs
+𭿌	leejs
+𣛒	leejs
+𥉆	leejs
+𥊨	leejs
+𰧭	leejs
+歀	leejs
+𣜩	leejs
+𥛬	leejs
+𥻳	leejs
+𨽾	leejs
+𨽻	leejs
+# 𨾀	leejs
+𨾁	leejs
+𫆕	leejs
+𭐘	leejs
+𭭧	leejs
+𮂄	leejs
+𮇬	leejs
+𮥵	leejs
+𱑅	leejs
+𱧲	leejs
+𱵜	leejs
+𱵰	leejs
+#
+𭋤	leejs
+𭋤	leejs
+𭋱	leejs
+𭋺 leejs
+𭌚	leejs
+𭋅	leejs
+𭋸	leejs
+𭋹	leejs
+𭋻	leejs
+###冎𠮇
 叧	kfaA
 𠙼	kfaA
 窩	AVaq
@@ -9195,30 +9236,6 @@ use_preset_vocabulary: true
 ###厂
 丆	hoanA
 ###看
-###隸-柰
-𰧭	leejs
-# 𨽼	sjis
-#
-# 隸	deejs
-# 隷	deejs
-歀	leejs
-𣜩	leejs
-𥛬	leejs
-𥻳	leojs
-𨽾	leojs
-𨽻	leejs
-# 𨾀	leejs
-𨾁	leejs
-𫆕	leejs
-𭐘	leejs
-𭭧	leejs
-𮂄	leejs
-𮇬	leejs
-𮥵	leejs
-𱑅	leejs
-𱧲	leejs
-𱵜	leejs
-𱵰	leejs
 ###𡴅
 𡴅	tRwitq
 ⿱山巾	tRwitq

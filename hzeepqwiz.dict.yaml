@@ -1860,18 +1860,18 @@ import_tables:
 繫	hgeeks
 瘱	Aeeps		#ps
 #
-㣇	Le;ts		#L?
-𢑞	Le;ts
+㣇	Leiks		#L?
+𢑞	Leiks
 隶	Le;ts		#L-
-逮	Le;ts	2		#ts
+逮	Le;ts	2		#-ps?隶 齂-t
 棣	Le;ts
-隸	le;ts		#柰𫩀k- ?
-𨾀	le;ts
-隷	le;ts
-𤃀	le;ts
-𥶾	le;ts
-𣛒	le;ts
-𣟌	le;ts
+隸	leets		#柰𫩀k- ?𫩀介#
+𨾀	leets
+隷	leets
+𤃀	leets
+𥶾	leets
+𣛒	leets 	#䚕 集韻 力智切
+𣟌	leets
 ##Oa a?e?
 蔕	teats		#帶t-a-t#帶t-e-t
 螮	teats		#蝃𧋍蚳
@@ -2559,7 +2559,7 @@ import_tables:
 𦗐	CQ_a;ts		#ts
 𢟰	CQ_a;ts
 𧏹	CQ_a;ts
-齂	hCsa;ts		#ts Cs
+齂	hmsa;ts		#ts ms 隶逮
 #?
 屆	kQ_a;ts		#ts i?
 ##ROəR
@@ -4094,26 +4094,29 @@ import_tables:
 #-p
 涖	lj;ps		#ps
 莅	lj;ps
+䇐	lj;ps 	#𫩀介#莅 -ps 立聲
 ##jər
-#-t
+#-
+殔	JLj;ts		#隶L-eo- #肂
+隶	JLj;ts	1		#ts?t#羊至切 及 逮
 寐	mj;ts		#ts#未聲?
-㣇	JLj;ts
-𢑩	JLj;ts
-㣈	sj;ts
-𨽼	sj;ts
-肄	JLj;ts
-殔	JLj;ts
-隶	JLj;ts	1		#ts
-䇐	lj;ts
-𨽸	sj;ts		#从㣇
-𩭞	sj;ts
-𧳙	sj;ts
-肆	sj;ts
-𩬶	sj;ts
-肂	sj;ts
-𦘖	sj;ts
-蕼	sj;ts
-貄	sj;ts
+##
+㣇	JLjiks
+𢑩	JLjiks		#說文
+𧲁	JLjiks
+肄	JLjiks 	#㣇𢑩#
+㣈	sL-jiks		#
+𨽼	sL-jiks
+𨽸	sL-jiks		#从㣇
+𩭞	sL-jiks
+𧳙	sL-jiks
+肆	sL-jiks
+𩬶	sL-jiks
+肂	sL-jiks		#肂 殔 瘞也
+𦘖	sL-jiks	
+蕼	sL-jiks	
+貄	sL-jiks	
+#
 ##?
 #j-ə 反常?聲母不顎
 㹗	tshJo,j	0		#昌來切 誤
