@@ -98,8 +98,8 @@ speller:
     - derive/uu([qAs])/rov$1/ #    孚幽
 ##韻補
     # - derive/([oir]u)v([qAs])$/$1$2/ #u-v 侯尤幽
-    - derive/(u)v/$1/ #uv 侯尤幽 介後
-
+    #- derive/(u)v/$1/ #uv 侯尤幽 介後
+    - derive/([iIr]u)v/$1/ #侯ou 皋不省
     # - fuzz/(ao)v/$1/ #ao-v
 
     - fuzz/(i)C/$1n/ #iŋ in ij it eŋ eq ek

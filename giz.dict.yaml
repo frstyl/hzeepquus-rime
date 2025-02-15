@@ -1531,7 +1531,6 @@ use_preset_vocabulary: true
 # 朌	bU;nq
 坋	bU;ns
 # 朌	paanq
-份	bU;ns
 吩	pU;nq
 盻	phaens		#1		#盼
 ###豩
@@ -4178,6 +4177,7 @@ use_preset_vocabulary: true
 ###𡕒-aj?q
 㐄	khfaA
 㐄	khfas
+另	khfaA		#切韻 冎?
 #
 ##夸-x
 𧿋	khfas		#跨
@@ -4410,10 +4410,6 @@ use_preset_vocabulary: true
 𢴶	neevA
 ###
 䛝	noavq		#?
-###
-套	thoavs
-𡘷	thoavA
-𡘷	thoavs
 ###夲
 𠦎	thoavq
 𠇏	thoavq
@@ -5547,9 +5543,7 @@ use_preset_vocabulary: true
 ###舀
 𤔘	JjevA
 𦥵	JjevA
-謟	thoavs
 𦥝	JjevA
-韜	thoavs
 𠚘	thoavq
 𠚜	thoavq
 㴞	thoavq
@@ -14809,7 +14803,7 @@ use_preset_vocabulary: true
 掱	baaq
 抭	qu;tq
 擤	sjeCA
-抙	boavq		#捊
+抙	boovq		#捊
 𢯾	moavs
 㩉	hxipq
 㨊	JyiA

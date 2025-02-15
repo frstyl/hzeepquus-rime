@@ -298,6 +298,7 @@ import_tables:
 𠹈	noaj_q		#儺𢠸𩴓#𦰩?
 ###Va
 ##
+䛢	thVuq		#土禾切 詆䛢#?禿 類瑁#頹聲?
 𠂬	CQVaq
 𠂬	CQVaA
 𡜮	CQVaA
@@ -313,7 +314,6 @@ import_tables:
 妥	thVujA		#ns?妥?委?#o?u?
 㟎	thVujA
 鵎	thVujA
-䛢	thVujq		#?禿 類瑁#頹聲?
 ##Voj
 惢	sVujA
 蓑	sVujq		#衰莎?衰s-k-u-j
@@ -338,6 +338,7 @@ import_tables:
 綞	tVujA
 涶	thVujq
 𠾊	thVujs
+𰝇	thVujs
 唾	thVujs
 涶	thVujs
 𥢤	dVujA
@@ -698,7 +699,7 @@ import_tables:
 射	JLIaks	2
 ##Ia
 𠰒	nJIaA		#喏
-乜	mIaA		#?也?
+乜	mIaA		#姓#?也?哶
 車	khLJIaq		#k-L?
 硨	khLJIaq
 厙	LsJIas		#車k-L 庫訓舍
@@ -4093,6 +4094,8 @@ import_tables:
 齍	tsj;jq
 薺	dzj;jq
 蠐	dzj;jq
+##
+媢	mjuks		#ks?冒m-u-k
 ##jər
 #-p
 涖	lj;ps		#ps
@@ -4325,7 +4328,6 @@ import_tables:
 粹	syuts
 睟	syuts
 賥	syuts
-媢	mjuks		#ks?冒m-u-k
 祟	syuts		#ts
 𥜱	syurq
 𠭥	syuts
@@ -8575,13 +8577,13 @@ import_tables:
 玸	bF_uuq		#包p-u
 枹	bF_uuq
 ##Uə
-侮	mF_vioA
-䍙	mF_vioA
-㑄	mF_vioA
-䳇	mF_vioA
-𢜮	mF_vioq
+侮	mFuoA		#務敄
+䍙	mFuoA
+㑄	mFuoA
+䳇	mFuoA
+𢜮	mF_vioq		#憮 又 莫補切#某m-eo 某m-a
 𢜮	mF_vioA
-剖	phF_vioA		#咅
+剖	phF_vioA		#咅p-eo 咅p-a
 䋨	phF_vioA
 䯽	phF_vioA
 殕	phF_vioA
@@ -9204,7 +9206,7 @@ import_tables:
 #####-v
 ####av 豪爻
 𤓾	toavs		#?姓
-套	thoavA
+套	thouvA 	#韜
 ###av豪
 𠺛	doavs		#𦒺𡄒
 ##Oav
@@ -9448,11 +9450,11 @@ import_tables:
 珤	pouv_A
 寶	pouv_A		#𡧖
 𡧖	pouv_A
-㯱	phouv_q		#缶
+㯱	phouv_q		#缶p-u
 襃	pouv_q		#褒
 𧛙	pouv_q
 褒	pouv_q
-㮘	mouv_q
+㮘	mouv_q		#敄m-o 矛m-u
 堥	mouv_q
 䓮	mouv_A
 蓩	mouv_A
@@ -11064,21 +11066,26 @@ import_tables:
 麃	phF_xavA
 藨	bxavA
 𦳤	bxavA		#藨
-####uv 侯尤幽əu
+####uv 侯尤幽əu ou oov
 ###oov 侯韵失R
 𠙶	AoovA		#山名
 ##Oo?
-㹾	AoovA		#切韻 烏口切
-㰶	AoovA		#訓嘔歐?
-𩚭	boovq		#付
+㹾	AoovA
+㰶	AoovA
+𩚭	boovq
 戊	moovs
 茂	moovs
-牡	moovA		#母?ou
-貿	moovs		#卯m-r-u
+牡	moovA
+貿	moovs
 鄮	moovs
-㨐	poovA		#保
-捊	boovq		#抱
-裒	boovq		#非襃#捊
+㨐	poovA
+捊	boovq
+裒	boovq
+雺	moovks
+袤	moovks
+楙	moovks
+懋	moovks
+𦼪	moovks
 #
 㹾	AruvA		#切韻 烏口切
 㰶	AruvA		#訓嘔歐?
@@ -11091,14 +11098,33 @@ import_tables:
 㨐	pruA		#保
 捊	bruq		#抱#iuv-iov ouv-oov
 裒	bruq	
+雺	mruks		#ks#矛m-u#敄m-o
+袤	mruks
+楙	mruks
+懋	mruks
+𦼪	mruks
 ##Oa?
 𩌏	boovs		#尃#集韻 扶富切
 豧	phoovs		#甫
 ##Oʌ?Oo?Ou?Oa?- və→əv
-某	moovA		#莫厚切#詔前人之言也#謅aav搊iuv搊iov
+呣	mI;q		#亡侯切 謀
+娒	mI;A 	#莫厚切
+母	mI;A		#姆姥媽 母m-a#母每m-eo #eo→iu→u 按 當有虞韻音 a→uo 轉爲oo 媽姥
+拇	mI;A
+胟	mI;A
+𤝕	mI;A
+𤵝	mI;A
+𧿹	mI;A
+䳇	mI;A
+姆	mI;s		#莫候切
+苺	mI;s 	#苺子即覆盆 莓
+畮	mI;A
+踇	mI;A
+#
+某	moovA		#莫厚切#詔前人之言也#謅aav搊iuv搊iov#eo
 呣	moovq		#亡侯切 謀
 娒	moovA 	#莫厚切
-母	moovA		#姆姥媽 母m-a#母每m-eo ##母#iu→iəv→oəv #a>jo>yo>oov
+母	moovA		#姆姥媽 母m-a#母每m-eo #eo→iu→u 按 當有虞韻音 a→uo 轉爲oo 媽姥
 拇	moovA
 胟	moovA
 𤝕	moovA
@@ -11106,7 +11132,7 @@ import_tables:
 𧿹	moovA
 䳇	moovA
 姆	moovs		#莫候切
-苺	moovs
+苺	moovs 	#苺子即覆盆 莓
 畮	moovA
 踇	moovA
 畞	moovA		#畮
@@ -11540,12 +11566,7 @@ import_tables:
 #
 䜅	tshoovq	0		#千侯切 誤
 䜅	tshyujq		#正
-雺	moovks		#ks#矛m-u#敄m-o
-袤	moovks
-楙	moovks
-懋	moovks
-𦼪	moovks
-瞀	moovks
+瞀	moovks		#敄m-o
 愗	moovks
 䓮	moovks
 㝅	noovA		#訓
@@ -12146,20 +12167,20 @@ import_tables:
 𩏷	tsiuv_q
 𥾀	tsiuv_q
 ##Iur Iuks
-鍑	pIuks		#ks
+鍑	pF_Iuks		#ks
 𤸑	phF_Iuks
-𧜰	bIuks
-𢕒	bIuks
-複	bIuks	9		#複
-復	bIuks	9
-𤸑	bIuks
-椱	bIuks
+𧜰	bF_Iuks
+𢕒	bF_Iuks
+複	bF_Iuks	9		#複
+復	bF_Iuks	9
+𤸑	bF_Iuks
+椱	bF_Iuks
 𧠃	phF_Iuks
-𧠃	bIuks
+𧠃	bF_Iuks
 覆	phF_Iuks		#葢也
-覆	bIuks		#伏兵也
-仆	phIuks		#ks u
-伏	bvI;ks		#ks
+覆	bF_Iuks		#伏兵也
+仆	phF_Iuks		#ks u
+伏	bF_I;ks		#ks
 #
 由	JLiuv_q
 鮋	LJiuv_q	1		#vR J-
