@@ -5161,7 +5161,7 @@ import_tables:
 輜	tshSi;q
 滓	tsSi;A
 䔂	tsSi;A
-廁	tshSi;s
+廁	tshSi;ks		#則
 庤	dRi;A
 𦥊	thRi;s		#會意?
 俟	zq-Ri;A		#牀史切 切韻 漦史切#大也#訓竢#䇃  #𠤕矣s-ɢ v-?#矣 㠯已巳 矣L-eo
@@ -11722,7 +11722,7 @@ import_tables:
 㝌	kQ_vI;s
 疚	kQ_vI;s
 柩	gvI;s
-畂	lvI;s
+畂	lvI;s		#力救切 集韵 居又切
 臼	gvI;A
 𦥶	gvI;A
 舅	gvI;A
@@ -11786,7 +11786,7 @@ import_tables:
 𩭾	mF_Iuv_q
 䋷	mF_Iuv_q
 𧔨	mF_Iuv_q		#蛑蟊 
-牟	mF_Iuv_q 	#ueo?
+牟	mF_Iuv_q	99	 	#ueo?
 眸	mF_Iuv_q
 侔	mF_Iuv_q
 麰	mF_Iuv_q
@@ -13501,10 +13501,8 @@ import_tables:
 鬫	haemA
 㺝	hgaemA
 #
-煠	dzSaepq		#枼-世L-e-p? z-L
+煠	dzSaepq		#枼-世L-e-p? z-L 湯煠 訓㴙
 渫	dzSaepq
-煠	LRaepq
-渫	LRaepq
 ##ROem
 敮	haepq		#⿰匧攴#匧k-e-p
 夾	kQ_aepq
@@ -15101,7 +15099,7 @@ import_tables:
 浩	kQ_o,pq		#?
 𢇞	hgo,mA		#?𢇞嘾
 㐁	Lsho,ms		#?簟
-𦂀	doopq		#?度
+𦂀	do,pq		#?度
 歜	dzo,mA	0		#?𣤶徂感切 誤
 厒	khQ_o,pq
 㶒	tho,ms
@@ -16773,7 +16771,6 @@ import_tables:
 #
 礣	maetq		#蔑苜 #蔑m-e-t
 㩢	maetq
-辬	paenq
 捌	paetq
 㭭	paetq
 砎	hgaetq		#?
@@ -16795,6 +16792,7 @@ import_tables:
 班	paanq
 𤤻	paanq
 斑	paanq
+辬	paanq		#布還切
 螌	paanq
 䰉	paanq
 般	paanq
@@ -18432,6 +18430,7 @@ import_tables:
 𨋐	phaetq		#?車破聲 車瓦會意
 羴	haenq
 虤	CQ_aenq
+虨	paenq
 ##Rin
 # 䀣	maitq		#ŋ
 # 㑻	maitq
@@ -18524,7 +18523,7 @@ import_tables:
 汃	phaetq
 𪗔	phaetq
 𥐙	phaetq
-斒	paenq
+斒	paenq		#方閑切 布還切
 爿	baenq
 辧	baens
 辨	baens

@@ -161,9 +161,10 @@ speller:
     #- derive/^(Q)[uUy](?=[aeiou;,])/$1/ #雲母 #改爲一等1218
     - derive/^(hQ)[Yv](?=[aeiou;,])/$1/
 #
-    - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]s|[hX]s|X)/h/
+    - derive/^(h[mnCLRqQ]s|hsq|ngs|[hX]s|X)/H/
+    - xform/^h([oVeYafiujyxwrWvəʌ])/H$1/
 
-
+    
     - derive/^([LR])(?![sz])/d/ #dR
     - derive/^([LRn]sh)/th/
     - derive/^(C)(?=[JR])/n/ #C
@@ -365,10 +366,11 @@ speller:
     - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
 
     # - derive/^(mLzJ)/mL/
-    - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]sJ?)/hs/
+   # - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]sJ?)/hs/
 ##聲母轉寫
     # - derive/^([pbm])F/$1ff/
     - derive/^(A)/hq/ #影母
+    - derive/^(H)/hs/ #曉母
     - derive/^(E)/hz/ #匣母
     #- derive/^(C)/ng/ #疑母
 
@@ -458,6 +460,7 @@ speller:
 
 
 ##聲𥳑
+    - derive/^(ng|C)/c/
     - derive/^J/j/
     # - derive/qz/q/
     # - derive/^Z/zz/
@@ -466,9 +469,9 @@ speller:
     #- xform/^h([Uy])/hu/
     #- xform/^q([Ij])/qi/
     #- xform/^h([Uy])/qu/
-    - fuzz/^sJ(?=[jy])/h/ #船
+    - fuzz/^sJ(?=[jy])/x/ #船
     - fuzz/^zJ(?=[jy])/q/ #書
-    - fuzz/^[LCQ]sJ?/hs/ #曉
+    #- fuzz/^[LCQ]sJ?/hs/ #曉
     #- fuzz/^q/qz/ #雲
 
     - derive/^z/Z/ #衺 #
@@ -478,9 +481,11 @@ speller:
     - derive/^th/r/
     - derive/^kh/y/
     - derive/^tsh/v/
-    - derive/^ts/x/
-    - derive/^(hq|A)/w/
-    - derive/^(ng|C)/c/
+    - derive/^ts/w/
+    
+    - derive/^(hs|H)/x/
+    - derive/^(hq|A)/h/
+
 
 ##𥳑 首字母
     # - abbrev/^(\w).+$/$1/
@@ -527,9 +532,9 @@ translator:
     - xform/(^|')f(?!('|$))/$1pʰ$2/
     - xform/(^|')v(?!('|$))/$1t͡sʰ$2/
     - xform/(^|')y(?!('|$))/$1kʰ$2/
-    - xform/(^|')x(?!('|$))/$1t͡s$2/
+    - xform/(^|')w(?!('|$))/$1t͡s$2/
     - xform/(^|')c(?!('|$))/$1ŋ$2/
-    - xform/(^|')w(?!('|$))/$1ʔ$2/
+    - xform/(^|')h(?!(['szq]|$))/$1ʔ$2/
     # - xform/eo/ə/
     # - xform/ea/ə/
     # - xform/hq/ʔ/

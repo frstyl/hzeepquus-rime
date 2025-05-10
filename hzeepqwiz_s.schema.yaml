@@ -151,15 +151,17 @@ speller:
     #- derive/^(hms|ph|p|b|m|Q)[V]/$1/ #V
     - derive/^(Q)[Uyu]([aeiou;,])/$1$2/ #雲母 Q q
     - derive/^(hms)[uUy]([aeiou;,])/$1$2/ #幫組 一三
-    - derive/^(hms)[uUy]([aeiou;,])/h$2/
+    #- derive/^(hms)[uUy]([aeiou;,])/h$2/
     - derive/^(ph|p|b|m)[uUy]([aeiou;,])/$1$2/
     - derive/^(ph|p|b|m)[Vv]([aou;,])/$1o$2/
     - derive/^(ph|p|b|m)[Yv]([ei;,])/$1e$2/ #无用
     #- derive/^(ph|p|b|m)v([Ijrxioa][aeiou;,])/$1$2/
     # - derive/(hms|ph|p|b|m)v[;,]/$1ea/    #特加
 
-    - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]s|[hX]s|X)/h/ #清
-
+    - derive/^(h[mnCLRqQ]s|hsq|ngs|[hX]s|X)/H/ #清
+    - xform/^h([oVeYafiujyxwrWvəʌ])/H$1/
+    #- xform/^h(?![gqszQ])/H/
+    
     - derive/^([LR])(?![sz])/d/ #d[RJ]
     - derive/^([LRn]sh)/th/
     - derive/^(C)(?=[JR])/n/
@@ -325,11 +327,12 @@ speller:
     - derive/^(h?Q(?![sz]))/Qz/ #QsJ?
 
     # - derive/^(mLzJ)/mL/
-    - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]sJ?)/hs/
+    #- derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]sJ?)/hs/ #多餘
 ##聲母轉寫
     # - derive/^([pbm])F/$1ff/
     - derive/^(A)/hq/ #影母
     - derive/^(E)/hz/ #匣母
+    - derive/^(H)/hs/ #曉母
     #- derive/^(C)/ng/ #疑母
 #    #- derive/^(th?|d|n)R/$1rr/ #知
 #    - derive/^(th?|n)R/$1z/ #知
@@ -429,6 +432,7 @@ speller:
 
 
 ##聲𥳑
+    - derive/^(ng|C)/c/
     - derive/^J/j/
     # - derive/Q/q/
     #- derive/^Z/zz/
@@ -438,9 +442,9 @@ speller:
     #- xform/^h([Uy])/hu/
     #- xform/^q([Ij])/qi/
     #- xform/^h([Uy])/qu/
-    - fuzz/^sJ(?=[jy])/h/ #船
+    - fuzz/^sJ(?=[jy])/x/ #船
     - fuzz/^zJ(?=[jy])/q/ #書
-    - fuzz/^[LCQ]sJ?/hs/ #曉
+    #- fuzz/^[LCQ]sJ?/hs/ #曉
     #- fuzz/^q/qz/ #雲
 
     - derive/^z/Z/ #衺
@@ -450,9 +454,11 @@ speller:
     - derive/^th/r/
     - derive/^kh/y/
     - derive/^tsh/v/
-    - derive/^ts/x/
-    - derive/^(hq|A)/w/
-    - derive/^(ng|C)/c/
+    - derive/^ts/w/
+
+    - derive/^(hs|H)/x/    
+    - derive/^(hq|A)/h/
+
 
 ##𥳑 首字母
     # - abbrev/^(\w).+$/$1/
@@ -499,9 +505,9 @@ translator:
     - xform/(^|')f(?!('|$))/$1pʰ$2/
     - xform/(^|')v(?!('|$))/$1t͡sʰ$2/
     - xform/(^|')y(?!('|$))/$1kʰ$2/
-    - xform/(^|')x(?!('|$))/$1t͡s$2/
+    - xform/(^|')w(?!('|$))/$1t͡s$2/
     - xform/(^|')c(?!('|$))/$1ŋ$2/
-    - xform/(^|')w(?!('|$))/$1ʔ$2/
+    - xform/(^|')h(?!(['szq]|$))/$1ʔ$2/
     # - xform/eo/ə/
     # - xform/ea/ʌ/
     # - xform/hq/ʔ/

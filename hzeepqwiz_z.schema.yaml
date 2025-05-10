@@ -97,8 +97,10 @@ speller:
     - derive/.-//
 
 
-    - derive/^(h[mnCLRqQ]s|hsq|ngs|[mnCqQ]s|[hX]s|X)/h/
+    - derive/^(h[mnCLRqQ]s|hsq|ngs|[hX]s|X)/H/
+    - xform/^h([oVeYafiujyxwrWv])/H$1/
 
+    
     - derive/^h?[mnCLRqQ](s)J/$1J/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
     - derive/^[mnCLRqQ](z)J/$1J/ #[]s #Ls→hLs→LsJ,  L→LJ?→JL
     - derive/^[mnCLRqQ]([sz])R/$1S/ #Lsc LsS #不存在
@@ -272,11 +274,12 @@ speller:
     - derive/_//
 
     #- derive/A/hq/
+    #- derive/^(H)/hs/ #曉母
     #- derive/E/hz/
     #- derive/C/ng/
     #- derive/S/ss
     #- derive/F/fs/
-    - derive/C/c/
+    #- derive/C/c/
     #- derive/V/vv/
     - derive/R(?![sz])/rr/
     - derive/L(?![sz])/ll/
@@ -297,6 +300,7 @@ speller:
     - abbrev/([Vvo])([əʌ;,])/vo/
     - abbrev/([af])([əʌ;,])/$1/ #?之
 ##
+    - fuzz/^(ng|C)/c/
     - fuzz/^J/j/
     - derive/Q/q/
     #- derive/^Z/zz/
@@ -307,9 +311,11 @@ speller:
     - fuzz/^th/r/
     - fuzz/^kh/y/
     - fuzz/^ts(s?)h/v$1/
-    - fuzz/^ts(?!c)/x/
-    - fuzz/^(hq|A)/w/
-    - fuzz/^(ng|C)/c/
+    - fuzz/^ts/w/
+    
+    - fuzz/^(hs|H)/x/
+    - fuzz/^(hq|A)/h/
+
     
 ####首字母
     - abbrev/^([a-zA-Z])[aeiouVYvfIUjyxw;,].*$/$1/ #𥳑
