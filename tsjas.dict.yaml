@@ -19,7 +19,7 @@ use_preset_vocabulary: true
 巰	khiuvq		#mercapto 氫硫
 巰	giuvq
 烷	EVanq		#alkane 完
-烯	hi;jq		#alkene olefins 稀
+烯	Hi;jq		#alkene olefins 稀
 炔	khyetq		#alkyne 缺
 羧	siaCA		#carboxyl 酸氧
 羧	sVaq
@@ -87,8 +87,8 @@ use_preset_vocabulary: true
 錆	tsheeCq
 鉘	pu;tq
 # 錄	liokq
-𲇙	hiuvs
-⿰金臭	hiuvs
+𲇙	Hiuvs
+⿰金臭	Hiuvs
 錪	teenA
 ###
 酶	moojq		#enzyme
@@ -124,8 +124,8 @@ use_preset_vocabulary: true
 氧硫硒碲釙鉝	tsJuoA dzouk
 氟氯溴碘砹鿬	tsJuoA dzouk
 氦氖氬氪氙氡鿫	tsJuoA dzouk
-鑭鈰鐠釹鉕釤銪釓鋱鏑鈥鉺銩鐿鑥	loanq hgees
-錒釷鏷鈾錼鈈鎇鋦錇鐦鎄鐨鍆鍩鐒	Aoaq hgees
+鑭鈰鐠釹鉕釤銪釓鋱鏑鈥鉺銩鐿鑥	loanq Eees
+錒釷鏷鈾錼鈈鎇鋦錇鐦鎄鐨鍆鍩鐒	Aoaq Eees
 ##
 氫	khjeCq		#H 1 hydrogen
 ⿹气水	khjeCq
@@ -135,7 +135,7 @@ use_preset_vocabulary: true
 氕	pheetq		#丿
 氘	toavq		#刀刂
 氚	tshJyenq		#川
-氦	hgo,jA		#He helium 
+氦	Eo,jA		#He helium 
 氜	nJjitq		#日 helium
 鋰	li;A		#Li lithium
 鈹	bxeq		#Be beryllium
@@ -174,7 +174,7 @@ use_preset_vocabulary: true
 砷	sJjinq
 砒	pheiq
 硒	so,jq
-溴	hiuvs
+溴	Hiuvs
 溴	tshJiuvs		#Bromine 殠
 氪	kho;kq
 銣	nJioq
@@ -213,8 +213,8 @@ use_preset_vocabulary: true
 釓	koaq		#乚扎gadolinium
 鋱	tho;kq
 鏑	teekq
-鈥	hVaA
-錵	hfaq
+鈥	HVaA
+錵	Hfaq
 鉺	nJi;A
 銩	tiuvq		#Tm 69thulium
 鐿	Ai;s
@@ -258,9 +258,9 @@ use_preset_vocabulary: true
 鑪	looq		#Ru 104 rutherfordium
 䤣	looq		#rutherfordium 金虍錿
 𨧀	dooA		#Db 105d dubnium
-𨭎	hi;A		#Sg 106 seaborgium
+𨭎	Hi;A		#Sg 106 seaborgium
 𨨏	pVaq		#Bh 107 bohrium
-𨭆	ho;kq		#Hs 108 haSium
+𨭆	Ho;kq		#Hs 108 haSium
 䥑	maekq		#Mt 109 meitnerium
 鐽	doatq		#Ds 110 darmstadtium
 錀	lyinq		#Rg 1101 roentgenium
@@ -273,7 +273,7 @@ use_preset_vocabulary: true
 鿬	deenq		#Ts 117teenResine
 鿫	Aoavs		#Og118 oganeSon
 ##
-氦	ho,js		#He helium
+氦	Ho,js		#He helium
 #########
 ###借䛐
 鿱	paaq
@@ -320,7 +320,7 @@ use_preset_vocabulary: true
 狇	mous
 𤝂	mous
 彁	kaq		#无意義
-錿	hooA
+錿	HooA
 𣬠𣬶	keejq paaq
 傈僳	ljitq siokq
 傈僳	leis sous		#lisu
@@ -334,39 +334,39 @@ use_preset_vocabulary: true
 鿖	khrirq
 #######會意
 #####
-𱍚	p; toajq
-𱍛	p; hgo,pq
-𱍤	p; dzJjeA
-𱏤	p; kVaCq
-𱰸	p; Au;js
-𱷣	p; ljipq
-𡀆	p; hi;A
-𰴪	p; CIanq
-𰑼	p; Aoakq
-𰀚	p; tsJjeCs
-𭯒	p; moavq
-𭯈	p; moovA
-𫠫	p; CUanq
-𫠬	p; tRiuCq
-𫠲	p; khiokq
-𫠻	p; sjins
-𬦇	p; tsoovA
-𪜄	p; khoajA
-𧗩	p; hgaaCq
-𩖲	p; piuCq
-𤯚	p; SaeCq
-𣈇	p; mraCq
-𡍂	p; dzVas
-𠁞	p; EVar
-𢆓	p; braCq
-𣨀	p; sjiA
-𡈯	p; qwenq
-𠁒	p; tsJjinq
-𠀱	p; buoA
-甭	p; JioCs
-䬩	p; zJi;kq
-歪	p; tsJjeCs
-奀	p; doarq
+𱍚	piuq toajq
+𱍛	piuq Eo,pq
+𱍤	piuq dzJjeA
+𱏤	piuq kVaCq
+𱰸	piuq Au;js
+𱷣	piuq ljipq
+𡀆	piuq Ei;A
+𰴪	piuq CIanq
+𰑼	piuq Aoakq
+𰀚	piuq tsJjeCs
+𭯒	piuq moavq
+𭯈	piuq moovA
+𫠫	piuq CUanq
+𫠬	piuq tRiuCq
+𫠲	piuq khiokq
+𫠻	piuq sjins
+𬦇	piuq tsoovA
+𪜄	piuq khoajA
+𧗩	piuq EaaCq
+𩖲	piuq piuCq
+𤯚	piuq SaeCq
+𣈇	piuq mraCq
+𡍂	piuq dzVas
+𠁞	piuq EVar
+𢆓	piuq braCq
+𣨀	piuq sjiA
+𡈯	piuq qwenq
+𠁒	piuq tsJjinq
+𠀱	piuq buoA
+甭	piuq JioCs
+䬩	piuq zJi;kq
+歪	piuq tsJjeCs
+奀	piuq doarq
 𪱱	moukq EaaA
 𮗙	keens ku;jA
 𭂴	piuCq lioA
@@ -385,7 +385,7 @@ use_preset_vocabulary: true
 𪸃	tshjeCq khi;js
 𬒭	dzJjenq Sxiq		#禪師
 ⿱二𠄟	dzJiaCA EaaA
-𫤜	hioCq deejs
+𫤜	HioCq deejs
 𫡡	gxevq Jios
 𫣵	tsJjinq zi;A
 𭻺	tsJjinq toaCq
@@ -393,8 +393,8 @@ use_preset_vocabulary: true
 朆	mo;Cq
 覅	mjevs
 𣄰	moaA		#无可
-鿗	hgo,pq Ajiq
-鿘	hgo,pq Ajiq
+鿗	Eo,pq Ajiq
+鿘	Eo,pq Ajiq
 鿙	kho;kq Ajiq
 鿚	kaakq Ajiq
 鿛	li;Cq nJjeA
@@ -404,7 +404,7 @@ use_preset_vocabulary: true
 鿟	ljis nJjeA
 鿠	ljis nJjeA
 鿡	loaq nJjeA
-鿢	Jjaq hgo,pq
+鿢	Jjaq Eo,pq
 鿣	Jjaq kho;kq
 鿤	Jjaq kaakq
 鿥	loaCq nJjeA
@@ -446,10 +446,10 @@ use_preset_vocabulary: true
 若	nas
 邪	la
 已	l;
-乎	ha
+乎	Ha
 𠮱	EVa
 矣	q;
-兮	hejq
+兮	Hejq
 嗚	Aa
 嗚呼	Aa ha
 烏乎	Aa ha
@@ -471,8 +471,8 @@ use_preset_vocabulary: true
 𠍲	gioq
 們	mV;nq
 # 麼	m;q
-什麼	dzJjeA hgoat mu;t
-什麼	hgoatq
+什麼	dzJjeA Eoat mu;t
+什麼	Eoatq
 輩	mV;n
 瞞	mV;nq
 ###
@@ -481,18 +481,18 @@ use_preset_vocabulary: true
 #喵	mxevq		#貓
 #咪	mjaq		#咩
 #噗	phoukq
-#嘿	ho;kq	5
+#嘿	Ho;kq	5
 #啦	lo,pq	5
 #吖	Aaaq	5
 #哪	noaA
 #啊	Aoaq
-#嘿	heejq
-#哼	ho;Cq
+#嘿	Heejq
+#哼	Ho;Cq
 #啥	sJjaq	5
-#啥		hgoat	5
+#啥		Eoat	5
 ##
 # 啦	loa
-# 哈	hoa
+# 哈	Hoa
 # 吖	Aia
 # 哦	qoo
 # 噢	qoo
@@ -502,8 +502,8 @@ use_preset_vocabulary: true
 咱	tsoatq		#篇海 子葛切
 咱	dzoaq		#兹沙切 中州音韻
 哎	Coarq
-嗨	ho,jq
-咍	ho,jq
+嗨	Ho,jq
+咍	Ho,jq
 喏	nJjaA		#𠰒
 呔	to,jq
 了	l;
@@ -533,8 +533,8 @@ use_preset_vocabulary: true
 氕	pheetq		#丿
 氘	toavq		#刀刂
 氚	tshJyenq		#川
-氦	hgo,jA		#he helium 
-氦	ho,js		#He helium
+氦	Eo,jA		#he helium 
+氦	Ho,js		#He helium
 氮	doams		#n 7 nitrogenium azote 
 氧	JiaCA		#O xygen
 氱	JiaCA
@@ -584,7 +584,7 @@ use_preset_vocabulary: true
 呎	tshJjekq
 嚷	nJiaCA		#讓
 #啦	loa
-#哈	hoa
+#哈	Hoa
 #吖	Aia
 #哦	qoo
 #噢	qoo
@@ -594,8 +594,8 @@ use_preset_vocabulary: true
 咱	tsoatq
 咱	dzaq		#兹沙切 中州音韻
 哎	Coarq
-嗨	ho,jq
-咍	ho,jq
+嗨	Ho,jq
+咍	Ho,jq
 喏	nJjaA		#𠰒
 呔	to,jq
 ###凵
@@ -833,6 +833,7 @@ use_preset_vocabulary: true
 ###桀
 ####
 ###木
+榀	phximA		#品
 ###東
 ###林
 ##
@@ -1082,10 +1083,10 @@ use_preset_vocabulary: true
 ###火
 烴	thjeCq		#CH hydroCajsbon
 烷	EVanq
-烯	hi;jq
+烯	Hi;jq
 炔	khyetq
 熵	sJiaCq
-焓	hgo,mq
+焓	Eo,mq
 㶲	JioCs
 ###炎
 ###囪
@@ -1121,10 +1122,10 @@ use_preset_vocabulary: true
 ###水
 氹	doaCA		#䑗?
 凼	doaCA
-溴	hiuvs
+溴	Hiuvs
 汞	kouCA
-汞	hgouCA
-澒	hgouCA		#汞
+汞	EouCA
+澒	EouCA		#汞
 ###沝
 ###瀕
 ###𡿨
@@ -1156,7 +1157,7 @@ use_preset_vocabulary: true
 ###𠃉乚
 ###不
 𱍚	piuq toajq
-𱍛	piuq hgo,p
+𱍛	piuq Eo,p
 𱍤	piuq dzJjeA
 𱏤	piuq kVaC
 𱰸	piuq Au;js
@@ -1173,12 +1174,12 @@ use_preset_vocabulary: true
 𫠻	piuq sjins
 𬦇	piuq tsoovA
 𪜄	piuq khoajA
-𧗩	piuq hgaaC
+𧗩	piuq EaaC
 𩖲	piuq piuC
 𤯚	piuq SaeC
 𣈇	piuq miaC
 𡍂	piuq dzVujs
-𠁞	piuq hgVujs
+𠁞	piuq EVujs
 𢆓	piuq breCq
 𣨀	piuq sjiA
 𡈯	piuq qwenq
@@ -1194,10 +1195,12 @@ use_preset_vocabulary: true
 ###鹽
 ###戶
 ###門
-閪	heejq
+闆	phaenA		#匹限切
+閪	Heejq
 ###耳
 ###𦣞
 ###手
+撳	khxims		#搇
 攆	nRxenA		#輦 碾
 摔	sSwitq
 𰔜	sSwiq		#摔
@@ -1326,8 +1329,8 @@ use_preset_vocabulary: true
 釓	koaq		#乚扎gadolinium
 鋱	tho;kq
 鏑	teekq
-鈥	hVaA
-錵	hfaq
+鈥	HVaA
+錵	Hfaq
 鉺	nJi;A
 銩	tiuvq		#tm 69thulium
 鐿	Ai;s
@@ -1367,9 +1370,9 @@ use_preset_vocabulary: true
 鑪	looq		#Ru 104 rutherfordium
 䤣	looq		#rutherfordium 金虍錿
 𨧀	dooA		#Db 105d dubnium
-𨭎	hi;A		#Sg 106 seaborgium
+𨭎	Hi;A		#Sg 106 seaborgium
 𨨏	pVaq		#Bh 107 bohrium
-𨭆	ho;kq		#Hs 108 hassium
+𨭆	Ho;kq		#Hs 108 hassium
 䥑	maekq		#Mt 109 meitnerium
 鐽	doatq		#Ds 110 darmstadtium
 錀	lyinq		#Rg 1101 roentgenium
@@ -1396,8 +1399,8 @@ use_preset_vocabulary: true
 錆	tsheeCq
 鉘	pu;tq
 # 錄	liokq
-𲇙	hiuvs
-⿰金臭	hiuvs
+𲇙	Hiuvs
+⿰金臭	Hiuvs
 錪	teenA
 𨫬	koanq
 ###幵
