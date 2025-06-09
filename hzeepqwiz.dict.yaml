@@ -6219,16 +6219,16 @@ import_tables:
 氣	khI;ts	9
 盵	khI;ts
 刏	gI;jq
-霼	hI;jA
-氣	hI;ts	9		#䊠餼
-愾	hI;ts
-餼	hI;ts
-鎎	hI;ts
-熂	hI;ts
-霼	hI;ts
-𧱲	hI;ts
-犔	hI;ts
-忥	hI;ts
+霼	HI;jA
+氣	HI;ts	9		#䊠餼
+愾	HI;ts
+餼	HI;ts
+鎎	HI;ts
+熂	HI;ts
+霼	HI;ts
+𧱲	HI;ts
+犔	HI;ts
+忥	HI;ts
 僾	AI;jA
 靉	AI;jA
 旡	kI;ts		#ts
@@ -6241,14 +6241,14 @@ import_tables:
 暨	kI;ts	1
 炁	khI;ts
 䀈	khI;ts
-黖	hI;ts
-𢪑	hI;ts
-墍	hI;ts
-塈	hI;ts	1
-䊠	hI;ts
-𢟪	hI;ts
-摡	hI;ts
-䀈	hI;ts
+黖	HI;ts
+𢪑	HI;ts
+墍	HI;ts
+塈	HI;ts	1
+䊠	HI;ts
+𢟪	HI;ts
+摡	HI;ts
+䀈	HI;ts
 ###Uəj
 𨾂	QU;js		#?獸
 ###Uər
@@ -11867,17 +11867,17 @@ import_tables:
 𧻱	gIuv_q
 捄	gIuv_q
 蓲	khIuv_q		#區?
-休	hIuv_q
-貅	hIuv_q
-㹯	hIuv_q
-鵂	hIuv_q
-𩢮	hIuv_q
-㾋	hIuv_q
-庥	hIuv_q
-髹	hIuv_q
-髤	hIuv_q		#髹
-䰍	hIuv_q		#髤
-咻	hIuv_q
+休	HIuv_q
+貅	HIuv_q
+㹯	HIuv_q
+鵂	HIuv_q
+𩢮	HIuv_q
+㾋	HIuv_q
+庥	HIuv_q
+髹	HIuv_q
+髤	HIuv_q		#髹
+䰍	HIuv_q		#髤
+咻	HIuv_q
 𢝊	AIuv_q	999
 憂	AIuv_q
 優	AIuv_q
@@ -11894,7 +11894,7 @@ import_tables:
 懮	AIuv_A
 ##
 咎	gIuv_A		#休
-𦜵	hIuv_q
+𦜵	HIuv_q
 綹	liuv_A		#咎k-R-u
 𦜵	gIuv_q
 𢛃	gIuv_q
@@ -12301,7 +12301,7 @@ import_tables:
 𧳜	tJiivA
 䯾	tJiivs
 椆	tJiivs
-嘼	hIivs
+嘼	HIivs
 獸	st-Jiivs		#狩守肘
 守	st-JiivA		#肘
 狩	st-Jiivs
@@ -17038,8 +17038,8 @@ import_tables:
 郇	hgfinq		#旬勻v-i-n
 ###Ian
 ##Iən a?ə?
-掀	hI,nq		#欣?
-䡣	hI,nq
+掀	HI,nq		#欣?
+䡣	HI,nq
 ##Ian
 𩷑	AIanA
 匽	AIanA
@@ -22030,15 +22030,15 @@ import_tables:
 懃	gI;nq
 懄	gI;nq
 鄞	CI;nq
-莔	hI;tq		#人名
+莔	HI;tq		#人名
 𤵀	CI;tq		#𤴸
 𧥷	kI;tq
 𠯏	kI;tq		#⿰口气
 㧉	kI;tq
 㐹	CI;tq
 𤴸	CI;tq
-忾	hI;tq
-汽	hI;tq
+忾	HI;tq
+汽	HI;tq
 訖	kI;tq
 吃	kI;tq
 扢	kI;tq
@@ -22055,14 +22055,14 @@ import_tables:
 疙	CI;tq
 屹	CI;tq
 阣	CI;tq
-迄	hI;tq
-仡	hI;tq
-汔	hI;tq
-釳	hI;tq
-忔	hI;tq
-䒗	hI;tq
-肸	hI;tq
-䏌	hI;tq
+迄	HI;tq
+仡	HI;tq
+汔	HI;tq
+釳	HI;tq
+忔	HI;tq
+䒗	HI;tq
+肸	HI;tq
+䏌	HI;tq
 契	khI;tq		#契?
 䴦	CI;nq
 狺	CI;nq
@@ -22090,9 +22090,9 @@ import_tables:
 隱	AI;ns
 㶏	AI;ns
 ##-R
-㾙	hI;ns		#希-R
-脪	hI;ns
-䛥	hI;tq
+㾙	HI;ns		#希-R
+脪	HI;ns
+䛥	HI;tq
 釿	kI;nq
 斤	kI;nq
 𪏴	kI;nA
@@ -22106,22 +22106,22 @@ import_tables:
 𪛊	CI;nq
 斦	CI;nq
 听	CI;nA
-忻	hI;nq
-昕	hI;nq
-訢	hI;nq
-炘	hI;nq
-邤	hI;nq
-炘	hI;ns
-𤴾	hI;ns		#㾙
+忻	HI;nq
+昕	HI;nq
+訢	HI;nq
+炘	HI;nq
+邤	HI;nq
+炘	HI;ns
+𤴾	HI;ns		#㾙
 菦	kI;nA
 近	gI;nA	2
 近	gI;ns
 𣥍	gI;ns	9
 蘄	gI;nq
 芹	gI;nq
-欣	hI;nq
-焮	hI;ns
-𦜓	hI;ns
+欣	HI;nq
+焮	HI;ns
+𦜓	HI;ns
 垽	CI;ns
 䓄	CI;nq
 㹜	CI;nq		#斦?
@@ -24011,14 +24011,14 @@ import_tables:
 相	siaCq
 想	siaCA
 相	siaCs
-皀	hIaCq	1		#香
-𪏽	hIaCs
-香	hIaCq
-萫	hIaCs
-𠅠	hIaCA
-亨	hIaCA
-亯	hIaCA
-𠅖	hIaCA
+皀	HIaCq	1		#香
+𪏽	HIaCs
+香	HIaCq
+萫	HIaCs
+𠅠	HIaCA
+亨	HIaCA
+亯	HIaCA
+𠅖	HIaCA
 滰	gIaCA
 誩	gIaCA
 鴦	AIaCq
@@ -31053,9 +31053,9 @@ import_tables:
 ##IaR a?ə?
 䘆	XI,RA		#憲
 ##-n
-㾙	hI;Rs		#希-R
-脪	hI;Rs
-䛥	hI;tq
+㾙	HI;Rs		#希-R
+脪	HI;Rs
+䛥	HI;tq
 釿	kI;Rq
 斤	kI;Rq
 𪏴	kI;RA
@@ -31069,22 +31069,22 @@ import_tables:
 𪛊	CI;Rq
 斦	CI;Rq
 听	CI;RA
-忻	hI;Rq
-昕	hI;Rq
-訢	hI;Rq
-炘	hI;Rq
-邤	hI;Rq
-炘	hI;Rs
-𤴾	hI;Rs
+忻	HI;Rq
+昕	HI;Rq
+訢	HI;Rq
+炘	HI;Rq
+邤	HI;Rq
+炘	HI;Rs
+𤴾	HI;Rs
 菦	kI;RA
 近	gI;RA	2
 近	gI;Rs
 𣥍	gI;Rs	9
 蘄	gI;Rq
 芹	gI;Rq
-欣	hI;Rq
-焮	hI;Rs
-𦜓	hI;Rs
+欣	HI;Rq
+焮	HI;Rs
+𦜓	HI;Rs
 垽	CI;Rs
 䓄	CI;Rq
 㹜	CI;Rq		#斦?
@@ -31119,7 +31119,7 @@ import_tables:
 玂	gI;Rq
 沂	CI;Rq
 ##a?ə?
-掀	hI,Rq		#欣?
+掀	HI,Rq		#欣?
 ##vIəR
 鐼	hmsU;Rs		#m
 餴	pF_U;Rq
