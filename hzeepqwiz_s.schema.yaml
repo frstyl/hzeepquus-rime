@@ -158,8 +158,8 @@ speller:
     #- derive/^(ph|p|b|m)v([Ijrxioa][aeiou;,])/$1$2/
     # - derive/(hms|ph|p|b|m)v[;,]/$1ea/    #特加
 
-    - derive/^(h[mnCLRqQ]s|hsq|ngs|[hX]s|X)/H/ #清
-    - xform/^h([oVeYafiujyxwrWvəʌ])/H$1/
+    - derive/^(h[mnCLRqQ]s|hsq|ngs|[hX]s|X)/H/ #曉
+    # - xform/^h([oVeYafiujyxwrWvəʌ])/H$1/
     #- xform/^h(?![gqszQ])/H/
     
     - derive/^([LR])(?![sz])/d/ #d[RJ]
@@ -255,7 +255,7 @@ speller:
     # - derive/(e)(a|e|i|u|;)/$1/ #e四等 
 
     - derive/(?<!^)[Ij]([aeiou;,])/$1/ #三 省#1.6 vio
-    - derive/([^RSh]|[^RS]h|^h)i([aeiou;,])/$1$2/ #i I j#未改
+    - derive/([^RShv]|[^RS]h|^h)i([aeiou;,])/$1$2/ #i I j#未改
 ##?
     - derive/(?<!^)[Ijrx](a|e|i|o|u|;|,)/i$1/ #i=jx
     - derive/(?<!^)[UyWw](a|e|i|o|u|;|,)/u$1/
