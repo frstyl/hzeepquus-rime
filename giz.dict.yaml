@@ -57,7 +57,6 @@ use_preset_vocabulary: true
 率	lyutq		#律
 # 暖	nVanA		#煗㬉
 # 煖	nVanA		#煗㬉
-闖	tshSiaCA		#撞
 #######轉註
 #######形聲
 ####意
@@ -1538,22 +1537,22 @@ use_preset_vocabulary: true
 𡺳	pxinq
 𬋝	pxinq
 ###弁㝸
-覍	bions
+覍	bxens
 # 㝸
-𠭛	bions
-𡭪	bions
-𢍍	bions
-𢍘	bions
-𢍙	bions
+𠭛	bxens
+𡭪	bxens
+𢍍	bxens
+𢍘	bxens
+𢍙	bxens
 㨧	boonA
 𥽒	pU;ns
-𢱰	bions
-# 𢶳	bions
+𢱰	bxens
+# 𢶳	bxens
 𢶳	pU;ns
 ##
-𢪴	bions
+𢪴	bxens
 ##卞
-抃	bions
+抃	bxens
 飰	bUans
 ###
 𢹔	pU;ns
@@ -5256,6 +5255,7 @@ use_preset_vocabulary: true
 虈	Hxevq
 𤣠	Hxevq
 ###翏
+𡠢	liukq
 膠	khaavq
 𨶪	keevA
 𪖷	leevA
@@ -7599,6 +7599,14 @@ use_preset_vocabulary: true
 𭕇	theemA
 舔	theemA
 掭	theems
+###𢆉𤇇𤇇
+苂	Jjimq
+㶣	Jjimq
+䒞	Jjimq
+𤇇	Jjimq
+𬉶	Jjimq
+𭴃	Jjimq
+𱪩	Jjimq
 ###冘 -m -v
 沉	dRximq
 𧖶	tho,mA
@@ -7973,6 +7981,7 @@ use_preset_vocabulary: true
 𣲎	AximA
 𩚜	AximA
 𨡳	AximA		#㱃
+𨡢	AximA
 鵪	Ao,mq		#䳺䨄
 飮	AximA
 ##侌
@@ -9229,15 +9238,8 @@ use_preset_vocabulary: true
 刋	khoanq		#1		#刊
 #
 𬼽	koanq
-##旱
-趕	koanA
-銲	Eoans
-##㶣
-𤇇	dRxemq
 ##
 𣵼	koans
-##旱
-桿	koanA
 ###厂
 丆	HoanA
 ###看
@@ -12911,7 +12913,7 @@ use_preset_vocabulary: true
 ###穴
 # 柼	tRaaCs
 ###興
-𦧅	Ao;Cq
+𦧅	Ao;Cs		#烏鄧切
 𠔻	tsJjeCs
 兴	Hi;Cq	0
 㒷	Hi;Cq

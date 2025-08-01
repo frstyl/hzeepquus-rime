@@ -4784,6 +4784,7 @@ import_tables:
 鏔	Ji;q		#?
 伱	ni;A		#乃里切 又集韻 乃倚切 伲 n-?#伱尒乃而n-eo 汝n-a
 伱	ni,jA		#n无ieoj
+聻	nRi;A		#乃里切 耳聲?
 𣍆	tshJi;q	0		#殸? #赤之切 譌誤
 𣍆	HeeCs		#正
 僿	sJi;ks		#塞 譌誤?
@@ -5107,7 +5108,6 @@ import_tables:
 茬	tsSi;q
 茬	dzSi;q
 恥	nshRi;A		#ns 耳
-聻	nRi;A
 莉	dRi;q		#姓也
 㕜	sSi;A	999
 𠉕	sSi;A	999
@@ -13190,7 +13190,7 @@ import_tables:
 𢨔	mF_uamA		#僉?刃也
 #
 氾	phF_uams		#𢎘?㔾p-a-m?
-䀀	phF_uams
+䀀	phF_uams		#盕
 𦨲	bF_uamq
 氾	bF_uamq
 笵	bF_uamA	999
@@ -14139,7 +14139,7 @@ import_tables:
 歃	sSxapq		#?臿
 喢	sSxapq
 㶣	LRxamq		#?kL-#烎 𢆉南
-𤇇	LRxamq
+𤇇	LRxamq		#烎
 𪏂	LRxamq
 #
 裛	Axapq
@@ -16955,7 +16955,7 @@ import_tables:
 丱	kQ_fons
 𢇅	kQ_fonq
 𢇇	kQ_fonq		#丱卵?#卵k-R-o-n
-關	kQ_fonq		#關聯
+關	kQ_fonq		#關聯 #卵䜌
 𨶚	kQ_fonq
 関	kQ_fonq
 潫	Afonq
@@ -23151,6 +23151,7 @@ import_tables:
 熇	Hoavkq
 嗃	Hoavkq
 濼	phoavkq
+㦡	loavkq		#集韻
 樂	loavkq		#ŋR?L#樂C-R-a-v-k
 轢	loavkq
 𧭥	loavkq
