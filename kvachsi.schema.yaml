@@ -76,18 +76,18 @@ speller:
 
 ##聲-介韻 -j -n
 
-    - fuzz/([UywWu])i([ndztRr])/$1u$2/ #yu yi
-    - fuzz/([UyWwu])i([qAs])/$1uj$2/ #e=ej i=ij
-    - fuzz/([UyWwu])e(?=[ndztRr])/$1o$2/
-    - fuzz/([UyWwu])e([qAs])/$1oj$2/ #e=ej i=ij
-
-    - derive/[Uyu]([uo][jlrndztR])/$1/  #iov uo 配合j省
+    - derive/([UywWu])i([ndztRr])/$1u$2/ #yu yi
+    - derive/([UyWwu])i([qAs])/$1uj$2/ #e=ej i=ij
+    - derive/([UyWwu])e(?=[ndztRr])/$1o$2/
+    - derive/([UyWwu])e([qAs])/$1oj$2/ #e=ej i=ij
 
 
     - derive/Va([jrn][qAs])/Vu$1/
     - derive/Ua(n[qAs])/uo$1/ #    元
     - fuzz/i(m[qAs])/;$1/ #    陰
     - fuzz/(kh||k|g|c|H|q)xi(m[qAs])/$1i;$2/ #    陰
+##介元
+    - derive/[VY]([uo][jlrndztR])/$1/  # 配合o省
 
 ##聲介
 #變
@@ -101,11 +101,11 @@ speller:
     - derive/^(tsh|ts|dz|s|zJ)i([aeiou;,])/$1j$2/
     - derive/^(tsh|ts|dz|s|zJ)u([aeiou;,])/$1y$2/
 #渻補
-    - derive/^([Jl])i([aeiou;,])/$1$2/ #章J- 介前  聲母省介  #, tR->tRi?
-    - derive/^([Jl])u([aeiou;,])/$1$2/
+    - derive/^([Jl])[ji]([aeiou;,])/$1$2/ #章J- 介前  聲母省介  #, tR->tRi?
+    - derive/^([Jl])[yu]([aeiou;,])/$1$2/
 
-    - derive/^(tsh|ts|dz|s|zJ)i([aeiou;,])/$1$2/
-    - derive/^(tsh|ts|dz|s|zJ)u([aeiou;,])/$1$2/
+    - derive/^((tsh|ts|dz|s|z|n)J)[ji]([aeiou;,])/$1$3/
+    - derive/^((tsh|ts|dz|s|z|n)J)[yu]([aeiou;,])/$1$3/
 #併聲母
     - derive/^(tsh|ts|dz|s|z)[SR][xi]([aeiou;,])/$1x$2/ #知莊R- 介前 #介省聲 #tx->tRi 
     - derive/^(tsh|ts|dz|s|z)[SR][wu]([aeiou;,])/$1w$2/
@@ -129,9 +129,6 @@ speller:
     # - derive/^sJi([aeiou;,])/Hj$1/
     # - derive/^zJi([aeiou;,])/qj$1/
 
-##介元 
-    - derive/V(u[jrn][qAs])/$1/
-    # - fuzz/[VY][o;,]([jrn][qAs])/o$1/
 ####介  主體
     - derive/V/v/
     - derive/Y/v/
@@ -158,25 +155,6 @@ speller:
 ##?
     - derive/(?<!^)[Ijrx](a|e|i|o|u|;|,)/i$1/ #i=jx  #保畱
     - derive/(?<!^)[UyWw](a|e|i|o|u|;|,)/u$1/
-
-
-##聲 合併
-
-    # - derive/^(t?s|d?z)S/$1/ #tsz sz
-    # - derive/^(tshS|tsSh)/tsh/
-    # - derive/^(hg|hz|E)/g/
-
-    # - derive/^(th|t|d|n)R/$1/ #
-
-    # - derive/^(tsJh|tshJ)/th/ #章組不獨立?sc--Ls zc--Lz--J
-    # - derive/^(tsJ)/t/
-    # - derive/^(dzJ)/d/
-    # - derive/^nJ/n/
-    # - derive/^(tshJ|tsJh)(?=[jy])/kh/
-    # - derive/^(tsJ)(?=[jy])/k/
-    # - derive/^(dzJ)(?=[jy])/g/
-
-    - derive/^(tsh?|dz|s|z)R/$1r/ #卷舌 t- ts- 
 
 ##聲母轉寫 主體
     - derive/^(q)/xj/  #不需要
@@ -241,6 +219,9 @@ speller:
     # - derive/Q/q/
     #- derive/^Z/zz/
     
+    - fuzz/^sJ(?=[jy])/x/ #書
+
+    - derive/^(hz|E)/g/
 
     - derive/^z/Z/ #衺
     - derive/^dz/z/
